@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="NPCRoot" >
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,1},{0,1},{0,446},{0,195}}" />
+    </Window>
+</GUILayout>

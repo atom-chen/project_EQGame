@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="lihechuangkou" >
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,137},{0,69},{0,477},{0,394}}" />
+        <Window Type="NewEQHomeLook/NewTabControl1" Name="lihe" >
+            <Property Name="TabHeight" Value="{0,21}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,28},{1,-10},{1,-10}}" />
+            <Window Type="DefaultWindow" Name="lihe/Tab 1" >
+                <Property Name="Text" Value="Global" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="lihe/Tab 1/mianfeilihe" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="lihe/Tab 1/mianfeilihe/anjian1" >
+                        <Property Name="Image" Value="set:Button5 image:NewImage141" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,18},{0,20},{0,30},{0,32}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="lihe/Tab 1/mianfeilihe/anjian2" >
+                        <Property Name="Image" Value="set:Button5 image:NewImage139" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,291},{0,20},{0,303},{0,32}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="lihe/Tab 1/mianfeilihe/icon1" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,38},{0,7},{0,78},{0,47}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="lihe/Tab 1/mianfeilihe/icon2" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,74},{0,7},{0.05,114},{0,47}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="lihe/Tab 1/mianfeilihe/icon3" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,109},{0,7},{0.1,149},{0,47}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="lihe/Tab 1/mianfeilihe/icon4" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.15,144},{0,7},{0.15,184},{0,47}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="lihe/Tab 1/mianfeilihe/icon5" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.2,179},{0,7},{0.2,219},{0,47}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="lihe/Tab 1/mianfeilihe/daicon" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,118},{0,76},{0,208},{0,166}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="lihe/Tab 1/mianfeilihe/liheming" >
+                        <Property Name="Text" Value="蓝色魅力" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,107},{0,50},{0,217},{0,75}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="lihe/Tab 1/mianfeilihe/lihefeiyong" >
+                        <Property Name="Text" Value="100EQ点" />
+                        <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,107},{0,168},{0,217},{0,193}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="lihe/Tab 1/mianfeilihe/lihefeiyong1" >
+                        <Property Name="Text" Value="这是一个充满蓝色魅力的盒子" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,26},{0,197},{0,299},{0,222}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="lihe/Tab 1/mianfeilihe/queding" >
+                        <Property Name="Text" Value="确定" />
+                        <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                        <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                        <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,139},{0,226},{0,184},{0,252}}" />
+                        <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                        <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="lihe/Tab 2" >
+                <Property Name="Text" Value="Team" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="lihe/Tab 3" >
+                <Property Name="Text" Value="Friends" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="lihe/Tab 4" >
+                <Property Name="Text" Value="Admin" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

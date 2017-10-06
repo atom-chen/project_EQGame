@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage1" Name="baifangtixing" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,175},{0,145},{0,425},{0,298}}" />
+        <Window Type="EQHomeLook/StaticText" Name="baifangtixing/txt1" >
+            <Property Name="Text" >你访问了好友家
+你获得了   点活力值</Property>
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,13},{0,20},{0,236},{0,85}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="baifangtixing/txt2" >
+            <Property Name="Text" Value="GG" />
+            <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,117},{0,52},{0,136},{0,71}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/Button" Name="baifangtixing/Btn_Confirm" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="确 定" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,102},{0,99},{0,147},{0,125}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+    </Window>
+</GUILayout>

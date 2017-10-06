@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Import xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<ID>1</ID>
+		<Name>穿透灯1</Name>
+		<Indoor>1</Indoor>
+		<Atten_Day>0 0 0.01 0</Atten_Day>
+		<Atten_Night>0 0 0.01 0</Atten_Night>
+		<Pos>0 50 100</Pos>
+	</Row>
+	<Row>
+		<ID>2</ID>
+		<Name>穿透灯2</Name>
+		<Indoor>0</Indoor>
+		<Atten_Day>0 0 0.01 0</Atten_Day>
+		<Atten_Night>0 0 0.01 0</Atten_Night>
+		<Pos>0 50 100</Pos>
+	</Row>
+	<Row>
+		<ID>3</ID>
+		<Name>窗户内光</Name>
+		<Indoor>1</Indoor>
+		<Atten_Day>2000 1 0 0</Atten_Day>
+		<Atten_Night>2000 1 0 0</Atten_Night>
+		<Pos>-100 50 100</Pos>
+	</Row>
+	<Row>
+		<ID>4</ID>
+		<Name>窗户外光</Name>
+		<Indoor>0</Indoor>
+		<Atten_Day>2000 1 0 0</Atten_Day>
+		<Atten_Night>2000 1 0 0</Atten_Night>
+		<Pos>-100 50 100</Pos>
+	</Row>
+	<Row>
+		<ID>5</ID>
+		<Name>双窗内光</Name>
+		<Indoor>1</Indoor>
+		<Atten_Day>0.0, 1.30, 0.0010 0.000007</Atten_Day>
+		<Atten_Night>0.0, 0.20, 0.0000, 0.000022</Atten_Night>
+		<Pos>130.0, 40.0, 0.0</Pos>
+	</Row>
+	<Row>
+		<ID>6</ID>
+		<Name>双窗外光</Name>
+		<Indoor>0</Indoor>
+		<Atten_Day>0.0, 1.00, 0.0002 0.000007</Atten_Day>
+		<Atten_Night>0.0, 0.20, 0.0000, 0.000022</Atten_Night>
+		<Pos>130.0, 40.0, 0.0</Pos>
+	</Row>
+	<Row>
+		<ID>7</ID>
+		<Name>单窗内光</Name>
+		<Indoor>1</Indoor>
+		<Atten_Day>0.0, 2.00, 0.0002 0.000015</Atten_Day>
+		<Atten_Night>0.0, 2.50, 0.0002 0.000030</Atten_Night>
+		<Pos>130.0, 40.0, 0.0</Pos>
+	</Row>
+	<Row>
+		<ID>8</ID>
+		<Name>单窗外光</Name>
+		<Indoor>0</Indoor>
+		<Atten_Day>0.0, 2.00, 0.0002 0.000015</Atten_Day>
+		<Atten_Night>0.0, 2.50, 0.0002 0.000030</Atten_Night>
+		<Pos>130.0, 40.0, 0.0</Pos>
+	</Row>
+	<Row>
+		<ID>9</ID>
+		<Name>门内光（4格）</Name>
+		<Indoor>1</Indoor>
+		<Atten_Day>0.0, 1.00, 0.0002 0.000007</Atten_Day>
+		<Atten_Night>0.0, 1.50, 0.0000 0.000012</Atten_Night>
+		<Pos>00.0, 160.0, -100.0</Pos>
+	</Row>
+	<Row>
+		<ID>10</ID>
+		<Name>门外光（4格）</Name>
+		<Indoor>0</Indoor>
+		<Atten_Day>0.0, 1.00, 0.0002 0.000007</Atten_Day>
+		<Atten_Night>0.0, 1.50, 0.0000 0.000012</Atten_Night>
+		<Pos>00.0, 160.0, -100.0</Pos>
+	</Row>
+	<Row>
+		<ID>11</ID>
+		<Name>门内光（2格）</Name>
+		<Indoor>1</Indoor>
+		<Atten_Day>0.0, 1.00, 0.0002 0.000007</Atten_Day>
+		<Atten_Night>0.0, 1.50, 0.0000 0.000012</Atten_Night>
+		<Pos>00.0, 160.0, 100.0</Pos>
+	</Row>
+	<Row>
+		<ID>12</ID>
+		<Name>门外光（2格）</Name>
+		<Indoor>0</Indoor>
+		<Atten_Day>0.0, 1.00, 0.0002 0.000007</Atten_Day>
+		<Atten_Night>0.0, 1.50, 0.0000 0.000012</Atten_Night>
+		<Pos>00.0, 160.0, 100.0</Pos>
+	</Row>
+	<Row>
+		<ID>13</ID>
+		<Name>别墅双窗内光</Name>
+		<Indoor>1</Indoor>
+		<Atten_Day>0.0, 1.00, 0.0002 0.000007</Atten_Day>
+		<Atten_Night>0.0, 1.50, 0.0000 0.000012</Atten_Night>
+		<Pos>130.0, 40.0, 0.0</Pos>
+	</Row>
+	<Row>
+		<ID>14</ID>
+		<Name>别墅双窗外光</Name>
+		<Indoor>0</Indoor>
+		<Atten_Day>0.0, 1.00, 0.0002 0.000007</Atten_Day>
+		<Atten_Night>0.0, 1.50, 0.0000 0.000012</Atten_Night>
+		<Pos>130.0, 40.0, 0.0</Pos>
+	</Row>
+	<Row>
+		<ID>15</ID>
+		<Name>别墅落地窗内光</Name>
+		<Indoor>1</Indoor>
+		<Atten_Day>0.0, 2.50, 0.0010 0.000015</Atten_Day>
+		<Atten_Night>0.0, 0.35, 0.0000 0.000007</Atten_Night>
+		<Pos>130.0, 120.0, 0.0</Pos>
+	</Row>
+	<Row>
+		<ID>16</ID>
+		<Name>别墅落地窗外光</Name>
+		<Indoor>0</Indoor>
+		<Atten_Day>0.0, 1.00, 0.0002 0.000007</Atten_Day>
+		<Atten_Night>0.0, 1.50, 0.0000 0.000012</Atten_Night>
+		<Pos>130.0, 120.0, 0.0</Pos>
+	</Row>
+	<Row>
+		<ID>17</ID>
+		<Name>门内光（3格）</Name>
+		<Indoor>1</Indoor>
+		<Atten_Day>0.0, 1.00, 0.0002 0.000007</Atten_Day>
+		<Atten_Night>0.0, 1.50, 0.0000 0.000012</Atten_Night>
+		<Pos>100.0, 160.0, 0.0</Pos>
+	</Row>
+	<Row>
+		<ID>18</ID>
+		<Name>门外光（3格）</Name>
+		<Indoor>0</Indoor>
+		<Atten_Day>0.0, 1.00, 0.0002 0.000007</Atten_Day>
+		<Atten_Night>0.0, 1.50, 0.0000 0.000012</Atten_Night>
+		<Pos>-100.0, 160.0, 0.0</Pos>
+	</Row>
+</Import>

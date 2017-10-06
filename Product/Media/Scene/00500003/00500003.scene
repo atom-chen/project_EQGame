@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EQScene name="00500003">
+    <Ambient ChangeTime="3000" DayAmbient="0.996078 0.937255 0.996078" DayDiffuse="1 1 1" DaySpecular="0 0 0" DayMainDir="-1 -1 -1" DayFogColor="0 0 0" DayFogParam="0 0 0 0" DaySkybox="" NightAmbient="0.27451 0.156863 0.392157" NightDiffuse="0 0 0" NightSpecular="0 0 0" NightMainDir="-1 -1 -1" NightFogColor="0 0 0" NightFogParam="0 0 0 0" NightSkybox="" Contrast="1.1" />
+    <House filename="00500003.house" />
+    <Terrain filename="00500003.Terrain" />
+    <Edge value="-2000.000000 -2000.000000 2000.000000 2000.000000" />
+    <Entity id="1002" pos="126.242 0 461.947" />
+    <Entity id="100562" pos="-79.7634 0 -325.848" rot="-0.702714 0 -0.711474 0" loop="100562" interact="1" />
+    <Entity id="100562" pos="-229.606 0 -326.606" rot="-0.716802 0 -0.697278 0" loop="100562" interact="2" />
+    <Entity id="100562" pos="-396.06 0 -320.303" rot="-0.702713 0 -0.711474 0" loop="100562" interact="3" />
+    <Entity id="100562" pos="150.071 0 57.6072" rot="-0.0192023 0 -0.999816 0" loop="100562" interact="4" />
+    <Entity id="100562" pos="-8.03641 0 -91.3251" rot="0.717911 0 -0.696135 0" loop="100562" interact="5" />
+    <Entity id="100562" pos="-0.419441 0 209.66" rot="0.724836 0 0.688921 0" loop="100562" interact="6" />
+    <Entity id="100562" pos="-147.418 0 55.0879" loop="100562" interact="7" />
+    <Entity id="100563" pos="-394.666 0 378.451" rot="0.000796439 0 -1 0" loop="100563" interact="8" />
+    <Entity id="100563" pos="-400.057 0 227.349" rot="-0.00920357 0 -0.999958 0" loop="100563" interact="9" />
+    <Entity id="100563" pos="-400.215 0 63.1662" rot="0.000796637 0 -1 0" loop="100563" interact="10" />
+    <Entity id="100563" pos="-399.389 0 -79.052" rot="-0.0092035 0 -0.999958 0" loop="100563" interact="11" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="387.85 270.299 396.517" scale="0.818579 0.818579 0.818579" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="379.878 269.274 -181.036" scale="0.80151 0.80151 0.80151" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="-453.825 270.018 461.063" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="-507.114 281.345 -361.816" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="-508.141 279.203 -157.598" />
+    <Entity mesh="outside/b60020223.mesh" pos="233.146 80.0399 -245.829" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020222.mesh" pos="393.439 126.812 -215.621" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020222.mesh" pos="-364.107 94.6412 459.722" rot="-1.62921e-007 0 1 0" />
+    <Entity mesh="outside/b60020222.mesh" pos="-352.102 84.0603 465.579" rot="-1.62921e-007 0 1 0" />
+    <Entity mesh="outside/b60020222.mesh" pos="-408.96 84.0412 465.868" rot="-1.62921e-007 0 1 0" />
+    <Entity mesh="outside/b60020222.mesh" pos="389.335 116.846 -212.448" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020222.mesh" pos="-377.086 83.9749 462.813" rot="-1.62921e-007 0 1 0" />
+    <Entity mesh="outside/b60020222.mesh" pos="388.694 116.406 -247.358" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020222.mesh" pos="385.555 126.648 -249.098" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020222.mesh" pos="-438.799 84.0444 464.344" rot="-1.62921e-007 0 1 0" />
+    <Entity mesh="outside/b60020221.mesh" pos="386.284 168.386 -275.502" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020221.mesh" pos="383.629 216.801 -304.903" rot="0.518759 0 0.854921 0" />
+    <Entity mesh="outside/b60020221.mesh" pos="383.301 216.472 -326.543" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020221.mesh" pos="382.48 167.379 -326.957" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020221.mesh" pos="383.965 216.08 -398.155" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020220.mesh" pos="-229.203 220.598 452.837" />
+    <Entity mesh="outside/b60020220.mesh" pos="380.936 216.385 -282.15" rot="0.792806 0 0.609475 0" />
+    <Entity mesh="outside/b60020220.mesh" pos="382.114 217.874 -373.961" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020220.mesh" pos="-196.857 166.469 467.051" rot="0.975898 0 0.21823 0" />
+    <Entity mesh="outside/b60020220.mesh" pos="-296.877 166.124 463.21" rot="0.988771 0 -0.149438 0" />
+    <Entity mesh="outside/b60020220.mesh" pos="385.757 167.607 -213.306" rot="0.940941 0 0.338571 0" />
+    <Entity mesh="outside/b60020220.mesh" pos="385.433 167.49 -254.146" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020220.mesh" pos="-272.984 166.512 462.373" />
+    <Entity mesh="outside/b60020220.mesh" pos="385.72 166.765 -306.168" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020219.mesh" pos="387.291 117.174 -152.035" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020219.mesh" pos="386.968 116.917 -187.154" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020219.mesh" pos="-245.616 217.587 457.154" />
+    <Entity mesh="outside/b60020219.mesh" pos="-277.685 217.865 458.428" />
+    <Entity mesh="outside/b60020219.mesh" pos="-207.27 218.365 456.275" />
+    <Entity mesh="outside/b60020219.mesh" pos="-175.184 218.543 457.506" />
+    <Entity mesh="outside/b60020219.mesh" pos="-156.748 218.383 456.275" rot="0.996802 0 -0.0799147 0" />
+    <Entity mesh="outside/b60020219.mesh" pos="384.107 117.905 -141.034" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020219.mesh" pos="386.529 116.805 -172.564" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020204.mesh" pos="386.774 17.7059 -271.698" rot="-1.62921e-007 -0 -1 -0" />
+    <Entity mesh="outside/b60020204.mesh" pos="386.936 -32.7686 -192.545" rot="-1.62921e-007 0 1 0" />
+    <Entity mesh="outside/b60020204.mesh" pos="-215.34 68.494 458.619" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020204.mesh" pos="-243.025 16.6621 464.353" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020204.mesh" pos="-390.757 -65.5305 463.094" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020204.mesh" pos="383.996 66.9525 -337.809" rot="-1.62921e-007 -0 -1 -0" />
+    <Entity mesh="outside/b60020203.mesh" pos="390.341 0 348.54" />
+    <Entity mesh="outside/b60020202.mesh" pos="-50.5754 0 54.1946" />
+    <Entity mesh="outside/b60020202.mesh" pos="-0.547937 0 109.148" />
+    <Entity mesh="outside/b60020202.mesh" pos="50.5724 0 54.0183" />
+    <Entity mesh="outside/b60020202.mesh" pos="0 0 0" />
+    <Entity mesh="outside/b60020169.mesh" pos="280 -0.00012207 -240" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020168.mesh" pos="-66.5223 -0.00012207 -149.784" rot="0.999894 0 -0.0146013 0" />
+    <Entity mesh="outside/b60020168.mesh" pos="20.15 0.00012207 -434.428" rot="0.329145 0 -0.94428 0" />
+    <Entity mesh="outside/b60020165.mesh" pos="-240 0 -440" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020165.mesh" pos="-400 -6.10352e-005 -440" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020165.mesh" pos="-80 0 -440" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="lamp/10290008.mesh" light="49" pos="-80 275.781 80" />
+    <Entity mesh="furni/10150008.mesh" material="10150008_00" pos="51.1955 89.0539 50.9884" />
+    <Entity mesh="furni/10150008.mesh" material="10150008_00" pos="-50.4131 88.669 54.5134" rot="-1.62921e-007 -0 -1 -0" />
+    <Entity mesh="furni/10150008.mesh" pos="0.275517 89.7534 113.067" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="furni/10150008.mesh" pos="-0.454132 89.7166 -3.59163" rot="0.707107 0 0.707107 0" />
+</EQScene>

@@ -1,0 +1,31 @@
+1. 相关文件test_friend1.erl test_friend2.erl 对应玩家friend1, friend2
+
+2. 首先开启run.bat
+
+3. 开启test_friend1.bat, 启动玩家friend1, 
+
+4. 开启test_friend2.bat, 启动玩家friend2,
+
+5. friend2请求好友列表
+
+5. 如果friend2存在好友friend1, 则删除之
+
+6. 如果friend2不存在好友friend1, 则加为好友
+
+7. friend1 下线, friend2收到好友下线通知
+
+7. friend2 收到好友下线通知后对friend1说: 你下线了, 这里应该要发送失败
+
+8. friend1 上线, friend2收到好友上线通知
+
+9. friend2 收到好友上线通知后对friend1说: 你上线了
+
+10. friend1 听到 friend2说话后，回家，同时邀请对方进入自已的房间
+
+11. friend1 看到friend2 进入自已家后，直接将其踢回家
+
+
+
+
+
+

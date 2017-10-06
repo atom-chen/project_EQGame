@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="dog_food_remain" >
+        <Property Name="Text" Value="狗狗粮食" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,20},{0,20},{0,300},{0,200}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="dog_food_remain/background" >
+            <Property Name="Image" Value="set:common1 image:Window5_Mid" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,25},{1,-5},{1,-5}}" />
+            <Window Type="EQHomeLook/StaticImage6" Name="dog_food_remain/background/icon" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,25},{0,25},{0,91},{0,91}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="dog_food_remain/background/text" >
+                <Property Name="Text" Value="剩余狗粮还可以给狗狗吃" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,101},{0,25},{0,250},{0,40}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="dog_food_remain/background/remain_time" >
+                <Property Name="TextColours" Value="tl:FFDE7000 tr:FFDE7000 bl:FFDE7000 br:FFDE7000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,101},{0,45},{0,250},{0,60}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="dog_food_remain/background/message" >
+                <Property Name="Text" >你的狗粮不足，赶快去商
+店购买或者去仓库看看吧！</Property>
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,101},{0,65},{0,250},{0,100}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="dog_food_remain/background/to_storage" >
+                <Property Name="Text" Value="去仓库使用" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,120},{0,90},{0,138}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="dog_food_remain/background/to_shop" >
+                <Property Name="Text" Value="去商店购买" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,110},{0,120},{0,185},{0,138}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="dog_food_remain/background/cancel" >
+                <Property Name="Text" Value="取消" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,205},{0,120},{0,245},{0,138}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

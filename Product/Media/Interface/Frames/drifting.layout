@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage" Name="StaticImage" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-150},{0.5,-100},{0.5,150},{0.5,100}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="StaticImage/" >
+            <Property Name="NormalImage" Value="set:drifting image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3,-52},{0.3,18},{0.55,-52},{0.55,18}}" />
+        </Window>
+    </Window>
+</GUILayout>

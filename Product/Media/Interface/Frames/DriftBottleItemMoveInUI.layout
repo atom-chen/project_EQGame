@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage" Name="DriftBottleItemMoveInUI" >
+        <Property Name="Image" Value="set:window2 image:farm_freindlist2" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.120833,0}}" />
+    </Window>
+</GUILayout>

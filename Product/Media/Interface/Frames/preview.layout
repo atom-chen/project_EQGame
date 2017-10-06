@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage14" Name="Root/RTT" >
+        <Property Name="Image" Value="set:Button5 image:NewImage363" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{1,-173},{0,1},{1,0},{0,328}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="Root/RTT/Btn_left" >
+            <Property Name="Tooltip" Value="向右转" />
+            <Property Name="HoverImage" Value="set:chuangjian image:NewImage29" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:chuangjian image:NewImage28" />
+            <Property Name="PushedImage" Value="set:chuangjian image:NewImage32" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,12},{0,291},{0,29},{0,313}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/RTT/Btn_right" >
+            <Property Name="Tooltip" Value="向左转" />
+            <Property Name="HoverImage" Value="set:chuangjian image:NewImage31" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:chuangjian image:NewImage30" />
+            <Property Name="PushedImage" Value="set:chuangjian image:NewImage33" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,143},{0,291},{0,160},{0,313}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/RTT/Btn_close" >
+            <Property Name="Tooltip" Value="关闭" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage365" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage364" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage366" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,142},{0,9},{0,160},{0,27}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/RTT/Btn_zoomin" >
+            <Property Name="Tooltip" Value="放大" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage8" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage7" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage9" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,12},{0,7},{0,36},{0,26}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/RTT/Btn_zoomout" >
+            <Property Name="Tooltip" Value="缩小" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage11" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage10" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage12" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,12},{0,26},{0,36},{0,45}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/RTT/Btn_reset" >
+            <Property Name="Text" Value="重置" />
+            <Property Name="Tooltip" Value="重置为初始状态" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage279" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage278" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage280" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,38},{0,293},{0,85},{0,313}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/RTT/Btn_payfor" >
+            <Property Name="Text" Value="购买" />
+            <Property Name="Tooltip" Value="支付购买" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage279" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage278" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage280" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,88},{0,293},{0,135},{0,313}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+    </Window>
+</GUILayout>

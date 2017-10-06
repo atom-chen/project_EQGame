@@ -1,0 +1,294 @@
+%%% @author hongjx <hongjx@35info.cn>
+%%% @copyright (C) 2011, hongjx
+%%% @doc
+%%%   宝箱系统(玩家逻辑)
+%%% @end
+%%% Created : 29 Mar 2011 by hongjx <hongjx@35info.cn>
+
+-module(player_magic_box).
+
+
+-export([handle_cast/2, start/1]).
+
+-export([pick_magic_box/3, get_max_box_per_day/1, 
+	 get_player_magic_box_info/1]).
+-export([get_today_generate/2, set_today_generate/3]).
+
+
+-include("packet_def.hrl").
+-include("sys_msg.hrl").
+-include("tplt_def.hrl").
+-include("common_def.hrl").
+-include("enum_def.hrl").
+
+-record(player_magic_box, {account, 
+			   date = {0, 0, 0},      % 日期     
+			   pick_box_count = 0,    % 当天拾取宝箱个数
+			   generate_box_count = 0 % 当天生成宝箱个数
+			  }).
+
+
+start(Account) ->
+    [
+     router:make_event_source(?msg_notify_server_empty_box_positions, Account, {self(), ?MODULE}),
+     router:make_event_source(?msg_req_pick_magic_box, Account, {self(), ?MODULE})
+    ].
+
+
+%%%===================================================================
+%%% api
+%%%===================================================================
+
+pick_magic_box(BoxID, PlayerData) ->
+    PlayerPos = player_data:get_pos(PlayerData),
+    pick_magic_box(BoxID, PlayerPos, PlayerData). 
+pick_magic_box(0, _PlayerPos, PlayerData) ->
+    erlang:error(pick_uninstanced_magic_box),
+    PlayerData;    
+pick_magic_box(BoxID, PlayerPos, PlayerData) when is_integer(BoxID) ->  
+    case pre_pick_magic_box(BoxID, PlayerPos, PlayerData) of
+	{ok, HouseLevel} ->
+	    do_pick_magic_box(HouseLevel, PlayerData);	    
+	{false, Error} ->
+	    Account = player_data:get_account(PlayerData),
+	    sys_msg:send(Account, Error),	    
+	    PlayerData
+    end.
+ 
+%%%===================================================================
+%%% 处理handle_cast
+%%%===================================================================
+%% 客户端返回空位置列表
+handle_cast({_Msg, #notify_server_empty_box_positions{pos_list=PosList}}, 
+	    State) ->
+    SceneName = player_data:get_scene_name(State),
+    router:cast(SceneName, fetch_empty_box_positions, PosList),
+    {noreply, State};
+
+%% 请求拾取宝箱
+handle_cast({_Msg, #req_pick_magic_box{box_id=BoxID}}, 
+	    State) ->
+    NewState = pick_magic_box(BoxID, State),
+    {noreply, NewState}.
+
+
+%%%===================================================================
+%%% 内部函数
+%%%===================================================================
+
+%% 距离是否合适
+distance_allow_pick(#point{x=X1, y=Y1, z=Z1}, #point{x=X2, y=Y2, z=Z2}) ->
+    X = X1 - X2,
+    Y = Y1 - Y2,
+    Z = Z1 - Z2,
+    
+    Distance2 = X * X + Y * Y + Z * Z,
+    MaxDis = common_def:get_val(pick_magic_box_distance),
+    (Distance2 =< (MaxDis * MaxDis)).
+
+
+
+
+%% 根据玩家等级 算 拾取次数上限
+get_max_pick_times(PlayerLevel) when is_integer(PlayerLevel) ->
+    #player_level_magic_box_tplt{reward_times=MaxPickTimes} 
+	= tplt:get_data2(player_level_magic_box_tplt, PlayerLevel),
+    MaxPickTimes.
+
+%% 根据玩家等级 算 能产生多少个宝箱(每天)
+get_max_box_per_day(PlayerLevel) when is_integer(PlayerLevel) ->
+    #player_level_magic_box_tplt{max_box_per_day=MaxBox} 
+	= tplt:get_data2(player_level_magic_box_tplt, PlayerLevel),
+    MaxBox.
+
+%% 计算收获
+calc_gain(HouseLevel, TodayPick, PlayerData) ->
+    PlayerLevel = player_level:get_level(PlayerData),
+    PickLimit = get_max_pick_times(PlayerLevel),
+    %% 判断拾取上限, 超过了就给基础奖励
+    case TodayPick >= PickLimit of
+	true ->
+	    ItemID = 0,
+	    {ItemID, common_def:get_val(magic_box_base_award)};
+	_ ->
+	    calc_magic_box_gain(HouseLevel)
+    end.
+
+%% 根据房屋等级算出宝箱的金钱物品
+calc_magic_box_gain(HouseLevel) ->
+    %% 根据房屋等级算出宝箱的金钱物品
+    #house_magic_box_tplt{box_ids=BoxIDs, box_rates=BoxRates} 
+	= tplt:get_data2(house_magic_box_tplt, HouseLevel),
+    
+    %% 按机率选一个
+    BoxID = util:rate_select_one(BoxRates, BoxIDs),
+    case BoxID > 0 of
+	true ->
+	    #magic_box_tplt{money_range={MinMoney, MaxMoney}, 
+			    item_ids=ItemIDs, 
+			    item_rates=ItemRates} 
+		= tplt:get_data2(magic_box_tplt, BoxID),
+	    
+	    %% 按机率选一个
+	    GainItemID = util:rate_select_one(ItemRates, ItemIDs),
+	    
+	    GainMoney = rand:uniform(MinMoney, MaxMoney),
+	    {GainItemID, GainMoney};
+	 _ -> 
+	    {0, 0}
+    end.
+	    
+%% 取今天的拾取数
+get_today_pick(Today, 
+	       #player_magic_box{date=Date, pick_box_count=PickCount}) ->    
+    case Date =:= Today of
+	true -> PickCount;
+	_ -> 0
+    end.
+
+%% 设置今天的拾取数
+set_today_pick(Today, PickCount, 
+	       #player_magic_box{account=Account, date=Date} = MagicBoxInfo) ->
+    %% 如果日期不一样就重置
+    case Date =:= Today of
+	true -> 
+	    MagicBoxInfo#player_magic_box{pick_box_count=PickCount};
+	_ -> 
+	    #player_magic_box{account=Account, date=Today, pick_box_count=PickCount}
+    end.
+
+
+%% 设置今天产生的宝箱数
+set_today_generate(Today, GenCount, 
+		   #player_magic_box{account=Account, date=Date} = MagicBoxInfo) ->
+    %% 如果日期不一样就重置
+    case Date =:= Today of
+	true -> 
+	    MagicBoxInfo#player_magic_box{generate_box_count=GenCount};
+	_ -> 
+	    #player_magic_box{account=Account, date=Today, generate_box_count=GenCount}
+    end.
+
+
+%% 取今天的产生的宝箱数
+get_today_generate(Today, 
+	       #player_magic_box{date=Date, generate_box_count=PickCount}) ->    
+    case Date =:= Today of
+	true -> PickCount;
+	_ -> 0
+    end.
+
+
+
+%% 判断可否拾取，并做一些操作
+pre_pick_magic_box(BoxID, PlayerPos, PlayerData) ->
+    SceneName = player_data:get_scene_name(PlayerData),
+    
+    case router:send(SceneName, get_magic_box_pos, BoxID) of
+	{false, Err} -> %% 有可能宝箱不存在
+	    {false, Err};
+	BoxPos ->	    
+	    %% 判断距离
+	    case distance_allow_pick(PlayerPos, BoxPos) of
+		false ->
+		    {false, ?err_distance_pick_magic_box};
+		_ ->
+		    %% 取宝箱
+		    Account = player_data:get_account(PlayerData),
+		    case router:send(SceneName, fetch_magic_box, {Account, BoxID}) of
+			{false, Err} -> %% 有可能宝箱不存在, 也可能不是好友
+			    {false, Err};
+			HouseLevel ->
+			    {ok, HouseLevel}
+		    end
+	    end
+    end.
+
+do_pick_magic_box(HouseLevel, PlayerData) ->
+    Account = player_data:get_account(PlayerData),
+    {Today, _Time} = datetime:local_time(),
+    
+    MagicBoxInfo = get_player_magic_box_info(Account),
+
+    TodayPick = get_today_pick(Today, MagicBoxInfo),
+    
+    {ItemID, GainMoney} = calc_gain(HouseLevel, TodayPick, PlayerData),
+    %% 次数记录
+    NewMagicBoxInfo = set_today_pick(Today, TodayPick + 1, MagicBoxInfo),
+    set_player_magic_box_info(NewMagicBoxInfo),
+
+
+    Bag = player_data:get_pack(?pt_bag, PlayerData),
+    ItemCount = 1,
+    NewBag =
+	case ItemID > 0 of
+	    true ->
+		%% 判断背包是否有空位
+		case pack:add_item(ItemID, ItemCount, Bag) of
+		    full ->
+			sys_msg:send(Account, ?err_bag_full_can_not_pick),
+			Bag;
+		    NBag -> 
+			%% 获得物品提示
+			sys_msg:send(Account, ?msg_get_item, [item:get_item_name(ItemID), ItemCount]),
+			%% 通知背包更新    
+			pack:send_package(Account, ?pt_bag, NBag),
+			NBag
+		end;
+	    _ ->
+		Bag					    
+	end,
+    
+    NNPlayerData = player_data:set_pack(?pt_bag, NewBag, PlayerData),
+    
+    Coin = player_data:get_coin(PlayerData),
+    NewCoin = 
+	case GainMoney > 0 of
+	    true ->
+		%% 计算新money
+		NCoin = player_coin:add_coin2(?GAMECOIN, GainMoney, 
+				      Coin),
+		%% 判断钱是否满
+		case Coin =:= NCoin of
+		    true ->  
+			sys_msg:send(Account, ?err_money_full_can_not_pick);
+		    _ ->
+			%% 通知更新金钱
+			player_coin:send_coin(NCoin)
+		end,	
+
+		NCoin;
+	    _ ->
+		Coin
+	end,
+	    
+    NNNPlayerData = player_data:set_coin(NewCoin, NNPlayerData),
+    
+    
+    %% 数据库操作
+    db_common:change([{write, [NewMagicBoxInfo, NewCoin, NewBag]}]),
+
+    %% 物品金钱记录
+    ItemInfo = {ItemID, ItemCount, 0},
+    MoneyInfo = item_money_log:get_money_info(?GAMECOIN, GainMoney),
+    item_money_log:log(Account, pick_magic_box, ItemInfo, MoneyInfo),
+
+    %% 通知客户端
+    net_helper:send2client(Account, 
+			   #notify_pick_magic_box_gain{item_id=ItemID, money=GainMoney}),
+
+    NNNPlayerData.
+
+
+
+get_player_magic_box_info(Account) when is_atom(Account) ->
+    case db_common:select_one(player_magic_box, Account) of
+	#player_magic_box{}=MagicBoxInfo ->
+	    MagicBoxInfo;
+	_ ->
+	    #player_magic_box{account=Account}
+    end.
+
+
+set_player_magic_box_info(NewMagicBoxInfo) ->
+    db_common:write(NewMagicBoxInfo).

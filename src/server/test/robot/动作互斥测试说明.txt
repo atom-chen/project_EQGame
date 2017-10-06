@@ -1,0 +1,24 @@
+1. 相关文件test_mutex_action1.erl test_mutex_action2.erl 
+对应玩家master, guest
+
+2. 首先开启run.bat
+
+3. 开启test_mutex_action1.bat, 启动玩家mutex1, 进入公共场景
+
+4. mutex1行走中又开始行走
+
+5. 开启test_mutex_action2.bat, 启动玩家mutex2, 进入公共场景
+
+6. mutex1看到mutex2 邀请对方交易， mutex2同意了
+
+7. mutex1交易中又邀请mutex2, 结果报错
+
+8. mutex1停止交易
+
+9. mutex1回家
+
+10. mutex2看到对方回家后，邀请对方交易
+
+11. mutex1开始编辑房屋, 结果中止被邀状态
+
+

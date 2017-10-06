@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage1" Name="zxliuyan" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-150},{0.5,-150},{0.5,150},{0.5,29}}" />
+        <Window Type="NewEQHomeLook/NewMultiLineEditbox" Name="zxliuyan/text" >
+            <Property Name="Text" >一起加入eq乐园吧
+</Property>
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,30},{0,43},{1,-30},{1,-43}}" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewStaticText" Name="zxliuyan/wenzi" >
+            <Property Name="Text" Value="对你的照片说点什么吧" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,30},{0,14},{1,-30},{0,41}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="zxliuyan/done" >
+            <Property Name="Text" Value="确定" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{1,-40},{0,110},{1,-10}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="zxliuyan/cancel" >
+            <Property Name="Text" Value="取消" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-110},{1,-40},{1,-50},{1,-10}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+            <Property Name="PushedTextColour" Value="FF00FFFC" />
+        </Window>
+    </Window>
+</GUILayout>

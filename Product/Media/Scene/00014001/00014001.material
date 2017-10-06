@@ -1,0 +1,619 @@
+import * from "commTemplate.material"
+
+
+material material_walledge_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> cement.dds
+}
+
+
+
+material 00014001_tcx_202_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00400007.dds
+}
+
+
+
+material 00014001_floor_101_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300068.dds
+}
+
+
+
+material 00014001_roof_100_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00000011.dds
+}
+
+
+
+material 00014001_floor_102_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300068.dds
+}
+
+
+
+material 00014001_outwall_201_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_outwall_100_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_roof_100_03 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_roof_200_03.dds
+}
+
+
+
+material 00014001_outwall_201_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_floor_201_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300049.dds
+}
+
+
+
+material 00014001_floor_203_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300058.dds
+}
+
+
+
+material 00014001_innerwall_102_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100061.dds
+}
+
+
+
+material 00014001_floor_100_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300074.dds
+}
+
+
+
+material 00014001_floor_100_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300069.dds
+}
+
+
+
+material 00014001_floor_100_08 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300075.dds
+}
+
+
+
+material 00014001_innerwall_201_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> b60020134_00.dds
+}
+
+
+
+material 00014001_innerwall_201_01-00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00200007.dds
+}
+
+
+
+material Standard_21 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_100_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_100_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_100_03 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_100_04 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_100_05 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_100_06 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_100_07 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_200_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_200_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_200_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_200_04 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_200_03 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_200_05 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_200_06 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_200_07 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_100_05 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_100_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_100_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_100_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_100_03 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_100_04 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_100_06 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_tcx_100_07 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_200_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_200_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_200_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_200_03 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_200_04 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_200_05 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_outwall_200_07 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_roof_200_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00000012.dds
+}
+
+
+
+material 00014001_floor_202_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_diban_01.dds
+}
+
+
+
+material 00014001_outwall_101_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_outwall_101_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_outwall_101_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_innerwall_101_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_outwall_101_03 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_outwall_101_04 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_outwall_101_05 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_tcx_101_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00400007.dds
+}
+
+
+
+material 00014001_outwall_102_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100061.dds
+}
+
+
+
+material 00014001_outwall_102_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100061.dds
+}
+
+
+
+material 00014001_outwall_102_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100061.dds
+}
+
+
+
+material 00014001_innerwall_201_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_tcx_201_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00400007.dds
+}
+
+
+
+material 00014001_innerwall_202_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100054.dds
+}
+
+
+
+material 00014001_outwall_202_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100054.dds
+}
+
+
+
+material 00014001_outwall_202_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100054.dds
+}
+
+
+
+material 00014001_outwall_202_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100054.dds
+}
+
+
+
+material 00014001_outwall_203_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100053.dds
+}
+
+
+
+material 00014001_outwall_203_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100053.dds
+}
+
+
+
+material 00014001_outwall_203_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100053.dds
+}
+
+
+
+material 00014001_outwall_203_03 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100053.dds
+}
+
+
+
+material 00014001_innerwall_203_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100053.dds
+}
+
+
+
+material 00014001_tcx_203_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00400007.dds
+}
+
+
+
+material 00014001_tcx_102_00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100061.dds
+}
+
+
+
+material 00014001_roof_200_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_roof_200_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100046.dds
+}
+
+
+
+material 00014001_roof_200_04 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100053.dds
+}
+
+
+
+material 00014001_roof_200_05 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00100054.dds
+}
+
+
+
+material 00014001_roof_200_03 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_roof_200_03.dds
+}
+
+
+
+material 00014001_roof_100_01 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00000012.dds
+}
+
+
+
+material 00014001_roof_100_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_waiqiang.dds
+}
+
+
+
+material 00014001_floor_100_02 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300072.dds
+}
+
+
+
+material 00014001_floor_100_04 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300071.dds
+}
+
+
+
+material 00014001_floor_100_05 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00014001_floor_100_04.dds
+}
+
+
+
+material 00014001_floor_100_06 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300070.dds
+}
+
+
+
+material 00014001_floor_100_07 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00300073.dds
+}
+
+
+
+material 00014001_roof_200_06 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00250014_00.dds
+}
+
+
+
+material 00014001_roof_200_06-00 : Tplt/NormalMap
+{
+ set_texture_alias <baseTex> 00200005.dds
+}
+
+
+

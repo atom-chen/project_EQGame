@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="NPCDialog" >
+        <Property Name="Font" Value="simhei-10" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,149},{0,150},{0,480},{0,337}}" />
+        <Window Type="EQHomeLook/StaticText" Name="NPCDialog/Txt" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{0,330},{0,70}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="NPCDialog/btn0" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,75},{0,330},{0,90}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="NPCDialog/btn2" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,115},{0,330},{0,130}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="NPCDialog/btn1" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,95},{0,330},{0,110}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="NPCDialog/btn3" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,135},{0,330},{0,150}}" />
+        </Window>
+    </Window>
+</GUILayout>

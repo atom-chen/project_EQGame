@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="beanty_parts_list" >
+        <Property Name="Text" Value="预览" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,25},{0,20},{0,326},{0,255}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Window Type="EQHomeLook/StaticImage" Name="beanty_parts_list/backgroundimg" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,24},{1,-5},{0.937585,0}}" />
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="beanty_parts_list/backgroundimg/part1" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,12},{0,12},{0,76},{0,76}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="beanty_parts_list/backgroundimg/part2" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,80},{0,12},{0,144},{0,76}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="beanty_parts_list/backgroundimg/part3" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,148},{0,12},{0,212},{0,76}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="beanty_parts_list/backgroundimg/part4" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,216},{0,12},{0,280},{0,76}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="beanty_parts_list/backgroundimg/part5" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,12},{0,80},{0,76},{0,144}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="beanty_parts_list/backgroundimg/part6" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,80},{0,80},{0,144},{0,144}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="beanty_parts_list/backgroundimg/part7" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,148},{0,80},{0,212},{0,144}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="beanty_parts_list/backgroundimg/part8" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,216},{0,80},{0,280},{0,144}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="beanty_parts_list/backgroundimg/pageup" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage315" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage315" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,111},{0,152},{0,123},{0,164}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="beanty_parts_list/backgroundimg/pagedown" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage314" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage314" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,171},{0,152},{0,183},{0,164}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="beanty_parts_list/backgroundimg/pageuptext" >
+                <Property Name="Text" Value="00/00" />
+                <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,1},{0,148},{0,45},{0,166}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="beanty_parts_list/backgroundimg/xian1" >
+                <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,12},{0,156},{0,112},{0,159}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="beanty_parts_list/backgroundimg/xian2" >
+                <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-110},{0,156},{1,-12},{0,159}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="beanty_parts_list/backgroundimg/queding" >
+                <Property Name="Text" Value="确 定" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,83},{0,168},{0,129},{0,194}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="beanty_parts_list/backgroundimg/quxiao" >
+                <Property Name="Text" Value="取 消" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage338" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage336" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage340" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,150},{0,168},{0,196},{0,194}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

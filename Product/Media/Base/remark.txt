@@ -1,0 +1,1 @@
+showTarget.mesh scbArrowEx.mesh 是同一个模型, 都是箭头

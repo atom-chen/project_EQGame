@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="loading02" Imagefile="LoadingIcon\loading02.dds" >
+    <Image Name="loading01" XPos="2" YPos="2" Width="640" Height="480" />
+    <Image Name="loading02" XPos="4" YPos="491" Width="640" Height="480" />
+</Imageset>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow(WithGrayBg)" Name="turn_soil_attain" >
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,191},{0,89},{0,486},{0,334}}" />
+        <Window Type="EQHomeLook/StaticText" Name="turn_soil_attain/msg" >
+            <Property Name="Text" Value="恭喜您，翻地时获得神秘种子！" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,25},{1,-15},{0,60}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="turn_soil_attain/iconbackground" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,80},{0,65},{0,200},{0,149}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="turn_soil_attain/iconbackground/icon1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,30},{0,0},{0,94},{0,64}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="turn_soil_attain/iconbackgroundcount1" >
+                <Property Name="TextColours" Value="tl:FF339933 tr:FF339933 bl:FF339933 br:FF339933" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,66},{1,0},{0,82}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="turn_soil_attain/line" >
+            <Property Name="Text" Value="………………………………………………………" />
+            <Property Name="TextColours" Value="tl:FF37C5F9 tr:FF37C5F9 bl:FF37C5F9 br:FF37C5F9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,150},{1,-15},{0,165}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="turn_soil_attain/tips" >
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,166},{1,-15},{0,215}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="turn_soil_attain/button" >
+            <Property Name="Text" Value="确定" />
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton6_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton6_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton6_Pushed" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,100},{0,220},{0,180},{0,238}}" />
+        </Window>
+    </Window>
+</GUILayout>

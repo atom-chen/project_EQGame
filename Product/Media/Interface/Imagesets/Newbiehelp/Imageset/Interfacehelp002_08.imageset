@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="Interfacehelp002_08" Imagefile="Newbiehelp\Interfacehelp002_08.dds" >
+    <Image Name="NewImage" XPos="0" YPos="0" Width="32" Height="256" />
+</Imageset>

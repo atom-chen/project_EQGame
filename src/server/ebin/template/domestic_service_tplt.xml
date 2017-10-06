@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<domestic_service_tplt>
+		<id>1</id>
+		<name>没得说家政公司</name>
+		<house_clean>100</house_clean>
+		<money_rate>90</money_rate>
+		<discount_rate>10</discount_rate>
+		<image>set:sweep0 image:sweep0,set:sweep1 image:sweep1,set:sweep2 image:sweep2</image>
+	</domestic_service_tplt>
+</root>

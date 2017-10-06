@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="check" >
+        <Property Name="Text" Value="家政公司" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-120},{0.5,-80},{0.5,120},{0.5,80}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="check/check1" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,6},{0,24},{1,-6},{1,-6}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="check/check1/queren" >
+                <Property Name="Text" Value="确 定" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,60},{0,98},{0,105},{0,120}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="check/check1/quxiao" >
+                <Property Name="Text" Value="取 消" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,125},{0,98},{0,170},{0,120}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/MultiLineEditbox" Name="check/check1/checktxt" >
+                <Property Name="Text" >
+     家政公司帮您打扫的费用为
+ 5金币/点房屋清洁度，确认呼叫
+ 家政公司吗？
+</Property>
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,12},{0,12},{1,-11},{1,-37}}" />
+                <Property Name="NormalTextColour" Value="FF00FFFC" />
+                <Property Name="SelectionBrushImage" Value="" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

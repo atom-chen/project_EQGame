@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>eq server</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" href="style/thickbox.css" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript" src="js/timer.js"></script>
+
+    <script type="text/javascript" src="js/thickbox.js"></script>
+    
+    <script type="text/javascript" src="js/database_timer.js"></script>
+    
+    <script type="text/javascript" src="js/database.js"></script>
+    
+    <script type="text/javascript" src="js/server.js"></script>
+    
+    <script type="text/javascript" src="js/menu.js"></script>
+</head>
+<body>
+    <table border="0" cellpadding="0" cellspacing="0" class="frame" style="width: 1024px;
+        height: 100%; margin-top: 15px;">
+        <tr>
+            <td style="background-image: url(images/top.png); background-repeat: repeat-x; height: 5px;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td align="center" valign="top" bgcolor="#efefef" style="background-image: url(images/left_back.png);
+                            background-repeat: repeat-y;" class="left">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td style="height: 28px; background-image: url(images/title.png); background-repeat: repeat-x;
+                                        height: 39px; text-align: center; font-size: 16px; color: white; font-weight: bold;">
+                                        EQ服务端
+                                    </td>
+                                </tr>
+                            </table>
+                            <table style="text-align: center; margin-top: 15px;" width="100%" border="0" cellpadding="0"
+                                cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <a href="index.html">网关服务器列表</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a id="add_server" onclick="show_add_server();" href="#">增加网关服务器</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="gamesvr.html">游戏服务器列表</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a id="a1" onclick="show_add_game_svr();" href="#">增加游戏服务器</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="farmsvr.html">农场服务器列表</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a id="a2" onclick="show_add_farm_svr();" href="#">增加农场服务器</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="database.html">数据库管理</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="834px" valign="top">
+                            <table id="database_table" width="100%">
+                                <tr style="background-color: #333333; height: 28px;">
+                                    <td style="color: White">
+                                        IP地址
+                                    </td>
+                                    <td style="color: White">
+                                        节点名
+                                    </td>
+                                    <td style="color: White">
+                                        数据库名
+                                    </td>
+                                    <td style="color: White">
+                                        数据库操作
+                                    </td>
+                                    <td style="color: White">
+                                        数据库状态
+                                    </td>
+                                    <td style="color: White">
+                                        提交
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table id="node_table" width="100%">
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

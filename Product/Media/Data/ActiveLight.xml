@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Import xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<ID>1</ID>
+		<Name>主动灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFF80</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>2000 0 0.005 0</Attenuation>
+		<Pos>0 0 0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>30 40 1</SpotRange>
+		<Pierce>2</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>1000,1000,1000</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>2</ID>
+		<Name>主动灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>2000 0 0.005 0</Attenuation>
+		<Pos>0 200 0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>30 40 1</SpotRange>
+		<Pierce>2</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>1000,1000,1000</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>3</ID>
+		<Name>壁灯（白）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.64, 0.0000, 0.000068</Attenuation>
+		<Pos>60.0, 0.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,15.0,-1.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>4</ID>
+		<Name>台灯聚光</Name>
+		<LightType>2</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.0000, 0.0020 0.0000</Attenuation>
+		<Pos>10.0, 45.0, 0.0</Pos>
+		<Dir>1.0, -1.0, 0.0</Dir>
+		<SpotRange>60.0,90.0, 0.0</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>1000,1000,1000</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>5</ID>
+		<Name>落地灯散光</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 1.00, 0.0011 0.000015</Attenuation>
+		<Pos>0.0, 180.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>1000,1000,1000</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>6</ID>
+		<Name>壁灯（粉）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FF60FF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.60, 0.0000 0.000235</Attenuation>
+		<Pos>60.0, 0.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,15.0,-1.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>7</ID>
+		<Name>火柱</Name>
+		<LightType>0</LightType>
+		<DiffCol>#26EEEB</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.45, 0.0000 0.000030</Attenuation>
+		<Pos>0.0, 115.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,130.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>8</ID>
+		<Name>吊灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.58, 0.0000, 0.000016</Attenuation>
+		<Pos>0.0, 0.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,0.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>9</ID>
+		<Name>壁灯（蓝）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#75BAFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.60, 0.0000 0.000235</Attenuation>
+		<Pos>60.0, 0.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,15.0,-1.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>10</ID>
+		<Name>壁灯（黄）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFF62</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.60, 0.0000 0.000235</Attenuation>
+		<Pos>60.0, 0.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,15.0,-1.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>11</ID>
+		<Name>布质台灯（白）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.76, 0.0000, 0.000087</Attenuation>
+		<Pos>0.0 60.0 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>12</ID>
+		<Name>布质台灯（粉）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFC8FF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.76, 0.0000, 0.000087</Attenuation>
+		<Pos>0.0 60.0 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,25.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>13</ID>
+		<Name>布质台灯（青）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#88FF9C</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.76, 0.0000, 0.000087</Attenuation>
+		<Pos>0.0 60.0 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,25.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>14</ID>
+		<Name>落地台灯（黄）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFE362</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.11, 0.0000, 0.000034</Attenuation>
+		<Pos>0.0, 180.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,160.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>15</ID>
+		<Name>落地台灯（绿）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#4DFF79</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.11, 0.0000, 0.000034</Attenuation>
+		<Pos>0.0, 180.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,160.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>16</ID>
+		<Name>落地台灯（紫）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#995BFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.11, 0.0000, 0.000034</Attenuation>
+		<Pos>0.0, 180.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,160.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>17</ID>
+		<Name>霓虹灯（紫）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#F260D9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.64, 0.0000, 0.000034</Attenuation>
+		<Pos>0.0, 100.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>(0.0,130.0,0.0)(0.0,80.0,0.0)</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>18</ID>
+		<Name>金属台灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.80, 0.0000, 0.000044</Attenuation>
+		<Pos>0.0, 60.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>taideng.png</BbsTexture>
+		<BbsPos>9.0,30.0,-2.0</BbsPos>
+		<BbsType>1</BbsType>
+	</Row>
+	<Row>
+		<ID>19</ID>
+		<Name>草莓壁灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#CE88E7</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.64, 0.0000, 0.000076</Attenuation>
+		<Pos>60.0, 0.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>2.0,4.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>20</ID>
+		<Name>豪华壁挂灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFD087</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.80, 0.0000, 0.000095</Attenuation>
+		<Pos>60.0, 0.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>5.0,23.0,-1.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>21</ID>
+		<Name>金属枣型壁灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FCE05F</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.70, 0.0000, 0.000117</Attenuation>
+		<Pos>60.0, 0.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>6.0,28.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>22</ID>
+		<Name>玻璃壁灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.70, 0.0000, 0.000148</Attenuation>
+		<Pos>60.0, 0.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>5.0,12.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>23</ID>
+		<Name>气泡吊灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.59, 0.0000, 0.000009</Attenuation>
+		<Pos>0.0, 0.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,4.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>24</ID>
+		<Name>美女落地灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFA68B</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.50, 0.0000, 0.000024</Attenuation>
+		<Pos>0.0, 180.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,165.0,10.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>25</ID>
+		<Name>金属落地灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#F6FD7F</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.38, 0.0000, 0.000019</Attenuation>
+		<Pos>0.0, 180.0, 0.0</Pos>
+		<Dir>0 -1 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>17.0,145.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>26</ID>
+		<Name>蜘蛛吊灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.58, 0.0000, 0.000016</Attenuation>
+		<Pos>0.0, -30.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,3.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>27</ID>
+		<Name>窗（主动光）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>2000.0, 1.40, 0.0082 0.000036</Attenuation>
+		<Pos>90.0, 0.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>28</ID>
+		<Name>高级别墅路灯1</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.44, 0.0000 0.000006</Attenuation>
+		<Pos>0.0, 240.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>(0.0,240.0,35.0)(0.0,240.0,-35.0)</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>29</ID>
+		<Name>高级别墅路灯2</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 1.40, 0.0000 0.000008</Attenuation>
+		<Pos>0.0, 240.0, -35.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,240.0,-35.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>30</ID>
+		<Name>四色装饰灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.85, 0.0000, 0.000050</Attenuation>
+		<Pos>0.0, 40.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>31</ID>
+		<Name>南瓜头灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFE362</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.65, 0.0000, 0.000044</Attenuation>
+		<Pos>0.0, 50.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,10.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>32</ID>
+		<Name>鱼形装饰灯（青）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#297C7C</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.38, 0.0000 0.000019</Attenuation>
+		<Pos>0.0, 60.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,12.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>33</ID>
+		<Name>鱼形装饰灯（灰）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#BFBFBF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.65, 0.0000, 0.000032</Attenuation>
+		<Pos>0.0, 60.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,12.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>34</ID>
+		<Name>鱼形装饰灯（褐）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#A47E6C</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.45, 0.0000, 0.000023</Attenuation>
+		<Pos>0.0, 60.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,12.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>35</ID>
+		<Name>水立方装饰灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#3CA2EF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.55, 0.0000, 0.000047</Attenuation>
+		<Pos>0.0, 40.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,30.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>36</ID>
+		<Name>阿尔巴尼加装饰灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#F3FFB9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.83, 0.0000, 0.000052</Attenuation>
+		<Pos>0.0, 40.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,30.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>37</ID>
+		<Name>异形卵蛋装饰灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#F7C049</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.74, 0.0000, 0.000068</Attenuation>
+		<Pos>0.0, 50.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,15.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>38</ID>
+		<Name>白布落地灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.59, 0.0000, 0.000015</Attenuation>
+		<Pos>0.0, 160.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,160.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>39</ID>
+		<Name>“白光”落地灯柱</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.64, 0.0000, 0.000014</Attenuation>
+		<Pos>0.0, 160.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>(0.0,135.0,0.0)(0.0,90.0,0.0)</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>40</ID>
+		<Name>梨形树挂灯1</Name>
+		<LightType>0</LightType>
+		<DiffCol>#D3AD94</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.45, 0.0000 0.000014</Attenuation>
+		<Pos>15.0, 190.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>(20.0,160.0,50.0)(-22.0,153.0,28.0)(-23.0,153.0,-33.0)(4.0,128.0,-20.0)</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>41</ID>
+		<Name>梨形树挂灯2</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFC8</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 3.00, 0.0008 0.000027</Attenuation>
+		<Pos>-25.0, 190.0, -35.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>(-25.0,150.0,-35.0)</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>42</ID>
+		<Name>“萤火虫”白光壁灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFC8</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.91, 0.0000, 0.000114</Attenuation>
+		<Pos>60.0 10.0 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,10.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>43</ID>
+		<Name>“纽扣”壁灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFC8</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.53, 0.0000, 0.000098</Attenuation>
+		<Pos>60.0, 15.0, -3.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,15.0,-3.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>44</ID>
+		<Name>“烛光”壁灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFE362</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.73, 0.0000, 0.000068</Attenuation>
+		<Pos>60.0, 40.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,40.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>45</ID>
+		<Name>闪电壁挂霓虹灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#7AFAFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.42, 0.0000, 0.000106</Attenuation>
+		<Pos>60.0, 20.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>-5.0,40.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>46</ID>
+		<Name>金属吊灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFEDB</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.64, 0.0000, 0.000016</Attenuation>
+		<Pos>0.0, 00.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,0.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>47</ID>
+		<Name>蛋白石吊灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFD132</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.62, 0.0000, 0.000013</Attenuation>
+		<Pos>0.0, 00.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,5.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>48</ID>
+		<Name>鸟巢卵形吊灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#B6E948</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.61, 0.0000, 0.000009</Attenuation>
+		<Pos>0.0, 00.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,0.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>49</ID>
+		<Name>三角方吊灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFC8</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 1.12, 0.0000, 0.000005</Attenuation>
+		<Pos>0.0, 00.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,4.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>50</ID>
+		<Name>红光走马吊灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#963232</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.65, 0.0000, 0.000005</Attenuation>
+		<Pos>0.0, 00.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang1.png</BbsTexture>
+		<BbsPos>0.0,15.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>51</ID>
+		<Name>“好生活”吸顶灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#F6FFE4</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.76, 0.0000, 0.000005</Attenuation>
+		<Pos>0.0, 00.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,-5.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>52</ID>
+		<Name>别墅落地窗（主动光）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 2.10, 0.0082 0.000036</Attenuation>
+		<Pos>90.0, 40.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>53</ID>
+		<Name>场景路灯1</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFE362</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.52, 0.0000 0.000013</Attenuation>
+		<Pos>0.0, 200.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>(0.0,200.0,60.0)(0.0,200.0,-65.0)</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>54</ID>
+		<Name>场景路灯2</Name>
+		<LightType>0</LightType>
+		<DiffCol>#C5E2FF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>600.0, 1.80, 0.0000 0.000018</Attenuation>
+		<Pos>0.0, 200.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,200.0,-65.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>55</ID>
+		<Name>蓝白房子</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFBC9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.70, 0.0009 0.000010</Attenuation>
+		<Pos>0.0, 300.0, 250.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>56</ID>
+		<Name>紫色银行</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFBC9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.70, 0.0009 0.000010</Attenuation>
+		<Pos>-130.0, 200.0, 380.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>57</ID>
+		<Name>棍子灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFBC9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.70, 0.0009 0.000010</Attenuation>
+		<Pos>1.0, 150.0, -1.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>1.0,75.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>58</ID>
+		<Name>陀螺地灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#90B7FE</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.70, 0.0009 0.000010</Attenuation>
+		<Pos>1.0, 200.0, -1.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>8.0,30.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>59</ID>
+		<Name>聚光地灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFBC9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.70, 0.0009 0.000010</Attenuation>
+		<Pos>0.0, 200.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>8.0,30.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>60</ID>
+		<Name>房产交易中心</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFBC9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>2000.0, 0.70, 0.0015 0.000003</Attenuation>
+		<Pos>350.0, 250.0, -100.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>61</ID>
+		<Name>道具店</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFBC9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.70, 0.0015 0.000003</Attenuation>
+		<Pos>350.0, 250.0, -80.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>62</ID>
+		<Name>美容店</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFBC9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>2000.0, 0.70, 0.0015 0.000003</Attenuation>
+		<Pos>50.0, 250.0, 250.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>63</ID>
+		<Name>潮衣店</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFBC9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.70, 0.0015 0.000003</Attenuation>
+		<Pos>-400.0, 250.0, 300.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>64</ID>
+		<Name>家具店</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFBC9</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.70, 0.0015 0.000003</Attenuation>
+		<Pos>250.0, 250.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>65</ID>
+		<Name>高低路灯1</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 1.40, 0.0000 0.000008</Attenuation>
+		<Pos>0.0, 220.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>(35.0,220.0,0.0)(-32.0,260.0,0.0)</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>66</ID>
+		<Name>高低路灯2</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 1.40, 0.0000 0.000008</Attenuation>
+		<Pos>-32.0, 260.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>-32.0,260.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>67</ID>
+		<Name>绿色路灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>2000.0, 1.40, 0.0000 0.000004</Attenuation>
+		<Pos>-150.0, 430.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>-150.0,440.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>68</ID>
+		<Name>白色柱灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>2000.0, 1.40, 0.0000 0.000004</Attenuation>
+		<Pos>0.0, 190.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,165.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>69</ID>
+		<Name>黑色帽子路灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>2000.0, 1.40, 0.0000 0.000004</Attenuation>
+		<Pos>0.0, 160.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,160.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>70</ID>
+		<Name>六角地灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>2000.0, 1.40, 0.0000 0.000004</Attenuation>
+		<Pos>0.0, 100.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>8.0,30.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>71</ID>
+		<Name>双管日光灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>2000.0, 1.40, 0.0000 0.000004</Attenuation>
+		<Pos>0.0, 200.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>72</ID>
+		<Name>吊顶射灯</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFFF</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 1.40, 0.0000 0.000020</Attenuation>
+		<Pos>0.0, 0.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>shedeng.png</BbsTexture>
+		<BbsPos>0.0,-44.0,0.0</BbsPos>
+		<BbsType>1</BbsType>
+	</Row>
+	<Row>
+		<ID>73</ID>
+		<Name>“好生活”吸顶灯（室外）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#F6FFE4</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 0.76, 0.0000, 0.000008</Attenuation>
+		<Pos>0.0, 00.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsPos>0.0,-5.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+	<Row>
+		<ID>74</ID>
+		<Name>三角方吊灯（室外）</Name>
+		<LightType>0</LightType>
+		<DiffCol>#FFFFC8</DiffCol>
+		<SpecCol>#000000</SpecCol>
+		<Attenuation>1000.0, 1.52, 0.0000, 0.000015</Attenuation>
+		<Pos>0.0, 00.0, 0.0</Pos>
+		<Dir>0 0 0</Dir>
+		<SpotRange>60 120 1</SpotRange>
+		<Pierce>1</Pierce>
+		<PierceRange>1000</PierceRange>
+		<BbsTexture>dengguang2.png</BbsTexture>
+		<BbsPos>0.0,4.0,0.0</BbsPos>
+		<BbsType>0</BbsType>
+	</Row>
+</Import>

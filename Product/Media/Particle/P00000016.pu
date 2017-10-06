@@ -1,0 +1,81 @@
+system P00000016
+{
+    scale_velocity                              1.5
+    technique Technique8
+    {
+        visual_particle_quota                   3
+        material                                jin
+        default_particle_width                  26
+        default_particle_height                 26
+        default_particle_depth                  26
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Point Emitter10
+        {
+            emission_rate                       5
+            angle                               1
+            time_to_live                        dyn_random
+            {
+                min                             0.6
+                max                             1
+            }
+            velocity                            dyn_random
+            {
+                min                             100
+                max                             120
+            }
+            duration                            1
+            position                            0 165 0
+        }
+        affector                                LinearForce Affector4
+        {
+            position                            0 1 0
+            force_aff_vector                    0 -250 0
+        }
+        affector                                TextureRotator Affector5
+        {
+            tex_rot_use_own_rotation            true
+            tex_rot_speed                       dyn_random
+            {
+                min                             20
+                max                             -20
+            }
+        }
+        affector                                Colour Affector6
+        {
+            colour_aff_time_colour              0    1 0.956863 0.764706 0.784314
+            colour_aff_time_colour              0.6  1 0.956863 0.764706 1
+            colour_aff_time_colour              1    1 0.956863 0.764706 0
+        }
+    }
+    technique Technique28
+    {
+        visual_particle_quota                   5
+        material                                guanxian2
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box Emitter34
+        {
+            time_to_live                        0.2
+            velocity                            0
+            duration                            1
+            all_particle_dimensions             dyn_random
+            {
+                min                             20
+                max                             5
+            }
+            position                            0 183 0
+            box_em_width                        18
+            box_em_height                       25
+            box_em_depth                        18
+        }
+        affector                                Colour Affector65
+        {
+            colour_aff_time_colour              0    1 1 0.87451 0
+            colour_aff_time_colour              0.5  1 1 0.87451 1
+            colour_aff_time_colour              1    1 1 0.87451 0
+        }
+    }
+}

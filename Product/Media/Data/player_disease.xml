@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<player_disease>
+		<health>1</health>
+		<particle>0</particle>
+	</player_disease>
+	<player_disease>
+		<health>2</health>
+		<particle>0</particle>
+	</player_disease>
+	<player_disease>
+		<health>3</health>
+		<particle>0</particle>
+	</player_disease>
+	<player_disease>
+		<health>4</health>
+		<particle>0</particle>
+	</player_disease>
+	<player_disease>
+		<health>5</health>
+		<particle>0</particle>
+	</player_disease>
+</root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="egg" Imagefile="LightCue\egg.png" >
+  <Image Name="egg01" XPos="0" YPos="0" Width="120" Height="120" />
+	<Image Name="egg02" XPos="120" YPos="0" Width="120" Height="120" />
+	<Image Name="egg03" XPos="240" YPos="0" Width="120" Height="120" />
+	<Image Name="egg04" XPos="360" YPos="0" Width="120" Height="120" />
+	<Image Name="egg05" XPos="0" YPos="120" Width="120" Height="120" />
+	<Image Name="egg06" XPos="120" YPos="120" Width="120" Height="120" />
+	<Image Name="egg07" XPos="240" YPos="120" Width="120" Height="120" />
+	<Image Name="egg08" XPos="360" YPos="120" Width="120" Height="120" />
+	<Image Name="egg09" XPos="0" YPos="240" Width="120" Height="120" />
+	<Image Name="egg10" XPos="120" YPos="240" Width="120" Height="120" />
+	<Image Name="egg11" XPos="240" YPos="240" Width="120" Height="120" />
+	<Image Name="egg12" XPos="360" YPos="240" Width="120" Height="120" />
+	<Image Name="egg13" XPos="0" YPos="360" Width="120" Height="120" />
+	<Image Name="egg14" XPos="120" YPos="360" Width="120" Height="120" />
+</Imageset>

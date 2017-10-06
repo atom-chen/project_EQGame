@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="MsgBoard" >
+        <Property Name="Text" Value="确定" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,72},{0,74},{0,362},{0,278}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="MsgBoard/Bg" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.013004,0},{0.153985,0},{0.9844,0},{0.939402,0}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="MsgBoard/Bg/sure" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="确 定" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.240774,0},{0.762722,0},{0.408886,0},{0.911926,0}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MsgBoard/Bg/Text" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0519652,0},{0.0193905,0},{0.956269,0},{0.714456,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MsgBoard/Bg/sure1" >
+                <Property Name="Text" Value="确 定" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.428561,0},{0.760013,0},{0.596673,0},{0.909217,0}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MsgBoard/Bg/sure2" >
+                <Property Name="Text" Value="取 消" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.610013,0},{0.762722,0},{0.778125,0},{0.911926,0}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

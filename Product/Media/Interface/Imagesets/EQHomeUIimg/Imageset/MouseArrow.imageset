@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="MouseArrow" Imagefile="EQHomeUIimg\Mouse.dds" NativeHorzRes="1024" NativeVertRes="768" >
+    <Image Name="MouseLink" XPos="32" YPos="0" Width="32" Height="27" />
+    <Image Name="NewImage1" XPos="160" YPos="0" Width="32" Height="32" />
+    <Image Name="NewImage2" XPos="197" YPos="0" Width="32" Height="32" />
+    <Image Name="MouseArrow" XPos="0" YPos="0" Width="32" Height="27" />
+    <Image Name="MouseDuihua" XPos="96" YPos="0" Width="32" Height="27" />
+    <Image Name="MouseZhuaqu" XPos="128" YPos="0" Width="32" Height="27" />
+    <Image Name="MouseChaifen" XPos="64" YPos="0" Width="32" Height="27" />
+</Imageset>

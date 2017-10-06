@@ -1,0 +1,43 @@
+vertex_program HardwareSkinningThreeWeightsCg cg
+{
+   source skinning.cg
+   entry_point hardwareSkinningThreeWeights_vp
+   profiles vs_2_0
+   includes_skeletal_animation true
+}
+
+vertex_program HardwareSkinningThreeWeights unified
+{
+	delegate HardwareSkinningThreeWeightsCg
+	
+   default_params
+   {
+   		param_named_auto worldMatrix3x4Array world_matrix_array_3x4
+		param_named_auto viewProjectionMatrix viewproj_matrix
+		param_named_auto ambient derived_ambient_light_colour
+		param_named_auto emissive surface_emissive_colour
+		param_named_auto lightPos light_position_array 8
+		param_named_auto lightDiffuse derived_light_diffuse_colour_array 8
+		param_named_auto lightAtten light_attenuation_array 8
+   }
+}
+
+vertex_program HardwareSkinningThreeWeightsShadowCasterCg cg
+{
+   source skinning.cg
+   entry_point hardwareSkinningThreeWeightsCaster_vp
+   profiles vs_2_0
+   includes_skeletal_animation true
+}
+
+vertex_program HardwareSkinningThreeWeightsShadowCaster unified
+{
+	delegate HardwareSkinningThreeWeightsShadowCasterCg
+	
+   default_params
+   {
+   		param_named_auto worldMatrix3x4Array world_matrix_array_3x4
+		param_named_auto viewProjectionMatrix viewproj_matrix
+		param_named_auto ambient ambient_light_colour
+   }
+}

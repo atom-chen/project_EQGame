@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<row>
+		<step>1</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;欢迎入住EQ乐园，我是&lt;clr v="#FF0000"&gt;小刺猬乐乐&lt;/clr&gt;。我将在接下来的时间里带您畅游EQ乐园，首先，咱们来熟悉一下基础操作吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>2</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;您现在可以按照介绍在您自个儿的家里熟悉一下操作。熟悉好了请点下一步。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>3</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;如果您不知道界面上功能按键的作用，可以把鼠标移到对应的按钮上查看该按钮的说明，您就知道它们的作用啦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>4</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在，注意到&lt;clr v="#FF0000"&gt;屏幕正下方的任务日志&lt;/clr&gt;了吗？结束对话后，点击任务日志就可以查看你的任务目标和进度哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>5</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;在任务面板里，您可以随时查询自己已接的任务。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>6</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;"前往服装店"，乐乐现在就带你去&lt;clr v="#FF0000"&gt;服装店&lt;/clr&gt;。点击主界面右侧的&lt;clr v="#FF0000"&gt;路标&lt;/clr&gt;按钮选择您要前往的地方。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>7</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;看到&lt;clr v="#FF0000"&gt;服装店&lt;/clr&gt;图标了吗？点击前往吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>8</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;洛克在这里等你很久了，赶紧去向他问好吧，还有礼物送哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>9</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;恭喜你完成了任务！现在让我们来看看洛克都送了哪些东西给你呢？</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>10</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;好像有几件&lt;clr v="#FF0000"&gt;很好看的服装&lt;/clr&gt;呢，我来介绍下如何换上这些衣服吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>11</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;呦呵，真是焕然一新呐！&lt;clr v="#FF0000"&gt;家具店&lt;/clr&gt;的麦克斯韦也给你准备了一个小礼物，去和他谈谈吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>12</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;看到你能如此熟练的完成这些事情，我也就能放心的去帮助其他人啦。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>13</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;之前乐乐所教的那些内容，还可以在&lt;clr v="#FF0000"&gt;“帮助”&lt;/clr&gt;里找到哦。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>14</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;注意到你的&lt;clr v="#FF0000"&gt;邮件&lt;/clr&gt;图标了吗？当它&lt;clr v="#FF0000"&gt;闪烁&lt;/clr&gt;的时候，就说明你有&lt;clr v="#FF0000"&gt;新的邮件&lt;/clr&gt;。快打开看看吧。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>15</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;这就是邮件的操作界面，有新邮件时，请在&lt;clr v="#FF0000"&gt;收件箱&lt;/clr&gt;内收取。如果要发邮件，请切换至&lt;clr v="#FF0000"&gt;发件箱&lt;/clr&gt;。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>16</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;如果对方还不是你的好友，就必须在&lt;clr v="#FF0000"&gt;收件人的栏位&lt;/clr&gt;里填入他在&lt;clr v="#FF0000"&gt;游戏里的名字&lt;/clr&gt;哦。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>17</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;这件一定是妙丽送来的礼物。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>18</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;如果你也想给其他的朋友送出一件礼物，可以点这里。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>19</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;这是送出礼物方式的选择画面</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>20</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;制作礼盒需要亲自送到对方的家里，而选择快递方式，礼物将会通过EQ乐园里的快递渠道送达对方。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>21</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;两种方式各有优缺点，选择一种你喜欢的方式吧。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>22</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;学习完如何发送礼物，接下来快打开背包看看妙丽送来的都是什么好东西。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>23</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;妙丽送来的是摆放在家中的装饰，我们快回家吧。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>24</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在，就让我们进入&lt;clr v="#FF0000"&gt;家装模式&lt;/clr&gt;，开始布置我们的房间吧。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>25</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;妙丽送来的是摆放在家中的装饰，就让我们进入&lt;clr v="#FF0000"&gt;家装模式&lt;/clr&gt;，开始布置我们的房间吧。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>26</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在这个画面称为&lt;clr v="#FF0000"&gt;家装模式&lt;/clr&gt;。在这个模式下你可以自由的调整家具，电灯，装饰等各种物品的位置和方向。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>27</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;让我们看看如何将这个小刺猬摆放在房间里</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>28</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;记住哦，如果是从商城中取出的家具，是需要&lt;clr v="#FF0000"&gt;支付一定点数&lt;/clr&gt;的。所以在摆放商城的家具之前，请保证自己点数的充足。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>29</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;看了那么多商品，肯定对如何赚大钱感兴趣吧。现在乐乐就偷偷告诉你一个最简单的诀窍。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>30</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;首先是点击&lt;clr v="#FF0000"&gt;娱乐&lt;/clr&gt;按钮，在里面找到&lt;clr v="#FF0000"&gt;打工&lt;/clr&gt;。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>31</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;在这里，你就可以根据自己的喜欢选择一种工作开始赚钱啦。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>32</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;打工是需要&lt;clr v="#FF0000"&gt;消耗一定的活力值&lt;/clr&gt;。活力值只有通过&lt;clr v="#FF0000"&gt;休息才能恢复&lt;/clr&gt;。所以平时打工时一定要注意劳逸结合，充分休息哦。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>33</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;不过打工是一种相对比较慢的赚钱方式。EQ乐园里还有许多其他的赚钱方式，比如：&lt;clr v="#FF0000"&gt;农场&lt;/clr&gt;。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>34</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;农场有两种方法可以进入。我先介绍EQ乐园里的一种吧。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>35</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;首先是点击&lt;clr v="#FF0000"&gt;娱乐&lt;/clr&gt;按钮，然后在里面找到&lt;clr v="#FF0000"&gt;农场&lt;/clr&gt;。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>36</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;这时候点击农场，就可以打开农场啦。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>37</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;另一种进入方法是点击&lt;clr v="#FF0000"&gt;EQ软件&lt;/clr&gt;上，家园边上的&lt;clr v="#FF0000"&gt;农场&lt;/clr&gt;按钮</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>38</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;无论哪一种方法，进入的农场都是一样的哦。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>39</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;最后，乐乐在这里祝愿你能早日成就发大财的梦想，能早日在EQ乐园里找到属于自己的一片天地。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>40</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;注意到你的&lt;clr v="#FF0000"&gt;礼物&lt;/clr&gt;图标了吗？当有人给你送来礼物的时候，它就会&lt;clr v="#FF0000"&gt;出现&lt;/clr&gt;。现在快打开看看是谁给你送来的礼物吧。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>41</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;看到&lt;clr v="#FF0000"&gt;道具店&lt;/clr&gt;了吗？我们快出发吧。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>42</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在可以点击&lt;clr v="#FF0000"&gt;接收&lt;/clr&gt;来收取这件礼物。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>43</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在收取的礼物就放在你的&lt;clr v="#FF0000"&gt;背包&lt;/clr&gt;里啦。</content>
+		<nextBtnStr>下一步</nextBtnStr>
+	</row>
+	<row>
+		<step>44</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;会了吗，快换上试试吧。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>45</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;这件礼物是摆在家中的家具，&lt;clr v="#FF0000"&gt;回家&lt;/clr&gt;后点击右侧的家装按钮。家装按钮只有在自己家才起作用哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>46</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;在家装模式下，我们可以自由调整家装位置和方向。接下来详细了解一下吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>47</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;注意哦，商城里的物品是需要收费的。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>48</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在你来试试摆放背包中的家具吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>49</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;摆好了家具就可以使用了，但是你得退出家装模式后才可以有效使用。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>50</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;下面来介绍下如何使用家具吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>51</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在你试着把灯打开吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>52</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;啊，你真聪明，这么快就学会了。看了那么多商品，肯定对如何赚大钱感兴趣吧。现在乐乐就偷偷告诉你一个最简单的诀窍。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>53</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;首先是点击&lt;clr v="#FF0000"&gt;娱乐&lt;/clr&gt;按钮。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>54</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;打工是需要&lt;clr v="#FF0000"&gt;消耗一定的活力值&lt;/clr&gt;。活力值通过&lt;clr v="#FF0000"&gt;休息才能恢复&lt;/clr&gt;。所以平时打工时一定要注意劳逸结合，充分休息哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>55</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在你可以根据自己的喜好选择一种工作开始赚钱啦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>56</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;当然，赚钱的方式多种多样，你还可以通过帮朋友清理房间赚点外块，在这个过程中也许会有惊喜哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>57</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;每天的第一次拜访好友的家可以恢复一定的活力值哦。你的朋友越多，获得的活力值也越多，快去多邀请一些朋友加入EQ乐园吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>58</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;这里还有更快的赚钱方法，那就是农场。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>59</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;首先是点击&lt;clr v="#FF0000"&gt;娱乐&lt;/clr&gt;按钮，然后在里面找到&lt;clr v="#FF0000"&gt;农场&lt;/clr&gt;。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>60</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;另外之前乐乐教的那些内容，还可以在右方的“？”按钮里看到。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>61</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;最后，乐乐在这里祝愿你能早日成就发大财的梦想，能早日在EQ乐园里创造属于自己的一片天地。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>62</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;在里面找到&lt;clr v="#FF0000"&gt;打工&lt;/clr&gt;，点击该图标。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>63</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在你可以点击右侧的家装按钮了。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>64</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在让乐乐来介绍下如何拜访好友吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>65</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;先点击好友按钮，再在好友列表的名单上找到乐乐的名字，右键点击它并选择“家”按钮。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>66</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在去拜访乐乐的家吧。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>67</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;好友的房间每隔一段时间就会出现垃圾，现在来介绍下如何帮好友整理房间吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>68</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在帮你的好友整理下吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>69</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;你的好友越多，你整理房间获得报酬的次数也越多。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>101</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;欢迎入住EQ乐园，这里就是您的家，我是您的邻居&lt;clr v="#FF0000"&gt;小刺猬乐乐&lt;/clr&gt;。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>102</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;做完自我介绍，那么就让我来带你畅游EQ乐园吧，首先，我们来熟悉下&lt;clr v="#FF0000"&gt;基础操作&lt;/clr&gt;。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>103</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;是不是很简单呢？让我们来进行下一步的介绍吧。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>104</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在，注意到屏幕正下方的&lt;clr v="#FF0000"&gt;任务日志&lt;/clr&gt;了吗？结束对话后，点击任务日志就可以查看你的任务目标和完成进度哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>105</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;在&lt;clr v="#FF0000"&gt;任务日志&lt;/clr&gt;里，你随时可查询你已经接到得任务和奖励哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>106</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;“前往服装店”，洛克在&lt;clr v="#FF0000"&gt;服装店&lt;/clr&gt;等你哦，现在就随乐乐去看看吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>107</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;点击主界面右侧的&lt;clr v="#FF0000"&gt;路标&lt;/clr&gt;按钮，选择您想要去的地方。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>108</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;在打开的界面中找到&lt;clr v="#FF0000"&gt;服装店&lt;/clr&gt;图标。点击按钮随乐乐一起去逛逛吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>109</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;&lt;clr v="#FF0000"&gt;服装店&lt;/clr&gt;老板&lt;clr v="#FF0000"&gt;洛克&lt;/clr&gt;在服装店等你很久了哦，去和他问个好吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>110</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;恭喜你获得了&lt;clr v="#FF0000"&gt;洛克&lt;/clr&gt;送你的礼物，打开背包看看他都送你什么啦？</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>111</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;是一套很好看的&lt;clr v="#FF0000"&gt;服装&lt;/clr&gt;哦，让我来介绍下如何换上这些&lt;clr v="#FF0000"&gt;服装&lt;/clr&gt;吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>112</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;学会了吗？自己动手试试吧。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>113</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;真是焕然一新呢，&lt;clr v="#FF0000"&gt;家具店&lt;/clr&gt;的&lt;clr v="#FF0000"&gt;麦克斯韦&lt;/clr&gt;也给你准备了一份礼物，我们去找他吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>114</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;一盏台灯，真是一份精致的礼物啊，您可以把他摆放在自己的家里。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>115</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;点击右边&lt;clr v="#FF0000"&gt;回家&lt;/clr&gt;按钮，回去试试看吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>116</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在你可以点击右侧的家装按钮了。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>117</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;只有在家装模式下才能&lt;clr v="#FF0000"&gt;摆放&lt;/clr&gt;，&lt;clr v="#FF0000"&gt;移动&lt;/clr&gt;家具哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>118</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;接下来，让乐乐介绍，&lt;clr v="#FF0000"&gt;如何摆放&lt;/clr&gt;家具吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>119</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在您也来试试，把&lt;clr v="#FF0000"&gt;背包&lt;/clr&gt;里的&lt;clr v="#FF0000"&gt;家具&lt;/clr&gt;摆放到场景中。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>120</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;摆放好后，&lt;clr v="#FF0000"&gt;退出家装模式&lt;/clr&gt;就可以使用啦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>121</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;好啦，让乐乐介绍&lt;clr v="#FF0000"&gt;如何使用&lt;/clr&gt;家具吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>122</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;您也试试&lt;clr v="#FF0000"&gt;打开灯&lt;/clr&gt;看看吧。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>123</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;啊，你真聪明，这么快就学会了。看了那么多商品，肯定对如何&lt;clr v="#FF0000"&gt;赚大钱&lt;/clr&gt;感兴趣吧。现在乐乐就偷偷告诉你一个最简单的诀窍。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>124</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;&lt;clr v="#FF0000"&gt;打工&lt;/clr&gt;赚钱，点击右边的&lt;clr v="#FF0000"&gt;娱乐&lt;/clr&gt;按钮。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>125</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;打工是需要&lt;clr v="#FF0000"&gt;消耗一定的活力值&lt;/clr&gt;。活力值通过&lt;clr v="#FF0000"&gt;休息恢复&lt;/clr&gt;。所以平时打工时一定要注意劳逸结合，充分休息哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>126</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在你可以根据自己的喜好&lt;clr v="#FF0000"&gt;选择一种工作&lt;/clr&gt;开始赚钱啦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>127</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;当然，赚钱的方式多种多样，你还可以通过帮朋友&lt;clr v="#FF0000"&gt;清理房间&lt;/clr&gt;赚点外块，在这个过程中也许会有惊喜哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>128</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;&lt;clr v="#FF0000"&gt;乐乐&lt;/clr&gt;可是你在EQ乐园里的第一个好朋友，快来乐乐家&lt;clr v="#FF0000"&gt;做客&lt;/clr&gt;吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>129</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;让乐乐教你&lt;clr v="#FF0000"&gt;如何去好友的家&lt;/clr&gt;吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>130</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;会了吗？现在一起去&lt;clr v="#FF0000"&gt;乐乐的家&lt;/clr&gt;吧。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>131</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;每天的&lt;clr v="#FF0000"&gt;第一次&lt;/clr&gt;拜访好友的家可以恢复一定的活力值哦。你的朋友越多，获得的活力值也越多，快去多邀请一些朋友加入EQ乐园吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>132</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;好友的房间&lt;clr v="#FF0000"&gt;每隔一段时间&lt;/clr&gt;就会出现垃圾，现在来介绍下&lt;clr v="#FF0000"&gt;如何帮好友整理房间&lt;/clr&gt;吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>133</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;现在帮你的好友&lt;clr v="#FF0000"&gt;整理&lt;/clr&gt;下吧。</content>
+		<preBtnStr>重新查看</preBtnStr>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>134</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;这里还有&lt;clr v="#FF0000"&gt;更快&lt;/clr&gt;的赚钱方法，那就是去&lt;clr v="#FF0000"&gt;农场&lt;/clr&gt;赚钱。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>135</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;与打工一样，首先是点击&lt;clr v="#FF0000"&gt;娱乐&lt;/clr&gt;按钮，再点击&lt;clr v="#FF0000"&gt;农场&lt;/clr&gt;，就可以进入农场啦。这里就不多加介绍了。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>136</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;另外之前乐乐教的那些内容，还可以在右方的&lt;clr v="#FF0000"&gt;“？”&lt;/clr&gt;按钮里看到。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>137</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;最后，乐乐在这里祝愿你能早日成就发大财的梦想，能早日在EQ乐园里创造属于自己的一片天地。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>138</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;然后在里面找到&lt;clr v="#FF0000"&gt;农场&lt;/clr&gt;，点击它就可以进入你的农场了。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>139</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;另外乐乐教你个小窍门，在&lt;clr v="#FF0000"&gt;家装模式&lt;/clr&gt;下，把镜头移动到房间的&lt;clr v="#FF0000"&gt;任意位置&lt;/clr&gt;哦，方法是对着空地&lt;clr v="#FF0000"&gt;点击右键&lt;/clr&gt;，就可以将镜头移动到该位置。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>300</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;该房间已出现&lt;clr v="#FF0000"&gt;垃圾或宝箱&lt;/clr&gt;。清理垃圾后有可能获得一些惊喜哦，另外宝箱的种类不同，越豪华的宝箱，里面的东西就越好。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>301</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;在这个商城里，您可以买到&lt;clr v="#FF0000"&gt;各种物品&lt;/clr&gt;哦。家具、衣服，金币的、EQ币的，任君选择。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>302</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;发现了没，你的房间里多了个&lt;clr v="#FF0000"&gt;礼包&lt;/clr&gt;，这是你的好友给你的礼物哦，快去看看是什么惊喜吧。走到礼包上就可以对该礼包进行操作啦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>303</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;亲，有你的&lt;clr v="#FF0000"&gt;快递礼物&lt;/clr&gt;哦，点击界面上的礼盒图标收取吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>304</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;在这个界面里，你可以打包礼物送给你的朋友。你可以选择&lt;clr v="#FF0000"&gt;亲自&lt;/clr&gt;送到朋友的家中，也可以选择&lt;clr v="#FF0000"&gt;快递公司&lt;/clr&gt;帮你送过去哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>305</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;在这里，你可以尽情的宣泄你的情感，说出你&lt;clr v="#FF0000"&gt;平常不敢说的话&lt;/clr&gt;。另外还可以通过交往瓶进行&lt;clr v="#FF0000"&gt;交友&lt;/clr&gt;呢。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>306</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;背包里的位置有限，你可以把你比较少用到的物品放到这个&lt;clr v="#FF0000"&gt;仓库&lt;/clr&gt;里。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>308</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;第一次购买的房屋在库存中，您需要打开房屋信息界面，在&lt;clr v="#FF0000"&gt;房屋管理&lt;/clr&gt;标签中，点击&lt;clr v="#FF0000"&gt;“启用这套房屋”&lt;/clr&gt;按钮。启用后，你的房屋就变成新的啦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>309</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;在和朋友交流的过程中，您可以做出&lt;clr v="#FF0000"&gt;多种动作&lt;/clr&gt;。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>310</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;你的清洁度偏低，继续下去会有损你的健康哦。使用&lt;clr v="#FF0000"&gt;卫浴类&lt;/clr&gt;家具，可以提高你的清洁度。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>311</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;你的已处于不健康状态，继续恶化的话有可能会生病哦。使用&lt;clr v="#FF0000"&gt;卫浴类&lt;/clr&gt;家具，可以提高你的健康度。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>312</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;你已经生病了，赶紧去找&lt;clr v="#FF0000"&gt;医生&lt;/clr&gt;吧，否则会有很严重的后果哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>313</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;家里脏乱差，小强满地爬？赶紧打开&lt;clr v="#FF0000"&gt;电话簿&lt;/clr&gt;，呼叫家政公司来帮你打扫吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>314</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;你可以点击右上角的&lt;clr v="#FF0000"&gt;照相机&lt;/clr&gt;按钮，把你或你家的新形象拍下来，还可以把照片上传到微博与好友分享呢。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>500</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;每天的&lt;clr v="#FF0000"&gt;第一次&lt;/clr&gt;拜访好友的家可以恢复一定的活力值哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>501</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;赚钱的方式有很多，你可以通过&lt;clr v="#FF0000"&gt;打工、帮朋友整理房间和农场&lt;/clr&gt;来赚取金币。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>503</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;是不是对自己的发型和脸型不大满意呢？没关系，你可以去&lt;clr v="#FF0000"&gt;美容院&lt;/clr&gt;改头换面，只需要支付一定的费用哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>504</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;当你无聊的时候，你可以去&lt;clr v="#FF0000"&gt;漂流水池&lt;/clr&gt;看看，说不定可以交到新朋友哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>505</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;娱乐里的农场，是个&lt;clr v="#FF0000"&gt;快速赚钱&lt;/clr&gt;的好方式。当然高回报就伴随着&lt;clr v="#FF0000"&gt;风险&lt;/clr&gt;，你要记得及时收获作物哦，不然就被好友偷光啦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>506</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;农场里挖到的&lt;clr v="#FF0000"&gt;稀有种子&lt;/clr&gt;，可以拿到EQ乐园里&lt;clr v="#FF0000"&gt;交易&lt;/clr&gt;给别人哦。打开背包，再点击&lt;clr v="#FF0000"&gt;“从农场导入”&lt;/clr&gt;按钮，就可以把种子调进EQ乐园哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>507</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;与其他玩家进行交易，需要先&lt;clr v="#FF0000"&gt;左键点击&lt;/clr&gt;该玩家，再选择&lt;clr v="#FF0000"&gt;交易&lt;/clr&gt;，对方同意后即可进入交易界面。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>508</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;看到屏幕下方的&lt;clr v="#FF0000"&gt;“商”&lt;/clr&gt;字按钮了吗？那就是我们的商城，所有的物品都可以在这里找到哦。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>509</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;人靠衣装，赶紧去商店买点衣服&lt;clr v="#FF0000"&gt;秀出你最时尚的一面&lt;/clr&gt;吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+	<row>
+		<step>510</step>
+		<content>&lt;sp/&gt;&lt;sp/&gt;家是心灵的港湾，让我们买点家具&lt;clr v="#FF0000"&gt;把家布置的更加温馨&lt;/clr&gt;吧。</content>
+		<nextBtnStr>好 的</nextBtnStr>
+	</row>
+</root>

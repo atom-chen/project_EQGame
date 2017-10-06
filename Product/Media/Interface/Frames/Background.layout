@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Background" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="EQHomeLook/StaticImage3" Name="Background/image" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{800,0},{600,0}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage2" Name="Background/smallImage" >
+            <Property Name="Image" Value="set:windows1 image:SelectBlock7" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.359375,0},{0.33125,0},{0.65625,0},{0.604166,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/MultiLineEditbox" Name="Background/text" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" >您好：
+     您是我们公司的大客户。享受9折优惠
+</Property>
+            <Property Name="ReadOnly" Value="True" />
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.360937,0},{0.329167,0},{0.65625,0},{0.602084,0}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+            <Property Name="SelectionBrushImage" Value="" />
+        </Window>
+    </Window>
+</GUILayout>

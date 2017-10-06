@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<row>
+		<id>1</id>
+		<modelId>60000</modelId>
+	</row>
+	<row>
+		<id>2</id>
+		<modelId>60001</modelId>
+	</row>
+	<row>
+		<id>3</id>
+		<modelId>60002</modelId>
+	</row>
+	
+</table>

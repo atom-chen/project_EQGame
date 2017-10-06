@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62630403-3735-4EDA-A593-FAD4DAA7A641}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ScriptEditor</RootNamespace>
+    <AssemblyName>ScriptEditor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinHtmlControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\linyb\桌面\WinHtmlControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ItemOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemOption.Designer.cs">
+      <DependentUpon>ItemOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemDialog.Designer.cs">
+      <DependentUpon>ItemDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Function.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Function.Designer.cs">
+      <DependentUpon>Function.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FunctionContainer.Designer.cs">
+      <DependentUpon>FunctionContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabContainer.Designer.cs">
+      <DependentUpon>TabContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageDialog.Designer.cs">
+      <DependentUpon>MessageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Option.Designer.cs">
+      <DependentUpon>Option.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionDialog.Designer.cs">
+      <DependentUpon>OptionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogFactory.cs" />
+    <Compile Include="DialogType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogType.Designer.cs">
+      <DependentUpon>DialogType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor.Designer.cs">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map.Designer.cs">
+      <DependentUpon>Map.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ItemOption.resx">
+      <DependentUpon>ItemOption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemDialog.resx">
+      <DependentUpon>ItemDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Function.resx">
+      <DependentUpon>Function.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabContainer.resx">
+      <DependentUpon>TabContainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageDialog.resx">
+      <DependentUpon>MessageDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Option.resx">
+      <DependentUpon>Option.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionDialog.resx">
+      <DependentUpon>OptionDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogType.resx">
+      <DependentUpon>DialogType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor.resx">
+      <DependentUpon>Editor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map.resx">
+      <DependentUpon>Map.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rules.resx">
+      <DependentUpon>Rules.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Rules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rules.Designer.cs">
+      <DependentUpon>Rules.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{DCB38BA9-35C1-47DF-BC12-E6CAF7F968D6}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{4BDBE354-CBC9-4321-B701-4F2D880DD2A3}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logic\Logic.csproj">
+      <Project>{E19152C1-DE52-4A15-86B6-C584E9C830BF}</Project>
+      <Name>Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{C52718DB-4BD7-409E-A591-74678113896A}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SyntaxHighlighter\SyntaxHighlighter.csproj">
+      <Project>{2FB0F42E-F9B6-44C0-8443-FC051A44A64E}</Project>
+      <Name>SyntaxHighlighter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

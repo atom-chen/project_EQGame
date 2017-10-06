@@ -1,0 +1,52 @@
+material LightBbs
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			//depth_check off
+			depth_write off
+			fog_override true none
+
+			texture_unit
+			{
+				texture lightbbs.png
+			}
+		}
+	}
+}
+
+material tar001
+{
+  technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			
+			texture_unit
+			{
+				texture  tar001.dds
+			}
+		}
+	}
+}
+
+material 01-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 10 0
+		}
+
+	}
+
+}

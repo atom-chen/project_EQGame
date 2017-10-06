@@ -1,0 +1,11 @@
+%%% @author  <linyibin>
+%%% @copyright (C) 2010, 
+%%% @doc
+%%% npc
+%%% @end
+%%% Created :  2 Apr 2010 by  <>
+
+-define(npc_regist_list, [{npc_1_1, npc_1_1}]).
+
+
+-record(npc_state, {npc_key, player_account}).

@@ -1,0 +1,77 @@
+//-----------------------------------------------------------------------------------------------------------------------
+material cangying1
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture cangying1.dds
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+//-----------------------------------------------------------------------------------------------------------------------
+material shuihua1
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+            fog_override true none
+
+            texture_unit
+            {
+                texture shuihua1.dds
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+//-----------------------------------------------------------------------------------------------------------------------
+material shuihua2
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture shuihua2.dds
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+//-----------------------------------------------------------------------------------------------------------------------
+material shuihua3
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture mp_explosion_water.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>eq server</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" href="style/thickbox.css" />
+    <link rel="stylesheet" type="text/css" href="style/screen.css" />
+    <link type="text/css" href="css/ui-lightness/jquery-ui-1.7.2.custom.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript" src="js/jquery.query.js"></script>
+
+    <script type="text/javascript" src="js/broadcast.js"></script>
+
+    <script type="text/javascript" src="js/jquery-ui-1.7.2.custom.min.js"></script>
+
+    <script type="text/javascript" src="js/timepicker.js"></script>
+
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#datetime').datepicker({
+    	        duration: '',
+                showTime: true,
+                constrainInput: false
+             });
+        });
+        
+        $(document).ready(function() {
+	        // validate the comment form when it is submitted
+	        $("#form").validate({
+	            rules:{
+	                datetime:{
+			            required: true
+			        },
+	                count: {
+				        required: true
+			        },
+			        content:{
+			            required: true
+			        }
+			    },
+			    messages: {
+			        datetime:{
+			            required: "请选择播放时间"
+			        },
+			        count: {
+				        required: "请输入播放次数"
+			        },
+			        content:{
+			            required: "请输入播放内容"
+			        }
+	            }
+	        });
+        });
+    
+        $.validator.setDefaults({
+	        submitHandler: function() {
+		        add_sys_broadcast();
+	        }
+        });
+    </script>
+
+    <style type="text/css">
+        #form
+        {
+            width: 600px;
+        }
+        #form label.error
+        {
+            margin-left: 10px;
+            width: auto;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <form class="cmxform" id="form" method="get" action="">
+        <table id="table" width="100%">
+            <tr>
+                <td align="right">
+                    类型：
+                </td>
+                <td align="left">
+                    <select name="type" id="type">
+                        <option value="1">系统自动显示播放的公告</option>
+                        <option value="2">系统定点播放的公告</option>
+                        <option value="3">玩家行为引起的公告</option>
+                        <option value="4">GM公告</option>
+                        <option value="5">农场公告</option>
+                        <option value="6">每天定点公告</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    播放时间：
+                </td>
+                <td align="left">
+                    <input id="datetime" readonly name="datetime" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    播放次数：
+                </td>
+                <td align="left">
+                    <input id="count" name="count" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    优先级：
+                </td>
+                <td align="left">
+                    <select name="type" id="priority">
+                        <option value="1">高</option>
+                        <option value="2">偏高</option>
+                        <option value="3" selected>中</option>
+                        <option value="4">低</option>
+                        <option value="5">偏低</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    内容：
+                </td>
+                <td align="left">
+                    <textarea id="content" name="content" cols="45" rows="12"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    是否通知所有服务器：
+                </td>
+                <td align="left">
+                    <input id="is_broadcast" type="checkbox" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="item_add_submit" value=" 提交 " />
+                    <input type="button" onclick="close_add_sys_broadcast();" id="close" value=" 关闭 " />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

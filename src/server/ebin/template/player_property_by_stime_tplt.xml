@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<player_property_by_stime_tplt>
+		<min_property>0</min_property>
+		<max_property>100</max_property>
+		<ref_id>13</ref_id>
+	</player_property_by_stime_tplt>
+</root>

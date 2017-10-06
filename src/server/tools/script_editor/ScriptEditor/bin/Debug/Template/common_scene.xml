@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<common_scene>
+		<id>1</id>
+		<name>测试地图1</name>
+		<file_res>12121</file_res>
+	</common_scene>
+  <common_scene>
+    <id>2</id>
+    <name>测试地图2</name>
+    <file_res>12121</file_res>
+  </common_scene>
+</root>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="liwu001" Imagefile="EQhomeliwu\liwu001.dds" >
+    <Image Name="lika_001" XPos="10" YPos="110" Width="90" Height="90" />
+    <Image Name="lika_002" XPos="110" YPos="110" Width="90" Height="90" />
+    <Image Name="lika_003" XPos="210" YPos="110" Width="90" Height="90" />
+    <Image Name="lika_004" XPos="310" YPos="110" Width="90" Height="90" />
+    <Image Name="lika_005" XPos="410" YPos="110" Width="90" Height="90" />
+    <Image Name="lika_006" XPos="510" YPos="110" Width="90" Height="90" />
+    <Image Name="lika_007" XPos="610" YPos="110" Width="90" Height="90" />
+    <Image Name="lika_008" XPos="710" YPos="110" Width="90" Height="90" />
+    <Image Name="lika_009" XPos="810" YPos="110" Width="90" Height="90" />
+    <Image Name="lika_010" XPos="910" YPos="110" Width="90" Height="90" />
+    <Image Name="liwu_001" XPos="10" YPos="10" Width="88" Height="88" />
+    <Image Name="liwu_002" XPos="110" YPos="10" Width="88" Height="88" />
+    <Image Name="liwu_003" XPos="210" YPos="10" Width="88" Height="88" />
+    <Image Name="liwu_004" XPos="310" YPos="10" Width="88" Height="88" />
+    <Image Name="liwu_005" XPos="410" YPos="10" Width="88" Height="88" />
+    <Image Name="liwu_006" XPos="510" YPos="10" Width="88" Height="88" />
+    <Image Name="liwu_007" XPos="610" YPos="10" Width="88" Height="88" />
+    <Image Name="liwu_008" XPos="710" YPos="10" Width="88" Height="88" />
+    <Image Name="liwu_009" XPos="810" YPos="10" Width="88" Height="88" />
+    <Image Name="liwu_010" XPos="910" YPos="10" Width="88" Height="88" />
+</Imageset>

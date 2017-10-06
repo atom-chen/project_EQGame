@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="freindlist" >
+        <Property Name="Text" Value="我的好友" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{1,-240},{1,-460},{1,-49},{1,-42}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/shouye" >
+            <Property Name="Text" Value="首 页" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,28},{0,378},{0,74},{0,404}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/fenyeanniu" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage141" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,63},{0,368},{0,75},{0,380}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/fenyeanniu1" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage139" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,122},{0,368},{0,134},{0,380}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/yeshu" >
+            <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,364},{0,121},{0,384}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewEditbox" Name="freindlist/searchbox" >
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,16},{0,42},{0,116},{0,63}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+            <Window Type="EQHomeLook/ImageButton" Name="freindlist/searchbox/suosou" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage157" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage157" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage157" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,77},{0,2},{0,93},{0,18}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/cover1" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,75},{1,0},{0,100}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/pic1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,76},{0,43},{0,99}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/pic2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,105},{0,43},{0,128}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/acc1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,76},{0,172},{0,99}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticImage" Name="freindlist/acc1/laji1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.5,23},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/acc2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,105},{0,172},{0,128}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticImage" Name="freindlist/acc2/laji2" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.5,23},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/cover2" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,82},{1,0},{0.05,107}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/cover3" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,90},{1,0},{0.1,115}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/cover4" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.15,97},{1,0},{0.15,122}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/cover5" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,104},{1,0},{0.2,129}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/cover6" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,113},{1,0},{0.25,138}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/cover7" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3,123},{1,0},{0.3,148}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/cover8" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.35,132},{1,0},{0.35,157}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/cover9" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,141},{1,0},{0.4,166}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/cover10" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0.45,150},{1,1},{0.45,175}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/pic3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,133},{0,43},{0,156}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/pic4" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,161},{0,43},{0,184}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/pic5" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,189},{0,43},{0,212}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/pic6" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,219},{0,43},{0,242}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/pic7" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,249},{0,43},{0,272}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/pic8" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,279},{0,43},{0,302}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/pic9" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,309},{0,43},{0,332}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/pic10" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,339},{0,43},{0,362}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/acc3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,133},{0,172},{0,156}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticImage" Name="freindlist/acc3/laji3" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.5,23},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/acc4" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,161},{0,172},{0,184}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticImage" Name="freindlist/acc4/laji4" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.5,23},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/acc5" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,189},{0,172},{0,212}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticImage" Name="freindlist/acc5/laji5" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.5,23},{1.2,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/acc6" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,219},{0,172},{0,242}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticImage" Name="freindlist/acc6/laji6" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.5,23},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/acc7" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,249},{0,172},{0,272}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticImage" Name="freindlist/acc7/laji7" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.5,23},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/acc8" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,279},{0,172},{0,302}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticImage" Name="freindlist/acc8/laji8" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.5,23},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/acc9" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,309},{0,172},{0,332}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticImage" Name="freindlist/acc9/laji9" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.5,23},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="freindlist/acc10" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,339},{0,172},{0,362}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticImage" Name="freindlist/acc10/laji10" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.5,23},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/shuaxin" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage160" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage158" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage158" />
+            <Property Name="DisabledImage" Value="set:Button5 image:NewImage160" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,120},{0,40},{0,145},{0,65}}" />
+        </Window>
+        <Window Type="TaharezLook/ImageButton" Name="freindlist/shuaixn1" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage383" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage382" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage382" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,147},{0,40},{0,172},{0,65}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/xian1" >
+            <Property Name="Image" Value="set:Button5 image:NewImage140" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,13},{0,373},{0,63},{0,376}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="freindlist/xian2" >
+            <Property Name="Image" Value="set:Button5 image:NewImage140" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,134},{0,373},{0,179},{0,376}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="freindlist/sys_msg" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage371" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage370" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage370" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-55},{1,-35},{1,-39},{1,-19}}" />
+        </Window>
+    </Window>
+</GUILayout>

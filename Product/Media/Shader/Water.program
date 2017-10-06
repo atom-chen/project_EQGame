@@ -1,0 +1,28 @@
+vertex_program Cg/OceanVS cg
+{
+	source Water.cg
+	entry_point water_vs2
+	profiles vs_1_1 arbvp1
+
+	default_params
+	{
+		param_named waveSpeed float2 0.0 0.15
+		param_named noiseSpeed float 0.2
+		param_named_auto worldViewProj_matrix worldviewproj_matrix
+		param_named_auto eyePosition camera_position_object_space
+		param_named scale float3 0.005 0.005 0.01
+		param_named_auto time_0_X time_0_x 100.0
+	}
+}
+
+fragment_program Cg/OceanFS cg
+{
+	source Water.cg
+	entry_point water_ps2
+	profiles ps_2_0 arbfp1
+	
+	default_params
+	{
+		param_named_auto ambient ambient_light_colour
+	}
+}

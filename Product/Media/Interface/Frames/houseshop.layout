@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="houseshop" >
+        <Property Name="Text" Value="房屋买卖" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,40},{0,50},{0,457},{0,420}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Window Type="DefaultWindow" Name="houseshop/SlotBg" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,46},{0,404},{0,358}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="houseshop/SlotBg/Slot1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Image" Value="set:Button5 image:NewImage253" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,13},{0,38},{0,382},{0,72}}" />
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot1/Txt1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="豪华柴火间" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,1},{0,171},{0,17}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot1/Txt2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="等级：12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,16},{0,89},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot1/Txt3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="售价：20000" />
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,76},{0,16},{0,164},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot1/Txt4" >
+                    <Property Name="Text" Value="需要鲜花：0" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,167},{0,16},{0,254},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot1/Txt5" >
+                    <Property Name="Text" Value="需要活跃值：0" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,260},{0,16},{0,362},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="houseshop/SlotBg/Slot2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Image" Value="set:Button5 image:NewImage253" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,13},{0,78},{0,382},{0,112}}" />
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot2/Txt1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="豪华柴火间" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,1},{0,171},{0,17}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot2/Txt2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="等级：12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,16},{0,89},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot2/Txt3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="售价：20000" />
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,76},{0,16},{0,164},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot2/Txt4" >
+                    <Property Name="Text" Value="需要鲜花：0" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,167},{0,16},{0,254},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot2/Txt5" >
+                    <Property Name="Text" Value="需要活跃值：0" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,260},{0,16},{0,362},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="houseshop/SlotBg/Slot3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Image" Value="set:Button5 image:NewImage253" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,13},{0,118},{0,382},{0,152}}" />
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot3/Txt1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="豪华柴火间" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,1},{0,171},{0,17}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot3/Txt2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="等级：12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,16},{0,89},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot3/Txt3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="售价：20000" />
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,76},{0,16},{0,164},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot3/Txt4" >
+                    <Property Name="Text" Value="需要鲜花：0" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,167},{0,16},{0,254},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot3/Txt5" >
+                    <Property Name="Text" Value="需要活跃值：0" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,260},{0,16},{0,362},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="houseshop/SlotBg/Slot4" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Image" Value="set:Button5 image:NewImage253" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,13},{0,158},{0,382},{0,192}}" />
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot4/Txt1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="豪华柴火间" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,1},{0,171},{0,17}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot4/Txt2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="等级：12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,16},{0,89},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot4/Txt3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="售价：20000" />
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,76},{0,16},{0,164},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot4/Txt4" >
+                    <Property Name="Text" Value="需要鲜花：0" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,167},{0,16},{0,254},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot4/Txt5" >
+                    <Property Name="Text" Value="需要活跃值：0" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,260},{0,16},{0,362},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="houseshop/SlotBg/Slot5" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Image" Value="set:Button5 image:NewImage253" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,13},{0,197},{0,382},{0,231}}" />
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot5/Txt1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="豪华柴火间" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,1},{0,171},{0,17}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot5/Txt2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="等级：12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,16},{0,89},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot5/Txt3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="售价：20000" />
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,76},{0,16},{0,164},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot5/Txt4" >
+                    <Property Name="Text" Value="需要鲜花：0" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,167},{0,16},{0,254},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot5/Txt5" >
+                    <Property Name="Text" Value="需要活跃值：0" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,260},{0,16},{0,362},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="houseshop/SlotBg/Slot6" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Image" Value="set:Button5 image:NewImage253" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,13},{0,237},{0,382},{0,271}}" />
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot6/Txt1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="豪华柴火间" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,1},{0,171},{0,17}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot6/Txt2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="等级：12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,16},{0,89},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot6/Txt3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="售价：20000" />
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,76},{0,16},{0,164},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot6/Txt4" >
+                    <Property Name="Text" Value="需要鲜花：0" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,167},{0,16},{0,254},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Slot6/Txt5" >
+                    <Property Name="Text" Value="需要活跃值：0" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,260},{0,16},{0,362},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="houseshop/SlotBg/Pagedown" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage139" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,130},{0,284},{0,142},{0,296}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="houseshop/SlotBg/Pageup" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage141" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,68},{0,284},{0,80},{0,296}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="houseshop/SlotBg/Pay" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="购买房屋" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,204},{0,276},{0,282},{0,302}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="houseshop/SlotBg/Perview" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="进入查看" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage432" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage431" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage433" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,300},{0,276},{0,378},{0,302}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="houseshop/SlotBg/Page" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="00/00" />
+                <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,89},{0,282},{0,124},{0,297}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="houseshop/SlotBg/xian1" >
+                <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,288},{0,68},{0,291}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="houseshop/SlotBg/xian2" >
+                <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,140},{0,288},{0,200},{0,291}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="houseshop/SlotBg/Btn_1" >
+                <Property Name="Text" Value="按等级排序" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,34},{0,8},{0,125},{0,34}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="houseshop/SlotBg/Btn_2" >
+                <Property Name="Text" Value="按售价排序" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,154},{0,8},{0,245},{0,34}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="houseshop/SlotBg/Btn_3" >
+                <Property Name="Text" Value="按鲜花排序" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,274},{0,8},{0,365},{0,34}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+        </Window>
+        <Window Type="NewEQHomeLook/NewTabControl1" Name="houseshop/background" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="TabHeight" Value="{0,21}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,26},{0,407},{0,362}}" />
+            <Property Name="InheritsTooltipText" Value="True" />
+            <Window Type="DefaultWindow" Name="houseshop/background/Tab 1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="新品上市" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="houseshop/background/Tab 2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="  套房  " />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="houseshop/background/Tab 3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="  别墅  " />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="houseshop/background/Tab 4" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="  特殊  " />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="houseshop/background/Tab 5" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="  特价  " />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<npc_shop_mgr>
+		<id>1</id>
+		<sale_type>1</sale_type>
+		<page>1</page>
+		<shop_name>潮衣会服装城</shop_name>
+	</npc_shop_mgr>
+	<npc_shop_mgr>
+		<id>2</id>
+		<sale_type>2</sale_type>
+		<page>2,3</page>
+		<shop_name>阿波罗家具商城</shop_name>
+	</npc_shop_mgr>
+</root>

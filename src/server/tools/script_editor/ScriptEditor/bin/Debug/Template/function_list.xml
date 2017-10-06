@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<function>
+		<id>1</id>
+		<name>{Reply, NState}=script:give_task(*TaskId*, State)</name>
+    		<remark>接新任务</remark>
+    		<type>任务</type>
+	</function>
+	<function>
+		<id>2</id>
+		<name>{Reply, NState}=script:complete_task(*TaskId*, *ItemId*, State)</name>
+    		<remark>完成任务</remark>
+    		<type>任务</type>
+	</function>
+	<function>
+		<id>3</id>
+		<name>script:get_task_flag(*TaskId*, State)</name>
+    		<remark>获取任务标记</remark>
+    		<type>任务</type>
+	</function>
+		<function>
+		<id>3</id>
+		<name>NState = script:set_task_flag(*TaskId*, *Flag*, State)</name>
+    		<remark>设置任务标记</remark>
+    		<type>任务</type>
+	</function>
+	<function>
+		<id>4</id>
+		<name>script:whether_have_disease(State)</name>
+    		<remark>是否有疾病</remark>
+    		<type>疾病</type>
+	</function>
+	<function>
+		<id>5</id>
+		<name>NState = script:treat_disease(State)</name>
+    		<remark>治疗疾病</remark>
+    		<type>疾病</type>
+	</function>
+	<function>
+		<id>6</id>
+		<name>script:get_treat_money(State)</name>
+    		<remark>获取治疗费用</remark>
+    		<type>疾病</type>
+	</function>
+	<function>
+		<id>7</id>
+		<name>script:get_game_coin(State)</name>
+    		<remark>获取游戏币</remark>
+    		<type>金币</type>
+	</function>
+	<function>
+		<id>7</id>
+		<name>script:get_eq_coin(State)</name>
+    		<remark>获取EQ币</remark>
+    		<type>金币</type>
+	</function>
+	<function>
+		<id>8</id>
+		<name>NState = script:add_game_coin(*Count*, State)</name>
+    		<remark>增加游戏币</remark>
+    		<type>金币</type>
+	</function>
+		<function>
+		<id>9</id>
+		<name>NState = script:add_eq_coin(*Count*, State)</name>
+    		<remark>增加EQ币</remark>
+    		<type>金币</type>
+	</function>
+	<function>
+		<id>10</id>
+		<name>NState = script:dec_game_coin(*Count*, State)</name>
+    		<remark>减少游戏币</remark>
+    		<type>金币</type>
+	</function>
+	<function>
+		<id>11</id>
+		<name>NState = script:dec_eq_coin(*Count*, State)</name>
+    		<remark>减少EQ币</remark>
+    		<type>金币</type>
+	</function>
+	<function>
+		<id>12</id>
+		<name>script:get_player_clean(State)</name>
+    		<remark>获取玩家清洁度</remark>
+    		<type>属性</type>
+	</function>
+	<function>
+		<id>13</id>
+		<name>script:get_player_health(State)</name>
+    		<remark>获取玩家健康值</remark>
+    		<type>属性</type>
+	</function>
+	<function>
+		<id>14</id>
+		<name>script:get_player_charm(State)</name>
+    		<remark>获取玩家魅力值</remark>
+    		<type>属性</type>
+	</function>
+	<function>
+		<id>15</id>
+		<name>script:get_active_value(State)</name>
+    		<remark>获取玩家活力值</remark>
+    		<type>属性</type>
+	</function>
+	<function>
+		<id>16</id>
+		<name>script:get_house_clean(State)</name>
+    		<remark>获取房屋清洁度</remark>
+    		<type>属性</type>
+	</function>
+	<function>
+		<id>17</id>
+		<name>NState = script:update_player_property(*PlayerClean*, *PlayerHealth*, *PlayerCharm*, *ActiveValue*, *HouseClean*, State)</name>
+    		<remark>设置人物属性</remark>
+    		<type>属性</type>
+	</function>
+<function>
+		<id>18</id>
+		<name>script:promot([*Content*], State)</name>
+    		<remark>系统提示</remark>
+    		<type>其他</type>
+	</function>
+<function>
+		<id>19</id>
+		<name>script:show_picture(*Id*, State)</name>
+    		<remark>秀图</remark>
+    		<type>界面</type>
+	</function>
+<function>
+		<id>20</id>
+		<name>script:open_game_coin_looks_ui(State)</name>
+    		<remark>免费的美容院</remark>
+    		<type>界面</type>
+	</function>
+<function>
+		<id>21</id>
+		<name>script:open_eq_coin_looks_ui(State)</name>
+    		<remark>付费的美容院</remark>
+    		<type>界面</type>
+	</function>
+<function>
+		<id>22</id>
+		<name>script:open_house_transaction_ui(State)</name>
+    		<remark>房屋交易</remark>
+    		<type>界面</type>
+	</function>
+<function>
+		<id>23</id>
+		<name>script:open_npc_shop_ui(State)</name>
+    		<remark>npc商店</remark>
+    		<type>界面</type>
+</function>
+<function>
+		<id>24</id>
+		<name>script:open_shop(*Type*, State)</name>
+    		<remark>多商店</remark>
+    		<type>界面</type>
+</function>
+<function>
+		<id>25</id>
+		<name>script:task_is_exist(*TaskId*, State)</name>
+    		<remark>是否存在任务</remark>
+    		<type>任务</type>
+	</function>
+<function>
+		<id>26</id>
+		<name>script:task_is_complete(*TaskId*, State)</name>
+    		<remark>是否完成任务</remark>
+    		<type>任务</type>
+	</function>
+<function>
+		<id>27</id>
+		<name>NState = script:add_item(*TempId*, State)</name>
+    		<remark>增加物品</remark>
+    		<type>物品</type>
+	</function>
+<function>
+		<id>28</id>
+		<name>script:get_sex(State)</name>
+    		<remark>获取玩家性别</remark>
+    		<type>其他</type>
+</function>
+<function>
+		<id>29</id>
+		<name>script:give_farm_task(TaskId, State)</name>
+    		<remark>接农场任务</remark>
+    		<type>其他</type>
+</function>
+<function>
+		<id>29</id>
+		<name>script:send_express_gift(*SenderName*, *ItemId*, *Comment*, State)</name>
+    		<remark>发送快递礼物</remark>
+    		<type>其他</type>
+</function>
+</root>

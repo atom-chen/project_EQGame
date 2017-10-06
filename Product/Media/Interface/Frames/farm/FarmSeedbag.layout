@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage12" Name="farm_seedbag" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,114},{0,320},{0,518},{0,411}}" />
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Window Type="EQHomeLook/ImageButton" Name="farm_seedbag/tostore" >
+            <Property Name="HoverImage" Value="set:Button1 image:ImageButton98_Pushed" />
+            <Property Name="NormalImage" Value="set:Button1 image:ImageButton98_Normal" />
+            <Property Name="PushedImage" Value="set:Button1 image:ImageButton98_Pushed" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,331},{0,5},{0,393},{0,22}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_seedbag/leftbutton" >
+            <Property Name="HoverImage" Value="set:Button1 image:ImageButton96_Pushed" />
+            <Property Name="NormalImage" Value="set:Button1 image:ImageButton96_Normal" />
+            <Property Name="PushedImage" Value="set:Button1 image:ImageButton96_Pushed" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0107692,0},{0,37},{0,22},{0,68}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_seedbag/rightbutton" >
+            <Property Name="HoverImage" Value="set:Button1 image:ImageButton97_Pushed" />
+            <Property Name="NormalImage" Value="set:Button1 image:ImageButton97_Normal" />
+            <Property Name="PushedImage" Value="set:Button1 image:ImageButton97_Pushed" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,375},{0,37},{0,393},{0,68}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed1" >
+            <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,27},{0,27},{0,84},{0,79}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed1/source1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{0,55},{0,31}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_seedbag/seed1/quantity1" >
+                <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,40},{0,45},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed1/icon1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,36},{0,36}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed2" >
+            <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,86},{0,27},{0,142},{0,79}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed2/source2" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{0,55},{0,31}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_seedbag/seed2/quantity2" >
+                <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,40},{0,45},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed2/icon2" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,36},{0,36}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed3" >
+            <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,144},{0,27},{0,200},{0,79}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="farm_seedbag/seed3/source3" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{0,55},{0,31}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_seedbag/seed3/quantity3" >
+                <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,40},{0,45},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed3/icon3" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,36},{0,36}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed4" >
+            <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,202},{0,27},{0,258},{0,79}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed4/source4" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{0,55},{0,31}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_seedbag/seed4/quantity4" >
+                <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,40},{0,45},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed4/icon4" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,36},{0,36}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed5" >
+            <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,260},{0,27},{0,316},{0,79}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed5/source5" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{0,55},{0,31}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_seedbag/seed5/quantity5" >
+                <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,40},{0,45},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed5/icon5" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,36},{0,36}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed6" >
+            <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,318},{0,27},{0,373},{0,79}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed6/source6" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{0,55},{0,31}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_seedbag/seed6/quantity6" >
+                <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,40},{0,45},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/seed6/icon6" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,36},{0,36}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="farm_seedbag/nothing" >
+            <Property Name="Font" Value="simhei-10" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,30},{0,25},{0,370},{0,80}}" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_seedbag/nothing/nothingtext" >
+                <Property Name="Font" Value="simhei-10" />
+                <Property Name="Text" Value="你的种子包里什么都没有，快去商店看看吧。" />
+                <Property Name="TextColours" Value="tl:FFC33000 tr:FFC33000 bl:FFC33000 br:FFC33000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,280},{1,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_seedbag/nothing/toshop" >
+                <Property Name="Text" Value="去商店" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,285},{0,18},{0,336},{0,40}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

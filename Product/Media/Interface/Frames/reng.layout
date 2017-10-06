@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage" Name="reng" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-246},{0.5,-250},{0.5,246},{0.5,250}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="reng1" >
+            <Property Name="Image" Value="set:drifting_1 image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-244},{0.5,-242},{0.5,0},{0.5,0}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="reng2" >
+            <Property Name="Image" Value="set:drifting_2 image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,-242},{0.5,244},{0.5,0}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="reng/reng2" >
+            <Property Name="Image" Value="set:drifting_3 image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-244},{0.5,0},{0.5,0},{0.5,226}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="reng4" >
+            <Property Name="Image" Value="set:drifting_4 image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,0},{0.5,244},{0.5,226}}" />
+        </Window>
+    </Window>
+</GUILayout>

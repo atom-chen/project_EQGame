@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="Occupationicon" Imagefile="EQtpltIcon\Occupationicon.dds" >
+    <Image Name="yule_1" XPos="10" YPos="430" Width="56" Height="56" />
+    <Image Name="yule_2" XPos="70" YPos="430" Width="56" Height="56" />
+    <Image Name="dagong_1" XPos="10" YPos="10" Width="80" Height="80" />
+    <Image Name="dagong_2" XPos="100" YPos="10" Width="80" Height="80" />
+    <Image Name="dagong_3" XPos="190" YPos="10" Width="80" Height="80" />
+    <Image Name="dagong_4" XPos="280" YPos="10" Width="80" Height="80" />
+    <Image Name="dagong_5" XPos="370" YPos="10" Width="80" Height="80" />
+    <Image Name="telephone_hover" XPos="81" YPos="250" Width="32" Height="32" />
+    <Image Name="telephone_normal" XPos="10" YPos="250" Width="32" Height="32" />
+    <Image Name="telephone_pushed" XPos="45" YPos="250" Width="32" Height="32" />
+</Imageset>

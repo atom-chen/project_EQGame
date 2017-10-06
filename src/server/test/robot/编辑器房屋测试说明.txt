@@ -1,0 +1,21 @@
+1. 相关文件test_edit_house1.erl test_edit_house2.erl 对应玩家master, guest
+
+2. 首先开启run.bat
+
+3. 开启test_edit_house1.bat, 启动玩家master, 
+
+4. 开启test_edit_house2.bat, 启动玩家guest, guest 进入 master房间
+
+5. master 看到guest 进入自已家后，开始编辑房屋, 这时guest会被请回家
+
+6. guest 再次请求进master房屋，结果失败
+
+7. master 结束编辑房屋, 又去换墙纸, 结果失败 
+
+8. 请guest 再进入master家，结果成功
+
+
+
+
+
+

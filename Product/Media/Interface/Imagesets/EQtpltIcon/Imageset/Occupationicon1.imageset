@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="Occupationicon1" Imagefile="EQtpltIcon\Occupationicon1.dds" >
+    <Image Name="Occupationicon1" XPos="10" YPos="20" Width="490" Height="445" />
+</Imageset>

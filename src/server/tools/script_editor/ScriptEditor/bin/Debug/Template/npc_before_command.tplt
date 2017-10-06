@@ -1,0 +1,2 @@
+before_command(#npc_state{player_account=_Account}, {0}, {1}, {2}) ->
+	{3}

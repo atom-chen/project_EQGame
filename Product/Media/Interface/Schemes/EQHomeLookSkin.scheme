@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" ?>
+<GUIScheme Name="EQHomeLook">
+  <Imageset Name="MouseArrow" Filename="EQHomeUIimg\Imageset\MouseArrow.imageset" />
+  <Imageset Name="Button1" Filename="EQHomeUIimg\Imageset\Button1.imageset" />
+  <Imageset Name="Button2" Filename="EQHomeUIimg\Imageset\Button2.imageset" />
+  <Imageset Name="Button3" Filename="EQHomeUIimg\Imageset\Button3.imageset" />
+  <Imageset Name="Button4" Filename="EQHomeUIimg\Imageset\Button4.imageset" />
+  <Imageset Name="Button5" Filename="NewEQHomeUIimg\Imageset\Button5.imageset" />
+  <Imageset Name="Button6" Filename="NewEQHomeUIimg\Imageset\Button6.imageset" />
+  <Imageset Name="shopicon1" Filename="NewEQHomeUIimg\Imageset\shopicon1.imageset" />
+  <Imageset Name="shopicon2" Filename="NewEQHomeUIimg\Imageset\shopicon2.imageset" />
+  <Imageset Name="common1" Filename="EQHomeUIimg\Imageset\common1.imageset" />
+  <Imageset Name="common2" Filename="EQHomeUIimg\Imageset\common2.imageset" />
+  <Imageset Name="windows1" Filename="EQHomeUIimg\Imageset\windows1.imageset" />
+  <Imageset Name="window2" Filename="EQHomeUIimg\Imageset\windows2.imageset" />
+  <Imageset Name="windows3" Filename="EQHomeUIimg\Imageset\windows3.imageset" />
+  <Imageset Name="chuangjian" Filename="NewEQHomeUIimg\Imageset\chuangjian.imageset" />
+  <Imageset Name="cpbeijing" Filename="NewEQHomeUIimg\Imageset\cpbeijing.imageset" />
+  <Imageset Name="confirmBuyImageset" Filename="EQHomeUIimg\Imageset\confirmBuy.imageset" />
+  <Imageset Name="chuangjian" Filename="NewEQHomeUIimg\Imageset\chuangjian.imageset" />
+  <Imageset Name="chuangjian2" Filename="NewEQHomeUIimg\Imageset\chuangjian2.imageset" />
+  <Imageset Name="cpbeijing" Filename="NewEQHomeUIimg\Imageset\cpbeijing.imageset" />
+  <Imageset Name="linkhelp" Filename="Newbiehelp\Imageset\linkhelp.imageset" />
+  <Imageset Name="masaike" Filename="EQHomeUIimg\Imageset\masaike.imageset" />
+  <Imageset Name="blank" Filename="Newbiehelp\Imageset\blank.imageset" />
+  <Imageset Name="blank14" Filename="Newbiehelp\Imageset\blank14.imageset" />
+  <Imageset Name="blank31" Filename="Newbiehelp\Imageset\blank31.imageset" />
+  <Imageset Name="blank34" Filename="Newbiehelp\Imageset\blank34.imageset" />
+  <Imageset Name="login" Filename="NewEQHomeUIimg\Imageset\login.imageset" />
+  <Imageset Name="linkhelp_01" Filename="Newbiehelp\Imageset\linkhelp_01.imageset" />
+  
+  <Imageset Name="linkhelp_02" Filename="Newbiehelp\Imageset\linkhelp_02.imageset" />
+  
+  <Imageset Name="linkhelp_03" Filename="Newbiehelp\Imageset\linkhelp_03.imageset" />
+  
+  <Imageset Name="linkhelp_04" Filename="Newbiehelp\Imageset\linkhelp_04.imageset" />
+  
+  <Imageset Name="linkhelp_05" Filename="Newbiehelp\Imageset\linkhelp_05.imageset" />
+  
+  <Imageset Name="linkhelp_06" Filename="Newbiehelp\Imageset\linkhelp_06.imageset" />
+  
+  <Imageset Name="newbiehelp001_01" Filename="Newbiehelp\Imageset\newbiehelp001_01.imageset" />
+  <Imageset Name="newbiehelp001_02" Filename="Newbiehelp\Imageset\newbiehelp001_02.imageset" />
+  <Imageset Name="newbiehelp001_03" Filename="Newbiehelp\Imageset\newbiehelp001_03.imageset" />
+  <Imageset Name="newbiehelp001_04" Filename="Newbiehelp\Imageset\newbiehelp001_04.imageset" />
+  <Imageset Name="newbiehelp001_05" Filename="Newbiehelp\Imageset\newbiehelp001_05.imageset" />
+  <Imageset Name="newbiehelp001_06" Filename="Newbiehelp\Imageset\newbiehelp001_06.imageset" />
+  <Imageset Name="newbiehelp001_07" Filename="Newbiehelp\Imageset\newbiehelp001_07.imageset" />
+  <Imageset Name="newbiehelp001_08" Filename="Newbiehelp\Imageset\newbiehelp001_08.imageset" />
+  <Imageset Name="newbiehelp001_09" Filename="Newbiehelp\Imageset\newbiehelp001_09.imageset" />
+  <Imageset Name="newbiehelp001_10" Filename="Newbiehelp\Imageset\newbiehelp001_10.imageset" />
+  <Imageset Name="newbiehelp001_11" Filename="Newbiehelp\Imageset\newbiehelp001_11.imageset" />
+  <Imageset Name="newbiehelp001_12" Filename="Newbiehelp\Imageset\newbiehelp001_12.imageset" />  
+  <Imageset Name="newbiehelp002_01" Filename="Newbiehelp\Imageset\newbiehelp002_01.imageset" />
+  <Imageset Name="newbiehelp002_02" Filename="Newbiehelp\Imageset\newbiehelp002_02.imageset" />
+  <Imageset Name="newbiehelp002_03" Filename="Newbiehelp\Imageset\newbiehelp002_03.imageset" /> 
+  <Imageset Name="newbiehelp002_04" Filename="Newbiehelp\Imageset\newbiehelp002_04.imageset" />
+  <Imageset Name="newbiehelp002_05" Filename="Newbiehelp\Imageset\newbiehelp002_05.imageset" />
+  <Imageset Name="newbiehelp002_06" Filename="Newbiehelp\Imageset\newbiehelp002_06.imageset" />
+  <Imageset Name="newbiehelp002_07" Filename="Newbiehelp\Imageset\newbiehelp002_07.imageset" />
+  <Imageset Name="newbiehelp002_08" Filename="Newbiehelp\Imageset\newbiehelp002_08.imageset" />
+  <Imageset Name="newbiehelp002_09" Filename="Newbiehelp\Imageset\newbiehelp002_09.imageset" />
+  <Imageset Name="newbiehelp002_10" Filename="Newbiehelp\Imageset\newbiehelp002_10.imageset" />
+  <Imageset Name="newbiehelp002_11" Filename="Newbiehelp\Imageset\newbiehelp002_11.imageset" />
+  <Imageset Name="newbiehelp002_12" Filename="Newbiehelp\Imageset\newbiehelp002_12.imageset" />
+  <Imageset Name="newbiehelp003_01" Filename="Newbiehelp\Imageset\newbiehelp003_01.imageset" />
+  <Imageset Name="newbiehelp003_02" Filename="Newbiehelp\Imageset\newbiehelp003_02.imageset" />
+  <Imageset Name="newbiehelp003_03" Filename="Newbiehelp\Imageset\newbiehelp003_03.imageset" />
+  <Imageset Name="newbiehelp003_04" Filename="Newbiehelp\Imageset\newbiehelp003_04.imageset" />
+  <Imageset Name="newbiehelp003_05" Filename="Newbiehelp\Imageset\newbiehelp003_05.imageset" />
+  <Imageset Name="newbiehelp003_06" Filename="Newbiehelp\Imageset\newbiehelp003_06.imageset" />
+  <Imageset Name="newbiehelp003_07" Filename="Newbiehelp\Imageset\newbiehelp003_07.imageset" />
+  <Imageset Name="newbiehelp003_08" Filename="Newbiehelp\Imageset\newbiehelp003_08.imageset" />
+  <Imageset Name="newbiehelp003_09" Filename="Newbiehelp\Imageset\newbiehelp003_09.imageset" />
+  <Imageset Name="newbiehelp003_10" Filename="Newbiehelp\Imageset\newbiehelp003_10.imageset" />
+  <Imageset Name="newbiehelp003_11" Filename="Newbiehelp\Imageset\newbiehelp003_11.imageset" />
+  <Imageset Name="newbiehelp003_12" Filename="Newbiehelp\Imageset\newbiehelp003_12.imageset" />  
+  <Imageset Name="newbiehelp004_03" Filename="Newbiehelp\Imageset\newbiehelp004_03.imageset" />
+  <Imageset Name="newbiehelp004_04" Filename="Newbiehelp\Imageset\newbiehelp004_04.imageset" />
+  <Imageset Name="newbiehelp005_01" Filename="Newbiehelp\Imageset\newbiehelp005_01.imageset" />
+  <Imageset Name="newbiehelp005_02" Filename="Newbiehelp\Imageset\newbiehelp005_02.imageset" />
+  <Imageset Name="newbiehelp005_03" Filename="Newbiehelp\Imageset\newbiehelp005_03.imageset" />
+  <Imageset Name="newbiehelp005_04" Filename="Newbiehelp\Imageset\newbiehelp005_04.imageset" />
+  <Imageset Name="newbiehelp005_05" Filename="Newbiehelp\Imageset\newbiehelp005_05.imageset" />
+  <Imageset Name="newbiehelp005_06" Filename="Newbiehelp\Imageset\newbiehelp005_06.imageset" />
+  <Imageset Name="newbiehelp005_07" Filename="Newbiehelp\Imageset\newbiehelp005_07.imageset" />
+  <Imageset Name="newbiehelp005_08" Filename="Newbiehelp\Imageset\newbiehelp005_08.imageset" />
+  <Imageset Name="newbiehelp005_09" Filename="Newbiehelp\Imageset\newbiehelp005_09.imageset" />
+  <Imageset Name="newbiehelp005_10" Filename="Newbiehelp\Imageset\newbiehelp005_10.imageset" />
+  <Imageset Name="newbiehelp005_11" Filename="Newbiehelp\Imageset\newbiehelp005_11.imageset" />
+  <Imageset Name="newbiehelp005_12" Filename="Newbiehelp\Imageset\newbiehelp005_12.imageset" />  
+  <Imageset Name="newbiehelp006_01" Filename="Newbiehelp\Imageset\newbiehelp006_01.imageset" />
+  <Imageset Name="newbiehelp006_02" Filename="Newbiehelp\Imageset\newbiehelp006_02.imageset" />
+  <Imageset Name="newbiehelp006_03" Filename="Newbiehelp\Imageset\newbiehelp006_03.imageset" />
+  <Imageset Name="newbiehelp006_04" Filename="Newbiehelp\Imageset\newbiehelp006_04.imageset" />
+  <Imageset Name="newbiehelp006_05" Filename="Newbiehelp\Imageset\newbiehelp006_05.imageset" />
+  <Imageset Name="newbiehelp006_06" Filename="Newbiehelp\Imageset\newbiehelp006_06.imageset" />
+  <Imageset Name="newbiehelp006_07" Filename="Newbiehelp\Imageset\newbiehelp006_07.imageset" />
+  <Imageset Name="newbiehelp006_08" Filename="Newbiehelp\Imageset\newbiehelp006_08.imageset" />
+  <Imageset Name="newbiehelp006_09" Filename="Newbiehelp\Imageset\newbiehelp006_09.imageset" />
+  <Imageset Name="newbiehelp006_10" Filename="Newbiehelp\Imageset\newbiehelp006_10.imageset" />
+  <Imageset Name="newbiehelp006_11" Filename="Newbiehelp\Imageset\newbiehelp006_11.imageset" />
+  <Imageset Name="newbiehelp006_12" Filename="Newbiehelp\Imageset\newbiehelp006_12.imageset" />
+  <Imageset Name="newbiehelp007_04" Filename="Newbiehelp\Imageset\newbiehelp007_04.imageset" />
+  <Imageset Name="newbiehelp008_01" Filename="Newbiehelp\Imageset\newbiehelp008_01.imageset" />
+  <Imageset Name="newbiehelp008_02" Filename="Newbiehelp\Imageset\newbiehelp008_02.imageset" />
+  <Imageset Name="newbiehelp008_03" Filename="Newbiehelp\Imageset\newbiehelp008_03.imageset" />
+  <Imageset Name="newbiehelp008_04" Filename="Newbiehelp\Imageset\newbiehelp008_04.imageset" />
+  <Imageset Name="newbiehelp008_05" Filename="Newbiehelp\Imageset\newbiehelp008_05.imageset" />
+  <Imageset Name="newbiehelp008_06" Filename="Newbiehelp\Imageset\newbiehelp008_06.imageset" />
+  <Imageset Name="newbiehelp008_07" Filename="Newbiehelp\Imageset\newbiehelp008_07.imageset" />
+  <Imageset Name="newbiehelp008_08" Filename="Newbiehelp\Imageset\newbiehelp008_08.imageset" />
+  <Imageset Name="newbiehelp008_09" Filename="Newbiehelp\Imageset\newbiehelp008_09.imageset" />
+  <Imageset Name="newbiehelp008_10" Filename="Newbiehelp\Imageset\newbiehelp008_10.imageset" />
+  <Imageset Name="newbiehelp008_11" Filename="Newbiehelp\Imageset\newbiehelp008_11.imageset" />
+  <Imageset Name="newbiehelp008_12" Filename="Newbiehelp\Imageset\newbiehelp008_12.imageset" />
+  <Imageset Name="newbiehelp009_01" Filename="Newbiehelp\Imageset\newbiehelp009_01.imageset" />
+  <Imageset Name="newbiehelp009_02" Filename="Newbiehelp\Imageset\newbiehelp009_02.imageset" />
+  <Imageset Name="newbiehelp009_03" Filename="Newbiehelp\Imageset\newbiehelp009_03.imageset" />
+  <Imageset Name="newbiehelp009_04" Filename="Newbiehelp\Imageset\newbiehelp009_04.imageset" />
+  <Imageset Name="newbiehelp009_05" Filename="Newbiehelp\Imageset\newbiehelp009_05.imageset" />
+  <Imageset Name="newbiehelp009_06" Filename="Newbiehelp\Imageset\newbiehelp009_06.imageset" />
+  <Imageset Name="newbiehelp010_04" Filename="Newbiehelp\Imageset\newbiehelp010_04.imageset" />
+  <Imageset Name="newbiehelp011_02" Filename="Newbiehelp\Imageset\newbiehelp011_02.imageset" />
+  <Imageset Name="newbiehelp013_04" Filename="Newbiehelp\Imageset\newbiehelp013_04.imageset" />
+  <Imageset Name="newbiehelp013_05" Filename="Newbiehelp\Imageset\newbiehelp013_05.imageset" />
+  <Imageset Name="newbiehelp014_02" Filename="Newbiehelp\Imageset\newbiehelp014_02.imageset" />
+  <Imageset Name="newbiehelp015_04" Filename="Newbiehelp\Imageset\newbiehelp015_04.imageset" /> 
+  <Imageset Name="newbiehelp015_05" Filename="Newbiehelp\Imageset\newbiehelp015_05.imageset" /> 
+	<Imageset Name="newbiehelp016_04" Filename="Newbiehelp\Imageset\newbiehelp016_04.imageset" /> 
+	<Imageset Name="newbiehelp016_05" Filename="Newbiehelp\Imageset\newbiehelp016_05.imageset" /> 
+	<Imageset Name="newbiehelp017_01" Filename="Newbiehelp\Imageset\newbiehelp017_01.imageset" /> 
+	<Imageset Name="newbiehelp017_02" Filename="Newbiehelp\Imageset\newbiehelp017_02.imageset" /> 
+	<Imageset Name="newbiehelp017_03" Filename="Newbiehelp\Imageset\newbiehelp017_03.imageset" /> 
+	<Imageset Name="newbiehelp017_04" Filename="Newbiehelp\Imageset\newbiehelp017_04.imageset" /> 
+	<Imageset Name="newbiehelp018_04" Filename="Newbiehelp\Imageset\newbiehelp018_04.imageset" /> 
+	<Imageset Name="newbiehelp019_04" Filename="Newbiehelp\Imageset\newbiehelp019_04.imageset" /> 
+  <Imageset Name="newbiehelp020_01" Filename="Newbiehelp\Imageset\newbiehelp020_01.imageset" /> 
+  <Imageset Name="newbiehelp021_01" Filename="Newbiehelp\Imageset\newbiehelp021_01.imageset" />  
+  <Imageset Name="newbiehelp021_02" Filename="Newbiehelp\Imageset\newbiehelp021_02.imageset" />  
+  <Imageset Name="newbiehelp022_01" Filename="Newbiehelp\Imageset\newbiehelp022_01.imageset" />
+  <Imageset Name="newbiehelp022_02" Filename="Newbiehelp\Imageset\newbiehelp022_02.imageset" />
+  <Imageset Name="newbiehelp022_03" Filename="Newbiehelp\Imageset\newbiehelp022_03.imageset" />
+  <Imageset Name="newbiehelp022_04" Filename="Newbiehelp\Imageset\newbiehelp022_04.imageset" />
+  <Imageset Name="newbiehelp022_05" Filename="Newbiehelp\Imageset\newbiehelp022_05.imageset" />
+  <Imageset Name="newbiehelp022_06" Filename="Newbiehelp\Imageset\newbiehelp022_06.imageset" />
+  <Imageset Name="newbiehelp022_07" Filename="Newbiehelp\Imageset\newbiehelp022_07.imageset" />
+  <Imageset Name="newbiehelp022_08" Filename="Newbiehelp\Imageset\newbiehelp022_08.imageset" />
+  <Imageset Name="newbiehelp022_09" Filename="Newbiehelp\Imageset\newbiehelp022_09.imageset" />
+  <Imageset Name="newbiehelp022_10" Filename="Newbiehelp\Imageset\newbiehelp022_10.imageset" />
+  <Imageset Name="newbiehelp022_11" Filename="Newbiehelp\Imageset\newbiehelp022_11.imageset" />
+  <Imageset Name="newbiehelp022_12" Filename="Newbiehelp\Imageset\newbiehelp022_12.imageset" />  
+  <Imageset Name="newbiehelp023_01" Filename="Newbiehelp\Imageset\newbiehelp023_01.imageset" />  
+  <Imageset Name="newbiehelp024_01" Filename="Newbiehelp\Imageset\newbiehelp024_01.imageset" />  
+  <Imageset Name="newbiehelp025_01" Filename="Newbiehelp\Imageset\newbiehelp025_01.imageset" />
+
+  <Imageset Name="newbiehelp026_01" Filename="Newbiehelp\Imageset\newbiehelp026_01.imageset" />
+  <Imageset Name="newbiehelp026_02" Filename="Newbiehelp\Imageset\newbiehelp026_02.imageset" />
+  <Imageset Name="newbiehelp026_03" Filename="Newbiehelp\Imageset\newbiehelp026_03.imageset" />
+  <Imageset Name="newbiehelp026_04" Filename="Newbiehelp\Imageset\newbiehelp026_04.imageset" />
+  <Imageset Name="newbiehelp026_05" Filename="Newbiehelp\Imageset\newbiehelp026_05.imageset" />
+  <Imageset Name="newbiehelp026_06" Filename="Newbiehelp\Imageset\newbiehelp026_06.imageset" />
+  <Imageset Name="newbiehelp026_07" Filename="Newbiehelp\Imageset\newbiehelp026_07.imageset" />
+  <Imageset Name="newbiehelp026_08" Filename="Newbiehelp\Imageset\newbiehelp026_08.imageset" />
+  <Imageset Name="newbiehelp026_09" Filename="Newbiehelp\Imageset\newbiehelp026_09.imageset" />
+  <Imageset Name="newbiehelp026_10" Filename="Newbiehelp\Imageset\newbiehelp026_10.imageset" />
+  <Imageset Name="newbiehelp026_11" Filename="Newbiehelp\Imageset\newbiehelp026_11.imageset" />
+  <Imageset Name="newbiehelp026_12" Filename="Newbiehelp\Imageset\newbiehelp026_12.imageset" />
+  <Imageset Name="newbiehelp027_01" Filename="Newbiehelp\Imageset\newbiehelp027_01.imageset" />
+  <Imageset Name="newbiehelp027_02" Filename="Newbiehelp\Imageset\newbiehelp027_02.imageset" />
+  <Imageset Name="newbiehelp027_03" Filename="Newbiehelp\Imageset\newbiehelp027_03.imageset" />
+  <Imageset Name="newbiehelp027_04" Filename="Newbiehelp\Imageset\newbiehelp027_04.imageset" />
+  <Imageset Name="newbiehelp027_05" Filename="Newbiehelp\Imageset\newbiehelp027_05.imageset" />
+  <Imageset Name="newbiehelp027_06" Filename="Newbiehelp\Imageset\newbiehelp027_06.imageset" />
+  <Imageset Name="newbiehelp027_07" Filename="Newbiehelp\Imageset\newbiehelp027_07.imageset" />
+  <Imageset Name="newbiehelp027_08" Filename="Newbiehelp\Imageset\newbiehelp027_08.imageset" />
+  <Imageset Name="newbiehelp027_09" Filename="Newbiehelp\Imageset\newbiehelp027_09.imageset" />
+  <Imageset Name="newbiehelp027_10" Filename="Newbiehelp\Imageset\newbiehelp027_10.imageset" />
+  <Imageset Name="newbiehelp027_11" Filename="Newbiehelp\Imageset\newbiehelp027_11.imageset" />
+  <Imageset Name="newbiehelp027_12" Filename="Newbiehelp\Imageset\newbiehelp027_12.imageset" />
+
+  <Imageset Name="Interfacehelp001_01" Filename="Newbiehelp\Imageset\Interfacehelp001_01.imageset" />
+  <Imageset Name="Interfacehelp001_02" Filename="Newbiehelp\Imageset\Interfacehelp001_02.imageset" />
+  <Imageset Name="Interfacehelp001_03" Filename="Newbiehelp\Imageset\Interfacehelp001_03.imageset" />
+  <Imageset Name="Interfacehelp001_04" Filename="Newbiehelp\Imageset\Interfacehelp001_04.imageset" />
+  <Imageset Name="Interfacehelp001_05" Filename="Newbiehelp\Imageset\Interfacehelp001_05.imageset" />
+  <Imageset Name="Interfacehelp001_06" Filename="Newbiehelp\Imageset\Interfacehelp001_06.imageset" />
+  <Imageset Name="Interfacehelp001_07" Filename="Newbiehelp\Imageset\Interfacehelp001_07.imageset" />
+  <Imageset Name="Interfacehelp001_08" Filename="Newbiehelp\Imageset\Interfacehelp001_08.imageset" />
+  <Imageset Name="Interfacehelp001_09" Filename="Newbiehelp\Imageset\Interfacehelp001_09.imageset" />
+  <Imageset Name="Interfacehelp001_10" Filename="Newbiehelp\Imageset\Interfacehelp001_10.imageset" />
+  <Imageset Name="Interfacehelp001_11" Filename="Newbiehelp\Imageset\Interfacehelp001_11.imageset" />
+  <Imageset Name="Interfacehelp001_12" Filename="Newbiehelp\Imageset\Interfacehelp001_12.imageset" />  
+  <Imageset Name="Interfacehelp002_01" Filename="Newbiehelp\Imageset\Interfacehelp002_01.imageset" />
+  <Imageset Name="Interfacehelp002_02" Filename="Newbiehelp\Imageset\Interfacehelp002_02.imageset" />
+  <Imageset Name="Interfacehelp002_03" Filename="Newbiehelp\Imageset\Interfacehelp002_03.imageset" />
+  <Imageset Name="Interfacehelp002_04" Filename="Newbiehelp\Imageset\Interfacehelp002_04.imageset" />
+  <Imageset Name="Interfacehelp002_05" Filename="Newbiehelp\Imageset\Interfacehelp002_05.imageset" />
+  <Imageset Name="Interfacehelp002_06" Filename="Newbiehelp\Imageset\Interfacehelp002_06.imageset" />
+  <Imageset Name="Interfacehelp002_07" Filename="Newbiehelp\Imageset\Interfacehelp002_07.imageset" />
+  <Imageset Name="Interfacehelp002_08" Filename="Newbiehelp\Imageset\Interfacehelp002_08.imageset" />
+  <Imageset Name="Interfacehelp002_09" Filename="Newbiehelp\Imageset\Interfacehelp002_09.imageset" />
+  <Imageset Name="Interfacehelp002_10" Filename="Newbiehelp\Imageset\Interfacehelp002_10.imageset" />
+  <Imageset Name="Interfacehelp002_11" Filename="Newbiehelp\Imageset\Interfacehelp002_11.imageset" />
+  <Imageset Name="Interfacehelp002_12" Filename="Newbiehelp\Imageset\Interfacehelp002_12.imageset" />
+  <Imageset Name="Interfacehelp003_01" Filename="Newbiehelp\Imageset\Interfacehelp003_01.imageset" />
+  <Imageset Name="Interfacehelp003_02" Filename="Newbiehelp\Imageset\Interfacehelp003_02.imageset" />
+  <Imageset Name="Interfacehelp003_03" Filename="Newbiehelp\Imageset\Interfacehelp003_03.imageset" />
+  <Imageset Name="Interfacehelp003_04" Filename="Newbiehelp\Imageset\Interfacehelp003_04.imageset" />
+  <Imageset Name="Interfacehelp003_05" Filename="Newbiehelp\Imageset\Interfacehelp003_05.imageset" />
+  <Imageset Name="Interfacehelp003_06" Filename="Newbiehelp\Imageset\Interfacehelp003_06.imageset" />
+  <Imageset Name="Interfacehelp003_07" Filename="Newbiehelp\Imageset\Interfacehelp003_07.imageset" />
+  <Imageset Name="Interfacehelp003_08" Filename="Newbiehelp\Imageset\Interfacehelp003_08.imageset" />
+  <Imageset Name="Interfacehelp003_09" Filename="Newbiehelp\Imageset\Interfacehelp003_09.imageset" />
+  <Imageset Name="Interfacehelp003_10" Filename="Newbiehelp\Imageset\Interfacehelp003_10.imageset" />
+  <Imageset Name="Interfacehelp003_11" Filename="Newbiehelp\Imageset\Interfacehelp003_11.imageset" />
+  <Imageset Name="Interfacehelp003_12" Filename="Newbiehelp\Imageset\Interfacehelp003_12.imageset" />
+
+	<Imageset Name="00400001_001" Filename="minimap\imageset\00400001_001.imageset" />
+	<Imageset Name="00400001_002" Filename="minimap\imageset\00400001_002.imageset" />
+	<Imageset Name="00400001_003" Filename="minimap\imageset\00400001_003.imageset" />
+	<Imageset Name="00400001_004" Filename="minimap\imageset\00400001_004.imageset" />
+	<Imageset Name="00400001_005" Filename="minimap\imageset\00400001_005.imageset" />
+	<Imageset Name="00400001_006" Filename="minimap\imageset\00400001_006.imageset" />
+	<Imageset Name="00400001_007" Filename="minimap\imageset\00400001_007.imageset" />
+	<Imageset Name="00400001_008" Filename="minimap\imageset\00400001_008.imageset" />
+	<Imageset Name="00400001_009" Filename="minimap\imageset\00400001_009.imageset" />
+	<Imageset Name="00400001_010" Filename="minimap\imageset\00400001_010.imageset" />
+	<Imageset Name="00400001_011" Filename="minimap\imageset\00400001_011.imageset" />
+	<Imageset Name="00400001_012" Filename="minimap\imageset\00400001_012.imageset" />
+	<Imageset Name="00400001_013" Filename="minimap\imageset\00400001_013.imageset" />
+	<Imageset Name="00400001_014" Filename="minimap\imageset\00400001_014.imageset" />
+	<Imageset Name="00400001_015" Filename="minimap\imageset\00400001_015.imageset" />
+	<Imageset Name="00400001_016" Filename="minimap\imageset\00400001_016.imageset" />
+
+	<Imageset Name="00400004_001" Filename="minimap\imageset\00400004_001.imageset" />
+	<Imageset Name="00400004_002" Filename="minimap\imageset\00400004_002.imageset" />
+	<Imageset Name="00400004_003" Filename="minimap\imageset\00400004_003.imageset" />
+	<Imageset Name="00400004_004" Filename="minimap\imageset\00400004_004.imageset" />
+	<Imageset Name="00400004_005" Filename="minimap\imageset\00400004_005.imageset" />
+	<Imageset Name="00400004_006" Filename="minimap\imageset\00400004_006.imageset" />
+	<Imageset Name="00400004_007" Filename="minimap\imageset\00400004_007.imageset" />
+	<Imageset Name="00400004_008" Filename="minimap\imageset\00400004_008.imageset" />
+	<Imageset Name="00400004_009" Filename="minimap\imageset\00400004_009.imageset" />
+	<Imageset Name="00400004_010" Filename="minimap\imageset\00400004_010.imageset" />
+	<Imageset Name="00400004_011" Filename="minimap\imageset\00400004_011.imageset" />
+	<Imageset Name="00400004_012" Filename="minimap\imageset\00400004_012.imageset" />
+	<Imageset Name="00400004_013" Filename="minimap\imageset\00400004_013.imageset" />
+	<Imageset Name="00400004_014" Filename="minimap\imageset\00400004_014.imageset" />
+	<Imageset Name="00400004_015" Filename="minimap\imageset\00400004_015.imageset" />
+	<Imageset Name="00400004_016" Filename="minimap\imageset\00400004_016.imageset" />
+
+	<Imageset Name="00400005_001" Filename="minimap\imageset\00400005_001.imageset" />
+	<Imageset Name="00400005_002" Filename="minimap\imageset\00400005_002.imageset" />
+	<Imageset Name="00400005_003" Filename="minimap\imageset\00400005_003.imageset" />
+	<Imageset Name="00400005_004" Filename="minimap\imageset\00400005_004.imageset" />
+	<Imageset Name="00400005_005" Filename="minimap\imageset\00400005_005.imageset" />
+	<Imageset Name="00400005_006" Filename="minimap\imageset\00400005_006.imageset" />
+	<Imageset Name="00400005_007" Filename="minimap\imageset\00400005_007.imageset" />
+	<Imageset Name="00400005_008" Filename="minimap\imageset\00400005_008.imageset" />
+	<Imageset Name="00400005_009" Filename="minimap\imageset\00400005_009.imageset" />
+	<Imageset Name="00400005_010" Filename="minimap\imageset\00400005_010.imageset" />
+	<Imageset Name="00400005_011" Filename="minimap\imageset\00400005_011.imageset" />
+	<Imageset Name="00400005_012" Filename="minimap\imageset\00400005_012.imageset" />
+	<Imageset Name="00400005_013" Filename="minimap\imageset\00400005_013.imageset" />
+	<Imageset Name="00400005_014" Filename="minimap\imageset\00400005_014.imageset" />
+	<Imageset Name="00400005_015" Filename="minimap\imageset\00400005_015.imageset" />
+	<Imageset Name="00400005_016" Filename="minimap\imageset\00400005_016.imageset" />
+  
+	<Imageset Name="00400006_001" Filename="minimap\imageset\00400006_001.imageset" />
+	<Imageset Name="00400006_002" Filename="minimap\imageset\00400006_002.imageset" />
+	<Imageset Name="00400006_003" Filename="minimap\imageset\00400006_003.imageset" />
+	<Imageset Name="00400006_004" Filename="minimap\imageset\00400006_004.imageset" />
+	<Imageset Name="00400006_005" Filename="minimap\imageset\00400006_005.imageset" />
+	<Imageset Name="00400006_006" Filename="minimap\imageset\00400006_006.imageset" />
+	<Imageset Name="00400006_007" Filename="minimap\imageset\00400006_007.imageset" />
+	<Imageset Name="00400006_008" Filename="minimap\imageset\00400006_008.imageset" />
+	<Imageset Name="00400006_009" Filename="minimap\imageset\00400006_009.imageset" />
+	<Imageset Name="00400006_010" Filename="minimap\imageset\00400006_010.imageset" />
+	<Imageset Name="00400006_011" Filename="minimap\imageset\00400006_011.imageset" />
+	<Imageset Name="00400006_012" Filename="minimap\imageset\00400006_012.imageset" />
+	<Imageset Name="00400006_013" Filename="minimap\imageset\00400006_013.imageset" />
+	<Imageset Name="00400006_014" Filename="minimap\imageset\00400006_014.imageset" />
+	<Imageset Name="00400006_015" Filename="minimap\imageset\00400006_015.imageset" />
+	<Imageset Name="00400006_016" Filename="minimap\imageset\00400006_016.imageset" />
+  
+  <Imageset Name="drifting_1" Filename="drifting\Imageset\drifting_1.imageset" />
+  <Imageset Name="drifting_2" Filename="drifting\Imageset\drifting_2.imageset" />
+  <Imageset Name="drifting_3" Filename="drifting\Imageset\drifting_3.imageset" />
+  <Imageset Name="drifting_4" Filename="drifting\Imageset\drifting_4.imageset" />
+  <Imageset Name="drifting_5" Filename="drifting\Imageset\drifting_5.imageset" />
+  <Imageset Name="drifting_6" Filename="drifting\Imageset\drifting_6.imageset" />
+  <Imageset Name="drifting_7" Filename="drifting\Imageset\drifting_7.imageset" />
+  <Imageset Name="drifting_8" Filename="drifting\Imageset\drifting_8.imageset" />
+  <Imageset Name="drifting_face" Filename="drifting\Imageset\drifting_face.imageset" />
+  <Imageset Name="drifting_face1" Filename="drifting\Imageset\drifting_face1.imageset" />
+  <Imageset Name="drifting_face2" Filename="drifting\Imageset\drifting_face2.imageset" />
+  <!--
+	<Font Name="simhei-10" Filename="simhei-10.font" />
+	<Font Name="simhei-12" Filename="simhei-12.font" />
+	-->
+  <Font Name="simsun-10" Filename="simsun-10.font" />
+  <Font Name="simsun-11" Filename="simsun-11.font" />
+  <Font Name="simsun-12" Filename="simsun-12.font" />
+  <!--
+	<Font Name="simsun-13" Filename="simsun-13.font" />
+	<Font Name="simsun-14" Filename="simsun-14.font" />
+	<Font Name="simsun-15" Filename="simsun-15.font" />
+	<Font Name="simsun-16" Filename="simsun-16.font" />
+	-->
+  <LookNFeel Filename="EQHomeLook.looknfeel" />
+  <LookNFeel Filename="EQHomeLook2.looknfeel" />
+  <LookNFeel Filename="NewEQHomeLook.looknfeel" />
+  <WindowRendererSet Filename="CEGUIFalagardWRBase" />
+  <FalagardMapping WindowType="EQHomeLook/Button"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="EQHomeLook/Button" />
+  <FalagardMapping WindowType="EQHomeLook/ImageButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="EQHomeLook/ImageButton" />
+  <FalagardMapping WindowType="EQHomeLook/ImageButton(whitefont)" TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="EQHomeLook/ImageButton(whitefont)" />
+  <FalagardMapping WindowType="EQHomeLook/Editbox"          TargetType="CEGUI/Editbox"          Renderer="Falagard/Editbox"          LookNFeel="EQHomeLook/Editbox" />
+  <FalagardMapping WindowType="EQHomeLook/Editbox1"          TargetType="CEGUI/Editbox"          Renderer="Falagard/Editbox"          LookNFeel="EQHomeLook/Editbox1" />
+  <FalagardMapping WindowType="EQHomeLook/Editbox2"      TargetType="CEGUI/Editbox"     Renderer="Falagard/Editbox"      LookNFeel="EQHomeLook/Editbox2" />
+  <FalagardMapping WindowType="EQHomeLook/Editbox3"      TargetType="CEGUI/Editbox"     Renderer="Falagard/Editbox"      LookNFeel="EQHomeLook/Editbox3" />
+  <FalagardMapping WindowType="EQHomeLook/Editbox4"      TargetType="CEGUI/Editbox"     Renderer="Falagard/Editbox"      LookNFeel="EQHomeLook/Editbox4" />
+  <FalagardMapping WindowType="EQHomeLook/Editbox5"      TargetType="CEGUI/Editbox"     Renderer="Falagard/Editbox"      LookNFeel="EQHomeLook/Editbox5" />
+  <FalagardMapping WindowType="EQHomeLook/Editbox6"      TargetType="CEGUI/Editbox"     Renderer="Falagard/Editbox"      LookNFeel="EQHomeLook/Editbox6" />
+  <FalagardMapping WindowType="EQHomeLook/EditboxT"      TargetType="CEGUI/Editbox"     Renderer="Falagard/Editbox"      LookNFeel="EQHomeLook/EditboxT" />
+  <FalagardMapping WindowType="EQHomeLook/Checkbox1"    TargetType="CEGUI/Checkbox"    Renderer="Falagard/ToggleButton" LookNFeel="EQHomeLook/Checkbox1" />
+  <FalagardMapping WindowType="EQHomeLook/StaticText"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="EQHomeLook/StaticText" />
+  <FalagardMapping WindowType="EQHomeLook/StaticText2"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="EQHomeLook/StaticText2" />
+  <FalagardMapping WindowType="EQHomeLook/StaticText3"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="EQHomeLook/StaticText3" />
+  <FalagardMapping WindowType="EQHomeLook/StaticText4"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="EQHomeLook/StaticText4" />
+  <FalagardMapping WindowType="EQHomeLook/MultiLineEditbox" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="EQHomeLook/MultiLineEditbox" />
+  <FalagardMapping WindowType="EQHomeLook/MultiLineEditbox1" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="EQHomeLook/MultiLineEditbox1" />
+  <FalagardMapping WindowType="EQHomeLook/MultiLineEditbox2" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="EQHomeLook/MultiLineEditbox2" />
+  <FalagardMapping WindowType="EQHomeLook/VerticalScrollbar"   TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="EQHomeLook/VerticalScrollbar" />
+  <FalagardMapping WindowType="EQHomeLook/HorizontalScrollbar" TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="EQHomeLook/HorizontalScrollbar" />
+  <FalagardMapping WindowType="EQHomeLook/VerticalScrollbarThumb"   TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="EQHomeLook/VerticalScrollbarThumb" />
+  <FalagardMapping WindowType="EQHomeLook/HorizontalScrollbarThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="EQHomeLook/HorizontalScrollbarThumb" />
+  <FalagardMapping WindowType="EQHomeLook/FrameWindow"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="EQHomeLook/FrameWindow" />
+  <FalagardMapping WindowType="EQHomeLook/FrameWindow1"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="EQHomeLook/FrameWindow1" />
+  <FalagardMapping WindowType="EQHomeLook/FrameWindow(WithGrayBg)"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="EQHomeLook/FrameWindow(WithGrayBg)" />
+  <FalagardMapping WindowType="EQHomeLook/Titlebar"     TargetType="CEGUI/Titlebar"    Renderer="Falagard/Titlebar"     LookNFeel="EQHomeLook/Titlebar" />
+  <FalagardMapping WindowType="EQHomeLook/Titlebar1"     TargetType="CEGUI/Titlebar"    Renderer="Falagard/Titlebar"     LookNFeel="EQHomeLook/Titlebar1" />
+  <FalagardMapping WindowType="EQHomeLook/SystemButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/SystemButton" LookNFeel="EQHomeLook/SystemButton" />
+  <FalagardMapping WindowType="EQHomeLook/SystemButton1" TargetType="CEGUI/PushButton"  Renderer="Falagard/SystemButton" LookNFeel="EQHomeLook/SystemButton1" />
+  <FalagardMapping WindowType="EQHomeLook/ProgressBar" TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="EQHomeLook/ProgressBar" />
+  <FalagardMapping WindowType="EQHomeLook/ProgressBar1" TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="EQHomeLook/ProgressBar1" />
+  <FalagardMapping WindowType="EQHomeLook/ProgressBar2" TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="EQHomeLook/ProgressBar2" />
+  <FalagardMapping WindowType="EQHomeLook/ProgressBar3" TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="EQHomeLook/ProgressBar3" />
+  <FalagardMapping WindowType="EQHomeLook/TabControl" TargetType="CEGUI/TabControl" Renderer="Falagard/TabControl" LookNFeel="EQHomeLook/TabControl" />
+  <FalagardMapping WindowType="EQHomeLook/TabControl1" TargetType="CEGUI/TabControl" Renderer="Falagard/TabControl" LookNFeel="EQHomeLook/TabControl1" />
+  <FalagardMapping WindowType="EQHomeLook/TabControl2" TargetType="CEGUI/TabControl" Renderer="Falagard/TabControl" LookNFeel="EQHomeLook/TabControl2" />
+  <FalagardMapping WindowType="EQHomeLook/TabControl3" TargetType="CEGUI/TabControl" Renderer="Falagard/TabControl" LookNFeel="EQHomeLook/TabControl3" />
+  <FalagardMapping WindowType="EQHomeLook/TabButton"  TargetType="CEGUI/TabButton"  Renderer="Falagard/TabButton"  LookNFeel="EQHomeLook/TabButton" />
+  <FalagardMapping WindowType="EQHomeLook/TabButton1"  TargetType="CEGUI/TabButton"  Renderer="Falagard/TabButton"  LookNFeel="EQHomeLook/TabButton1" />
+  <FalagardMapping WindowType="EQHomeLook/TabButton2"  TargetType="CEGUI/TabButton"  Renderer="Falagard/TabButton"  LookNFeel="EQHomeLook/TabButton2" />
+  <FalagardMapping WindowType="EQHomeLook/TabButton3"  TargetType="CEGUI/TabButton"  Renderer="Falagard/TabButton"  LookNFeel="EQHomeLook/TabButton3" />
+  <FalagardMapping WindowType="EQHomeLook/TabContentPane"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="EQHomeLook/TabContentPane" />
+  <FalagardMapping WindowType="EQHomeLook/TabContentPane1"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="EQHomeLook/TabContentPane1" />
+  <FalagardMapping WindowType="EQHomeLook/TabContentPane2"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="EQHomeLook/TabContentPane2" />
+  <FalagardMapping WindowType="EQHomeLook/TabContentPane3"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="EQHomeLook/TabContentPane3" />
+  <FalagardMapping WindowType="EQHomeLook/TabButtonPane"     TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="EQHomeLook/TabButtonPane" />
+  <FalagardMapping WindowType="EQHomeLook/TabButtonPane1"     TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="EQHomeLook/TabButtonPane1" />
+  <FalagardMapping WindowType="EQHomeLook/TabButtonPane2"     TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="EQHomeLook/TabButtonPane2" />
+  <FalagardMapping WindowType="EQHomeLook/TabButtonPane3"     TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="EQHomeLook/TabButtonPane3" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage2" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage2" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage3" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage3" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage4" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage4" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage5" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage5" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage6" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage6" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage7" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage7" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage8" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage8" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage9" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage9" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage10" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage10" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage11" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage11" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage12" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage12" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage13" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage13" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage14" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage14" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage15" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage15" />
+  <FalagardMapping WindowType="EQHomeLook/StaticImage16" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/StaticImage16" />
+  <FalagardMapping WindowType="EQHomeLook/Tree" 					TargetType="CEGUI/Tree"   Renderer="Falagard/Tree"   LookNFeel="EQHomeLook/Tree" />
+  <FalagardMapping WindowType="EQHomeLook/RadioButton" TargetType="CEGUI/RadioButton" Renderer="Falagard/ToggleButton" LookNFeel="EQHomeLook/RadioButton" />
+  <FalagardMapping WindowType="EQHomeLook/ScrollablePane" TargetType="CEGUI/ScrollablePane" Renderer="Falagard/ScrollablePane" LookNFeel="EQHomeLook/ScrollablePane" />
+  <FalagardMapping WindowType="EQHomeLook/AnimateBox" TargetType="CEGUI/AnimateBox" Renderer="Falagard/AnimateBox" LookNFeel="EQHomeLook/AnimateBox" />
+  <FalagardMapping WindowType="EQHomeLook/MultiLineBox" TargetType="CEGUI/MultiLineBox" Renderer="Falagard/MultiLineBox" LookNFeel="EQHomeLook/MultiLineBox" />
+  <FalagardMapping WindowType="EQHomeLook/MultiLineBox2" TargetType="CEGUI/MultiLineBox" Renderer="Falagard/MultiLineBox" LookNFeel="EQHomeLook/MultiLineBox2" />
+  <FalagardMapping WindowType="EQHomeLook/MultiLineBox3" TargetType="CEGUI/MultiLineBox" Renderer="Falagard/MultiLineBox" LookNFeel="EQHomeLook/MultiLineBox3" />
+  <FalagardMapping WindowType="EQHomeLook/ItemhintFrame"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="EQHomeLook/ItemhintFrame" />
+  <FalagardMapping WindowType="EQHomeLook/TransRichTextbox" TargetType="CEGUI/MultiLineBox" Renderer="Falagard/MultiLineBox" LookNFeel="EQHomeLook/TransRichTextbox" />
+  <FalagardMapping WindowType="EQHomeLook/FarmPaoPao" TargetType="CEGUI/MultiLineBox" Renderer="Falagard/MultiLineBox" LookNFeel="EQHomeLook/FarmPaoPao" />
+  <FalagardMapping WindowType="EQHomeLook/ChatPaoPao" TargetType="CEGUI/MultiLineBox" Renderer="Falagard/MultiLineBox" LookNFeel="EQHomeLook/ChatPaoPao" />
+  <FalagardMapping WindowType="EQHomeLook/NoticeFrame" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="EQHomeLook/NoticeFrame" />
+
+  <FalagardMapping WindowType="NewEQHomeLook/NewButton"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="NewEQHomeLook/NewButton" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewEditbox"          TargetType="CEGUI/Editbox"          Renderer="Falagard/Editbox"          LookNFeel="NewEQHomeLook/NewEditbox" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewEditbox1"          TargetType="CEGUI/Editbox"          Renderer="Falagard/Editbox"          LookNFeel="NewEQHomeLook/NewEditbox1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticImage1" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewStaticImage1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticImage2" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewStaticImage2" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticImage3" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewStaticImage3" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticImage41" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewStaticImage41" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticImage42" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewStaticImage42" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticImage43" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewStaticImage43" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticImage5" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewStaticImage5" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticImage6" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewStaticImage6" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticImage7" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewStaticImage7" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticImage8" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewStaticImage8" />
+  <FalagardMapping WindowType="NewEQHomeLook/NpcTalkImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NpcTalkImage" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewTitlebar"     TargetType="CEGUI/Titlebar"    Renderer="Falagard/Titlebar"     LookNFeel="NewEQHomeLook/NewTitlebar" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewTitlebar1"     TargetType="CEGUI/Titlebar"    Renderer="Falagard/Titlebar"     LookNFeel="NewEQHomeLook/NewTitlebar1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewFrameWindow"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="NewEQHomeLook/NewFrameWindow" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewFrameWindow1"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="NewEQHomeLook/NewFrameWindow1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewFrameWindow2"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="NewEQHomeLook/NewFrameWindow2" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewFrameWindow3"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="NewEQHomeLook/NewFrameWindow3" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewFrameWindowChildStaticImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="NewEQHomeLook/NewFrameWindowChildStaticImage" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSystemButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/SystemButton" LookNFeel="NewEQHomeLook/NewSystemButton" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSystemHelpButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/SystemButton" LookNFeel="NewEQHomeLook/NewSystemHelpButton" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewMultiLineBox" TargetType="CEGUI/MultiLineBox" Renderer="Falagard/MultiLineBox" LookNFeel="NewEQHomeLook/NewMultiLineBox" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewMultiLineEditbox" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="NewEQHomeLook/NewMultiLineEditbox" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewMultiLineEditbox1" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="NewEQHomeLook/NewMultiLineEditbox1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewVerticalScrollbar"   TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="NewEQHomeLook/NewVerticalScrollbar" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewVerticalScrollbarThumb"   TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="NewEQHomeLook/NewVerticalScrollbarThumb" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewHorizontalScrollbar" TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="NewEQHomeLook/NewHorizontalScrollbar" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewHorizontalScrollbarThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="NewEQHomeLook/NewHorizontalScrollbarThumb" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewTabControl" TargetType="CEGUI/TabControl" Renderer="Falagard/TabControl" LookNFeel="NewEQHomeLook/NewTabControl" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewTabButton"  TargetType="CEGUI/TabButton"  Renderer="Falagard/TabButton"  LookNFeel="NewEQHomeLook/NewTabButton" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewTabContentPane"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="NewEQHomeLook/NewTabContentPane" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewTabButtonPane"     TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="NewEQHomeLook/NewTabButtonPane" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewCombobox"	TargetType="CEGUI/Combobox"	 Renderer="Falagard/Default" LookNFeel="NewEQHomeLook/NewCombobox" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewListbox"           TargetType="CEGUI/Listbox"           Renderer="Falagard/Listbox"           LookNFeel="NewEQHomeLook/NewListbox" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSlider"      TargetType="CEGUI/Slider"      Renderer="Falagard/Slider"  LookNFeel="NewEQHomeLook/NewSlider" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSlider1"      TargetType="CEGUI/Slider"      Renderer="Falagard/Slider"  LookNFeel="NewEQHomeLook/NewSlider1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSlider2"      TargetType="CEGUI/Slider"      Renderer="Falagard/Slider"  LookNFeel="NewEQHomeLook/NewSlider2" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSlider3"      TargetType="CEGUI/Slider"      Renderer="Falagard/Slider"  LookNFeel="NewEQHomeLook/NewSlider3" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSlider4"      TargetType="CEGUI/Slider"      Renderer="Falagard/Slider"  LookNFeel="NewEQHomeLook/NewSlider4" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticText"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="NewEQHomeLook/NewStaticText" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticText1"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="NewEQHomeLook/NewStaticText1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewStaticText2"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="NewEQHomeLook/NewStaticText2" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewCheckbox"    TargetType="CEGUI/Checkbox"    Renderer="Falagard/ToggleButton" LookNFeel="NewEQHomeLook/NewCheckbox" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewRadioButton" TargetType="CEGUI/RadioButton" Renderer="Falagard/ToggleButton" LookNFeel="NewEQHomeLook/NewRadioButton" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewTooltip" TargetType="CEGUI/Tooltip" Renderer="Falagard/Tooltip" LookNFeel="NewEQHomeLook/NewTooltip" />
+
+  <FalagardMapping WindowType="NewEQHomeLook/NewTabControl1" TargetType="CEGUI/TabControl" Renderer="Falagard/TabControl" LookNFeel="NewEQHomeLook/NewTabControl1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewTabButton1"  TargetType="CEGUI/TabButton"  Renderer="Falagard/TabButton"  LookNFeel="NewEQHomeLook/NewTabButton1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewTabContentPane1"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="NewEQHomeLook/NewTabContentPane1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewTabButtonPane1"     TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="NewEQHomeLook/NewTabButtonPane1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewComboDropList" TargetType="CEGUI/ComboDropList" Renderer="Falagard/Listbox" LookNFeel="NewEQHomeLook/NewComboDropList" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewComboEditbox"  TargetType="CEGUI/Editbox"	 Renderer="Falagard/Editbox" LookNFeel="NewEQHomeLook/NewComboEditbox" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSliderThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button"  LookNFeel="NewEQHomeLook/NewSliderThumb" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSliderThumb1" TargetType="CEGUI/Thumb" Renderer="Falagard/Button"  LookNFeel="NewEQHomeLook/NewSliderThumb1" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSliderThumb2" TargetType="CEGUI/Thumb" Renderer="Falagard/Button"  LookNFeel="NewEQHomeLook/NewSliderThumb2" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSliderThumb3" TargetType="CEGUI/Thumb" Renderer="Falagard/Button"  LookNFeel="NewEQHomeLook/NewSliderThumb3" />
+  <FalagardMapping WindowType="NewEQHomeLook/NewSliderThumb4" TargetType="CEGUI/Thumb" Renderer="Falagard/Button"  LookNFeel="NewEQHomeLook/NewSliderThumb4" />
+
+</GUIScheme>

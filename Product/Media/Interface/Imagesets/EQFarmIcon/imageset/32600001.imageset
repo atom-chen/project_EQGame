@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="32600001" Imagefile="EQFarmIcon\32600001.dds" >
+    <Image Name="gaoshipai" XPos="10" YPos="10" Width="98" Height="98" />
+    <Image Name="gaoshipai2" XPos="108" YPos="10" Width="98" Height="98" />
+</Imageset>

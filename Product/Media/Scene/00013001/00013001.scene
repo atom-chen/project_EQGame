@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EQScene name="00013001">
+    <Ambient ChangeTime="3000" DayAmbient="0.5 0.5 0.5" DayMain="1 1 1" DayMainDir="0 0 0" DayFogColor="0 0 0" DayFogParam="0 0 0 0" DaySkybox="" NightAmbient="0.1 0.1 0.1" NightMain="0 0.5 1" NightMainDir="0 0 0" NightFogColor="0 0 0" NightFogParam="0 0 0 0" NightSkybox="" Contrast="1.1" />
+    <House filename="00013001.house" />
+    <Edge value="-720.000000 -1680.000000 1680.000000 800.000000" />
+</EQScene>

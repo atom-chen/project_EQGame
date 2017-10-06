@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="work" >
+        <Property Name="Text" Value="选择职业" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,161},{0,144},{0,501},{0,399}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Window Type="EQHomeLook/StaticImage" Name="work/zhuchuangkou" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,25},{1,-7},{1,-6}}" />
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="work/zhuchuangkou/icon1" >
+                <Property Name="Image" Value="set:windows1 image:game_1" />
+                <Property Name="Tooltip" Value="需要10点人物清洁度和10点活跃值" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,16},{0,10},{0,96},{0,90}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="work/zhuchuangkou/icon2" >
+                <Property Name="Image" Value="set:windows1 image:game_1" />
+                <Property Name="Tooltip" Value="需要15点人物清洁度和15点活跃值" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,108},{0,10},{0.05,188},{0,90}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="work/zhuchuangkou/icon3" >
+                <Property Name="Image" Value="set:windows1 image:game_1" />
+                <Property Name="Tooltip" Value="需要20点人物清洁度和20点活跃值" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1.05,-111},{0,10},{1.05,-31},{0,90}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="work/zhuchuangkou/icon4" >
+                <Property Name="Image" Value="set:windows1 image:game_1" />
+                <Property Name="Tooltip" Value="需要30点魅力值、25点人物清洁度和25点活跃值" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,16},{0.05,91},{0,96},{0.05,171}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="work/zhuchuangkou/icon5" >
+                <Property Name="Image" Value="set:windows1 image:game_1" />
+                <Property Name="Tooltip" Value="需要50点魅力值、30点人物清洁度和30点活跃值" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,108},{0.05,91},{0.05,188},{0.05,171}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="work/zhuchuangkou/icon6" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1.05,-111},{0.05,91},{1.05,-31},{0.05,171}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="work/zhuchuangkou/fanye1" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage141" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,118},{0,193},{0,130},{0,205}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="work/zhuchuangkou/fanye2" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage139" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,200},{0,193},{0,212},{0,205}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="work/zhuchuangkou/fanye3" >
+                <Property Name="Text" Value="9999" />
+                <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,141},{0,190},{0,191},{0,204}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="work/zhuchuangkou/xian1" >
+                <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,197},{0,118},{0,200}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="work/zhuchuangkou/xian11" >
+                <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,212},{0,197},{0,320},{0,200}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="find_friend" >
+        <Property Name="Text" Value="好友搜索" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,67},{0,59},{0,327},{0,239}}" />
+        <Window Type="NewEQHomeLook/NewTabControl1" Name="find_friend/tab" >
+            <Property Name="TabHeight" Value="{0,21}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,30},{1,-8},{1,-8}}" />
+            <Window Type="DefaultWindow" Name="find_friend/tab/Tab 1" >
+                <Property Name="Text" Value="昵称搜索" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="NewEQHomeLook/NewEditbox" Name="find_friend/tab/Tab 1/enter_words" >
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,28},{0,56},{0,218},{0,78}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="find_friend/tab/Tab 1/done1" >
+                    <Property Name="Text" Value="确 定" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                    <Property Name="DisabledImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,50},{0,90},{0,96},{0,116}}" />
+                    <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                    <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="find_friend/tab/Tab 1/cancle1" >
+                    <Property Name="Text" Value="清 空" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                    <Property Name="DisabledImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,146},{0,90},{0,192},{0,116}}" />
+                    <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                    <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                    <Property Name="DisabledTextColour" Value="FFEBE5E5" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="find_friend/tab/Tab 1/sysmsg1" >
+                    <Property Name="Text" Value="请输入您要查找的完整昵称：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,30},{0,30},{0,200},{0,45}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="find_friend/tab/Tab 2" >
+                <Property Name="Text" Value="邮箱搜索" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="NewEQHomeLook/NewEditbox" Name="find_friend/tab/Tab 2/enter_words2" >
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,28},{0,56},{0,218},{0,78}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="find_friend/tab/Tab 2/done2" >
+                    <Property Name="Text" Value="确 定" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,50},{0,90},{0,96},{0,116}}" />
+                    <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                    <Property Name="PushedTextColour" Value="FFEBE5E5" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="find_friend/tab/Tab 2/cancle2" >
+                    <Property Name="Text" Value="清 空" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,146},{0,90},{0,192},{0,116}}" />
+                    <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                    <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="find_friend/tab/Tab 2/sysmsg2" >
+                    <Property Name="Text" Value="请输入您要搜索的完整邮箱：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,30},{0,30},{0,200},{0,45}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

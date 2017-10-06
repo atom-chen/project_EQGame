@@ -1,0 +1,20 @@
+//-----------------------------------------------------------------------------------------------------------------------
+material guanxian2
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend src_alpha one
+            depth_write off
+            fog_override true none
+
+            texture_unit
+            {
+                texture mp_flare_04.png
+                tex_address_mode clamp
+            }
+        }
+    }
+}

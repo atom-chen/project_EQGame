@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="upRoot" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-130},{0,796},{1,0}}" />
+        <Window Type="NewEQHomeLook/NewStaticImage41" Name="FitmodeUI1" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-127},{0,50},{1,0}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="FitmodeUI1/img1" >
+                <Property Name="Image" Value="set:Button5 image:NewImage89" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,7},{0,41},{0,33}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FitmodeStorageRoot/toMarket" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage307" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage306" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage308" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,13},{0,35},{0,43},{0,65}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FitmodeStorageRoot/toStorage" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage310" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage309" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage311" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,13},{0.05,62},{0,43},{0.05,92}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FitmodeStorageRoot/Close" >
+                <Property Name="Text" Value="退 出" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,4},{0,93},{0,49},{0,119}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+        </Window>
+        <Window Type="NewEQHomeLook/NewStaticImage43" Name="FitmodeStorageRoot" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,49},{1,-127},{0,800},{1,0}}" />
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot1" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04375,0},{0,37},{0,75},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot2" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,81},{0,37},{0,121},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot3" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,127},{0,37},{0,167},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot4" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,173},{0,37},{0,213},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot5" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,219},{0,37},{0,259},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot6" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,265},{0,37},{0,305},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot7" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,311},{0,37},{0,351},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot8" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,357},{0,37},{0,397},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot9" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,403},{0,37},{0,443},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot10" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,449},{0,37},{0,489},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot11" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,495},{0,37},{0,535},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot12" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,541},{0,37},{0,581},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot13" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,587},{0,37},{0,627},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot14" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,633},{0,37},{0,673},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot15" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,679},{0,37},{0,719},{0,77}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot16" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04375,0},{0,80},{0,75},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot17" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,81},{0,80},{0,121},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot18" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,127},{0,80},{0,167},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot19" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,173},{0,80},{0,213},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot20" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,219},{0,80},{0,259},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot21" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,265},{0,80},{0,305},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot22" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,311},{0,80},{0,351},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot23" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,357},{0,80},{0,397},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot24" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,403},{0,80},{0,443},{0,120}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FitmodeStorageRoot/Btn1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage124" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage123" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage125" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,710},{0,6},{0,745},{0,41}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FitmodeStorageRoot/Btn_Bag2" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage25" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage25" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage25" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-264},{0,7},{1,-232},{0,39}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FitmodeStorageRoot/Btn_Bag3" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage25" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage25" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage25" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-232},{0,7},{1,-200},{0,39}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FitmodeStorageRoot/Btn_Bag1" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage24" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage24" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage24" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-296},{0,7},{1,-264},{0,39}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FitmodeStorageRoot/Btn_Bag4" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage25" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage25" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage25" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-200},{0,7},{1,-168},{0,39}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="FitmodeStorageRoot/txtbacke" >
+                <Property Name="Image" Value="set:Button6 image:NewImage1" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-638},{0,12},{1,-514},{0,32}}" />
+                <Window Type="EQHomeLook/StaticText" Name="FitmodeStorageRoot/Txt5" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="剩余点数：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0.001357,2},{0,62},{0,19}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="FitmodeStorageRoot/Txt6" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="999999999" />
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,63},{0,2},{0,120},{0,19}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="FitmodeStorageRoot/txtmoney" >
+                <Property Name="Image" Value="set:Button6 image:NewImage1" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-478},{0,12},{1,-354},{0,32}}" />
+                <Window Type="EQHomeLook/StaticText" Name="FitmodeStorageRoot/Txt7" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="剩余金币：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0.001357,2},{0,62},{0,19}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="FitmodeStorageRoot/Txt8" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="999999999" />
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,63},{0,2},{0,120},{0,19}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot25" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,449},{0,80},{0,489},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot26" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,495},{0,80},{0,535},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot27" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,541},{0,80},{0,581},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot28" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,587},{0,80},{0,627},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot29" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,633},{0,80},{0,673},{0,120}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="FitmodeStorageRoot/Slot30" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,679},{0,80},{0,719},{0,120}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<row>
+		<id>1</id>
+		<modelId>64001</modelId>
+	</row>
+	<row>
+		<id>2</id>
+		<modelId>64002</modelId>
+	</row>
+	<row>
+		<id>3</id>
+		<modelId>64003</modelId>
+	</row>
+	<row>
+		<id>4</id>
+		<modelId>64004</modelId>
+	</row>
+	<row>
+		<id>5</id>
+		<modelId>64005</modelId>
+	</row>
+	<row>
+		<id>6</id>
+		<modelId>64006</modelId>
+	</row>
+</table>

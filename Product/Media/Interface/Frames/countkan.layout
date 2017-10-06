@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow1" Name="countkan" >
+        <Property Name="Text" Value="漂流瓶信息" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-149},{0.5,-120},{0.5,151},{0.5,120}}" />
+        <Window Type="NewEQHomeLook/NewMultiLineEditbox1" Name="countkan/2" >
+            <Property Name="Text" >
+</Property>
+            <Property Name="ReadOnly" Value="True" />
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,70},{1,-10},{1,-30}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="countkan/touxiang" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,17},{0,27},{0,57},{0,67}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="countkan/nicheng" >
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,70},{0,30},{1,-20},{0,60}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

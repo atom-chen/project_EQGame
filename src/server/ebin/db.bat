@@ -1,0 +1,1 @@
+erl -name db -setcookie abcd -pz log -pz erlsom  -boot start_sasl -config elog -run database start

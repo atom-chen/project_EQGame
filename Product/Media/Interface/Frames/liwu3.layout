@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="lwchuangkou3" >
+        <Property Name="Text" Value="制作礼物" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,117},{0,57},{0,597},{0,387}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="lwchuangkou3/chuangkou2" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,25},{1,-8},{1,-6}}" />
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou3/chuangkou2/liwumingzi" >
+                <Property Name="Text" Value="请输入对方的名字：" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,20},{0,25},{0,135},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou3/chuangkou2/liwugezi" >
+                <Property Name="Text" Value="想要送出的礼物：" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,20},{0,75},{0,135},{0,100}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="lwchuangkou3/chuangkou2/liwugezi2" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,141},{0,69},{0,177},{0,105}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou3/chuangkou2/liwuka" >
+                <Property Name="Text" Value="选择礼物卡样式：" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,20},{0,129},{0,135},{0,154}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="lwchuangkou3/chuangkou2/liwuka1" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,141},{0.1,90},{0,177},{0.1,126}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou3/chuangkou2/zengyan" >
+                <Property Name="Text" Value="赠言：" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,24},{0,166},{0,64},{0,191}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewMultiLineEditbox1" Name="lwchuangkou3/chuangkou2/zengyan2" >
+                <Property Name="Text" >
+</Property>
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.3,-73},{0.3,77},{0.55,191},{0.55,85}}" />
+                <Property Name="NormalTextColour" Value="FF05E5FA" />
+                <Property Name="SelectionBrushImage" Value="" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="lwchuangkou3/chuangkou2/queding" >
+                <Property Name="Text" Value="确 定" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,345},{0,261},{0,390},{0,287}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="lwchuangkou3/chuangkou2/queding1" >
+                <Property Name="Text" Value="取 消" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,400},{0,261},{0,445},{0,287}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou3/chuangkou2/zengyan1" >
+                <Property Name="Text" Value="发送时间：" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,20},{0,263},{0,80},{0.2,220}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou3/chuangkou2/nian1" >
+                <Property Name="Text" Value="年" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,163},{0,263},{0,179},{0,285}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou3/chuangkou2/yue1" >
+                <Property Name="Text" Value="月" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,245},{0,263},{0,261},{0,285}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou3/chuangkou2/ri1" >
+                <Property Name="Text" Value="日" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,323},{0,263},{0,338},{0,285}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewEditbox" Name="lwchuangkou3/chuangkou2/mingzishuru" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,137},{0,26},{0,333},{0,48}}" />
+                <Property Name="NormalTextColour" Value="FF05E5FA" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="lwchuangkou3/chuangkou2/tianjiahaoyou" >
+                <Property Name="Text" Value="添加好友" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,340},{0,22},{0,413},{0,48}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewCombobox" Name="lwchuangkou3/chuangkou2/nian" >
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,82},{0,263},{0,158},{0,385}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewCombobox" Name="lwchuangkou3/chuangkou2/yue" >
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,182},{0,263},{0,242},{0,385}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewCombobox" Name="lwchuangkou3/chuangkou2/ri" >
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,263},{0,263},{0,321},{0,385}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

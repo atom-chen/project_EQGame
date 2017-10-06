@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="chooseline" >
+        <Property Name="Text" Value="请选择一条线路" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,185},{0,184},{0,464},{0,432}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="chooseline/" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,23},{0,2},{0,126},{0,20}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="chooseline/zhuchuangkou" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,6},{0,24},{1,-6},{1,-7}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="chooseline/zhuchuangkou/line1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,14},{0,230},{0,37}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="chooseline/zhuchuangkou/line2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,37},{0,230},{0,61}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="chooseline/zhuchuangkou/line3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,61},{0,230},{0,85}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="chooseline/zhuchuangkou/line4" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,85},{0,230},{0,109}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="chooseline/zhuchuangkou/line5" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,109},{0,230},{0,133}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="chooseline/zhuchuangkou/line6" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,133},{0,230},{0,157}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="chooseline/zhuchuangkou/line7" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,157},{0,230},{0,181}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="chooseline/zhuchuangkou/likai" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="离开" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,194},{0,182},{0,239},{0,208}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewVerticalScrollbar" Name="chooseline/zhuchuangkou/bar" >
+                <Property Name="PageSize" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,237},{0,18},{0,252},{0,181}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

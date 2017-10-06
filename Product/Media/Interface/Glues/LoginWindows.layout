@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage" Name="back" >
+        <Property Name="Image" Value="set:login image:NewImage1" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,800},{1,600}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="Login" >
+            <Property Name="Image" Value="set:login image:NewImage8" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-200},{0.5,-208},{0.5,199},{0.5,144}}" />
+            <Window Type="TaharezLook/StaticText" Name="Login/UserTest" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="帐号" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-163},{0,51},{0,-64},{0,76}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="Login/Password" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="IP地址/端口号 " />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-24},{0,377},{0,75},{0,402}}" />
+            </Window>
+            <Window Type="EQHomeLook/EditboxT" Name="Login/UserEdit" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="testuser" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,231},{0,332},{0,248}}" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="Login/IP" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,109},{0,372},{0,229},{0,398}}" />
+            </Window>
+            <Window Type="TaharezLook/Editbox" Name="Login/Port" >
+                <Property Name="Text" Value="2222" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,312},{0,452},{0,375},{0,475}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Login/Ok" >
+                <Property Name="HoverImage" Value="set:login image:NewImage6" />
+                <Property Name="NormalImage" Value="set:login image:NewImage5" />
+                <Property Name="PushedImage" Value="set:login image:NewImage7" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,153},{0,308},{0,245},{0,345}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="Login/UserPw" >
+                <Property Name="Text" Value="密码" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-128},{0.05,306},{0,-29},{0.05,331}}" />
+            </Window>
+            <Window Type="EQHomeLook/EditboxT" Name="Login/UserPassw" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0.05,244},{0,332},{0.05,261}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Login/register" >
+                <Property Name="HoverImage" Value="set:login image:NewImage3" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:login image:NewImage2" />
+                <Property Name="PushedImage" Value="set:login image:NewImage4" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,54},{0,308},{0,146},{0,345}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Login/exit" >
+                <Property Name="HoverImage" Value="set:login image:NewImage11" />
+                <Property Name="NormalImage" Value="set:login image:NewImage10" />
+                <Property Name="PushedImage" Value="set:login image:NewImage12" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,251},{0,308},{0,343},{0,345}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="back/txt" >
+            <Property Name="Image" Value="set:login image:NewImage9" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-251},{0.5,197},{0.5,252},{0.5,251}}" />
+        </Window>
+    </Window>
+</GUILayout>

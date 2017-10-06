@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <common_scene_furniture>
+        <id>1</id>
+        <object_id>100560</object_id>
+    </common_scene_furniture>
+    <common_scene_furniture>
+        <id>2</id>
+        <object_id>100560</object_id>
+    </common_scene_furniture>
+</root>

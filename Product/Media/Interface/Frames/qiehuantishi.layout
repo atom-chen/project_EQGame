@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage1" Name="fangwuqiehuan" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,220},{0,177},{0,560},{0,362}}" />
+        <Window Type="NewEQHomeLook/NewStaticText" Name="fangwuqiehuan/txt1" >
+            <Property Name="Text" >该操作会替换你当前使用的房屋，并且清除所有
+当前使用房屋内的数据，是否继续?</Property>
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,20},{0,322},{0,75}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="fangwuqiehuan/queren" >
+            <Property Name="Text" Value="确 定" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,80},{0,137},{0,126},{0,163}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="fangwuqiehuan/queren1" >
+            <Property Name="Text" Value="取 消" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,200},{0,137},{0,246},{0,163}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+    </Window>
+</GUILayout>

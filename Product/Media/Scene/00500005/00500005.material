@@ -1,0 +1,342 @@
+
+material 00500005_outwall_101_00_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500005_00.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_outwall_101_00_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500005_01.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material material_walledge_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00000001.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_outwall_100_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100061.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_outwall_100_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100061.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_outwall_100_02
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100061.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_outwall_100_03
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100061.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_tcx_100_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100061.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_tcx_100_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100061.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_tcx_100_02
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100061.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_tcx_100_03
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100061.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_outwall_101_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500005_01.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_outwall_101_03
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500005_00.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_tcx_101_00_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500005_00.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_tcx_101_00_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500005_01.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_outwall_101_02_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500005_01.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_outwall_101_02_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500005_00.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500005_floor_101_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500005_02.dds
+			}
+		}
+
+	}
+
+}
+
+

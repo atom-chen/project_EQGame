@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="DealWnd" >
+        <Property Name="Text" Value="交易" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,104},{0,141},{0,416},{0,426}}" />
+        <Window Type="EQHomeLook/StaticImage3" Name="DealWnd/Inventory1" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,16},{0,37},{1,-162},{1,-20}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="EQHomeLook/StaticText" Name="DealWnd/Inventory1/Text1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,8},{0,0},{0,120},{0,14}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory1/Grille1" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,6},{0,14},{0,46},{0,54}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory1/Grille2" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,46},{0,14},{0,86},{0,54}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory1/Grille3" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,86},{0,14},{0,126},{0,54}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory1/Grille4" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,6},{0,54},{0,46},{0,94}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory1/Grille5" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,46},{0,54},{0,86},{0,94}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory1/Grille6" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,86},{0,54},{0,126},{0,94}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory1/Grille7" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,6},{0,94},{0,46},{0,134}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory1/Grille8" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,46},{0,94},{0,86},{0,134}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory1/Grille9" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,86},{0,94},{0,126},{0,134}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="DealWnd/Inventory1/qian" >
+                <Property Name="Image" Value="set:Button5 image:NewImage238" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,152},{0,123},{0,189}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="DealWnd/Inventory1/Text2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="己方支付" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,8},{0,138},{0,65},{0,152}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage10" Name="DealWnd/Inventory1/Covering1" >
+                <Property Name="Alpha" Value="0.4" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00139665,0},{0,1},{1.00349,5},{1,-27}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/EditboxT" Name="DealWnd/Inventory1/Text3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,33},{0,161},{0,119},{0,177}}" />
+                <Property Name="NormalTextColour" Value="FFFBCD04" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage6" Name="DealWnd/Inventory2" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,163},{0,37},{0.972916,0},{1,-51}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="EQHomeLook/StaticText" Name="DealWnd/Inventory2/Text1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,8},{0,0},{0,120},{0,14}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory2/Grille1" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,6},{0,14},{0,46},{0,54}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory2/Grille2" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,46},{0,14},{0,86},{0,54}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory2/Grille3" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,86},{0,14},{0,126},{0,54}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory2/Grille4" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,6},{0,54},{0,46},{0,94}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory2/Grille5" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,46},{0,54},{0,86},{0,94}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory2/Grille6" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,86},{0,54},{0,126},{0,94}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory2/Grille7" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,6},{0,94},{0,46},{0,134}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory2/Grille8" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,46},{0,94},{0,86},{0,134}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="DealWnd/Inventory2/Grille9" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,86},{0,94},{0,126},{0,134}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="DealWnd/Inventory2/qian1" >
+                <Property Name="Image" Value="set:Button5 image:NewImage238" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,152},{0,121},{0,189}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="DealWnd/Inventory2/Text2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="对方支付" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,8},{0,138},{0,65},{0,152}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage10" Name="DealWnd/Inventory2/Covering1" >
+                <Property Name="Alpha" Value="0.4" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-5},{0,1},{1,-5},{1,4}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/EditboxT" Name="DealWnd/Inventory2/Text3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,33},{0,161},{0,119},{0,177}}" />
+                <Property Name="NormalTextColour" Value="FFFBCD04" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DealWnd/Done" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="交 易" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-139},{1,-44},{1,-94},{1,-18}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DealWnd/Cancel" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="取 消" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage338" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage336" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage340" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-78},{1,-44},{1,-33},{1,-18}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="DealWnd/tishi" >
+            <Property Name="Text" Value="交易时效物品会扣时间" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,25},{0,243},{0,166},{0,260}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

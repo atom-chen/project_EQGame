@@ -1,0 +1,24 @@
+# 搭建Ogre
+解压ogre-v1-6-4.zip为ogre_1_6_4
+解压OgreDependencies_VC9_Eihort_20080203.zip
+删除几个没用的suo
+把boost_1_40_0\stage\lib的2个线程和datetime文件拷贝到Dependencies\lib对应的子目录
+签入svn
+
+把boost_1_40_0/boost拷贝到Dependencies\include目录. 这个就不签入了
+
+改#define OGRE_THREAD_SUPPORT 2
+可能是boost结构有调整, 在OgreStdHeaders增加#	include <boost/function.hpp>
+调整工程的包含关系
+把对应的realse改为有生产调试信息(pdb)的功能 /Zi
+编译
+签入svn
+
+2009年11月11日 修改内容
+   1. 修正多线程SharedPtr内存泄漏问题
+   2. 修正Ogre开启文件不支持中文路径问题
+   3. 修改OgreConfig.h, 启用Ogre内存报告 OgreLeaks.log
+
+2009-12-7
+   1. 修改OgreConfig.h把OGRE_MEMORY_TRACKER_DEBUG_MODE改为默认0,原因是内存泄露检测对
+      性能影响太大.

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="zhuchuangkou" >
+        <Property Name="Text" Value="娱乐" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,153},{0,136},{0,514},{0,365}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Window Type="EQHomeLook/StaticImage" Name="zhuchuangkou1" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0388889,-2},{0.149933,-5},{1,-8},{1,-11}}" />
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="zhuchuangkou1/icon1" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{0,68},{0,68}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="zhuchuangkou1/icon2" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,75},{0,10},{0,133},{0,68}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="zhuchuangkou1/icon3" >
+                <Property Name="Image" Value="set:Button5 image:NewImage182" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,140},{0,10},{0,198},{0,68}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="zhuchuangkou1/icon4" >
+                <Property Name="Image" Value="set:Button5 image:NewImage182" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,205},{0,10},{0,263},{0,68}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="zhuchuangkou1/icon5" >
+                <Property Name="Image" Value="set:Button5 image:NewImage182" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,270},{0,10},{0,328},{0,68}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="zhuchuangkou1/icon6" >
+                <Property Name="Image" Value="set:Button5 image:NewImage182" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,90},{0,68},{0,148}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="zhuchuangkou1/icon7" >
+                <Property Name="Image" Value="set:Button5 image:NewImage182" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,75},{0,90},{0,133},{0,148}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="zhuchuangkou1/icon8" >
+                <Property Name="Image" Value="set:Button5 image:NewImage182" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,140},{0,90},{0,198},{0,148}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="zhuchuangkou1/icon9" >
+                <Property Name="Image" Value="set:Button5 image:NewImage182" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,205},{0,90},{0,263},{0,148}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="zhuchuangkou1/icon10" >
+                <Property Name="Image" Value="set:Button5 image:NewImage182" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,269},{0,90},{0,327},{0,148}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/txt1" >
+                <Property Name="Text" Value="打工" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,70},{0,68},{0,85}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/txt2" >
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,75},{0,70},{0,133},{0,85}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/txt3" >
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,140},{0,70},{0,198},{0,85}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/txt4" >
+                <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,205},{0,70},{0,263},{0,85}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/txt5" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,270},{0,70},{0,328},{0,85}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/txt6" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,150},{0,68},{0,165}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/txt7" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,75},{0,150},{0,133},{0,165}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/txt8" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,140},{0,150},{0,198},{0,165}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/txt9" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,205},{0,150},{0,263},{0,165}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/txt10" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,270},{0,150},{0,328},{0,165}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="zhuchuangkou1/fanye1" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                <Property Name="PushedImage" Value="image:NewImage139" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,127},{0,169},{0,139},{0,181}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="zhuchuangkou1/fanye2" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage139" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,191},{0,169},{0,203},{0,181}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="zhuchuangkou1/fanye3" >
+                <Property Name="Text" Value="9999999" />
+                <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,141},{0,169},{0,189},{0,181}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="zhuchuangkou1/xian1" >
+                <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,173},{0,127},{0,176}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="zhuchuangkou1/xian2" >
+                <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,203},{0,173},{0,330},{0,176}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

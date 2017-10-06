@@ -1,0 +1,51 @@
+system P00000014
+{
+    scale_time                                  2
+    technique Technique76
+    {
+        visual_particle_quota                   250
+        material                                guanxian2
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Circle Emitter25
+        {
+            emission_rate                       50
+            angle                               180
+            time_to_live                        dyn_random
+            {
+                min                             0.5
+                max                             2
+            }
+            velocity                            dyn_random
+            {
+                min                             20
+                max                             40
+            }
+            duration                            3
+            all_particle_dimensions             dyn_random
+            {
+                min                             15
+                max                             25
+            }
+            position                            0 160 0
+            direction                           0 -1 0
+            circle_em_radius                    25
+            circle_em_random                    false
+        }
+        affector                                Scale Affector26
+        {
+        }
+        affector                                Colour Affector27
+        {
+            colour_aff_time_colour              0    1 0.992157 0.87451 0
+            colour_aff_time_colour              0.5  1 0.992157 0.87451 1
+            colour_aff_time_colour              1    1 0.992157 0.87451 0
+        }
+        affector                                LinearForce Affector29
+        {
+            mass_affector                       0
+            force_aff_vector                    0 -70 0
+        }
+    }
+}

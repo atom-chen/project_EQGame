@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="32900001Imageset" Imagefile="EQFarmIcon\32900001.dds" >
+    <Image Name="01" XPos="0" YPos="0" Width="64" Height="64" />
+    <Image Name="02" XPos="64" YPos="0" Width="64" Height="64" />
+    <Image Name="03" XPos="128" YPos="0" Width="64" Height="64" />
+    <Image Name="04" XPos="192" YPos="0" Width="64" Height="64" />
+    <Image Name="05" XPos="256" YPos="0" Width="64" Height="64" />
+    <Image Name="06" XPos="320" YPos="0" Width="64" Height="64" />
+    <Image Name="07" XPos="384" YPos="0" Width="64" Height="64" />
+    <Image Name="08" XPos="448" YPos="0" Width="64" Height="64" />
+    <Image Name="09" XPos="0" YPos="64" Width="64" Height="64" />
+    <Image Name="10" XPos="64" YPos="64" Width="64" Height="64" />
+    <Image Name="11" XPos="128" YPos="64" Width="64" Height="64" />
+    <Image Name="12" XPos="192" YPos="64" Width="64" Height="64" />
+    <Image Name="13" XPos="256" YPos="64" Width="64" Height="64" />
+</Imageset>

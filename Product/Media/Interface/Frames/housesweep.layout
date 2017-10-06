@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="Root/full" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="Root/full/play" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,-225},{0.5,-203},{0.5,225},{0.5,203}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/full/biankuang" >
+                <Property Name="Image" Value="set:Occupationicon1 image:Occupationicon1" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,-245},{0.5,-223},{0.5,245},{0.5,223}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/full/listbiankuang" >
+                <Property Name="Image" Value="set:Occupationicon1 image:Occupationicon1" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,-163},{0.5,-148},{0.5,163},{0.5,148}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/full/list" >
+                <Property Name="Image" Value="set:common1 image:Window5_Mid" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,-150},{0.5,-135},{0.5,150},{0.5,135}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="Root/full/list/txt" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,-140},{0.5,-110},{0.5,140},{0.5,110}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

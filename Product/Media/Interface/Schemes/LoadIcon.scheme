@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GUIScheme Name="MainUI">
+	<!-- 加载家具的Icon -->
+	<Imageset Name="20000001Imageset" Filename="EQHomeFurnitureIcon\Imageset\20000001.imageset" />
+	<Imageset Name="20100001Imageset" Filename="EQHomeFurnitureIcon\Imageset\20100001.imageset" />
+	<Imageset Name="20200001Imageset" Filename="EQHomeFurnitureIcon\Imageset\20200001.imageset" />
+	<Imageset Name="20300001Imageset" Filename="EQHomeFurnitureIcon\Imageset\20300001.imageset" />
+	<Imageset Name="20400001Imageset" Filename="EQHomeFurnitureIcon\Imageset\20400001.imageset" />
+	<Imageset Name="20500001Imageset" Filename="EQHomeFurnitureIcon\Imageset\20500001.imageset" />
+	<Imageset Name="20600001Imageset" Filename="EQHomeFurnitureIcon\Imageset\20600001.imageset" />
+	<Imageset Name="20700001Imageset" Filename="EQHomeFurnitureIcon\Imageset\20700001.imageset" />
+	<Imageset Name="20800001Imageset" Filename="EQHomeFurnitureIcon\Imageset\20800001.imageset" />
+	<Imageset Name="20800002Imageset" Filename="EQHomeFurnitureIcon\Imageset\20800002.imageset" />
+	<Imageset Name="20800003Imageset" Filename="EQHomeFurnitureIcon\Imageset\20800003.imageset" />
+
+	<!-- 加载服饰的Icon -->
+	<Imageset Name="10100001Imageset" Filename="EQHomeDressIcons\Imageset\10100001.imageset" />
+	<Imageset Name="10200001Imageset" Filename="EQHomeDressIcons\Imageset\10200001.imageset" />
+	<Imageset Name="10500002Imageset" Filename="EQHomeDressIcons\Imageset\10500002.imageset" />
+	<Imageset Name="10600001Imageset" Filename="EQHomeDressIcons\Imageset\10600001.imageset" />
+	<Imageset Name="10600002Imageset" Filename="EQHomeDressIcons\Imageset\10600002.imageset" />
+	<Imageset Name="10600003Imageset" Filename="EQHomeDressIcons\Imageset\10600003.imageset" />
+	<Imageset Name="10600004Imageset" Filename="EQHomeDressIcons\Imageset\10600004.imageset" />
+	<Imageset Name="10700001Imageset" Filename="EQHomeDressIcons\Imageset\10700001.imageset" />
+	<Imageset Name="10700002Imageset" Filename="EQHomeDressIcons\Imageset\10700002.imageset" />
+	<Imageset Name="10700003Imageset" Filename="EQHomeDressIcons\Imageset\10700003.imageset" />
+	<Imageset Name="10800002Imageset" Filename="EQHomeDressIcons\Imageset\10800002.imageset" />
+	<Imageset Name="10900001Imageset" Filename="EQHomeDressIcons\Imageset\10900001.imageset" />
+	<Imageset Name="10950001Imageset" Filename="EQHomeDressIcons\Imageset\10950001.imageset" />
+	<Imageset Name="10960001Imageset" Filename="EQHomeDressIcons\Imageset\10960001.imageset" />
+	<Imageset Name="11000001Imageset" Filename="EQHomeDressIcons\Imageset\11000001.imageset" />
+	<Imageset Name="11100001Imageset" Filename="EQHomeDressIcons\Imageset\11100001.imageset" />
+	<Imageset Name="11500001Imageset" Filename="EQHomeDressIcons\Imageset\11500001.imageset" />
+	<Imageset Name="11600001Imageset" Filename="EQHomeDressIcons\Imageset\11600001.imageset" />
+	<Imageset Name="11700001Imageset" Filename="EQHomeDressIcons\Imageset\11700001.imageset" />
+	<Imageset Name="11800001Imageset" Filename="EQHomeDressIcons\Imageset\11800001.imageset" />
+	<Imageset Name="11800002Imageset" Filename="EQHomeDressIcons\Imageset\11800002.imageset" />
+	<Imageset Name="11800003Imageset" Filename="EQHomeDressIcons\Imageset\11800003.imageset" />
+	<Imageset Name="11800004Imageset" Filename="EQHomeDressIcons\Imageset\11800004.imageset" />
+	<Imageset Name="11800005Imageset" Filename="EQHomeDressIcons\Imageset\11800005.imageset" />
+
+	<!-- 加载农场的Icon -->
+	<Imageset Name="30000001Imageset" Filename="EQFarmIcon\imageset\30000001.imageset" />
+	<Imageset Name="30100001Imageset" Filename="EQFarmIcon\imageset\30100001.imageset" />
+	<Imageset Name="30200001Imageset" Filename="EQFarmIcon\imageset\30200001.imageset" />
+	<Imageset Name="30300001Imageset" Filename="EQFarmIcon\imageset\30300001.imageset" />
+	<Imageset Name="mouseanimation01" Filename="EQFarmIcon\imageset\mouseanimation01.imageset" />
+	<Imageset Name="mouseanimation02" Filename="EQFarmIcon\imageset\mouseanimation02.imageset" />
+	<Imageset Name="mouseanimation03" Filename="EQFarmIcon\imageset\mouseanimation03.imageset" />
+	<Imageset Name="32100001" Filename="EQFarmIcon\imageset\32100001.imageset" />
+	<Imageset Name="32200001" Filename="EQFarmIcon\imageset\32200001.imageset" />
+	<Imageset Name="32300001" Filename="EQFarmIcon\imageset\32300001.imageset" />
+	<Imageset Name="32400001" Filename="EQFarmIcon\imageset\32400001.imageset" />
+	<Imageset Name="32500001" Filename="EQFarmIcon\imageset\32500001.imageset" />
+	<Imageset Name="32600001" Filename="EQFarmIcon\imageset\32600001.imageset" />
+	<Imageset Name="32700001" Filename="EQFarmIcon\imageset\32700001.imageset" />
+	<Imageset Name="32800001" Filename="EQFarmIcon\imageset\32800001.imageset" />
+	<Imageset Name="32900001Imageset" Filename="EQFarmIcon\imageset\32900001.imageset" />
+	
+	<!-- 加载农场新手任务介绍icon -->
+	<Imageset Name="farm_task" Filename="EQFarmIcon\imageset\farm_task.imageset" />
+	
+	<!-- 加载物品的Icon -->
+	<Imageset Name="35000001Imageset" Filename="EQHomeItemIcon\Imageset\35000001.imageset" />
+	<Imageset Name="36000001Imageset" Filename="EQHomeItemIcon\Imageset\36000001.imageset" />
+	<Imageset Name="36000002Imageset" Filename="EQHomeItemIcon\Imageset\36000002.imageset" />
+	<Imageset Name="36000003Imageset" Filename="EQHomeItemIcon\Imageset\36000003.imageset" />	
+			
+	<!-- 加载新手引导Icon-->
+	
+	<!-- 加载Loading图Icon-->
+	<Imageset Name="loading01" Filename="LoadingIcon\Imageset\loading01.imageset" />
+	<Imageset Name="loading02" Filename="LoadingIcon\Imageset\loading02.imageset" />
+	
+	<!-- 礼物Icon -->
+	<Imageset Name="liwu001" Filename="EQhomeliwu\Imageset\liwu001.imageset" />
+	<Imageset Name="liwu002" Filename="EQhomeliwu\Imageset\liwu002.imageset" />
+	
+	<!-- 打工 -->
+	<Imageset Name="sweep0" Filename="EQtpltIcon\Imageset\sweep0.imageset" />
+	<Imageset Name="sweep1" Filename="EQtpltIcon\Imageset\sweep1.imageset" />
+	<Imageset Name="sweep2" Filename="EQtpltIcon\Imageset\sweep2.imageset" />
+	<Imageset Name="Occupationicon" Filename="EQtpltIcon\Imageset\Occupationicon.imageset" />
+	<Imageset Name="Occupationicon1" Filename="EQtpltIcon\Imageset\Occupationicon1.imageset" />
+	<Imageset Name="house" Filename="EQtpltIcon\Imageset\house.imageset" />
+	<Imageset Name="find" Filename="EQtpltIcon\Imageset\find.imageset" />
+	<Imageset Name="work0" Filename="EQtpltIcon\Imageset\work0.imageset" />
+	<Imageset Name="work1" Filename="EQtpltIcon\Imageset\work1.imageset" />
+	<Imageset Name="work2" Filename="EQtpltIcon\Imageset\work2.imageset" />
+	<Imageset Name="work3" Filename="EQtpltIcon\Imageset\work3.imageset" />
+	<Imageset Name="work4" Filename="EQtpltIcon\Imageset\work4.imageset" />
+	<Imageset Name="award0" Filename="EQtpltIcon\Imageset\award0.imageset" />
+	<Imageset Name="award1" Filename="EQtpltIcon\Imageset\award1.imageset" />
+	<Imageset Name="award2" Filename="EQtpltIcon\Imageset\award2.imageset" />
+	<Imageset Name="award3" Filename="EQtpltIcon\Imageset\award3.imageset" />
+	<Imageset Name="award4" Filename="EQtpltIcon\Imageset\award4.imageset" />
+	<Imageset Name="award5" Filename="EQtpltIcon\Imageset\award5.imageset" />
+	<Imageset Name="Disease1" Filename="EQtpltIcon\Imageset\Disease1.imageset" />
+	<Imageset Name="Disease2" Filename="EQtpltIcon\Imageset\Disease2.imageset" />
+	<Imageset Name="Disease3" Filename="EQtpltIcon\Imageset\Disease3.imageset" />
+	<Imageset Name="Disease4" Filename="EQtpltIcon\Imageset\Disease4.imageset" />
+	<Imageset Name="Disease5" Filename="EQtpltIcon\Imageset\Disease5.imageset" />
+	<Imageset Name="Disease6" Filename="EQtpltIcon\Imageset\Disease6.imageset" />
+	<Imageset Name="Disease7" Filename="EQtpltIcon\Imageset\Disease7.imageset" />
+	<Imageset Name="Disease8" Filename="EQtpltIcon\Imageset\Disease8.imageset" />
+	<Imageset Name="Disease9" Filename="EQtpltIcon\Imageset\Disease9.imageset" />
+	<Imageset Name="Disease10" Filename="EQtpltIcon\Imageset\Disease10.imageset" />
+	<Imageset Name="Disease11" Filename="EQtpltIcon\Imageset\Disease11.imageset" />
+	<Imageset Name="Disease12" Filename="EQtpltIcon\Imageset\Disease12.imageset" />
+	<Imageset Name="Disease13" Filename="EQtpltIcon\Imageset\Disease13.imageset" />
+	<Imageset Name="Disease14" Filename="EQtpltIcon\Imageset\Disease14.imageset" />
+	<Imageset Name="Disease15" Filename="EQtpltIcon\Imageset\Disease15.imageset" />
+	<Imageset Name="Disease16" Filename="EQtpltIcon\Imageset\Disease16.imageset" />
+        <Imageset Name="expression2" Filename="ExpressionIcon\Imageset\expression2.imageset" />
+        <Imageset Name="expression3" Filename="ExpressionIcon\Imageset\expression3.imageset" />
+	
+</GUIScheme>

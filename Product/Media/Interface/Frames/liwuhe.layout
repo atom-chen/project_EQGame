@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="liwuhe/biaoqianmianban/liwuhechuangkou" >
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,97},{0,56},{0,483},{0,396}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="liwuhe" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,28},{1,-10},{1,-10}}" />
+            <Window Type="NewEQHomeLook/NewTabControl1" Name="liwuhe/biaoqian" >
+                <Property Name="TabHeight" Value="{0,21}" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DefaultWindow" Name="liwuhe/biaoqian/Tab 1" >
+                    <Property Name="Text" Value="免    费" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DefaultWindow" Name="liwuhe/biaoqian/Tab 2" >
+                    <Property Name="Text" Value="梦幻系列" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DefaultWindow" Name="liwuhe/biaoqian/Tab 3" >
+                    <Property Name="Text" Value="搞怪系列" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DefaultWindow" Name="liwuhe/biaoqian/Tab 4" >
+                    <Property Name="Text" Value="绯色系列" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="liwuhe/biaoqianmianban" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,6},{0,25},{1,-6},{1,-6}}" />
+                <Window Type="EQHomeLook/ImageButton" Name="liwuhe/biaoqianmianban/zuoyou1" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage315" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage315" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,21},{0,22},{0,33},{0,34}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="liwuhe/biaoqianmianban/zuoyou11" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage314" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage314" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,304},{0,22},{0.05,316},{0,34}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="liwuhe/biaoqianmianban/icon1" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,36},{0,9},{0,72},{0,45}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="liwuhe/biaoqianmianban/icon2" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,59},{0,9},{0.05,95},{0,45}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="liwuhe/biaoqianmianban/icon3" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,81},{0,9},{0.1,117},{0,45}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="liwuhe/biaoqianmianban/icon4" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.15,104},{0,9},{0.15,140},{0,45}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="liwuhe/biaoqianmianban/icon5" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,126},{0,9},{0.2,162},{0,45}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="liwuhe/biaoqianmianban/icon6" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,150},{0,9},{0.25,186},{0,45}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="liwuhe/biaoqianmianban/icon7" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,174},{0,9},{0.3,210},{0,45}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="liwuhe/biaoqianmianban/daicon1" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,70},{0,221},{0,160}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="liwuhe/biaoqianmianban/jiaqiantxt" >
+                    <Property Name="Text" Value="1EQ币" />
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,144},{0,169},{0,208},{0,189}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="liwuhe/biaoqianmianban/querenanjian" >
+                    <Property Name="Text" Value="确 定" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,152},{0,227},{0,198},{0,253}}" />
+                    <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                    <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="liwuhe/biaoqianmianban/jieshaotxt" >
+                    <Property Name="Text" >
+充满蓝色魅力的礼物盒
+</Property>
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,12},{0,204},{0,341},{0,224}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="liwuhe/biaoqianmianban/mingzitxt" >
+                    <Property Name="Text" Value="蓝色魅力" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,47},{0,221},{0,67}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

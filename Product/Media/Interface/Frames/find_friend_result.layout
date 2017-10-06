@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="find_friend_result" >
+        <Property Name="Text" Value="搜索结果" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,47},{0,50},{0,385},{0,284}}" />
+        <Window Type="EQHomeLook/StaticText" Name="find_friend_result/msg" >
+            <Property Name="Text" Value="以下是系统为您搜索到的玩家：" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,25},{0,35},{0,200},{0,49}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewListbox" Name="find_friend_result/result_window/list_name1" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,50},{0,95},{0,162}}" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewListbox" Name="find_friend_result/result_window/list_mail1" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,95},{0,50},{0,223},{0,162}}" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewListbox" Name="find_friend_result/result_window/list_from1" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,223},{0,50},{0,303},{0,162}}" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewVerticalScrollbar" Name="find_friend_result/scrollbar" >
+            <Property Name="PageSize" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,305},{0,49},{0,320},{0,162}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="find_friend_result/refind" >
+            <Property Name="Text" Value="重新搜索" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,187},{0,122},{0,214}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="find_friend_result/add_player" >
+            <Property Name="Text" Value="加为好友" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,134},{0,187},{0,206},{0,214}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="find_friend_result/add_player1" >
+            <Property Name="Text" Value="取消" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,216},{0,187},{0,266},{0,214}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="find_friend_result/pageup" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage315" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage315" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,130},{0,174},{0,142},{0,186}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="find_friend_result/pageup1" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage314" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage314" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,185},{0,174},{0,197},{0,186}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="find_friend_result/xian1" >
+            <Property Name="Image" Value="set:Button5 image:NewImage140" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,178},{0,130},{0,181}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="find_friend_result/xian11" >
+            <Property Name="Image" Value="set:Button5 image:NewImage140" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,197},{0,178},{0,320},{0,181}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="find_friend_result/yeshu" >
+            <Property Name="Text" Value="99/99" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,147},{0,170},{0,182},{0,187}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewHorizontalScrollbar" Name="find_friend_result/h_srcrollbar" >
+            <Property Name="PageSize" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,30},{0,161},{0,291},{0,175}}" />
+        </Window>
+    </Window>
+</GUILayout>

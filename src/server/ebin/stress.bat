@@ -1,0 +1,1 @@
+erl -mnesia dump_log_write_threshold 50000 -mnesia dc_dump_limit 40 -env ERL_MAX_PORTS 100000 -run stress_test start 10.35.12.224 2222 0 50 1

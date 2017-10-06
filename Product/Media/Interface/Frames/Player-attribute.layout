@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage2" Name="PlayerAttribute_Root/Player/" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,73},{0,202},{0,177}}" />
+        <Window Type="EQHomeLook/StaticText" Name="PlayerAttribute_Root/Player/Player/1" >
+            <Property Name="Text" Value="人物清洁：" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0.0176391,8},{0,76},{0,33}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="PlayerAttribute_Root/Player/Player/2" >
+            <Property Name="Text" Value="人物健康：" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,31},{0,76},{-0.0176391,56}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="PlayerAttribute_Root/Player/Player/3" >
+            <Property Name="Text" Value="人物魅力：" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,51},{0,76},{-0.0176391,76}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="PlayerAttribute_Root/Player/Player/5" >
+            <Property Name="Text" Value="活 力 值：" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,71},{0,76},{-0.0176391,96}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewSlider" Name="PlayerAttribute_Root/Player/Player/slider1" >
+            <Property Name="CurrentValue" Value="0" />
+            <Property Name="MaximumValue" Value="1" />
+            <Property Name="ClickStepSize" Value="0.01" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,77},{0,12},{0,184},{0,31}}" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewSlider1" Name="PlayerAttribute_Root/Player/Player/slider2" >
+            <Property Name="CurrentValue" Value="0" />
+            <Property Name="MaximumValue" Value="1" />
+            <Property Name="ClickStepSize" Value="0.01" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,77},{0,32},{0,184},{0,51}}" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewSlider2" Name="PlayerAttribute_Root/Player/Player/slider3" >
+            <Property Name="CurrentValue" Value="0" />
+            <Property Name="MaximumValue" Value="1" />
+            <Property Name="ClickStepSize" Value="0.01" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,77},{0,52},{0,184},{0,71}}" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewSlider4" Name="PlayerAttribute_Root/Player/Player/slider5" >
+            <Property Name="CurrentValue" Value="0" />
+            <Property Name="MaximumValue" Value="1" />
+            <Property Name="ClickStepSize" Value="0.01" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,77},{0,72},{0,184},{0,91}}" />
+        </Window>
+    </Window>
+</GUILayout>

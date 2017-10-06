@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<common_define_tplt>
+		<key>init_house_welcome_word</key>
+		<value>欢迎来我家做客。</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>item_overtime_msg</key>
+		<value>到期，已消失。</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>item_overtime_mail_title</key>
+		<value>物品到期消息</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>player_clean</key>
+		<value>您的清洁度增加了:</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>player_health</key>
+		<value>您的健康值增加了:</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>player_charm</key>
+		<value>您的魅力值增加了:</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>active_value</key>
+		<value>您的活力值增加了:</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>house_clean</key>
+		<value>您的房屋清洁度增加了:</value>
+	</common_define_tplt>	
+	<common_define_tplt>
+		<key>player_clean_negative</key>
+		<value>您的清洁度减少了:</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>player_health_negative</key>
+		<value>您的健康值减少了:</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>player_charm_negative</key>
+		<value>您的魅力值减少了:</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>active_value_negative</key>
+		<value>您的活力值减少了:</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>house_clean_negative</key>
+		<value>您的房屋清洁度减少了:</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>newer_task_mail_tile</key>
+		<value>新手任务邮件标题</value>
+	</common_define_tplt>
+	<common_define_tplt>
+		<key>newer_task_mail_content</key>
+		<value>新手任务邮件内容</value>
+	</common_define_tplt>
+</root>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="red_farmland_harvest" >
+        <Property Name="Text" Value="红土地事件" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,167},{0,111},{0,447},{0,351}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="red_farmland_harvest/bgimg" >
+            <Property Name="Image" Value="set:common1 image:Window5_Mid" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,2},{0,22},{1,-2},{1,-2}}" />
+            <Window Type="EQHomeLook/StaticText" Name="red_farmland_harvest/bgimg/msg" >
+                <Property Name="Text" >哇！在红土地上进行收获时发现了宝贝！红土
+地不仅可以培育奇珍异果，珍贵名药，还有更
+多普通土地没有的幸运哦！！</Property>
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,8},{0,3},{1,-8},{0,60}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="red_farmland_harvest/bgimg/sysmsg" >
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,8},{0,56},{1,-8},{0,92}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="red_farmland_harvest/bgimg/bgicon1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,8},{0,94},{0,72},{0,182}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="red_farmland_harvest/bgimg/bgicon/icon1" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,64}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="red_farmland_harvest/bgimg/bgicon/count1" >
+                    <Property Name="TextColours" Value="tl:FFFF6600 tr:FFFF6600 bl:FFFF6600 br:FFFF6600" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,66},{0,64},{0,86}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="red_farmland_harvest/bgimg/bgicon2" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,74},{0,94},{0,138},{0,182}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="red_farmland_harvest/bgimg/bgicon/icon2" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,64}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="red_farmland_harvest/bgimg/bgicon/count2" >
+                    <Property Name="TextColours" Value="tl:FFFF6600 tr:FFFF6600 bl:FFFF6600 br:FFFF6600" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,66},{0,64},{0,86}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="red_farmland_harvest/bgimg/bgicon3" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,140},{0,94},{0,204},{0,182}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="red_farmland_harvest/bgimg/bgicon/icon3" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,64}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="red_farmland_harvest/bgimg/bgicon/count3" >
+                    <Property Name="TextColours" Value="tl:FFFF6600 tr:FFFF6600 bl:FFFF6600 br:FFFF6600" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,66},{0,64},{0,86}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="red_farmland_harvest/bgimg/bgicon4" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,206},{0,94},{0,270},{0,182}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="red_farmland_harvest/bgimg/bgicon/icon4" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,64}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="red_farmland_harvest/bgimg/bgicon/count4" >
+                    <Property Name="TextColours" Value="tl:FFFF6600 tr:FFFF6600 bl:FFFF6600 br:FFFF6600" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,66},{0,64},{0,86}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="red_farmland_harvest/bgimg/button" >
+                <Property Name="Text" Value="确定" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton6_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton6_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton6_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,184},{0.6,0},{0,200}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

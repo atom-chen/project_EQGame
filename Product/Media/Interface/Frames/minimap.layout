@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage1" Name="minimap" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,200},{0,50},{0,550},{0,430}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="minimap/likai" >
+            <Property Name="Text" Value="离开" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,157},{0,344},{0,203},{0,369}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="minimap/map" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{0,340},{0,340}}" />
+        </Window>
+    </Window>
+</GUILayout>

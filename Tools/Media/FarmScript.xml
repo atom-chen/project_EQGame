@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--以命令的方式来操作农场的显示. CMD表示这是一条命令, f表示函数名, p0~pN表示第0~N个参数-->
+<!--以下是所有指令说明:
+#复位农场初始效果,目前农场初始化效果只有初始化的土地  f="setInitialState"
+#更换土地  f="changeLand" p0="地块索引.(int)" p1="模型文件名.(string)" p2="材质名.(string)(可选)"
+#复位土地为初始模型  f="resetLand" p0="地块索引.(int)"
+#种植或替换植物  f="seedPlant" p0="地块索引.(int)" p1="模型文件名.(string)" p2="材质名.(string)(可选)"
+#移除植物  f="removePlant" p0="地块索引.(int)"
+#种草  f="seedGrass" p0="地块索引.(int)"
+#除草  f="removeGrass" p0="地块索引.(int)"
+#增加或更换农场物件  f="changeFarmObject" p0="物件名,必须和FarmScene.xml的物件名对应.(string)" p1="模型文件名.(string)" p2="材质名.(string)(可选)"
+#移除农场物件  f="removeFarmObject" p0="物件名,必须和FarmScene.xml的物件名对应.(string)"
+-->
+<FarmScript>
+	<CMD f="setInitialState"/>
+	<CMD f="seedGrass" p0="1"/>
+	<CMD f="changeFarmObject" p0="dog" p1="Npc5001.mesh"/>
+</FarmScript>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="liwu002" Imagefile="EQhomeliwu\liwu002.dds" >
+    <Image Name="liwuka" XPos="10" YPos="10" Width="365" Height="247" />
+    <Image Name="songli_01" XPos="400" YPos="10" Width="88" Height="88" />
+    <Image Name="songli_02" XPos="400" YPos="100" Width="88" Height="88" />
+    <Image Name="songli_4h" XPos="497" YPos="179" Width="34" Height="34" />
+    <Image Name="songli_4n" XPos="497" YPos="98" Width="34" Height="34" />
+    <Image Name="songli_4p" XPos="497" YPos="138" Width="34" Height="34" />
+    <Image Name="songli_03h" XPos="581" YPos="10" Width="68" Height="68" />
+    <Image Name="songli_03n" XPos="499" YPos="10" Width="68" Height="68" />
+    <Image Name="songli_03p" XPos="662" YPos="10" Width="68" Height="68" />
+</Imageset>

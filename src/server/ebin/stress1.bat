@@ -1,0 +1,1 @@
+erl -run stress_test start 10.35.12.224 2222 90 2

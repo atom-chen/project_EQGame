@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage6" Name="gmfriend_manage" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,272},{0,206},{0,446},{0,242}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="gmfriend_manage/background" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,3},{0,0},{0,24},{1,0}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="gmfriend_manage/background/" >
+                <Property Name="Image" Value="set:Button3 image:ImageButton28_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,10},{0,19},{0,27}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="gmfriend_manage/channel1" >
+            <Property Name="Text" Value="访问Ta的             " />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,24},{0,8},{0,170},{0,28}}" />
+            <Property Name="NormalTextColour" Value="FF5C96FF " />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+            <Window Type="EQHomeLook/ImageButton" Name="gmfriend_manage/channel1/home" >
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton23_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton23_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton23_Normal" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,55},{0,2},{0,71},{0,18}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="Root/zhuchuangkou" >
+        <Property Name="Font" Value="simsun-11" />
+        <Property Name="Text" Value="农场仓库" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,144},{0,103},{0,476},{0,417}}" />
+        <Window Type="EQHomeLook/TabControl" Name="Root/zhuchuangkou/biaoqian" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="TabHeight" Value="{0,19.6948}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,6},{0,25},{1,-6},{1,-6}}" />
+            <Window Type="DefaultWindow" Name="Root/zhuchuangkou/biaoqian/Tab 1" >
+                <Property Name="Text" Value=" 蔬 果 " />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,64},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon1/1" >
+                        <Property Name="Font" Value="simsun-10" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon1/2" >
+                        <Property Name="Font" Value="simsun-10" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon1/3" >
+                        <Property Name="Font" Value="simsun-10" />
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon1/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt1" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,61},{0,60},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon6" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,75},{0,64},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon6/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon6/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon6/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon6/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt6" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,131},{0,60},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon11" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,145},{0,64},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon11/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon11/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon11/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon11/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt11" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,201},{0,60},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon2" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,68},{0,5},{0,127},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon2/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon2/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon2/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon2/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt2" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,73},{0,61},{0,122},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon7" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,68},{0,75},{0,127},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon7/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon7/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon7/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon7/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt7" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,73},{0,131},{0,122},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon12" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,68},{0,145},{0,127},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon12/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon12/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon12/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon12/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt12" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,73},{0,201},{0,122},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon3" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,5},{0,190},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon3/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon3/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon3/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon3/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt3" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,136},{0,61},{0,185},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon8" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,75},{0,190},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon8/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon8/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon8/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon8/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt8" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,136},{0,131},{0,185},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon13" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,145},{0,190},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon13/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon13/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon13/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon13/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt13" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,136},{0,201},{0,185},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon4" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,194},{0,5},{0,253},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon4/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon4/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon4/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon4/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt4" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,61},{0,248},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon9" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,194},{0,75},{0,253},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon9/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon9/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon9/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon9/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt9" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,131},{0,248},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon14" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,194},{0,145},{0,253},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon14/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon14/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon14/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon14/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt14" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,201},{0,248},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon5" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,257},{0,5},{0,316},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon5/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon5/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon5/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon5/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt5" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,262},{0,61},{0,311},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon10" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,257},{0,75},{0,316},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon10/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon10/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon10/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon10/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt10" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,262},{0,131},{0,311},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon15" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,257},{0,145},{0,316},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon15/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon15/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon15/3" >
+                        <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/icon15/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 1/txt15" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,262},{0,201},{0,311},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/zhuchuangkou/biaoqian/Tab 2" >
+                <Property Name="Text" Value=" 道 具 " />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon1" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,64},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon1/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon1/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon1/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon1/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,61},{0,60},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon6" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,75},{0,64},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon6/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon6/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon6/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon6/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt6" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,131},{0,60},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon11" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,145},{0,64},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon11/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon11/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon11/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon11/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt11" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,201},{0,60},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon2" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,68},{0,5},{0,127},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon2/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon2/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon2/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon2/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt2" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,73},{0,61},{0,122},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon7" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,68},{0,75},{0,127},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon7/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon7/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon7/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon7/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt7" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,73},{0,131},{0,122},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon12" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,68},{0,145},{0,127},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon12/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon12/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon12/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon12/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt12" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,73},{0,201},{0,122},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon3" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,5},{0,190},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon3/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon3/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon3/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon3/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt3" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,136},{0,61},{0,185},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon8" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,75},{0,190},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon8/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon8/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon8/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon8/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt8" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,136},{0,131},{0,185},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon13" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,145},{0,190},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon13/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon13/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon13/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon13/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt13" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,136},{0,201},{0,185},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon4" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,194},{0,5},{0,253},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon4/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon4/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon4/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon4/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt4" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,61},{0,248},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon9" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,194},{0,75},{0,253},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon9/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon9/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon9/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon9/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt9" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,131},{0,248},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon14" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,194},{0,145},{0,253},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon14/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon14/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon14/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon14/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt14" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,201},{0,248},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon5" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,257},{0,5},{0,316},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon5/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon5/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon5/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon5/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt5" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,262},{0,61},{0,311},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon10" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,257},{0,75},{0,316},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon10/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon10/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon10/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon10/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt10" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,262},{0,131},{0,311},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon15" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,257},{0,145},{0,316},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon15/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon15/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon15/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/icon15/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 2/txt15" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,262},{0,201},{0,311},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/zhuchuangkou/biaoqian/Tab 3" >
+                <Property Name="Text" Value=" 种 子 " />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon1" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,64},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon1/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon1/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon1/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon1/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt1" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,61},{0,60},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon6" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,75},{0,64},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon6/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon6/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon6/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon6/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt6" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,131},{0,60},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon11" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,145},{0,64},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon11/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon11/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon11/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon11/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt11" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,201},{0,60},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon2" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,68},{0,5},{0,127},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon2/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon2/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon2/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon2/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt2" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,73},{0,61},{0,122},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon7" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,68},{0,75},{0,127},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon7/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon7/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon7/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon7/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt7" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,73},{0,131},{0,122},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon12" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,68},{0,145},{0,127},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon12/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon12/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon12/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon12/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt12" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,73},{0,201},{0,122},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon3" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,5},{0,190},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon3/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon3/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon3/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon3/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt3" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,136},{0,61},{0,185},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon8" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,75},{0,190},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon8/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon8/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon8/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon8/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt8" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,136},{0,131},{0,185},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon13" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,131},{0,145},{0,190},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon13/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon13/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon13/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon13/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt13" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,136},{0,201},{0,185},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon4" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,194},{0,5},{0,253},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon4/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon4/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon4/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon4/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt4" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,61},{0,248},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon9" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,194},{0,75},{0,253},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon9/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon9/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon9/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon9/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt9" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,131},{0,248},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon14" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,194},{0,145},{0,253},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon14/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon14/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon14/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon14/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt14" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,201},{0,248},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon5" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,257},{0,5},{0,316},{0,58}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon5/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon5/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon5/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon5/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt5" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,262},{0,61},{0,311},{0,73}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon10" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,257},{0,75},{0,316},{0,128}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon10/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon10/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon10/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon10/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt10" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,262},{0,131},{0,311},{0,143}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon15" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,257},{0,145},{0,316},{0,198}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon15/1" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{0,37},{0,37}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon15/2" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,39},{0,3},{1,-4},{0,31}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon15/3" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,36},{0,54},{0,50}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/icon15/4" >
+                        <Property Name="Font" Value="simhei-10" />
+                        <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,39},{0,36},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/biaoqian/Tab 3/txt15" >
+                    <Property Name="Font" Value="simhei-10" />
+                    <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,262},{0,201},{0,311},{0,213}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/zhuchuangkou/anjian2" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="全部卖出" />
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,110},{1,-30},{1,-110},{1,-13}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/txt1" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="出售总价格：" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,13},{1,-49},{0,103},{1,-36}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/txt2" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="金币" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FFFF6600 tr:FFFF6600 bl:FFFF6600 br:FFFF6600" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,109},{1,-49},{0,134},{1,-36}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/txt3" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="999999" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FFCC3300 tr:FFCC3300 bl:FFCC3300 br:FFCC3300" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,151},{1,-49},{0,214},{1,-36}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/zhuchuangkou/fanye1" >
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton8_Hover" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton8_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-96},{1,-53},{1,-80},{1,-37}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/zhuchuangkou/fanye2" >
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton9_Hover" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton9_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-35},{1,-53},{1,-18},{1,-37}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/fanye3" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="9999" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-67},{1,-51},{1,-38},{1,-35}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/zhuchuangkou/tishitxt" >
+            <Property Name="Text" >     你的仓库空空的，连老鼠都不来光顾，一分
+
+     分耕耘一分收获，赶紧去种植吧！</Property>
+            <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,120},{1,-10},{0,170}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="EQHomeLook/ImageButton" Name="Root/zhuchuangkou/anjian11" >
+                <Property Name="Text" Value="去商店" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,230},{0,31},{0,280},{0,48}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

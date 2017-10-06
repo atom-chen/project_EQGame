@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage" Name="ciweijiaoxue" >
+        <Property Name="Image" Value="set:cpbeijing image:NewImage2" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{0,359},{0,191}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="ciweijiaoxue/nextBtn" >
+            <Property Name="Text" Value="继续下步" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage432" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage431" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage433" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,150},{0,140},{0,227},{0,161}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ciweijiaoxue/preBtn" >
+            <Property Name="Text" Value="返回上步" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,140},{0,113},{0,161}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+    </Window>
+</GUILayout>

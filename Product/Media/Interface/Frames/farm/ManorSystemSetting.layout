@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="MSystemSetting" >
+        <Property Name="Font" Value="simsun-10" />
+        <Property Name="Text" Value="你可以在这里进行一些有趣的游戏设定" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,36},{0,38},{0,612},{0,457}}" />
+        <Property Name="EWSizingCursorImage" Value="" />
+        <Property Name="NSSizingCursorImage" Value="" />
+        <Property Name="NESWSizingCursorImage" Value="" />
+        <Property Name="NWSESizingCursorImage" Value="" />
+        <Window Type="EQHomeLook/StaticImage" Name="MSystemSetting/bg" >
+            <Property Name="Image" Value="set:common1 image:Window7_Mid" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00781251,0},{0.0666668,0},{0.992187,0},{0.985418,0}}" />
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/Vegetable" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="菜地设置：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0378336,0},{0.00450913,0},{0.287834,0},{0.0774451,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/VegetableText0" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="好友帮我浇水时，我会说：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037834,0},{0.095872,0},{0.319231,0},{0.168807,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/VegetableText3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="好友来我家放草时，我会说：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037834,0},{0.538073,0},{0.408713,0},{0.611009,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/VegetableText1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="好友帮我杀虫时，我会说：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037834,0},{0.244037,0},{0.309812,0},{0.316973,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/VegetableText2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="好友帮我除草时，我会说：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037834,0},{0.38578,0},{0.393014,0},{0.458716,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/FieldText0" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="好友来我家放虫时，我会说：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0459703,0},{0.68544,0},{0.327367,0},{0.758375,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MSystemSetting/bg/SettingSure" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="确 定" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton6_Normal" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton6_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton6_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.677394,0},{0.888272,0},{0.786106,0},{0.957079,0}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            </Window>
+            <Window Type="EQHomeLook/Editbox2" Name="MSystemSetting/bg/TextInput0" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037834,0},{0.1789,0},{0.367897,0},{0.236239,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/Editbox2" Name="MSystemSetting/bg/TextInput1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0362641,0},{0.319603,0},{0.366327,0},{0.376942,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/Editbox2" Name="MSystemSetting/bg/TextInput3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037834,0},{0.620643,0},{0.367897,0},{0.677982,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/Editbox2" Name="MSystemSetting/bg/TextInput2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037834,0},{0.468809,0},{0.367897,0},{0.526147,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/Editbox2" Name="MSystemSetting/bg/TextInput4" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0428304,0},{0.768468,0},{0.372893,0},{0.825807,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MSystemSetting/bg/setDefualtBtn" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="恢复默认值" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton6_Normal" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton6_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton6_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.827865,0},{0.890107,0},{0.963265,0},{0.958914,0}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/Systemsetup" >
+                <Property Name="Text" Value="显示设置：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,261},{0.00450913,0},{0.047619,322},{0.0294524,16}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/SystemsetupText01" >
+                <Property Name="Text" Value="窗口分辨率：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.471961,0},{0.095872,0},{0.753358,0},{0.168807,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/SystemsetupText02" >
+                <Property Name="Text" Value="反锯齿：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.472755,0},{0.244037,0},{0.754152,0},{0.316972,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/SystemsetupText03" >
+                <Property Name="Text" Value="阴影：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.471961,0},{0.38578,0},{0.753358,0},{0.458715,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewCombobox" Name="MSystemSetting/bg/Check01" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.35,95},{0.1789,0},{0.680063,95},{0.4289,0}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewCombobox" Name="MSystemSetting/bg/Check02" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.35,95},{0.319603,0},{0.680063,95},{0.569603,0}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewCombobox" Name="MSystemSetting/bg/Check03" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.35,95},{0.468809,0},{0.680063,95},{0.718809,0}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/txt1" >
+                <Property Name="Text" Value="系统音效：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,269},{0,214},{0,349},{0,229}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/txt2" >
+                <Property Name="Text" Value="背景音乐：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,269},{0,264},{0,349},{0,279}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewSlider" Name="MSystemSetting/bg/Slider1" >
+                <Property Name="CurrentValue" Value="0" />
+                <Property Name="MaximumValue" Value="1" />
+                <Property Name="ClickStepSize" Value="0.01" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,293},{0,236},{0,493},{0,255}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewSlider" Name="MSystemSetting/bg/Slider2" >
+                <Property Name="CurrentValue" Value="0" />
+                <Property Name="MaximumValue" Value="1" />
+                <Property Name="ClickStepSize" Value="0.01" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,293},{0,285},{0,493},{0,304}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/txt3" >
+                <Property Name="Text" Value="小" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,275},{0,238},{0,290},{0,253}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/txt4" >
+                <Property Name="Text" Value="大" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,496},{0,238},{0,511},{0,253}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/txt5" >
+                <Property Name="Text" Value="小" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,275},{0,287},{0,290},{0,302}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="MSystemSetting/bg/txt6" >
+                <Property Name="Text" Value="大" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,496},{0,287},{0,511},{0,302}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,62 @@
+system P00000010-01
+{
+    technique Technique24
+    {
+        visual_particle_quota                   50
+        material                                shuihua2
+        default_particle_width                  25
+        default_particle_height                 25
+        default_particle_depth                  25
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Circle Emitter28
+        {
+            emission_rate                       20
+            time_to_live                        dyn_random
+            {
+                min                             2
+                max                             3
+            }
+            velocity                            5
+            particle_width                      dyn_random
+            {
+                min                             30
+                max                             40
+            }
+            particle_height                     dyn_random
+            {
+                min                             40
+                max                             45
+            }
+            circle_em_radius                    40
+        }
+        emitter                                 Circle Emitter29
+        {
+            time_to_live                        dyn_random
+            {
+                min                             2
+                max                             3
+            }
+            velocity                            0
+            circle_em_radius                    70
+        }
+        emitter                                 Circle Emitter30
+        {
+            time_to_live                        dyn_random
+            {
+                min                             2
+                max                             3
+            }
+            velocity                            0
+            particle_width                      15
+            particle_height                     15
+            circle_em_radius                    90
+        }
+        affector                                Colour Affector3
+        {
+            colour_aff_time_colour              0.6  1 1 1 1
+            colour_aff_time_colour              1    1 1 1 0
+        }
+    }
+}

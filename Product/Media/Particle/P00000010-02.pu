@@ -1,0 +1,66 @@
+system P00000010-02
+{
+    technique Technique11
+    {
+        material                                shuihua3
+        default_particle_width                  10
+        default_particle_height                 10
+        default_particle_depth                  10
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Circle Emitter20
+        {
+            emission_rate                       40
+            angle                               10
+            time_to_live                        dyn_random
+            {
+                min                             0.8
+                max                             1.5
+            }
+            velocity                            dyn_random
+            {
+                min                             200
+                max                             350
+            }
+            circle_em_radius                    30
+        }
+        affector                                Colour Affector3
+        {
+            colour_aff_time_colour              0    0.701961 0.917647 1 1
+            colour_aff_time_colour              0.4  0.882353 0.968627 1 0.784314
+            colour_aff_time_colour              1    0.701961 0.917647 1 0
+            colour_operation                    multiply
+        }
+        affector                                TextureRotator Affector4
+        {
+            tex_rot_rotation                    dyn_random
+            {
+                min                             -3
+                max                             3
+            }
+            tex_rot_speed                       dyn_random
+            {
+                min                             -0.1
+                max                             0.1
+            }
+        }
+        affector                                Scale Affector5
+        {
+            x_scale                             dyn_random
+            {
+                min                             200
+                max                             400
+            }
+            y_scale                             dyn_random
+            {
+                min                             300
+                max                             600
+            }
+        }
+        affector                                LinearForce Affector6
+        {
+            force_aff_vector                    0 -1000 0
+        }
+    }
+}

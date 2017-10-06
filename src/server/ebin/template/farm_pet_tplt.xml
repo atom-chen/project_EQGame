@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<farm_pet_tplt>
+		<pet_id>84003</pet_id>
+		<rate>20</rate>
+		<min_coin>10</min_coin>
+		<max_coin>20</max_coin>
+	</farm_pet_tplt>
+	<farm_pet_tplt>
+		<pet_id>84012</pet_id>
+		<rate>40</rate>
+		<min_coin>20</min_coin>
+		<max_coin>30</max_coin>
+	</farm_pet_tplt>
+</root>

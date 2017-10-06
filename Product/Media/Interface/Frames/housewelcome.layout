@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage" Name="Root/wd" >
+        <Property Name="Image" Value="set:house image:house_1" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-160},{0.5,-123},{0.5,160},{0.5,123}}" />
+    </Window>
+</GUILayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<House>
+    <Material file="00013001.material" />
+    <Floors rootNO="1">
+        <Floor NO="1" upFloorNO="2" height="0">
+            <Grids />
+            <Walls />
+        </Floor>
+        <Floor NO="2" height="0">
+            <Grids />
+            <Walls />
+        </Floor>
+    </Floors>
+    <Components>
+        <Comp name="00013001_edgetcx_100_00" frame="true" compTyp="6" mesh="00013001_edgetcx_100_00.mesh" pos="0 10 -4.37114e-007" flr="1" room="0" />
+        <Comp name="00013001_edgetcx_201_00" frame="true" compTyp="6" mesh="00013001_edgetcx_201_00.mesh" pos="0 310 -1.2444e-005" flr="2" room="1" />
+        <Comp name="00013001_floor_100_00" frame="true" compTyp="2" mesh="00013001_floor_100_00.mesh" pos="160 -1.74846e-005 -400" flr="1" room="0" />
+        <Comp name="00013001_floor_101_00" frame="true" compTyp="2" mesh="00013001_floor_101_00.mesh" pos="1.52588e-005 0 0" flr="1" room="1" />
+        <Comp name="00013001_floor_102_00" frame="true" compTyp="2" mesh="00013001_floor_102_00.mesh" pos="1.52588e-005 0 0" flr="1" room="2" />
+        <Comp name="00013001_floor_202_00" frame="true" compTyp="2" mesh="00013001_floor_202_00.mesh" pos="1.52588e-005 290 -160" flr="2" room="2" />
+        <Comp name="00013001_floor_203_00" frame="true" compTyp="2" mesh="00013001_floor_203_00.mesh" pos="-244 290 -196" flr="2" room="3" />
+        <Comp name="00013001_inneredge_100_00" frame="true" compTyp="4" mesh="00013001_inneredge_100_00.mesh" pos="-80 144.314 -158" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00013001_inneredge_200_01" frame="true" compTyp="4" mesh="00013001_inneredge_200_01.mesh" pos="-236 440 -80" flr="2" room="0" />
+        <Comp name="00013001_innerwall_101_00" frame="true" compTyp="4" mesh="00013001_innerwall_101_00.mesh" pos="-80 150 -158" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="1" />
+        <Comp name="00013001_innerwall_202_00" frame="true" compTyp="4" mesh="00013001_innerwall_202_00.mesh" pos="-80 440 -196" flr="2" room="2" />
+        <Comp name="00013001_innerwall_203_00" frame="true" compTyp="4" mesh="00013001_innerwall_203_00.mesh" pos="-236 440 -80" flr="2" room="3" />
+        <Comp name="00013001_outedge_100_00" frame="true" compTyp="3" mesh="00013001_outedge_100_00.mesh" pos="0 150 -320" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00013001_outedge_100_01" frame="true" compTyp="3" mesh="00013001_outedge_100_01.mesh" pos="-400 150 -6.55671e-006" rot="-4.37114e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00013001_outedge_100_02" frame="true" compTyp="3" mesh="00013001_outedge_100_02.mesh" pos="0 150 320" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+        <Comp name="00013001_outedge_100_03" frame="true" compTyp="3" mesh="00013001_outedge_100_03.mesh" pos="400 150 -6.55671e-006" flr="1" room="0" />
+        <Comp name="00013001_outedge_201_00" frame="true" compTyp="3" mesh="00013001_outedge_201_00.mesh" pos="0 440 320" rot="0.707107 0 -0.707107 3.09086e-008" flr="2" room="1" />
+        <Comp name="00013001_outedge_201_01" frame="true" compTyp="3" mesh="00013001_outedge_201_01.mesh" pos="400 440 -1.81265e-005" flr="2" room="1" />
+        <Comp name="00013001_outedge_201_02" frame="true" compTyp="3" mesh="00013001_outedge_201_02.mesh" pos="-0.000269532 440 -320" rot="0.707107 0 0.707107 -3.09086e-008" flr="2" room="1" />
+        <Comp name="00013001_outedge_201_03" frame="true" compTyp="3" mesh="00013001_outedge_201_03.mesh" pos="-400 440 -1.81265e-005" rot="-4.37114e-008 0 1 -4.37114e-008" flr="2" room="1" />
+        <Comp name="00013001_outwall_100_00" frame="true" compTyp="3" mesh="00013001_outwall_100_00.mesh" pos="0 150 320" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+        <Comp name="00013001_outwall_100_01" frame="true" compTyp="3" mesh="00013001_outwall_100_01.mesh" pos="400 150 -6.55671e-006" flr="1" room="0" />
+        <Comp name="00013001_outwall_100_02" frame="true" compTyp="3" mesh="00013001_outwall_100_02.mesh" pos="0 150 -320" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00013001_outwall_100_03" frame="true" compTyp="3" mesh="00013001_outwall_100_03.mesh" pos="-400 150 -6.55671e-006" rot="4.37114e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00013001_outwall_101_00" frame="true" compTyp="3" mesh="00013001_outwall_101_00.mesh" pos="0 150 320" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="1" />
+        <Comp name="00013001_outwall_101_01" frame="true" compTyp="3" mesh="00013001_outwall_101_01.mesh" pos="400 150 -6.55671e-006" flr="1" room="1" />
+        <Comp name="00013001_outwall_101_02" frame="true" compTyp="3" mesh="00013001_outwall_101_02.mesh" pos="0 150 -320" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="1" />
+        <Comp name="00013001_outwall_101_03" frame="true" compTyp="3" mesh="00013001_outwall_101_03.mesh" pos="-400 150 -6.55671e-006" rot="4.37114e-008 0 1 -4.37114e-008" flr="1" room="1" />
+        <Comp name="00013001_outwall_102_00" frame="true" compTyp="3" mesh="00013001_outwall_102_00.mesh" pos="-400 150 -6.55671e-006" rot="4.37114e-008 0 1 -4.37114e-008" flr="1" room="2" />
+        <Comp name="00013001_outwall_102_01" frame="true" compTyp="3" mesh="00013001_outwall_102_01.mesh" pos="0 150 -320" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="2" />
+        <Comp name="00013001_outwall_102_02" frame="true" compTyp="3" mesh="00013001_outwall_102_02.mesh" pos="-80 150 -158" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="2" />
+        <Comp name="00013001_outwall_200_00" frame="true" compTyp="3" mesh="00013001_outwall_200_00.mesh" pos="0 440 320" rot="0.707107 0 -0.707107 3.09086e-008" flr="2" room="0" />
+        <Comp name="00013001_outwall_200_01" frame="true" compTyp="3" mesh="00013001_outwall_200_01.mesh" pos="400 440 -1.81265e-005" flr="2" room="0" />
+        <Comp name="00013001_outwall_200_02" frame="true" compTyp="3" mesh="00013001_outwall_200_02.mesh" pos="-0.000269532 440 -320" rot="0.707107 0 0.707107 -3.09086e-008" flr="2" room="0" />
+        <Comp name="00013001_outwall_200_03" frame="true" compTyp="3" mesh="00013001_outwall_200_03.mesh" pos="-400 440 -1.81265e-005" rot="4.37114e-008 0 1 -4.37114e-008" flr="2" room="0" />
+        <Comp name="00013001_outwall_201_00" frame="true" compTyp="3" mesh="00013001_outwall_201_00.mesh" pos="0 440 320" rot="0.707107 0 -0.707107 3.09086e-008" flr="2" room="1" />
+        <Comp name="00013001_outwall_201_01" frame="true" compTyp="3" mesh="00013001_outwall_201_01.mesh" pos="400 440 -1.81265e-005" flr="2" room="1" />
+        <Comp name="00013001_outwall_201_02" frame="true" compTyp="3" mesh="00013001_outwall_201_02.mesh" pos="-400 440 -1.81265e-005" rot="4.37114e-008 0 1 -4.37114e-008" flr="2" room="1" />
+        <Comp name="00013001_outwall_202_00" frame="true" compTyp="3" mesh="00013001_outwall_202_00.mesh" pos="400 440 -1.81265e-005" flr="2" room="2" />
+        <Comp name="00013001_outwall_202_01" frame="true" compTyp="3" mesh="00013001_outwall_202_01.mesh" pos="-0.000269532 440 -320" rot="0.707107 0 0.707107 -3.09086e-008" flr="2" room="2" />
+        <Comp name="00013001_outwall_203_00" frame="true" compTyp="3" mesh="00013001_outwall_203_00.mesh" pos="-0.000269532 440 -320" rot="0.707107 0 0.707107 -3.09086e-008" flr="2" room="3" />
+        <Comp name="00013001_outwall_203_01" frame="true" compTyp="3" mesh="00013001_outwall_203_01.mesh" pos="-400 440 -1.81265e-005" rot="-4.37114e-008 0 1 -4.37114e-008" flr="2" room="3" />
+        <Comp name="00013001_roof_100_00" frame="true" compTyp="5" mesh="00013001_roof_100_00.mesh" pos="1.52588e-005 280 -160" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00013001_roof_200_00" frame="true" compTyp="5" mesh="00013001_roof_200_00.mesh" pos="1.52588e-005 581.76 -2.54295e-005" flr="2" room="0" />
+        <Comp name="00013001_tcx_100_00" frame="true" compTyp="6" mesh="00013001_tcx_100_00.mesh" pos="0 10 320" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+        <Comp name="00013001_tcx_100_01" frame="true" compTyp="6" mesh="00013001_tcx_100_01.mesh" pos="400 10 -4.37114e-007" flr="1" room="0" />
+        <Comp name="00013001_tcx_100_02" frame="true" compTyp="6" mesh="00013001_tcx_100_02.mesh" pos="0 9.99999 -320" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00013001_tcx_100_03" frame="true" compTyp="6" mesh="00013001_tcx_100_03.mesh" pos="-400 10 -4.37114e-007" rot="4.37114e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00013001_tcx_101_00" frame="true" compTyp="6" mesh="00013001_tcx_101_00.mesh" pos="0 9.99999 -320" flr="1" room="1" />
+        <Comp name="00013001_tcx_102_00" frame="true" compTyp="6" mesh="00013001_tcx_102_00.mesh" pos="0 9.99999 -320" flr="1" room="2" />
+        <Comp name="00013001_tcx_200_00" frame="true" compTyp="6" mesh="00013001_tcx_200_00.mesh" pos="0 300 320" rot="0.707107 0 -0.707107 3.09086e-008" flr="2" room="0" />
+        <Comp name="00013001_tcx_200_01" frame="true" compTyp="6" mesh="00013001_tcx_200_01.mesh" pos="400 300 -1.20069e-005" flr="2" room="0" />
+        <Comp name="00013001_tcx_200_02" frame="true" compTyp="6" mesh="00013001_tcx_200_02.mesh" pos="0 300 -320" rot="0.707107 0 0.707107 -3.09086e-008" flr="2" room="0" />
+        <Comp name="00013001_tcx_200_03" frame="true" compTyp="6" mesh="00013001_tcx_200_03.mesh" pos="-400 300 -1.20069e-005" rot="4.37114e-008 0 1 -4.37114e-008" flr="2" room="0" />
+        <Comp name="00013001_tcx_201_00" frame="true" compTyp="6" mesh="00013001_tcx_201_00.mesh" pos="400 300 -1.20069e-005" flr="2" room="1" />
+        <Comp name="00013001_tcx_202_00" frame="true" compTyp="6" mesh="00013001_tcx_202_00.mesh" pos="400 300 -1.20069e-005" flr="2" room="2" />
+        <Comp name="00013001_tcx_203_00" frame="true" compTyp="6" mesh="00013001_tcx_203_00.mesh" pos="0 300 -320" flr="2" room="3" />
+    </Components>
+    <LinkGrids />
+</House>

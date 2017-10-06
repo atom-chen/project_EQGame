@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Terrain name="00400005" xsize="113" zsize="129" tileSize="32">
+    <scale x="80.000000" y="80.000000" z="80.000000" />
+    <centre x="360.000000" y="0.000000" z="440.000000" />
+    <heightmap filename="00400005.Heightmap" type="standard" />
+    <gridInfo filename="00400005.GridInfo" type="standard" />
+    <lightmap filename="00400005.lightmap.png" type="image" />
+    <textures>
+        <texture filename="BaseTerrSurfaceMud.jpg" type="image" />
+        <texture filename="brick/changshilu.jpg" type="image" />
+        <texture filename="brick/csz.jpg" type="image" />
+        <texture filename="brick/dibanz.jpg" type="image" />
+        <texture filename="brick/dimianz.jpg" type="image" />
+        <texture filename="brick/eluanslu.jpg" type="image" />
+        <texture filename="brick/honglange.jpg" type="image" />
+        <texture filename="brick/hsgzz.jpg" type="image" />
+        <texture filename="brick/ka-dmcz1.jpg" type="image" />
+        <texture filename="brick/lvzhuan.jpg" type="image" />
+        <texture filename="brick/suishid.tga" type="image" />
+        <texture filename="brick/tongqianz.jpg" type="image" />
+        <texture filename="brick/xiehongz.jpg" type="image" />
+        <texture filename="kt/ka-tccao.jpg" type="image" />
+        <texture filename="kt/ka-tccao.tga" type="image" />
+        <texture filename="kt/shan.jpg" type="image" />
+        <texture filename="kt/shan.tga" type="image" />
+        <texture filename="Q/Q-b.tga" type="image" />
+        <texture filename="Q/Q-caodi.jpg" type="image" />
+        <texture filename="Q/Q-caodi.tga" type="image" />
+        <texture filename="Q/Q-gb.tga" type="image" />
+        <texture filename="Q/Q-gbj.tga" type="image" />
+        <texture filename="Q/Q-lmzbai.jpg" type="image" />
+        <texture filename="Q/Q-lumianz.jpg" type="image" />
+        <texture filename="Q/Q-xiaokz.jpg" type="image" />
+        <texture filename="Q/Qbanma.tga" type="image" />
+    </textures>
+    <pixmaps>
+        <pixmap textureId="0" />
+        <pixmap textureId="1" />
+        <pixmap textureId="2" left="1.000000" top="0.000000" right="0.000000" bottom="1.000000" />
+        <pixmap textureId="3" left="0.500000" top="0.000000" right="0.000000" bottom="0.500000" />
+        <pixmap textureId="3" left="0.500000" top="0.500000" right="0.000000" bottom="1.000000" />
+        <pixmap textureId="3" left="1.000000" top="0.000000" right="0.000000" bottom="1.000000" />
+        <pixmap textureId="3" left="1.000000" top="0.000000" right="0.500000" bottom="0.500000" />
+        <pixmap textureId="4" left="0.000000" top="0.000000" right="0.500000" bottom="0.500000" />
+        <pixmap textureId="4" />
+        <pixmap textureId="4" left="0.000000" top="0.500000" right="0.500000" bottom="1.000000" />
+        <pixmap textureId="4" left="0.500000" top="0.000000" right="1.000000" bottom="0.500000" />
+        <pixmap textureId="4" left="0.500000" top="0.500000" right="1.000000" bottom="1.000000" />
+        <pixmap textureId="5" />
+        <pixmap textureId="6" left="0.000000" top="0.000000" right="0.500000" bottom="0.500000" />
+        <pixmap textureId="6" left="0.000000" top="0.500000" right="0.500000" bottom="1.000000" />
+        <pixmap textureId="6" left="0.500000" top="0.000000" right="1.000000" bottom="0.500000" />
+        <pixmap textureId="6" left="0.500000" top="0.500000" right="1.000000" bottom="1.000000" />
+        <pixmap textureId="7" left="0.000000" top="0.000000" right="0.500000" bottom="0.500000" />
+        <pixmap textureId="7" left="0.000000" top="0.500000" right="0.500000" bottom="1.000000" />
+        <pixmap textureId="7" left="0.500000" top="0.000000" right="1.000000" bottom="0.500000" />
+        <pixmap textureId="7" left="0.500000" top="0.500000" right="1.000000" bottom="1.000000" />
+        <pixmap textureId="8" left="0.000000" top="0.000000" right="0.500000" bottom="0.500000" />
+        <pixmap textureId="8" left="0.000000" top="0.500000" right="0.500000" bottom="1.000000" />
+        <pixmap textureId="8" left="0.500000" top="0.000000" right="1.000000" bottom="0.500000" />
+        <pixmap textureId="8" left="0.500000" top="0.500000" right="1.000000" bottom="1.000000" />
+        <pixmap textureId="9" />
+        <pixmap textureId="10" left="0.000000" top="0.000000" right="1.000000" bottom="0.500000" />
+        <pixmap textureId="11" />
+        <pixmap textureId="12" left="1.000000" top="0.000000" right="0.000000" bottom="1.000000" />
+        <pixmap textureId="13" left="0.001953" top="0.001953" right="0.248047" bottom="0.248047" />
+        <pixmap textureId="13" left="0.001953" top="0.251953" right="0.248047" bottom="0.498047" />
+        <pixmap textureId="13" left="0.001953" top="0.501953" right="0.248047" bottom="0.748047" />
+        <pixmap textureId="13" left="0.001953" top="0.751953" right="0.248047" bottom="0.998047" />
+        <pixmap textureId="13" left="0.001953" top="0.501953" right="0.248047" bottom="0.748047" />
+        <pixmap textureId="13" left="0.251953" top="0.001953" right="0.498047" bottom="0.248047" />
+        <pixmap textureId="13" left="0.251953" top="0.251953" right="0.498047" bottom="0.498047" />
+        <pixmap textureId="13" left="0.251953" top="0.501953" right="0.498047" bottom="0.748047" />
+        <pixmap textureId="13" left="0.251953" top="0.751953" right="0.498047" bottom="0.998047" />
+        <pixmap textureId="13" left="0.251953" top="0.751953" right="0.498047" bottom="0.998047" />
+        <pixmap textureId="14" left="0.001953" top="0.001953" right="0.248047" bottom="0.248047" />
+        <pixmap textureId="14" left="0.001953" top="0.251953" right="0.248047" bottom="0.498047" />
+        <pixmap textureId="14" left="0.001953" top="0.501953" right="0.248047" bottom="0.748047" />
+        <pixmap textureId="14" left="0.001953" top="0.751953" right="0.248047" bottom="0.998047" />
+        <pixmap textureId="14" left="0.001953" top="0.251953" right="0.248047" bottom="0.498047" />
+        <pixmap textureId="14" left="0.001953" top="0.751953" right="0.248047" bottom="0.998047" />
+        <pixmap textureId="14" left="0.498047" top="0.251953" right="0.251953" bottom="0.498047" />
+        <pixmap textureId="14" left="0.498047" top="0.748047" right="0.251953" bottom="0.501953" />
+        <pixmap textureId="14" left="0.498047" top="0.751953" right="0.251953" bottom="0.998047" />
+        <pixmap textureId="14" left="0.498047" top="0.251953" right="0.251953" bottom="0.498047" />
+        <pixmap textureId="14" left="0.498047" top="0.748047" right="0.251953" bottom="0.501953" />
+        <pixmap textureId="14" left="0.498047" top="0.751953" right="0.251953" bottom="0.998047" />
+        <pixmap textureId="14" left="0.501953" top="0.998047" right="0.748047" bottom="0.751953" />
+        <pixmap textureId="14" left="0.501953" top="0.998047" right="0.748047" bottom="0.751953" />
+        <pixmap textureId="14" left="0.748047" top="0.248047" right="0.501953" bottom="0.001953" />
+        <pixmap textureId="14" left="0.748047" top="0.251953" right="0.501953" bottom="0.498047" />
+        <pixmap textureId="14" left="0.748047" top="0.248047" right="0.501953" bottom="0.001953" />
+        <pixmap textureId="14" left="0.748047" top="0.251953" right="0.501953" bottom="0.498047" />
+        <pixmap textureId="14" left="0.748047" top="0.501953" right="0.501953" bottom="0.748047" />
+        <pixmap textureId="14" left="0.751953" top="0.001953" right="0.998047" bottom="0.248047" />
+        <pixmap textureId="14" left="0.751953" top="0.251953" right="0.998047" bottom="0.498047" />
+        <pixmap textureId="14" left="0.751953" top="0.501953" right="0.998047" bottom="0.748047" />
+        <pixmap textureId="14" left="0.751953" top="0.251953" right="0.998047" bottom="0.498047" />
+        <pixmap textureId="15" left="0.001953" top="0.001953" right="0.248047" bottom="0.248047" />
+        <pixmap textureId="15" left="0.001953" top="0.251953" right="0.248047" bottom="0.498047" />
+        <pixmap textureId="15" left="0.001953" top="0.501953" right="0.248047" bottom="0.748047" />
+        <pixmap textureId="15" left="0.001953" top="0.751953" right="0.248047" bottom="0.998047" />
+        <pixmap textureId="15" left="0.251953" top="0.001953" right="0.498047" bottom="0.248047" />
+        <pixmap textureId="15" left="0.251953" top="0.251953" right="0.498047" bottom="0.498047" />
+        <pixmap textureId="15" left="0.251953" top="0.501953" right="0.498047" bottom="0.748047" />
+        <pixmap textureId="15" left="0.251953" top="0.751953" right="0.498047" bottom="0.998047" />
+        <pixmap textureId="15" left="0.501953" top="0.001953" right="0.748047" bottom="0.248047" />
+        <pixmap textureId="15" left="0.501953" top="0.251953" right="0.748047" bottom="0.498047" />
+        <pixmap textureId="15" left="0.501953" top="0.501953" right="0.748047" bottom="0.748047" />
+        <pixmap textureId="15" left="0.501953" top="0.751953" right="0.748047" bottom="0.998047" />
+        <pixmap textureId="15" left="0.751953" top="0.001953" right="0.998047" bottom="0.248047" />
+        <pixmap textureId="15" left="0.751953" top="0.251953" right="0.998047" bottom="0.498047" />
+        <pixmap textureId="15" left="0.751953" top="0.501953" right="0.998047" bottom="0.748047" />
+        <pixmap textureId="15" left="0.751953" top="0.751953" right="0.998047" bottom="0.998047" />
+        <pixmap textureId="16" left="0.001953" top="0.001953" right="0.248047" bottom="0.248047" />
+        <pixmap textureId="16" left="0.001953" top="0.251953" right="0.248047" bottom="0.498047" />
+        <pixmap textureId="16" left="0.001953" top="0.501953" right="0.248047" bottom="0.748047" />
+        <pixmap textureId="16" left="0.001953" top="0.751953" right="0.248047" bottom="0.998047" />
+        <pixmap textureId="16" left="0.498047" top="0.251953" right="0.251953" bottom="0.498047" />
+        <pixmap textureId="16" left="0.498047" top="0.748047" right="0.251953" bottom="0.501953" />
+        <pixmap textureId="16" left="0.498047" top="0.751953" right="0.251953" bottom="0.998047" />
+        <pixmap textureId="16" left="0.501953" top="0.998047" right="0.748047" bottom="0.751953" />
+        <pixmap textureId="16" left="0.748047" top="0.248047" right="0.501953" bottom="0.001953" />
+        <pixmap textureId="16" left="0.748047" top="0.251953" right="0.501953" bottom="0.498047" />
+        <pixmap textureId="16" left="0.751953" top="0.001953" right="0.998047" bottom="0.248047" />
+        <pixmap textureId="16" left="0.751953" top="0.251953" right="0.998047" bottom="0.498047" />
+        <pixmap textureId="16" left="0.751953" top="0.501953" right="0.998047" bottom="0.748047" />
+        <pixmap textureId="17" />
+        <pixmap textureId="18" left="0.000000" top="0.000000" right="0.250000" bottom="0.250000" />
+        <pixmap textureId="18" left="0.000000" top="0.250000" right="0.250000" bottom="0.500000" />
+        <pixmap textureId="18" left="0.000000" top="0.500000" right="0.250000" bottom="0.750000" />
+        <pixmap textureId="18" left="0.001953" top="0.001953" right="0.248047" bottom="0.248047" />
+        <pixmap textureId="18" left="0.001953" top="0.251953" right="0.248047" bottom="0.498047" />
+        <pixmap textureId="18" left="0.001953" top="0.501953" right="0.248047" bottom="0.748047" />
+        <pixmap textureId="18" left="0.001953" top="0.751953" right="0.248047" bottom="0.998047" />
+        <pixmap textureId="18" left="0.001953" top="0.001953" right="0.248047" bottom="0.248047" />
+        <pixmap textureId="18" left="0.001953" top="0.751953" right="0.248047" bottom="0.998047" />
+        <pixmap textureId="18" left="0.250000" top="0.000000" right="0.500000" bottom="0.250000" />
+        <pixmap textureId="18" left="0.250000" top="0.250000" right="0.500000" bottom="0.500000" />
+        <pixmap textureId="18" left="0.250000" top="0.500000" right="0.500000" bottom="0.750000" />
+        <pixmap textureId="18" left="0.251953" top="0.001953" right="0.498047" bottom="0.248047" />
+        <pixmap textureId="18" left="0.251953" top="0.251953" right="0.498047" bottom="0.498047" />
+        <pixmap textureId="18" left="0.251953" top="0.501953" right="0.498047" bottom="0.748047" />
+        <pixmap textureId="18" left="0.251953" top="0.751953" right="0.498047" bottom="0.998047" />
+        <pixmap textureId="18" left="0.251953" top="0.001953" right="0.498047" bottom="0.248047" />
+        <pixmap textureId="18" left="0.251953" top="0.501953" right="0.498047" bottom="0.748047" />
+        <pixmap textureId="18" left="0.500000" top="0.000000" right="0.750000" bottom="0.250000" />
+        <pixmap textureId="18" left="0.500000" top="0.250000" right="0.750000" bottom="0.500000" />
+        <pixmap textureId="18" left="0.500000" top="0.500000" right="0.750000" bottom="0.750000" />
+        <pixmap textureId="18" left="0.501953" top="0.001953" right="0.748047" bottom="0.248047" />
+        <pixmap textureId="18" left="0.501953" top="0.251953" right="0.748047" bottom="0.498047" />
+        <pixmap textureId="18" left="0.501953" top="0.501953" right="0.748047" bottom="0.748047" />
+        <pixmap textureId="18" left="0.501953" top="0.751953" right="0.748047" bottom="0.998047" />
+        <pixmap textureId="18" left="0.750000" top="0.000000" right="1.000000" bottom="0.250000" />
+        <pixmap textureId="18" left="0.750000" top="0.250000" right="1.000000" bottom="0.500000" />
+        <pixmap textureId="18" left="0.750000" top="0.500000" right="1.000000" bottom="0.750000" />
+        <pixmap textureId="18" left="0.751953" top="0.001953" right="0.998047" bottom="0.248047" />
+        <pixmap textureId="18" left="0.751953" top="0.251953" right="0.998047" bottom="0.498047" />
+        <pixmap textureId="18" left="0.751953" top="0.501953" right="0.998047" bottom="0.748047" />
+        <pixmap textureId="18" left="0.751953" top="0.751953" right="0.998047" bottom="0.998047" />
+        <pixmap textureId="18" left="0.751953" top="0.751953" right="0.998047" bottom="0.998047" />
+        <pixmap textureId="19" left="0.001953" top="0.001953" right="0.248047" bottom="0.248047" />
+        <pixmap textureId="19" left="0.001953" top="0.251953" right="0.248047" bottom="0.498047" />
+        <pixmap textureId="19" left="0.001953" top="0.501953" right="0.248047" bottom="0.748047" />
+        <pixmap textureId="19" left="0.001953" top="0.751953" right="0.248047" bottom="0.998047" />
+        <pixmap textureId="19" left="0.001953" top="0.251953" right="0.248047" bottom="0.498047" />
+        <pixmap textureId="19" left="0.001953" top="0.501953" right="0.248047" bottom="0.748047" />
+        <pixmap textureId="19" left="0.498047" top="0.251953" right="0.251953" bottom="0.498047" />
+        <pixmap textureId="19" left="0.498047" top="0.748047" right="0.251953" bottom="0.501953" />
+        <pixmap textureId="19" left="0.498047" top="0.251953" right="0.251953" bottom="0.498047" />
+        <pixmap textureId="19" left="0.498047" top="0.748047" right="0.251953" bottom="0.501953" />
+        <pixmap textureId="19" left="0.498047" top="0.751953" right="0.251953" bottom="0.998047" />
+        <pixmap textureId="19" left="0.501953" top="0.998047" right="0.748047" bottom="0.751953" />
+        <pixmap textureId="19" left="0.748047" top="0.251953" right="0.501953" bottom="0.498047" />
+        <pixmap textureId="19" left="0.748047" top="0.248047" right="0.501953" bottom="0.001953" />
+        <pixmap textureId="19" left="0.748047" top="0.251953" right="0.501953" bottom="0.498047" />
+        <pixmap textureId="19" left="0.748047" top="0.501953" right="0.501953" bottom="0.748047" />
+        <pixmap textureId="19" left="0.751953" top="0.001953" right="0.998047" bottom="0.248047" />
+        <pixmap textureId="19" left="0.751953" top="0.251953" right="0.998047" bottom="0.498047" />
+        <pixmap textureId="19" left="0.751953" top="0.501953" right="0.998047" bottom="0.748047" />
+        <pixmap textureId="19" left="0.751953" top="0.001953" right="0.998047" bottom="0.248047" />
+        <pixmap textureId="19" left="0.751953" top="0.251953" right="0.998047" bottom="0.498047" />
+        <pixmap textureId="20" />
+        <pixmap textureId="21" />
+        <pixmap textureId="22" left="0.000000" top="0.000000" right="0.500000" bottom="0.500000" />
+        <pixmap textureId="22" left="0.000000" top="0.500000" right="0.500000" bottom="1.000000" />
+        <pixmap textureId="22" left="0.500000" top="0.000000" right="1.000000" bottom="0.500000" />
+        <pixmap textureId="22" left="0.500000" top="0.500000" right="1.000000" bottom="1.000000" />
+        <pixmap textureId="23" left="0.000000" top="0.000000" right="0.500000" bottom="0.500000" />
+        <pixmap textureId="23" left="0.000000" top="0.500000" right="0.500000" bottom="1.000000" />
+        <pixmap textureId="23" left="0.500000" top="0.000000" right="1.000000" bottom="0.500000" />
+        <pixmap textureId="23" left="0.500000" top="0.500000" right="1.000000" bottom="1.000000" />
+        <pixmap textureId="24" left="0.000000" top="0.000000" right="0.500000" bottom="0.500000" />
+        <pixmap textureId="24" />
+        <pixmap textureId="24" left="0.000000" top="0.500000" right="0.500000" bottom="1.000000" />
+        <pixmap textureId="24" left="0.500000" top="0.000000" right="1.000000" bottom="0.500000" />
+        <pixmap textureId="24" left="0.500000" top="0.500000" right="1.000000" bottom="1.000000" />
+        <pixmap textureId="25" />
+    </pixmaps>
+    <materials>
+        <template name="OneLayer" material="Terrain/OneLayer" />
+        <template name="OneLayerLightmap" material="Terrain/OneLayerLightmap" />
+        <template name="TwoLayer" material="Terrain/TwoLayer" />
+        <template name="TwoLayerLightmap" material="Terrain/TwoLayerLightmap" />
+        <fog_replacement none="Terrain/OneLayer_ps" exp="Terrain/OneLayer_ps%fog_exp" exp2="Terrain/OneLayer_ps%fog_exp2" linear="Terrain/OneLayer_ps%fog_linear" />
+        <fog_replacement none="Terrain/TwoLayer_ps" exp="Terrain/TwoLayer_ps%fog_exp" exp2="Terrain/TwoLayer_ps%fog_exp2" linear="Terrain/TwoLayer_ps%fog_linear" />
+        <fog_replacement none="Terrain/OneLayerLightmap_ps" exp="Terrain/OneLayerLightmap_ps%fog_exp" exp2="Terrain/OneLayerLightmap_ps%fog_exp2" linear="Terrain/OneLayerLightmap_ps%fog_linear" />
+        <fog_replacement none="Terrain/TwoLayerLightmap_ps" exp="Terrain/TwoLayerLightmap_ps%fog_exp" exp2="Terrain/TwoLayerLightmap_ps%fog_exp2" linear="Terrain/TwoLayerLightmap_ps%fog_linear" />
+    </materials>
+</Terrain>

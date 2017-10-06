@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="Systemconfig/Systemconfig" >
+        <Property Name="Text" Value="系统设置" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,150},{0,101},{0,462},{0,351}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="Systemconfig/Systemconfig/windows1/exit" >
+            <Property Name="Text" Value="退出游戏" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,25},{0,205},{0,103},{0,231}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Systemconfig/Systemconfig/windows1/yes" >
+            <Property Name="Text" Value="确 定" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,134},{0,205},{0,180},{0,231}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Systemconfig/Systemconfig/windows1/no" >
+            <Property Name="Text" Value="取 消" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,205},{0,205},{0,251},{0,231}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="Systemconfig/Systemconfig/title" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,27},{0,3},{0,86},{0,19}}" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewTabControl1" Name="Systemconfig/Systemconfig/windows2" >
+            <Property Name="TabHeight" Value="{0,21}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0.2,-48},{0.2,-22},{0.45,160},{0.822918,0}}" />
+            <Window Type="DefaultWindow" Name="Systemconfig/Systemconfig/windows2/Tab 1" >
+                <Property Name="Text" Value="显示" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/StaticText" Name="Systemconfig/Systemconfig/windows2/Tab1/txt1" >
+                    <Property Name="Text" Value="窗口分辨率：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,20},{0,17},{0,100},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Systemconfig/Systemconfig/windows2/Tab1/txt2" >
+                    <Property Name="Text" Value="反锯齿：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,20},{0,46},{0,100},{0,61}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Systemconfig/Systemconfig/windows2/Tab1/txt3" >
+                    <Property Name="Text" Value="室外阴影：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,20},{0,75},{0,100},{0,90}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCombobox" Name="Systemconfig/Systemconfig/windows2/Tab1/box1" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,105},{0,14},{0,259},{0,83}}" />
+                    <Property Name="MaxEditTextLength" Value="1073741823" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCombobox" Name="Systemconfig/Systemconfig/windows2/Tab1/box2" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,105},{0,43},{0,259},{0,142}}" />
+                    <Property Name="MaxEditTextLength" Value="1073741823" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCombobox" Name="Systemconfig/Systemconfig/windows2/Tab1/box3" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,105},{0,72},{0,259},{0,143}}" />
+                    <Property Name="MaxEditTextLength" Value="1073741823" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Systemconfig/Systemconfig/windows2/Tab1/txt4" >
+                    <Property Name="Text" Value="粒子效果：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,20},{0,103},{0,100},{0,118}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCombobox" Name="Systemconfig/Systemconfig/windows2/Tab1/box4" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,105},{0,99},{0,259},{0,185}}" />
+                    <Property Name="MaxEditTextLength" Value="1073741823" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Systemconfig/Systemconfig/windows2/Tab 2" >
+                <Property Name="Text" Value="特效" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Systemconfig/Systemconfig/windows2/Tab 3" >
+                <Property Name="Text" Value="音效" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/StaticText" Name="Systemconfig/Systemconfig/windows2/Tab3/txt1" >
+                    <Property Name="Text" Value="系统音效：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,20},{0,14},{0,100},{0,29}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Systemconfig/Systemconfig/windows2/Tab3/txt2" >
+                    <Property Name="Text" Value="背景音乐：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,20},{0,64},{0,100},{0,79}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewSlider" Name="Systemconfig/Systemconfig/windows2/Tab 3/Slider1" >
+                    <Property Name="CurrentValue" Value="0" />
+                    <Property Name="MaximumValue" Value="1" />
+                    <Property Name="ClickStepSize" Value="0.01" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,44},{0,36},{0,244},{0,55}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewSlider" Name="Systemconfig/Systemconfig/windows2/Tab 3/Slider2" >
+                    <Property Name="CurrentValue" Value="0" />
+                    <Property Name="MaximumValue" Value="1" />
+                    <Property Name="ClickStepSize" Value="0.01" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,44},{0,85},{0,244},{0,104}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Systemconfig/Systemconfig/windows2/Tab3/txt3" >
+                    <Property Name="Text" Value="小" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,26},{0,38},{0,41},{0,53}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Systemconfig/Systemconfig/windows2/Tab3/txt4" >
+                    <Property Name="Text" Value="大" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,247},{0,38},{0,262},{0,53}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Systemconfig/Systemconfig/windows2/Tab3/txt5" >
+                    <Property Name="Text" Value="小" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,26},{0,87},{0,41},{0,102}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Systemconfig/Systemconfig/windows2/Tab3/txt6" >
+                    <Property Name="Text" Value="大" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,247},{0,87},{0,262},{0,102}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Systemconfig/Systemconfig/windows2/Tab 4" >
+                <Property Name="Text" Value="游戏" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

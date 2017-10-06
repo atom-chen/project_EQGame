@@ -1,0 +1,496 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\AvatarEditor.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""          // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\AvatarEditor.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  24, 24
+BEGIN
+    BUTTON      ID_BUTTON_SCALE
+    BUTTON      ID_BUTTON_MOVENEAR
+    BUTTON      ID_BUTTON_LOCK
+    BUTTON      ID_BUTTON_CLOSE
+    BUTTON      ID_BUTTON_SAVE
+    BUTTON      ID_BUTTON_ROTATE
+    BUTTON      ID_BUTTON32826
+    BUTTON      ID_BUTTON_SAVEAS
+    BUTTON      ID_BUTTON_NEXT
+    BUTTON      ID_BUTTON_OPEN
+    BUTTON      ID_BUTTON_SELECT
+    BUTTON      ID_BUTTON_CREATENEW
+    BUTTON      ID_BUTTON_PREV
+    BUTTON      ID_BUTTON_MOVE
+    BUTTON      ID_BUTTON32825
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "保存",                          ID_32789
+        MENUITEM "读取",                          ID_32790
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        MENUITEM "角色视图",                        ID_AVATAR_VIEW
+        MENUITEM "模型表现视图",                      ID_MODEL_VIEW
+        MENUITEM "房屋部件视图",                      ID_HOUSE_VIEW
+        MENUITEM "物件编辑视图",                      ID_EDIT_VIEW
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "显示xml数据",                     ID_SHOWXML
+        MENUITEM "关于 AvatarEditor(&A)...",      ID_APP_ABOUT
+        MENUITEM "操作指南",                        ID_COMMON_KEY
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 AvatarEditor"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "AvatarEditor, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_ROLE_SECTION_DLG DIALOGEX 0, 0, 149, 277
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "上衣",IDC_AV_UPPEROUTER,7,92,50,14
+    PUSHBUTTON      "下衣",IDC_AV_LOWERGARMENT,7,109,50,14
+    PUSHBUTTON      "脚部",IDC_AV_FOOT,7,126,50,14
+    PUSHBUTTON      "披风/背包",IDC_AV_BAG,7,143,50,14
+    PUSHBUTTON      "帽子",IDC_AV_HAT,7,160,50,14
+    PUSHBUTTON      "手持",IDC_AV_LEFTHAND,7,177,50,14
+    PUSHBUTTON      "鼻梁",IDC_AV_NOSE,7,196,50,14
+    PUSHBUTTON      "饰物",IDC_AV_ORNAMENT,7,214,50,14
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_ARROWKEYS | UDS_HORZ,33,7,23,14,WS_EX_STATICEDGE
+    CONTROL         "",IDC_SPIN2,"msctls_updown32",UDS_ARROWKEYS | UDS_HORZ,33,24,23,14,WS_EX_STATICEDGE
+    CONTROL         "",IDC_SPIN3,"msctls_updown32",UDS_ARROWKEYS | UDS_HORZ,33,41,23,14,WS_EX_STATICEDGE
+    CONTROL         "",IDC_SPIN4,"msctls_updown32",UDS_ARROWKEYS | UDS_HORZ,33,58,23,14,WS_EX_STATICEDGE
+    CONTROL         "",IDC_SPIN5,"msctls_updown32",UDS_ARROWKEYS | UDS_HORZ,33,75,23,14,WS_EX_STATICEDGE
+    LTEXT           "none",IDC_STATIC_8,63,96,72,8
+    LTEXT           "none",IDC_STATIC_7,64,112,72,8
+    LTEXT           "none",IDC_STATIC_6,64,129,72,8
+    LTEXT           "none",IDC_STATIC_5,63,146,72,8
+    LTEXT           "none",IDC_STATIC_4,63,163,72,8
+    LTEXT           "none",IDC_STATIC_3,63,181,72,8
+    LTEXT           "none",IDC_STATIC_2,63,200,72,8
+    LTEXT           "none",IDC_STATIC_1,63,217,72,8
+    LTEXT           "none",IDC_STATIC_9,61,10,72,8
+    LTEXT           "none",IDC_STATIC_10,61,28,72,8
+    LTEXT           "none",IDC_STATIC_11,61,44,72,8
+    LTEXT           "none",IDC_STATIC_12,61,61,72,8
+    LTEXT           "none",IDC_STATIC_13,60,79,72,8
+    LTEXT           "发型",IDC_STATIC,11,10,17,8
+    LTEXT           "发色",IDC_STATIC,11,27,17,8
+    LTEXT           "脸型",IDC_STATIC,11,44,17,8
+    LTEXT           "肤色",IDC_STATIC,11,61,17,8
+    LTEXT           "胡子",IDC_STATIC,11,78,17,8
+    PUSHBUTTON      "套装",IDC_AV_SUIT,7,233,50,14
+    LTEXT           "none",IDC_STATIC_14,64,236,72,8
+END
+
+IDD_ANIMATION_DLG DIALOGEX 0, 0, 340, 66
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_RTLREADING
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_AN_ACTIONLIST,25,7,98,161,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "播放",IDC_AN_PLAY,25,24,33,14
+    PUSHBUTTON      "暂停",IDC_AN_PAUSE,58,24,33,14
+    PUSHBUTTON      "停止",IDC_AN_STOP,91,24,33,14
+    PUSHBUTTON      "复位",IDC_AN_RESET,25,40,33,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_AN_RATE_SLIDER,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,203,20,103,23
+    LTEXT           "速率: 1.0x",IDC_AN_RATE_TEXT,209,9,36,8
+    CONTROL         "动画循环",IDC_AN_LOOP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,136,27,48,10
+END
+
+IDD_ROLE_RACE_DLG DIALOGEX 0, 0, 151, 208
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MO_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,7,137,194
+END
+
+IDD_AVATARSUB DIALOGEX 0, 0, 144, 287
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,87,266,50,14
+    LISTBOX         IDC_AVS_ITEMLIST,7,151,130,112,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "双击选择唯一一个分类",IDC_STATIC,7,7,130,12
+    DEFPUSHBUTTON   "卸下",IDC_AVS_TAKEOFF,36,266,50,14
+    EDITTEXT        IDC_EDIT1,37,129,60,13,ES_AUTOHSCROLL
+    LTEXT           "筛选",IDC_STATIC,14,132,20,8
+    PUSHBUTTON      "清除",IDC_BUTTON1,99,129,35,14
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_CHECKBOXES | WS_BORDER | WS_HSCROLL | WS_TABSTOP,14,22,115,98
+END
+
+IDD_MODEL_DLG DIALOGEX 0, 0, 128, 161
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,19,27,87,125
+    LTEXT           "查找",IDC_STATIC,20,4,23,11
+    EDITTEXT        IDC_EDIT1,44,3,59,12,ES_AUTOHSCROLL
+END
+
+IDD_FORMVIEW_MSGBOX DIALOGEX 0, 0, 254, 154
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "确定",IDC_BUTTON1,188,132,56,16
+    EDITTEXT        IDC_EDIT1,7,7,240,119,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "AvatarEditor.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "AvatarEditor.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_ROLE_SECTION_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 142
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 270
+    END
+
+    IDD_ANIMATION_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 333
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_ROLE_RACE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_AVATARSUB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 137
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 280
+    END
+
+    IDD_MODEL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 121
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_FORMVIEW_MSGBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "AvatarEditor"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "AvatarEditor"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "恢复上次撤消的操作\n重做"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小为图标"
+    AFX_IDS_SCMAXIMIZE      "使窗口最大化显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到前一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_AVATAR_VIEW          "显示角色视图"
+    ID_MODEL_VIEW           "显示模型表现视图"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_32828                "age"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\AvatarEditor.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"          // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

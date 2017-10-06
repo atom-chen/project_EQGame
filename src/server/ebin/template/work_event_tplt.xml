@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<work_event_tplt>
+		<id>1</id>
+		<reward_money>10</reward_money>
+		<reward_items>0</reward_items>
+		<item_rate>0</item_rate>
+		<image>set:award1 image:award1,set:award2 image:award2,set:award3 image:award3,set:award4 image:award4,set:award5 image:award5</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>2</id>
+		<reward_money>20</reward_money>
+		<reward_items>0</reward_items>
+		<item_rate>0</item_rate>
+		<image>set:award1 image:award1,set:award2 image:award2,set:award3 image:award3,set:award4 image:award4,set:award5 image:award5</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>3</id>
+		<reward_money>30</reward_money>
+		<reward_items>0</reward_items>
+		<item_rate>0</item_rate>
+		<image>set:award1 image:award1,set:award2 image:award2,set:award3 image:award3,set:award4 image:award4,set:award5 image:award5</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>4</id>
+		<reward_money>40</reward_money>
+		<reward_items>0</reward_items>
+		<item_rate>0</item_rate>
+		<image>set:award1 image:award1,set:award2 image:award2,set:award3 image:award3,set:award4 image:award4,set:award5 image:award5</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>5</id>
+		<reward_money>50</reward_money>
+		<reward_items>0</reward_items>
+		<item_rate>0</item_rate>
+		<image>set:award1 image:award1,set:award2 image:award2,set:award3 image:award3,set:award4 image:award4,set:award5 image:award5</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>6</id>
+		<reward_money>60</reward_money>
+		<reward_items>0</reward_items>
+		<item_rate>0</item_rate>
+		<image>set:award1 image:award1,set:award2 image:award2,set:award3 image:award3,set:award4 image:award4,set:award5 image:award5</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>7</id>
+		<reward_money>70</reward_money>
+		<reward_items>0</reward_items>
+		<item_rate>0</item_rate>
+		<image>set:award1 image:award1,set:award2 image:award2,set:award3 image:award3,set:award4 image:award4,set:award5 image:award5</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>8</id>
+		<reward_money>80</reward_money>
+		<reward_items>0</reward_items>
+		<item_rate>0</item_rate>
+		<image>set:award1 image:award1,set:award2 image:award2,set:award3 image:award3,set:award4 image:award4,set:award5 image:award5</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>9</id>
+		<reward_money>90</reward_money>
+		<reward_items>0</reward_items>
+		<item_rate>0</item_rate>
+		<image>set:award1 image:award1,set:award2 image:award2,set:award3 image:award3,set:award4 image:award4,set:award5 image:award5</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>10</id>
+		<reward_money>100</reward_money>
+		<reward_items>0</reward_items>
+		<item_rate>0</item_rate>
+		<image>set:award1 image:award1,set:award2 image:award2,set:award3 image:award3,set:award4 image:award4,set:award5 image:award5</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>11</id>
+		<reward_money>0</reward_money>
+		<reward_items>1255</reward_items>
+		<item_rate>100</item_rate>
+		<image>set:award0 image:award0</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>12</id>
+		<reward_money>0</reward_money>
+		<reward_items>1264</reward_items>
+		<item_rate>100</item_rate>
+		<image>set:award0 image:award0</image>
+	</work_event_tplt>
+	<work_event_tplt>
+		<id>13</id>
+		<reward_money>0</reward_money>
+		<reward_items>1267</reward_items>
+		<item_rate>100</item_rate>
+		<image>set:award0 image:award0</image>
+	</work_event_tplt>
+</root>

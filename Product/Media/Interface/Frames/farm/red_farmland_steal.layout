@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="red_farmland_Steal" >
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.2,0},{0.507813,0},{0.393982,0}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="red_farmland_Steal/background" >
+            <Property Name="Image" Value="set:common1 image:Window5_Mid" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,3},{0,20},{1,-3},{1,-3}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="red_farmland_Steal/background/img" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{0,66},{0,66}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="red_farmland_Steal/background/title" >
+                <Property Name="Font" Value="simsun-11" />
+                <Property Name="Text" Value="红土地有悲有喜" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,70},{0,5},{0,180},{0,25}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="red_farmland_Steal/background/msg" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,70},{0,28},{0,185},{0,66}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

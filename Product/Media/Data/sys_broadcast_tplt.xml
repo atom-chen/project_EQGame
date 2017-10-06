@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<sys_broadcast_tplt>
+		<id>1</id>
+		<content>玩家%s在商城中购买了%s，大家快去围观一下</content>
+		<show_seconds>30</show_seconds>
+	</sys_broadcast_tplt>
+	<sys_broadcast_tplt>
+		<id>2</id>
+		<content>玩家%s购买了“%s”，又大又舒服，大家快去围观一下</content>
+		<show_seconds>30</show_seconds>
+	</sys_broadcast_tplt>
+</root>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<player_disease_special_event_tplt>
+		<special_event_id>1</special_event_id>
+		<property_id>20</property_id>
+		<image>set:Disease1 image:1,set:Disease2 image:2,set:Disease3 image:3,set:Disease4 image:4</image>
+	</player_disease_special_event_tplt>
+	<player_disease_special_event_tplt>
+		<special_event_id>2</special_event_id>
+		<property_id>20</property_id>
+		<image>set:Disease5 image:5,set:Disease6 image:6,set:Disease7 image:7,set:Disease8 image:8</image>
+	</player_disease_special_event_tplt>
+	<player_disease_special_event_tplt>
+		<special_event_id>3</special_event_id>
+		<property_id>20</property_id>
+		<image>set:Disease9 image:9,set:Disease10 image:10,set:Disease11 image:11,set:Disease12 image:12</image>
+	</player_disease_special_event_tplt>
+	<player_disease_special_event_tplt>
+		<special_event_id>4</special_event_id>
+		<property_id>20</property_id>
+		<image>set:Disease13 image:13,set:Disease14 image:14,set:Disease15 image:15,set:Disease16 image:16</image>
+	</player_disease_special_event_tplt>
+</root>

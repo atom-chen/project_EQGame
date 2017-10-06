@@ -1,0 +1,1058 @@
+import * from "commTemplate.material"
+
+material 20083001-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083001-02_01.dds
+}
+material 20083001-02_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083001-02_02.dds
+}
+material 20083001-02_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083001-02_03.dds
+}
+material 20083001-02_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083001-02_04.dds
+}
+material 20083002-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083002-02_01.dds
+}
+material 20083002-02_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083002-02_02.dds
+}
+material 20083002-02_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083002-02_03.dds
+}
+material 20083002-02_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083002-02_04.dds
+}
+material 20083003-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083003-02_01.dds
+}
+material 20083003-02_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083003-02_02.dds
+}
+material 20083003-02_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083003-02_03.dds
+}
+material 20083003-02_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083003-02_04.dds
+}
+material 20083004-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083004-02_01.dds
+}
+material 20083004-02_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083004-02_02.dds
+}
+material 20083004-02_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083004-02_03.dds
+}
+material 20083004-02_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083004-02_04.dds
+}
+material 20083005-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083005-02_01.dds
+}
+material 20083005-02_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083005-02_02.dds
+}
+material 20083005-02_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083005-02_03.dds
+}
+material 20083005-02_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083005-02_04.dds
+}
+material 20083006-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083006-02_01.dds
+}
+material 20083006-02_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083006-02_02.dds
+}
+material 20083006-02_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083006-02_03.dds
+}
+material 20083006-02_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083006-02_04.dds
+}
+material 20083007-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083007-02_01.dds
+}
+material 20083008-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083008-02_01.dds
+}
+material 20090007-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090007-02_01.dds
+}
+material 20090008-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090008-02_01.dds
+}
+material 20090009-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090009-02_01.dds
+}
+material 20300001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300001_01.dds
+}
+material 20300001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300001_02.dds
+}
+material 20300001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300001_03.dds
+}
+material 20300002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300002_01.dds
+}
+material 20300002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300002_02.dds
+}
+material 20300002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300002_03.dds
+}
+material 20300003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300003_01.dds
+}
+material 20300003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300003_02.dds
+}
+material 20300003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300003_03.dds
+}
+material 20300004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300004_01.dds
+}
+material 20300004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300004_02.dds
+}
+material 20300004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300004_03.dds
+}
+material 20300005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300005_01.dds
+}
+material 20300005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300005_02.dds
+}
+material 20300005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300005_03.dds
+}
+material 20300006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20300006_01.dds
+}
+material 20305001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305001_01.dds
+}
+material 20305001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305001_02.dds
+}
+material 20305001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305001_03.dds
+}
+material 20305002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305002_01.dds
+}
+material 20305002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305002_02.dds
+}
+material 20305002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305002_03.dds
+}
+material 20305003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305003_01.dds
+}
+material 20305003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305003_02.dds
+}
+material 20305003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305003_03.dds
+}
+material 20305004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305004_01.dds
+}
+material 20305004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305004_02.dds
+}
+material 20305004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305004_03.dds
+}
+material 20305005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305005_01.dds
+}
+material 20305005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305005_02.dds
+}
+material 20305005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305005_03.dds
+}
+material 20305006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20305006_01.dds
+}
+material 20310001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310001_01.dds
+}
+material 20310001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310001_02.dds
+}
+material 20310001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310001_03.dds
+}
+material 20310002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310002_01.dds
+}
+material 20310002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310002_02.dds
+}
+material 20310002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310002_03.dds
+}
+material 20310003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310003_01.dds
+}
+material 20310003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310003_02.dds
+}
+material 20310003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310003_03.dds
+}
+material 20310004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310004_01.dds
+}
+material 20310004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310004_02.dds
+}
+material 20310004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310004_03.dds
+}
+material 20310005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20310005_01.dds
+}
+material 20315001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315001_01.dds
+}
+material 20315001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315001_02.dds
+}
+material 20315001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315001_03.dds
+}
+material 20315002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315002_01.dds
+}
+material 20315002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315002_02.dds
+}
+material 20315003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315003_01.dds
+}
+material 20315003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315003_02.dds
+}
+material 20315003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315003_03.dds
+}
+material 20315004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315004_01.dds
+}
+material 20315004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315004_02.dds
+}
+material 20315004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20315004_03.dds
+}
+material 20320001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320001_01.dds
+}
+material 20320001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320001_02.dds
+}
+material 20320001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320001_03.dds
+}
+material 20320002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320002_01.dds
+}
+material 20320002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320002_02.dds
+}
+material 20320002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320002_03.dds
+}
+material 20320003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320003_01.dds
+}
+material 20320003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320003_02.dds
+}
+material 20320003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320003_03.dds
+}
+material 20320004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320004_01.dds
+}
+material 20320004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320004_02.dds
+}
+material 20320004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320004_03.dds
+}
+material 20325001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325001_01.dds
+}
+material 20325001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325001_02.dds
+}
+material 20325001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325001_03.dds
+}
+material 20325002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325002_01.dds
+}
+material 20325002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325002_02.dds
+}
+material 20325002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325002_03.dds
+}
+material 20325003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325003_01.dds
+}
+material 20325003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325003_02.dds
+}
+material 20325003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325003_03.dds
+}
+material 20325004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325004_01.dds
+}
+material 20325004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325004_02.dds
+}
+material 20325004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325004_03.dds
+}
+material 20330001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330001_01.dds
+}
+material 20330001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330001_02.dds
+}
+material 20330001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330001_03.dds
+}
+material 20330002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330002_01.dds
+}
+material 20330002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330002_02.dds
+}
+material 20330002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330002_03.dds
+}
+material 20330003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330003_01.dds
+}
+material 20330003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330003_02.dds
+}
+material 20330003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330003_03.dds
+}
+material 20330004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330004_01.dds
+}
+material 20330004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330004_02.dds
+}
+material 20330004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330004_03.dds
+}
+material 20330005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330005_01.dds
+}
+material 20335001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335001_01.dds
+}
+material 20335001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335001_02.dds
+}
+material 20335001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335001_03.dds
+}
+material 20335001_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335001_04.dds
+}
+material 20335002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335002_01.dds
+}
+material 20335002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335002_02.dds
+}
+material 20335002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335002_03.dds
+}
+material 20335003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335003_01.dds
+}
+material 20335003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335003_02.dds
+}
+material 20335003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335003_03.dds
+}
+material 20335004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335004_01.dds
+}
+material 20335004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335004_02.dds
+}
+material 20335004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335004_03.dds
+}
+material 20335005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20335005_01.dds
+}
+material 20094005_01-02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> shoes/20094005_01-02.dds
+}
+material 20083009-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083009-03_01.dds 
+}
+material 20083010-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083010-03_01.dds 
+}
+material 20083011-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083011-03_01.dds 
+}
+material 20083012-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083012-03_01.dds 
+}
+material 20083013-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083013-03_01.dds 
+}
+material 20083014-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083014-03_01.dds 
+}
+material 20083015-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083015-03_01.dds 
+}
+material 20083016-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083016-03_01.dds 
+}
+material 20083017-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083017-03_01.dds 
+}
+material 20083018-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083018-03_01.dds 
+}
+material 20083019-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083019-03_01.dds 
+}
+material 20083020-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083020-03_01.dds 
+}
+material 20083021-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083021-03_01.dds 
+}
+material 20083022-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083022-03_01.dds 
+}
+material 20083023-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083023-03_01.dds 
+}
+material 20083024-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083024-03_01.dds 
+}
+material 20083025-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083025-03_01.dds 
+}
+material 20083026-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083026-03_01.dds 
+}
+material 20083027-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083027-03_01.dds 
+}
+material 20083028-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083028-03_01.dds 
+}
+material 20083029-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083029-03_01.dds 
+}
+material 20083030-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083030-03_01.dds 
+}
+material 20090010-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090010-03_01.dds 
+}
+material 20090012-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090012-03_01.dds 
+}
+material 20090013-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090013-03_01.dds 
+}
+material 20090014-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090014-03_01.dds 
+}
+material 20090015-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090015-03_01.dds 
+}
+material 20090017-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090017-03_01.dds 
+}
+material 20090018-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090018-03_01.dds 
+}
+material 20090019-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090019-03_01.dds 
+}
+material 20090020-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090020-03_01.dds 
+}
+material 20090016-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090016-03_01.dds
+}
+material 20090021-03_01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090021-03_01.dds
+}
+material 20090022-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090022-03_01.dds
+}
+material 20090023-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090023-03_01.dds
+}
+material 20090024-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090024-03_01.dds
+}
+material 20090026-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090026-03_01.dds
+}
+material 20090028-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090028-03_01.dds
+}
+material 20027005-02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20027005-02.dds
+}
+
+material 20330006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330006_01.dds
+}
+material 20330007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330007_01.dds
+}
+material 20330008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330008_01.dds
+}
+material 20330009_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330009_01.dds
+}
+material 20330010_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330010_01.dds
+}
+material 20330011_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330011_01.dds
+}
+material 20330012_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330012_01.dds
+}
+material 20330013_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330013_01.dds
+}
+material 20330013_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330013_02.dds
+}
+material 20330013_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330013_03.dds
+}
+material 20330013_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330013_04.dds
+}
+material 20330014_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330014_01.dds
+}
+material 20330015_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330015_01.dds
+}
+material 20330015_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330015_02.dds
+}
+material 20330016_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330016_01.dds
+}
+material 20330017_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330017_01.dds
+}
+material 20330017_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330017_02.dds
+}
+material 20330017_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330017_03.dds
+}
+material 20330018_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330018_01.dds
+}
+material 20330018_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330018_02.dds
+}
+material 20330018_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20330018_03.dds
+}
+
+
+material 20320005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320005_01.dds
+}
+material 20320006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320006_01.dds
+}
+material 20320006_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320006_02.dds
+}
+material 20320007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320007_01.dds
+}
+material 20320007_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320007_02.dds
+}
+material 20320008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320008_01.dds
+}
+material 20320009_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320009_01.dds
+}
+material 20320009_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320009_02.dds
+}
+material 20320009_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320009_03.dds
+}
+material 20320009_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320009_04.dds
+}
+material 20320009_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320009_05.dds
+}
+material 20320010_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20320010_01.dds
+}
+
+material 20325005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325005_01.dds
+}
+material 20325006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325006_01.dds
+}
+material 20325007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325007_01.dds
+}
+material 20325007_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325007_02.dds
+}
+material 20325007_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325007_03.dds
+}
+material 20325008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325008_01.dds
+}
+material 20325009_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325009_01.dds
+}
+material 20325009_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325009_02.dds
+}
+material 20325010_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325010_01.dds
+}
+material 20325011_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325011_01.dds
+}
+material 20325011_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325011_02.dds
+}
+material 20325011_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325011_03.dds
+}
+material 20325012_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325012_01.dds
+}
+material 20325013_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325013_01.dds
+}
+material 20325014_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325014_01.dds
+}
+material 20325015_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325015_01.dds
+}
+material 20325015_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325015_02.dds
+}
+material 20325015_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325015_03.dds
+}
+material 20325016_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325016_01.dds
+}
+material 20325016_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325016_02.dds
+}
+material 20325017_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325017_01.dds
+}
+material 20325018_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325018_01.dds
+}
+material 20325018_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325018_02.dds
+}
+material 20325018_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325018_03.dds
+}
+material 20325019_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325019_01.dds
+}
+material 20325019_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325019_02.dds
+}
+material 20325019_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325019_03.dds
+}
+material 20325020_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325020_01.dds
+}
+material 20325021_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325021_01.dds
+}
+material 20325022_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20325022_01.dds
+}
+
+material 20090029-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20090029-03_01.dds
+}
+
+material 20083031-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083031-03_01.dds
+}
+material 20083032-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083032-03_01.dds
+}
+material 20083033-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083033-03_01.dds
+}
+material 20083034-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083034-03_01.dds
+}
+material 20083035-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083035-03_01.dds
+}
+material 20083036-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083036-03_01.dds
+}
+material 20083037-03_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083037-03_03.dds
+}
+material 20083038-03_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083038-03_03.dds
+}
+material 20083039-03_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083039-03_03.dds
+}
+material 20083040-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083040-03_01.dds
+}
+material 20083041-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083041-03_01.dds
+}
+material 20083042-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083042-03_01.dds
+}
+material 20083043-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083043-03_01.dds
+}
+material 20083044-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083044-03_01.dds
+}
+material 20083045-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083045-03_01.dds
+}
+material 20083046-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083046-03_01.dds
+}
+material 20083047-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083047-03_01.dds
+}
+material 20083048-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083048-03_01.dds
+}
+material 20083049-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083049-03_01.dds
+}
+material 20083050-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083050-03_01.dds
+}
+material 20083051-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083051-03_01.dds
+}
+material 20083052-03_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> shoes/20083052-03_01.dds
+}
+
+

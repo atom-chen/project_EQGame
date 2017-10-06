@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="use_dog_food" >
+        <Property Name="Text" Value="使用狗狗粮食" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,174},{0,110},{0,474},{0,340}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="use_dog_food/background" >
+            <Property Name="Image" Value="set:common1 image:Window5_Mid" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,25},{1,-5},{1,-5}}" />
+            <Window Type="EQHomeLook/StaticImage6" Name="use_dog_food/background/icon" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{0,76},{0,76}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="use_dog_food/background/name" >
+                <Property Name="Font" Value="simsun-15" />
+                <Property Name="TextColours" Value="tl:FF339933 tr:FF339933 bl:FF339933 br:FF339933" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,10},{0,250},{0,30}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="use_dog_food/background/cost" >
+                <Property Name="Text" Value="卖出价：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,35},{0,145},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="use_dog_food/background/count" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,148},{0,35},{0,180},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="use_dog_food/background/type" >
+                <Property Name="Text" Value="类  型：狗粮" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,55},{0,184},{0,70}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="use_dog_food/background/intro" >
+                <Property Name="Text" >说  明：购买并且使用狗粮将会
+让你的狗发生作用，会抓住来偷
+菜的好友。没有狗粮狗不会抓人
+哦。</Property>
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,75},{0,285},{0,141}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="use_dog_food/background/use_dogfood" >
+                <Property Name="Text" Value="使用狗粮" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,55},{0,159},{0,133},{0,177}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="use_dog_food/background/cancel" >
+                <Property Name="Text" Value="取消" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,167},{0,159},{0,217},{0,177}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="use_dog_food/background/" >
+                <Property Name="Text" Value="金币" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,178},{0,35},{0,206},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

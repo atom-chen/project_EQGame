@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="BuyWnd_Confirm" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,2},{0,-2},{1,2},{1,-2}}" />
+        <Window Type="NewEQHomeLook/NewStaticImage2" Name="BuyWnd_Confirm/Confirm_Wnd" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-117},{0.5,-60},{0.5,117},{0.5,60}}" />
+            <Window Type="EQHomeLook/StaticText" Name="BuyWnd_Confirm/Confirm_Wnd/Qty_Background" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,30},{1,-15},{0,49}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="BuyWnd_Confirm/Confirm_Wnd/Confirm" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="确 定" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,49},{0,79},{0,95},{0,105}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="BuyWnd_Confirm/Confirm_Wnd/Cancel" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="取 消" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage338" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage336" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage340" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,139},{0,79},{0,185},{0,105}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="BuyWnd_Confirm/Confirm_Wnd/Text1" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,12},{0,13},{1,-102},{0,24}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="BuyWnd_Confirm/Confirm_Wnd/Text2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="购买数量" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-103},{0,13},{1,-40},{0,28}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="BuyWnd_Confirm/Confirm_Wnd/Text3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="需要" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,12},{0,55},{0,40},{0,69}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="BuyWnd_Confirm/Confirm_Wnd/Text4" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="点，确认购买吗？" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,61},{0,55},{0,167},{0,69}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

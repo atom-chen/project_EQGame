@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="dagongtishi" >
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,282},{0,210},{0,600},{0,459}}" />
+        <Window Type="EQHomeLook/StaticText" Name="dagongtishi/neirong1" >
+            <Property Name="Text" Value="需求：" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0,24},{0,41},{0,70},{0,66}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="dagongtishi/queding" >
+            <Property Name="Text" Value="确定" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,91},{0,202},{0,137},{0,228}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="dagongtishi/queding1" >
+            <Property Name="Text" Value="取消" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,181},{0,202},{0,227},{0,228}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="dagongtishi/neirong2" >
+            <Property Name="Text" Value="消耗：" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0,24},{0.05,94},{0,70},{0.05,121}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="dagongtishi/neirong3" >
+            <Property Name="Text" Value="获得：" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0,24},{0.1,142},{0,70},{0.1,166}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="dagongtishi/neirong4" >
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,59},{0,41},{0.05,273},{0,103}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="dagongtishi/neirong5" >
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.1,44},{0.05,94},{0.1,258},{0.05,153}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="dagongtishi/neirong6" >
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.15,28},{0.1,143},{0.15,242},{0.1,172}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

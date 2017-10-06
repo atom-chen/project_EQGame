@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Import xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<id>1</id>
+		<name>总闸</name>
+		<type>1</type>
+		<param>1</param>
+	</Row>
+</Import>

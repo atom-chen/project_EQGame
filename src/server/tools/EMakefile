@@ -1,0 +1,4 @@
+{"*",
+[debug_info,
+ {parse_transform, smart_exceptions}]
+}.

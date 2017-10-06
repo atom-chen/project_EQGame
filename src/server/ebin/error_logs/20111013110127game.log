@@ -1,0 +1,30 @@
+
+=ERROR REPORT==== 13-Oct-2011::11:06:42 ===
+** Generic server 'xiejun@35info.cn_farm' terminating 
+** Last message in was {'$gen_cast',
+                           {msg,'xiejun@35info.cn',214,
+                               {req_enter_farm,"xiejun@35info.cn"}}}
+** When Server state == {state,'xiejun@35info.cn',<0.1469.0>,<0.1482.0>,
+                               undefined,undefined}
+** Reason for termination == 
+** {function_clause,[{player_data,get_account,[[]]},
+                     {player_coin,get_coin,2},
+                     {farm_coin,send_eq_coin,1},
+                     {player_farm,handle_cast,2},
+                     {gen_server,handle_msg,5},
+                     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 13-Oct-2011::11:07:42 ===
+** Generic server 'xiejun@35info.cn_farm' terminating 
+** Last message in was {'$gen_cast',
+                           {msg,'xiejun@35info.cn',214,
+                               {req_enter_farm,"xiejun@35info.cn"}}}
+** When Server state == {state,'xiejun@35info.cn',<0.1498.0>,<0.1500.0>,
+                               undefined,undefined}
+** Reason for termination == 
+** {function_clause,[{player_data,get_account,[[]]},
+                     {player_coin,get_coin,2},
+                     {farm_coin,send_eq_coin,1},
+                     {player_farm,handle_cast,2},
+                     {gen_server,handle_msg,5},
+                     {proc_lib,init_p_do_apply,3}]}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow(WithGrayBg)" Name="farm_complete_task" >
+        <Property Name="Text" Value="                  完成任务" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,50},{0,50},{0,370},{0,290}}" />
+        <Window Type="EQHomeLook/StaticText" Name="farm_complete_task/complete_words" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,30},{1,-20},{0,65}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="farm_complete_task/image_exp" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,80},{0,70},{0,144},{0,134}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="farm_complete_task/image_coin" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-144},{0,70},{1,-80},{0,134}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="farm_complete_task/quantity_exp" >
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,80},{0,140},{0,144},{0,160}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="farm_complete_task/quantity_coin" >
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-144},{0,140},{1,-80},{0,160}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_complete_task/next_task" >
+            <Property Name="Text" Value="进行一下个任务" />
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,60},{0,195},{0,170},{0,217}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_complete_task/cancle" >
+            <Property Name="Text" Value="取消" />
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-120},{0,195},{1,-80},{0,217}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_complete_task/last_task" >
+            <Property Name="Text" Value="确 定" />
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Pushed" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,120},{1,-45},{1,-120},{1,-23}}" />
+        </Window>
+    </Window>
+</GUILayout>

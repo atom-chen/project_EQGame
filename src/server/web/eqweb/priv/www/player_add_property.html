@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>eq server</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" href="style/thickbox.css" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript" src="js/jquery.query.js"></script>
+
+    <script type="text/javascript" src="js/player.js"></script>
+
+</head>
+<body>
+    <table id="scene_table" width="100%">
+        <tr>
+            <td align="right">
+                人物清洁度：
+            </td>
+            <td align="left">
+                <input id="player_clean" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                人物健康值：
+            </td>
+            <td align="left">
+                <input id="player_health" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                人物魅力值：
+            </td>
+            <td align="left">
+                <input id="player_charm" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                活　力　值：
+            </td>
+            <td align="left">
+                <input id="active_value" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                房屋清洁度：
+            </td>
+            <td align="left">
+                <input id="house_clean" type="text" />
+            </td>
+        </tr>
+        <tr><td colspan="2"></td></tr>
+        <tr>
+            <td colspan="2"><input type="button" id="property_add_submit" onclick="add_property();" value=" 提交 " /> <input type="button" onclick="close_add_property();" id="close" value=" 关闭 " /></td>
+        </tr>
+    </table>
+</body>
+</html>

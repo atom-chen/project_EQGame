@@ -1,0 +1,19 @@
+
+material nc_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 003.dds
+			}
+		}
+
+	}
+
+}
+
+

@@ -1,0 +1,65 @@
+-----------------------------------------
+-- 文件说明	：Lua文件初始化相关操作
+-- 作者		：
+-- 修改		：麦
+-- 日期		：10/03/25
+-----------------------------------------
+
+initialClientLogin()
+
+-------------------------------------------
+---- 加载界面方案
+-------------------------------------------
+--g_SchemeMgr:loadScheme("LoadIcon.scheme")
+--g_SchemeMgr:loadScheme("TaharezLook.scheme")
+--g_SchemeMgr:loadScheme("EQHomeLookSkin.scheme")
+--
+-------------------------------------------
+---- 设置默认样式
+-------------------------------------------
+----
+----创建默认乐园界面根窗口
+--g_UIRoot = g_WinMgr:createWindow("DefaultWindow", "UIRoot")
+--
+---- 设置默认鼠标指针样式
+--g_GuiSystem:setDefaultMouseCursor("MouseArrow", "MouseArrow")
+--g_GuiSystem:setDefaultFont("simsun-10")
+--
+
+---- 设置默认工具拦提示样式
+--g_GuiSystem:setDefaultTooltip("TaharezLook/Tooltip")
+-------------------------------------------
+---- 加载Layout文件
+-------------------------------------------
+--g_LoginWindows 		= g_WinMgr:loadWindowLayout("LoginWindows.layout")
+--g_MessageBox 		= g_WinMgr:loadWindowLayout("MessageBox.layout")
+--g_CreatePlayer 		= g_WinMgr:loadWindowLayout("CreatePlayer.layout")
+----
+--g_MainUIWindows 	= g_WinMgr:loadWindowLayout("MainUI.layout")
+----g_ExitWindow 		= g_WinMgr:loadWindowLayout("ExitWnd.layout")
+----g_FitmodeStorage 	= g_WinMgr:loadWindowLayout("FitmodeStorage.layout")
+------仓库界面
+----g_Storage 			= g_WinMgr:loadWindowLayout("StorageUI.layout")
+------人物属性界面
+--g_PlayerProUI 		= g_WinMgr:loadWindowLayout("PlayerPropertyUI.layout")
+--g_OtherPlayerProUI  = g_WinMgr:loadWindowLayout("OtherPlayerInfoUI.layout")
+------动作按钮界面
+----g_ActionUI			= g_WinMgr:loadWindowLayout("ActionWnd.layout")
+------环形菜单界面
+----g_circleMenuUI		= g_WinMgr:loadWindowLayout("circleMenu.layout")
+----
+----g_DealUI					= g_WinMgr:loadWindowLayout("deal.layout")
+----
+----g_FriendListUI		= g_WinMgr:loadWindowLayout("FriendList.layout")
+------好友列表弹出菜单界面
+----g_FriendLstpopUpUI	= g_WinMgr:loadWindowLayout("FriendList_manage.layout")
+------
+----
+------房屋售卖
+----g_houseSalesUI =  g_WinMgr:loadWindowLayout("houseshop.layout")
+----
+------商城
+----g_ShopCenterUI			= g_WinMgr:loadWindowLayout("Market.layout")
+----g_FitModeShopCenter = g_WinMgr:loadWindowLayout("FitmodeMkt.layout")
+----g_FitModeShoppingCart = g_WinMgr:loadWindowLayout("Shoplist.layout")
+----

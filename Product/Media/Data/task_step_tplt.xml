@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<row>
+		<id>1</id>
+		<stepNum>1</stepNum>
+		<stepDetail>◆点我了解如何查看任务;4,5</stepDetail>
+	</row>
+	<row>
+		<id>2</id>
+		<stepNum>1</stepNum>
+		<stepDetail>◆点我了解如何切换场景;10</stepDetail>
+	</row>
+	<row>
+		<id>3</id>
+		<stepNum>1</stepNum>
+		<stepDetail>和洛克谈谈;100</stepDetail>
+	</row>
+	<row>
+		<id>4</id>
+		<stepNum>1</stepNum>
+		<stepDetail>◆点我了解如何穿上衣物;13,6</stepDetail>
+	</row>
+	<row>
+		<id>5</id>
+		<stepNum>3</stepNum>
+		<stepDetail>先去家具店;100 再和麦克斯韦谈谈;100 ◆点我了解如何切换场景;10</stepDetail>
+	</row>
+	<row>
+		<id>6</id>
+		<stepNum>4</stepNum>
+		<stepDetail>回家才能使用家装按钮;100 ◆点我了解如何回家;23 ◆点我了解如何进入家装;7 ◆点我了解家装下的操作;22</stepDetail>
+	</row>
+	<row>
+		<id>7</id>
+		<stepNum>2</stepNum>
+		<stepDetail>退出家装才能使用家具;100 ◆点我了解如何使用家具;8</stepDetail>
+	</row>
+	<row>
+		<id>8</id>
+		<stepNum>3</stepNum>
+		<stepDetail>点击右侧娱乐按钮;100 点击打工图标;100 再选择打工类型;100</stepDetail>
+	</row>
+	<row>
+		<id>9</id>
+		<stepNum>1</stepNum>
+		<stepDetail>◆点我了解如何拜访好友;26</stepDetail>
+	</row>
+	<row>
+		<id>10</id>
+		<stepNum>2</stepNum>
+		<stepDetail>◆点我了解如何帮好友;27 整理房间;27</stepDetail>
+	</row>
+	<row>
+		<id>11</id>
+		<stepNum>3</stepNum>
+		<stepDetail>第11个任务;2,3 如何对话;4,5 如何打开背包;2,3,5</stepDetail>
+	</row>
+</root>

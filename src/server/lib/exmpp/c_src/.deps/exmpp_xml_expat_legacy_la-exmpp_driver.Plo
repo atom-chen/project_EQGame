@@ -1,0 +1,156 @@
+exmpp_xml_expat_legacy_la-exmpp_driver.lo \
+  .libs/exmpp_xml_expat_legacy_la-exmpp_driver.o: exmpp_driver.c \
+  /usr/include/math.h /usr/include/sys/reent.h /usr/include/_ansi.h \
+  /usr/include/newlib.h /usr/include/sys/config.h \
+  /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+  /usr/include/cygwin/config.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/machine/_default_types.h \
+  /usr/include/sys/lock.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h /usr/include/_ansi.h \
+  /usr/include/stdio.h /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/cygwin/types.h /usr/include/sys/sysmacros.h \
+  /usr/include/stdint.h /usr/include/endian.h /usr/include/sys/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/string.h \
+  /usr/include/sys/string.h exmpp_driver.h ../config.h \
+  d:/ERL57~1.5/lib/erl_interface-3.6.5/include/ei.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/netdb.h /usr/include/inttypes.h \
+  /usr/include/sys/socket.h /usr/include/features.h \
+  /usr/include/cygwin/socket.h /usr/include/asm/socket.h \
+  /usr/include/cygwin/if.h /usr/include/cygwin/sockios.h \
+  /usr/include/sys/uio.h /usr/include/sys/time.h \
+  /usr/include/cygwin/sys_time.h /usr/include/sys/select.h \
+  /usr/include/time.h /usr/include/machine/time.h \
+  /usr/include/cygwin/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/netinet/in.h /usr/include/cygwin/in.h \
+  /usr/include/asm/byteorder.h /usr/include/cygwin/in6.h \
+  d:/ERL57~1.5/erts-5.7.5/include/erl_driver.h ../config.h \
+  d:/ERL57~1.5/erts-5.7.5/include/erl_int_sizes_config.h \
+  d:/ERL57~1.5/erts-5.7.5/include/erl_drv_nif.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h \
+  /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h
+
+/usr/include/math.h:
+
+/usr/include/sys/reent.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/newlib.h:
+
+/usr/include/sys/config.h:
+
+/usr/include/machine/ieeefp.h:
+
+/usr/include/sys/features.h:
+
+/usr/include/cygwin/config.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/machine/_default_types.h:
+
+/usr/include/sys/lock.h:
+
+/usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/cygwin/types.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+/usr/include/sys/stdio.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/string.h:
+
+/usr/include/sys/string.h:
+
+exmpp_driver.h:
+
+../config.h:
+
+d:/ERL57~1.5/lib/erl_interface-3.6.5/include/ei.h:
+
+/usr/include/errno.h:
+
+/usr/include/sys/errno.h:
+
+/usr/include/netdb.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/features.h:
+
+/usr/include/cygwin/socket.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/cygwin/if.h:
+
+/usr/include/cygwin/sockios.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/cygwin/sys_time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/time.h:
+
+/usr/include/machine/time.h:
+
+/usr/include/cygwin/time.h:
+
+/usr/include/signal.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/cygwin/signal.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/cygwin/in.h:
+
+/usr/include/asm/byteorder.h:
+
+/usr/include/cygwin/in6.h:
+
+d:/ERL57~1.5/erts-5.7.5/include/erl_driver.h:
+
+../config.h:
+
+d:/ERL57~1.5/erts-5.7.5/include/erl_int_sizes_config.h:
+
+d:/ERL57~1.5/erts-5.7.5/include/erl_drv_nif.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/machine/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/cygwin/stdlib.h:
+
+/usr/include/cygwin/wait.h:

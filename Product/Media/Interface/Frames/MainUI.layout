@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="DFwnd_MainRoot" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="MainRoot/exit" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="HoverImage" Value="set:Button1 image:imagebutton103_normal" />
+            <Property Name="NormalImage" Value="set:Button1 image:imagebutton103_normal" />
+            <Property Name="PushedImage" Value="set:Button1 image:imagebutton103_pushed" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,76},{0,37},{0,108}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/2" >
+            <Property Name="Image" Value="set:Button5 image:NewImage88" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-88},{0,45},{1,-34},{0,71}}" />
+            <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/2/1" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="MainRoot/SImg_HMenubar" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{1,-32},{0,1434},{1,2}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/VMenubar/Btn_System" >
+                <Property Name="Tooltip" Value="系统设置" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage71" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage70" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage72" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-32},{1,-32},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/HMenubar/Btn_Friendlist" >
+                <Property Name="Tooltip" Value="我的好友" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage68" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage67" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage69" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-60},{1,-32},{1,-28},{1,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/HMenubar/Btn_Action" >
+                <Property Name="Tooltip" Value="动作" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage65" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage64" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage66" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-88},{1,-32},{1,-56},{1,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/HMenubar/Btn_PrePaid" >
+                <Property Name="Tooltip" Value="充值" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage62" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage61" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage63" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-116},{1,-32},{1,-84},{1,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/HMenubar/Btn_Mall" >
+                <Property Name="Tooltip" Value="商城" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage59" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage58" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage60" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-144},{1,-32},{1,-112},{1,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/VMenubar/Btn_Storage" >
+                <Property Name="Tooltip" Value="背包" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage56" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage55" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage57" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-172},{1,-32},{1,-140},{1,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/HMenubar/Btn_House" >
+                <Property Name="Tooltip" Value="房屋信息" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage53" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage52" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage54" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-200},{1,-32},{1,-168},{1,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/HMenubar/Btn_PlayerProperty" >
+                <Property Name="Tooltip" Value="个人信息" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage50" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage49" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage51" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-228},{1,-32},{1,-196},{1,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="MainRoot/SImg_HMenubar1" >
+                <Property Name="Image" Value="set:Button5 image:NewImage16" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-34},{0,432},{1,-2}}" />
+                <Window Type="NewEQHomeLook/NewEditbox1" Name="MainRoot/HMenubar/ETxt_Chat" >
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,27},{0,6},{0,308},{0,30}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="MainRoot/HMenubar/Btn_HideChatFrame" >
+                    <Property Name="Tooltip" Value="聊天栏" />
+                    <Property Name="HoverImage" Value="set:Button6 image:NewImage113" />
+                    <Property Name="NormalImage" Value="set:Button6 image:NewImage111" />
+                    <Property Name="PushedImage" Value="set:Button6 image:NewImage113" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,7},{0,28},{0,32}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="MainUI/Bottomhud/Editbox/Btn_ChatExpression" >
+                    <Property Name="Tooltip" Value="表情" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage77" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage76" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage78" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,311},{1,-26},{0,339},{1,-2}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="MainRoot/HMenubar/Btn_Enter" >
+                    <Property Name="Tooltip" Value="发送" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage80" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage79" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage81" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,339},{1,-26},{0,367},{1,-2}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="KMainRoot/HMenubar/Btn_HyperLink" >
+                    <Property Name="Tooltip" Value="文字连接" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage83" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage82" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage84" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,398},{1,-26},{0,426},{1,-2}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="MainRoot/SImg_HMenubar1/BigExpBtn" >
+                    <Property Name="Tooltip" Value="乐乐表情" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage77" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage76" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage78" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,369},{1,-26},{0,397},{1,-2}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/liwuanjian" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="HoverImage" Value="set:liwu002 image:songli_03h" />
+            <Property Name="NormalImage" Value="set:liwu002 image:songli_03n" />
+            <Property Name="PushedImage" Value="set:liwu002 image:songli_03p" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-151},{1,-132},{1,-61},{1,-42}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/tip/tip2" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,290},{0,50},{0,292},{0,52}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/tip/tip3" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,298},{0,50},{0,300},{0,52}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/tip/tip4" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,302},{0,50},{0,304},{0,52}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/tip/tip5" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,306},{0,50},{0,308},{0,52}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/tip/tip1_o" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.2,147},{0.2,-71},{0.45,-111},{0.45,-229}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/tip/tip1" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,50},{0,358},{0,52}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/TaskBtn" >
+            <Property Name="Tooltip" Value="打开任务面板" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage269" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage268" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage270" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,435},{1,-34},{0,468},{1,-2}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/tip/touxiang3" >
+            <Property Name="Image" Value="set:Button5 image:NewImage20" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0,1},{0,240},{0,66}}" />
+            <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/tip/touxiang3/sp_txt" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,22},{0,66},{0,40}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/tip/touxiang3/eq_txt" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,92},{0,5},{0,139},{0,21}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/tip/touxiang4" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,63},{0,4},{0,150},{0,24}}" />
+                <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/tip/touxiang4/1" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.000698324,0},{0,-1},{0.999302,0},{1,-4}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/tip/touxiang3/img_flower" >
+                <Property Name="Image" Value="set:Button5 image:NewImage394" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,65},{0,47},{0,89},{0,71}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/tip/touxiang3/img_egg" >
+                <Property Name="Image" Value="set:Button5 image:NewImage393" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,133},{0,47},{0,157},{0,71}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/tip/touxiang3/txt1" >
+                <Property Name="Text" Value="0" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,88},{0,49},{0,138},{0,67}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/tip/touxiang3/txt2" >
+                <Property Name="Text" Value="0" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,156},{0,47},{0,209},{0,69}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/tip/touxiang6" >
+                <Property Name="Image" Value="set:Button5 image:NewImage398" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-86},{0,1},{0,-45},{0,40}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/tip/touxiang5" >
+                <Property Name="Image" Value="set:Button6 image:NewImage156" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,1},{1,-23},{0,26},{1,2}}" />
+                <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/tip/touxiang5/1" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,-1},{0,-1},{1,-1},{1,-1}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/tip/touxiang7" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.435416,0},{0.5,-5},{0.75,27},{0.735235,-6}}" />
+                <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/tip/touxiang7/" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FFFFDE4C tr:FFFFDE4C bl:FFFFDE4C br:FFFFDE4C" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.01766,0},{0,0},{1.0596,0},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/tip/touxiang3/gold_txt" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,92},{0,25},{0,139},{0,41}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/tip" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Image" Value="set:Button5 image:NewImage19" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,245},{0,5},{0,285},{0,51}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/tip/jibingzhuangtai" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,6},{0,33},{0,23}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/tip/touxiang2" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage13" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage14" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage15" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-27},{1,-20},{1,-13},{1,-4}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="MainRoot/telephone" >
+            <Property Name="Tooltip" Value="电话薄" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage26" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage25" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage27" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-85},{0,6},{0.5,-51},{0,40}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="MainRoot/Btn_ShowUpstair" >
+            <Property Name="Tooltip" Value="楼层显示" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage29" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage28" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage30" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-51},{0,6},{0.5,-17},{0,40}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="MainRoot/Btn_SwitchWallnRoof" >
+            <Property Name="Tooltip" Value="墙壁显示" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage32" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage31" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage33" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-17},{0,6},{0.5,17},{0,40}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="MainRoot/liwu" >
+            <Property Name="Tooltip" Value="礼物" />
+            <Property Name="HoverImage" Value="set:liwu002 image:songli_4p" />
+            <Property Name="NormalImage" Value="set:liwu002 image:songli_4n" />
+            <Property Name="PushedImage" Value="set:liwu002 image:songli_4h" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,17},{0,6},{0.5,51},{0,40}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/3" >
+            <Property Name="Image" Value="set:Button5 image:NewImage89" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-146},{0,6},{1,-110},{0,42}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/1" >
+            <Property Name="Image" Value="set:Button5 image:NewImage17" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-110},{0,0},{1,-2},{0,61}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/xiala1" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage13" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage14" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage15" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-18},{1,-20},{1,-4},{1,-4}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="DFwnd_MainRoot/1/1" >
+                <Property Name="Image" Value="set:Button5 image:NewImage18" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,19},{0,4},{0,94},{0,28}}" />
+                <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/1/1/1" >
+                    <Property Name="TextColours" Value="tl:FF838383 tr:FF838383 bl:FF838383 br:FF838383" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="DFwnd_MainRoot/1/2" >
+                <Property Name="Text" Value="坐标：00,00" />
+                <Property Name="TextColours" Value="tl:FF05E5FA tr:FF05E5FA bl:FF05E5FA br:FF05E5FA" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,16},{0,24},{0,97},{0,41}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="MainRoot/SImg_VMenubar" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-40},{1,-262},{1,0},{1,-32}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/HMenubar/Btn_Email" >
+                <Property Name="Tooltip" Value="邮箱" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage47" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage46" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage48" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-34},{1,-36},{1,0},{0.997286,0}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/VMenubar/Btn_Gohome" >
+                <Property Name="Tooltip" Value="回家" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage418" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage417" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage419" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-34},{1,-244},{1,0},{1,-210}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/VMenubar/Btn_Navigate" >
+                <Property Name="Tooltip" Value="路标" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage35" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage34" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage36" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-34},{1,-172},{1,0},{1,-138}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/VMenubar/Btn_PutFurniture" >
+                <Property Name="Tooltip" Value="装饰" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage38" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage37" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage39" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-34},{1,-138},{1,0},{1,-104}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/HMenubar/Btn_Storage" >
+                <Property Name="Tooltip" Value="仓库" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage41" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage40" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage42" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-34},{1,-104},{1,0},{1,-70}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="MainRoot/VMenubar/Btn_PlayGame" >
+                <Property Name="Tooltip" Value="娱乐" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage45" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage43" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage44" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-34},{1,-70},{1,0},{1,-36}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/broadcast" >
+            <Property Name="Tooltip" Value="系统公告" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage357" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage356" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage358" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,51},{0,6},{0.5,85},{0,40}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/hide" >
+            <Property Name="Tooltip" Value="隐藏人物" />
+            <Property Name="HoverImage" Value="set:Button1 image:icon6_03" />
+            <Property Name="NormalImage" Value="set:Button1 image:icon6_01" />
+            <Property Name="PushedImage" Value="set:Button1 image:icon6_02" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,85},{0,6},{0.5,119},{0,40}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/MailGiftIcon" >
+            <Property Name="Tooltip" Value="打开收到的快递礼物" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage385" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage384" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage386" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,479},{1,-34},{0,512},{1,-2}}" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewStaticImage8" Name="DFwnd_MainRoot/Task_guide_win" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,123},{0,198},{0,302}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/Tree" Name="DFwnd_MainRoot/Task_guide_win/Task_guide_Tree" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,1},{0,1},{0,190},{0,179}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/RunBtn" >
+            <Property Name="Tooltip" Value="跑步/走路" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage446" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage445" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage447" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-34},{1,-240},{1,0},{1,-206}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DFwnd_MainRoot/GuideTreeBtn" >
+            <Property Name="HoverImage" Value="set:Button1 image:ImageButton46" />
+            <Property Name="NormalImage" Value="set:Button1 image:ImageButton46" />
+            <Property Name="PushedImage" Value="set:Button1 image:ImageButton46" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,11},{0,111},{0,28},{0,122}}" />
+        </Window>
+    </Window>
+</GUILayout>

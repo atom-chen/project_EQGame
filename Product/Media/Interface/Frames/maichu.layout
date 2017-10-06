@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="Root/maichu" >
+        <Property Name="Font" Value="simsun-11" />
+        <Property Name="Text" Value="卖出" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,201},{0,171},{0,468},{0,360}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="Root/maichu/zhuyemian" >
+            <Property Name="Image" Value="set:common1 image:Window5_Mid" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,6},{0,26},{1,-6},{1,-6}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="Root/maichu/zhuyemian/icon1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,27},{0,10},{0,86},{0,63}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="Root/maichu/zhuyemian/icon1/1" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Root/maichu/zhuyemian/icon1/2" >
+                    <Property Name="Image" Value="set:window2 image:farm_Storehouse3" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,41},{0,3},{1,-2},{0,31}}" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Root/maichu/zhuyemian/txt1" >
+                <Property Name="Font" Value="simsun-16" />
+                <Property Name="Text" Value="牧草" />
+                <Property Name="TextColours" Value="tl:FF4E9E00 tr:FF4E9E00 bl:FF4E9E00 br:FF4E9E00" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-142},{0,14},{1,-52},{0,31}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Root/maichu/zhuyemian/txt2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="单个售价：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-142},{0,45},{1,-82},{0,58}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Root/maichu/zhuyemian/txt3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="总计收入：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-142},{0,62},{1,-82},{0,75}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/maichu/zhuyemian/icon2" >
+                <Property Name="Image" Value="set:window2 image:farm_Storehouse2" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-131},{0,78},{1,-120},{0,92}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Root/maichu/zhuyemian/txt4" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="已锁定" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-114},{0,79},{1,-74},{0,92}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Root/maichu/zhuyemian/txt5" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="金币99999" />
+                <Property Name="TextColours" Value="tl:FFCC3300 tr:FFCC3300 bl:FFCC3300 br:FFCC3300" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-79},{0,45},{1,-12},{0,58}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Root/maichu/zhuyemian/txt6" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="金币99999" />
+                <Property Name="TextColours" Value="tl:FFCC3300 tr:FFCC3300 bl:FFCC3300 br:FFCC3300" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-79},{0,62},{1,-12},{0,75}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Root/maichu/zhuyemian/txt7" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="输入卖出数量(1-99)" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,91},{0,130},{0,120}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/Editbox3" Name="Root/maichu/zhuyemian/shuliang" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,42},{0,65},{0,72},{0,84}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/maichu/zhuyemian/xuanze1" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton94_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton94_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton94_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,25},{0,63},{0,39},{0,85}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/maichu/zhuyemian/xuanze2" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton95_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton95_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton95_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,75},{0,63},{0,89},{0,85}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/maichu/zhuyemian/anjian1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="锁定" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,183},{0,76},{0,228},{0,94}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/maichu/zhuyemian/anjian2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="卖出" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,60},{0.05,118},{0.05,105},{0.05,136}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/maichu/zhuyemian/anjian3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="关闭" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,133},{0.05,118},{0.05,178},{0.05,136}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

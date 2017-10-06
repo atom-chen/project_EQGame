@@ -1,0 +1,1498 @@
+import * from "commTemplate.material"
+material Plantslight : Tplt/FakeTranspt
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.4 0.4 0.4
+		}
+	}
+}
+
+material 40000000_00 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000000_00.dds
+}
+material 40070000_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070000_02.dds
+}
+material 40070000_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070000_03.dds
+}
+material 40070000_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070000_04.dds
+}
+material 40070000_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070000_06.dds
+}
+material 40000001_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000001_02.dds
+}
+material 40000001_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000001_03.dds
+}
+material 40000001_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000001_04.dds
+}
+material 40000001_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000001_06.dds
+}
+material 40099999_00 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40099999.dds
+}
+material 40220001_00 : Tplt/ComplexTranspt
+{  
+    set_texture_alias <baseTex> plants/40220001_00.dds
+}
+material 40220002_00 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40220002_00.dds
+}
+material 40220003_00 : Tplt/ComplexTranspt
+{  
+    set_texture_alias <baseTex> plants/40220003_00.dds
+}
+material 40220004_00 : Tplt/ComplexTranspt
+{  
+    set_texture_alias <baseTex> plants/40220004_00.dds
+}
+material 40220005_00 : Tplt/ComplexTranspt
+{  
+    set_texture_alias <baseTex> plants/40220005_00.dds
+}
+material 40220006_00 : Tplt/ComplexTranspt
+{  
+    set_texture_alias <baseTex> plants/40220006_00.dds
+}
+material 40220010_00 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40220010_00.dds
+}
+material 40000002_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000002_02.dds
+}
+material 40000002_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000002_03.dds
+}
+material 40000002_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000002_04.dds
+}
+material 40000002_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000002_06.dds
+}
+material 40000004_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000004_02.dds
+}
+material 40000004_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000004_03.dds
+}
+material 40000004_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000004_04.dds
+}
+material 40000004_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000004_05.dds
+}
+material 40000004_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000004_06.dds
+}
+material 40000005_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000005_02.dds
+}
+material 40000005_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000005_03.dds
+}
+material 40000005_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000005_04.dds
+}
+material 40000005_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000005_05.dds
+}
+material 40000005_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000005_06.dds
+}
+material 40000006_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000006_02.dds
+}
+material 40000006_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000006_03.dds
+}
+material 40000006_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000006_04.dds
+}
+material 40000006_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000006_05.dds
+}
+material 40000006_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000006_06.dds
+}
+material 40000007_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000007_02.dds
+}
+material 40000007_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000007_03.dds
+}
+material 40000007_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000007_04.dds
+}
+material 40000007_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000007_05.dds
+}
+material 40000007_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000007_06.dds
+}
+material 40000003_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000003_02.dds
+}
+material 40000003_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000003_03.dds
+}
+material 40000003_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000003_04.dds
+}
+material 40000003_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000003_05.dds
+}
+material 40000003_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000003_06.dds
+}
+material 40000008_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000008_02.dds
+}
+material 40000008_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000008_03.dds
+}
+material 40000008_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000008_04.dds
+}
+material 40000008_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000008_05.dds
+}
+material 40000008_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000008_06.dds
+}
+material 40000009_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000009_02.dds
+}
+material 40000009_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000009_03.dds
+}
+material 40000009_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000009_04.dds
+}
+material 40000009_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000009_05.dds
+}
+material 40000009_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000009_06.dds
+}
+material 40000010_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000010_02.dds
+}
+material 40000010_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000010_03.dds
+}
+material 40000010_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000010_04.dds
+}
+material 40000010_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000010_05.dds
+}
+material 40000010_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000010_06.dds
+}
+material 40000011_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000011_02.dds
+}
+material 40000011_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000011_03.dds
+}
+material 40000011_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000011_04.dds
+}
+material 40000011_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000011_05.dds
+}
+material 40000011_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000011_06.dds
+}
+material 40000012_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000012_02.dds
+}
+material 40000012_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000012_03.dds
+}
+material 40000012_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000012_04.dds
+}
+material 40000012_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000012_05.dds
+}
+material 40000012_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000012_06.dds
+}
+material 40000013_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000013_02.dds
+}
+material 40000013_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000013_03.dds
+}
+material 40000013_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000013_04.dds
+}
+material 40000013_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000013_05.dds
+}
+material 40000013_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40000013_06.dds
+}
+material 40010001_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010001_01.dds
+}
+material 40010001_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010001_02.dds
+}
+material 40010001_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010001_03.dds
+}
+material 40010001_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010001_04.dds
+}
+material 40010001_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010001_05.dds
+}
+material 40010001_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010001_06.dds
+}
+material 40010000_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010000_02.dds
+}
+material 40010000_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010000_03.dds
+}
+material 40010000_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010000_03.dds
+}
+material 40010000_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010000_05.dds
+}
+material 40010000_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010000_06.dds
+}
+material 40010002_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010002_02.dds
+}
+material 40010002_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010002_03.dds
+}
+material 40010002_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010002_04.dds
+}
+material 40010002_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010002_05.dds
+}
+material 40010002_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40010002_06.dds
+}
+material 40070001_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070001_01.dds
+}
+material 40070001_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070001_02.dds
+}
+material 40070001_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070001_03.dds
+}
+material 40070001_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070001_04.dds
+}
+material 40070001_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070001_05.dds
+}
+material 40070001_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070001_06.dds
+}
+material 40070002_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070002_02.dds
+}
+material 40070002_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070002_03.dds
+}
+material 40070002_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070002_04.dds
+}
+material 40070002_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070002_05.dds
+}
+material 40070002_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070002_06.dds
+}
+material 40070002_07 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070002_07.dds
+}
+material 40070003_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070003_02.dds
+}
+material 40070003_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070003_03.dds
+}
+material 40070003_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070003_04.dds
+}
+material 40070003_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070003_05.dds
+}
+material 40070003_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40070003_06.dds
+}
+material  billboard0_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> farmscene/billboard0_01.dds
+}
+material  billboard0_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> farmscene/billboard0_00.dds
+}
+material  doghouse0_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> farmscene/doghouse0_00.dds
+}
+material  farmhouse0_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> farmscene/farmhouse0_00.dds
+}
+material  farmhouse0_01 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> farmscene/farmhouse0_01.dds
+}
+material  farmhouse0_02 : Tplt/AliasTex
+{  
+		set $emissive_colour "0.8 0.8 0.8"
+    set_texture_alias <baseTex> farmscene/farmhouse0_02.dds
+}
+material  hedge0_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> farmscene/hedge0_00.dds
+}
+material  scarecrow0_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/scarecrow0_00.dds
+}
+material  billboard1_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/billboard1_01.dds
+}
+material  billboard1_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/billboard1_00.dds
+}
+material  doghouse1_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> farmscene/doghouse1_00.dds
+}
+material  farmhouse1_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> farmscene/farmhouse1_00.dds
+}
+material  farmhouse1_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> farmscene/farmhouse1_01.dds
+}
+material  farmhouse1_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> farmscene/farmhouse1_02.dds
+}
+material  farmhouse1_03 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/farmhouse1_03.dds
+}
+material  farmhouse1_04 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/farmhouse1_04.dds
+}
+material  farmhouse1_05 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/farmhouse1_05.dds
+}
+material  farmhouse1_06 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/farmhouse1_06.dds
+}
+material  hedge1_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> farmscene/hedge1_00.dds
+}
+material  scarecrow1_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/scarecrow1_00.dds
+}
+material  dog0_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/dog0_00.dds
+}
+material  dog0-00_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/dog0-00_00.dds
+}
+material  dog1_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> farmscene/dog1_00.dds
+}
+material 40020000_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020000_02.dds
+}
+material 40020000_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020000_03.dds
+}
+material 40020000_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020000_04.dds
+}
+material 40020000_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020000_05.dds
+}
+material 40020000_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020000_06.dds
+}
+material 40020001_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020001_02.dds
+}
+material 40020001_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020001_03.dds
+}
+material 40020001_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020001_04.dds
+}
+material 40020001_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020001_05.dds
+}
+material 40020001_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020001_06.dds
+}
+material 40020002_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020002_02.dds
+}
+material 40020002_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020002_03.dds
+}
+material 40020002_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020002_04.dds
+}
+material 40020002_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020002_05.dds
+}
+material 40020002_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020002_06.dds
+}
+material 40020003_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020003_02.dds
+}
+material 40020003_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020003_03.dds
+}
+material 40020003_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020003_04.dds
+}
+material 40020003_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020003_05.dds
+}
+material 40020003_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020003_06.dds
+}
+material 40020004_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020004_02.dds
+}
+material 40020004_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020004_03.dds
+}
+material 40020004_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020004_04.dds
+}
+material 40020004_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020004_05.dds
+}
+material 40020004_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020004_06.dds
+}
+material 40020005_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020005_02.dds
+}
+material 40020005_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020005_03.dds
+}
+material 40020005_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020005_04.dds
+}
+material 40020005_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020005_05.dds
+}
+material 40020005_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020005_06.dds
+}
+material 40020005_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020005_01.dds
+}
+material 40020006_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020006_02.dds
+}
+material 40020006_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020006_03.dds
+}
+material 40020006_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020006_04.dds
+}
+material 40020006_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020006_05.dds
+}
+material 40020006_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020006_06.dds
+}
+material 40020007_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020007_02.dds
+}
+material 40020007_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020007_03.dds
+}
+material 40020007_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020007_04.dds
+}
+material 40020007_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020007_05.dds
+}
+material 40020007_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020007_06.dds
+}
+material 40020008_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020008_02.dds
+}
+material 40020008_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020008_03.dds
+}
+material 40020008_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020008_04.dds
+}
+material 40020008_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020008_05.dds
+}
+material 40020008_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020008_06.dds
+}
+material 40020009_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020009_02.dds
+}
+material 40020009_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020009_03.dds
+}
+material 40020009_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020009_04.dds
+}
+material 40020009_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020009_05.dds
+}
+material 40020009_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020009_06.dds
+}
+material 40020010_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020010_02.dds
+}
+material 40020010_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020010_03.dds
+}
+material 40020010_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020010_04.dds
+}
+material 40020010_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020010_05.dds
+}
+material 40020010_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020010_06.dds
+}
+material 40020010_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020010_01.dds
+}
+material 40020011_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020011_02.dds
+}
+material 40020011_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020011_03.dds
+}
+material 40020011_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020011_04.dds
+}
+material 40020011_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020011_05.dds
+}
+material 40020011_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020011_06.dds
+}
+material 40020011_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020011_01.dds
+}
+material 40020013_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020013_02.dds
+}
+material 40020013_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020013_03.dds
+}
+material 40020013_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020013_04.dds
+}
+material 40020013_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020013_05.dds
+}
+material 40020013_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020013_06.dds
+}
+material 40020013_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020013_01.dds
+}
+material 40020014_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020014_01.dds
+}
+material 40020014_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020014_02.dds
+}
+material 40020014_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020014_03.dds
+}
+material 40020014_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020014_04.dds
+}
+material 40020014_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020014_05.dds
+}
+material 40020014_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020014_06.dds
+}
+material 40020015_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020015_02.dds
+}
+material 40020015_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020015_03.dds
+}
+material 40020015_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020015_04.dds
+}
+material 40020015_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020015_05.dds
+}
+material 40020015_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020015_06.dds
+}
+material 40020016_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_01.dds
+}
+material 40020016_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_02.dds
+}
+material 40020016_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_03.dds
+}
+material 40020016_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_04.dds
+}
+material 40020016_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_05.dds
+}
+material 40020016_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_06.dds
+}
+material 40020017_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020017_02.dds
+}
+material 40020017_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020017_03.dds
+}
+material 40020017_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020017_04.dds
+}
+material 40020017_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020017_05.dds
+}
+material 40020017_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020017_06.dds
+}
+material 40020018_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020018_02.dds
+}
+material 40020018_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020018_03.dds
+}
+material 40020018_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020018_04.dds
+}
+material 40020018_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020018_05.dds
+}
+material 40020018_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020018_06.dds
+}
+material 40020019_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_01.dds
+}
+material 40020019_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_02.dds
+}
+material 40020019_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_03.dds
+}
+material 40020019_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_04.dds
+}
+material 40020019_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_05.dds
+}
+material 40020019_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_06.dds
+}
+material 40020020_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020020_02.dds
+}
+material 40020020_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020020_03.dds
+}
+material 40020020_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020020_04.dds
+}
+material 40020020_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020020_05.dds
+}
+material 40020020_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020020_06.dds
+}
+
+material 40020012_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020012_02.dds
+}
+material 40020012_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020012_03.dds
+}
+material 40020012_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020012_04.dds
+}
+material 40020012_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020012_05.dds
+}
+material 40020012_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020012_06.dds
+}
+material 40020012_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020012_01.dds
+}
+material 40030000_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030000_02.dds
+}
+material 40030000_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030000_03.dds
+}
+material 40030000_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030000_04.dds
+}
+material 40030000_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030000_05.dds
+}
+material 40030000_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030000_06.dds
+}
+material 40030000_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030000_01.dds
+}
+material 40030001_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030001_02.dds
+}
+material 40030001_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030001_03.dds
+}
+material 40030001_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030001_04.dds
+}
+material 40030001_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030001_05.dds
+}
+material 40030001_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40030001_06.dds
+}
+material 40040000_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40040000_01.dds
+}
+material 40040000_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40040000_02.dds
+}
+material 40040000_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40040000_03.dds
+}
+material 40040000_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40040000_04.dds
+}
+material 40040000_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40040000_06.dds
+}
+material 40090001_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090001_02.dds
+}
+material 40090001_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090001_03.dds
+}
+material 40090001_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090001_04.dds
+}
+material 40090001_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090001_05.dds
+}
+material 40090001_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090001_06.dds
+}
+material 40090004_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090004_02.dds
+}
+material 40090004_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090004_03.dds
+}
+material 40090004_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090004_04.dds
+}
+material 40090004_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090004_05.dds
+}
+material 40090004_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090004_06.dds
+}
+material 40090006_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090006_02.dds
+}
+material 40090006_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090006_03.dds
+}
+material 40090006_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090006_04.dds
+}
+material 40090006_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090006_05.dds
+}
+material 40090006_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090006_06.dds
+}
+material 40020015_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020015_02.dds
+}
+material 40020015_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020015_03.dds
+}
+material 40020015_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020015_04.dds
+}
+material 40020015_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020015_05.dds
+}
+material 40020015_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020015_06.dds
+}
+material 40020016_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_01.dds
+}
+material 40020016_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_02.dds
+}
+material 40020016_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_03.dds
+}
+material 40020016_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_04.dds
+}
+material 40020016_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_05.dds
+}
+material 40020016_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020016_06.dds
+}
+material 40020017_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020017_02.dds
+}
+material 40020017_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020017_03.dds
+}
+material 40020017_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020017_04.dds
+}
+material 40020017_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020017_05.dds
+}
+material 40020017_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020017_06.dds
+}
+material 40020018_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020018_02.dds
+}
+material 40020018_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020018_03.dds
+}
+material 40020018_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020018_04.dds
+}
+material 40020018_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020018_05.dds
+}
+material 40020018_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020018_06.dds
+}
+material 40020019_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_01.dds
+}
+material 40020019_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_02.dds
+}
+material 40020019_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_03.dds
+}
+material 40020019_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_04.dds
+}
+material 40020019_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_05.dds
+}
+material 40020019_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020019_06.dds
+}
+material 40020020_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020020_02.dds
+}
+material 40020020_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020020_03.dds
+}
+material 40020020_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020020_04.dds
+}
+material 40020020_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020020_05.dds
+}
+material 40020020_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020020_06.dds
+}
+material 40090002_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090002_02.dds
+}
+material 40090002_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090002_03.dds
+}
+material 40090002_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090002_04.dds
+}
+material 40090002_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090002_05.dds
+}
+material 40090002_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090002_06.dds
+}
+material 40090005_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090005_02.dds
+}
+material 40090005_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090005_03.dds
+}
+material 40090005_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090005_04.dds
+}
+material 40090005_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090005_05.dds
+}
+material 40090005_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090005_06.dds
+}
+material 40020021_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020021_02.dds
+}
+material 40020021_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020021_03.dds
+}
+material 40020021_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020021_04.dds
+}
+material 40020021_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020021_05.dds
+}
+material 40020021_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020021_06.dds
+}
+material 40020022_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020022_01.dds
+}
+material 40020022_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020022_02.dds
+}
+material 40020022_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020022_03.dds
+}
+material 40020022_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020022_04.dds
+}
+material 40020022_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020022_05.dds
+}
+material 40020022_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020022_06.dds
+}
+material 40020023_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020023_02.dds
+}
+material 40020023_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020023_03.dds
+}
+material 40020023_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020023_04.dds
+}
+material 40020023_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020023_05.dds
+}
+material 40020023_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020023_06.dds
+}
+material 40020024_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020024_02.dds
+}
+material 40020024_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020024_03.dds
+}
+material 40020024_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020024_04.dds
+}
+material 40020024_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020024_05.dds
+}
+material 40020024_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020024_06.dds
+}
+material 40020025_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020025_02.dds
+}
+material 40020025_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020025_03.dds
+}
+material 40020025_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020025_04.dds
+}
+material 40020025_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020025_05.dds
+}
+material 40020025_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020025_06.dds
+}
+material 40020026_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020026_02.dds
+}
+material 40020026_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020026_03.dds
+}
+material 40020026_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020026_04.dds
+}
+material 40020026_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020026_05.dds
+}
+material 40020026_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020026_06.dds
+}
+material 40020027_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020027_01.dds
+}
+material 40020027_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020027_02.dds
+}
+material 40020027_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020027_03.dds
+}
+material 40020027_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020027_04.dds
+}
+material 40020027_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020027_05.dds
+}
+material 40020027_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020027_06.dds
+}
+material 40020028_01 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020028_01.dds
+}
+material 40020028_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020028_02.dds
+}
+material 40020028_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020028_03.dds
+}
+material 40020028_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020028_04.dds
+}
+material 40020028_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020028_05.dds
+}
+material 40020028_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40020028_06.dds
+}
+material 40090000_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090000_02.dds
+}
+material 40090000_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090000_03.dds
+}
+material 40090000_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090000_04.dds
+}
+material 40090000_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090000_05.dds
+}
+material 40090000_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090000_06.dds
+}
+material 40090003_02 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090003_02.dds
+}
+material 40090003_03 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090003_03.dds
+}
+material 40090003_04 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090003_04.dds
+}
+material 40090003_05 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090003_05.dds
+}
+material 40090003_06 : Plantslight
+{  
+    set_texture_alias <baseTex> plants/40090003_06.dds
+}

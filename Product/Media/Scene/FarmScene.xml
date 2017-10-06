@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FarmScene>
+	<!--Land表示土地.interval表示每块土地之间的间隔(厘米),seedHeight表示种植高度(厘米).-->
+	<Land interval="80" seedHeight="9">
+		<!--Area表示土地的区域,可以多个. pos表示这块起始坐标, xSize和zSize分别表示x轴方向和z轴方向的土地个数.这个区域的土地个数为这2数值的乘积-->
+		<!--土地的索引值从第一个area往下遍历所有的土地. 第一个索引值是0-->
+		<Area pos="0 0 480" xSize="4" zSize="4"/>
+	</Land>
+		
+	<!--默认的土地模型-->
+	<DefaultLand mesh="plants/40220001.mesh" material="40220001_00"/>
+	
+	<!--杂草模型，一共三棵-->
+	<Grass mesh="plants/40220010.mesh" material="40220010_00"/>
+	<!--杂草的三个模型的位置-->
+	<GrassPos pos="-20 0 -13"/>
+	<GrassPos pos="20 0 20"/>
+	<GrassPos pos="20 0 -20"/>
+	
+	<!-- 扩建牌子-->
+	<ExpandSign mesh="plants/40220002.mesh" material="40220002_00"/>
+	
+	<!--荒地-->
+	<WasteLand mesh="plants/40220001.mesh" material="40220001_00"/>
+	
+	<!-- 普通土地-->
+	<NormalLand mesh="plants/40220001.mesh" material="40220003_00"/>
+	
+	<!-- 干旱的普通土地-->
+	<DroughtNormalLand mesh="plants/40220001.mesh" material="40220005_00"/>
+	
+	<!-- 红土地-->
+	<RedLand mesh="plants/40220001.mesh" material="40220004_00"/>
+	
+	<!-- 干旱的红土地-->
+	<DroughtRedLand mesh="plants/40220001.mesh" material="40220006_00"/>
+	
+	
+	<!--Object表示农场物件,可以多个. 这里给定的是物件的坐标信息,物件的图形表现信息应该由服务器通知. name是物件的名字, pos是坐标, YDegree是绕Y轴的选中角度,单位角度-->
+	<!--
+		狗（？）
+		背景
+		房屋
+		狗窝，路标，栅栏，稻草人，
+		公告板（？）
+		-->
+	<Object name="dog" pos="-282 2 970.4" YDegree="50" mesh="" material=""/>	
+	<Object name="house" pos="380 1 1550" YDegree="90" mesh="" material=""/>
+	<Object name="doghouse" pos="-294.736 1 1163.25" YDegree="50" mesh="" material=""/>
+	<Object name="signpost" pos="0 0 400" YDegree="0" mesh="" material=""/>
+	<Object name="scarecrow" pos="404.809 42.2315 392.775" YDegree="210" mesh="" material=""/>
+	<Object name="billboard" pos="-403 0 714.427" YDegree="0" mesh="" material=""/>	
+	<Object name="fence_1" pos="440 15 390" YDegree="180" mesh="" material=""/>
+	<Object name="background_1" pos="0 500 400" YDegree="0" mesh="" material=""/>
+	<Object name="background_2" pos="0 500 400" YDegree="0" mesh="" material=""/>
+	
+	<Object name="board" pos="-320 1 936" YDegree="60" mesh="farmscene/dog0-00.mesh" material="dog0-00_00"/>
+</FarmScene>

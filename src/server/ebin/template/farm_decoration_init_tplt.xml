@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<farm_decoration_init_tplt>
+		<background>84000</background>
+		<house>84001</house>
+		<doghouse>84002</doghouse>
+		<signpost>84004</signpost>
+		<fence>84005</fence>
+		<scarecrow>84006</scarecrow>
+		<billboard>84007</billboard>
+		<billboard_content>84008</billboard_content>
+	</farm_decoration_init_tplt>
+</root>

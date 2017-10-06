@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage1" Name="fne" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,175},{0,145},{0,425},{0,298}}" />
+        <Window Type="EQHomeLook/StaticText" Name="fne/txt1" >
+            <Property Name="Text" Value="TA今天已经收到" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,13},{0,20},{0,236},{0,51}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="fne/txt2" >
+            <Property Name="Text" Value="0" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,42},{0,62},{0,117},{0,91}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="fne/txt3" >
+            <Property Name="Text" Value="0" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,145},{0,58},{0,213},{0,95}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="fne/Btn_flower" >
+            <Property Name="Text" Value="献上鲜花" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,14},{0,109},{0,86},{0,135}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="fne/Btn_egg" >
+            <Property Name="Text" Value="扔臭鸡蛋" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,95},{0,109},{0,167},{0,135}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/Button" Name="fne/Btn_exit" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="关 闭" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,180},{0,109},{0,225},{0,135}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="fne/img_flower" >
+            <Property Name="Image" Value="set:Button5 image:NewImage394" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,60},{0,58},{0,92}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="fne/img_egg" >
+            <Property Name="Image" Value="set:Button5 image:NewImage393" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,126},{0,60},{0,158},{0,92}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="confirmBuyImageset" Imagefile="EQHomeUIimg\confirmBuy.png" AutoScaled="true" >
+    <Image Name="CBWinBk" XPos="9" YPos="52" Width="208" Height="118" />
+    <Image Name="cancelBtn_Hover" XPos="67" YPos="31" Width="48" Height="17" />
+    <Image Name="cancelBtn_Normal" XPos="10" YPos="31" Width="48" Height="17" />
+    <Image Name="confirmBtn_Hover" XPos="67" YPos="7" Width="48" Height="17" />
+    <Image Name="confirmBtn_Normal" XPos="10" YPos="7" Width="48" Height="17" />
+</Imageset>

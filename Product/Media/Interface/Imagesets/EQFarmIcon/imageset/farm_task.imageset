@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="farm_task" Imagefile="EQFarmIcon\farm_task.dds" >
+    <Image Name="NewImage1" XPos="17" YPos="15" Width="291" Height="56" />
+    <Image Name="NewImage2" XPos="5" YPos="78" Width="75" Height="68" />
+    <Image Name="NewImage3" XPos="85" YPos="84" Width="74" Height="51" />
+    <Image Name="NewImage4" XPos="167" YPos="84" Width="74" Height="51" />
+    <Image Name="NewImage5" XPos="252" YPos="81" Width="74" Height="57" />
+    <Image Name="NewImage6" XPos="346" YPos="78" Width="73" Height="63" />
+    <Image Name="NewImage7" XPos="433" YPos="91" Width="75" Height="49" />
+    <Image Name="NewImage8" XPos="7" YPos="151" Width="60" Height="64" />
+    <Image Name="NewImage9" XPos="75" YPos="151" Width="66" Height="64" />
+    <Image Name="NewImage10" XPos="148" YPos="164" Width="57" Height="52" />
+    <Image Name="NewImage11" XPos="218" YPos="162" Width="59" Height="53" />
+</Imageset>

@@ -1,0 +1,16 @@
+#include "wx/msw/wx.rc"
+#include "Resource.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG1                PNG                     "bg.png"
+IDB_PNG2                PNG                     "pbb.png"
+IDB_PNG3                PNG                     "pbh.png"
+IDB_PNG4                PNG                     "btnNormal.png"
+IDB_PNG5                PNG                     "btnHover.png"
+IDB_PNG6                PNG                     "btnPush.png"
+/////////////////////////////////////////////////////////////////////////////

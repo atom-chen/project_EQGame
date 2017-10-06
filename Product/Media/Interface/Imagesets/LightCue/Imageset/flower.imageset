@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="flower" Imagefile="LightCue\flower.png" >
+	<Image Name="flower01" XPos="0" YPos="0" Width="120" Height="120" />
+	<Image Name="flower02" XPos="120" YPos="0" Width="120" Height="120" />
+	<Image Name="flower03" XPos="240" YPos="0" Width="120" Height="120" />
+	<Image Name="flower04" XPos="360" YPos="0" Width="120" Height="120" />
+	<Image Name="flower05" XPos="0" YPos="120" Width="120" Height="120" />
+	<Image Name="flower06" XPos="120" YPos="120" Width="120" Height="120" />
+	<Image Name="flower07" XPos="240" YPos="120" Width="120" Height="120" />
+	<Image Name="flower08" XPos="360" YPos="120" Width="120" Height="120" />
+	<Image Name="flower09" XPos="0" YPos="240" Width="120" Height="120" />
+	<Image Name="flower10" XPos="120" YPos="240" Width="120" Height="120" />
+	<Image Name="flower11" XPos="240" YPos="240" Width="120" Height="120" />
+	<Image Name="flower12" XPos="360" YPos="240" Width="120" Height="120" />
+	<Image Name="flower13" XPos="0" YPos="360" Width="120" Height="120" />
+	<Image Name="flower14" XPos="120" YPos="360" Width="120" Height="120" />
+	<Image Name="flower15" XPos="240" YPos="360" Width="120" Height="120" />
+	<Image Name="flower16" XPos="360" YPos="360" Width="120" Height="120" />
+	<Image Name="flower17" XPos="0" YPos="480" Width="120" Height="120" />
+	<Image Name="flower18" XPos="120" YPos="480" Width="120" Height="120" />
+	<Image Name="flower19" XPos="240" YPos="480" Width="120" Height="120" />
+	<Image Name="flower20" XPos="360" YPos="480" Width="120" Height="120" />
+	<Image Name="flower21" XPos="0" YPos="600" Width="120" Height="120" />
+	<Image Name="flower22" XPos="120" YPos="600" Width="120" Height="120" />
+	<Image Name="flower23" XPos="240" YPos="600" Width="120" Height="120" />
+	<Image Name="flower24" XPos="360" YPos="600" Width="120" Height="120" />
+	<Image Name="flower25" XPos="0" YPos="720" Width="120" Height="120" />
+	<Image Name="flower26" XPos="120" YPos="720" Width="120" Height="120" />
+	<Image Name="flower27" XPos="240" YPos="720" Width="120" Height="120" />
+	<Image Name="flower28" XPos="360" YPos="720" Width="120" Height="120" />
+	<Image Name="flower29" XPos="0" YPos="840" Width="120" Height="120" />
+	<Image Name="flower30" XPos="120" YPos="840" Width="120" Height="120" />
+	<Image Name="flower31" XPos="240" YPos="840" Width="120" Height="120" />
+	<Image Name="flower32" XPos="360" YPos="840" Width="120" Height="120" />
+</Imageset>

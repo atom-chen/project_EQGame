@@ -1,0 +1,417 @@
+import * from "commTemplate.material"
+
+material 00004001_floor_101_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_floor_101_00.dds
+}
+
+
+
+material 00004001_floor_103_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_floor_103_00.dds
+}
+
+
+
+material 00004001_floor_104_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_floor_104_00.dds
+}
+
+
+
+material 00004001_tcx_100_02 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_inneredge_100_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_roof_100_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000011.dds
+}
+
+
+
+material 00004001_outedge_100_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_innerwall_104_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+material 00004001_innerwall_101_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00100008.dds
+}
+
+
+
+material 00004001_innerwall_105_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+material 00004001_edgetcx_100_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_tcx_103_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00400004.dds
+}
+
+
+
+material 00004001_tcx_101_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00400004.dds
+}
+
+
+
+material 00004001_tcx_105_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+material 00004001_tcx_102_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00400004.dds
+}
+
+
+
+material 00004001_tcx_104_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00400004.dds
+}
+
+
+
+material 00004001_floor_102_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_floor_103_00.dds
+}
+
+
+
+material 00004001_floor_105_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_floor_104_00.dds
+}
+
+
+
+material 00004001_outwall_100_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_tcx_100_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outwall_101_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00100008.dds
+}
+
+
+
+material 00004001_outwall_100_01 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_tcx_100_01 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outedge_100_01 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_outwall_101_01 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00100008.dds
+}
+
+
+
+material 00004001_outwall_100_02 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+
+material 00004001_outedge_100_02 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_outwall_101_02 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00100008.dds
+}
+
+
+
+material 00004001_outwall_100_03 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_tcx_100_03 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outwall_104_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+material 00004001_outwall_100_04 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_tcx_100_04 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outedge_100_03 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_outedge_100_04 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_outwall_104_01 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+material 00004001_outwall_102_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_103_01.dds
+}
+
+
+
+material 00004001_outwall_100_05 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outedge_100_05 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_outwall_102_01 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_103_01.dds
+}
+
+
+
+material 00004001_tcx_100_06 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outwall_100_06 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outedge_100_06 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_outwall_102_02 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_103_01.dds
+}
+
+
+
+material 00004001_tcx_100_07 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outwall_100_07 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outedge_100_07 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_outwall_105_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+material 00004001_outwall_103_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_103_01.dds
+}
+
+
+
+material 00004001_tcx_100_08 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outwall_100_08 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outedge_100_08 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material 00004001_outwall_103_01 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_103_01.dds
+}
+
+
+
+material 00004001_tcx_100_09 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outwall_100_09 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_100_02.dds
+}
+
+
+
+material 00004001_outedge_100_09 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00000001.dds
+}
+
+
+
+material Standard_2 : Tplt/AliasTex
+{
+  	set_texture_alias <baseTex> 00004001_outwall_103_01.dds
+}
+
+
+
+material 00004001_innerwall_102_00 : Tplt/NormalMap
+{
+  	set_texture_alias <baseTex> 00004001_outwall_103_01.dds
+}
+
+
+
+material 00004001_innerwall_103_00 : Tplt/AliasTex
+{
+  	set_texture_alias <baseTex> 00004001_outwall_103_01.dds
+}
+
+
+
+

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<npctalk>
+		<id>1</id>
+		<content>交易失败。</content>
+	</npctalk>
+	<npctalk>
+		<id>2</id>
+		<content>移动物品失败。</content>
+	</npctalk>
+	<npctalk>
+		<id>3</id>
+		<content>不能使用此物品。</content>
+	</npctalk>
+	<npctalk>
+		<id>4</id>
+		<content>不能在此处摆放家具。</content>
+	</npctalk>
+	<npctalk>
+		<id>5</id>
+		<content>目标场景已达到最大人数上限，请稍后再试。 </content>
+	</npctalk>
+	<npctalk>
+		<id>6</id>
+		<content>他（她）正在整理房间，请稍后再来。</content>
+	</npctalk>
+	<npctalk>
+		<id>7</id>
+		<content>他（她）目前不在家中。</content>
+	</npctalk>
+</root>

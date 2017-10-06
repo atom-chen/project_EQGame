@@ -1,0 +1,16 @@
+{
+[
+	'gen_msgproc',
+	'gen_item',
+	'gen_npc',
+	'gen_scene',
+	'player_action',
+	'*'
+],
+[debug_info,
+ {i, "../include"},
+ {i, "../lib/exmpp/include"},
+ {outdir, "../ebin"}
+%,{parse_transform, smart_exceptions}
+]
+}.

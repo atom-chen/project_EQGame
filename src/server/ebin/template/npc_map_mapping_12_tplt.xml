@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<npc_map_mapping_tplt>
+		<id>1</id>
+		<npc_id>21</npc_id>
+		<npc_name>&lt;家具店&gt;麦克斯韦</npc_name>
+		<born_id>30</born_id>
+		<script_id>0</script_id>
+		<action>0</action>
+		<towards>270</towards>
+	</npc_map_mapping_tplt>
+</root>

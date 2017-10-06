@@ -1,0 +1,3973 @@
+import * from "commTemplate.material"
+
+material b60000000_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000000_00.dds
+}
+
+material b60000000_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000000_01.dds
+}
+
+material b60000001_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000001_00.dds
+}  
+
+material b60020107_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020107_00.dds
+}  
+
+material b60000002_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000002_00.dds
+}
+
+material b60000003_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000003_00.dds
+}
+
+material b60000004_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000004_00.dds
+}
+
+material b60000005_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000005_00.dds
+}
+
+material b60000006_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000006_00.dds
+}
+
+material b60000007_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000007_00.dds
+}
+
+material b60000008_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000008_00.dds
+}
+
+material b60000009_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000009_00.dds
+}
+
+material b60000010_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000010_00.dds
+}
+
+
+material b60000010_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000010_01.dds
+}
+
+
+material b60000011_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000011_00.dds
+}
+
+
+material b60000011_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000011_01.dds
+}
+
+
+material b60000011_02 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000011_02.dds
+}
+
+
+material b60000012_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000012_00.dds
+}
+
+
+material b60000012_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000012_01.dds
+}
+
+
+material b60000012_02 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000012_02.dds
+}
+
+
+material b60000013_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000013_00.dds
+}
+
+
+material b60000013_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000013_01.dds
+}
+
+
+material b60000013_02 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000013_02.dds
+}
+
+
+material b60000014_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000014_00.dds
+}
+
+material b60000015_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000015_00.dds
+}
+
+material b60000016_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000016_00.dds
+}
+
+material b60000017_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000017_00.dds
+}
+
+
+material b60000018_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000018_00.dds
+}
+
+
+material b60000019_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000019_00.dds
+}
+
+
+material b60000020_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000020_00.dds
+}
+
+
+material b60000021_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000021_00.dds
+}
+
+
+material b60000022_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000022_00.dds
+}
+
+
+material b60000023_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000023_00.dds
+}
+
+
+material b60000024_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000024_00.dds
+}
+
+
+material b60000025_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60000025_00.dds
+}
+material b60000025_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60000025_01.dds
+}
+
+
+
+
+material b60000028_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000028_00.dds
+}
+
+
+material b60000029_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000029_00.dds
+}
+
+
+material b60000030_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000030_00.dds
+}
+
+
+material b60000031_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000031_00.dds
+}
+
+
+material b60000032_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000032_00.dds
+}
+
+
+material b60000033_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000033_00.dds
+}
+
+
+material b60000034_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000034_00.dds
+}
+
+
+
+
+
+material b60000036_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000036_00.dds
+}
+
+
+
+
+material b60000038_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000038_00.dds
+}
+
+
+material b60000039_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000039_00.dds
+}
+
+material b60000041_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000041_00.dds
+}
+material b60000042_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000042_00.dds
+}
+material b60000043_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000043_00.dds
+}
+material b60000045_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000045_00.dds
+}
+material b60000046_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000046_00.dds
+}
+
+
+
+
+
+material b60020002_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020002_00.dds
+}
+
+material b60020003_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020003_00.dds
+}
+
+
+material b60020004_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020004_00.dds
+}
+
+
+
+
+
+
+material b60020007_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020007_00.dds
+}
+
+
+material b60020007_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200001.dds
+}
+
+
+material b60020008_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020008_00.dds
+}
+
+
+material b60020009_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020009_00.dds
+}
+
+
+material b60020010_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020010_00.dds
+}
+
+
+material b60020011_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020011_00.dds
+}
+
+
+material b60020012_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020012_00.dds
+}
+
+
+material b60020013_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020013_00.dds
+}
+
+
+
+
+material b60020015_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020015_00.dds
+}
+
+
+material b60020016_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020016_00.dds
+}
+
+
+material b60020017_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020017_00.dds
+}
+
+
+material b60020018_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020018_00.dds
+}
+
+
+material b60020019_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020019_00.dds
+}
+
+
+material b60020020_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020020_00.dds
+}
+
+
+material b60020021_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020020_00.dds
+}
+
+
+material b60020022_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020020_00.dds
+}
+
+
+material b60020023_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020020_00.dds
+}
+
+
+material b60020024_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020020_00.dds
+}
+
+
+material b60020025_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020020_00.dds
+}
+
+
+material b60020026_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020026_00.dds
+}
+
+
+material b60020027_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020027_00.dds
+}
+
+
+material b60020028_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020028_00.dds
+}
+
+
+material b60020029_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020029_00.dds
+}
+
+
+material b60020030_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020030_00.dds
+}
+
+
+material b60020031_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020031_00.dds
+}
+
+
+material b60020032_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020032_00.dds
+}
+
+
+
+material b60020035_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020035_00.dds
+}
+material b60020035_00_on : Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1" 
+    set_texture_alias <baseTex> outside/b60020035_00_on.dds
+}
+
+
+material b60020036_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020036_00.dds
+}
+
+
+
+
+material b60020039_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020039_00.dds
+}
+
+
+material b60020040_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020039_00.dds
+}
+
+
+
+
+
+
+
+material b60020056_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020056_00.dds
+}
+
+
+material b60020056_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200014.dds
+}
+
+
+material b60020057_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020057_00.dds
+}
+
+
+material b60020058_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020058_00.dds
+}
+
+
+material b60020059_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020059_00.dds
+}
+
+
+material b60020060_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020060_00.dds
+}
+
+
+material b60020061_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020061_00.dds
+}
+
+
+material b60020062_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020062_00.dds
+}
+
+
+material b60020063_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020063_00.dds
+}
+
+
+material b60020064_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_00.dds
+}
+
+
+material b60020064_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_01.dds
+}
+
+
+material b60020064_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_02.dds
+}
+
+
+material b60020065_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_00.dds
+}
+
+
+material b60020065_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_01.dds
+}
+
+
+material b60020065_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_02.dds
+}
+
+
+material b60020066_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_00.dds
+}
+
+
+material b60020066_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_01.dds
+}
+
+
+material b60020066_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_02.dds
+}
+
+
+material b60020067_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_00.dds
+}
+
+
+material b60020067_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_01.dds
+}
+
+
+material b60020067_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_02.dds
+}
+
+
+material b60020068_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020068_00.dds
+}
+
+
+
+material b60020071_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020071_00.dds
+}
+
+
+material b60020072_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020072_00.dds
+}
+
+
+
+material b60020073_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020073_00.dds
+}
+
+
+material b60020074_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020074_00.dds
+}
+
+
+material b60020075_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020075_00.dds
+}
+
+
+material b60020076_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020076_00.dds
+}
+
+
+material b60020077_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020077_00.dds
+}
+
+
+material b60020078_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020078_00.dds
+}
+
+
+material b60020079_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020079_00.dds
+}
+
+
+material b60020079_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020079_01.dds
+}
+
+
+material b60020079_02 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020079_02.dds
+}
+
+
+material a10130004_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> furni/10130004_00.dds
+}
+
+
+material a10130004_01 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> furni/10130004_01.dds
+}
+
+
+material a10130004_02 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> furni/10130004_02.dds
+}
+
+
+material 20077001_01 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> furni/20077001_01.dds
+}
+
+
+material 20050005_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> furni/20050005_01.dds
+}
+
+
+material 30010002_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> furni/30010002_01.dds
+}
+
+
+material 30050000_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> furni/30050000_01.dds
+}
+
+
+material 00100001_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> 00100001_01.dds
+}
+
+
+material b60020080_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_00.dds
+}
+
+
+material b60020080_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_01.dds
+}
+
+
+material b60020080_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_02.dds
+}
+
+
+material b60020081_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_00.dds
+}
+
+
+material b60020081_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_01.dds
+}
+
+
+material b60020081_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_02.dds
+}
+
+
+material b60020082_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_00.dds
+}
+
+
+material b60020082_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_01.dds
+}
+
+material b60020082_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_02.dds
+}
+
+material b60020083_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_00.dds
+}
+
+material b60020083_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_01.dds
+}
+
+material b60020083_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020064_02.dds
+}
+
+
+
+
+
+
+material b60020095_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020095_00.dds
+}
+
+
+material b60020095_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020095_01.dds
+}
+
+
+
+material b60020100_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020100_00.dds
+}
+
+
+material b60020102_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020102_00.dds
+}
+
+
+
+material b60020108_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020108_00.dds
+}
+
+
+material b60020096_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020096_00.dds
+}
+
+
+material b60020097_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020097_00.dds
+}
+
+
+material b60020097_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+
+
+material b60020098_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020098_00.dds
+}
+
+
+material b60020098_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200001.dds
+}
+
+
+material b60020099_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020099_00.dds
+}
+
+
+material b60020099_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200001.dds
+}
+
+
+material b60020109_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020109_00.dds
+}
+
+material b60020105_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020105_00.dds
+}
+
+
+
+
+material b60020106_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020106_00.dds
+}
+
+
+material b60020106_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020106_01.dds
+}
+
+
+material b60020106_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020106_02.dds
+}
+
+
+material b60020110_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020110_00.dds
+}
+
+
+material b60020110_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020110_01.dds
+}
+
+
+material b60020111_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020111_00.dds
+}
+
+
+material b60020112_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020112_00.dds
+}
+
+
+material b60020113_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020113_00.dds
+}
+
+
+
+
+
+material b60020114_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020114_00.dds
+}
+
+
+material b60020115_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+
+
+material b60020115_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020115_00.dds
+}
+
+
+
+
+material b60020116_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020116_00.dds
+}
+
+
+material b60000047_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000047_00.dds
+}
+
+
+material b60000047_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000047_01.dds
+}
+
+
+material b60000047_02 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000047_02.dds
+}
+
+
+material b60000048_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000048_00.dds
+}
+
+
+material b60000049_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000049_00.dds
+}
+
+
+material b60000050_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000050_00.dds
+}
+
+
+material b60000050_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000050_01.dds
+}
+
+
+material b60000051_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000051_00.dds
+}
+
+
+material b60000052_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000052_00.dds
+}
+
+
+material b60000053_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000053_00.dds
+}
+
+
+material b60000054_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000054_00.dds
+}
+
+
+material b60000055_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000055_00.dds
+}
+
+
+material b60000056_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000056_00.dds
+}
+material b60000056_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000056_01.dds
+}
+
+
+material b60000057_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000057_00.dds
+}
+
+
+material b60000058_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000058_00.dds
+}
+
+
+material b60000059_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000059_00.dds
+}
+
+
+material b60000060_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000060_00.dds
+}
+
+
+material b60000061_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000061_00.dds
+}
+
+
+material b60000062_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000062_00.dds
+}
+material b60000062_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000062_01.dds
+}
+
+
+material b60000063_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000063_00.dds
+}
+
+
+material b60000064_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000064_00.dds
+}
+
+
+material b60000065_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000065_00.dds
+}
+
+
+material b60000066_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000066_00.dds
+}
+
+
+
+
+material b60020104_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020104_00.dds
+}
+
+
+material b60020117_qiangbi_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020117_qiangbi_00.dds
+}
+material b60020117_zhuzi_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020117_zhuzi_00.dds
+}
+material b60020117_zhonghe_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020117_zhonghe_00.dds
+}
+material b60020117_wading_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020117_wading_00.dds
+}
+material b60020117_wading_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020117_wading_01.dds
+}
+
+
+material b60020118_zhuzi_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020118_zhuzi_00.dds
+}
+material b60020118_tiewang_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020118_tiewang_00.dds
+}
+
+
+material b60020120_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020120_00.dds
+}
+
+
+material b60020119_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020119_00.dds
+}
+
+
+material b60020123_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020123_00.dds
+}
+
+
+material b60020122_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020122_00.dds
+}
+
+
+material b60020121_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010004_zhenghe1.dds
+}
+
+
+
+material b60020127_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020127_00.dds
+}
+
+
+material b60020128_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020128_00.dds
+}
+
+
+material b60020129_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020128_00.dds
+}
+
+
+material b60020130_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020128_00.dds
+}
+
+
+material b60020131_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020131_00.dds
+}
+material b60020131_00-00 : Tplt/Water
+{  
+    set $fadeBias "0.1"
+    set $fadeExp "10"
+	set $waterColor "0.3 0.8 0.6 1.0"
+}
+
+
+material b60020132_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020132_00.dds
+}
+
+
+material b60020133_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020133_00.dds
+}
+
+
+material b60020134_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020134_00.dds
+}
+material b60020134_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+
+
+
+material b60020136_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020136_00.dds
+}
+
+
+material b60020136_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200002.dds
+}
+
+
+material a10020022_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> furni/10020022_00.dds
+}
+
+
+material a10020027_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> furni/10020027_00.dds
+}
+
+
+material a10020024_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> furni/10020024_00.dds
+}
+
+
+material b60020137_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020137_00.dds
+}
+
+
+
+
+material b60020139_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020139_00.dds
+}
+
+
+material b60020140_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020140_00.dds
+}
+
+
+material b60020141_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020141_00.dds
+}
+
+
+material b60020142_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020142_00.dds
+}
+
+
+material b60020144_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020144_00.dds
+}
+material b60020144_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200002.dds
+}
+
+
+material b60020145_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020145_00.dds
+}
+material b60020145_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200002.dds
+}
+
+
+material b60020147_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020147_00.dds
+}
+
+
+material b60020147_01 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/farmhouse1_04.dds
+}
+material b60020147_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/farmhouse1_02.dds
+}
+
+
+material b60020148_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020147_00.dds
+}
+
+
+material b60000067_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000067_00.dds
+}
+
+
+material b60000068_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000068_00.dds
+}
+
+
+material b60000069_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000069_00.dds
+}
+
+
+material b60000070_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000070_00.dds
+}
+
+
+material b60000071_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000071_00.dds
+}
+
+
+
+material b60020138_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020138_00.dds
+}
+material b60020138_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020138_01.dds
+}
+
+
+material b60020146_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020146_00.dds
+}
+material b60020146_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020146_01.dds
+}
+
+
+material b60020149_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020149_00.dds
+}
+material b60020149_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020149_01.dds
+}
+
+
+
+material b60000072_02 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000072_02.dds
+}
+material b60000072_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000072_01.dds
+}
+material b60000072_00 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000072_00.dds
+}
+
+
+
+
+material b60020135_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020134_00.dds
+}
+material b60020135_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+material c60000009_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000009_00.dds
+}
+material c60000008_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000008_00.dds
+}
+material c60000010_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000010_00.dds
+}
+material c60000006_00 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000006_00.dds
+}
+material c60000006_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000006_01.dds
+}
+material c60000006_04 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000006_04.dds
+}
+material c60000006_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000006_02.dds
+}
+material c60000006_05 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200004.dds
+}
+material c60000006_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000006_03.dds
+}
+
+
+material c60000011_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000011_00.dds
+}
+
+material c60000012_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000012_00.dds
+}
+
+
+material c60000002_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000002_00.dds
+}
+material c60000002_01 : Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000002_01.dds
+}
+
+
+material c60000013_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000013_00.dds
+
+}
+material c60000014_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000014_00.dds
+
+}
+material c60000015_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000015_00.dds
+}
+material c60000016_00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/c60000016_00.dds
+}
+material c60000017_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000017_00.dds
+}
+
+
+material c60000019_00: Tplt/AliasTex
+{  
+	set $emissive_colour "0.1 0.1 0.1"
+    set_texture_alias <baseTex> outside/c60000019_00.dds
+}
+material c60000019_01: Tplt/AliasTex
+{  
+	set $emissive_colour "0.1 0.1 0.1"
+    set_texture_alias <baseTex> outside/c60000019_00.dds
+}
+material c60000019_00_on: Tplt/AliasTex
+{  
+	set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000019_00_on.dds
+}
+material c60000020_00: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000020_00.dds
+}
+material c60000018_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000018_00.dds
+}
+material c60000018_00-00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/c60000016_00.dds
+}
+material c60000021_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000021_00.dds
+}
+
+
+
+
+
+material c60010006_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010006_01.dds
+}
+material c60010006_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010006_00.dds
+}
+material c60010006_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010006_02.dds
+}
+
+
+material c60000022_04: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000022_04.dds
+}
+material c60000022_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000022_00.dds
+}
+material c60000022_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000022_01.dds
+}
+
+material c60000022_02: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/c60000016_00.dds
+}
+material c60000022_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000022_03.dds
+}
+
+
+
+
+
+material c60000023_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000023_00.dds
+}
+material c60000023_01: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000023_01.dds
+}
+
+
+
+material c60010013_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010013_01.dds
+}
+material c60010013_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010013_00.dds
+}
+
+
+
+
+material c60000026_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000026_00.dds
+}
+
+
+
+material b60020151_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020151_00.dds
+}
+material b60020152_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020152_00.dds
+}
+material b60020153_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020153_00.dds
+}
+material b60020154_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020154_00.dds
+}
+material b60020155_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020155_00.dds
+}
+material b60020155_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+
+material b60020156_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020156_00.dds
+}
+material b60020157_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020157_00.dds
+}
+material b60020158_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020158_00.dds
+}
+material b60020158_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+material b60020159_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020159_00.dds
+}
+material b60020160_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020160_00.dds
+}
+
+
+
+material b60020161_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020185_00.dds
+}
+material b60020161_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020161_00.dds
+}
+
+
+
+material b60020162_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020162_01.dds
+}
+material b60020162_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020162_00.dds
+}
+
+
+
+material b60020163_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020163_00.dds
+}
+material b60020163_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020163_01.dds
+}
+
+
+material b60020164_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020164_00.dds
+}
+material b60020164_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020164_01.dds
+}
+
+
+
+material b60020165_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020165_00.dds
+}
+material b60020165_00-00 : Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+material b60020166_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020166_00.dds
+}
+material b60020167_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020167_00.dds
+}
+material b60020168_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020168_00.dds
+}
+material b60020169_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020169_00.dds
+}
+material b60020170_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020170_00.dds
+}
+material b60020171_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020171_00.dds
+}
+
+
+material b60020172_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020172_00.dds
+}
+material b60020172_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20083011-02_01.dds
+}
+material b60020172_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20083010-01_01.dds
+}
+material b60020172_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20270004_02.dds
+}
+material b60020172_04 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20270004_03.dds
+}
+material b60020172_05: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/20083015-03_01.dds
+}
+material b60020172_06 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/20083011-03_01.dds
+}
+material b60020172_07: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020172_07.dds
+}
+
+
+
+material b60020173_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020173_00.dds
+}
+material b60020173_02 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/20090027-01_01.dds
+}
+material b60020173_01 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020172_07.dds
+}
+material b60020173_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20090013-01_01.dds
+}
+
+
+material b60020174_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20083021-01_01.dds
+}
+material b60020174_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020174_00.dds
+}
+material b60020174_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20083030-01_01.dds
+}
+material b60020174_03 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020172_07.dds
+}
+
+
+
+material b60020175_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20083019-01_01.dds
+}
+material b60020175_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020175_00.dds
+}
+material b60020175_02 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20083020-01_01.dds
+}
+material b60020175_04 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20083016-01_01.dds
+}
+material b60020175_03 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20083014-01_01.dds
+}
+material b60020175_05 : Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020172_07.dds
+}
+
+
+material b60020176_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020176_00.dds
+}
+material b60020177_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020177_00.dds
+}
+material b60020178_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020178_00.dds
+}
+material b60020179_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020179_00.dds
+}
+material b60020180_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020180_00.dds
+}
+material b60020181_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020181_00.dds
+}
+material b60020182_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020182_00.dds
+}
+
+
+
+
+material c60010018_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010018_00.dds
+}
+material c60000035_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000035_00.dds
+}
+material c60000036_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000036_00.dds
+}
+material c60000037_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000037_00.dds
+}
+material c60000038_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000038_00.dds
+}
+
+
+
+material c60010014_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010014_01.dds
+}
+material c60010014_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010014_02.dds
+}
+material c60010014_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010014_00.dds
+}
+
+
+
+
+
+material c60000032_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000032_00.dds
+}
+
+
+material c60000034_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000034_00.dds
+}
+
+
+material c60000041_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000041_00.dds
+}
+material c60000042_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000042_00.dds
+}
+material c60000043_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000043_00.dds
+}
+material c60000044_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000044_00.dds
+}
+material c60000045_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000045_00.dds
+}
+material c60000046_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000046_00.dds
+}
+
+
+material c60000047_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000047_00.dds
+}
+material c60000047_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000047_01.dds
+}
+material c60000047_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000047_02.dds
+}
+material c60000047_00: Tplt/Water
+{  
+    set_texture_alias <baseTex> outside/c60000047_03.dds
+	set $depth_write "on"
+}
+
+
+material c60000029_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000029_00.dds
+}
+
+
+
+material c60000049_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000049_00.dds
+}
+
+material c60000031_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000031_00.dds
+}
+
+material c60000030_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000030_00.dds
+}
+
+
+material b60000078_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000078_00.dds
+}
+material b60000077_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000077_00.dds
+}
+material b60000079_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000079_00.dds
+}
+material b60000080_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60000080_00.dds
+}
+material b60000080_01: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000080_01.dds
+}
+
+
+
+
+material b60000073_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000073_00.dds
+}
+material b60000076_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000076_00.dds
+}
+material b60000075_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000075_00.dds
+}
+material b60000074_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000074_00.dds
+}
+
+
+
+material b60020183_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020183_00.dds
+}
+
+
+material b60020184_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20090012-01_01.dds
+}
+material b60020184_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20090019-01_01.dds
+}
+material b60020184_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20090019-02_01.dds
+}
+material b60020184_04: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020172_07.dds
+}
+material b60020184_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020174_00.dds
+}
+
+material b60020186_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020186_00.dds
+}
+material b60020187_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020187_00.dds
+}
+material b60020188_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020188_00.dds
+}
+material b60020189_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020153_00.dds
+}
+
+material b60020185_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020185_00.dds
+}
+
+
+
+material c60010015_00: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60010002_03.dds
+}
+
+
+
+material b60020200_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020200_00.dds
+}
+material b60020199_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020199_00.dds
+}
+material b60020197_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020197_00.dds
+}
+material b60020196_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020196_00.dds
+}
+material b60020195_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020195_00.dds
+}
+material b60020193_00: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020193_00.dds
+}
+
+
+
+
+material b60020192_10: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/20077005_01.dds
+}
+material b60020192_11: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20052002_04.dds
+}
+material b60020192_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500001_02.dds
+}
+material b60020192_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020192_00.dds
+}
+material b60020192_07: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20278001_02.dds
+}
+material b60020192_08: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/20278001_01.dds
+}
+material b60020192_04: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/20278002_02.dds
+}
+material b60020192_02: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/20278002_01.dds
+}
+material b60020192_05: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/20278003_02.dds
+}
+material b60020192_03: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/20278003_01.dds
+}
+material b60020192_06: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/20278004_01.dds
+}
+material b60020192_09: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/20278004_02.dds
+}
+
+
+
+
+material c60000073_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000073_00.dds
+}
+material c60000074_00: Tplt/AliasTex
+{  
+	set $emissive_colour "0.1 0.1 0.1"
+    set_texture_alias <baseTex> outside/c60000074_00.dds
+}
+material c60000074_01: Tplt/AliasTex
+{  
+	set $emissive_colour "0.1 0.1 0.1"
+    set_texture_alias <baseTex> outside/c60000074_00.dds
+}
+material c60000074_00_on: Tplt/AliasTex
+{  
+	set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000074_00_on.dds
+}
+
+material c60000071_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000071_00.dds
+}
+material c60000070_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000070_00.dds
+}
+material c60000069_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000069_00.dds
+}
+material c60000077_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000069_00.dds
+}
+
+
+
+
+
+material c60000068_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000068_00.dds
+}
+material c60000055_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000055_00.dds
+}
+material c60000054_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000054_00.dds
+}
+material c60000088_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000054_00.dds
+}
+material c60000053_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000053_00.dds
+}
+
+
+
+material c60000071_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000072_02.dds
+}
+material c60000071_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000072_03.dds
+}
+material c60000071_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000072_01.dds
+}
+material c60000071_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000072_00.dds
+}
+
+
+
+
+material b60020201_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500004_02.dds
+}
+material b60020201_04: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200003.dds
+}
+material b60020201_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020163_01.dds
+}
+material b60020201_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020162_01.dds
+}
+material b60020201_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500004_00.dds
+}
+
+
+
+
+material b60020202_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500003_00.dds
+}
+material b60020203_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500003_00.dds
+}
+material b60020204_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500003_01.dds
+}
+
+material b60020206_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020153_00.dds
+}
+material b60020206_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500005_01.dds
+}
+
+
+
+
+material b60020207_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500005_01.dds
+}
+material b60020207_00-00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200010.dds
+}
+material b60020208_01: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200010.dds
+}
+material b60020208_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500005_01.dds
+}
+
+
+
+material b60020209_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500001_outwall_101_02_02.dds
+}
+material b60020209_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500001_outwall_101_00_01.dds
+}
+material b60020210_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500001_outwall_101_02_00.dds
+}
+material b60020211_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500001_outwall_101_02_00.dds
+}
+material b60020211_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500001_outwall_101_00_01.dds
+}
+material b60020212_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500002_outwall_101_03_04.dds
+}
+material b60020213_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500002_outwall_101_01_05.dds
+}
+
+
+
+
+material b60020190_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020190_00.dds
+}
+material b60020190_01: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/20077003_01.dds
+}
+material b60020190_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00100001_01.dds
+}
+material b60020190_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20050006_01.dds
+}
+
+
+
+
+material b60020191_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/20077001_02.dds
+}
+material b60020191_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/20050003_04.dds
+}
+material b60020191_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00100001_01.dds
+}
+material b60020191_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020190_00.dds
+}
+
+
+material b60000035_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000035_00.dds
+}
+
+material b60000037_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000037_00.dds
+}
+
+material b60000040_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000040_00.dds
+}
+material b60000044_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000044_00.dds
+}
+
+material b60020214_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500002_outwall_101_01_00.dds
+}
+
+
+
+material b60020215_03: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200003.dds
+}
+material b60020215_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500004_01.dds
+}
+material b60020215_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500004_02.dds
+}
+material b60020215_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500004_00.dds
+}
+
+
+
+material c60000067_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000067_00.dds
+}
+material c60000066_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000066_00.dds
+}
+material c60000065_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000065_00.dds
+}
+material c60000064_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000063_00.dds
+}
+material c60000063_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000063_00.dds
+}
+
+
+
+material b60020217_00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+
+
+
+
+material b60020216_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020216_00.dds
+}
+material b60020216_00-00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200001.dds
+}
+
+
+
+
+material b60020143_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020143_00.dds
+}
+
+
+
+material b60020218_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500004_00.dds
+}
+material b60020218_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500004_02.dds
+}
+material b60020218_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020162_01.dds
+}
+material b60020218_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020163_01.dds
+}
+material b60020218_04: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200003.dds
+}
+
+
+
+material c60000039_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000039_00.dds
+}
+material c60000039_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000039_01.dds
+}
+
+
+material b60020014_00: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/b60020014_00.dds
+}
+material b60020014_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020014_01.dds
+}
+
+
+
+material b60000027_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60000025_01.dds
+}
+material b60000027_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60000025_00.dds
+}
+
+
+
+
+material b60020219_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020219_00.dds
+}
+material b60020220_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020219_00.dds
+}
+material b60020221_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020219_00.dds
+}
+material b60020222_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020219_00.dds
+}
+material b60020223_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020223_00.dds
+}
+material b60020224_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020223_00.dds
+}
+material b60020225_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020223_00.dds
+}
+
+
+
+
+material c60000086_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000086_00.dds
+}
+material b60020225_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020223_00.dds
+}
+
+
+
+
+
+
+
+material c60000085_00: Tplt/AliasTex
+{  
+	set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000085_00.dds
+}
+material c60000085_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000085_02.dds
+}
+material c60000085_01: Tplt/Transpt
+{  
+	set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000085_01.dds
+}
+material c60000085_03: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/c60000047_03.dds
+}
+
+
+
+material c60000059_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000059_00.dds
+}
+material c60000060_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000060_00.dds
+}
+
+
+material b60000081_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000081_00.dds
+}
+material b60000082_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000082_00.dds
+}
+material b60000083_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000083_00.dds
+}
+material b60000084_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000084_00.dds
+}
+material b60000085_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000085_00.dds
+}
+material b60000086_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000086_00.dds
+}
+material b60000087_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000087_00.dds
+}
+material b60000088_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000088_00.dds
+}
+
+
+material b60000089_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000089_00.dds
+}
+material b60000090_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000090_00.dds
+}
+material b60000091_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000091_00.dds
+}
+material b60000092_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60000092_00.dds
+}
+
+
+
+
+material b60020233_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020233_00.dds
+}
+material b60020234_00: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020234_00.dds
+}
+material b60020235_00: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020235_00.dds
+}
+material b60020236_00: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/b60020236_00.dds
+}
+
+
+
+material c60000078_00: Tplt/AliasTex
+{  
+	set $emissive_colour "0.1 0.1 0.1"
+    set_texture_alias <baseTex> outside/c60000078_00.dds
+}
+material c60000078_01: Tplt/AliasTex
+{  
+	set $emissive_colour "0.1 0.1 0.1"
+    set_texture_alias <baseTex> outside/c60000078_00.dds
+}
+material c60000078_00_on: Tplt/AliasTex
+{  
+	set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000078_00_on.dds
+}
+
+
+material c60000089_04: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000047_03.dds
+}
+material c60000089_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000089_00.dds
+}
+material c60000089_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000089_01.dds
+}
+material c60000089_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000047_01.dds
+}
+material c60000089_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000072_00.dds
+}
+
+
+material c60000090_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000090_00.dds
+}
+material c60000091_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000091_00.dds
+}
+material c60000092_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000092_00.dds
+}
+material c60000093_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000093_00.dds
+}
+material c60000094_00: Tplt/AliasTex
+{  
+	set $emissive_colour "0.1 0.1 0.1"
+    set_texture_alias <baseTex> outside/c60000094_00.dds
+}
+material c60000094_01: Tplt/AliasTex
+{  
+	set $emissive_colour "0.1 0.1 0.1"
+    set_texture_alias <baseTex> outside/c60000094_00.dds
+}
+material c60000094_00_on: Tplt/AliasTex
+{  
+	set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000094_00_on.dds
+}
+
+material c60000095_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000095_00.dds
+}
+material c60000096_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000096_00.dds
+}
+material c60000097_01: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000097_01.dds
+}
+material c60000097_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000097_00.dds
+}
+material c60000098_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000098_00.dds
+}
+material c60000098_01: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000059_00.dds
+}
+material c60000099_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000099_00.dds
+}
+material c60000100_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/10020027_00.dds
+}
+material c60000101_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000101_00.dds
+}
+material c60000101_01: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200003.dds
+}
+material c60000102_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000101_00.dds
+}
+material c60000103_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000103_00.dds
+}
+material c60000104_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000103_00.dds
+}
+material c60000105_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000105_00.dds
+}
+
+material c60000106_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000106_00.dds
+}
+material c60000106_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000106_01.dds
+}
+material c60000106_02: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200010.dds
+}
+material c60000108_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000108_00.dds
+}
+material c60000108_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000108_02.dds
+}
+material c60000108_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000108_01.dds
+}
+material c60000109_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000109_00.dds
+}
+material c60000110_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000110_00.dds
+}
+material c60000111_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000111_00.dds
+}
+material c60000087_00: Tplt/Ocean
+{  
+    set_texture_alias <baseTex> outside/c60000047_03.dds
+}
+material c60000107_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000107_00.dds
+}
+material c60000024_00: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000024_00.dds
+}
+material c60000025_00: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000025_00.dds
+}
+material c60000112_00: Tplt/AliasTex
+{  
+	set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000112_00.dds
+}
+material c60000113_00: Tplt/AliasTex
+{  
+	set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000112_00.dds
+}
+material c60000114_00: Tplt/AliasTex
+{  
+	set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000112_00.dds
+}
+material b60020084_00: Tplt/AliasTex
+{   
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/b60020084_00.dds
+}
+material b60020084_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000007_01.dds
+}
+material b60020084_01: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020084_01.dds
+}
+
+
+
+
+
+material b60020229_00-00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+material b60020229_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020229_00.dds
+}
+material b60020230_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020229_00.dds
+}
+material b60020230_00-00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+material b60020231_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020231_00.dds
+}
+material b60020231_00-00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200009.dds
+}
+material b60020232_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020231_00.dds
+}
+
+material b60020230_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020229_00.dds
+}
+material b60020230_00-00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200007.dds
+}
+
+material b60020245_00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/b60020245_00.dds
+}
+
+
+material c60000001_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000001_00.dds
+}
+material c60000001_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000001_01.dds
+}
+
+
+
+
+
+material c60000081_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000081_01.dds
+}
+material c60000081_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000081_00.dds
+}
+material c60000080_01: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000080_01.dds
+}
+material c60000080_01: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000080_00.dds
+}
+material c60000079_01: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000079_01.dds
+}
+material c60000079_01: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000079_00.dds
+}
+
+
+
+
+material b60020256_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020256_00.dds
+}
+material b60020256_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/hushui1.dds
+}
+material b60020255_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_07.dds
+}
+material b60020254_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020253_00.dds
+}
+material b60020253_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020253_00.dds
+}
+
+material b60020248_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020248_00.dds
+}
+
+
+material c60000076_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000076_00.dds
+}
+
+
+
+material c60000083_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000076_00.dds
+}
+material c60000084_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000076_00.dds
+}
+
+
+
+material c60000115_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000115_00.dds
+}
+material c60000116_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000115_00.dds
+}
+
+
+
+material b60020237_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020237_00.dds
+}
+material b60020238_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020238_00.dds
+}
+material b60020239_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020239_00.dds
+}
+material b60020240_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020240_00.dds
+}
+
+
+
+material c60000117_00_on: Tplt/AliasTex
+{
+    set $emissive_colour "1 1 1"  
+    set_texture_alias <baseTex> outside/c60000117_00_on.dds
+}
+material c60000117_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000117_00.dds
+}
+
+
+material b60020249_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020249_00.dds
+}
+material b60020249_00_on: Tplt/AliasTex
+{
+    set $emissive_colour "1 1 1"  
+    set_texture_alias <baseTex> outside/b60020249_00.dds
+}
+
+
+material b60020205_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/00500005_01.dds
+}
+material b60020205_00_on: Tplt/AliasTex
+{
+    set $emissive_colour "1 1 1"  
+    set_texture_alias <baseTex> outside/00500005_01_on.dds
+}
+
+
+
+
+material c60000082_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000082_01.dds
+}
+material c60000082_02: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"  
+    set_texture_alias <baseTex> outside/c60000082_02.dds
+}
+material c60000082_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000082_03.dds
+}
+material c60000082_04: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/b60020084_01.dds
+}
+material c60000082_05: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010004_01.dds
+}
+material c60000082_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000082_00.dds
+}
+
+
+
+material c60000072_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000072_01.dds
+}
+material c60000072_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000072_02.dds
+}
+material c60000072_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000072_03.dds
+}
+material c60000072_04: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000072_00.dds
+}
+material c60000072_00: Tplt/Water
+{  
+    set_texture_alias <baseTex> outside/c60000047_03.dds
+}
+
+
+
+material b60020005_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020005_00.dds
+}
+material b60020005_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020005_00.dds
+}
+material b60020005_00_on : Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"  
+    set_texture_alias <baseTex> outside/b60020005_00_on.dds
+}
+
+
+material c60010002_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010002_00.dds
+}
+material c60010002_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010002_01.dds
+}
+material c60010002_02: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"  
+    set_texture_alias <baseTex> outside/c60010002_02.dds
+}
+material c60010002_03: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"  
+    set_texture_alias <baseTex> outside/c60010002_03.dds
+}
+material c60010002_04: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"  
+    set_texture_alias <baseTex> outside/c60010002_04.dds
+}
+material c60010002_06-00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200003.dds
+}
+material c60010002_05: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/c60010007_04.dds
+}
+
+
+
+
+material c60000118_00 : Tplt/AnimTex
+{  
+   set $emissive_colour "1 1 1"
+   set $anim_texture "outside/c60000118.dds"
+   set $num_frames "3"
+   set $duration "2"
+}
+
+material c60000119_00 : Tplt/AnimTex
+{  
+   set $emissive_colour "1 1 1"
+   set $anim_texture "outside/c60000118.dds"
+   set $num_frames "3"
+   set $duration "2"
+}
+
+
+
+material b60020033_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020033_00.dds
+}
+material b60020033_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020033_00.dds
+}
+material b60020033_00_on : Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1" 
+    set_texture_alias <baseTex> outside/b60020033_00_on.dds
+}
+
+
+
+material b60020034_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020034_00.dds
+}
+material b60020034_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020034_00.dds
+}
+material b60020034_00_on : Tplt/AliasTex
+{  
+    
+    set $emissive_colour "1 1 1" 
+    set_texture_alias <baseTex> outside/b60020034_00_on.dds
+}
+
+
+material c60000075_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000075_00.dds
+}
+material c60000075_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000075_00.dds
+}
+material c60000075_00_on : Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1" 
+    set_texture_alias <baseTex> outside/c60000075_00_on.dds
+}
+
+
+
+
+
+
+
+
+
+
+material c60010000_00: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60010000_00.dds
+}
+material c60010000_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010000_01.dds
+}
+material c60010000_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010000_02.dds
+}
+material c60010000_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010007_04.dds
+}
+material c60010000_04: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_04.dds
+}
+material c60010000_05: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_05.dds
+}
+material c60010000_06: Tplt/ScrollTex
+{  
+	set $emissive_colour "1 1 1"
+	set $scroll_x "0.05"
+	set $scroll_y "0"
+    set_texture_alias <baseTex> outside/c60010000_03.dds
+}
+
+
+
+
+material c60010001_05 : Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_04.dds
+}
+material c60010001_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010001_00.dds
+}
+material c60010001_01 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010001_01.dds
+}
+material c60010001_03 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010001_03.dds
+}
+material c60010001_04 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010001_04.dds
+}
+material c60010001_06 : Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_05.dds
+}
+
+
+
+
+
+material c60000007_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000007_01.dds
+}
+material c60000007_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000007_00.dds
+}
+material c60000007_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000007_02.dds
+}
+material c60000007_03: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/c60000007_03.dds
+}
+material c60000007_05: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_05.dds
+}
+material c60000007_04: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_04.dds
+}
+
+
+
+material c60010004_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010004_00.dds
+}
+material c60010004_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010004_01.dds
+}
+material c60010004_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010004_02.dds
+}
+material c60010004_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010004_03.dds
+}
+material c60010004_05: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_05.dds
+}
+material c60010004_04: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_04.dds
+}
+
+
+
+
+
+
+
+
+
+material c60010010_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010010_00.dds
+}
+material c60010010_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010010_01.dds
+}
+material c60010010_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010007_04.dds
+}
+material c60010010_03: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/faguang001.dds
+}
+material c60010010_04: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_04.dds
+}
+
+
+
+
+material c60000003_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000003_00.dds
+}
+material c60000003_01: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000003_01.dds
+}
+material c60000003_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010007_04.dds
+}
+material c60000003_04: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_04.dds
+}
+material c60000003_03: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/faguang001.dds
+}
+
+
+
+
+
+material c60010007_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010007_00.dds
+}
+material c60010007_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010007_01.dds
+}
+material c60010007_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000007_01.dds
+}
+material c60010007_03: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/faguang001.dds
+}
+material c60010007_04: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010010_01.dds
+}
+material c60010007_05: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/faguang001.dds
+}
+material c60010007_06: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_04.dds
+}
+
+
+
+
+material b60010000_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_00.dds
+}
+material b60010000_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_01.dds
+}
+material b60010000_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_02.dds
+}
+material b60010000_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_03.dds
+}
+material b60010000_04: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_04.dds
+}
+material b60010000_05: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_05.dds
+}
+material b60010000_06: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_06.dds
+}
+material b60010000_07: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_07.dds
+}
+material b60010000_08: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_08.dds
+}
+material b60010000_09: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000047_02.dds
+}
+material b60010000_10: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_04.dds
+}
+
+
+material b60010001_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010001_00.dds
+}
+material b60010001_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010001_02.dds
+}
+material b60010001_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010001_01.dds
+}
+material b60010001_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010001_03.dds
+}
+material b60010001_04: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010001_04.dds
+}
+material b60010001_05: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010001_05.dds
+}
+material b60010001_07: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010001_07.dds
+}
+material b60010001_08: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010001_08.dds
+}
+material b60010001_09: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010001_09.dds
+}
+material b60010001_10: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_05.dds
+}
+
+
+
+material c60000062_00: Tplt/AliasTex
+{   
+    set $emissive_colour "1 1 1" 
+    set_texture_alias <baseTex> outside/faguang001.dds
+}
+material c60000062_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000062_00.dds
+}
+
+
+material c60000061_01: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_05.dds
+}
+material c60000061_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000061_00.dds
+}
+
+
+
+material c60010003_06: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010003_06.dds
+}
+material c60010003_07: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010003_07.dds
+}
+material c60010003_08: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010003_08.dds
+}
+material c60010003_10: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000047_03.dds
+}
+material c60010003_11: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_05.dds
+}
+material c60010003_09: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_04.dds
+}
+material c60010003_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010003_00.dds
+}
+material c60010003_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010003_01.dds
+}
+material c60010003_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010003_02.dds
+}
+material c60010003_04: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010003_04.dds
+}
+material c60010003_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010003_03.dds
+}
+material c60010003_05: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010003_05.dds
+}
+
+
+
+material c60000033_01: Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_05.dds
+}
+material c60000033_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000033_00.dds
+}
+
+
+
+material c60000048_01 : Tplt/AliasTex
+{  
+    set $emissive_colour "1 1 1"
+    set_texture_alias <baseTex> outside/c60000007_05.dds
+}
+material c60000048_00 : Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000048_00.dds
+}
+
+
+
+material b60020258_01: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/10130005_00.dds
+}
+material b60020258_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020258_00.dds
+}
+material b60020259_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60020259.dds
+}
+
+material b60020260_00-00: Tplt/Transpt
+{  
+    set_texture_alias <baseTex> outside/00200015.dds
+}
+material b60020260_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60010000_07.dds
+}
+
+
+
+material c60000120_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000120_00.dds
+}
+material c60000121_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000121_00.dds
+}
+material c60000122_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000120_00.dds
+}
+material c60000123_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000120_00.dds
+}
+material c60000124_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000124_00.dds
+}
+
+
+
+material dog2_00: Tplt/ComplexTranspt
+{  
+    set_texture_alias <baseTex> outside/dog2_00.dds
+}
+material dog_00: Tplt/ComplexTranspt
+{  
+    set_texture_alias <baseTex> outside/dog2_00.dds
+}
+material yu01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/yu01.dds
+}
+material yu02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/yu02.dds
+}
+material yu03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/yu03.dds
+}
+
+material gezi_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/gezi_00.dds
+}
+material gezi_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/gezi_01.dds
+}
+material gezi_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/gezi_02.dds
+}
+material gezi_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/gezi_03.dds
+}
+material gezi_walk: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/gezi_00.dds
+}
+
+
+
+
+material c60000125_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000125_00.dds
+}
+material c60000125_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000125_01.dds
+}
+material c60000125_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000125_01.dds
+}
+material c60000125_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010000_00.dds
+}
+material c60000126_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000126_00.dds
+}
+material c60000126_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010000_00.dds
+}
+material c60000126_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000125_01.dds
+}
+material c60000126_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000007_01.dds
+}
+material c60000126_04: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010007_03.dds
+}
+
+
+material c60000127_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000127_00.dds
+}
+material c60000127_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60010000_00.dds
+}
+material c60000127_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000125_01.dds
+}
+material c60000127_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000126_00.dds
+}
+material c60000127_04: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000007_01.dds
+}
+
+
+material c60000128_01: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000128_01.dds
+}
+material c60000128_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000128_00.dds
+}
+
+
+
+
+
+material c60000129_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000129_00.dds
+}
+
+
+material c60000130_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000125_01.dds
+}
+material c60000130_03: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000007_01.dds
+}
+material c60000130_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000126_00.dds
+}
+material c60000130_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000130_00.dds
+}
+
+
+material c60000131_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000129_00.dds
+}
+material c60000131_01: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000130_00.dds
+}
+
+
+material c60000132_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000130_00.dds
+}
+material c60000132_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000126_00.dds
+}
+material c60000132_02: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000125_01.dds
+}
+material c60000132_03: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000007_01.dds
+}
+
+
+material c60000027_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000027_00.dds
+}
+material c60000028_00: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/c60000027_00.dds
+}
+
+
+material c60000133_01: Tplt/FakeTranspt
+{  
+    set_texture_alias <baseTex> outside/c60000097_00.dds
+}
+material c60000133_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000133_00.dds
+}
+
+material c60000134_00: Tplt/FakeTransptEx
+{  
+    set_texture_alias <baseTex> outside/c60000134_00.dds
+}
+material c60000134_01: Tplt/AliasTex
+{  
+    set_texture_alias <baseTex> outside/b60000025_00.dds
+}
+
+

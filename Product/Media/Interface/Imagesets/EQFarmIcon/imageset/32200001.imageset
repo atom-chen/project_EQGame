@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="32200001" Imagefile="EQFarmIcon\32200001.dds" >
+    <Image Name="fangzi" XPos="10" YPos="10" Width="98" Height="98" />
+    <Image Name="fangzi2" XPos="108" YPos="10" Width="98" Height="98" />
+</Imageset>

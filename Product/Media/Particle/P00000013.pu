@@ -1,0 +1,58 @@
+system P00000013
+{
+    technique Technique11
+    {
+        material                                shuihua1
+        default_particle_width                  4
+        default_particle_height                 4
+        default_particle_depth                  4
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Circle Emitter20
+        {
+            angle                               10
+            time_to_live                        dyn_random
+            {
+                min                             0.6
+                max                             1
+            }
+            velocity                            50
+            circle_em_radius                    5
+        }
+        affector                                Colour Affector3
+        {
+            colour_aff_time_colour              0    0.701961 0.917647 1 1
+            colour_aff_time_colour              0.4  0.882353 0.968627 1 0.784314
+            colour_aff_time_colour              1    0.701961 0.917647 1 0
+            colour_operation                    multiply
+        }
+        affector                                TextureRotator Affector4
+        {
+            tex_rot_rotation                    dyn_random
+            {
+                min                             -3
+                max                             3
+            }
+            tex_rot_speed                       dyn_random
+            {
+                min                             -0.1
+                max                             0.1
+            }
+        }
+        affector                                Scale Affector5
+        {
+            xyz_scale                           dyn_random
+            {
+                min                             80
+                max                             100
+            }
+            x_scale                             0
+            y_scale                             0
+        }
+        affector                                LinearForce Affector104
+        {
+            force_aff_vector                    0 -200 0
+        }
+    }
+}

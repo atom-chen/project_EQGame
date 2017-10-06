@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage1" Name="egg_history" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,110},{0,53},{0,479},{0,538}}" />
+        <Window Type="EQHomeLook/StaticText" Name="egg_history/txt1" >
+            <Property Name="Text" Value="今天收到的臭鸡蛋" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,118},{0,23},{0,241},{0,54}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/Button" Name="egg_history/Btn_exit" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="关 闭" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,439},{0,203},{0,465}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="egg_history/img_egg1" >
+            <Property Name="Image" Value="set:Button5 image:NewImage393" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,75},{0,22},{0,107},{0,54}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="egg_history/img_egg2" >
+            <Property Name="Image" Value="set:Button5 image:NewImage393" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,260},{0,22},{0,292},{0,54}}" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewMultiLineEditbox" Name="egg_history/txt2" >
+            <Property Name="Text" >
+</Property>
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,27},{0,63},{0,345},{0,436}}" />
+        </Window>
+    </Window>
+</GUILayout>

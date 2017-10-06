@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Terrain name="00001001" xsize="6" zsize="1" tileSize="32">
+    <scale x="80.000000" y="80.000000" z="80.000000" />
+    <centre x="160.000000" y="0.000000" z="-200.000000" />
+    <heightmap filename="00001001.Heightmap" type="standard" />
+    <gridInfo filename="00001001.GridInfo" type="standard" />
+    <textures>
+        <texture filename="BaseTerrSurfaceMud.jpg" type="image" />
+        <texture filename="fangwuzd.jpg" type="image" />
+    </textures>
+    <pixmaps>
+        <pixmap textureId="0" />
+        <pixmap textureId="1" left="0.000000" top="0.000000" right="0.500000" bottom="0.500000" />
+    </pixmaps>
+    <materials>
+        <template name="OneLayer" material="Terrain/OneLayer" />
+        <template name="OneLayerLightmap" material="Terrain/OneLayerLightmap" />
+        <template name="TwoLayer" material="Terrain/TwoLayer" />
+        <template name="TwoLayerLightmap" material="Terrain/TwoLayerLightmap" />
+        <fog_replacement none="Terrain/OneLayer_ps" exp="Terrain/OneLayer_ps%fog_exp" exp2="Terrain/OneLayer_ps%fog_exp2" linear="Terrain/OneLayer_ps%fog_linear" />
+        <fog_replacement none="Terrain/TwoLayer_ps" exp="Terrain/TwoLayer_ps%fog_exp" exp2="Terrain/TwoLayer_ps%fog_exp2" linear="Terrain/TwoLayer_ps%fog_linear" />
+        <fog_replacement none="Terrain/OneLayerLightmap_ps" exp="Terrain/OneLayerLightmap_ps%fog_exp" exp2="Terrain/OneLayerLightmap_ps%fog_exp2" linear="Terrain/OneLayerLightmap_ps%fog_linear" />
+        <fog_replacement none="Terrain/TwoLayerLightmap_ps" exp="Terrain/TwoLayerLightmap_ps%fog_exp" exp2="Terrain/TwoLayerLightmap_ps%fog_exp2" linear="Terrain/TwoLayerLightmap_ps%fog_linear" />
+    </materials>
+</Terrain>

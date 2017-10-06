@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage" Name="logoBg" >
+        <Property Name="Font" Value="simsun-10" />
+        <Property Name="Image" Value="set:cpbeijing image:NewImage1" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="CreatePlayer/BackR/base" >
+            <Property Name="Image" Value="set:chuangjian2 image:NewImage3" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-145},{0.5,151},{0.5,145},{0.5,232}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="CreatePlayer/BackR/PreView" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-188},{0.5,-230},{0.5,188},{0.5,216}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/Ok" >
+            <Property Name="HoverImage" Value="set:chuangjian image:NewImage26" />
+            <Property Name="NormalImage" Value="set:chuangjian image:NewImage25" />
+            <Property Name="PushedImage" Value="set:chuangjian image:NewImage27" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-49},{1,-56},{0.5,48},{1,-16}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/RoteL" >
+            <Property Name="HoverImage" Value="set:chuangjian image:NewImage31" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:chuangjian image:NewImage30" />
+            <Property Name="PushedImage" Value="set:chuangjian image:NewImage33" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,91},{0.5,165},{0.5,133},{0.5,211}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/RoteR" >
+            <Property Name="HoverImage" Value="set:chuangjian image:NewImage29" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:chuangjian image:NewImage28" />
+            <Property Name="PushedImage" Value="set:chuangjian image:NewImage32" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-133},{0.5,165},{0.5,-91},{0.5,211}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="lCreateCharacter/BackL" >
+            <Property Name="Image" Value="set:chuangjian image:NewImage43" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,24},{0.5,-255},{0,258},{0.5,-64}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/HairstyleArrowL" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage21" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage19" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage23" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,40},{0,46},{0,56},{0,60}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/HairstyleArrowR" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage22" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage20" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage24" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,97},{0,46},{0,113},{0,60}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/GoateeArrowL" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage21" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage19" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage23" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,120},{0,78},{0,136},{0,92}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/HairColourArrowL" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage21" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage19" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage23" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,40},{0,78},{0,56},{0,92}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/FaceTypeArrowL" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage21" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage19" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage23" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,120},{0,46},{0,136},{0,60}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/FaceTypeArrowR" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage22" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage20" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage24" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,177},{0,46},{0,193},{0,60}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/GoateeArrowR" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage22" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage20" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage24" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,177},{0,78},{0,193},{0,92}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/HairColourArrowR" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage22" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage20" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage24" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,97},{0,78},{0,113},{0,92}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/Btn_Male" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage4" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage2" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage6" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,141},{0,102},{0,190},{0,130}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/Btn_Female" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage3" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage1" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage5" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,45},{0,102},{0,94},{0,130}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/ComplexionButton1" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage11" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage7" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage15" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,92},{0,135},{0,120},{0,163}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/ComplexionButton2" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage12" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage8" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage16" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,121},{0,135},{0,149},{0,163}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/ComplexionButton3" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage13" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage9" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,150},{0,135},{0,178},{0,163}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/ComplexionButton4" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage14" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage10" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage18" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,179},{0,135},{0,207},{0,163}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="logoBg/" >
+            <Property Name="Image" Value="set:chuangjian image:NewImage44" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,24},{0.5,-75},{0,236},{0.5,137}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="CreateCharacter/BackR/SelectClothes" >
+                <Property Name="Image" Value="set:chuangjian image:NewImage55" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,69},{0,54},{0,93}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="CreateCharacter/BackR/SelectClothes2" >
+                <Property Name="Image" Value="set:chuangjian image:NewImage56" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,114},{0,54},{0,138}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="CreateCharacter/BackR/SelectClothes3" >
+                <Property Name="Image" Value="set:chuangjian image:NewImage57" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,158},{0,54},{0,182}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/shangyiArrowL" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage21" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage19" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage23" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,50},{0,78},{0,66},{0,92}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/shangyiArrowR" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage22" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage20" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage24" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,178},{0,78},{0,194},{0,92}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/xiayiArrowL" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage21" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage19" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage23" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,50},{0,121},{0,66},{0,135}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/shoesArrowR" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage22" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage20" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage24" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,178},{0,164},{0,194},{0,178}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/shoesArrowL" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage21" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage19" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage23" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,50},{0,164},{0,66},{0,178}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/TabContrl/Tab 1" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage35" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage34" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage36" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,39},{0,20},{0,97},{0,49}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/TabContrl/Tab 2" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage38" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage37" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage39" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,103},{0,24},{0,153},{0,49}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage16" Name="CreateCharacter/BackR/shangyiIcon1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,70},{0,69},{0,102},{0,99}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage16" Name="CreateCharacter/BackR/shangyiIcon2" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,106},{0,69},{0,138},{0,99}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage16" Name="CreateCharacter/BackR/shangyiIcon3" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,142},{0,69},{0,174},{0,99}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage16" Name="CreateCharacter/BackR/xiayiIcon1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,70},{0,112},{0,102},{0,142}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage16" Name="CreateCharacter/BackR/xiayiIcon2" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,106},{0,112},{0,138},{0,142}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage16" Name="CreateCharacter/BackR/xiayiIcon3" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,142},{0,112},{0,174},{0,142}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage16" Name="CreateCharacter/BackR/shoesIcon1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,70},{0,155},{0,102},{0,185}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage16" Name="CreateCharacter/BackR/shoesIcon2" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,106},{0,155},{0,138},{0,185}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="CreateCharacter/BackL/xiayiArrowR" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage22" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage20" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage24" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,178},{0,121},{0,194},{0,135}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage16" Name="CreateCharacter/BackR/shoesIcon3" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,142},{0,155},{0,174},{0,185}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="logoBg/Name" >
+            <Property Name="Image" Value="set:chuangjian image:NewImage41" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,22},{0.5,143},{0,236},{0.5,204}}" />
+            <Window Type="EQHomeLook/EditboxT" Name="logoBg/Name/EditPlayerName" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,66},{0,21},{0,190},{0,41}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="CreatePlayer/BackR/txt1" >
+            <Property Name="Image" Value="set:chuangjian2 image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-225},{0.5,-239},{1,-13},{0.5,-32}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="CreatePlayer/BackR/txt2" >
+            <Property Name="Image" Value="set:chuangjian2 image:NewImage2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-225},{0.5,-24},{1,-13},{0.5,183}}" />
+        </Window>
+    </Window>
+</GUILayout>

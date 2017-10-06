@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Marketroot" >
+        <Property Name="Text" Value="剩余点数：" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0027137,0},{1,0},{1,-31}}" />
+        <Window Type="NewEQHomeLook/NewFrameWindow" Name="Marketroot/Market" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="商城" />
+            <Property Name="TitlebarFont" Value="simsun-11" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,11},{0,94},{0,511},{0,451}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Window Type="NewEQHomeLook/NewTabControl1" Name="Marketroot/Market/Mkt_tab" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TabHeight" Value="{0,19.6418}" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0,11},{0,34},{0,492},{0,348}}" />
+                <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab1" >
+                    <Property Name="Text" Value=" 推 荐 " />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.00209497,0},{0,0},{0.997905,0},{1,0}}" />
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_1" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,37},{0,159},{0,77},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_2" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,77},{0,159},{0,117},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_3" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,117},{0,159},{0,157},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_4" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,157},{0,159},{0,197},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_5" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,197},{0,159},{0,237},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_6" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,237},{0,159},{0,277},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_7" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,277},{0,159},{0,317},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_8" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,317},{0,159},{0,357},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_9" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,357},{0,159},{0,397},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_10" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,397},{0,159},{0,437},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_11" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,37},{0,199},{0,77},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_12" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,77},{0,199},{0,117},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_13" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,117},{0,199},{0,157},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_14" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,157},{0,199},{0,197},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_15" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,197},{0,199},{0,237},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_16" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,237},{0,199},{0,277},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_17" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,277},{0,199},{0,317},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_18" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,317},{0,199},{0,357},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_19" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,357},{0,199},{0,397},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Slot_20" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,397},{0,199},{0,437},{0,239}}" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Background2" >
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,40},{0,135},{0,105},{0,154}}" />
+                            <Window Type="EQHomeLook/StaticText" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Background2/" >
+                                <Property Name="Text" Value="新品推荐：" />
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="TextColours" Value="tl:FFD33BFF tr:FFD33BFF bl:FFD33BFF br:FFD33BFF" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{-0.00418994,0},{-0.0108844,0},{0.99581,0},{1.00816,0}}" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                            </Window>
+                        </Window>
+                        <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Background1" >
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,41},{0,52},{0,102},{0,69}}" />
+                            <Window Type="EQHomeLook/StaticText" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Background1/" >
+                                <Property Name="Text" Value="商城公告：" />
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="TextColours" Value="tl:FFD33BFF tr:FFD33BFF bl:FFD33BFF br:FFD33BFF" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{-0.00418994,0},{-0.00816326,0},{0.99581,0},{1,0}}" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                            </Window>
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="Marketroot/Market/Mkt_tab/Tab 1/SlotBg/Txt" >
+                            <Property Name="Font" Value="simsun-11" />
+                            <Property Name="Text" >    舒适的家园自然少不了桌椅灯柜、地毯花床，如果你喜好
+文墨，可以配上屏风字画，如果你偏爱花卉，还可以找来文竹
+水仙，室内一切家具装饰都由玩家亲手设计摆放，优雅的。</Property>
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,37},{0,72},{0,446},{0,129}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab2" >
+                    <Property Name="Text" Value=" 服 饰 " />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_1" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,39},{0,76},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_2" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,39},{0,116},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_3" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,39},{0,156},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_4" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,39},{0,196},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_5" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,39},{0,236},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_6" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,39},{0,276},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_7" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,39},{0,316},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_8" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,39},{0,356},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_9" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,39},{0,396},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_10" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,39},{0,436},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_11" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,79},{0,76},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_12" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,79},{0,116},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_13" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,79},{0,156},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_14" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,79},{0,196},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_15" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,79},{0,236},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_16" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,79},{0,276},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_17" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,79},{0,316},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_18" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,79},{0,356},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_19" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,79},{0,396},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_20" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,79},{0,436},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_21" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,119},{0,76},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_22" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,119},{0,116},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_23" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,119},{0,156},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_24" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,119},{0,196},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_25" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,119},{0,236},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_26" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,119},{0,276},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_27" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,119},{0,316},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_28" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,119},{0,356},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_29" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,119},{0,396},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_30" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,119},{0,436},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_31" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,159},{0,76},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_32" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,159},{0,116},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_33" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,159},{0,156},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_34" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,159},{0,196},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_35" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,159},{0,236},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_36" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,159},{0,276},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_37" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,159},{0,316},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_38" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,159},{0,356},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_39" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,159},{0,396},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_40" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,159},{0,436},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_41" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,199},{0,76},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_42" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,199},{0,116},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_43" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,199},{0,156},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_44" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,199},{0,196},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_45" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,199},{0,236},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_46" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,199},{0,276},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_47" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,199},{0,316},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_48" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,199},{0,356},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_49" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,199},{0,396},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 2/SlotBg/Slot_50" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,199},{0,436},{0,239}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab3" >
+                    <Property Name="Text" Value=" 家 具 " />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_1" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,39},{0,76},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_2" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,39},{0,116},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_3" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,39},{0,156},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_4" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,39},{0,196},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_5" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,39},{0,236},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_6" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,39},{0,276},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_7" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,39},{0,316},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_8" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,39},{0,356},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_9" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,39},{0,396},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_10" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,39},{0,436},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_11" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,79},{0,76},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_12" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,79},{0,116},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_13" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,79},{0,156},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_14" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,79},{0,196},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_15" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,79},{0,236},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_16" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,79},{0,276},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_17" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,79},{0,316},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_18" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,79},{0,356},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_19" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,79},{0,396},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_20" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,79},{0,436},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_21" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,119},{0,76},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_22" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,119},{0,116},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_23" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,119},{0,156},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_24" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,119},{0,196},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_25" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,119},{0,236},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_26" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,119},{0,276},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_27" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,119},{0,316},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_28" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,119},{0,356},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_29" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,119},{0,396},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_30" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,119},{0,436},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_31" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,159},{0,76},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_32" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,159},{0,116},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_33" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,159},{0,156},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_34" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,159},{0,196},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_35" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,159},{0,236},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_36" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,159},{0,276},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_37" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,159},{0,316},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_38" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,159},{0,356},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_39" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,159},{0,396},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_40" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,159},{0,436},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_41" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,199},{0,76},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_42" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,199},{0,116},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_43" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,199},{0,156},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_44" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,199},{0,196},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_45" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,199},{0,236},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_46" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,199},{0,276},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_47" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,199},{0,316},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_48" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,199},{0,356},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_49" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,199},{0,396},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 3/SlotBg/Slot_50" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,199},{0,436},{0,239}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab4" >
+                    <Property Name="Text" Value=" 电 器 " />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_1" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,39},{0,76},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_2" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,39},{0,116},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_3" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,39},{0,156},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_4" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,39},{0,196},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_5" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,39},{0,236},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_6" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,39},{0,276},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_7" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,39},{0,316},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_8" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,39},{0,356},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_9" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,39},{0,396},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_10" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,39},{0,436},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_11" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,79},{0,76},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_12" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,79},{0,116},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_13" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,79},{0,156},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_14" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,79},{0,196},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_15" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,79},{0,236},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_16" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,79},{0,276},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_17" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,79},{0,316},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_18" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,79},{0,356},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_19" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,79},{0,396},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_20" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,79},{0,436},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_21" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,119},{0,76},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_22" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,119},{0,116},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_23" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,119},{0,156},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_24" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,119},{0,196},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_25" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,119},{0,236},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_26" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,119},{0,276},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_27" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,119},{0,316},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_28" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,119},{0,356},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_29" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,119},{0,396},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_30" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,119},{0,436},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_31" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,159},{0,76},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_32" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,159},{0,116},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_33" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,159},{0,156},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_34" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,159},{0,196},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_35" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,159},{0,236},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_36" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,159},{0,276},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_37" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,159},{0,316},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_38" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,159},{0,356},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_39" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,159},{0,396},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_40" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,159},{0,436},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_41" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,199},{0,76},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_42" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,199},{0,116},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_43" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,199},{0,156},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_44" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,199},{0,196},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_45" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,199},{0,236},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_46" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,199},{0,276},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_47" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,199},{0,316},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_48" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,199},{0,356},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_49" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,199},{0,396},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 4/SlotBg/Slot_50" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,199},{0,436},{0,239}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab5" >
+                    <Property Name="Text" Value=" 装 修 " />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_1" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,39},{0,76},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_2" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,39},{0,116},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_3" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,39},{0,156},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_4" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,39},{0,196},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_5" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,39},{0,236},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_6" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,39},{0,276},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_7" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,39},{0,316},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_8" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,39},{0,356},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_9" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,39},{0,396},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_10" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,39},{0,436},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_11" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,79},{0,76},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_12" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,79},{0,116},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_13" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,79},{0,156},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_14" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,79},{0,196},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_15" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,79},{0,236},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_16" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,79},{0,276},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_17" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,79},{0,316},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_18" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,79},{0,356},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_19" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,79},{0,396},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_20" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,79},{0,436},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_21" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,119},{0,76},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_22" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,119},{0,116},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_23" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,119},{0,156},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_24" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,119},{0,196},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_25" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,119},{0,236},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_26" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,119},{0,276},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_27" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,119},{0,316},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_28" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,119},{0,356},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_29" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,119},{0,396},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_30" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,119},{0,436},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_31" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,159},{0,76},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_32" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,159},{0,116},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_33" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,159},{0,156},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_34" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,159},{0,196},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_35" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,159},{0,236},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_36" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,159},{0,276},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_37" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,159},{0,316},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_38" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,159},{0,356},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_39" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,159},{0,396},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_40" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,159},{0,436},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_41" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,199},{0,76},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_42" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,199},{0,116},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_43" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,199},{0,156},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_44" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,199},{0,196},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_45" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,199},{0,236},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_46" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,199},{0,276},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_47" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,199},{0,316},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_48" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,199},{0,356},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_49" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,199},{0,396},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 5/SlotBg/Slot_50" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,199},{0,436},{0,239}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab6" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value=" 道 具 " />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DefaultWindow" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_1" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,39},{0,76},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_2" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,39},{0,116},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_3" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,39},{0,156},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_4" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,39},{0,196},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_5" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,39},{0,236},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_6" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,39},{0,276},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_7" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,39},{0,316},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_8" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,39},{0,356},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_9" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,39},{0,396},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_10" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,39},{0,436},{0,79}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_11" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,79},{0,76},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_12" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,79},{0,116},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_13" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,79},{0,156},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_14" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,79},{0,196},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_15" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,79},{0,236},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_16" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,79},{0,276},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_17" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,79},{0,316},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_18" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,79},{0,356},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_19" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,79},{0,396},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_20" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,79},{0,436},{0,119}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_21" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,119},{0,76},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_22" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,119},{0,116},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_23" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,119},{0,156},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_24" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,119},{0,196},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_25" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,119},{0,236},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_26" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,119},{0,276},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_27" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,119},{0,316},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_28" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,119},{0,356},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_29" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,119},{0,396},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_30" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,119},{0,436},{0,159}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_31" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,159},{0,76},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_32" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,159},{0,116},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_33" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,159},{0,156},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_34" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,159},{0,196},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_35" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,159},{0,236},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_36" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,159},{0,276},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_37" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,159},{0,316},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_38" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,159},{0,356},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_39" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,159},{0,396},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_40" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,159},{0,436},{0,199}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_41" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,36},{0,199},{0,76},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_42" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,76},{0,199},{0,116},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_43" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,116},{0,199},{0,156},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_44" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,156},{0,199},{0,196},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_45" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,199},{0,236},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_46" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,199},{0,276},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_47" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,276},{0,199},{0,316},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_48" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,199},{0,356},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_49" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,356},{0,199},{0,396},{0,239}}" />
+                        </Window>
+                        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Marketroot/Market/Mkt_tab/Tab 6/SlotBg/Slot_50" >
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,396},{0,199},{0,436},{0,239}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Tab_clother" >
+                <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,264},{0,306},{0,479},{0,309}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Tab_furniture" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,156},{0,37},{0,180},{0,61}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Tab_electric" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,217},{0,37},{0,241},{0,61}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Tab_building" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,275},{0,37},{0,299},{0,61}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Tab_item" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,336},{0,37},{0,360},{0,61}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type2_1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button2 image:imagebutton46_push" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,97},{0,45},{0,127}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type2_2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button2 image:imagebutton46_push" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,127},{0,45},{0,157}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type2_3" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button2 image:imagebutton46_push" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,157},{0,45},{0,187}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type2_4" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button2 image:imagebutton46_push" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,187},{0,45},{0,217}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type2_5" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button2 image:imagebutton46_push" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,217},{0,45},{0,247}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type2_6" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button2 image:imagebutton46_push" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,247},{0,45},{0,277}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type2_7" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button2 image:imagebutton46_push" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,277},{0,45},{0,307}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type2_8" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button2 image:imagebutton46_push" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,302},{0,40},{0,315}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_buy" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage124" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage123" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage125" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,146},{0,308},{0,181},{0,343}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Marketroot/Market/Selling_price" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="售价：" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,31},{0,316},{0,66},{0,336}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Marketroot/Market/Selling_price1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="0000000000" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,64},{0,317},{0,136},{0,337}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Pageup" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage141" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,193},{0,302},{0,205},{0,314}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Pagedown" >
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage139" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,252},{0,302},{0,264},{0,314}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Marketroot/Market/Page" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="00" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,211},{0,298},{0,226},{0,318}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Marketroot/Market/Page1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="/00" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,227},{0,298},{0,252},{0,318}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Have_background" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Image" Value="set:Button6 image:NewImage1" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,335},{0,316},{0,465},{0,336}}" />
+                <Window Type="EQHomeLook/StaticText" Name="Marketroot/Market/Have_background/txt" >
+                    <Property Name="Text" Value="剩余点数：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,3},{0,65},{0,17}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Marketroot/Market/Have_background/txt1" >
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,65},{0,2},{0,125},{0,16}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="NewEQHomeLook/NewCheckbox" Name="Marketroot/Market/Checkbox" >
+                <Property Name="Text" Value=" 选择预览" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF00FFFC" />
+                <Property Name="UnifiedAreaRect" Value="{{0,202},{0,318},{0,287},{0,338}}" />
+                <Property Name="NormalTextColour" Value="FF00FFFC" />
+                <Property Name="PushedTextColour" Value="FF00FFFC" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Tab_commend" >
+                <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,306},{0,193},{0,309}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage5" Name="Marketroot/Market/Background3" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,11},{0,58},{0,491},{0,99}}" />
+                <Window Type="EQHomeLook/StaticImage11" Name="Marketroot/Market/Tab_background" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,7},{0,341},{0,30}}" />
+                    <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type1_1" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button2 image:imagebutton1_push" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,12},{0,-2},{0,42},{0,28}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type1_2" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button2 image:imagebutton1_push" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,41},{0,-2},{0,71},{0,28}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type1_3" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button2 image:imagebutton1_push" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,71},{0,-2},{0,101},{0,28}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type1_4" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button2 image:imagebutton1_push" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,101},{0,-2},{0,131},{0,28}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type1_5" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button2 image:imagebutton1_push" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,131},{0,-2},{0,161},{0,28}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type1_6" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button2 image:imagebutton1_push" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,161},{0,-2},{0,191},{0,28}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type1_7" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button2 image:imagebutton1_push" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,191},{0,-2},{0,221},{0,28}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Btn_type1_8" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button2 image:imagebutton1_push" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,221},{0,-2},{0,251},{0,28}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Background3/Male" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,371},{0,13},{0,387},{0,29}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Marketroot/Market/Background3/Famale" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,428},{0,10},{0,444},{0,26}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Background3/Btn_male" >
+                    <Property Name="HoverImage" Value="set:Button6 image:NewImage110" />
+                    <Property Name="NormalImage" Value="set:Button6 image:NewImage108" />
+                    <Property Name="PushedImage" Value="set:Button6 image:NewImage108" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,431},{0,8},{0,466},{0,29}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/Background3/Btn_famale" >
+                    <Property Name="HoverImage" Value="set:Button6 image:NewImage109" />
+                    <Property Name="NormalImage" Value="set:Button6 image:NewImage107" />
+                    <Property Name="PushedImage" Value="set:Button6 image:NewImage107" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,385},{0,8},{0,420},{0,29}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage14" Name="Marketroot/Market/RTT" >
+            <Property Name="Image" Value="set:Button5 image:NewImage305" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,510},{0,106},{0,630},{0,449}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/RTT/Btn_left" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage29" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage28" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage32" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,311},{0,24},{0,333}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Marketroot/Market/RTT/Btn_right" >
+                <Property Name="HoverImage" Value="set:chuangjian image:NewImage31" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:chuangjian image:NewImage30" />
+                <Property Name="PushedImage" Value="set:chuangjian image:NewImage33" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,98},{0,311},{0,115},{0,333}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

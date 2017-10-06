@@ -1,0 +1,299 @@
+import * from "commTemplate.material"
+
+
+material 00002002_outwall_102_02 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang_09.dds
+}
+
+
+
+
+material 00002002_innerwall_102_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang_09.dds
+}
+
+
+
+
+material 00002002_outwall_100_05 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_outwall_100_07 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_tcx_100_05 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_outwall_101_01 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang_11.dds
+}
+
+
+
+
+material 00002002_outwall_101_02 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang_11.dds
+}
+
+
+
+
+material 00002002_outwall_100_06 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_tcx_100_06 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_outwall_103_01 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+
+material 00002002_tcx_100_01 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_outwall_100_01 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_innerwall_101_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang_11.dds
+}
+
+
+
+
+material 00002002_innerwall_103_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+
+material 00002002_tcx_100_02 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_tcx_100_07 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+material 00002002_outwall_100_03 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_tcx_100_03 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_outwall_100_04 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_floor_103_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> floor_09.dds
+}
+
+
+
+
+material 00002002_outwall_100_02 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_outwall_100_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_tcx_100_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_tcx_100_04 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang.dds
+}
+
+
+
+
+material 00002002_outwall_102_01 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang_09.dds
+}
+
+
+
+
+material 00002002_outwall_102_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang_09.dds
+}
+
+
+
+
+material 00002002_outwall_101_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang_11.dds
+}
+
+
+
+
+material 00002002_outwall_103_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+
+material 00002002_outwall_103_02 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+material material_walledge_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cement.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+
+material 00002002_floor_101_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> 00320008.dds
+}
+
+
+
+
+material 00002002_floor_102_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> floor_07.dds
+}
+
+
+
+
+material 00002002_tcx_102_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> tcx_01.dds
+}
+
+
+
+
+material 00002002_tcx_101_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> tcx_01.dds
+}
+
+
+
+
+material 00002002_tcx_103_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> 00320006.dds
+}
+
+
+
+
+material 00002002_roof_100_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> floor_04.dds
+}
+
+

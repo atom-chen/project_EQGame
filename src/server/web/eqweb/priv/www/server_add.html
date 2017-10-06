@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>eq server</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" href="style/thickbox.css" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
+    <script type="text/javascript" src="js/server.js"></script>
+
+</head>
+<body>
+    <table id="scene_table" width="100%">
+        <tr>
+            <td align="right">
+                IP地址：
+            </td>
+            <td align="left">
+                <input id="ip" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                节点名称：
+            </td>
+            <td align="left">
+                <input id="hostname" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                服务器名称：
+            </td>
+            <td align="left">
+                <input id="servername" type="text" />
+            </td>
+        </tr>
+        <tr><td colspan="2"></td></tr>
+        <tr>
+            <td colspan="2"><input type="button" id="server_add_submit" onclick="add_server();" value=" 提交 " /> <input type="button" onclick="close_add_server();" id="close" value=" 关闭 " /></td>
+        </tr>
+    </table>
+</body>
+</html>

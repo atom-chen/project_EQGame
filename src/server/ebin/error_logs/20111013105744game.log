@@ -1,0 +1,14 @@
+
+=ERROR REPORT==== 13-Oct-2011::10:57:46 ===
+error: {create_table,float_bottle,
+                     [id,datetime,type,sex,account,account_visible,msg],
+                     "create table float_bottle"}
+ {badmatch,{atomic,fail}}
+ stack:[{db_update,change,3},
+        {database,start_db_1,0},
+        {database,start_db,0},
+        {database,start,0},
+        {rpc,local_call,3},
+        {db_connection,connect_db,1},
+        {db_connection,open,1},
+        {init,start_it,1}]

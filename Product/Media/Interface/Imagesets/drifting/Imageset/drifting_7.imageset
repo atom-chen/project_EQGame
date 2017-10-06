@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="drifting_7" Imagefile="drifting\drifting_7.dds" >
+    <Image Name="NewImage1" XPos="12" YPos="0" Width="244" Height="226" />
+</Imageset>

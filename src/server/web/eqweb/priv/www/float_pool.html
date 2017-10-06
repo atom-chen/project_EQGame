@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache" />
+<title>eq server</title>
+<link rel="stylesheet" type="text/css" href="style/main.css"/>
+<link rel="stylesheet" type="text/css" href="style/thickbox.css"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/thickbox.js"></script>
+<script type="text/javascript" src="js/jquery.query.js"></script>
+<script type="text/javascript" src="js/float_pool.js"></script>
+<style type="text/css">
+	table, td, th
+  {
+  	padding:5px;
+  	border:1px solid gray;
+  }
+	th
+  {
+  	background-color:blue;
+  	color:white;
+  }
+  textarea
+  {
+  	font-size:12px;
+  	font-family:\5b8b\4f53;
+  }
+</style>
+</head>
+
+<body>
+    <form class="cmxform" id="form" method="get" action="">
+        <table id="table" width="100%">
+	  			<tr>
+						<th>瓶子数目</th>
+						<th>操作</th>
+					</tr>
+	  			<tr>
+	            	<td>	
+	      	      	<br>
+	      	      	<br>
+		            	官方瓶子数： <input type="text" id="label_gm_count" size=8 value="0" readonly="readonly" />
+		            	<br>
+	      	      	<br>
+	      	      	玩家瓶子数： <input type="text" id="label_player_count" size=8 value="0" readonly="readonly" />
+	      	      	<br>
+	      	      	<br>
+								</td>
+      	      	<td>	
+		            	<br>
+	      	      	<br>
+	      	      	<input type="button" id="button_get_gm_bottle_count" value=" 显示最新数量 "/>
+	      	      	<br>
+	      	      	<br>
+	      	      	<input type="button" id="button_clear_all_gm_bottle" name="button_clear_all_gm_bottle" value=" 清除官方瓶子 "/>
+	      	      	<br>
+	      	      	<br>
+								</td>
+					</tr>
+        </table>
+        
+        <br>
+        
+        <table id="table2" width="100%">
+	  			<tr>
+						<th>投放瓶子</th>
+					</tr>
+          <tr>
+          	<td align="right">
+                投放个数：
+            </td>
+            <td align="left">
+                <input id="bottle_count" type="text" value="1"/>
+            </td>
+          </tr>
+          <tr>
+          	<td align="right">
+          		奖励ID：
+            </td>
+            <td align="left">
+                <input id="reward_id" type="text" value="0"/>
+            </td>
+          </tr>
+          <tr>
+          	<td align="right">
+                投放人：
+            </td>
+            <td align="left">
+                <input id="gm_name" type="text" value=""/>
+            </td>
+          </tr>
+          <tr>
+          	<td align="right">
+                内容：
+            </td>
+            <td align="left">
+                <textarea id="content" cols="45" rows="12"></textarea>
+            </td>
+          </tr>
+          <tr>
+             <td colspan="2">
+                <input type="button" id="button_add_bottle" value=" 投放 " />
+                <input type="button" id="button_reset" value=" 重置 " />
+             </td>
+          </tr>
+         <table>  
+    </form>
+</body>
+</html>

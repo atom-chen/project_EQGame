@@ -1,0 +1,456 @@
+
+material 00500001_outwall_101_04_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture b60020186_00.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_101_04_02
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500001_01.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_100_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_100_03
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_101_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500001_01.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_tcx_101_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00400004.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material material_walledge_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00000001.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_floor_101_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500001_00.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_101_02
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500001_01.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_101_03_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500001_01.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_100_04
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_tcx_100_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_100_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_100_02
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_100_05
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_tcx_100_03
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_tcx_100_02
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_tcx_100_05
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_tcx_100_04
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_tcx_100_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00100026.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_101_04_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500001_03.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_101_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500001_02.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_101_05_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture b60020199_00.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 00500001_outwall_101_05_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00500001_01.dds
+			}
+		}
+
+	}
+
+}
+
+

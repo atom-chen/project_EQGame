@@ -1,0 +1,77 @@
+system test
+{
+    technique
+    {
+        renderer Billboard                           {}
+        material                                     PUMediaPack/Flare_04
+        default_particle_width                       300
+        default_particle_height                      300
+        visual_particle_quota                        2500
+        emitter                                      SphereSurface
+        {
+            sphere_surface_em_radius                 400
+            emission_rate                            200
+            velocity                                 100
+            time_to_live                             3
+            direction                                0 1 0
+        }
+        affector                                     Colour
+        {
+            colour_aff_time_colour                   0.0 0.0 0.0 0.2
+            colour_aff_time_colour                   0.9 0.8 0.8 1.0
+            colour_aff_time_colour                   1.0 1.0 1.0 1.0
+        }
+        
+        affector                                     Gravity
+        {
+            gravity                                  900000
+        }
+
+        affector                                     Scale
+        {
+            xyz_scale                                -150
+        }
+    }
+
+    technique
+    {
+        material                                    PUMediaPack/Streak_03
+        visual_particle_quota                       250
+        renderer Billboard
+        {
+            billboard_type                          oriented_self
+        }
+
+        emitter                                     Point
+        {
+            particle_width                          dyn_random
+            {
+                min                                 40
+                max                                 80
+            }
+            particle_height                         dyn_random
+            {
+                min                                 1500
+                max                                 2000
+            }
+            emission_rate                           30
+            angle                                   360
+            velocity                                1
+            time_to_live                            4
+            direction                               0 1 0
+            colour                                  0.1 0.1 1.0
+        }
+
+        affector                                    Scale
+        {
+            x_scale                                 -40
+        }
+
+        affector                                    Scale
+        {
+            y_scale                                 -1500
+        }
+
+        use_alias                                   $PUMediaPack/ColourAffectorFade_06
+    }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage4" Name="Shoppinghousenotice" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,200},{0,160},{0,440},{0,340}}" />
+        <Window Type="EQHomeLook/StaticText" Name="Shoppinghousenotice/Txt" >
+            <Property Name="Text" Value="*注意*" />
+            <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,98},{0,11},{0,148},{0,30}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Shoppinghousenotice/Txt1" >
+            <Property Name="Text" >1.购买新的房屋，旧有房屋将会消失。
+2.确保在旧有房屋内有没有需要的家
+具。
+3.更换房屋后，旧有房屋内家具将和
+房屋一起消失。</Property>
+            <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,36},{0,230},{0,116}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Shoppinghousenotice/button" >
+            <Property Name="Text" Value="确定" />
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,97},{0,150},{0,142},{0,168}}" />
+        </Window>
+    </Window>
+</GUILayout>

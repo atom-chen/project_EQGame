@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="common2" Imagefile="EQHomeUIimg\common2.png" >
+    <Image Name="Farm_h_01" XPos="52" YPos="106" Width="23" Height="24" />
+    <Image Name="Farm_h_02" XPos="75" YPos="106" Width="24" Height="24" />
+    <Image Name="farm_add01" XPos="104" YPos="135" Width="20" Height="19" />
+    <Image Name="farm_exp01" XPos="2" YPos="107" Width="47" Height="24" />
+    <Image Name="farm_exp02" XPos="2" YPos="133" Width="46" Height="24" />
+    <Image Name="farm_sub01" XPos="129" YPos="113" Width="12" Height="11" />
+    <Image Name="Person_data9" XPos="1" YPos="1" Width="68" Height="24" />
+    <Image Name="Person_data10" XPos="71" YPos="1" Width="46" Height="24" />
+    <Image Name="Person_data11" XPos="118" YPos="0" Width="113" Height="26" />
+    <Image Name="Person_data12" XPos="2" YPos="52" Width="46" Height="25" />
+    <Image Name="Person_data13" XPos="50" YPos="52" Width="112" Height="26" />
+    <Image Name="Person_data14" XPos="165" YPos="53" Width="68" Height="24" />
+    <Image Name="Person_data15" XPos="103" YPos="109" Width="20" Height="19" />
+    <Image Name="Person_data16" XPos="2" YPos="26" Width="67" Height="24" />
+    <Image Name="Person_data17" XPos="71" YPos="26" Width="46" Height="24" />
+    <Image Name="Person_data18" XPos="119" YPos="26" Width="113" Height="26" />
+    <Image Name="Person_data19" XPos="2" YPos="79" Width="46" Height="25" />
+    <Image Name="Person_data20" XPos="50" YPos="78" Width="112" Height="26" />
+    <Image Name="Person_data21" XPos="165" YPos="79" Width="68" Height="24" />
+    <Image Name="Person_data22" XPos="130" YPos="139" Width="12" Height="11" />
+    <Image Name="Person_data23" XPos="211" YPos="160" Width="25" Height="23" />
+    <Image Name="Person_data24" XPos="184" YPos="160" Width="24" Height="23" />
+    <Image Name="Person_data25" XPos="155" YPos="160" Width="26" Height="23" />
+    <Image Name="Person_data26" XPos="129" YPos="160" Width="24" Height="24" />
+    <Image Name="Person_data27" XPos="99" YPos="160" Width="25" Height="23" />
+    <Image Name="Person_data28" XPos="72" YPos="159" Width="25" Height="23" />
+    <Image Name="Person_data29" XPos="44" YPos="158" Width="24" Height="23" />
+    <Image Name="Person_data30" XPos="18" YPos="159" Width="24" Height="23" />
+    <Image Name="Person_data31" XPos="3" YPos="160" Width="11" Height="23" />
+    <Image Name="Person_data32" XPos="148" YPos="107" Width="25" Height="23" />
+    <Image Name="Person_data33" XPos="212" YPos="186" Width="25" Height="23" />
+    <Image Name="Person_data34" XPos="185" YPos="186" Width="24" Height="23" />
+    <Image Name="Person_data35" XPos="156" YPos="186" Width="26" Height="23" />
+    <Image Name="Person_data36" XPos="129" YPos="185" Width="24" Height="23" />
+    <Image Name="Person_data37" XPos="99" YPos="186" Width="25" Height="23" />
+    <Image Name="Person_data38" XPos="72" YPos="186" Width="24" Height="23" />
+    <Image Name="Person_data39" XPos="44" YPos="188" Width="24" Height="23" />
+    <Image Name="Person_data40" XPos="18" YPos="187" Width="23" Height="23" />
+    <Image Name="Person_data41" XPos="4" YPos="188" Width="11" Height="23" />
+    <Image Name="Person_data42" XPos="149" YPos="133" Width="25" Height="23" />
+</Imageset>

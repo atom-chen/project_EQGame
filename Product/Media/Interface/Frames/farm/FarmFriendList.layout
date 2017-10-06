@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist" >
+        <Property Name="Image" Value="set:window2 image:farm_freindlist" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{1,-22},{0,85},{1,183},{0,431}}" />
+        <Window Type="EQHomeLook/Editbox4" Name="farm_friendlist/search" >
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,47},{0,9},{0,153},{0,28}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/better" >
+            <Property Name="HoverImage" Value="set:Button1 image:ImageButton83_Pushed" />
+            <Property Name="NormalImage" Value="set:Button1 image:ImageButton83_Normal" />
+            <Property Name="PushedImage" Value="set:Button1 image:ImageButton83_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,154},{0,7},{0,178},{0,31}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/filter" >
+            <Property Name="HoverImage" Value="set:Button1 image:ImageButton82_Pushed" />
+            <Property Name="NormalImage" Value="set:Button1 image:ImageButton82_Normal" />
+            <Property Name="PushedImage" Value="set:Button1 image:ImageButton82_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,179},{0,7},{0,203},{0,31}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="farm_friendlist/F1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,32},{0,204},{0,60}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F1/number1" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,8},{0,19},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F1/icon1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,21},{0,2},{0,45},{0,26}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F1/name1" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,8},{0,120},{0,21}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F1/state1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,123},{0,4},{0,143},{0,24}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F1/pasturage1" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,6},{0,160},{0,21}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F1/garden1" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,162},{0,6},{0,177},{0,21}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F1_cover1" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,32},{0,204},{0,60}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F2_cover2" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,61},{0,204},{0,89}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="farm_friendlist/F2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,61},{0,204},{0,89}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F2/number2" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,8},{0,19},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F2/icon2" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,21},{0,2},{0,45},{0,26}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>  
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F2/name2" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,8},{0,127},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F2/state2" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,123},{0,4},{0,143},{0,24}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F2/pasturage2" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,6},{0,160},{0,21}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F2/garden2" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,162},{0,6},{0,177},{0,21}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="farm_friendlist/F3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,90},{0,204},{0,118}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F3/number3" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,8},{0,19},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F3/icon3" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,21},{0,2},{0,45},{0,26}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F3/name3" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,8},{0,127},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F3/state3" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,123},{0,4},{0,143},{0,24}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F3/pasturage3" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,6},{0,160},{0,21}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F3/garden3" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,162},{0,6},{0,177},{0,21}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F3_cover3" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,90},{0,204},{0,118}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="farm_friendlist/F4" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,119},{0,204},{0,147}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F4/number4" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,8},{0,19},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F4/icon4" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,21},{0,2},{0,45},{0,26}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F4/name4" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,8},{0,127},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F4/state4" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,123},{0,4},{0,143},{0,24}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F4/pasturage4" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,6},{0,160},{0,21}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F4/garden4" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,162},{0,6},{0,177},{0,21}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F4_cover4" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,119},{0,204},{0,147}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="farm_friendlist/F5" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,148},{0,204},{0,176}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F5/number5" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,8},{0,19},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F5/icon5" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,21},{0,2},{0,45},{0,26}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F5/name5" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,8},{0,127},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F5/state5" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,123},{0,4},{0,143},{0,24}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F5/pasturage5" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,6},{0,160},{0,21}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F5/garden5" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,162},{0,6},{0,177},{0,21}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F5_cover5" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,148},{0,204},{0,176}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="farm_friendlist/F6" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,177},{0,204},{0,205}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F6/number6" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,8},{0,19},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F6/icon6" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,21},{0,2},{0,45},{0,26}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F6/name6" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,8},{0,127},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F6/state6" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,123},{0,4},{0,143},{0,24}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F6/pasturage6" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,6},{0,160},{0,21}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F6/garden6" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,162},{0,6},{0,177},{0,21}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F6_cover6" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,177},{0,204},{0,205}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="farm_friendlist/F7" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,206},{0,204},{0,234}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F7/number7" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,8},{0,19},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F7/icon7" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,21},{0,2},{0,45},{0,26}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F7/name7" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,8},{0,127},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F7/state7" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,123},{0,4},{0,143},{0,24}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F7/pasturage7" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,6},{0,160},{0,21}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F7/garden7" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,162},{0,6},{0,177},{0,21}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F7_cover7" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,206},{0,204},{0,234}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="farm_friendlist/F8" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,235},{0,204},{0,263}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F8/number8" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,8},{0,19},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F8/icon8" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,21},{0,2},{0,45},{0,26}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F8/name8" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,8},{0,127},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F8/state8" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,123},{0,4},{0,143},{0,24}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F8/pasturage8" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,6},{0,160},{0,21}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F8/garden8" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,162},{0,6},{0,177},{0,21}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F8_cover8" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,235},{0,204},{0,263}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="farm_friendlist/F9" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,264},{0,204},{0,292}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F9/number9" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,8},{0,19},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F9/icon9" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,21},{0,2},{0,45},{0,26}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F9/name9" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,8},{0,127},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F9/state9" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,123},{0,4},{0,143},{0,24}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F9/pasturage9" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,6},{0,160},{0,21}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F9/garden9" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,162},{0,6},{0,177},{0,21}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F9_cover9" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,264},{0,204},{0,292}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="farm_friendlist/F10" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,293},{0,204},{0,321}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F10/number10" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,8},{0,19},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F10/icon10" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,21},{0,2},{0,45},{0,26}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/F10/name10" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,48},{0,8},{0,127},{0,20}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/F10/state10" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,123},{0,4},{0,143},{0,24}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F10/pasturage10" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton100_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,6},{0,160},{0,21}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F10/garden10" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton101_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,162},{0,6},{0,177},{0,21}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/F10_cover10" >
+            <Property Name="HoverImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_friendbg" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,26},{0,293},{0,204},{0,321}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/first_page" >
+            <Property Name="Text" Value="首页" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,51},{0,325},{0,75},{0,337}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/left_button" >
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton8_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton8_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton8_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,85},{0,323},{0,102},{0,340}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/right_button" >
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton9_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton9_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton9_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,159},{0,323},{0,178},{0,340}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="farm_friendlist/pages" >
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,111},{0,325},{0,153},{0,337}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="farm_friendlist/friends_button" >
+            <Property Name="Image" Value="set:Button1 image:imagebutton94_normal" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,6},{0,120},{0,18},{0,140}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="farm_friendlist/open_button" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0140625,0},{0,115},{0,25},{0,213}}" />
+        </Window>
+    </Window>
+</GUILayout>

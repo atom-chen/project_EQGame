@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Terrain name="00500001" xsize="8" zsize="16" tileSize="32">
+    <scale x="80.000000" y="80.000000" z="80.000000" />
+    <centre x="0.000000" y="0.000000" z="-160.000000" />
+    <heightmap filename="00500001.Heightmap" type="standard" />
+    <gridInfo filename="00500001.GridInfo" type="standard" />
+    <textures>
+        <texture filename="BaseTerrSurfaceMud.jpg" type="image" />
+        <texture filename="brick/lanbaizhuan.jpg" type="image" />
+        <texture filename="brick/shizilu.jpg" type="image" />
+        <texture filename="brick/shuzhuan.jpg" type="image" />
+    </textures>
+    <pixmaps>
+        <pixmap textureId="0" />
+        <pixmap textureId="1" />
+        <pixmap textureId="2" />
+        <pixmap textureId="3" left="0.000000" top="0.000000" right="1.000000" bottom="0.500000" />
+        <pixmap textureId="3" left="0.000000" top="0.500000" right="1.000000" bottom="1.000000" />
+    </pixmaps>
+    <materials>
+        <template name="OneLayer" material="Terrain/OneLayer" />
+        <template name="OneLayerLightmap" material="Terrain/OneLayerLightmap" />
+        <template name="TwoLayer" material="Terrain/TwoLayer" />
+        <template name="TwoLayerLightmap" material="Terrain/TwoLayerLightmap" />
+        <fog_replacement none="Terrain/OneLayer_ps" exp="Terrain/OneLayer_ps%fog_exp" exp2="Terrain/OneLayer_ps%fog_exp2" linear="Terrain/OneLayer_ps%fog_linear" />
+        <fog_replacement none="Terrain/TwoLayer_ps" exp="Terrain/TwoLayer_ps%fog_exp" exp2="Terrain/TwoLayer_ps%fog_exp2" linear="Terrain/TwoLayer_ps%fog_linear" />
+        <fog_replacement none="Terrain/OneLayerLightmap_ps" exp="Terrain/OneLayerLightmap_ps%fog_exp" exp2="Terrain/OneLayerLightmap_ps%fog_exp2" linear="Terrain/OneLayerLightmap_ps%fog_linear" />
+        <fog_replacement none="Terrain/TwoLayerLightmap_ps" exp="Terrain/TwoLayerLightmap_ps%fog_exp" exp2="Terrain/TwoLayerLightmap_ps%fog_exp2" linear="Terrain/TwoLayerLightmap_ps%fog_linear" />
+    </materials>
+</Terrain>

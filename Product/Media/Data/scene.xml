@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<scene>
+		<id>1000</id>
+		<name>男屋</name>
+		<type>1</type>
+		<file>00001001/00001001.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>36</player_born>
+		<far_clip_distance>(null)</far_clip_distance>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-300 0 -300</lookatMin>
+		<lookatMax>300 0 300</lookatMax>
+		<pitchDefault>45</pitchDefault>
+		<yawDefault>-175</yawDefault>
+		<zoomDefault>900</zoomDefault>
+		<lookatDefault>0 0 0</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1001</id>
+		<name>女屋</name>
+		<type>1</type>
+		<file>00001002/00001002.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>37</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-300 0 -300</lookatMin>
+		<lookatMax>300 0 300</lookatMax>
+		<pitchDefault>45</pitchDefault>
+		<yawDefault>-175</yawDefault>
+		<zoomDefault>900</zoomDefault>
+		<lookatDefault>0 0 0</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>10000</id>
+		<name>农场</name>
+		<type>3</type>
+		<file>40230001/40230001.scene</file>
+		<player_visible>0</player_visible>
+		<player_born>10000</player_born>
+		<pitchMin>10</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2500</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>21</pitchDefault>
+		<yawDefault>-15</yawDefault>
+		<zoomDefault>1280</zoomDefault>
+		<lookatDefault>1 7 853</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1002</id>
+		<name>男屋2</name>
+		<type>1</type>
+		<file>00002001/00002001.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>38</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-600 0 -500</lookatMin>
+		<lookatMax>600 0 500</lookatMax>
+		<pitchDefault>28</pitchDefault>
+		<yawDefault>-121</yawDefault>
+		<zoomDefault>1280</zoomDefault>
+		<lookatDefault>355 120 356</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1003</id>
+		<name>女屋2</name>
+		<type>1</type>
+		<file>00002002/00002002.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>39</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-600 0 -500</lookatMin>
+		<lookatMax>600 0 500</lookatMax>
+		<pitchDefault>31</pitchDefault>
+		<yawDefault>-55</yawDefault>
+		<zoomDefault>1020</zoomDefault>
+		<lookatDefault>355 120 -124</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1004</id>
+		<name>通用别墅</name>
+		<type>1</type>
+		<file>00014001/00014001.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>40</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-1600 0 -1600</lookatMin>
+		<lookatMax>1500 0 1200</lookatMax>
+		<pitchDefault>35</pitchDefault>
+		<yawDefault>-207</yawDefault>
+		<zoomDefault>1620</zoomDefault>
+		<lookatDefault>50 120 365</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1005</id>
+		<name>两房公寓1</name>
+		<type>1</type>
+		<file>00004001/00004001.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>41</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-600 0 -600</lookatMin>
+		<lookatMax>600 0 600</lookatMax>
+		<pitchDefault>31</pitchDefault>
+		<yawDefault>26</yawDefault>
+		<zoomDefault>1020</zoomDefault>
+		<lookatDefault>-129 120 -431</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1006</id>
+		<name>两房公寓2</name>
+		<type>1</type>
+		<file>00004002/00004002.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>42</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-600 0 -600</lookatMin>
+		<lookatMax>600 0 600</lookatMax>
+		<pitchDefault>24</pitchDefault>
+		<yawDefault>-93</yawDefault>
+		<zoomDefault>1140</zoomDefault>
+		<lookatDefault>439 120 293</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1007</id>
+		<name>两房套房1</name>
+		<type>1</type>
+		<file>00005001/00005001.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>43</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-600 0 -600</lookatMin>
+		<lookatMax>600 0 600</lookatMax>
+		<pitchDefault>31</pitchDefault>
+		<yawDefault>-71</yawDefault>
+		<zoomDefault>1260</zoomDefault>
+		<lookatDefault>374 0 284</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1008</id>
+		<name>两房套房2</name>
+		<type>1</type>
+		<file>00005002/00005002.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>44</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-600 0 -600</lookatMin>
+		<lookatMax>600 0 600</lookatMax>
+		<pitchDefault>22</pitchDefault>
+		<yawDefault>-158</yawDefault>
+		<zoomDefault>1260</zoomDefault>
+		<lookatDefault>160 0 160</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1009</id>
+		<name>三房公寓1</name>
+		<type>1</type>
+		<file>00006001/00006001.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>45</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-600 0 -600</lookatMin>
+		<lookatMax>600 0 600</lookatMax>
+		<pitchDefault>37</pitchDefault>
+		<yawDefault>245</yawDefault>
+		<zoomDefault>1500</zoomDefault>
+		<lookatDefault>768 150 265</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1010</id>
+		<name>三房公寓2</name>
+		<type>1</type>
+		<file>00006002/00006002.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>46</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-600 0 -600</lookatMin>
+		<lookatMax>600 0 600</lookatMax>
+		<pitchDefault>31</pitchDefault>
+		<yawDefault>242</yawDefault>
+		<zoomDefault>1500</zoomDefault>
+		<lookatDefault>849 150 268</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1011</id>
+		<name>四房公寓1</name>
+		<type>1</type>
+		<file>00007001/00007001.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>47</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-600 0 -600</lookatMin>
+		<lookatMax>600 0 600</lookatMax>
+		<pitchDefault>28</pitchDefault>
+		<yawDefault>2269</yawDefault>
+		<zoomDefault>1500</zoomDefault>
+		<lookatDefault>614 150 763</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1012</id>
+		<name>四房公寓2</name>
+		<type>1</type>
+		<file>00007002/00007002.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>48</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-600 0 -600</lookatMin>
+		<lookatMax>600 0 600</lookatMax>
+		<pitchDefault>32</pitchDefault>
+		<yawDefault>286</yawDefault>
+		<zoomDefault>1500</zoomDefault>
+		<lookatDefault>611 150 -40</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1013</id>
+		<name>单层别墅</name>
+		<type>1</type>
+		<file>00010001/00010001.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>50</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-1600 0 -1600</lookatMin>
+		<lookatMax>1500 0 1200</lookatMax>
+		<pitchDefault>35</pitchDefault>
+		<yawDefault>-207</yawDefault>
+		<zoomDefault>1620</zoomDefault>
+		<lookatDefault>50 120 365</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>1</id>
+		<name>乐园第一街</name>
+		<type>2</type>
+		<file>00400005/00400005.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>2</player_born>
+		<far_clip_distance>10000</far_clip_distance>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>1000</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>31</pitchDefault>
+		<yawDefault>-88</yawDefault>
+		<zoomDefault>960</zoomDefault>
+		<lookatDefault>2024 120 -1849</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>100</voiceid>
+	</scene>
+	<scene>
+		<id>2</id>
+		<name>幽静山谷</name>
+		<type>2</type>
+		<file>00400004/00400004.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>1</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>1000</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>22</pitchDefault>
+		<yawDefault>-130</yawDefault>
+		<zoomDefault>960</zoomDefault>
+		<lookatDefault>3749 120 68</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>102</voiceid>
+	</scene>
+	<scene>
+		<id>3</id>
+		<name>乐园海滨</name>
+		<type>2</type>
+		<file>00400001/00400001.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>3</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>1000</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>22</pitchDefault>
+		<yawDefault>-130</yawDefault>
+		<zoomDefault>960</zoomDefault>
+		<lookatDefault>3749 120 68</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>101</voiceid>
+	</scene>
+	<scene>
+		<id>4</id>
+		<name>集美大学</name>
+		<type>2</type>
+		<file>00400006/00400006.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>61</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>1000</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>22</pitchDefault>
+		<yawDefault>-130</yawDefault>
+		<zoomDefault>960</zoomDefault>
+		<lookatDefault>3749 120 68</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>101</voiceid>
+	</scene>
+	<scene>
+		<id>11</id>
+		<name>服装店</name>
+		<type>2</type>
+		<file>00500001/00500001.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>4</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>24</pitchDefault>
+		<yawDefault>-93</yawDefault>
+		<zoomDefault>1140</zoomDefault>
+		<lookatDefault>439 120 293</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>12</id>
+		<name>家具店</name>
+		<type>2</type>
+		<file>00500002/00500002.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>5</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>31</pitchDefault>
+		<yawDefault>-71</yawDefault>
+		<zoomDefault>1260</zoomDefault>
+		<lookatDefault>374 0 284</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>13</id>
+		<name>美容院</name>
+		<type>2</type>
+		<file>00500003/00500003.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>6</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>22</pitchDefault>
+		<yawDefault>-158</yawDefault>
+		<zoomDefault>1260</zoomDefault>
+		<lookatDefault>160 0 160</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>14</id>
+		<name>道具店</name>
+		<type>2</type>
+		<file>00500004/00500004.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>7</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>37</pitchDefault>
+		<yawDefault>245</yawDefault>
+		<zoomDefault>1500</zoomDefault>
+		<lookatDefault>768 150 265</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>15</id>
+		<name>医院</name>
+		<type>2</type>
+		<file>00500005/00500005.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>8</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>31</pitchDefault>
+		<yawDefault>242</yawDefault>
+		<zoomDefault>1500</zoomDefault>
+		<lookatDefault>849 150 268</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+	<scene>
+		<id>16</id>
+		<name>售楼处</name>
+		<type>2</type>
+		<file>00500006/00500006.scene</file>
+		<player_visible>1</player_visible>
+		<player_born>9</player_born>
+		<pitchMin>5</pitchMin>
+		<pitchMax>85</pitchMax>
+		<yawMin>-36000000</yawMin>
+		<yawMax>36000000</yawMax>
+		<zoomMin>90</zoomMin>
+		<zoomMax>2000</zoomMax>
+		<lookatMin>-20000 0 -20000</lookatMin>
+		<lookatMax>20000 0 20000</lookatMax>
+		<pitchDefault>28</pitchDefault>
+		<yawDefault>2269</yawDefault>
+		<zoomDefault>1500</zoomDefault>
+		<lookatDefault>614 150 763</lookatDefault>
+		<houseWatchMode>0</houseWatchMode>
+		<voiceid>103</voiceid>
+	</scene>
+</root>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<row>
+		<scene_id>1</scene_id>
+		<num>4,4</num>
+		<imageset>00400005_001,00400005_002,00400005_003,00400005_004,00400005_005,00400005_006,00400005_007,00400005_008,00400005_009,00400005_010,00400005_011,00400005_012,00400005_013,00400005_014,00400005_015,00400005_016</imageset>
+		<image>img,img,img,img,img,img,img,img,img,img,img,img,img,img,img,img</image>
+	</row>
+	<row>
+		<scene_id>2</scene_id>
+		<num>4,4</num>
+		<imageset>00400004_001,00400004_002,00400004_003,00400004_004,00400004_005,00400004_006,00400004_007,00400004_008,00400004_009,00400004_010,00400004_011,00400004_012,00400004_013,00400004_014,00400004_015,00400004_016</imageset>
+		<image>img,img,img,img,img,img,img,img,img,img,img,img,img,img,img,img</image>
+	</row>
+	<row>
+		<scene_id>3</scene_id>
+		<num>4,4</num>
+		<imageset>00400001_001,00400001_002,00400001_003,00400001_004,00400001_005,00400001_006,00400001_007,00400001_008,00400001_009,00400001_010,00400001_011,00400001_012,00400001_013,00400001_014,00400001_015,00400001_016</imageset>
+		<image>img,img,img,img,img,img,img,img,img,img,img,img,img,img,img,img</image>
+	</row>
+	<row>
+		<scene_id>4</scene_id>
+		<num>4,4</num>
+		<imageset>00400006_001,00400006_002,00400006_003,00400006_004,00400006_005,00400006_006,00400006_007,00400006_008,00400006_009,00400006_010,00400006_011,00400006_012,00400006_013,00400006_014,00400006_015,00400006_016</imageset>
+		<image>img,img,img,img,img,img,img,img,img,img,img,img,img,img,img,img</image>
+	</row>
+</table>

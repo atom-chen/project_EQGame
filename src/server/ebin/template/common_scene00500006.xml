@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <common_scene_furniture>
+        <id>1</id>
+        <object_id>100561</object_id>
+    </common_scene_furniture>
+    <common_scene_furniture>
+        <id>2</id>
+        <object_id>100561</object_id>
+    </common_scene_furniture>
+    <common_scene_furniture>
+        <id>3</id>
+        <object_id>100561</object_id>
+    </common_scene_furniture>
+    <common_scene_furniture>
+        <id>4</id>
+        <object_id>100561</object_id>
+    </common_scene_furniture>
+    <common_scene_furniture>
+        <id>5</id>
+        <object_id>100561</object_id>
+    </common_scene_furniture>
+    <common_scene_furniture>
+        <id>6</id>
+        <object_id>100561</object_id>
+    </common_scene_furniture>
+</root>

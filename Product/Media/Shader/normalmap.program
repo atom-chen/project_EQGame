@@ -1,0 +1,28 @@
+vertex_program NormalMap/Ambient cg
+{
+	source NormalMap.cg
+	entry_point ambient_vp
+	profiles vs_1_1 arbvp1
+}
+
+vertex_program NormalMap/Base cg
+{
+	source NormalMap.cg
+	entry_point base_vp
+	profiles vs_1_1 arbvp1
+}
+
+vertex_program NormalMap/VP cg
+{
+	source NormalMap.cg
+	entry_point main_vp
+	profiles vs_1_1 arbvp1
+}
+
+fragment_program NormalMap/FP cg
+{
+	source NormalMap.cg
+	entry_point main_fp
+	profiles ps_2_0 arbfp1 fp20
+}
+

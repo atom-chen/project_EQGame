@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="Taskboardroot/Taskboard" >
+        <Property Name="Text" Value="任务面板" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,20},{0,60},{0,413},{0,367}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="Taskboardroot/Taskboard/Background1" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,8},{0,30},{0,380},{0,293}}" />
+        </Window>
+        <Window Type="TaharezLook/Listbox" Name="Taskboardroot/Taskboard/list" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,21},{0,46},{0,161},{0,268}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="Taskboardroot/Taskboard/content" >
+            <Property Name="Image" Value="set:common1 image:Window13" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,168},{0,45},{0,370},{0,266}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Taskboardroot/Taskboard/trace" >
+            <Property Name="Text" Value="跟踪任务" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,152},{0,267},{0,230},{0,293}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Taskboardroot/Taskboard/giveup" >
+            <Property Name="Text" Value="放弃任务" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage432" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage431" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage433" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,259},{0,267},{0,337},{0,293}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,8 @@
+sampler RT : register(s0);
+
+float4 Contrast_ps(float2 texCoord : TEXCOORD0, uniform float contrast) : COLOR
+{
+	float4 inCol = tex2D( RT, texCoord );
+   
+	return saturate(contrast*(inCol-0.5)+0.5);
+}

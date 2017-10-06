@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="Goto/Windows" >
+        <Property Name="Text" Value="路标系统" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,96},{0,101},{0,571},{0,426}}" />
+        <Window Type="NewEQHomeLook/NewTabControl1" Name="Goto/Windows/Tab" >
+            <Property Name="Text" Value="收藏" />
+            <Property Name="TabHeight" Value="{0,21}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,12},{0,29},{0,465},{0,315}}" />
+            <Window Type="DefaultWindow" Name="Goto/Windows/Tab/Tab1" >
+                <Property Name="Text" Value="场景" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab1/Btn_Add" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage354" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage354" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage354" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,19},{0,167},{0,72},{0,220}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF1BADAC" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab1/Btn_Add/Txt" >
+                        <Property Name="Image" Value="set:Button5 image:NewImage285" />
+                        <Property Name="Visible" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,29},{0,51},{0,44}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab1/Btn_Go" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage353" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage353" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage353" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,19},{0,92},{0,72},{0,145}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF1BADAC" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab1/Btn_Go/Txt" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,-1},{0,-17},{0,46},{0,-8}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab1/Gohome" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage304" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,19},{0,18},{0,72},{0,71}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab1/Gohometxt" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage281" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,20},{0,43},{0,67},{0,58}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab1/Blank1" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,93},{0,19},{0,158},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab1/Blank2" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,186},{0,19},{0,251},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab1/Blank3" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,279},{0,19},{0,344},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab1/Blank4" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,372},{0,19},{0,437},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab1/Blank5" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,93},{0,109},{0,158},{0,174}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab1/Blank6" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,186},{0,109},{0,251},{0,174}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab1/Blank7" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,279},{0,109},{0,344},{0,174}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab1/Blank8" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,372},{0,109},{0,437},{0,174}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab1/Pagedown" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage145" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,332},{0,209},{0,344},{0,221}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab1/Pageup" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage146" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,265},{0,209},{0,277},{0,221}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Total" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,310},{0,209},{0,330},{0,221}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Partition" >
+                    <Property Name="Text" Value="/" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,301},{0,209},{0,311},{0,221}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Number" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,279},{0,209},{0,299},{0,221}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCombobox" Name="Goto/Windows/Tab/Tab1/" >
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,88},{0,207},{0,210},{0,340}}" />
+                    <Property Name="MaxEditTextLength" Value="1073741823" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Blanktxt1" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,84},{0,86},{0,166},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Blanktxt2" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,177},{0,86},{0,259},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Blanktxt3" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,270},{0,86},{0,352},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Blanktxt4" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,363},{0,86},{0,445},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Blanktxt5" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,84},{0,176},{0,166},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Blanktxt6" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,177},{0,176},{0,259},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Blanktxt7" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,270},{0,176},{0,352},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab1/Blanktxt8" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,363},{0,176},{0,445},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab1/Line1" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,100},{0,214},{0,266},{0,217}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab1/Line2" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,344},{0,214},{0,444},{0,217}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Goto/Windows/Tab/Tab2" >
+                <Property Name="Text" Value="最近" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,1},{1,0}}" />
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab2/Btn_Add" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage354" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage354" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage354" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,19},{0,167},{0,72},{0,220}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF1BADAC" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab2/Btn_Add/Txt" >
+                        <Property Name="Image" Value="set:Button5 image:NewImage285" />
+                        <Property Name="Visible" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,4},{0,29},{0,51},{0,44}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab2/Btn_Go" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage353" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage353" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage353" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,19},{0,92},{0,72},{0,145}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF1BADAC" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab2/Btn_Go/Txt" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,-1},{0,-17},{0,46},{0,-8}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab2/Gohome" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage304" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,19},{0,18},{0,72},{0,71}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab2/Gohometxt" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage281" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,20},{0,43},{0,67},{0,58}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab2/Blank1" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,93},{0,19},{0,158},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab2/Blank2" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,186},{0,19},{0,251},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab2/Blank3" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,279},{0,19},{0,344},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab2/Blank4" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,372},{0,19},{0,437},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab2/Blank5" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,93},{0,109},{0,158},{0,174}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab2/Blank6" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,186},{0,109},{0,251},{0,174}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab2/Blank7" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,279},{0,109},{0,344},{0,174}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab2/Blank8" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,372},{0,109},{0,437},{0,174}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab2/Pagedown" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage145" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,332},{0,210},{0,344},{0,222}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab2/Pageup" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage146" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,265},{0,210},{0,277},{0,222}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Total" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,310},{0,210},{0,330},{0,222}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Partition" >
+                    <Property Name="Text" Value="/" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,301},{0,210},{0,311},{0,222}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Number" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,279},{0,210},{0,299},{0,222}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCombobox" Name="Goto/Windows/Tab/Tab2/" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,88},{0,207},{0,188},{0,340}}" />
+                    <Property Name="MaxEditTextLength" Value="1073741823" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Blanktxt1" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,84},{0,86},{0,166},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Blanktxt2" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,177},{0,86},{0,259},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Blanktxt3" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,270},{0,86},{0,352},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Blanktxt4" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,363},{0,86},{0,445},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Blanktxt5" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,84},{0,176},{0,166},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Blanktxt6" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,177},{0,176},{0,259},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Blanktxt7" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,270},{0,176},{0,352},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab2/Blanktxt8" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,363},{0,176},{0,445},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab2/Line1" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,190},{0,214},{0,265},{0,217}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab2/Line2" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,344},{0,214},{0,444},{0,217}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Goto/Windows/Tab/Tab3" >
+                <Property Name="Text" Value="收藏" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab3/Btn_Del" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage355" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage355" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage355" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,19},{0,167},{0,72},{0,220}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF1BADAC" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab3/Btn_Del/Txt" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,3},{0,16},{0,50},{0,18}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab3/Btn_Go" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage353" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage353" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage353" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,19},{0,92},{0,72},{0,145}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF1BADAC" />
+                    <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab3/Btn_Go/Txt" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,-1},{0,-17},{0,46},{0,-8}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab3/Gohome" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage304" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,19},{0,18},{0,72},{0,71}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab3/Gohometxt" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage281" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,20},{0,43},{0,67},{0,58}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab3/Blank1" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,93},{0,19},{0,158},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab3/Blank2" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,186},{0,19},{0,251},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab3/Blank3" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,279},{0,19},{0,344},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab3/Blank4" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,372},{0,19},{0,437},{0,84}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab3/Blank5" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,93},{0,109},{0,158},{0,174}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab3/Blank6" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,186},{0,109},{0,251},{0,174}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab3/Blank7" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,279},{0,109},{0,344},{0,174}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="Goto/Windows/Tab/Tab3/Blank8" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,372},{0,109},{0,437},{0,174}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab3/Pagedown" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage145" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,332},{0,210},{0,344},{0,222}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Goto/Windows/Tab/Tab3/Pageup" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage146" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,265},{0,210},{0,277},{0,222}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Total" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,310},{0,210},{0,330},{0,222}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Partition" >
+                    <Property Name="Text" Value="/" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,301},{0,210},{0,311},{0,222}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Number" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,279},{0,210},{0,299},{0,222}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCombobox" Name="Goto/Windows/Tab/Tab3/" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,88},{0,207},{0,188},{0,340}}" />
+                    <Property Name="MaxEditTextLength" Value="1073741823" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Blanktxt1" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,84},{0,86},{0,166},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Blanktxt2" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,177},{0,86},{0,259},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Blanktxt3" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,270},{0,86},{0,352},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Blanktxt4" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,363},{0,86},{0,445},{0,101}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Blanktxt5" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,84},{0,176},{0,166},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Blanktxt6" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,177},{0,176},{0,259},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Blanktxt7" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,270},{0,176},{0,352},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="Goto/Windows/Tab/Tab3/Blanktxt8" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,363},{0,176},{0,445},{0,191}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab3/Line1" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,190},{0,214},{0,265},{0,217}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="Goto/Windows/Tab/Tab3/Line2" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,344},{0,214},{0,444},{0,217}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

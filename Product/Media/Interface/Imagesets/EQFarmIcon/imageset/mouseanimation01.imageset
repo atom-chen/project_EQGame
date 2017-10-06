@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="mouseanimation01" Imagefile="EQFarmIcon\mouseanimation01.dds" >
+    <Image Name="mouse_insect_01" XPos="2" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_insect_02" XPos="72" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_insect_03" XPos="142" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_insect_04" XPos="212" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_insect_05" XPos="282" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_watering_01" XPos="352" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_watering_02" XPos="422" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_watering_03" XPos="2" YPos="72" Width="70" Height="70" />
+    <Image Name="mouse_watering_04" XPos="72" YPos="72" Width="70" Height="70" />
+    <Image Name="mouse_watering_05" XPos="142" YPos="72" Width="70" Height="70" />
+    <Image Name="mouse_watering_06" XPos="212" YPos="72" Width="70" Height="70" />
+    <Image Name="mouse_watering_07" XPos="282" YPos="72" Width="70" Height="70" />
+    <Image Name="mouse_watering_08" XPos="352" YPos="72" Width="70" Height="70" />
+    <Image Name="mouse_havest_01" XPos="422" YPos="72" Width="70" Height="70" />
+    <Image Name="mouse_havest_02" XPos="2" YPos="142" Width="70" Height="70" />
+    <Image Name="mouse_havest_03" XPos="72" YPos="142" Width="70" Height="70" />
+    <Image Name="mouse_havest_04" XPos="142" YPos="142" Width="70" Height="70" />
+    <Image Name="mouse_steal_01" XPos="212" YPos="142" Width="70" Height="70" />
+    <Image Name="mouse_steal_02" XPos="282" YPos="142" Width="70" Height="70" />
+    <Image Name="mouse_steal_03" XPos="352" YPos="142" Width="70" Height="70" />
+    <Image Name="mouse_steal_04" XPos="422" YPos="142" Width="70" Height="70" />
+    <Image Name="mouse_weeding_01" XPos="2" YPos="212" Width="70" Height="70" />
+    <Image Name="mouse_weeding_02" XPos="72" YPos="212" Width="70" Height="70" />
+    <Image Name="mouse_weeding_03" XPos="142" YPos="212" Width="70" Height="70" />
+    <Image Name="mouse_weeding_04" XPos="212" YPos="212" Width="70" Height="70" />
+    <Image Name="mouse_weeding_05" XPos="282" YPos="212" Width="70" Height="70" />
+    <Image Name="mouse_weeding_06" XPos="352" YPos="212" Width="70" Height="70" />
+    <Image Name="mouse_weeding_07" XPos="422" YPos="212" Width="70" Height="70" />
+    <Image Name="mouse_insecting_01" XPos="2" YPos="282" Width="70" Height="70" />
+    <Image Name="mouse_insecting_02" XPos="72" YPos="282" Width="70" Height="70" />
+    <Image Name="mouse_insecting_03" XPos="142" YPos="282" Width="70" Height="70" />
+    <Image Name="mouse_insecting_04" XPos="212" YPos="282" Width="70" Height="70" />
+    <Image Name="mouse_insecting_05" XPos="282" YPos="282" Width="70" Height="70" />
+    <Image Name="mouse_insecting_06" XPos="352" YPos="282" Width="70" Height="70" />
+    <Image Name="mouse_allharvest_01" XPos="422" YPos="282" Width="70" Height="70" />
+    <Image Name="mouse_allharvest_02" XPos="2" YPos="352" Width="70" Height="70" />
+    <Image Name="mouse_allharvest_03" XPos="72" YPos="352" Width="70" Height="70" />
+    <Image Name="mouse_allharvest_04" XPos="142" YPos="352" Width="70" Height="70" />
+    <Image Name="mouse_allharvest_05" XPos="212" YPos="352" Width="70" Height="70" />
+    <Image Name="mouse_allharvest_06" XPos="282" YPos="352" Width="70" Height="70" />
+    <Image Name="mouse_allharvest_07" XPos="352" YPos="352" Width="70" Height="70" />
+    <Image Name="mouse_allharvest_08" XPos="422" YPos="352" Width="70" Height="70" />
+    <Image Name="mouse_setweed_01" XPos="2" YPos="422" Width="70" Height="70" />
+    <Image Name="mouse_setweed_02" XPos="72" YPos="422" Width="70" Height="70" />
+</Imageset>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="chuangjian2" Imagefile="NewEQHomeUIimg\chuangjian2.png" >
+    <Image Name="NewImage1" XPos="7" YPos="94" Width="212" Height="207" />
+    <Image Name="NewImage2" XPos="246" YPos="94" Width="212" Height="207" />
+    <Image Name="NewImage3" XPos="7" YPos="4" Width="290" Height="82" />
+</Imageset>

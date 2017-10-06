@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="housedata" >
+        <Property Name="Text" Value="房屋信息" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,159},{0,99},{0,648},{0,403}}" />
+        <Window Type="NewEQHomeLook/NewTabControl1" Name="housedata/tab1" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="TabHeight" Value="{0,21}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,8},{0,28},{1,-8},{1,-4}}" />
+            <Window Type="DefaultWindow" Name="housedata/tab1/Tab 1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="房屋资料" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-1},{0,0},{1,-1},{1,0}}" />
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 1/txt1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="名    称：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,17},{0,76},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 1/txt1a" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,79},{0,15},{0,173},{0,37}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 1/txt3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="等    级：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,40},{0,76},{0,55}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 1/txt3a" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,79},{0,37},{0,173},{0,59}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 1/txt5" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="房产价值：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,12},{0,61},{0,77},{0,76}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 1/txt5a" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,79},{0,59},{0,173},{0,81}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 1/txt7" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="房屋清洁度：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,82},{0,88},{0,100}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 1/txt7a" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="100/100" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,79},{0,82},{0,173},{0,104}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 1/txt2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="人数上限：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,251},{0,17},{0,316},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 1/txt2a" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,319},{0,14},{0,413},{0,36}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 1/txt4" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="类    型：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,251},{0,40},{0,316},{0,55}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 1/txt4a" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,319},{0,37},{0,413},{0,59}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 1/txt6" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="购买日期：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,251},{0,61},{0,316},{0,76}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 1/txt6a" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,319},{0,59},{0,413},{0,81}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 1/txt8" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="设置欢迎语：" />
+                    <Property Name="TextColours" Value="tl:FFD33BFF tr:FFD33BFF bl:FFD33BFF br:FFD33BFF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,111},{0,90},{0,126}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewMultiLineEditbox1" Name="housedata/tab1/Tab 1/txt8a" >
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,129},{1,-10},{1,-39}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="SelectionBrushImage" Value="" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="housedata/tab1/Tab 2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="权限设置" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-1},{0,0},{1,-1},{1,0}}" />
+                <Window Type="NewEQHomeLook/NewRadioButton" Name="housedata/tab1/Tab 2/xuanxiang1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="无限制" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,43},{0,150},{0,63}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF00FFFC" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewRadioButton" Name="housedata/tab1/Tab 2/xuanxiang2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="允许好友访问" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,72},{0,150},{0,92}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF00FFFC" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 2/txt1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="房屋访问权限设定：" />
+                    <Property Name="TextColours" Value="tl:FFD33BFF tr:FFD33BFF bl:FFD33BFF br:FFD33BFF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,19},{0,150},{0,34}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 2/shuomingtxt1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="任何人都可以访问你的房间" />
+                    <Property Name="TextColours" Value="tl:FFFFF600 tr:FFFFF600 bl:FFFFF600 br:FFFFF600" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,157},{0,43},{0,347},{0,63}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 2/txt2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="家具使用权限设定：" />
+                    <Property Name="TextColours" Value="tl:FFD33BFF tr:FFD33BFF bl:FFD33BFF br:FFD33BFF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,102},{0,150},{0,117}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCheckbox" Name="housedata/tab1/Tab 2/xuanxiang3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="是否允许访客使用" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,131},{0,150},{0,151}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF00FFFC" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 2/shuomingtxt2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="只有好友才能访问你的房间" />
+                    <Property Name="TextColours" Value="tl:FFFFF600 tr:FFFFF600 bl:FFFFF600 br:FFFFF600" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,157},{0,72},{0,347},{0,92}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 2/shuomingtxt3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="允许访客使用你的部分家具" />
+                    <Property Name="TextColours" Value="tl:FFFFF600 tr:FFFFF600 bl:FFFFF600 br:FFFFF600" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,157},{0,131},{0,347},{0,151}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="housedata/tab1/Tab 3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="访问记录" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-1},{0,0},{1,-1},{1,0}}" />
+                <Window Type="EQHomeLook/ImageButton" Name="housedata/tab1/Tab 3/qingkongjilu" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="清空记录" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,39},{0,215},{0,109},{0,233}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF1BADAC" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="housedata/tab1/Tab 3/txt1" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{1,-5},{1,-41}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="housedata/tab1/Tab 5" >
+                <Property Name="Text" Value="送礼记录" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-1},{0,0},{1,-1},{1,0}}" />
+                <Window Type="EQHomeLook/ImageButton" Name="housedata/tab1/Tab 5/qingkongjilu" >
+                    <Property Name="Text" Value="清空记录" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,43},{0,209},{0,113},{0,235}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF1BADAC" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 5/leixing1" >
+                    <Property Name="Text" Value="显示你送出的快递礼盒记录" />
+                    <Property Name="TextColours" Value="tl:FFD33BFF tr:FFD33BFF bl:FFD33BFF br:FFD33BFF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,161},{0,5},{0,340},{0,30}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 5/leixing2" >
+                    <Property Name="TextColours" Value="tl:FF4F7DD8 tr:FF4F7DD8 bl:FF4F7DD8 br:FF4F7DD8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,32},{0,466},{0,188}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="housedata/tab1/Tab 5/fanye1" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage141" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,192},{0,195},{0,204},{0,207}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="housedata/tab1/Tab 5/fanye2" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage139" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,283},{0,195},{0,295},{0,207}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 5/fanye3" >
+                    <Property Name="Text" Value="000/000" />
+                    <Property Name="TextColours" Value="tl:FF4F7DD8 tr:FF4F7DD8 bl:FF4F7DD8 br:FF4F7DD8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,220},{0,190},{0,276},{0,210}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCombobox" Name="housedata/tab1/Tab 5/leixing" >
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,5},{0,156},{0,105}}" />
+                    <Property Name="MaxEditTextLength" Value="1073741823" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="housedata/tab1/Tab 5/xian1" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,199},{0,191},{0,202}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="housedata/tab1/Tab 5/xian2" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,296},{0,199},{1,-10},{0,202}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="housedata/tab1/Tab 6" >
+                <Property Name="Text" Value="收礼记录" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-1},{0,0},{1,-1},{1,0}}" />
+                <Window Type="EQHomeLook/ImageButton" Name="housedata/tab1/Tab 6/qingkongjilu" >
+                    <Property Name="Text" Value="清空记录" />
+                    <Property Name="Tooltip" Value="点击后清空记录" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,43},{0,209},{0,113},{0,235}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF1BADAC" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 6/leixing1" >
+                    <Property Name="Text" Value="显示你收到的快递礼盒记录" />
+                    <Property Name="TextColours" Value="tl:FFD33BFF tr:FFD33BFF bl:FFD33BFF br:FFD33BFF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,161},{0,5},{0,340},{0,30}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 6/leixing2" >
+                    <Property Name="TextColours" Value="tl:FF4F7DD8 tr:FF4F7DD8 bl:FF4F7DD8 br:FF4F7DD8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,32},{0,466},{0,188}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="housedata/tab1/Tab 6/fanye1" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage141" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,192},{0,195},{0,204},{0,207}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="housedata/tab1/Tab 6/fanye2" >
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage139" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,283},{0,195},{0,295},{0,207}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 6/fanye3" >
+                    <Property Name="Text" Value="000/000" />
+                    <Property Name="TextColours" Value="tl:FF4F7DD8 tr:FF4F7DD8 bl:FF4F7DD8 br:FF4F7DD8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,220},{0,190},{0,276},{0,210}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCombobox" Name="housedata/tab1/Tab 6/leixing" >
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,5},{0,156},{0,123}}" />
+                    <Property Name="MaxEditTextLength" Value="1073741823" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="housedata/tab1/Tab 6/xian1" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,199},{0,191},{0,202}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="housedata/tab1/Tab 6/xian2" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,296},{0,199},{1,-10},{0,202}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="housedata/tab1/Tab 7" >
+                <Property Name="Text" Value="房屋管理" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house1" >
+                    <Property Name="Font" Value="simsun-16" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,30},{0,228},{0,206}}" />
+                    <Window Type="EQHomeLook/ImageButton" Name="housedata/tab1/Tab 7/house1/lb1" >
+                        <Property Name="Text" Value="启用这套房屋" />
+                        <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+                        <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,1},{0,139},{0,27}}" />
+                        <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                        <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house1/lb2" >
+                        <Property Name="Text" Value="名　　称：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,30},{0,76},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house1/lb3" >
+                        <Property Name="Text" Value="等　　级：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,54},{0,76},{0,74}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house1/lb4" >
+                        <Property Name="Text" Value="房产价值：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,77},{0,76},{0,97}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house1/lb5" >
+                        <Property Name="Text" Value="人数上限：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,100},{0,76},{0,120}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house1/lb6" >
+                        <Property Name="Text" Value="类　　型：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,124},{0,76},{0,144}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house1/lb7" >
+                        <Property Name="Text" Value="购买日期：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,146},{0,76},{0,166}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house1/txt2" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,29},{0,200},{0,51}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house1/txt3" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,53},{0,200},{0,75}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house1/txt4" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,76},{0,200},{0,98}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house1/txt5" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,99},{0,200},{0,121}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house1/txt6" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,123},{0,200},{0,145}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house1/txt7" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,145},{0,200},{0,167}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house1/txt1" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,147},{0,5},{0,207},{0,27}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/txt1" >
+                    <Property Name="TextColours" Value="tl:FFD33BFF tr:FFD33BFF bl:FFD33BFF br:FFD33BFF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,209},{0,49},{0,233}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/txt11" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,47},{0,209},{0,284},{0,233}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/tishixiaoxi" >
+                    <Property Name="Text" Value="当前拥有的房屋" />
+                    <Property Name="TextColours" Value="tl:FFD33BFF tr:FFD33BFF bl:FFD33BFF br:FFD33BFF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,5},{0,141},{0,25}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/tishixiaoxi1" >
+                    <Property Name="TextColours" Value="tl:FFD33BFF tr:FFD33BFF bl:FFD33BFF br:FFD33BFF" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,141},{0,5},{0,227},{0,25}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house2" >
+                    <Property Name="Font" Value="simsun-16" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,246},{0,30},{0,464},{0,206}}" />
+                    <Window Type="EQHomeLook/ImageButton" Name="housedata/tab1/Tab 7/house2/lb1" >
+                        <Property Name="Text" Value="启用这套房屋" />
+                        <Property Name="HoverImage" Value="set:Button5 image:NewImage432" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button5 image:NewImage431" />
+                        <Property Name="PushedImage" Value="set:Button5 image:NewImage433" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,7},{0,1},{0,139},{0,27}}" />
+                        <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                        <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house2/lb2" >
+                        <Property Name="Text" Value="名　　称：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,30},{0,76},{0,50}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house2/lb3" >
+                        <Property Name="Text" Value="等　　级：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,54},{0,76},{0,74}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house2/lb4" >
+                        <Property Name="Text" Value="房产价值：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,77},{0,76},{0,97}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house2/lb5" >
+                        <Property Name="Text" Value="人数上限：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,100},{0,76},{0,120}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house2/lb6" >
+                        <Property Name="Text" Value="类　　型：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,124},{0,76},{0,144}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="housedata/tab1/Tab 7/house2/lb7" >
+                        <Property Name="Text" Value="购买日期：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,146},{0,76},{0,166}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house2/txt2" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,30},{0,200},{0,52}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house2/txt3" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,54},{0,200},{0,76}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house2/txt4" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,77},{0,200},{0,99}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house2/txt5" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,100},{0,200},{0,122}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house2/txt6" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,124},{0,200},{0,146}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house2/txt7" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,75},{0,146},{0,200},{0,168}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticText1" Name="housedata/tab1/Tab 7/house2/txt1" >
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,147},{0,5},{0,207},{0,27}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="housedata/queding" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="确 定" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,313},{0,257},{0,363},{0,283}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="housedata/quxiao" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="取 消" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage338" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage336" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage340" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,386},{0,257},{0,436},{0,283}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+    </Window>
+</GUILayout>

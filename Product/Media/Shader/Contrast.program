@@ -1,0 +1,7 @@
+//Contrast
+fragment_program Ogre/Compositor/Contrast_FP cg
+{
+	source Contrast.cg
+	entry_point Contrast_ps
+	profiles ps_2_0 arbfp1
+}

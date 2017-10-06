@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage7" Name="DefaultWindow" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-140},{0.5,-120},{0.5,139},{0.5,120}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="DefaultWindow/putong" >
+            <Property Name="Tooltip" Value="普通瓶" />
+            <Property Name="HoverImage" Value="set:drifting_face1 image:NewImage1" />
+            <Property Name="NormalImage" Value="set:drifting_face image:NewImage1" />
+            <Property Name="PushedImage" Value="set:drifting_face2 image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,21},{0,22},{0,109},{0,110}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DefaultWindow/jiaowang" >
+            <Property Name="Tooltip" Value="交往瓶" />
+            <Property Name="HoverImage" Value="set:drifting_face1 image:NewImage2" />
+            <Property Name="NormalImage" Value="set:drifting_face image:NewImage6" />
+            <Property Name="PushedImage" Value="set:drifting_face2 image:NewImage2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,165},{0,24},{0,253},{0,112}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="DefaultWindow/guanbi" >
+            <Property Name="Text" Value="返 回" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,112},{0,202},{0,161},{0,228}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="DefaultWindow/1" >
+            <Property Name="Text" >普通瓶：你可
+以写上你想诉
+说的任何事，
+会有人看到的</Property>
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-116},{0.50394,-4},{0.75,-104},{0.789397,-7}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="DefaultWindow/11" >
+            <Property Name="Text" >交往瓶：你可
+以选择你想交
+往的对象的条
+件，附上你想
+说的话。</Property>
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.55,17},{0.55394,-16},{0.8,29},{0.780301,5}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

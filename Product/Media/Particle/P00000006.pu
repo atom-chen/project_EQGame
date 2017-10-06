@@ -1,0 +1,46 @@
+system P00000006
+{
+    technique Technique9
+    {
+        visual_particle_quota                   20
+        material                                yinhc1
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box Emitter10
+        {
+            emission_rate                       dyn_random
+            {
+                min                             1
+                max                             3
+            }
+            angle                               90
+            time_to_live                        2
+            velocity                            0
+            all_particle_dimensions             dyn_random
+            {
+                min                             10
+                max                             30
+            }
+            position                            0 100 0
+            box_em_width                        150
+            box_em_height                       50
+            box_em_depth                        150
+        }
+        affector                                Randomiser Affector7
+        {
+            rand_aff_max_deviation_x            20
+            rand_aff_max_deviation_y            20
+            rand_aff_max_deviation_z            20
+            rand_aff_time_step                  0.5
+        }
+        affector                                Colour Affector8
+        {
+            colour_aff_time_colour              0    0.894118 1 0.533333 0
+            colour_aff_time_colour              0.2  0.894118 1 0.533333 0.784314
+            colour_aff_time_colour              0.5  0.894118 1 0.533333 0
+            colour_aff_time_colour              0.8  0.894118 1 0.533333 0.784314
+            colour_aff_time_colour              1    0.894118 1 0.533333 0
+        }
+    }
+}

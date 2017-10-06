@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow(WithGrayBg)" Name="newbie_task_background" >
+        <Property Name="Text" Value="                      新手引导" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,50},{0,50},{0,410},{0,320}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="newbie_task_background/img" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,25},{1,-10},{1,-46}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="newbie_task_background/pg_up" >
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton1_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton1_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton1_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,40},{1,-40},{0,62},{1,-19}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="newbie_task_background/pg_down" >
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton2_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton2_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton2_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-62},{1,-40},{1,-40},{1,-19}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="newbie_task_background/pgup_text" >
+            <Property Name="Text" Value="上一页" />
+            <Property Name="TextColours" Value="tl:FF0019AE tr:FF0019AE bl:FF0019AE br:FF0019AE" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,65},{1,-40},{0,120},{1,-19}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="newbie_task_background/pgdown_text" >
+            <Property Name="Text" Value="下一页" />
+            <Property Name="TextColours" Value="tl:FF0019AE tr:FF0019AE bl:FF0019AE br:FF0019AE" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-425},{1,-40},{1,-370},{1,-19}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="newbie_task_background/got_it" >
+            <Property Name="Text" Value="我明白了" />
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-105},{1,-40},{1,-40},{1,-18}}" />
+            <Property Name="NormalTextColour" Value="FF0019AE" />
+            <Property Name="PushedTextColour" Value="FF0019AE" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="newbie_task_background/done" >
+            <Property Name="Text" Value="确定" />
+            <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+            <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,160},{1,-40},{0,200},{1,-18}}" />
+            <Property Name="NormalTextColour" Value="FF0019AE" />
+            <Property Name="PushedTextColour" Value="FF0019AE" />
+        </Window>
+    </Window>
+</GUILayout>

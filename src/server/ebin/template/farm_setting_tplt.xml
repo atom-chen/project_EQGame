@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<farm_setting_tplt>
+		<water>谢谢帮忙，你真是个好人！</water>
+		<weed>谢谢你，杂草清除干净了！</weed>
+		<worm>谢谢你，害虫清除干净了！</worm>
+		<put_grass>缺德啊！竟然做这种坏事！</put_grass>
+		<put_pest>可恶啊！你真不是个好人！</put_pest>
+	</farm_setting_tplt>
+</root>

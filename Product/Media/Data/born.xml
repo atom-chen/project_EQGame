@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<born>
+		<id>10000</id>
+		<pos>327 0 -600</pos>
+		<dir>0</dir>
+		<lookat>144 120 585</lookat>
+		<pitch>23</pitch>
+		<yaw>2</yaw>
+		<zoom>1136</zoom>
+	</born>
+	<born>
+		<id>1</id>
+		<pos>-601 0 1068</pos>
+		<dir>89</dir>
+		<lookat>-601 120 1068</lookat>
+		<pitch>14</pitch>
+		<yaw>173</yaw>
+		<zoom>823</zoom>
+	</born>
+	<born>
+		<id>2</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>3</id>
+		<pos>3747 0 1164</pos>
+		<dir>-179</dir>
+		<lookat>3747 120 1164</lookat>
+		<pitch>20</pitch>
+		<yaw>270</yaw>
+		<zoom>703</zoom>
+	</born>
+	<born>
+		<id>4</id>
+		<pos>174 0 238</pos>
+		<dir>174</dir>
+		<lookat>174 120 238</lookat>
+		<pitch>29</pitch>
+		<yaw>270</yaw>
+		<zoom>997</zoom>
+	</born>
+	<born>
+		<id>5</id>
+		<pos>13 0 398</pos>
+		<dir>87</dir>
+		<lookat>13 120 398</lookat>
+		<pitch>31</pitch>
+		<yaw>182</yaw>
+		<zoom>886</zoom>
+	</born>
+	<born>
+		<id>6</id>
+		<pos>19 0 368</pos>
+		<dir>89</dir>
+		<lookat>19 120 368</lookat>
+		<pitch>26</pitch>
+		<yaw>184</yaw>
+		<zoom>904</zoom>
+	</born>
+	<born>
+		<id>7</id>
+		<pos>170 0 2</pos>
+		<dir>167</dir>
+		<lookat>194 120 -5</lookat>
+		<pitch>30</pitch>
+		<yaw>271</yaw>
+		<zoom>925</zoom>
+	</born>
+	<born>
+		<id>8</id>
+		<pos>320 0 157</pos>
+		<dir>-179</dir>
+		<lookat>320 120 157</lookat>
+		<pitch>15</pitch>
+		<yaw>269</yaw>
+		<zoom>942</zoom>
+	</born>
+	<born>
+		<id>9</id>
+		<pos>-39 0 329</pos>
+		<dir>88</dir>
+		<lookat>-38 120 327</lookat>
+		<pitch>34</pitch>
+		<yaw>180</yaw>
+		<zoom>966</zoom>
+	</born>
+	<born>
+		<id>10</id>
+		<pos>2594 0 1594</pos>
+		<dir>174</dir>
+		<lookat>2594 120 1594</lookat>
+		<pitch>18</pitch>
+		<yaw>92</yaw>
+		<zoom>659</zoom>
+	</born>
+	<born>
+		<id>11</id>
+		<pos>2496 0 -879</pos>
+		<dir>-175</dir>
+		<lookat>2496 120 -879</lookat>
+		<pitch>21</pitch>
+		<yaw>92</yaw>
+		<zoom>662</zoom>
+	</born>
+	<born>
+		<id>12</id>
+		<pos>2622 0 311</pos>
+		<dir>178</dir>
+		<lookat>2622 120 311</lookat>
+		<pitch>22</pitch>
+		<yaw>92</yaw>
+		<zoom>624</zoom>
+	</born>
+	<born>
+		<id>13</id>
+		<pos>1107 0 2283</pos>
+		<dir>88</dir>
+		<lookat>1107 120 2283</lookat>
+		<pitch>15</pitch>
+		<yaw>0</yaw>
+		<zoom>684</zoom>
+	</born>
+	<born>
+		<id>14</id>
+		<pos>2618 0 -2610</pos>
+		<dir>-178</dir>
+		<lookat>2609 120 -2217</lookat>
+		<pitch>18</pitch>
+		<yaw>90</yaw>
+		<zoom>922</zoom>
+	</born>
+	<born>
+		<id>15</id>
+		<pos>-1059 0 2513</pos>
+		<dir>93</dir>
+		<lookat>-1059 120 2513</lookat>
+		<pitch>14</pitch>
+		<yaw>1</yaw>
+		<zoom>660</zoom>
+	</born>
+	<born>
+		<id>16</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>17</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>18</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>19</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>20</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>21</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>22</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>23</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>24</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>25</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>26</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>27</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>28</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>29</id>
+		<pos>-4 0 113</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>30</id>
+		<pos>20 0 276</pos>
+		<dir>270</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>31</id>
+		<pos>129 0 119</pos>
+		<dir>270</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>32</id>
+		<pos>-20 0 82</pos>
+		<dir>270</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>33</id>
+		<pos>117 0 155</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>34</id>
+		<pos>-48 0 5</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>35</id>
+		<pos>-488 -17 -2491</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>36</id>
+		<pos>289 0 -200</pos>
+		<dir>-142</dir>
+		<lookat>289 120 -200</lookat>
+		<pitch>26</pitch>
+		<yaw>311</yaw>
+		<zoom>432</zoom>
+	</born>
+	<born>
+		<id>37</id>
+		<pos>209 0 197</pos>
+		<dir>141</dir>
+		<lookat>209 120 197</lookat>
+		<pitch>20</pitch>
+		<yaw>228</yaw>
+		<zoom>402</zoom>
+	</born>
+	<born>
+		<id>38</id>
+		<pos>365 0 359</pos>
+		<dir>154</dir>
+		<lookat>365 120 359</lookat>
+		<pitch>23</pitch>
+		<yaw>235</yaw>
+		<zoom>410</zoom>
+	</born>
+	<born>
+		<id>39</id>
+		<pos>366 0 -125</pos>
+		<dir>-146</dir>
+		<lookat>366 120 -125</lookat>
+		<pitch>21</pitch>
+		<yaw>302</yaw>
+		<zoom>411</zoom>
+	</born>
+	<born>
+		<id>40</id>
+		<pos>40 0 367</pos>
+		<dir>81</dir>
+		<lookat>40 120 367</lookat>
+		<pitch>26</pitch>
+		<yaw>168</yaw>
+		<zoom>436</zoom>
+	</born>
+	<born>
+		<id>41</id>
+		<pos>-119 0 -450</pos>
+		<dir>-93</dir>
+		<lookat>-119 120 -450</lookat>
+		<pitch>20</pitch>
+		<yaw>348</yaw>
+		<zoom>421</zoom>
+	</born>
+	<born>
+		<id>42</id>
+		<pos>452 0 275</pos>
+		<dir>-178</dir>
+		<lookat>452 120 275</lookat>
+		<pitch>22</pitch>
+		<yaw>278</yaw>
+		<zoom>411</zoom>
+	</born>
+	<born>
+		<id>43</id>
+		<pos>372 0 276</pos>
+		<dir>-175</dir>
+		<lookat>372 120 276</lookat>
+		<pitch>20</pitch>
+		<yaw>275</yaw>
+		<zoom>402</zoom>
+	</born>
+	<born>
+		<id>44</id>
+		<pos>285 0 371</pos>
+		<dir>111</dir>
+		<lookat>285 120 371</lookat>
+		<pitch>23</pitch>
+		<yaw>188</yaw>
+		<zoom>416</zoom>
+	</born>
+	<born>
+		<id>45</id>
+		<pos>768 0 276</pos>
+		<dir>160</dir>
+		<lookat>768 120 276</lookat>
+		<pitch>17</pitch>
+		<yaw>253</yaw>
+		<zoom>623</zoom>
+	</born>
+	<born>
+		<id>46</id>
+		<pos>845 0 282</pos>
+		<dir>166</dir>
+		<lookat>845 120 282</lookat>
+		<pitch>18</pitch>
+		<yaw>254</yaw>
+		<zoom>611</zoom>
+	</born>
+	<born>
+		<id>47</id>
+		<pos>611 0 766</pos>
+		<dir>157</dir>
+		<lookat>611 120 766</lookat>
+		<pitch>20</pitch>
+		<yaw>243</yaw>
+		<zoom>587</zoom>
+	</born>
+	<born>
+		<id>48</id>
+		<pos>609 0 -38</pos>
+		<dir>-180</dir>
+		<lookat>609 120 -38</lookat>
+		<pitch>26</pitch>
+		<yaw>267</yaw>
+		<zoom>431</zoom>
+	</born>
+	<born>
+		<id>49</id>
+		<pos>50 0 365</pos>
+		<dir>92</dir>
+		<lookat>50 120 365</lookat>
+		<pitch>20</pitch>
+		<yaw>169</yaw>
+		<zoom>385</zoom>
+	</born>
+	<born>
+		<id>50</id>
+		<pos>-72 0 441</pos>
+		<dir>105</dir>
+		<lookat>-72 120 441</lookat>
+		<pitch>20</pitch>
+		<yaw>203</yaw>
+		<zoom>504</zoom>
+	</born>
+	<born>
+		<id>51</id>
+		<pos>-663 0 523</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>52</id>
+		<pos>2416 0 918</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>53</id>
+		<pos>-2074 0 1182</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>54</id>
+		<pos>-1263 0 -510</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>55</id>
+		<pos>-2024 0 1515</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>56</id>
+		<pos>132 0 -612</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>57</id>
+		<pos>-1271 0 -2219</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>58</id>
+		<pos>2098 0 1609</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>59</id>
+		<pos>2435 0 -450</pos>
+		<dir>0</dir>
+		<lookat>0</lookat>
+		<pitch>0</pitch>
+		<yaw>0</yaw>
+		<zoom>0</zoom>
+	</born>
+	<born>
+		<id>60</id>
+		<pos>-2467 0 -800</pos>
+		<dir>1</dir>
+		<lookat>-2467 120 -800</lookat>
+		<pitch>20</pitch>
+		<yaw>93</yaw>
+		<zoom>781</zoom>
+	</born>
+	<born>
+		<id>61</id>
+		<pos>-2265 0 1841</pos>
+		<dir>1</dir>
+		<lookat>-2265 120 1841</lookat>
+		<pitch>13</pitch>
+		<yaw>90</yaw>
+		<zoom>377</zoom>
+	</born>
+</root>

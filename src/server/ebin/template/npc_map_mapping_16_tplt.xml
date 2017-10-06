@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<npc_map_mapping_tplt>
+		<id>1</id>
+		<npc_id>24</npc_id>
+		<npc_name>&lt;售楼处&gt;德拉戈</npc_name>
+		<born_id>34</born_id>
+		<script_id>1</script_id>
+		<action>0</action>
+		<towards>0</towards>
+	</npc_map_mapping_tplt>
+</root>

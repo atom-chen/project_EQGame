@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<List Directory="firefox/">
+  <Group Directory="images/" Type="GROUP_TYPE_DIR">
+    <Item File="Blue hills.jpg" Path="C:\Documents and Settings\All Users\Documents\My Pictures\Ê¾ÀýÍ¼Æ¬\Blue hills.jpg" Code="6FB2A38DC107EACB41CF1656E899CF70" />
+    <Item File="Sunset.jpg" Path="C:\Documents and Settings\All Users\Documents\My Pictures\Ê¾ÀýÍ¼Æ¬\Sunset.jpg" Code="1BC5B77F3E50B7FBE12C792EE438DA45" />
+    <Item File="Water lilies.jpg" Path="C:\Documents and Settings\All Users\Documents\My Pictures\Ê¾ÀýÍ¼Æ¬\Water lilies.jpg" Code="070CF6787AA56FBDAA1B2FD98708C34C" />
+    <Item File="Winter.jpg" Path="C:\Documents and Settings\All Users\Documents\My Pictures\Ê¾ÀýÍ¼Æ¬\Winter.jpg" Code="B44A59383B3123A747D139BD0E71D2DF" />
+  </Group>
+</List>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="buy_dog_food_confirm" >
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,20},{0,50},{0,280},{0,230}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="buy_dog_food_confirm/background" >
+            <Property Name="Image" Value="set:common1 image:Window5_Mid" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,25},{1,-5},{1,-5}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="buy_dog_food_confirm/background/icon" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,-32},{0,8},{0.5,32},{0,72}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog_food_confirm/background/confirm_txt" >
+                <Property Name="Text" Value="您购买的物品需要支付     EQ币，" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,20},{0,75},{1,-20},{0,90}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="EQHomeLook/StaticText" Name="buy_dog_food_confirm/background/confirm_txt/count" >
+                    <Property Name="Text" Value="100" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,135},{0,0},{0,160},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog_food_confirm/background/confirm_txt2" >
+                <Property Name="Text" Value="确认支付吗？" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,60},{0,93},{0,180},{0,108}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="buy_dog_food_confirm/background/done" >
+                <Property Name="Text" Value="确定" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,60},{0,115},{0,105},{0,132}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="buy_dog_food_confirm/background/cancle" >
+                <Property Name="Text" Value="取消" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,115},{0,190},{0,132}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<npc_map_mapping_tplt>
+		<id>1</id>
+		<npc_id>1</npc_id>
+		<npc_name>test_npc</npc_name>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<script_id>1</script_id>
+		<action>2</action>
+		<key>npc_1_seller</key>
+	</npc_map_mapping_tplt>
+</root>

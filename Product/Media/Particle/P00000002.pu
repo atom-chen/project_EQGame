@@ -1,0 +1,96 @@
+system P00000002
+{
+    technique Technique19
+    {
+        visual_particle_quota                   50
+        material                                PUMediaPack/Smoke_11
+        default_particle_width                  30
+        default_particle_height                 30
+        default_particle_depth                  30
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box Emitter24
+        {
+            emission_rate                       4
+            angle                               30
+            time_to_live                        5
+            velocity                            4
+            box_em_width                        15
+            box_em_height                       5
+            box_em_depth                        15
+        }
+        affector                                Scale Affector28
+        {
+            xyz_scale                           dyn_curved_linear
+            {
+                control_point                   0 20
+                control_point                   0 20
+                control_point                   20 100
+            }
+        }
+        affector                                Colour Affector29
+        {
+            colour_aff_time_colour              0    0.486275 0.764706 0.529412 0.0784314
+            colour_aff_time_colour              0.6  0.556863 0.839216 0.611765 0.156863
+            colour_aff_time_colour              1    0.792157 0.909804 0.792157 0
+        }
+    }
+    technique Technique114
+    {
+        visual_particle_quota                   3
+        material                                cangying1
+        default_particle_width                  4.5
+        default_particle_height                 4.5
+        default_particle_depth                  4.5
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Circle Emitter132
+        {
+            emission_rate                       3
+            angle                               40
+            time_to_live                        9999
+            velocity                            0
+            position                            0 50 0
+            circle_em_radius                    18
+        }
+        affector                                Vortex Affector89
+        {
+            vortex_aff_vector                   0 1 0
+            vortex_aff_speed                    dyn_random
+            {
+                min                             1.5
+                max                             2.5
+            }
+        }
+    }
+    technique Technique115
+    {
+        visual_particle_quota                   2
+        material                                cangying1
+        default_particle_width                  5
+        default_particle_height                 5
+        default_particle_depth                  5
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Circle Emitter133
+        {
+            emission_rate                       2
+            time_to_live                        9999
+            velocity                            0
+            position                            0 50 0
+            circle_em_radius                    4
+        }
+        affector                                Vortex Affector90
+        {
+            vortex_aff_vector                   -0.5 1 0
+            vortex_aff_speed                    dyn_random
+            {
+                min                             -2
+                max                             -2.5
+            }
+        }
+    }
+}

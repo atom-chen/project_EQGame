@@ -1,0 +1,1 @@
+erl -run stress_robot start 10.35.12.224 2222 test2

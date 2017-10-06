@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage" Name="lao" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-246},{0.5,-230},{0.5,246},{0.5,230}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="lao1" >
+            <Property Name="Image" Value="set:drifting_5 image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-244},{0.5,-226},{0.5,0},{0.5,0}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="lao2" >
+            <Property Name="Image" Value="set:drifting_6 image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,-226},{0.5,244},{0.5,0}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="lao3" >
+            <Property Name="Image" Value="set:drifting_7 image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-244},{0.5,0},{0.5,0},{0.5,226}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="lao4" >
+            <Property Name="Image" Value="set:drifting_8 image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,0},{0.5,244},{0.5,226}}" />
+        </Window>
+    </Window>
+</GUILayout>

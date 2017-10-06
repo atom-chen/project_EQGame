@@ -1,0 +1,13 @@
+#某一类文件
+*.pdb
+*.log
+#特殊文件
+EQClient_dr.exe
+EQFarm_dr.exe
+#特定目录
+?BinDebug
+?download
+?Log
+?Error
+?Screenshots
+?.svn

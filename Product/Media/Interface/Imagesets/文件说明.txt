@@ -1,0 +1,9 @@
+EQHomeUIimg文件夹		存放界面控件的相关icon
+
+EQFarmIcon文件夹		存放农场相关icon
+EQHomeDressIcons文件夹	存放服饰相关icon
+EQHomeFurnitureIcon文件夹	存放家具相关icon
+ExpressionIcon文件夹		存放聊天表情相关icon
+LoadingIcon文件夹		存放loading图
+NoviceGuidesIcon文件夹	存放新手引导相关icon
+EQtpltIcon文件夹		存放

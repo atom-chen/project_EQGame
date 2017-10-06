@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow3" Name="Root/chaifen" >
+        <Property Name="Font" Value="simsun-10" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-82},{0.5,-93},{0.5,82},{0.5,93}}" />
+        <Window Type="NewEQHomeLook/NewStaticImage5" Name="Root/chaifen/background" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,2},{0,22},{1,-2},{1,0}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/num1" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage50" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage51" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage52" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,11},{0,35},{0,41},{0,65}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/num2" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage54" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage53" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage55" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,41},{0,35},{0,71},{0,65}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/num3" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage61" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage56" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage58" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,71},{0,35},{0,101},{0,65}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/num4" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage63" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage59" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage64" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,11},{0,65},{0,41},{0,95}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/num5" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage66" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage57" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage67" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,41},{0,65},{0,71},{0,95}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/num6" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage69" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage60" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage158" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,71},{0,65},{0,101},{0,95}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton(whitefont)" Name="Root/chaifen/background/all" >
+                <Property Name="Text" Value="所 有" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,104},{0,65},{0,151},{0,91}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/num7" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage157" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage62" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage159" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,11},{0,95},{0,41},{0,125}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/num8" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage72" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage65" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage162" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,41},{0,95},{0,71},{0,125}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/num9" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage73" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage68" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage161" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,71},{0,95},{0,101},{0,125}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton(whitefont)" Name="Root/chaifen/background/clear" >
+                <Property Name="Text" Value="清 空" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,104},{0,95},{0,151},{0,121}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/num0" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage70" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage71" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage160" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,11},{0,125},{0,41},{0,155}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/chaifen/background/done" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="确 定" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,105},{0,125},{0,150},{0,151}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage5" Name="Root/chaifen/background/editbg" >
+                <Property Name="Image" Value="set:windows1 image:background24" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,6},{0,4},{1,-6},{0,35}}" />
+                <Window Type="NewEQHomeLook/NewEditbox" Name="Root/chaifen/background/editbg/edit" >
+                    <Property Name="Text" Value="99999999" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{1,-2},{1,-2}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/ImageButton(whitefont)" Name="Root/chaifen/background/backspace" >
+                <Property Name="Text" Value="后 退" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,104},{0,35},{0,151},{0,61}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<House>
+    <Material file="00005002.material" />
+    <Floors rootNO="1">
+        <Floor NO="1" height="0">
+            <Grids>
+                <Grid type="130" x="-8" z="-7" room="0" />
+                <Grid type="130" x="-8" z="-6" room="0" />
+                <Grid type="130" x="-8" z="-5" room="0" />
+                <Grid type="130" x="-8" z="-4" room="0" />
+                <Grid type="130" x="-8" z="-3" room="0" />
+                <Grid type="130" x="-7" z="-8" room="0" />
+                <Grid type="128" x="-7" z="-7" room="5" />
+                <Grid type="128" x="-7" z="-6" room="5" />
+                <Grid type="128" x="-7" z="-5" room="5" />
+                <Grid type="128" x="-7" z="-4" room="5" />
+                <Grid type="128" x="-7" z="-3" room="5" />
+                <Grid type="129" x="-7" z="-2" room="0" />
+                <Grid type="129" x="-7" z="-1" room="0" />
+                <Grid type="129" x="-7" z="0" room="0" />
+                <Grid type="129" x="-7" z="1" room="0" />
+                <Grid type="129" x="-7" z="2" room="0" />
+                <Grid type="129" x="-7" z="3" room="0" />
+                <Grid type="129" x="-7" z="4" room="0" />
+                <Grid type="130" x="-6" z="-8" room="0" />
+                <Grid type="128" x="-6" z="-7" room="5" />
+                <Grid type="128" x="-6" z="-6" room="5" />
+                <Grid type="128" x="-6" z="-5" room="5" />
+                <Grid type="128" x="-6" z="-4" room="5" />
+                <Grid type="128" x="-6" z="-3" room="5" />
+                <Grid type="129" x="-6" z="-2" room="0" />
+                <Grid type="129" x="-6" z="-1" room="0" />
+                <Grid type="129" x="-6" z="0" room="0" />
+                <Grid type="129" x="-6" z="1" room="0" />
+                <Grid type="129" x="-6" z="2" room="0" />
+                <Grid type="129" x="-6" z="3" room="0" />
+                <Grid type="129" x="-6" z="4" room="0" />
+                <Grid type="130" x="-5" z="-8" room="0" />
+                <Grid type="128" x="-5" z="-7" room="5" />
+                <Grid type="128" x="-5" z="-6" room="5" />
+                <Grid type="128" x="-5" z="-5" room="5" />
+                <Grid type="128" x="-5" z="-4" room="5" />
+                <Grid type="128" x="-5" z="-3" room="5" />
+                <Grid type="129" x="-5" z="-2" room="0" />
+                <Grid type="129" x="-5" z="-1" room="0" />
+                <Grid type="129" x="-5" z="0" room="0" />
+                <Grid type="129" x="-5" z="1" room="0" />
+                <Grid type="129" x="-5" z="2" room="0" />
+                <Grid type="129" x="-5" z="3" room="0" />
+                <Grid type="129" x="-5" z="4" room="0" />
+                <Grid type="130" x="-4" z="-8" room="0" />
+                <Grid type="128" x="-4" z="-7" room="5" />
+                <Grid type="128" x="-4" z="-6" room="5" />
+                <Grid type="128" x="-4" z="-5" room="5" />
+                <Grid type="128" x="-4" z="-4" room="5" />
+                <Grid type="128" x="-4" z="-3" room="5" />
+                <Grid type="128" x="-4" z="-2" room="1" />
+                <Grid type="128" x="-4" z="-1" room="1" />
+                <Grid type="128" x="-4" z="0" room="1" />
+                <Grid type="128" x="-4" z="1" room="1" />
+                <Grid type="128" x="-4" z="2" room="1" />
+                <Grid type="128" x="-4" z="3" room="1" />
+                <Grid type="128" x="-4" z="4" room="1" />
+                <Grid type="130" x="-4" z="5" room="0" />
+                <Grid type="130" x="-3" z="-8" room="0" />
+                <Grid type="128" x="-3" z="-7" room="5" />
+                <Grid type="128" x="-3" z="-6" room="5" />
+                <Grid type="128" x="-3" z="-5" room="5" />
+                <Grid type="128" x="-3" z="-4" room="5" />
+                <Grid type="128" x="-3" z="-3" room="5" />
+                <Grid type="128" x="-3" z="-2" room="1" />
+                <Grid type="128" x="-3" z="-1" room="1" />
+                <Grid type="128" x="-3" z="0" room="1" />
+                <Grid type="128" x="-3" z="1" room="1" />
+                <Grid type="128" x="-3" z="2" room="1" />
+                <Grid type="128" x="-3" z="3" room="1" />
+                <Grid type="128" x="-3" z="4" room="1" />
+                <Grid type="130" x="-3" z="5" room="0" />
+                <Grid type="130" x="-2" z="-8" room="0" />
+                <Grid type="128" x="-2" z="-7" room="5" />
+                <Grid type="128" x="-2" z="-6" room="5" />
+                <Grid type="128" x="-2" z="-5" room="5" />
+                <Grid type="128" x="-2" z="-4" room="5" />
+                <Grid type="128" x="-2" z="-3" room="5" />
+                <Grid type="128" x="-2" z="-2" room="1" />
+                <Grid type="128" x="-2" z="-1" room="1" />
+                <Grid type="128" x="-2" z="0" room="1" />
+                <Grid type="128" x="-2" z="1" room="1" />
+                <Grid type="128" x="-2" z="2" room="1" />
+                <Grid type="128" x="-2" z="3" room="1" />
+                <Grid type="128" x="-2" z="4" room="1" />
+                <Grid type="130" x="-2" z="5" room="0" />
+                <Grid type="130" x="-1" z="-8" room="0" />
+                <Grid type="128" x="-1" z="-7" room="4" />
+                <Grid type="128" x="-1" z="-6" room="4" />
+                <Grid type="128" x="-1" z="-5" room="4" />
+                <Grid type="128" x="-1" z="-4" room="4" />
+                <Grid type="128" x="-1" z="-3" room="4" />
+                <Grid type="128" x="-1" z="-2" room="1" />
+                <Grid type="128" x="-1" z="-1" room="1" />
+                <Grid type="128" x="-1" z="0" room="1" />
+                <Grid type="128" x="-1" z="1" room="1" />
+                <Grid type="128" x="-1" z="2" room="1" />
+                <Grid type="128" x="-1" z="3" room="1" />
+                <Grid type="128" x="-1" z="4" room="1" />
+                <Grid type="130" x="-1" z="5" room="0" />
+                <Grid type="130" x="0" z="-8" room="0" />
+                <Grid type="128" x="0" z="-7" room="4" />
+                <Grid type="128" x="0" z="-6" room="4" />
+                <Grid type="128" x="0" z="-5" room="4" />
+                <Grid type="128" x="0" z="-4" room="4" />
+                <Grid type="128" x="0" z="-3" room="4" />
+                <Grid type="128" x="0" z="-2" room="1" />
+                <Grid type="128" x="0" z="-1" room="1" />
+                <Grid type="128" x="0" z="0" room="1" />
+                <Grid type="128" x="0" z="1" room="1" />
+                <Grid type="128" x="0" z="2" room="1" />
+                <Grid type="128" x="0" z="3" room="1" />
+                <Grid type="128" x="0" z="4" room="1" />
+                <Grid type="130" x="0" z="5" room="0" />
+                <Grid type="130" x="1" z="-8" room="0" />
+                <Grid type="128" x="1" z="-7" room="4" />
+                <Grid type="128" x="1" z="-6" room="4" />
+                <Grid type="128" x="1" z="-5" room="4" />
+                <Grid type="128" x="1" z="-4" room="4" />
+                <Grid type="128" x="1" z="-3" room="4" />
+                <Grid type="128" x="1" z="-2" room="1" />
+                <Grid type="128" x="1" z="-1" room="1" />
+                <Grid type="128" x="1" z="0" room="1" />
+                <Grid type="128" x="1" z="1" room="1" />
+                <Grid type="128" x="1" z="2" room="1" />
+                <Grid type="128" x="1" z="3" room="1" />
+                <Grid type="128" x="1" z="4" room="1" />
+                <Grid type="130" x="1" z="5" room="0" />
+                <Grid type="130" x="2" z="-8" room="0" />
+                <Grid type="128" x="2" z="-7" room="4" />
+                <Grid type="128" x="2" z="-6" room="4" />
+                <Grid type="128" x="2" z="-5" room="4" />
+                <Grid type="128" x="2" z="-4" room="4" />
+                <Grid type="128" x="2" z="-3" room="4" />
+                <Grid type="128" x="2" z="-2" room="1" />
+                <Grid type="128" x="2" z="-1" room="1" />
+                <Grid type="128" x="2" z="0" room="1" />
+                <Grid type="128" x="2" z="1" room="1" />
+                <Grid type="128" x="2" z="2" room="1" />
+                <Grid type="128" x="2" z="3" room="1" />
+                <Grid type="128" x="2" z="4" room="1" />
+                <Grid type="130" x="2" z="5" room="0" />
+                <Grid type="130" x="3" z="-8" room="0" />
+                <Grid type="128" x="3" z="-7" room="4" />
+                <Grid type="128" x="3" z="-6" room="4" />
+                <Grid type="128" x="3" z="-5" room="4" />
+                <Grid type="128" x="3" z="-4" room="4" />
+                <Grid type="128" x="3" z="-3" room="4" />
+                <Grid type="128" x="3" z="-2" room="1" />
+                <Grid type="128" x="3" z="-1" room="1" />
+                <Grid type="128" x="3" z="0" room="1" />
+                <Grid type="128" x="3" z="1" room="1" />
+                <Grid type="128" x="3" z="2" room="1" />
+                <Grid type="128" x="3" z="3" room="1" />
+                <Grid type="131" x="3" z="4" room="1" />
+                <Grid type="132" x="3" z="5" room="20" />
+                <Grid type="130" x="4" z="-7" room="0" />
+                <Grid type="130" x="4" z="-6" room="0" />
+                <Grid type="130" x="4" z="-5" room="0" />
+                <Grid type="130" x="4" z="-4" room="0" />
+                <Grid type="128" x="4" z="-3" room="3" />
+                <Grid type="128" x="4" z="-2" room="3" />
+                <Grid type="128" x="4" z="-1" room="3" />
+                <Grid type="128" x="4" z="0" room="3" />
+                <Grid type="128" x="4" z="1" room="2" />
+                <Grid type="128" x="4" z="2" room="2" />
+                <Grid type="128" x="4" z="3" room="2" />
+                <Grid type="128" x="4" z="4" room="2" />
+                <Grid type="130" x="4" z="5" room="0" />
+                <Grid type="130" x="5" z="-4" room="0" />
+                <Grid type="128" x="5" z="-3" room="3" />
+                <Grid type="128" x="5" z="-2" room="3" />
+                <Grid type="128" x="5" z="-1" room="3" />
+                <Grid type="128" x="5" z="0" room="3" />
+                <Grid type="128" x="5" z="1" room="2" />
+                <Grid type="128" x="5" z="2" room="2" />
+                <Grid type="128" x="5" z="3" room="2" />
+                <Grid type="128" x="5" z="4" room="2" />
+                <Grid type="130" x="5" z="5" room="0" />
+                <Grid type="130" x="6" z="-4" room="0" />
+                <Grid type="128" x="6" z="-3" room="3" />
+                <Grid type="128" x="6" z="-2" room="3" />
+                <Grid type="128" x="6" z="-1" room="3" />
+                <Grid type="128" x="6" z="0" room="3" />
+                <Grid type="128" x="6" z="1" room="2" />
+                <Grid type="128" x="6" z="2" room="2" />
+                <Grid type="128" x="6" z="3" room="2" />
+                <Grid type="128" x="6" z="4" room="2" />
+                <Grid type="130" x="6" z="5" room="0" />
+                <Grid type="130" x="7" z="-4" room="0" />
+                <Grid type="128" x="7" z="-3" room="3" />
+                <Grid type="128" x="7" z="-2" room="3" />
+                <Grid type="128" x="7" z="-1" room="3" />
+                <Grid type="128" x="7" z="0" room="3" />
+                <Grid type="128" x="7" z="1" room="2" />
+                <Grid type="128" x="7" z="2" room="2" />
+                <Grid type="128" x="7" z="3" room="2" />
+                <Grid type="128" x="7" z="4" room="2" />
+                <Grid type="130" x="7" z="5" room="0" />
+                <Grid type="130" x="8" z="-3" room="0" />
+                <Grid type="130" x="8" z="-2" room="0" />
+                <Grid type="130" x="8" z="-1" room="0" />
+                <Grid type="130" x="8" z="0" room="0" />
+                <Grid type="130" x="8" z="1" room="0" />
+                <Grid type="130" x="8" z="2" room="0" />
+                <Grid type="130" x="8" z="3" room="0" />
+                <Grid type="130" x="8" z="4" room="0" />
+            </Grids>
+            <Walls>
+                <Wall x0="-8" z0="-7" x1="-7" z1="-7" />
+                <Wall x0="-8" z0="-6" x1="-7" z1="-6" />
+                <Wall x0="-8" z0="-5" x1="-7" z1="-5" />
+                <Wall x0="-8" z0="-4" x1="-7" z1="-4" />
+                <Wall x0="-8" z0="-3" x1="-7" z1="-3" />
+                <Wall x0="-7" z0="-7" x1="-7" z1="-8" />
+                <Wall x0="-7" z0="-2" x1="-7" z1="-3" />
+                <Wall x0="-6" z0="-7" x1="-6" z1="-8" />
+                <Wall x0="-6" z0="-2" x1="-6" z1="-3" />
+                <Wall x0="-5" z0="-7" x1="-5" z1="-8" />
+                <Wall x0="-5" z0="-2" x1="-5" z1="-3" />
+                <Wall x0="-5" z0="-1" x1="-4" z1="-1" />
+                <Wall x0="-5" z0="0" x1="-4" z1="0" />
+                <Wall x0="-5" z0="1" x1="-4" z1="1" />
+                <Wall x0="-5" z0="2" x1="-4" z1="2" />
+                <Wall x0="-5" z0="3" x1="-4" z1="3" />
+                <Wall x0="-5" z0="4" x1="-4" z1="4" />
+                <Wall x0="-4" z0="-7" x1="-4" z1="-8" />
+                <Wall x0="-4" z0="-2" x1="-4" z1="-3" />
+                <Wall x0="-4" z0="5" x1="-4" z1="4" />
+                <Wall x0="-3" z0="-7" x1="-3" z1="-8" />
+                <Wall x0="-3" z0="-2" x1="-3" z1="-3" />
+                <Wall x0="-3" z0="5" x1="-3" z1="4" />
+                <Wall x0="-2" z0="-7" x1="-1" z1="-7" />
+                <Wall x0="-2" z0="-7" x1="-2" z1="-8" />
+                <Wall x0="-2" z0="-6" x1="-1" z1="-6" />
+                <Wall x0="-2" z0="-5" x1="-1" z1="-5" />
+                <Wall x0="-2" z0="-4" x1="-1" z1="-4" />
+                <Wall x0="-2" z0="-3" x1="-1" z1="-3" />
+                <Wall x0="-2" z0="5" x1="-2" z1="4" />
+                <Wall x0="-1" z0="-7" x1="-1" z1="-8" />
+                <Wall x0="-1" z0="5" x1="-1" z1="4" />
+                <Wall x0="0" z0="-7" x1="0" z1="-8" />
+                <Wall x0="0" z0="-2" x1="0" z1="-3" />
+                <Wall x0="0" z0="5" x1="0" z1="4" />
+                <Wall x0="1" z0="-7" x1="1" z1="-8" />
+                <Wall x0="1" z0="-2" x1="1" z1="-3" />
+                <Wall x0="1" z0="5" x1="1" z1="4" />
+                <Wall x0="2" z0="-7" x1="2" z1="-8" />
+                <Wall x0="2" z0="-2" x1="2" z1="-3" />
+                <Wall x0="2" z0="5" x1="2" z1="4" />
+                <Wall x0="3" z0="-7" x1="3" z1="-8" />
+                <Wall x0="3" z0="-6" x1="4" z1="-6" />
+                <Wall x0="3" z0="-5" x1="4" z1="-5" />
+                <Wall x0="3" z0="-4" x1="4" z1="-4" />
+                <Wall x0="3" z0="-3" x1="4" z1="-3" />
+                <Wall x0="3" z0="-2" x1="4" z1="-2" />
+                <Wall x0="3" z0="-2" x1="3" z1="-3" />
+                <Wall x0="3" z0="-1" x1="4" z1="-1" />
+                <Wall x0="3" z0="2" x1="4" z1="2" />
+                <Wall x0="3" z0="3" x1="4" z1="3" />
+                <Wall x0="3" z0="4" x1="4" z1="4" />
+                <Wall x0="4" z0="-3" x1="4" z1="-4" />
+                <Wall x0="4" z0="1" x1="4" z1="0" />
+                <Wall x0="4" z0="5" x1="4" z1="4" />
+                <Wall x0="5" z0="-3" x1="5" z1="-4" />
+                <Wall x0="5" z0="1" x1="5" z1="0" />
+                <Wall x0="5" z0="5" x1="5" z1="4" />
+                <Wall x0="6" z0="-3" x1="6" z1="-4" />
+                <Wall x0="6" z0="1" x1="6" z1="0" />
+                <Wall x0="6" z0="5" x1="6" z1="4" />
+                <Wall x0="7" z0="-3" x1="8" z1="-3" />
+                <Wall x0="7" z0="-3" x1="7" z1="-4" />
+                <Wall x0="7" z0="-2" x1="8" z1="-2" />
+                <Wall x0="7" z0="-1" x1="8" z1="-1" />
+                <Wall x0="7" z0="0" x1="8" z1="0" />
+                <Wall x0="7" z0="1" x1="8" z1="1" />
+                <Wall x0="7" z0="1" x1="7" z1="0" />
+                <Wall x0="7" z0="2" x1="8" z1="2" />
+                <Wall x0="7" z0="3" x1="8" z1="3" />
+                <Wall x0="7" z0="4" x1="8" z1="4" />
+                <Wall x0="7" z0="5" x1="7" z1="4" />
+            </Walls>
+        </Floor>
+    </Floors>
+    <Components>
+        <Comp name="00005002_edgetcx_100_00" frame="true" compTyp="6" mesh="00005002_edgetcx_100_00.mesh" pos="408.507 20 159.908" flr="1" room="0" />
+        <Comp name="00005002_floor_100_00" frame="true" compTyp="2" mesh="00005002_floor_100_00.mesh" pos="-439.84 -1.17511e-006 119.914" rot="1 0 -8.74228e-008 3.82137e-015" flr="1" room="0" />
+        <Comp name="00005002_floor_101_00" frame="true" compTyp="2" mesh="00005002_floor_101_00.mesh" pos="0.398407 -1.45666e-006 119.914" flr="1" room="1" />
+        <Comp name="00005002_floor_102_00" frame="true" compTyp="2" mesh="00005002_floor_102_00.mesh" pos="480.304 -3.71563e-006 239.965" flr="1" room="2" />
+        <Comp name="00005002_floor_103_00" frame="true" compTyp="2" mesh="00005002_floor_103_00.mesh" pos="480.297 -7.88345e-006 -79.9759" flr="1" room="3" />
+        <Comp name="00005002_floor_104_00" frame="true" compTyp="2" mesh="00005002_floor_104_00.mesh" pos="120.244 7.35217e-006 -360.04" flr="1" room="4" />
+        <Comp name="00005002_floor_105_00" frame="true" compTyp="2" mesh="00005002_floor_105_00.mesh" pos="-319.899 7.8576e-006 -360.04" flr="1" room="5" />
+        <Comp name="00005002_inneredge_100_00" frame="true" compTyp="4" mesh="00005002_inneredge_100_00.mesh" pos="124.15 144.739 -160.29" flr="1" room="0" />
+        <Comp name="00005002_innerwall_101_00" frame="true" compTyp="4" mesh="00005002_innerwall_101_00.mesh" pos="320.409 145 -81.1278" rot="1 -8.74228e-008 -8.74228e-008 -3.82137e-015" flr="1" room="1" />
+        <Comp name="00005002_innerwall_102_00" frame="true" compTyp="4" mesh="00005002_innerwall_102_00.mesh" pos="480.337 145 79.9578" flr="1" room="2" />
+        <Comp name="00005002_innerwall_103_00" frame="true" compTyp="4" mesh="00005002_innerwall_103_00.mesh" pos="320.409 145 -81.1278" rot="1 -8.74228e-008 -8.74228e-008 -3.82137e-015" flr="1" room="3" />
+        <Comp name="00005002_innerwall_104_00" frame="true" compTyp="4" mesh="00005002_innerwall_104_00.mesh" pos="124.076 155 -360.347" flr="1" room="4" />
+        <Comp name="00005002_innerwall_105_00" frame="true" compTyp="4" mesh="00005002_innerwall_105_00.mesh" pos="-203.831 155 -360.347" flr="1" room="5" />
+        <Comp name="00005002_outedge_100_00" frame="true" compTyp="3" mesh="00005002_outedge_100_00.mesh" pos="194.107 144.998 399.941" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+        <Comp name="00005002_outedge_100_01" frame="true" compTyp="3" mesh="00005002_outedge_100_01.mesh" pos="640.287 144.998 79.7296" flr="1" room="0" />
+        <Comp name="00005002_outedge_100_02" frame="true" compTyp="3" mesh="00005002_outedge_100_02.mesh" pos="480.333 145 -240.536" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00005002_outedge_100_03" frame="true" compTyp="3" mesh="00005002_outedge_100_03.mesh" pos="320.374 145 -404.403" flr="1" room="0" />
+        <Comp name="00005002_outedge_100_04" frame="true" compTyp="3" mesh="00005002_outedge_100_04.mesh" pos="-119.784 145 -560.404" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00005002_outedge_100_05" frame="true" compTyp="3" mesh="00005002_outedge_100_05.mesh" pos="-559.832 154.995 -360.337" rot="-4.37114e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00005002_outedge_100_06" frame="true" compTyp="3" mesh="00005002_outedge_100_06.mesh" pos="-443.682 144.79 -160.291" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+        <Comp name="00005002_outedge_100_07" frame="true" compTyp="3" mesh="00005002_outedge_100_07.mesh" pos="-319.709 145 127.812" rot="4.37114e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00005002_outwall_100_00" frame="true" compTyp="3" mesh="00005002_outwall_100_00.mesh" pos="194.107 144.998 399.941" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+        <Comp name="00005002_outwall_100_01" frame="true" compTyp="3" mesh="00005002_outwall_100_01.mesh" pos="640.287 144.998 79.7296" flr="1" room="0" />
+        <Comp name="00005002_outwall_100_02" frame="true" compTyp="3" mesh="00005002_outwall_100_02.mesh" pos="480.333 145 -240.536" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00005002_outwall_100_03" frame="true" compTyp="3" mesh="00005002_outwall_100_03.mesh" pos="320.374 145 -404.403" flr="1" room="0" />
+        <Comp name="00005002_outwall_100_04" frame="true" compTyp="3" mesh="00005002_outwall_100_04.mesh" pos="-119.784 145 -560.404" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00005002_outwall_100_05" frame="true" compTyp="3" mesh="00005002_outwall_100_05.mesh" pos="-559.569 155 -360.347" rot="4.37114e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00005002_outwall_100_06" frame="true" compTyp="3" mesh="00005002_outwall_100_06.mesh" pos="-443.703 144.772 -160.361" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+        <Comp name="00005002_outwall_100_07" frame="true" compTyp="3" mesh="00005002_outwall_100_07.mesh" pos="-319.709 145 127.812" rot="4.37114e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00005002_outwall_101_00" frame="true" compTyp="3" mesh="00005002_outwall_101_00.mesh" pos="194.107 144.998 399.941" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="1" />
+        <Comp name="00005002_outwall_101_01" frame="true" compTyp="3" mesh="00005002_outwall_101_01.mesh" pos="-319.709 145 127.812" rot="-4.37114e-008 0 1 -4.37114e-008" flr="1" room="1" />
+        <Comp name="00005002_outwall_102_00" frame="true" compTyp="3" mesh="00005002_outwall_102_00.mesh" pos="194.107 144.998 399.941" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="2" />
+        <Comp name="00005002_outwall_102_01" frame="true" compTyp="3" mesh="00005002_outwall_102_01.mesh" pos="640.287 144.998 79.7296" flr="1" room="2" />
+        <Comp name="00005002_outwall_103_00" frame="true" compTyp="3" mesh="00005002_outwall_103_00.mesh" pos="640.287 144.998 79.7296" flr="1" room="3" />
+        <Comp name="00005002_outwall_103_01" frame="true" compTyp="3" mesh="00005002_outwall_103_01.mesh" pos="480.333 145 -240.536" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="3" />
+        <Comp name="00005002_outwall_104_00" frame="true" compTyp="3" mesh="00005002_outwall_104_00.mesh" pos="-119.784 145 -560.404" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="4" />
+        <Comp name="00005002_outwall_104_01" frame="true" compTyp="3" mesh="00005002_outwall_104_01.mesh" pos="320.374 145 -404.403" flr="1" room="4" />
+        <Comp name="00005002_outwall_105_00" frame="true" compTyp="3" mesh="00005002_outwall_105_00.mesh" pos="-119.784 145 -560.404" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="5" />
+        <Comp name="00005002_outwall_105_01" frame="true" compTyp="3" mesh="00005002_outwall_105_01.mesh" pos="-559.582 155 -360.334" rot="-4.37114e-008 0 1 -4.37114e-008" flr="1" room="5" />
+        <Comp name="00005002_outwall_105_02" frame="true" compTyp="3" mesh="00005002_outwall_105_02.mesh" pos="-443.683 144.762 -160.294" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="5" />
+        <Comp name="00005002_roof_100_00" frame="true" compTyp="5" mesh="00005002_roof_100_00.mesh" pos="37.4021 280.369 -140.784" flr="1" room="0" />
+        <Comp name="00005002_tcx_100_00" frame="true" compTyp="6" mesh="00005002_tcx_100_00.mesh" pos="194.107 144.998 399.941" flr="1" room="0" />
+        <Comp name="00005002_tcx_100_01" frame="true" compTyp="6" mesh="00005002_tcx_100_01.mesh" pos="640.287 144.998 79.7296" flr="1" room="0" />
+        <Comp name="00005002_tcx_100_02" frame="true" compTyp="6" mesh="00005002_tcx_100_02.mesh" pos="480.333 145 -240.536" flr="1" room="0" />
+        <Comp name="00005002_tcx_100_03" frame="true" compTyp="6" mesh="00005002_tcx_100_03.mesh" pos="320.374 145 -404.403" flr="1" room="0" />
+        <Comp name="00005002_tcx_100_04" frame="true" compTyp="6" mesh="00005002_tcx_100_04.mesh" pos="-119.784 145 -560.404" flr="1" room="0" />
+        <Comp name="00005002_tcx_100_05" frame="true" compTyp="6" mesh="00005002_tcx_100_05.mesh" pos="-559.181 155 -360.347" flr="1" room="0" />
+        <Comp name="00005002_tcx_100_06" frame="true" compTyp="6" mesh="00005002_tcx_100_06.mesh" pos="-443.604 144.816 -160.425" flr="1" room="0" />
+        <Comp name="00005002_tcx_100_07" frame="true" compTyp="6" mesh="00005002_tcx_100_07.mesh" pos="-319.709 145 127.812" rot="4.37114e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00005002_tcx_101_00" frame="true" compTyp="6" mesh="00005002_tcx_101_00.mesh" pos="0.348602 10 119.842" flr="1" room="1" />
+        <Comp name="00005002_tcx_102_00" frame="true" compTyp="6" mesh="00005002_tcx_102_00.mesh" pos="480.337 145 79.9578" flr="1" room="2" />
+        <Comp name="00005002_tcx_103_00" frame="true" compTyp="6" mesh="00005002_tcx_103_00.mesh" pos="320.409 145 -81.1278" flr="1" room="3" />
+        <Comp name="00005002_tcx_104_00" frame="true" compTyp="6" mesh="00005002_tcx_104_00.mesh" pos="120.278 10 -360.234" flr="1" room="4" />
+        <Comp name="00005002_tcx_105_00" frame="true" compTyp="6" mesh="00005002_tcx_105_00.mesh" pos="-123.831 145 -160.291" flr="1" room="5" />
+        <Comp name="FitmentAuto201012291708448292" compId="515" x="-4" z="1" height="80" flr="1" room="1" />
+        <Comp name="FitmentAuto201012291708459393" compId="515" x="8" z="2" height="80" flr="1" room="0" />
+        <Comp name="FitmentAuto201012291708472054" compId="515" x="8" z="-2" height="80" flr="1" room="0" />
+        <Comp name="FitmentAuto201012291708485955" compId="515" x="3" z="-5" height="80" flr="1" room="4" face="2" />
+        <Comp name="FitmentAuto201012291708507056" compId="515" x="-7" z="-6" height="80" flr="1" room="5" />
+        <Comp name="FitmentAuto2011100815011804116" compId="605" x="2" z="4" height="160" flr="1" room="1" face="1" />
+    </Components>
+    <LinkGrids>
+        <LinkGrid startFloorNo="1" startX="3" startZ="4" endFloorNo="1" endX="3" endZ="5" />
+        <LinkGrid startFloorNo="1" startX="-2" startZ="-3" endFloorNo="1" endX="-2" endZ="-2" />
+        <LinkGrid startFloorNo="1" startX="-1" startZ="-2" endFloorNo="1" endX="-1" endZ="-3" />
+        <LinkGrid startFloorNo="1" startX="4" startZ="1" endFloorNo="1" endX="3" endZ="1" />
+        <LinkGrid startFloorNo="1" startX="-4" startZ="-2" endFloorNo="1" endX="-5" endZ="-2" />
+        <LinkGrid startFloorNo="1" startX="4" startZ="0" endFloorNo="1" endX="3" endZ="0" />
+    </LinkGrids>
+</House>

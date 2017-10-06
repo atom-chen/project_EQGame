@@ -1,0 +1,2964 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<row>
+		<id>1</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;很普通的一件T恤，它的特点是没有特点。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;印花T恤，多种不同的花纹，你可以选择自己喜欢的花纹。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>3</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;纯棉质地T恤，穿在身上相当的清爽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>4</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;V型魅力，穿上这件T恤，让你看起来更性感。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>5</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;圆领长袖经典款式T恤，在任何一间商店都会看到。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>6</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;尼龙材质不仅仅温暖，凸显优雅气质的同时流露出几分恬静的味道，简约的设计非常大方。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>7</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;穿上这个款式的衬衣，给人以一种飘逸的感觉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>8</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;穿上这个款式的衬衣，激情四射啊。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>9</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;穿上这个款式的衬衣，整个人都斯文了许多。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>10</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;小样，别以为穿上马甲，我就认不出你了。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>11</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;其实并不旧，旧指的是它的款式。请广大玩家放心购买。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>12</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;立领保暖外套，让你在寒冷的季节里也能感受到火一般的温暖。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>13</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;和赛车队服一样的拉风造型，让你体验下赛车手万众瞩目的感觉&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>14</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;长长的大衣下摆，很有绅士风度。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>15</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;羊毛夹层，保暖一流。加入双排扣，为其增添了许多时尚感。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>16</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;人工皮革，当然价格上也会优惠些。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>17</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;真皮皮衣，走到哪都是身份的象征，价格不菲。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>18</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;由著名服装设计师设计，突出的是休闲主题。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>19</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;由著名服装设计师设计，而双兜更是突出了青春主题。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>20</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经济实惠的毛衣。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>21</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;羊毛衫，顾名思义，保暖不用说的。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>22</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;紧身型毛衣，如果你对自己的身材有自信的话，穿上它，既可以保暖，又可以吸引眼球&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>23</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经济实惠的牛仔服。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>24</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;如今的牛仔服已经风靡全球，以坚固耐用、休闲粗犷等特点广受喜爱。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>25</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经济实惠的休闲裤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>26</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;休闲服与一种现代生活方式高度相关，重视生活质量，强调闲暇生活重要的价值观导致了休闲服的流行。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>27</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经济实惠的西裤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>28</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;才子可是个大品牌啊，穿这样的西裤去应酬，肯定不会掉价。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>29</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经济实惠的沙滩裤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>30</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;想去海边玩么，那么这款沙滩裤一定适合你。价格实惠，类型多样。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>31</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;去海边玩的时候，也想秀出自己的火热魅力吗？这款沙滩裤就为你专门定做的。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>32</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;裤如裤名，很普通确实很普通。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>33</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;商务休闲男人的最爱，100%纯棉，不含任何添加剂。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>34</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;休闲轻便，旅行必备的宝裤&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>35</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;风情，无限的风情，穿上之后，想低调都很难。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>36</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;想有活力就有活力，想多时尚就有多时尚，想多休闲就有多休闲。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>37</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一件非常普通的直筒裤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>38</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;虽然是直筒裤，照样修饰出你靓丽的身材。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>39</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一件牛仔裤，只不过裤脚微微一缩，让你的腿更显细长。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>40</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;富集元素的气息，使元素与牛仔裤完美的结合。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>41</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;牛仔短裤魅力有多少，穿上它，你就能深刻体会了。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>42</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;型男必备“佐丹尔”。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>43</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;富集时尚元素的气息于一身，时尚就在你身上。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>44</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;清凉一夏，让你清清凉凉爽爽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>45</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;各种清凉装的结合，尽显“夏日风情”。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>46</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;三种不同主颜色的混搭，尽显多彩的个性。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>47</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;成熟，稳重，阳光始终与他搭边，具体原由，穿上去感受下吧&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>48</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;透气，轻盈，篮球场上运动员们的酷爱。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>49</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;沿用经典的足球衣服款式，配合简单的线条，美。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>50</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;透气，吸汗除湿，强势功能助你释放青春，绽放活力。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>51</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;生命在于运动，释放魅力，燃烧青春吧。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>52</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;背心式设计，让你更容易驰骋在网球场上。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>53</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;流线的色彩线条，突显你的速度与技巧。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>54</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;多彩的上衣搭配纯白的裤子，如此搭配你还能说什么？&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>55</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简单的色泽搭配，另你在网球场上自成一道风景。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>56</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;无领的短袖，在搭配一件纯棉的布裤，户外休闲运动的必备。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>57</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;翻领的短袖，在搭配一件纯棉的布裤，户外休闲运动的必备。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>58</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;立领长袖的设计，让你在冬秋的户外不会感觉到寒冷。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>59</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;全部纯棉，并且带有帽子，具有保暖跟轻盈的特点。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>60</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;海里来，海里去，十足的海边风情。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>61</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;据说采用传说的鲨鱼皮炼制而成，遨游于海里所必备。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>62</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;西部牛仔曾经使用的帽子，既有型，又遮阳。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>63</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;由西部牛仔的帽子外加时尚元素而成的牛仔帽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>64</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一顶普通的鸭舌帽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>65</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这可不是一般的鸭舌帽，据说有人曾在演唱会戴过。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>66</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一顶普通的针织帽，平凡，普通。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>67</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;当时尚元素遇上针织帽子，彼此变得不平凡。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>68</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;潮流达人都戴这种针织帽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>69</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;针织帽也会动？不信？那你戴上感受，感受。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>70</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;谁戴上都很好看，确实是好看。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>71</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;古拉古来中国任务时，不小心遗落了下来的帽子。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>72</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;你没看错，这不是路飞的草帽，而是他哥哥的。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>73</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一顶很普通的太阳帽，虽然普通也是可以遮阳的。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>74</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;绅士必备，痞子若戴上，想要不绅士都难噢。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>75</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;全方位为遮阳，旅行时怎样也不怕太阳晒。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>76</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;踏云系列，轻且舒适，让你有仿佛踏上云霄的感觉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>77</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;花花公子的标志性鞋子，只要有美女出入的地方，你就可以看见它。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>78</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;专为成功男士量身打造的一款皮鞋，大气，成熟，稳重。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>79</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一双经典的帆布休闲鞋。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>80</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;高帮结合经典会变成啥？当然是变成高帮帆布鞋啦。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>81</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经典加经典，复古帆布鞋就这样诞生了。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>82</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;踢踏舞者喜欢的一款舞鞋，声音响亮又透气。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>83</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一双普通的凉鞋，但是它是皮做的，只不过皮也是普通的皮。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>84</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;新一代夹趾皮制凉鞋，让脚臭从此远离你。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>85</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;别以为穿凉鞋不能跑，穿上它，你照样可以飞速奔跑。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>86</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;人字拖的基础上再加上皮制的设计，一下从平民拖鞋上升到贵族拖鞋。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>87</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;星爷从长江七号里面带出来的一双普通的旅行鞋。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>88</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;NBA某位球星热爱的战鞋，拥有极高的弹跳。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>89</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;踏云多彩系列运动鞋，不同的色彩组合出不一样的精彩。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>90</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;可别小看它噢，穿上它可是能实现立即增高噢。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>91</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一款时尚且淑女职业性套装。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>92</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;上海滩的贵妇人经常穿着的服饰。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>93</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;每当有隆重晚会，这款衣服就是所有美女的首选。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>94</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一件很普通的T恤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>95</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一件美丽多彩的T恤，出身于普通，但是再也不普通。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>96</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;清爽干练是这T恤的最大特色，受广大女性青睐。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>97</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;领口稍微的下凹，突显你的完美身材。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>98</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;V型领口能够很的好衬托出你美丽的下巴。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>99</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;沿用经典的圆领设计，既保暖又美观。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>100</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;最淳朴的抹胸。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>101</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;超级可爱的吊带抹胸，在性感与可爱间游走。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>102</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;蕾丝的东西很性感，蕾丝的抹胸只能是无比性感。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>103</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一件能够修胸，修姿的胸衣。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>104</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;充满朝气与活力的小女胸衣。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>105</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一名知名设计师无意间的那么一系，就诞生了这小马甲。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>106</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;百搭的时尚卫衣，拼接的处理，突显休闲、自然的气质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>107</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;色泽柔和，材质柔和，双兜在前的卫衣&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>108</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;小分领更加有助于保暖，也让你的衣服层次感更加强烈&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>109</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;不带任何多余的修饰，简洁修身。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>110</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;很普通的一件女式休闲裤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>111</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一件具有修身美腿的休闲裤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>112</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一件让人感觉简约清爽的休闲裤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>113</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;微微的喇叭，显示出无限的活力与休闲。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>114</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;初级瑜伽者必备的修行裤子。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>115</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一件能让你露出你美丽的肚脐的休闲裤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>116</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一件很普通的西装裤子。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>117</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;OL即Office Lady，这款裤子就是OL钟爱的一款瘦身裤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>118</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;本来就可爱了，在穿上这款沙滩裤就更加可爱啦。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>119</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;很多拥有纤细的长腿MM都喜欢穿这裤子。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>120</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;处于花样年华的少女们，几乎没一个不爱这条裤子。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>121</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;路人甲乙丙丁经常在穿的裤子，所以你很常看见他。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>122</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;就是纯棉的，还能透些气，没啥特色了。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>123</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;清纯，美丽，这件裤子&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>124</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;曾经有一位美女穿者这裤子把车给滑倒了。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>125</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;谁说宽松皱褶的裤子会掩盖你的身材，这条裤子照样能秀出你的美腿。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>126</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;牛仔是永远不会OUT的服饰。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>127</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;不管长与短，不管破与新，牛仔终究是牛仔。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>128</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;百搭公主，随便你怎能搭配，你都是美丽的公主。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>129</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;随风轻轻摇曳在炎炎夏日中。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>130</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;皱褶的美妙再一次在这裙子上得到完美体现。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>131</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;代表智慧与性感的新一代裙子。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>132</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款典雅又端庄的长裙，尽显女性的贤惠。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>133</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一件大小刚刚好裹住你性感的臀部的短裤。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>134</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;适量花纹图案在配合适当的尺寸，perfect。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>135</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;不只是电视里才有，社区也是有女仆装的。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>136</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一款飘逸的长裙，你绝对值得拥有。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>137</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;天然的色彩花纹，纯手工的修边裁剪。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>138</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;量身为公主打扮的公主裙，灰姑娘穿上它就成了漂亮的公主了。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>139</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;牛仔在对决的时候就喜欢带这帽子，你懂的。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>140</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;酷酷的牛仔帽，再加上适当的花边修饰，更具有年轻的气息。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>141</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;帽檐微微向下翘，个性大大向外张。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>142</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款豹纹加牛仔的牛仔帽，野性十足。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>143</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;夏威夷出产的牛仔帽，海边风情浓郁。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>144</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款很普通的鸭舌帽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>145</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;比起一般的鸭舌帽，这款帽子的帽檐明显比较短。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>146</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;起于棒球场的帽子，帽檐设计做到了前方位各个角度遮阳。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>147</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款帽檐较长的鸭舌帽，帽身拥有比较可爱的图案。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>148</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;在地下商场或者马路边，街舞舞者经常佩戴的舞帽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>149</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;帽顶那一小撮的毛线，十足可爱，让人忍不住想把它拽下来。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>150</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款甜美风情的针织帽，据说带着它微笑起来，十分甜美。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>151</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款隔壁邻居家的女孩经常佩戴的贝雷帽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>152</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;空姐们每次飞行都会戴上这样一顶贝雷帽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>153</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;源起于旧上海滩的有钱小开，现在逐渐成为一种时尚。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>154</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;有点相似海军的帽子，但经潮流打人的些许改造，一下子就潮了起来。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>155</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款有许多小斑点的宽边太阳帽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>156</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;帽顶镂空，帽檐外伸，戴上它，脸就不会被晒到啦.&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>157</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款纯色系列的复古欧式女帽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>158</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;破破烂烂的一顶草帽，也不知道为什么特别流行。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>159</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;知道为什么叫他圆形八角帽吗？好好观察下吧。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>160</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简单的皮制，一点也不宣扬的淑女鞋子。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>161</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;细高跟外加细皮带，行走起来更加舒适。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>162</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;成熟女人都会经历这么一双鞋子。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>163</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;新时代OL喜欢的一款鞋子，文雅又不呆板。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>164</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一双非常可以爱的鞋子，曾受众多走可爱路线的美眉追求。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>165</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这款鞋子，年代可能会比较久，但是风采依旧。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>166</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;韩流袭击中国大陆的时候，留下来的产物。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>167</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一双非常有气质的鞋子，能让穿着者自身的气质更好的表现。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>168</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一双拥有时尚的流行元素的凉鞋。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>169</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;潮流达人想穿凉鞋去溜达的时候，穿的就是它。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>170</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;鞋子如此多娇，引无限美女竞折腰，唯有此鞋独领风骚。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>171</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;非常方便穿着，脚感又好，休闲居家必备。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>172</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;非常普通的一双运动鞋。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>173</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;很休闲的的一款女式布鞋。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>174</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;每当秋季来临，大街小巷就陆陆续续出现在这种高帮的布鞋。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>175</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;韩国偷渡者带来了一款新式布鞋。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>176</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款很普通的双肩背包。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>177</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;能容纳相对较多的东西，外观优美，很适合户外运动。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>178</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;可以容纳很多的东西，且最大力度的省力设计，很适合登山运动者。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>179</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;旅行者们热爱的一款旅行背包。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>180</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款很普通的手提包包。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>181</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;通体采用皮质而成，颜色显得异常的酷。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>182</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这一款非常休闲实用的手提包包。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>183</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;格式型男必备，尤其是喜欢打篮球的型男，出行必带。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>184</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;流浪汉很喜欢带的一款太阳眼睛。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>185</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款靓丽的太阳眼镜，能很好的保护您的眼镜。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>186</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这款太阳镜不仅外观好看，最主要是它具有抗辐射的功能。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>187</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;新潮的眼框设计，让你不在担心戴上近视镜会不好看。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>188</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;眼框的两支脚让眼镜更加牢固的固定，不再因为你的运动而使之掉落。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>189</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;球拍杆长度40CM，拍框长28CM，宽23CM，球拍轻，拍框硬，拍杆弹性好。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>190</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;网球线承受力度高达30公斤，有了它，啥球不能接呢！&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>191</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是一款很普通的单肩背包。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>192</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;无背筐设计，拉链一拉，你会发现原来可以装这么多的东西。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>193</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;从尺寸到颜色等一系列的设计都是为女性订造的登山包。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>194</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;小巧轻便的设计风格，很适合女生逛街的时候背。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>195</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简便的设计理念与风格，塑造了这么一款经典的背包。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>196</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;以前经常被家庭主妇携带去菜市场买菜。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>197</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;曾经经常被拿来装咖啡伴侣，因此而得此名。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>198</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;如果想要走淑女路线，那么此包必定是上上之选。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>199</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;以前很多千金小姐都是那这个包，慢慢的就平民化了。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>200</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经典名品，大气与古典的设计风格。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>201</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用高科技的塑料记忆板材制造，给你带来更加舒适的感觉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>202</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用高科技的塑料记忆板材制造，外加新潮的思想，成就了这么一个新潮的眼镜。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>203</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;腰部紧缩，胸部的横条，直接让穿上这西装倍感年轻。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>204</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;单纽扣设计加上腰部的紧缩，使得西装更加合体。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>205</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;2010年“阿玛尼”西装世家推出的最新款式。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>206</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;几块粗布拼凑而成的西装，但也很厚实。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>207</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;比粗布好点，用棉布裁缝起来的西装。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>208</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;纹理，布料都是经过精密的计算的，价格当然也比较贵点。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>209</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;花花公子经常穿的一套西装，款式既新颖又时尚。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>210</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用纯羊毛制造，触感良好，拥有无尚的魅力。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>211</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;继承经典西装设计风格，几个细小的修改，使之仍处于流行的前沿。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>212</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;双排扣的巧妙搭配，给这款西装增色不少。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>213</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;旧中国时候的产物，具有一定的历史价值。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>214</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;某位伟人经常穿的一款衣服。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>215</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;孙中山留洋国外的时候穿的就是它，因此而得英才。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>216</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;具有隆重中国风的中山装，而且是纯棉的噢。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>217</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;全手工，纯丝绸制作而成的一款中山装。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>218</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;传说中的少女小樱穿过的衣服。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>219</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;想过一把当空姐的瘾么？穿上它吧。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>220</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;加勒比女海盗的衣服。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>221</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;纯棉翻领长袖衬衫，可做职业服。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>222</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;韩版立领时尚衬衫，融汇时尚风潮。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>223</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;暖风吹来夏日的脚步,款款踱进火热的胸膛。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>224</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;紧致的质地，简洁的色彩，让您添了七分柔媚，三分随意。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>225</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;连身马甲裙，既容易搭配各种外套,又能单穿。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>226</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一件修身合适的外套是每个女人都在寻找的，一件永不会褪流行的外套是女人都该拥有的。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>227</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;休闲又百搭的羽绒大衣，总在不经意之间诠释着那淡淡的素雅。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>228</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;腰带设计显露腰身，长毛皮草镶嵌，减少正装死板多些休闲味儿。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>229</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;穿着舒适，面料上乘，造型抢眼。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>230</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简洁时尚，品质之选，打造鲜明个性。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>231</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;品质优良，剪裁流丽，专为年轻人设计。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>232</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;融合舒适与时尚，是各年龄段的首选。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>233</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一件旧的毛衣，上面还有很多毛球。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>234</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;该款毛衣多添了宽松的元素，大大的毛衣让你尽显淑女气质！&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>235</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;毛衣款式时尚多变，但不变的却是它良好的保暖特性。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>236</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;毛衣一直是秋冬不变的时尚主题，适中包臀的长度既可以当毛衣又可以作为裙装，都能演绎你的不同魅力！&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>237</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;欲罢不能“毛毛衣”暖动你心。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>238</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;牛仔小衬衫复古又气质，搭配起来很有复古范儿呢。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>239</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;超短款的牛仔上衣集合了流行与经典，里面搭配花式鲜艳的小衣衫，是混搭高手的灵机一动。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>240</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经典款的的修身裤，样式简洁大方，剪裁细节精致。修饰腿形，面料质感好，很显档次。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>241</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;穿着时尚，凸显你姣好的身材，小腿部位两边松紧抽褶设计，无论你搭配靴子，或其他休闲鞋，都会让你别有风味。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>242</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;百变的背带裤时而俏皮；时而酷感十足。轻轻松松的就能展现出不一样的轻松姿态。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>243</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;淡雅的连衣裙，给人留下纯净、优雅的印象，是淑女们的不二选择哦。
+&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>244</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;无论工作、约会还是逛街，一条连衣裙绝对让你格外靓眼。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>245</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;雪纺材质的宽松连衣裙，款式简洁、大方，宽大的款式透气性极好，也能很好的掩盖身材缺点。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>246</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;触感柔软的棉柔毛巾面料每年都受到大批粉丝的追捧。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>247</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;“G-STRING”内衣时尚设计,精巧做工,先进面料,满足不同女性所需,令您风姿绰约充满自信。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>248</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;本款采用法国原材料，采用法国蕾丝刺绣，半手工制作，工艺繁琐，品质高贵。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>249</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;优雅性感的意念，揉和现代时尚流行的风格，强调突出女性与生俱来的性感魅力与舒适奢华体验。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>250</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;以其舒适宽松的版型，厚薄适中的面料，俏皮、活力十足的图案为大众所喜爱。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>251</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用了大量的丝绸绸缎材质，加以薄透的性感蕾丝作为关键点缀，性感妩媚却又不失高贵典雅气质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>252</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;纯棉提花搭配花型宽织带，秀雅舒适透气。大方随意，适合居家休闲。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>253</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;睡衣总是能给我们以无限的遐想，带着无比神秘的气质，属于一个个迷人的夜晚。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>254</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;纯棉质地的睡衣，配上小朵的圆点碎花，将春暖花开的盎然气息写意在花朵绽放的睡衣上。
+&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>255</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;分体式睡衣，舒适时尚，每一夜的好心情，从穿上它开始。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>256</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;丝织睡衣性感中带点柔情，而小碎花的设计让你置身于一片花海中，感觉到爱情的浪漫与憧憬。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>257</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用高级面料，仿女篮队服样式，是热爱运动的时尚潮流女性的专属装备。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>258</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用高级面料，仿女足队服样式，是热爱运动的时尚潮流女性的专属装备。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>259</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用高级面料，仿女网球队服样式，是热爱运动的时尚潮流女性的专属装备。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>260</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;充满运动感觉的设计，能够表现出女性的青春活力，尽显女性柔美。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>261</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;时下相当流行的款式，尽显你的时尚品味。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>262</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;试着穿一双运动鞋，只要搭配得当，会更显青春魅力。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>263</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.2"&gt;时尚而又个性的装扮让你看起来缤纷闪耀，流行元素的加入，紧随潮流，彰显时尚。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>264</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;纯棉100%纯棉品质，质感好，棉质柔软舒适，不掉色，不起球，适合所有男士。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>265</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;真丝睡衣质地柔和，穿着舒适，既利于入眠，又利于熟睡。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>266</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;面料质地轻薄通透，柔软舒适，有利于人体生理循环和健康。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>267</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;灰色马甲搭配牛仔短裤，搭配精心选取的鞋子，妩媚融合率性，独特气质令人难忘。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>268</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;有质感的轻薄面料轻盈飘逸，在腿上穿上抵寒的丝袜配上筒靴，委婉又带出小小的性感。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>269</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;浅粉色带来令人心动的公主气息，搭配白色牛仔小短裙和精心选取的鞋子，端庄大方不失俏丽气质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>270</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;外搭褐色修身马甲，看起来青春亮丽；粉红色超短裙精心选取的鞋子，更为你增添妩媚的感觉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>271</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;高腰剪裁，展现俏丽甜美气息。完美收腰款型，修饰纤细腰身。精心选取的鞋子，尽显时尚品味。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>272</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;黑色连衣短裙配上黑色长筒丝袜和精心选取的鞋子，尽显黑色魅力。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>273</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;利落OL气质，超有气质感的外形，精心选取的鞋子，立体剪裁修饰出完美身材曲线。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>274</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;纯棉质地外套，精心选取的鞋子，展现街头风尚，显瘦度超棒。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>275</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;黑色马甲配搭洋溢幸福甜蜜的粉红色打底衫，加上精心选取的鞋子，让整个春天都充满活跃的好气氛。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>276</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;黑色印花T恤拼接白色雪纺裙搭配精心选取的鞋子，百分百甜美迷人味道。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>277</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;休闲西装，穿着舒适，面料上乘，搭配精心选取的鞋子，造型抢眼！&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>278</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;蓝色，灰色，运用了经久不败的条纹元素，搭配精心选取的鞋子，透露出清雅简美感。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>279</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;简洁时尚，品质之选，打造鲜明个性。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>280</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;高领，不张扬的色彩，搭配精心选取的鞋子，举手投足间尽显优雅。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>281</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;宽松休闲的连帽卫衣，搭配精心选取的鞋子，淡雅的颜色很适合3月的春天。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>282</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;时尚解析，红黑两色搭配简洁大方，搭配精心选取的鞋子，十分帅气。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>283</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;水洗磨白牛仔上衣配上黑色长裤，搭配精心选取的鞋子，将干练和休闲融为一体。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>284</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;黑色紧身衬衫搭配休闲牛仔裤，加上精心选取的鞋子，让人觉得干净利落，相当抢眼。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>285</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;灰白色简单羊毛衫给人慵懒感觉，搭配精心选取的鞋子，尽显风情。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>286</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;袖口、翻领和兜口的红色镶边,搭配精心选取的鞋子，大气时尚。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>287</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;雅致的色调彰显出男性的干练庄重，相信拥有此款是您商务办公、休闲娱乐的好伴侣。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>288</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;绿色绝对是气质佳选，纯色更添率性好气质，搭配精心选取的鞋子，不落俗套还能显白。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>289</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;潮流又不失青春活力。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>290</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;翻领设计，短袖造型，修身款的连衣裙，搭配精心选取的鞋子，大气不失娇俏感。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>291</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;素雅的碎花吊带裙，精心选取的鞋子，显露出温柔的小女人味道。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>292</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;简约而时尚，胸前的印花颇为醒目，精心选取的鞋子，让你俏皮得人见人爱。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>293</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;简约时尚的蓝白条纹，配上红色板鞋，展露性感妩媚。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>294</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;端庄复古的金黄印花，带有深浅层次，在裙摆簇拥绽放，将气质衬托出来。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>295</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;白色连衣裙与黑色皮靴的碰撞再次擦出时尚火花，随性中散发无限性感风情。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>296</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;俏丽清纯风吊带短裙，充满小女人的清纯俏皮风格。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>297</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;露肩的一字领T恤，磨白的破洞牛仔短裤，精心选取的鞋子，显露出轻松而优雅的休闲气质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>298</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;网面透气皮鞋，带你冲走夏天的炎热。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>299</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;寻找完美鞋子，体验运动快感。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>300</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;帮面采用高科技飞线技术，增强帮面柔韧性。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>301</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;低密度发泡中底，实现设计流畅的线条。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>302</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;“X”结构设计的中腰TPU制成，增强柔韧性，有效起到保护足弓作用。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>303</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;质量才是硬道理，给我一份信任，还你十分满意。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>304</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;全棉帆布，软胶防滑底，在家非常舒服并且环保。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>305</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;舒适美观的旅游鞋，为你带来好心情，每时每刻散发自信的神采。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>306</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;不仅具有良好的运动功能，时尚感也极强，尽显潮流个性。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>307</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;脚感非常不错，耐磨，用久了也不会脱胶。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>308</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;休闲、个性、品味，展现追求时尚而又不拘一格的穿着特点。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>309</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;采用最新科技，突出表现轻质舒适和东方化的概念。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>310</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;使用耐磨的橡胶大底，轻便穿着的同时更能保证鞋子的抓地性。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>311</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;一双好鞋，可以带你到达想去的地方。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>312</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;纯色夹趾凉鞋，绝对是经典之选。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>313</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;夏日经典，让你清凉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>314</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;新颖设计风格，走在时尚的最前端。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>315</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;精致简单又不失个性。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>316</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;将创意、艺术以及时尚结合到鞋子的设计之中。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>317</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;不管你是浪漫还是文艺，都躲不开花朵元素的“来势汹汹”。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>318</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;此款鞋子是设计师精心打造的一款女式潮流鞋，品味颇显独特。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>319</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;交叉的全皮鞋面，穿出奢华真皮的魅力。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>320</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;清凉高跟凉鞋，让我们与夏天来个约会吧。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>321</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;鞋面手工刺绣，时尚舒适，超值单品。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>322</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;黑色具有高贵稳重的意象，可用来塑造高贵的形象。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>323</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;米白色是介于白色和驼色的一种都市色彩，具有优雅的大气、温暖和高贵。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>324</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;从链子中获得灵感，别有风味的一款鞋子，上脚很有气质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>325</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;使用紧密耐磨泡沫鞋底，软塑料鞋带，穿着舒适。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>326</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;使用耐磨鞋胶底，高级细磨砂，纯手工串珠，精心打造。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>327</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;采用高品质树脂金属拉链，另外在个性鞋子的设计上，隐隐透露出女人味。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>328</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;甜美淑女风格，适合约会、休闲场合。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>329</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;用最真实材料，设计最时尚的版型，满足最舒适的要求。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>330</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;绿色系的吊带连衣裙，搭配镂空高筒皮靴，表现出精灵一般的俏皮可爱。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>331</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;永恒夏天美裙，尽显女人气质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>332</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;面料采用最新的针织技能，穿在身上，舒适与清凉的感觉浑然于身。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>333</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;整件衣服都以黑与白为主色调，给本以素色为主的裙子增添一点活力。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>334</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.1"&gt;灯笼下摆连衣裙早已被公认为可爱风格的代表元素。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>335</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.2"&gt;酷暑天来了，当然要选择雪纺单品，凉快而不黏糊。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>336</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.3"&gt;天气升温剧烈，让我们脱去长袖衫和黑丝袜，换上漂亮的连衣裙吧！&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>337</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.4"&gt;柔软的材质突显出了飘逸的造型，浪漫而甜美，十分适合作为在海边度假的清凉装扮。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>338</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.5"&gt;宽松款的棉质吊带背心，充满了夏天热情的气息，给人感觉非常的随性惬意。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>339</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.6"&gt;蕾丝拼接非常的青春甜美,华丽而精致,尽显女性的妩媚气质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>340</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.7"&gt;轻盈的雪纺材质烘托出如同女神般的典雅气质，高腰的造型很好的展现出高挑修长的身材。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>341</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;腰部的伸缩设计很好的制造出了连衣裙的层次感，避免了给穿着者造成臃肿感。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>342</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.3"&gt;浪漫的雪纺短裙也有新创意，网纱车缝层层钩织缇花，镂空效果传递lady印象。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>343</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.3"&gt;层层蕾丝增加甜美感之外，还彰显你曼妙的纤细腰身。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>344</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.3"&gt;飘逸感觉的面料，营造出轻盈的休闲氛围，充满了迷人的性感味道。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>345</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.3"&gt;散落的印花，充满田园风，让你拥抱整个悠闲假期。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>346</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.3"&gt;浅蓝色连衣裙，呈现出精致的俏皮色彩；精致的腰带，塑造出完美的腰身线条。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>347</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.3"&gt;这一款的特别之处在于领口的蕾丝装饰更添女人柔美魅力。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>348</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.3"&gt;纯白色的连衣裙干净简洁，更能凸显出邻家女孩般的亲切气质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>349</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.3"&gt;粉色是甜美风的经典元素，碰上白皙好皮肤，可以展现出十分温婉的气质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>350</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.3"&gt;雪纺连衣裙，材质的轻薄展现轻盈的体态，凸显出干净的气质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>351</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.4"&gt;素雅的碎花吊带裙，轻盈而素雅的雪纺面料，细腻的花纹，散发出迷人的田园魅力。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>352</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.5"&gt;蕾丝、圆点印花、泡泡袖和腰部蝴蝶结，更是让甜美风格的MM爱不释手。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>353</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.6"&gt;采用了舒适的纯棉面料，带给你轻松的休闲魅力，淡淡的灰色，显露出优雅的气息。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>354</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.7"&gt;运用蛋糕裙的层次感为此款连衣裙增添甜美风味。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>355</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;简洁却又优雅万分的粉色连体裙加上绒毛边，看起来淑女气息浓郁。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>356</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.9"&gt;一款单色连衣裙，款式简单，充满动感。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>357</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.10"&gt;薄纱的裙摆十分有小女人的甜美感，收腰的款式设计修身效果很好。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>358</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.11"&gt;素雅的连衣短裙，散发出干净清新的气息，印花的绚烂还可以给你带来一份好心情。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>359</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;这是一款不挑脸型的太阳镜，简单、大方，适合在任何场合配戴。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>360</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;采用镜片偏光技术，使景物看起来柔和而不刺眼。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>361</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;采用UV-400镜片，可吸收380NM以下的有害射线。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>362</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;在镜框、镜腿的弧度、厚度以及鼻托的尺寸等细节处做足功夫，使佩戴更加轻便，舒适。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>363</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;渐变的纹理带来充满诗意的灵动之姿。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>364</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;青春你我，“衣品堂”。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>365</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;包罗万象，各种图案，我的个性我做主“衣都市”服装。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>366</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;穿上它，也许会让你更有自信。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>367</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;一杯下午茶，或者一杯咖啡，加上它，你喜欢这样的生活吗。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>368</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;轻松，简约，精神，商务办公的最佳选择。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>369</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;如果你是个懒人，那么不如考虑这条裤子，因为它真的很好洗。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>370</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;每种格子装都有它的格调。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>371</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;耐穿，运动，休闲皆可。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>372</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;独特的收边让原本些许胖的人看起来也瘦了许多。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>373</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;好吧，洗起来可能会褪色，这不是它的缺点，因为这样才更有牛仔的味道。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>374</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;贴身设计让你的高挑身材更让女性们青睐。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>375</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;年轻，个性，我的地盘，我做主。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>376</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;透气设计，让你即使是夏天穿着也不是很热。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>377</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;线条设计，让你穿起来更有质感 。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>378</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;淡淡的颜色，是春末秋初最好的选择，适合早晚多变的气温 。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>379</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;拒绝平凡，让鲜艳的颜色凸显我的个性 。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>380</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;年轻的颜色，搭配成熟的气息，无论何时你都可以立于不败之地 。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>381</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;年轻，休闲，这样的装束更让人轻松 。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>382</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;运动和休闲的完美组合，把你的阳光气质体现的淋漓尽致 。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>383</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;初秋的时候不妨选择这样清爽的装束，也不会让早晚的温差烦到不同的时段准备不一样的衣服，不是吗。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>384</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;宽松的设计，如果你喜欢街舞，这不妨就是你的选择哦 。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>385</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;军绿色与休闲装的完美搭配 。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>386</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;简朴大方“Steven”服饰。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>387</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;火红的热情，“利萨”服饰。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>388</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;晨练的时候的必备装备，保暖，也适合更大弧度的运动动作。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>389</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;年轻，前卫，凸显你的个性“慧客”服饰。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>390</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;让我来主导你的时尚，“Simma”服饰。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>391</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;休闲，运动，牛仔，还有什么比这更有年轻的味道？&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>392</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;独特的吸汗设计，最适合运动量大的你。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>393</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;成熟更适合女性的青睐，因为这样会让人更有安全感。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>394</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;让体型高挑的你更有男人味。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>395</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;“映星”系类，让你品味比别人高一点。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>396</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;在任何地方，我就是主角“Trigle”服饰。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>397</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;韩流来袭，你抵挡的住这样的潮流之势吗。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>398</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;秋意来袭，“Section”让你的秋天更加精彩。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>399</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;简单的线条勾画出不平凡的人生。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>400</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;魔法师所穿的衣服。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>401</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;穿上它，你就和超人一样了。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>402</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;想成为索隆吗？穿上试试。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>403</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;神秘的女巫服，泛着神秘的气息。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>404</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.8"&gt;一只小蜜蜂啊，飞在花丛中啊，飞啊飞啊。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1001</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经济实惠，实用的办公桌。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1002</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;拉风的造型，闪烁着金属光泽，比保险柜还结实。把东西放里面安心。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1003</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简易的床头柜，胜在实惠。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1004</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;柜面是大理石材质，其造型环保简约，不张扬。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1005</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;新款粉红色梳妆台，自带全身镜，让你在穿衣服时，可以不费劲的看到全身效果。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1006</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;新款粉红色床头柜，颜色可爱，适合女性朋友使用。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1007</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简易的桌子，胜在实惠。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1008</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用火烧碳化防腐工艺，可放心使用，不用担心腐蚀问题。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1009</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;拉风的造型，闪烁着金属光泽，结实耐用。什么都可以往上面放。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1010</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简易的茶几，胜在实惠。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1011</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;时尚讲台，让您在演讲时也能展现您的时尚品味。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1012</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;时尚办公者，让您在工作时也能展现您的时尚品味。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1013</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;红木家具，豪华造型，还真不是一般人用的起的。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1014</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简易的柜子，胜在实惠。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1015</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;卡通造型的置物架，充满了童趣，令人怀念的童年。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1016</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简易的椅子，胜在实惠。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1017</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;斜置的书架，独特的造型。将其放置于书房中，充满了书香气息的同时，又突出了您的个性。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1018</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;小小折叠椅，在不用的时候可以折叠收起，不占用您宝贵的空间。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1019</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;柔软的坐垫，消除您在办公时的疲劳，让工作更有效率。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1020</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;拉风的造型，闪烁着金属光泽，结实耐用。不管您有多重，放心坐上去吧。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1021</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;通体塑料构成，似乎不是那么结实。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1022</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;太极生两仪 两仪生四象。太极海绵坐垫，让你感受这句话的真谛。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1023</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;舒适的椅垫，按人体工程学设计的曲线，帮助您消除一天的疲惫。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1024</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;奇特的外形，坐在其中就好像在某种动物的怀中一样。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1025</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;长长的椅面，挤挤就可以坐下很多人。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1026</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;绿色长椅，坐上去仿若置身于大自然之中。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1027</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;铁框塑料坐垫，虽然稍显简单，但坚实耐用啊。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1028</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;海绵沙发，制作简单，成本低廉，售价自然也比较实惠。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1029</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;布艺沙发，采用优质加厚100％纯棉帆布，高档环保, 柔软舒适，结实耐用，防静电，对皮肤无刺激。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1030</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;适合居家、医院陪床、单位午休、垂钓、旅游．本品采用优质钢材，坚固耐用，是午休最佳选择.&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1031</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;床雕刻框架为纯橡木手工雕刻,内部以木方制成,夹板封闭。稳固绝不变形。
+&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1032</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用五年楠竹，最大可承受160公斤，经过工厂严格测试，检验合格。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1033</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;顾名思义，测试用的浴室。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1034</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;排污管喷釉，不易挂污，就是蹲着有些累。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1035</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;本品采用高白泥和超白泥全手工拉胚成型。白色部分略带浅青色，这正是‘高岭土’纯正的表现。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1036</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;如同孵化室一样的浴缸，在里面洗澡绝不会着凉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1037</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用超平滑釉面，釉层厚度达到1.2mm以上,晶莹饱满、历久如新。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1038</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;陶瓷高温瓷化，不吸水、耐划耐磨、耐热、色彩浑厚、不变形，釉面细腻柔滑，易清洗、抗污力强。另外配以塑料水件、慢降式盖板。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1039</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用树叶形马桶盖，烟囱型马桶主体，让你更加亲近大自然。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1040</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;花洒插座位置可自由调节，铜管镀铬，镀层亮泽持久。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1041</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用ABS板，经久耐用，高承压力和高耐腐蚀性。高强度安全钢化玻璃经过CCC国家权威检测认证。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1042</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用高档锑釉，釉面不含铅，保护人体健康。另使用亚克力材质，保温性好。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1043</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;科勒完全铸铁，同一材质，坚固超群。釉面厚而饱满，档次高。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1044</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;时尚创意外观设计，将卓越的工艺与美感和谐地融为一体，演绎自然极致。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1045</id>
+	</row>
+	<row>
+		<id>1046</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;13瓦功率护眼灯。适合从小学生到大学生使用，也是时尚白领开夜车的最佳伴侣。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1047</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;现代工艺与古典艺术的结合，独特的美女造型，集观赏性实用性与一体。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1048</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;时尚简约，色彩鲜艳，温馨浪漫，放在卧室，过道，客厅等，都能呈现出应有的氛围！&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1049</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一闪一闪亮晶晶，漫天都是小星星。这些星星灯可不小，还不会闪。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1050</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用高品质磨砂玻璃与金属材料，低炫光，灯罩不会变黄。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1051</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;三颗行星相互连结的独特造型，演绎创意极致。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1052</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;雅致的落地灯，带防闪眩保护的紧凑小巧的灯罩。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1053</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用时尚独特的外观设计，创意新颖，造型美观优雅．令你心情舒畅，品位无穷。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1054</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;铁艺壁灯，灯的灯架表面均做怀旧的效果处理，具备休闲怀旧的效果。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1055</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用手工原色异型六面玻璃罩，全铜支架,精制而成,高贵典雅.
+&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1056</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;奇异的座钟，上面刻满了看不懂的刻度。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1057</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;在主球体内部电光闪闪，带给你异度时空般的感受。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1058</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;喜欢玩游戏吗？那么这款游戏机绝对适合，可以轻松跑动目前市面上的所有游戏。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1059</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是最新型的撞球机，摆臂架上部设有摆臂手柄。它结构简单，游戏激烈，给人们的娱乐生活增添乐趣的同时，还可强身健体。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1060</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;相当古老的球面彩电，可以当成古董收藏。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1061</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;超高的配置，超低的价格，你还在等什么呢？&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1062</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;环保高光先进技术，无凹凸、防污染、防划伤、防静电、手触无水纹，局部杜绝剥落，抛光镜面处理，折射出黑亮深邃光泽。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1063</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;凭借具有 800W PMPO 总输出功率的 2.1 扬声器系统，您可感受到细腻的音效。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1064</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一种可以让你随时随地听音乐的机器。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1065</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用声涡轮技术,全音域低音反射型音箱,让您听的震撼。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1066</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简化线条替代繁琐雕刻，水曲柳木纹散发自然的气息，流畅木柱和弧形柱脚，演绎古典留声机的优雅。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1067</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;全新技术CP-PRO特长寿命，24 bit数码音频处理器,超级音效质量。让您物有所值。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1068</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经典的外形，准时地为您报时，让您不必担心错过了时。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1069</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;仿古电话机，家居装饰画龙点睛之妙用！简直就是回到了六七十年代的大上海。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1070</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经典机型,按键永不磨损,稳重大方,豪华气派,耐用。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1071</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;省水、省时、省电，是它最大的优点。轻巧方便的波轮式洗衣机。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1072</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;烤炉,体积小,重量轻,携带方便,烤炉自带一铲一叉,方便实用&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1073</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;彩晶面板，时尚外观。高效压缩机，机械控温，人性化内观设计，色泽明快，精巧别致&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1074</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;过滤精度为0。1微米的亲水膜，能有效过滤水中细菌，
+去除水中的色、臭、味、有机物、重金属等有害物质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1075</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;可弹出式漏斗，带有永久过滤网。超大豆盒容量，具备咖啡豆打碎功能。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1076</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;专业榨汁，渣汁分离。多重安全保护，使用放心。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1077</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;珍爱生命，远离食人花。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1078</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;虽然不是名画，但这是黄药师的早期作品，很有收藏价值。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1079</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;京剧中常用到的脸谱，把它画到面具在挂起来，也是一种装饰哦。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1080</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;它是由塑料制造，因此不会化掉，不用担心。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1081</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一年来对人类作出最大贡献的人，才可获得此殊荣。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1082</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;热爱生活的人不会停止梦想和更新。每一件饰品都试图传达出我们对居住、对审美、对时尚的细微体会。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1083</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;百合花素有“云裳仙子”之称，取“百年好合”之意，中国自古视为婚礼必不可少的吉祥花卉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1084</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;在西方，不论是否基督徒，过圣诞节时都要准备一棵圣诞树，以增加节日的欢乐气氛。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1085</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;吊兰不仅是居室内极佳的悬垂观叶植物，而且也是—种良好的室内空气净化花卉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1086</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;龟背竹以奇特的叶片、竹状的茎干、漫长的气生根而成为人们喜爱的室内观叶植物。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1087</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一些拥有鲜红、金黄的刺丛与雪白的仙人掌品种，更是千姿百态。被人们称为“ 有生命的工艺品”。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1088</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;又称发财树，掌状复叶，小叶5-7枚，枝条多轮生。每逢节日，各宾馆、饭店、商家及市民多争相采购，以图吉祥如意。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1089</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;棕榈树属常绿乔木。常用于庭院、路边及花坛之中，适于四季观赏。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1090</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;您是否有宠物呢？如果有的话那么这款器械可以让您的宠物在室内运动健身。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1091</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;该棋牌桌四周有四个小抽屉，桌面仿红木，加厚桌脚，结实美观，方便实用。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1092</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;本桌使用桦木，仿古漆假木文效果,附带两个抽屉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1093</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;台面红木压进口防火板，侧边实木条，边板红木，实木拼腿，进口胶边。物超所值。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1094</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;宜家风格的纯天然木质产品,表面砂光后未作任何化学处理,带实木特殊香味,具有简约时尚、清新自然、环保健康、实用多能的异国风格情调。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1095</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;本款爵士鼓配备了专业五鼓组合，高级配置进口高档镲片、鼓皮 击打雷人效果！&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1096</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;制作工艺精良，主体边缘弧面修饰，直柱琴腿，特具时代气息。触键灵敏舒适，得心应手。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1097</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;拉风的造型，闪烁着金属光泽，结实耐用。营造自由家居，从"哥特"系列开始。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1098</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;有机玻璃材料制作,不易碎,透明度好,美观大方,经久耐用。在鱼缸里的色彩鲜艳的小饰品，更是让它美丽无比!!&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1099</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;绝对超值的一款窝窝哦，让你的宠物令人羡慕。加厚垫子舒适温暖，垫子还可取出，方便清洗。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1100</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;特别设计的宠物窝，外表看似城堡，质感柔软，颜色亮丽，造型可爱又时尚0&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1101</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;时尚木纹，大方实用、洁净亮丽，为您的家居增添一份现代色彩&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1102</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;本品选用优质亚克力、根据人体工程学设计而成，美观大方、款式新颖、气度非凡!&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1103</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;桦木框架与中纤板相结合，所用材料全部达到欧式E1级环保标准，符合国家环保要求。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1104</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;此款塑料椅框架采用钢管喷涂工艺，经久耐用，稳固结实，防腐蚀。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1105</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;表面烤漆，外观漂亮，永不生锈。优质皮革座面，柔软舒适。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1106</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;您喜欢去沙滩么？那么这款沙滩椅就是专门为您准备的。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1107</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;雕刻艺术，世界上以中国为最。木器雕刻，又以浙江东阳为佳。东阳木雕因地而名，自唐至今千余载，源远流长，是中华民族最优秀的民间艺术之一。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1108</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;高分子PVC材料，色彩时尚、舒适，结实、牢固。结合人体工学原理，贴合人体曲线设计，舒适度更佳。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1109</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;床头靠面为真皮，其余部位为仿皮。床头骨架以木方制成，夹板封闭 ，稳固而不变形。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1110</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;做工考究，彰显着主人不凡的气质。简洁的设计，完美的自然风格。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1111</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;使用传统工艺，免漆家具。只做烫蜡处理。完全环保。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1112</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;本品采用高密度纤维板，银色部位均为亮光面不锈钢，玻璃为8-10mm钢化玻璃。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1113</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;时尚不锈钢茶几，采用高档不锈钢架子，表面拉丝。 &lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1114</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;主体框架为实木,桐木。板面为高密度板和桐木板。普通环保喷漆。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1115</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;天然木材框架，干燥处理不变形，并可用湿布擦拭画面。画布安装牢固不会脱落，并且不影响画面的观赏和整体效果,还可长久保存收藏。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1116</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;该盆栽不仅是居室内极佳观赏植物，而且也是—种良好的室内空气净化花卉，具有极强的吸收有毒气体的功能。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1117</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;1:10真车大小，使用电池操控，方便动力。时尚外观设计，经典大方。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1118</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;让所有人能在居家生活中随时就可做运动，没有空间时间的限制。特殊设计效果佳体验快，上手容易不会造成身体的负担。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1119</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这是最新款的足球游戏机，所有的足球爱好者们有福了。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1120</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用LED背光，优势更明显。每一个LED像素都是按照图像的亮度发光，可以更准确的呈现图像，能以最高效率产生最饱和的颜色，展现出优秀的色彩和明暗对比效果&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1121</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;监听，监视10台功率放大器的输出具有VU电平表指示功率信号的动态值，配备75mm宽频喇叭。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1122</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;“海潮”拥有丰富的全球 IT 资源，分销 89 个国际顶尖 IT 厂商的上万种产品。海潮品牌，信得过品牌。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1123</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;相当古老的黑白电视，市面上已经见不到了，极具收藏价值。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1124</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用最新一代HD2+芯片，图像清晰，色彩还原效果比较好，分辨率为1280×720，对比度超过了2000:1，亮度也有1000cd/m2。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1125</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;高性能全波段数字调谐立体声收音机是德生工程师总结多年的设计经验，精心制作的一款便携式全波段数字调谐收音机精品，它能满足您收听全球广播的大部分需求。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1126</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;家用点唱机，500G硬盘含15000多首原人原唱歌曲。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1127</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;打开箱子，“哇”的吓一跳。恶作剧经典道具。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1128</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;创意外观设计，将卓越的工艺与美感和谐地融为一体。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1129</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;本机是具有多制式来电显示的新一代多功能电话机,既可平放,又可壁挂.很适合新居进门处悬挂.&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1130</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;用材考究，做工精细，彰显高档；收纳体积小，重量轻，携带非常方便，组装方便，可徒手完成。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1131</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;静电喷涂机身，上下及立体三种烘烤方式，设置多重安全检测保护功能。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1132</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;“蓝焰”，专门从事各种型号炉灶生产，是家喻户晓的大品牌。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1133</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;双层中空玻璃门，有效保持柜内温度，展示效果出众。采用优质压缩机，制冷快速高效，节能的同时静音运行。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1134</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;“美空低碳微波炉”，提倡“低碳环保生活”，选择低碳产品！&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1135</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;门锁点为专用实心方刚，接触面更大，安全性更高。门把手改用纯钢打造。电子液晶密码锁，带防盗报警器。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1136</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;热爱生活的人不会停止梦想和更新。这款组合厨房用具，为您的厨房提供了许多便利。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1137</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一次成型标准环保颗粒板，抗弯强度高，表面硬度高，不怕划，抗磨损，易檫洗。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1138</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;您是不是还在为某些娱乐活动没有相应的空间而烦恼？没关系，这款飞镖靶台，没有空间时间的限制，为你量身定做。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1139</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;桌面仿红木，加厚桌脚，结实美观，方便实用。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1140</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;让您的孩子在家中就可以玩滑梯，没有空间时间的限制，且在家中容易保证孩子的安全。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1141</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;微调控制，顺滑跟踪。正像光学系统——天文地景两用。光学镜头组全表面镀增透膜，使成像更加明亮和清晰。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1142</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;此筝主要用料黑檀木、桐木、优质鱼鳞松及实木，刻字筝选用手书印刻，筝头、筝尾部分所刻篆体和草书诗句，刻工精湛，内容高雅。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1143</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用Dreadnought风格琴身设计，云杉面板，桃花心木背侧板。整琴干净漂亮，做工细致，中规中矩。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1144</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;专为高速度及强度演奏而设计的薄型琴颈。平坦的指板更适合快速过弦及推弦。综合型的拾音器配置及结构能够驾驭多种音乐风格。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1145</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;皮面为100%真正上等头层羊皮所制;鼓身表明粘贴黑色光面布,解决传统工艺使用时间长鼓身出现裂缝的问题。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1146</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;就食容易，清洗简单，树脂制食盆，底部为平面宽型设计更加稳固 
+。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1147</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;您的宠物宝宝是不是很孤单呢？这里提供宠物玩具，供宝宝们消遣。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1148</id>
+		<value>粉红色的纱裙将她可爱且妩媚的一面恰如其分的表现出来，或许直接扑进她的怀抱才是最正确的选择。</value>
+	</row>
+	<row>
+		<id>1149</id>
+		<value>巨大的门牙和那副一脸贱贱的笑容，让人不由得想使劲捏捏他那肥嘟嘟的脸。</value>
+	</row>
+	<row>
+		<id>1150</id>
+		<value>巨大的汗珠一定是有什么事情让他感到无比的窘迫，或许就是现在这位正在瞪着他的你。</value>
+	</row>
+	<row>
+		<id>1151</id>
+		<value>两颗黄澄澄的煎蛋将他的小眼紧密的遮住，即便是这样他也还是能感觉得到你的存在。</value>
+	</row>
+	<row>
+		<id>1152</id>
+		<value>可能是哪个马戏团跑出来的小丑，也可能是刚刚在某个卖汉堡的快餐店里兼职的小家伙。</value>
+	</row>
+	<row>
+		<id>1153</id>
+		<value>胸口求包养的字牌和满脸戏谑的笑容，还有一副欠打的模样，不知道包养后会不会暖床呢？</value>
+	</row>
+	<row>
+		<id>1154</id>
+		<value>杀气腾腾的小子，总是凶神恶煞的板着脸，或许使劲挠他的痒，他也会笑起来的哦。</value>
+	</row>
+	<row>
+		<id>1200</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;颜色比较单一的棉布窗帘。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1201</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;玫瑰花的底纹花样，简简单单的幸福。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1202</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;办公室里面常常用到的一种简便的窗帘。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1203</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;欧派装饰风格的窗帘，色泽简单，艺术感强烈。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1204</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用良好的布料，然后在布料印上简单的花纹，自然的就洋溢出幸福的味道。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1205</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;红粉佳人的房屋里面经常出现它的身影。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1206</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;单身贵族的男士很喜欢的一款窗帘。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1207</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;木质花纹的百叶窗帘，能让房间的色泽更加暖和。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1208</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1300</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一把藤条花纹镶嵌的椅子，靠背上有个孔方便移动椅子。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1301</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;一张白色的休闲躺椅，优点是：牢固舒适，缺点就是无法折叠。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1302</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;黑色铁艺外加白色皮质沙发，既有艺术又舒服。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1303</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这可是粉公主闺房中的一把靠背椅噢。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1304</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;通体木质框架，上面在铺层帆布，简单舒适又大大降低椅子的重量。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1305</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;由一个7跟一个5巧合搭配，艺术源于生活的充分体现。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1306</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;全部由木头制造而成，椅身用8跟竖木搭配，舒适又透气。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1307</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经常被海军拿来放在甲板上，躺着观星赏月。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1308</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;能够360°旋转的藤条椅。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1309</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;大板的实木框架，配合柔软的沙发坐垫跟抱枕，堪称一绝。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1310</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;比较普通的沙发，有简约的风格。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1311</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;富贵气息十足的豪华沙发，往客厅一摆，立刻提高好几个档次。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1312</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;玫瑰花色的布艺沙发，柔软舒适，很适合女生。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1313</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;人性的整体设计，藤条编制的边框，坐起来很舒服。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1314</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;款式相对较旧的一款木质双人床。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1315</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;生活源于享受，木质低碳，环保生活更美好。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1316</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;天然取材，外加精心雕刻的豹纹大理石让你的家具野性又时尚。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1317</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;欧洲设计大师麦卡卡为家园设计的整套欧派风格的家具。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1318</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;全系粉公主系列的一款家具，让公主的装饰驻进你家。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1319</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;款式相对陈旧，整理干净，也是可以用的。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1320</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;深源集团旗下的藤条系列家具，艺术感十足。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1321</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;环保、美观、时尚，生活因我而精彩!“好生活”家私。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1322</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;只买最舒适的，不买最贵的；“舒适”家具，让您体验舒适生活。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1323</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用天然石料，精心打磨，提升文化内涵，打造艺术精品。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1324</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;迷你造型适合单身贵族使用，占地小，价格实惠.&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1325</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;透气的设计，即使你坐的再久也不会感觉热.&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1326</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;它的优势在于，它的价格非常便宜。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1327</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;放心，不要当心你的重量会把它压坏。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1328</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;这简直就是BOSS的象征。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1329</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;原木颜色让屋子更有乡村气息。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1330</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;透明设计，你不用打开柜子也可以知道你之前放东西的位置。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1331</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;豪华的棕黑色是不是更让你的屋子充满贵族的感觉呢？赶快预定一个吧。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1332</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;纯纯的白色更适合新婚或单身白领MM们，简洁端庄的设计刚好透露她们的特质。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1333</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;公主式的外观最受少女们的青睐，总是带有甜甜的感觉，不过它真的很重，要想搬动它，那就叫那些追求你的男生帮忙吧。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1334</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简单，而且不占太大空间，淡淡的紫色给你更温馨的感觉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1335</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;请在按开启按钮之前，检查桶内没有小孩或者您家的宠物。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1336</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;最高可以支持1080P高清效果。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1337</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;同样的功能，同样的效果，这款电视却比其他同类型的电视便宜很多，适合工薪阶层。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1338</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;或者你会觉得你就站在水族馆里，因为这个是世界上最大的液晶电视。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1339</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;60寸大屏幕让你再看电视的时候，觉得更加真实。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1340</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;你当然不会对他陌生，坐在上面，是不是让你的感觉你的魔法值在慢慢恢复呢？&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1341</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;与梳妆台搭配更显公主气派。</value>
+	</row>
+	<row>
+		<id>1342</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;豪华的棕黑色是不是更让你的屋子充满贵族的感觉呢？赶快预定一个吧。</value>
+	</row>
+	<row>
+		<id>1343</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;全透明玻璃，不锈钢打造。清爽，更容易清洗。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1344</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;和熊猫一样，它只是有点重。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1345</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;功能齐全，物美价廉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1346</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;黑色金属质感更有现代都市白领的感觉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1347</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用钢化玻璃一体成型，不只坚固而且易清洗，而且不会留污渍。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1348</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;特殊建筑风格，透露北欧神话气息。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1349</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;密封的金属设计，把所有的“小强”都拒之门外&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1350</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;合理的设计，密封性很好，很适合那它装在厨房里。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1351</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;欧式风格吊柜。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1352</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简单的木质吊柜，物美价廉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1353</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简单的设计，所以他的价格也不是很贵。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1354</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;豪华的真皮设计，你在办公的时候会觉得疲劳感来的更慢。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1355</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;简约而不简单的设计，轻巧容易搬动，可以叠放&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1356</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;可爱的星星造型，可以让紧张的办公气氛缓和很多。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1357</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;将照明功能艺术化，致力于高档艺术灯饰的开发与设计。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1358</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;从粗加工到精加工，到最后组装成品，一条龙生产，保证产品质量。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1359</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;采用玻璃灯罩不怕烈日长期曝晒、不会老化变色。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1360</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;使用进口高亮度低能耗的灯珠，远超同类产品。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1361</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;经典造型，华丽大方，超炫漂亮。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1362</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;集装饰与照明与一体.为家园增辉。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1363</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;灯体造型美观大方，轻巧灵活多样。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1364</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;全铝合金架子，不会生锈，经久耐用。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1365</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;钛铝面罩，永不腐蚀，银色金属质感，时尚美观。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1366</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;可用来替换旧有的大小相同的门。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1367</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;可用来替换旧有的大小、形状相同的窗户。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1368</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;能够控制所有灯的神奇开关。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1369</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;美女“娜娜”的画像。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1370</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;休息时间不妨去公园逛逛，也许在哪里你会遇到你心仪的人呢？&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1371</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;还有什么比在海边吹吹风更心旷神怡的呢？带上你好友，还有别忘记你的相机。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1372</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;乐园街道随手一拍。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>1373</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;家是温暖的港湾，永远的避风港，我的乐园，我的家。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2001</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;0级作物，7小时成熟，预计所得180&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2002</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;0级作物，9小时成熟，预计所得255&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2003</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;0级作物，11小时成熟，预计所得304&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2004</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;1级作物，12小时成熟，预计所得342&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2005</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;2级作物，14小时成熟，预计所得399&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2006</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;2级作物，15小时成熟，预计所得441&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2007</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;3级作物，16小时成熟，预计所得484&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2008</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;4级作物，17小时成熟，预计所得529&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2009</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;5级作物，18小时成熟，预计所得575&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2010</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;5级作物，17小时成熟，预计所得552&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2011</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;6级作物，18小时成熟，预计所得525&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2012</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;7级作物，19小时成熟，预计所得600&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2013</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;8级作物，20小时成熟，预计所得624&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2014</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;9级作物，21小时成熟，预计所得675&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2015</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;10级作物，22小时成熟，预计所得702&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2016</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;10级作物，21小时成熟，预计所得676&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2017</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;11级作物，23小时成熟，预计所得756&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2018</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;12级作物，25小时成熟，预计所得806&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2019</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;13级作物，26小时成熟，预计所得840&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2020</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;13级作物，25小时成熟，预计所得841&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2021</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;14级作物，24小时成熟，预计所得899&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2022</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;15级作物，28小时成熟，预计所得924&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2023</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;15级作物，27小时成熟，预计所得910&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2024</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;16级作物，29小时成熟，预计所得957&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2025</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;17级作物，30小时成熟，预计所得1020&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2026</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;18级作物，31小时成熟，预计所得1015&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2027</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;18级作物，30小时成熟，预计所得1008&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2028</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;19级作物，32小时成熟，预计所得1064&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2029</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;20级作物，33小时成熟，预计所得1110&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2030</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;20级作物，32小时成熟，预计所得1080&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2031</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;20级作物，30小时成熟，预计所得1008&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2032</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;21级作物，34小时成熟，预计所得1155&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2033</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;21级作物，33小时成熟，预计所得1131&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2034</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;22级作物，35小时成熟，预计所得1170&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2035</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;23级作物，36小时成熟，预计所得1230&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2036</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;24级作物，37小时成熟，预计所得1240&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2037</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;24级作物，36小时成熟，预计所得1215&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2038</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;25级作物，39小时成熟，预计所得1271&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2039</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;26级作物，39小时成熟，预计所得1333&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2040</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;26级作物，38小时成熟，预计所得1320&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2041</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;27级作物，40小时成熟，预计所得1408&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2042</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;27级作物，39小时成熟，预计所得1271&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2043</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;28级作物，41小时成熟，预计所得1440&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2044</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;28级作物，40小时成熟，预计所得1410&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2045</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;29级作物，42小时成熟，预计所得1472&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2046</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;29级作物，41小时成熟，预计所得1554&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2047</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;30级作物，43小时成熟，预计所得1554&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2048</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;31级作物，44小时成熟，预计所得1584&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2049</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;32级作物，45小时成熟，预计所得1617&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2050</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;33级作物，31小时成熟，预计所得6525&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2051</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;34级作物，31小时成熟，预计所得6670&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2052</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;35级作物，33小时成熟，预计所得7050&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2053</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;36级作物，69小时成熟，预计所得6720&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2054</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;37级作物，31小时成熟，预计所得7644&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2055</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;38级作物，30小时成熟，预计所得7800&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2056</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;38级作物，44小时成熟，预计所得51040&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2057</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;39级作物，30小时成熟，预计所得7800&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2058</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;40级作物，29小时成熟，预计所得8112&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2059</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;40级作物，37小时成熟，预计所得45018&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2060</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;41级作物，29小时成熟，预计所得8268&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2061</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;41级作物，30小时成熟，预计所得43524&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2062</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;42级作物，30小时成熟，预计所得8748&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2063</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;43级作物，28小时成熟，预计所得8470&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2064</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;44级作物，32小时成熟，预计所得9016&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2065</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;17级作物，31小时成熟，预计所得1054&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2066</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;19级作物，32小时成熟，预计所得1080&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2067</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;15级作物，29小时成熟，预计所得957&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2068</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;25级作物，38小时成熟，预计所得1344&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2069</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;11级作物，23小时成熟，预计所得756&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2070</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;23级作物，37小时成熟，预计所得1271&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2071</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;25级作物，39小时成熟，预计所得1353&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2072</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;14级作物，27小时成熟，预计所得899&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2073</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;24级作物，36小时成熟，预计所得1260&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2074</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;19级作物，33小时成熟，预计所得1120&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2075</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;42级作物，40小时成熟&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2076</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;15级作物，29小时成熟,预计所得957&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2077</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;10级作物，10小时成熟&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2078</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;0级作物，13小时成熟&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2079</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;14级作物，37小时成熟&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2080</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;10级作物，25小时成熟&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2081</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;？级作物，30小时成熟&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2082</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;10级作物，25小时成熟&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2083</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;10级作物，25小时成熟&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2400</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;每个阶段只能使用一次，减少该生长阶段1小时&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2401</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;使作物成熟时的产量加成50%&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2402</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;自动帮你收割成熟的作物&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2403</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;提高整个农场的产量加成&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2404</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;让农场免疫所有的杂草影响&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2405</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;让农场免疫所有的虫害影响&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2406</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;让农场不会受到干旱的影响&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2407</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;饲养宠物必须要的狗粮&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2408</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;让你进行偷窃的时候不被对方的狗发现&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2409</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;饲养宠物必须要的狗粮,可供狗狗食用三天&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2410</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;饲养宠物必须要的狗粮,5+2大礼包,可供狗狗食用一个星期哦&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2411</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;使用变异魔棒可使红土地的专属作物产生变异&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>2500</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;可获得经验100&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>3001</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;可在服装店领取免费的奖励。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+	<row>
+		<id>3002</id>
+		<value>&lt;clr v="#05E5FF"&gt;&lt;sid v="#043644" g="1.0"&gt;可在家具店领取免费的奖励。&lt;/sid&gt;&lt;/clr&gt;</value>
+	</row>
+</root>

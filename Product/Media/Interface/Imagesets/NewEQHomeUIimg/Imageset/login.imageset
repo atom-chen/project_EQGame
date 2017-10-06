@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="login" Imagefile="NewEQHomeUIimg\login.png" >
+    <Image Name="NewImage1" XPos="0" YPos="0" Width="800" Height="600" />
+    <Image Name="NewImage2" XPos="413" YPos="621" Width="92" Height="37" />
+    <Image Name="NewImage3" XPos="413" YPos="672" Width="92" Height="37" />
+    <Image Name="NewImage4" XPos="413" YPos="724" Width="92" Height="37" />
+    <Image Name="NewImage5" XPos="518" YPos="621" Width="92" Height="37" />
+    <Image Name="NewImage6" XPos="518" YPos="672" Width="92" Height="37" />
+    <Image Name="NewImage7" XPos="518" YPos="724" Width="92" Height="37" />
+    <Image Name="NewImage8" XPos="0" YPos="611" Width="399" Height="344" />
+    <Image Name="NewImage9" XPos="403" YPos="817" Width="503" Height="54" />
+    <Image Name="NewImage10" XPos="625" YPos="621" Width="92" Height="37" />
+    <Image Name="NewImage11" XPos="625" YPos="672" Width="92" Height="37" />
+    <Image Name="NewImage12" XPos="625" YPos="724" Width="92" Height="37" />
+</Imageset>

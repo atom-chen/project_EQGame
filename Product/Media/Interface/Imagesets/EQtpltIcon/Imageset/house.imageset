@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="house" Imagefile="EQtpltIcon\house.png" >
+    <Image Name="house_1" XPos="10" YPos="10" Width="320" Height="255" />
+</Imageset>

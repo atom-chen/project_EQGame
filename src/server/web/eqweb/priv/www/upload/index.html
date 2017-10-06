@@ -1,0 +1,238 @@
+<html>
+<head>
+    <title>JavaScript 文件管理器</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <meta content="MSHTML 6.00.5730.11" name="GENERATOR">
+    <style>
+        body, td, th
+        {
+            /*font-family: Courier New;*/
+            font-family: 宋体;
+            letter-spacing: 0px;
+            line-height: 14px;
+            font-size: 13px;
+        }
+        table
+        {
+            background-color: #ffff00;
+        }
+        th
+        {
+            background-color: #ff0000;
+        }
+        tr
+        {
+            background-color: #ffffff;
+        }
+        #Layer2
+        {
+            position: absolute;
+            background: #ffffff;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+        }
+    </style>
+
+    <script language="JavaScript">
+    //设置管理目录
+    var MyDir = "D:/";
+    var MyFile="";
+
+    function readDirs(path)
+    { //读取文件目录列表
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        var f = fso.GetFolder(path);
+        var fc=new Enumerator(f.files);
+        var r=/\\/g;
+        var rfile="";
+        var rpath="";
+        var mpath=path;
+        MyFile="";
+        if(path==this.MyDir)
+        {
+            path=this.MyDir;
+            path=path.replace(r,"\\\\");
+        }else
+        {
+            path=getpDir(path);
+        }
+        document.getElementById('showdir').innerHTML="";
+        this.MyFile+="<table width=\"100%\" border=1 cellSpacing=1 cellPadding=3>\
+            <tr><th width=\"50\"><a href=\"#\" onClick=\"readDirs('"+path+"')\" title=\"上一级\">上一级</a></th>\
+            <th width=\"110\">文件</th>\
+            </tr>";
+        fk=new Enumerator(f.SubFolders);
+        for(;!fk.atEnd();fk.moveNext()){
+            rpath=fk.item();
+            rpath=unescape(rpath);
+            rpath=rpath.replace(r,"\\\\");
+            var fkpath=getFile(unescape(fk.item()));
+    
+            this.MyFile+="<tr><td>DIR</td>\
+                <td><a href=\"#\" onClick=\"readDirs('"+rpath+"');\">"+fkpath+"</a></td>\
+                </td></tr>";
+        }
+        for(;!fc.atEnd();fc.moveNext()){
+            if(switchFile(unescape(fc.item()))){
+                rfile=fc.item();
+                rfile=unescape(rfile);
+                rfile=rfile.replace(r,"\\\\");
+                var fcpath=getFile(unescape(fc.item()));
+                this.MyFile+="<tr><td>File</td>\
+                    <td><a href=\"#\" onClick=\"readfiles('"+rfile+"');\">"+fcpath+"</a></td>\
+                    </td></tr>";
+            }
+        }
+        this.MyFile+="</table>";
+        path=path.replace(/\\\\/g,"\\");
+        document.getElementById('showdir').innerHTML=MyFile;
+        document.getElementById("showpath").innerHTML=mpath;
+    }
+    
+    function switchFile(url){ //获取当前文件类型
+        switch(getFileName(url,".")){
+            case "exe":return false;break;
+            case "rar":return false;break;
+            case "zip":return false;break;
+            case "chm":return false;break;
+            case "jpg":return false;break;
+            case "gif":return false;break;
+            case "bmp":return false;break;
+            case "box":return false;break;
+            case "winerr":return false;break;
+            default:return true;break;
+        }
+    }
+    
+    function getFile(url){ //获取当前文件夹
+        var url=url.split("\\");
+        var pos=url.length;
+        return url[pos-1];
+    }
+    
+    function getFileName(url,s){ //获取当前文件类型和文件名
+        //alert(url);
+        var url=url;
+        var pos=url.lastIndexOf("\\");
+        if((url.substr(pos+1)).lastIndexOf(".")==-1){
+            return "winerr";
+        }
+        if(pos!=-1)pos=url.lastIndexOf(s)
+        var filename=url.substr(pos+1)
+        return filename;
+    }
+    
+    function getExt(s){ //判断文件格式，暂没使用
+        var r,re;
+        var s=unescape(s);
+        re=/\.([^\.]+)$/i;
+        r=s.match(re);
+        return r[1];
+    }
+    
+    function getpDir(s){ //获取父目录函数
+        var r,re;
+        var s=unescape(s);
+        var pdir="";
+        re=/\\/g;
+        r=s.split(re);
+        for(i=0;i<r.length-1;i++){ 
+            pdir+=r[i]+"\\\\";
+        }
+        return pdir;
+    }
+    
+    function getPath(s){ //格式化路径
+        var r,re;
+        var s=unescape(s);
+        var pdir="";
+        re=/\\/g;
+        r=s.split(re);
+        for(i=0;i<r.length-1;i++){
+            pdir+=r[i]+"\\";
+        }
+        return pdir;
+    }
+    
+    function CreateFile(){ //显示文件编辑区
+        document.getElementById('marea').style.zIndex=10;
+    }
+    
+    function OffFile(){ //关闭目录编辑区
+        document.getElementById('marea').style.zIndex=1;
+        document.getElementById('marea1').style.zIndex=2;
+    }
+    
+    function readfiles(s){ //读取文件编缉
+         var ForReading=1;
+         var getFile;
+         var message;
+         var fso="";
+         var ts="";
+         var str="";
+         fso=new ActiveXObject("Scripting.FileSystemObject");
+         var ms=fso.GetFile(s);
+         ts=fso.OpenTextFile(s,ForReading);
+         message="[FileName:"+ms.Name+"][Filesize:"+ms.size+" bytes]";
+         str=ts.ReadAll();
+         document.getElementById('marea1').style.zIndex=10;
+         document.getElementById('fmessage').innerHTML=message;
+         document.getElementById('filecontent1').value=unescape(str);
+         document.getElementById('mpath').value=unescape(s);
+    }
+    
+    function writefiles(){ //写入文件
+         var ts="";
+         var s=document.getElementById('mpath').value;
+         s=s.replace(/\\/g,"\\\\");
+         fso=new ActiveXObject("Scripting.FileSystemObject");
+         ForAppending=2;
+         try{
+              ts=fso.OpenTextFile(unescape(s),ForAppending,false);
+              ts.WriteLine(unescape(document.getElementById('filecontent1').value));
+              document.getElementById('marea1').style.zIndex=2;
+              alert("更改文件成功");
+              ts.close();
+         }catch(e){
+            alert("更改文件失败");
+         }
+    }
+    </script>
+
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0" onkeydown="KeyDown()">
+    <div id="marea" style="position: absolute; width: 100%; height: 100%; left: 0px;
+        top: 0px; z-index: 1;" align="center">
+        <form name="form1" method="post" action="">
+        <textarea name="filecontent" id="filecontent" style="width: 100%; height: 500px;"></textarea>
+        <div id="submitbutton" style="background-color: #ffffff;">
+            <input type="button" name="button1" value="关闭" onclick="OffFile();" />
+            <input type="button" name="button2" value="提交" onclick="newFile();" />
+        </div>
+        </form>
+    </div>
+    <div id="marea1" style="position: absolute; width: 100%; height: 100%; left: 0px;
+        top: 0px; z-index: 2;" align="center">
+        <form name="form2" method="post" action="">
+        <textarea name="filecontent1" id="filecontent1" style="width: 100%; height: 500px;"></textarea>
+        <div id="submitbutton1" style="background-color: #ffffff;">
+            <input type="button" name="button3" value="关闭" onclick="OffFile();" />
+            <input type="button" name="button4" value="提交" onclick="writefiles();" />
+            <input type="hidden" name="mpath" id="mpath" value="" />
+            <span id="fmessage"></span>
+        </div>
+        </form>
+    </div>
+    <div id="Layer2">
+        <div id="showdir">
+        </div>
+        <script language="javascript">
+            readDirs(MyDir); //读取文件、目录列表
+        </script>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage1" Name="updatebtn" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,118},{0,121}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="updatebtn/update" >
+            <Property Name="Text" Value="上传" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,23},{1,-33},{0,91},{1,-3}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewCheckbox" Name="updatebtn/weibo" >
+            <Property Name="Text" Value="上传到qq微博" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,7},{0,49},{1,-7},{0,69}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+            <Property Name="PushedTextColour" Value="FF00FFFC" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewCheckbox" Name="updatebtn/tx" >
+            <Property Name="Text" Value="设为微博头像" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,7},{0,68},{1,-7},{0,88}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+            <Property Name="PushedTextColour" Value="FF00FFFC" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewStaticText" Name="updatebtn/txt" >
+            <Property Name="Text" Value="照片已保存" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-47},{0.5,-53},{0.5,33},{0.5,-33}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

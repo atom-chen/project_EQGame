@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="Disease8" Imagefile="EQtpltIcon\Disease8.dds" >
+    <Image Name="8" XPos="4" YPos="4" Width="218" Height="194" />
+</Imageset>

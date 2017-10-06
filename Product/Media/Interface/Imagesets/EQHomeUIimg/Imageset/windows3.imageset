@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="windows3" Imagefile="EQHomeUIimg\windows3.png" >
+    <Image Name="Window1" XPos="8" YPos="53" Width="138" Height="375" />
+    <Image Name="Window6" XPos="389" YPos="208" Width="98" Height="232" />
+    <Image Name="Window7" XPos="491" YPos="219" Width="454" Height="32" />
+    <Image Name="Window8" XPos="662" YPos="55" Width="48" Height="126" />
+    <Image Name="BackGround1" XPos="176" YPos="337" Width="46" Height="17" />
+    <Image Name="window2_mid" XPos="226" YPos="116" Width="12" Height="12" />
+    <Image Name="window2_top" XPos="231" YPos="53" Width="12" Height="12" />
+    <Image Name="window3_mid" XPos="406" YPos="104" Width="12" Height="35" />
+    <Image Name="window3_top" XPos="406" YPos="74" Width="12" Height="18" />
+    <Image Name="window4_mid" XPos="547" YPos="55" Width="51" Height="126" />
+    <Image Name="window5_mid" XPos="295" YPos="300" Width="30" Height="10" />
+    <Image Name="window5_top" XPos="295" YPos="253" Width="30" Height="33" />
+    <Image Name="window2_left" XPos="176" YPos="115" Width="12" Height="12" />
+    <Image Name="window3_left" XPos="356" YPos="103" Width="4" Height="35" />
+    <Image Name="window4_left" XPos="500" YPos="55" Width="36" Height="126" />
+    <Image Name="window5_left" XPos="176" YPos="300" Width="22" Height="10" />
+    <Image Name="window2_right" XPos="293" YPos="117" Width="15" Height="12" />
+    <Image Name="window3_right" XPos="426" YPos="93" Width="20" Height="95" />
+    <Image Name="window4_right" XPos="611" YPos="55" Width="48" Height="126" />
+    <Image Name="window5_right" XPos="370" YPos="300" Width="16" Height="10" />
+    <Image Name="bottomhudblock" XPos="8" YPos="7" Width="640" Height="33" />
+    <Image Name="window2_bottom" XPos="232" YPos="216" Width="12" Height="12" />
+    <Image Name="window3_bottom" XPos="407" YPos="193" Width="11" Height="7" />
+    <Image Name="window5_bottom" XPos="295" YPos="322" Width="30" Height="9" />
+    <Image Name="window2_topleft" XPos="176" YPos="53" Width="12" Height="12" />
+    <Image Name="window3_topleft" XPos="356" YPos="74" Width="42" Height="18" />
+    <Image Name="window5_topleft" XPos="176" YPos="253" Width="97" Height="33" />
+    <Image Name="window2_topright" XPos="293" YPos="53" Width="15" Height="12" />
+    <Image Name="window3_topright" XPos="426" YPos="74" Width="20" Height="19" />
+    <Image Name="window5_topright" XPos="370" YPos="253" Width="16" Height="33" />
+    <Image Name="window2_bottomleft" XPos="176" YPos="216" Width="12" Height="12" />
+    <Image Name="window3_bottomleft" XPos="356" YPos="193" Width="7" Height="7" />
+    <Image Name="window5_bottomleft" XPos="176" YPos="322" Width="22" Height="9" />
+    <Image Name="window2_bottomright" XPos="293" YPos="216" Width="15" Height="12" />
+    <Image Name="window3_bottomright" XPos="426" YPos="188" Width="20" Height="12" />
+    <Image Name="window5_bottomright" XPos="370" YPos="322" Width="16" Height="9" />
+</Imageset>

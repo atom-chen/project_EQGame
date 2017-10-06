@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ScriptEditor">
+</Property><Property Name="Solution File" Value="E:\work\eq\server\tools\script_editor\ScriptEditor.sln">
+</Property><Property Name="Date" Value="2010年4月30日">
+</Property><Property Name="Time" Value="16:23:42">
+</Property></Properties><Event ErrorLevel="0" Project="SyntaxHighlighter" Source="SyntaxHighlighter\SyntaxHighlighter.csproj" Description="Project file successfully backed up as E:\work\eq\server\tools\script_editor\Backup\SyntaxHighlighter.csproj">
+</Event><Event ErrorLevel="0" Project="SyntaxHighlighter" Source="SyntaxHighlighter\SyntaxHighlighter.csproj.user" Description="Project user file successfully backed up as E:\work\eq\server\tools\script_editor\Backup\SyntaxHighlighter.csproj.user">
+</Event><Event ErrorLevel="0" Project="SyntaxHighlighter" Source="SyntaxHighlighter\SyntaxRichTextBox.cs" Description="File successfully backed up as E:\work\eq\server\tools\script_editor\Backup\SyntaxRichTextBox.cs">
+</Event><Event ErrorLevel="0" Project="SyntaxHighlighter" Source="SyntaxHighlighter\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\work\eq\server\tools\script_editor\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SyntaxHighlighter" Source="SyntaxHighlighter\SyntaxHighlighter.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SyntaxHighlighter" Source="SyntaxHighlighter\SyntaxHighlighter.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SyntaxHighlighter" Source="SyntaxHighlighter\SyntaxHighlighter.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

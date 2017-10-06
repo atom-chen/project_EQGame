@@ -1,0 +1,209 @@
+material Region/PointTemp
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend src_alpha one_minus_src_alpha 
+			//depth_check off
+			depth_write off
+			
+			texture_unit
+			{
+				colour_op_ex source1  src_manual src_current 0.0 1.0 1.0
+				alpha_op_ex  source1  src_manual src_current 0.3
+			}
+		}
+	}
+}
+
+material Region/PointSel
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend src_alpha one_minus_src_alpha 
+			//depth_check off
+			depth_write off
+			
+			texture_unit
+			{
+				colour_op_ex source1  src_manual src_current 1.0 0.0 0.0
+				alpha_op_ex  source1  src_manual src_current 0.5
+			}
+		}
+	}
+}
+
+material Region/PointNor
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend src_alpha one_minus_src_alpha 
+			//depth_check off
+			depth_write off
+			
+			texture_unit
+			{
+				colour_op_ex source1  src_manual src_current 1.0 1.0 0.0
+				alpha_op_ex  source1  src_manual src_current 0.5
+			}
+		}
+	}
+}
+
+
+
+material Region/RegionNor
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend src_alpha one_minus_src_alpha 
+			//depth_check off
+			depth_write off
+			cull_hardware none
+			
+			texture_unit
+			{
+				colour_op_ex source1  src_manual src_current 0.2 0.5 1.0
+				alpha_op_ex  source1  src_manual src_current 0.5
+			}
+		}
+	}
+}
+
+material Region/AreaRegionNor
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend src_alpha one_minus_src_alpha 
+			//depth_check off
+			depth_write off
+			cull_hardware none
+			
+			texture_unit
+			{
+				colour_op_ex source1  src_manual src_current 0.2 0.5 1.0
+				alpha_op_ex  source1  src_manual src_current 0.5
+			}
+		}
+	}
+}
+
+material Region/RegionSel
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend src_alpha one_minus_src_alpha 
+			//depth_check off
+			depth_write off
+			cull_hardware none
+			
+			texture_unit
+			{
+				colour_op_ex source1  src_manual src_current 1.0 0.5 1.0
+				alpha_op_ex  source1  src_manual src_current 0.5
+			}
+		}
+	}
+}
+
+material Region/AreaRegionSel
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend src_alpha one_minus_src_alpha 
+			//depth_check off
+			depth_write off
+			cull_hardware none
+			
+			texture_unit
+			{
+				colour_op_ex source1  src_manual src_current 1.0 0.5 1.0
+				alpha_op_ex  source1  src_manual src_current 0.5
+			}
+		}
+	}
+}
+
+
+material EventAreaEdit/PreSelectRect
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend src_alpha one_minus_src_alpha 
+			//depth_check off
+			depth_write off
+			cull_hardware none
+			
+			texture_unit
+			{
+				colour_op_ex source1  src_manual src_current 1.0 0.5 1.0
+				alpha_op_ex  source1  src_manual src_current 0.5
+			}
+		}
+	}
+}
+
+material EventAreaEdit/SelectRect
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend src_alpha one_minus_src_alpha 
+			//depth_check off
+			depth_write off
+			cull_hardware none
+			
+			texture_unit
+			{
+				colour_op_ex source1  src_manual src_current 1.0 0.5 1.0
+				alpha_op_ex  source1  src_manual src_current 0.5
+			}
+		}
+	}
+}
+
+material EventAreaEdit/UnSelectRect
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend src_alpha one_minus_src_alpha 
+			//depth_check off
+			depth_write off
+			cull_hardware none
+			
+			texture_unit
+			{
+				colour_op_ex source1  src_manual src_current 1.0 0.5 1.0
+				alpha_op_ex  source1  src_manual src_current 0.5
+			}
+		}
+	}
+}

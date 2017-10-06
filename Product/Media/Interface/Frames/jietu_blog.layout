@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name=" jietu_blog" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="NewEQHomeLook/NewFrameWindow" Name="jietu_blog" >
+            <Property Name="Text" Value="截图" />
+            <Property Name="TitlebarFont" Value="simsun-10" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,200},{0,26},{0,500},{0,417}}" />
+            <Window Type="NewEQHomeLook/NewStaticImage1" Name="jietu_blog/picture" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,25},{0,60},{0,275},{0,250}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewMultiLineEditbox" Name="jietu_blog/edittext" >
+                <Property Name="Text" >一起加入EQ乐园吧。
+</Property>
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,25},{0,279},{0,275},{0,339}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton(whitefont)" Name="jietu_blog/button1" >
+                <Property Name="Text" Value="上传到QQ微博" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,25},{0,342},{0,125},{0,372}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton(whitefont)" Name="jietu_blog/button2" >
+                <Property Name="Text" Value="关 闭" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage432" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage431" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage433" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,172},{0,342},{0,272},{0,372}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticText" Name="jietu_blog/text2" >
+                <Property Name="Text" Value="对你的照片说点什么吧" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,28},{0,254},{0,257},{0,274}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

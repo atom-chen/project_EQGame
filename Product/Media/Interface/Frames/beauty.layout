@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="Root/beauty" >
+        <Property Name="Text" Value="美容美发" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-130},{0.5,-143},{0.5,135},{0.5,131}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Window Type="NewEQHomeLook/NewStaticImage3" Name="Root/beauty/background" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,25},{1,-5},{1,-5}}" />
+            <Window Type="NewEQHomeLook/NewStaticImage3" Name="Root/beauty/background/head" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,11},{0,148},{0,207}}" />
+                <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/head/leftbutton" >
+                    <Property Name="HoverImage" Value="set:chuangjian image:NewImage29" />
+                    <Property Name="NormalImage" Value="set:chuangjian image:NewImage28" />
+                    <Property Name="PushedImage" Value="set:chuangjian image:NewImage32" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,7},{0,7},{0,26},{0,31}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/head/rightbutton" >
+                    <Property Name="HoverImage" Value="set:chuangjian image:NewImage31" />
+                    <Property Name="NormalImage" Value="set:chuangjian image:NewImage30" />
+                    <Property Name="PushedImage" Value="set:chuangjian image:NewImage33" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-23},{0,7},{1,-4},{0,31}}" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/done" >
+                <Property Name="Text" Value="确 定" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,51},{1,-34},{0,96},{1,-8}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/cancel" >
+                <Property Name="Text" Value="取 消" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage338" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage336" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage340" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-96},{1,-34},{1,-51},{1,-8}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/hair" >
+                <Property Name="Tooltip" Value="点击这里美容发型" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage129" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage130" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage130" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,226},{0,11},{0,244},{0,31}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/face" >
+                <Property Name="Tooltip" Value="点击这里美容脸型" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage129" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage130" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage130" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,226},{0,58},{0,244},{0,78}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/beard" >
+                <Property Name="Tooltip" Value="点击这里可以美容胡子" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage129" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage130" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage130" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,226},{0,106},{0,244},{0,126}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="Root/beauty/background/cost" >
+                <Property Name="Text" Value="费用总和：" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,160},{0,130},{0,220},{0,145}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/beauty/background/costbgimg" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,156},{0,163},{0,232},{0,213}}" />
+                <Window Type="EQHomeLook/StaticText" Name="Root/beauty/background/costbgimg/goldcost" >
+                    <Property Name="Text" Value="金币：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{1,0},{0,16}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="Root/beauty/background/costbgimg/count" >
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,15},{0,20},{0,73},{0,40}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/beauty/background/costbgimg1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,157},{0,163},{0,227},{0,213}}" />
+                <Window Type="EQHomeLook/StaticText" Name="Root/beauty/background/costbgimg/goldcost1" >
+                    <Property Name="Text" Value="EQ点：" />
+                    <Property Name="TextColours" Value="tl:FFB42FA3 tr:FFB42FA3 bl:FFB42FA3 br:FFB42FA3" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00139665,2},{0,2},{1,2},{0,16}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/beauty/background/haircolor" >
+                <Property Name="Image" Value="set:Button1 image:ImageButton112_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,186},{0,35},{0,218},{0,53}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/beauty/background/facecolor" >
+                <Property Name="Image" Value="set:Button1 image:ImageButton113_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,186},{0,83},{0,218},{0,101}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/haircolor_pgup" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage132" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage131" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage131" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,163},{0,35},{0,181},{0,55}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/skin_pgup" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage132" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage131" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage131" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,163},{0,82},{0,181},{0,102}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/haircolor_pgdown" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage129" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage130" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage130" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,226},{0,35},{0,244},{0,55}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="Root/beauty/background/skin_pgdown" >
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage129" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage130" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage130" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,226},{0,82},{0,244},{0,102}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/beauty/background/faxing" >
+                <Property Name="Image" Value="set:Button1 image:ImageButton109_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,186},{0.5,-110},{0,218},{0.5,-92}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/beauty/background/lianxing" >
+                <Property Name="Image" Value="set:Button1 image:ImageButton110_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,186},{0.34654,-26},{0,218},{0.34654,-8}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="Root/beauty/background/huzi" >
+                <Property Name="Image" Value="set:Button1 image:ImageButton111_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,186},{0.461465,-7},{0,218},{0.461465,11}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticText1" Name="Root/beauty/background/totalcost" >
+                <Property Name="Text" Value="0" />
+                <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,172},{0,145},{0,230},{0,165}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

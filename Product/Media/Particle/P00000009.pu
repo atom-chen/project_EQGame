@@ -1,0 +1,23 @@
+system P00000009
+{
+    keep_local                                  true
+    technique Technique19
+    {
+        visual_particle_quota                   1
+        material                                jibing
+        default_particle_width                  20
+        default_particle_height                 20
+        default_particle_depth                  20
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Point Emitter24
+        {
+            emission_rate                       1
+            angle                               30
+            time_to_live                        99
+            velocity                            0
+            position                            0 60 0
+        }
+    }
+}

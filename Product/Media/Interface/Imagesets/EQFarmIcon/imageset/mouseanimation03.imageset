@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="mouseanimation03" Imagefile="EQFarmIcon\mouseanimation03.dds" >
+    <Image Name="mouse_manure_01" XPos="2" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_manure_02" XPos="72" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_manure_03" XPos="142" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_manure_04" XPos="212" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_manure_05" XPos="282" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_manure_06" XPos="352" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_manure_07" XPos="422" YPos="2" Width="70" Height="70" />
+    <Image Name="mouse_manure_08" XPos="2" YPos="72" Width="70" Height="70" />
+    <Image Name="mouse_manure_09" XPos="72" YPos="72" Width="70" Height="70" />
+    <Image Name="mouse_manure_10" XPos="142" YPos="72" Width="70" Height="70" />
+    <Image Name="mouse_manure_11" XPos="212" YPos="72" Width="70" Height="70" />
+</Imageset>

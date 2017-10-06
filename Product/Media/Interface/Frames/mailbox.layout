@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="mail" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,20},{0,80},{0,610},{0,464}}" />
+        <Window Type="NewEQHomeLook/NewFrameWindow" Name="mail/open_mailbox1" >
+            <Property Name="Text" Value="我的邮箱" />
+            <Property Name="TitlebarFont" Value="simsun-11" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,32},{0,33},{0,306},{0,373}}" />
+            <Window Type="NewEQHomeLook/NewTabControl1" Name="mail/open_mailbox/open_mail" >
+                <Property Name="TabHeight" Value="{0,22.4934}" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0,11},{0,37},{0,264},{0,332}}" />
+                <Window Type="DefaultWindow" Name="mail/open_mailbox/Tab 1" >
+                    <Property Name="Text" Value="收邮件" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 1/mail1" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,6},{0,6},{0,46},{0,46}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="mail/open_mailbox/Tab 1/contents1" >
+                        <Property Name="Image" Value="set:Button6 image:NewImage80" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,57},{0,8},{0,233},{0,45}}" />
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents1/name1" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,8},{0,2},{0,126},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents1/title1" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,18},{0,177},{0,33}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents1/date1" >
+                            <Property Name="TextColours" Value="tl:FF1DCA00 tr:FF1DCA00 bl:FF1DCA00 br:FF1DCA00" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,141},{0,2},{0,171},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 1/mail2" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,6},{0,44},{0,46},{0,84}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="mail/open_mailbox/Tab 1/contents2" >
+                        <Property Name="Image" Value="set:Button6 image:NewImage80" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,57},{0,46},{0,233},{0,83}}" />
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents2/name2" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,2},{0,127},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents2/title2" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,18},{0,177},{0,33}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents2/date2" >
+                            <Property Name="TextColours" Value="tl:FF1DCA00 tr:FF1DCA00 bl:FF1DCA00 br:FF1DCA00" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,141},{0,2},{0,169},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 1/mail3" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,6},{0,82},{0,46},{0,122}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="mail/open_mailbox/Tab 1/contents3" >
+                        <Property Name="Image" Value="set:Button6 image:NewImage80" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,57},{0,84},{0,233},{0,121}}" />
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents3/name3" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,2},{0,127},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents3/title3" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,18},{0,177},{0,33}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents3/date3" >
+                            <Property Name="TextColours" Value="tl:FF1DCA00 tr:FF1DCA00 bl:FF1DCA00 br:FF1DCA00" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,141},{0,2},{0,169},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 1/mail4" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,6},{0,120},{0,46},{0,160}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="mail/open_mailbox/Tab 1/contents4" >
+                        <Property Name="Image" Value="set:Button6 image:NewImage80" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,57},{0,122},{0,233},{0,159}}" />
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents4/name4" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,2},{0,127},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents4/title4" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,18},{0,177},{0,33}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents4/date4" >
+                            <Property Name="TextColours" Value="tl:FF1DCA00 tr:FF1DCA00 bl:FF1DCA00 br:FF1DCA00" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,141},{0,2},{0,169},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 1/mail5" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,6},{0,158},{0,46},{0,198}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="mail/open_mailbox/Tab 1/contents5" >
+                        <Property Name="Image" Value="set:Button6 image:NewImage80" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,57},{0,160},{0,233},{0,197}}" />
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents5/name5" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,2},{0,127},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents5/title5" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,18},{0,177},{0,33}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents5/date5" >
+                            <Property Name="TextColours" Value="tl:FF1DCA00 tr:FF1DCA00 bl:FF1DCA00 br:FF1DCA00" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,141},{0,2},{0,169},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 1/mail6" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,6},{0,196},{0,46},{0,236}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="mail/open_mailbox/Tab 1/contents6" >
+                        <Property Name="Image" Value="set:Button6 image:NewImage80" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,57},{0,198},{0,233},{0,235}}" />
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents6/name6" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,2},{0,127},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents6/title6" >
+                            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,18},{0,177},{0,33}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/contents6/date6" >
+                            <Property Name="TextColours" Value="tl:FF1DCA00 tr:FF1DCA00 bl:FF1DCA00 br:FF1DCA00" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,141},{0,2},{0,169},{0,17}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="mail/open_mailbox/Tab 1/pageup" >
+                        <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                        <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                        <Property Name="PushedImage" Value="set:Button5 image:NewImage141" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,92},{0,241},{0,104},{0,253}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="mail/open_mailbox/Tab 1/pagedown" >
+                        <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                        <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                        <Property Name="PushedImage" Value="set:Button5 image:NewImage139" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,149},{0,241},{0,161},{0,253}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 1/pagenumber" >
+                        <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,110},{0,238},{0,144},{0,256}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="mail/open_mailbox/Tab 1/xian1" >
+                        <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,12},{0,245},{0,92},{0,248}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="mail/open_mailbox/Tab 1/xian2" >
+                        <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,159},{0,245},{0,245},{0,248}}" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="mail/open_mailbox/Tab 2" >
+                    <Property Name="Text" Value="发邮件" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.997917,0},{1,0}}" />
+                    <Window Type="EQHomeLook/ImageButton" Name="mail/open_mailbox/Tab 2/button" >
+                        <Property Name="HoverImage" Value="set:Button1 image:imagebutton116_Hover" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="NormalImage" Value="set:Button1 image:imagebutton116_Normal" />
+                        <Property Name="PushedImage" Value="set:Button1 image:imagebutton116_Hover" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,221},{0,5},{0,241},{0,24}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 2/receivemanname" >
+                        <Property Name="Text" Value="收件人：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,12},{0,6},{0,57},{0,21}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox/Tab 2/title" >
+                        <Property Name="Text" Value="主题：" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,24},{0,27},{0,57},{0,43}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 2/senditem1" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,193},{0,50},{0,233}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 2/senditem2" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,48},{0,193},{0,88},{0,233}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 2/senditem3" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,86},{0,193},{0,126},{0,233}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 2/senditem4" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,124},{0,193},{0,164},{0,233}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 2/senditem5" >
+                        <Property Name="Tooltip" Value="1111" />
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,162},{0,193},{0,202},{0,233}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox/Tab 2/senditem6" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,200},{0,193},{0,240},{0,233}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="mail/open_mailbox/Tab 2/sendbutton" >
+                        <Property Name="Text" Value="发 信" />
+                        <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                        <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                        <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,178},{0,232},{0,224},{0,258}}" />
+                        <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                        <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewEditbox" Name="mail/open_mailbox/Tab 2/receivemanedit" >
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,60},{0,5},{0,215},{0,27}}" />
+                        <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewEditbox" Name="mail/open_mailbox/Tab 2/titleedit" >
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,60},{0,27},{0,243},{0,49}}" />
+                        <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewMultiLineEditbox1" Name="mail/open_mailbox/Tab 2/contentsedit" >
+                        <Property Name="Text" >
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,9},{0,50},{0,241},{0,189}}" />
+                        <Property Name="NormalTextColour" Value="FF00FFFC" />
+                        <Property Name="SelectionBrushImage" Value="" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="NewEQHomeLook/NewFrameWindow" Name="mail/open_mailbox2" >
+            <Property Name="Text" Value="打开邮件" />
+            <Property Name="TitlebarFont" Value="simsun-11" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,316},{0,34},{0,582},{0,371}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="mail/open_mailbox2/read_mail" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,6},{0,27},{0,253},{0,325}}" />
+                <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox2/read_mail/fromwho" >
+                    <Property Name="Text" Value="来自：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,16},{0,9},{0,50},{0,22}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewEditbox" Name="mail/open_mailbox2/read_mail/fromwho_name" >
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,51},{0,6},{0,238},{0,28}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="mail/open_mailbox2/read_mail/title" >
+                    <Property Name="Text" Value="主题：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,15},{0,32},{0,49},{0,45}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewEditbox" Name="mail/open_mailbox2/read_mail/title_name" >
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,51},{0,29},{0,238},{0,51}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewMultiLineEditbox1" Name="mail/open_mailbox2/read_mail/mail_contents" >
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="MaxTextLength" Value="1073741823" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,58},{0,240},{0,218}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="SelectionBrushImage" Value="" />
+                </Window>
+                <Window Type="EQHomeLook/VerticalScrollbar" Name="mail/open_mailbox2/read_mail/VerticalScrollbar" >
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,236},{0,53},{0,248},{0,220}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox2/read_mail/mailitem21" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,11},{0,223},{0,51},{0,263}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox2/read_mail/mailitem22" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,49},{0,223},{0,89},{0,263}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox2/read_mail/mailitem23" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,87},{0,223},{0,127},{0,263}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox2/read_mail/mailitem24" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,125},{0,223},{0,165},{0,263}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox2/read_mail/mailitem25" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,163},{0,223},{0,203},{0,263}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="mail/open_mailbox2/read_mail/mailitem26" >
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,201},{0,223},{0,241},{0,263}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="mail/open_mailbox2/read_mail/remail" >
+                    <Property Name="Text" Value="回 复" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,90},{0,262},{0,136},{0,288}}" />
+                    <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                    <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="mail/open_mailbox2/read_mail/delete" >
+                    <Property Name="Text" Value="删 除" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,138},{0,262},{0,184},{0,288}}" />
+                    <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                    <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="mail/open_mailbox2/read_mail/sendback" >
+                    <Property Name="Text" Value="退 信" />
+                    <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                    <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                    <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,186},{0,262},{0,232},{0,288}}" />
+                    <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                    <Property Name="PushedTextColour" Value="FFD6C2C2" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

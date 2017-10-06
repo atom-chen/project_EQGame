@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<scene_copy>
+		<id>1</id>
+		<scene_id>80000</scene_id>
+		<copy_id>1</copy_id>
+		<name>场景1副本1</name>
+	</scene_copy>
+</root>

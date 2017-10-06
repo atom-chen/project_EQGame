@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParticleUniverse", "PlugIns\ParticleUniverse\scripts\ParticleUniverse_vc8.vcproj", "{1C741C2F-3278-43D8-9FD2-E631A64B70AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtlasImageTool", "Tools\AtlasImageTool\scripts\AtlasImageTool_vc8.vcproj", "{C74E7CA9-4CC7-4603-BB3A-6B86139DC2E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParticleUniverseViewer", "Samples\ParticleUniverseViewer\scripts\ParticleUniverseViewer_vc8.vcproj", "{0F83CA41-4364-49FF-A230-613B08B5CF82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C741C2F-3278-43D8-9FD2-E631A64B70AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C741C2F-3278-43D8-9FD2-E631A64B70AE}.Debug|Win32.Build.0 = Debug|Win32
+		{1C741C2F-3278-43D8-9FD2-E631A64B70AE}.Release|Win32.ActiveCfg = Release|Win32
+		{1C741C2F-3278-43D8-9FD2-E631A64B70AE}.Release|Win32.Build.0 = Release|Win32
+		{C74E7CA9-4CC7-4603-BB3A-6B86139DC2E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C74E7CA9-4CC7-4603-BB3A-6B86139DC2E6}.Debug|Win32.Build.0 = Debug|Win32
+		{C74E7CA9-4CC7-4603-BB3A-6B86139DC2E6}.Release|Win32.ActiveCfg = Release|Win32
+		{C74E7CA9-4CC7-4603-BB3A-6B86139DC2E6}.Release|Win32.Build.0 = Release|Win32
+		{0F83CA41-4364-49FF-A230-613B08B5CF82}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F83CA41-4364-49FF-A230-613B08B5CF82}.Debug|Win32.Build.0 = Debug|Win32
+		{0F83CA41-4364-49FF-A230-613B08B5CF82}.Release|Win32.ActiveCfg = Release|Win32
+		{0F83CA41-4364-49FF-A230-613B08B5CF82}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

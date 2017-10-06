@@ -1,0 +1,1047 @@
+转]LuaBind --最强大的Lua C++ Bind2009年09月27日 星期日 18:01LuaBind --最强大的Lua C++ Bind
+翻译： Linker Lin (linker.m.lin@gmail.com)
+
+1 介绍
+LuaBind 是一个帮助你绑定C++和Lua的库.她有能力暴露 C++ 函数和类到 Lua . 她也有
+能力支持函数式的定义一个Lua类,而且使之继承自C++或者Lua. Lua类可以覆写从 C++ 基类
+继承来的虚函数. 她的目标平台是Lua 5.0 ,不能支持Lua 4.0 .
+
+她利用模板原编程技术实现.这意味着,你不需要额外的预处理过程去编译你的工程(编译器
+会替你完成全部的工作).这还意味着,你也不需要(通常)知道你注册的每一个函数的精确的签名.
+因为,LuaBind库会在编译时生成所需的代码.这样做的不利点是,编译时间会随着需要注册的
+文件的数目增加而增加.因此建议你把所有的需要注册的东西放到一个cpp文件里面.
+
+LuaBind 遵循 MIT 协议 发布.
+
+我们非常希望听说有工程使用了LuaBind, 请告诉我们,如果你的工程使用了LuaBind.
+
+主要的反馈渠道是 LuaBind邮件列表 .在 irc.freenode.net还可以找到一个IRC频道 #luabind .
+
+2 功能
+
+LuaBind支持:
+
+* 重载自由函数
+* C++类导入Lua
+* 重载成员函数
+* 操作符
+* 属性
+* 枚举
+* Lua函数导入C++
+* Lua类导入C++
+* Lua类(单继承)
+* 从Lua或C++类继承
+* 覆写C++类的虚函数
+* 注册类型间隐式的类型转换
+* 最好匹配式签名匹配
+* 返回值策略和参数策略
+
+3 可移植性
+
+LuaBind 已经通过下面的编译器环境的测试:
+
+Visual Studio 7.1
+Visual Studio 7.0
+Visual Studio 6.0 (sp 5)
+Intel C++ 6.0 (Windows)
+GCC 2.95.3 (cygwin)
+GCC 3.0.4 (Debian/Linux)
+GCC 3.1 (SunOS 5.8)
+GCC 3.2 (cygwin)
+GCC 3.3.1 (cygwin)
+GCC 3.3 (Apple, MacOS X)
+GCC 4.0 (Apple, MacOS X)
+
+LuaBind被确认不能在 GCC 2.95.2 (SunOS 5.8) 下工作.
+Metrowerks 8.3 (Windows) 可以编译LuaBind,但是通不过常量测试.这就意味着常量
+成员函数被视同非常量成员函数.
+如果你测试了LuaBind和其他未列出的编译器的兼容性,请告诉我们你的结果.
+
+4 构建LuaBind
+
+为了抑制LuaBind的编译时间最好是将其编译为一个库. 这意味着你要不编译并连接LuaBind
+库要不就添加其所有源码到你的工程里面.你必须确保LuaBind目录在你的编译器包含目录中.
+LuaBind需要Boost 1.32.0 或者 1.33.0 (只需要头文件即可). LuaBind还需要Lua.
+
+官方的构建LuaBind的方式是通过 Boost.Build V2 . 为此,你需要设置两个环境变量:
+BOOST_ROOT 指向你的Boost安装目录
+LUA_PATH     指向你的Lua目录.编译系统将假定包含文件和库文件分别放在
+$(LUA_PATH)/include/ 和 $(LUA_PATH)/lib/.
+
+为了向后兼容性,LuaBind在根目录下还保留了一个makefile.这可以构建库和测试程序.如果
+你正在使用一个UNIX系统(或者 cygwin),他们将使得构建LuaBind静态库变得很简单.如果
+你正在使用 Visual Studio ,很简单的包含 src 目录下的文件到你的工程即可.
+
+构建LuaBind的时候,你可以设定一些选项来使得库更加符合你的需求.特别重要的是,你的应用
+程序也必须使用和库一样的设定.可用的选项的介绍参见 Build options 章节.
+
+如果你希望改变缺省的设置,推荐你通过修改命令行参数的方式来实现.(在Visual Studio
+的工程设置项里面).
+
+5 基本使用
+
+为了使用LuaBind, 你必须包含 lua.h 和 LuaBind 的主要头文件:
+extern "C"
+{
+#include "lua.h"
+}
+
+#include <luabind/luabind.hpp>
+
+这些头文件提供了注册函数和类的功能. 如果你只是想获得函数或者类的支持,你可以分开
+包含 luabind/function.hpp 和 luabind/class.hpp:
+#include <luabind/function.hpp>
+#include <luabind/class.hpp>
+你需要去做的第一件事是 调用 luabind::open(lua_State*), 由此注册可以在Lua创建类
+的函数并初始化 LuaBind需要使用的 状态机全局结构. 如果你不调用这个函数, 你会在后面
+触发一个 断言 .  不没有一个对应的关闭函数.因为,一旦一个类被注册到Lua,真没有什么好
+的方法去移除它.部分原因是任何剩余的类实例都将依赖其类. 当状态机被关闭的时候,所有
+的一切都将被清理干净.
+
+LuaBind 的头文件不会直接包含 Lua.h , 而是透过 <luabind/lua_include.hpp> . 如果你
+出于某种原因需要包含其他的Lua头文件,你可以修改此文件.
+
+5.1 Hello World
+新建一个控制台DLL工程, 名字是 luabind_test.
+#include <iostream>
+#include <luabind/luabind.hpp>
+#include <luabind/lua_include.hpp>
+
+extern "C"
+{
+#include "lua.h"
+#include "lauxlib.h"
+}
+
+void greet()
+{
+std::cout << "hello world!\n";
+}
+
+extern "C" int luaopen_luabind_test(lua_State* L)
+{
+using namespace luabind;
+
+open(L);
+
+module(L)
+[
+def("greet", &greet)
+];
+
+return 0;
+}
+
+把生成的DLL和lua.exe/lua51.dll放在同一个目录下.
+Lua 5.1.2  Copyright (C) 1994-2007 Lua.org, PUC-Rio
+> require "luabind_test"
+> greet()
+Hello world!
+>
+
+6 作用域
+
+注册到Lua里面的所有东西要不注册于一个名空间下(Lua table)要不注册于全局作用域(lua module).
+所有注册的东西必须放在一个作用域里面.为了定义一个模块, luabind::module 类必须被使用.
+使用方式如下:
+module(L)
+[
+// declarations
+];
+这将会注册所有的函数或者类到 Lua 全局作用域. 如果你想要为你的模块设定一个名空间(类似标准模块),
+你可以给构造函数设定一个名字,例如:
+module(L, "my_library")
+[
+// declarations
+];
+这里所有的申明都将被放置在 my_libary 表.
+
+如果你想要嵌套名空间,你可以用 luabind::namespace_ 类. 它和 luabind::module 类似,除了构造器
+没有lua_State* 输入参数.用例如下:
+module(L, "my_library")
+[
+// declarations
+
+namespace_("detail")
+[
+// library-private declarations
+]
+];
+
+你可能会想到,下面两个声明是等价的:
+module(L)
+[
+namespace_("my_library")
+[
+// declarations
+]
+
+];
+module(L, "my_library")
+[
+// declarations
+];
+每一个声明必须用逗号分隔,例如:
+module(L)
+[
+def("f", &f),
+def("g", &g),
+class_<A>("A")
+.def(constructor<int, int>),
+def("h", &h)
+];
+
+更多实际的例子请参阅  绑定函数到Lua 和 绑定类到Lua 章节.
+
+请注意, (如果你对性能有很高的需求)把你的函数放到表里面将增加查找函数的时间.
+
+7 绑定函数到Lua
+
+为了绑定函数到Lua,你可以使用函数 luabind::def(). 它的声明如下:
+template<class F, class policies>
+void def(const char* name, F f, const Policies&);
+* name 是该函数在Lua里面的名字
+* F 是该函数的指针
+* 策略参数是用来描述怎样处理该函数参数和返回值的.这是一个可选参数,参见 策略 章节.
+
+下面的例子演示注册函数 float std::sin(float):
+module(L)
+[
+def("sin", &std::sin)
+];
+
+7.1 重载函数
+
+如果你有同名函数需要注册到Lua, 你必须显示的给定函数的签名.
+这可以让C++知道你指定的是哪一个函数. 例如, 如果你有两个函数,
+int f(const char*) 和 void f(int).
+module(L)
+[
+def("f", (int(*)(const char*)) &f),
+def("f", (void(*)(int)) &f)
+];
+
+7.2 签名匹配
+
+LuaBind 将会生成代码来检查Lua栈的内容是否匹配你的函数的签名. 它会隐式的在
+派生类之间进行类型转换,并且它会按照尽量少进行隐式类型转换的原则经行匹配.在
+一个函数调用中,如果函数是重载过的,并且重载函数的参数匹配分不出好坏的话
+(都经行同样次数的隐式类型转换),那么将产生一个二义性错误.这将生成一个运行时
+错误,程序挂起在产生二义性调用的地方.一个简单的例子是,注册两个函数,一个函数
+接受一个int参数,另外一个函数接受一个float参数. 因为Lua将不区别浮点数和整形数,
+所以他们都是匹配的.
+
+因为所有的重载是被测试过的,这将总是找到最好的匹配(不是第一个匹配).这样意味着,
+LuaBind可以处理签名的区别只是const和非const的重载函数.
+
+例如,如果如下的函数和类被注册:
+struct A
+{
+void f();
+void f() const;
+};
+
+const A* create_a();所有权转移
+为了正确处理所有权转移问题,create_a()将用来适配返回值策略. 
+参见 策略 章节.                                
+-Linker Lin 4/5/08 6:32 PM 
+
+struct B: A {};
+struct C: B {};
+
+void g(A*);
+void g(B*);
+
+执行以下 Lua 代码即结果:
+a1 = create_a()
+a1:f() -- 常量版本被调用
+
+a2 = A()
+a2:f() -- 非常量版本被调用
+
+a = A()
+b = B()
+c = C()
+
+g(a) -- calls g(A*)
+g(b) -- calls g(B*)
+g(c) -- calls g(B*)
+
+7.3 调用Lua函数
+
+为了调用一个Lua函数, 你可以或者用 call_function() 或者用 一个对象(object).
+template<class Ret>
+Ret call_function(lua_State* L, const char* name, ...)
+template<class Ret>
+Ret call_function(object const& obj, ...)
+
+call_function()函数有两个重载版本.一个是根据函数的名字来调用函数,
+另一个是调用一个可以作为函数调用的Lua值.
+
+使用函数名来调用的版本只能调用Lua全局函数. "..."代表传递给Lua函数的
+可变个数的参数. 这使得你可以指定调用的策略.你可以通过 operator[] 来实现
+这个功鞥.你可以同过方括号来指定策略,例如:
+int ret = call_function<int>(
+L
+, "a_lua_function"
+, new complex_class()
+)[ adopt(_1) ];
+
+如果你想通过引用方式传递参数,你必须用Boost.Ref来包装一下.
+例如:
+int ret = call_function(L, "fun", boost::ref(val));
+
+如果你想给一个函数调用指定自己的错误捕获处理函数(error handler),可以参阅
+pcall errorfunc 章节的 set_pcall_callback .
+
+7.4 使用Lua协程
+
+为了使用Lua协程,你必须调用 lua_resume(),这就意味着你不能用先前介绍的函数
+call_function()来开始一个协程.你必须用这个:
+template<class Ret>
+Ret resume_function(lua_State* L, const char* name, ...)
+template<class Ret>
+Ret resume_function(object const& obj, ...)
+和:
+template<class Ret>
+Ret resume(lua_State* L, ...)
+
+第一次开始一个协程的时候,你必须给它一个入口函数. 当一个协程返回(yield)的时候,
+resume_fucntion()调用的返回值是 lua_yield()的第一个传入参数.当你想要继续一个
+协程的时候,你只需要调用 resume() 在你的 lua_State() 上,因为它已经在执行一个函数
+(即先前出入的入口函数),所以你不需要再次传入函数.resume()的传入参数将作为Lua侧的
+yield()调用的返回值.
+
+为了暂停(yielding)C++函数,(不支持在C++侧和Lua侧传送数据块),你可以使用 yield 策略.
+
+接受 object 参数的resume_function()的重载版本要求对象必须是一个协程对象.(thread)
+
+lua_State* thread = lua_newthread(L);
+object fun = get_global(thread)["my_thread_fun"];
+resume_function(fun);
+
+
+8 绑定类到Lua
+
+为了注册一个类,你可以用 class_ 类. 它的名字和C++关键字类似是为了比较直观.它有一个重载
+过的成员函数 def() .这个函数被用来注册类的成员函数,操作符,构造器,枚举和属性.它将返回 this
+指针,从而方便你直接注册更多的成员.
+
+让我们开始一个简单的例子.考虑下面的C++类:
+class testclass
+{
+public:
+testclass(const std::string& s): m_string(s) {}
+void print_string() { std::cout << m_string << "\n"; }
+
+private:
+std::string m_string;
+};
+
+为了注册这个类到Lua环境,可以像下面这样写(假设你使用了名空间):
+module(L)
+[
+class_<testclass>("testclass")
+.def(constructor<const std::string&>())
+.def("print_string", &testclass::print_string)
+];
+
+这将注册 testclass 类以及接受一个string参数的构造器以及一个成员叫print_string()的函数.
+Lua 5.0  Copyright (C) 1994-2003 Tecgraf, PUC-Rio
+> a = testclass('a string')
+> a:print_string()
+a string
+
+还可以注册自由函数作为成员函数.对这个自由函数的要求是,它必须接受该类的一个指针或常量指针或
+引用或常量引用作为函数的第一个参数.该函数的剩下的参数将在Lua侧可见,而对象指针将被赋值给第一个
+参数.如果我们有如下的C++代码:
+struct A
+{
+int a;
+};
+
+int plus(A* o, int v) { return o->a + v; }
+
+你可以注册 plus() 作为A的一个成员函数,如下:
+class_<A>("A")
+.def("plus", &plus)
+
+plus() 现在能够被作为A的一个接受一个int参数的成员函数来调用.如果对象指针(this指针)是const,
+这个函数也将表现的像一个常量成员函数那样(它可以通过常量对象来调用).
+
+8.1 重载成员函数
+
+当绑定超过一个以上的重载过的成员函数的时候,或只是绑定其中的一个的时候,你必须消除你传递给 def() 的
+成员函数指针的歧义.为此,你可以用普通C风格的类型转换来转型匹配正确的重载函数. 为此,你必须知道怎么去
+描述C++成员函数的类型.这里有一个简短的教程(更多信息请查阅你的C++参考书):
+成员函数指着的语法如下:
+return-value (class-name::*)(arg1-type, arg2-type, ...)
+例如:
+struct A
+{
+void f(int);
+void f(int, int);
+};
+class_<A>()
+.def("f", (void(A::*)(int))&A::f)
+
+A的第一个成员函数f(int)被绑定了,而第二个没哟被绑定.
+
+8.2 属性
+
+很容易注册类的全局数据成员.考虑如下的类:
+struct A
+{
+int a;
+};
+
+这个类可以这样注册:
+module(L)
+[
+class_<A>("A")
+.def_readwrite("a", &A::a)
+];
+
+这使得成员变量 A::a 获得了读写访问权. 还可以注册一个只读的属性:
+module(L)
+[
+class_<A>("A")
+.def_readonly("a", &A::a)
+];
+
+当绑定成员是一个非原始数据类型的时候,自动生成的 getter 函数将会返回一个它引用.
+这就允许你可以链式使用 . 操作符.例如,当有一个结构体包含另外一个结构体的时候.如下:
+struct A { int m; };
+struct B { A a; };
+
+当绑定B到Lua的时候,下面的表达式应该可以工作:
+b = B()
+b.a.m = 1
+assert(b.a.m == 1)
+
+这要求 a 属性必须返回一个A的引用, 而不是一个拷贝. 这样,LuaBind将会自动使用依赖策略来
+确保返回值依赖于它所在的对象.所以,如果返回的引用的生命长于该对象的所有的引用(这里是b).
+它将保持对象是激活的,从而避免出现悬挂指针.
+
+你还可以注册 getter 或者 setter 函数来使得它们看上去像一个 public 的成员.考虑下面的类:
+class A
+{
+public:
+void set_a(int x) { a = x; }
+int get_a() const { return a; }
+
+private:
+int a;
+};
+
+可以这样注册成一个公共数据成员:
+class_<A>("A")
+.property("a", &A::get_a, &A::set_a)
+
+这样 set_a() 和 get_a() 将取代简单的数据成员操作.如果你想使之只读,你只需要省略最后一个参数.
+请注意, get 函数必须是 const 的,否则不能通过编译.
+
+8.3 枚举
+
+如果你的类包含枚举,你可以注册它们到Lua. 注意,它们不是类型安全的,所有的枚举在Lua侧都是整型的,
+并且所有接受枚举参数的函数都将接受任何整型.你可以像这样注册它们:
+
+module(L)
+[
+class_<A>("A")
+.enum_("constants")
+[
+value("my_enum", 4),
+value("my_2nd_enum", 7),
+value("another_enum", 6)
+]
+];
+
+在Lua侧,他们可以像数据成员那样被操作,除了它们是只读的而且属于类本身而不是类的实例.
+Lua 5.0  Copyright (C) 1994-2003 Tecgraf, PUC-Rio
+> print(A.my_enum)
+4
+> print(A.another_enum)
+6
+
+8.4 操作符
+
+为了绑定操作符,你需要包含头文件 <luabind/operator.hpp>.
+注册你的类的操作符的机制非常的简单.你通过一个全局名字 luabind::self 来引用类自己,然后你就
+可以在def()调用里面直接用操作符表达式. 类如下:
+struct vec
+{
+vec operator+(int s);
+};
+
+可以这样注册:
+module(L)
+[
+class_<vec>("vec")
+.def(self + int())
+];
+
+不管你的 + 操作符是定义在类里面还是自由函数都可以工作.
+如果你的操作符是常量的(const)(或者,是一个自由函数, 接受一个类的常量的引用)你必须用
+const_self 替代 self. 如下:
+module(L)
+[
+class_<vec>("vec")
+.def(const_self + int())
+];
+
+支持如下操作符:
++    -    *    /    ==    <    <=
+
+这意味着,没有"就地操作符"(in-place)(++ --). 相等操作符(==)有些敏锐;如果引用是相等的就不会
+被调用. 这意味着, 相等操作符的效率非常好.
+
+Lua不支持操作符包括: !=,>和<=.这是为什么你只能注册上面那些操作符. 当你调用这些操作符的时候,
+Lua会把调用转换到支持的操作符上.(译注:例如:==和!=有逻辑非得关系) -Linker Lin 4/6/08 11:09 PM 
+
+在上面的示例中,操作数的类型是 int().如果操作数的类型是复杂类型,就不是那么简单了,你需要用 other<>
+来包装下.例如:
+为了注册如下的类,我们不想用一个string的实例来注册这个操作符.
+struct vec
+{
+vec operator+(std::string);
+};
+
+取而代之的是,我们用 other<> 包装下,如下:
+module(L)
+[
+class_<vec>("vec")
+.def(self + other<std::string>())
+];
+
+注册一个应用程序操作符(函数调用):
+module(L)
+[
+class_<vec>("vec")
+.def( self(int()) )
+];
+
+这里有个特殊的操作符.在Lua里,它叫做 __tostring,它不是一个真正的操作符.它是被用来转换一个对象到
+string的标准Lua方法.如果你注册之,可以通过Lua的标准函数 tostring() 来转换你的对象到一个string.
+
+为了在C++里实现这个操作符,你需要为 std::ostream 提供 operator<< .像这样:
+class number {};
+std::ostream& operator<<(std::ostream&, number&);
+
+...
+
+module(L)
+[
+class_<number>("number")
+.def(tostring(self))
+];
+
+
+8.5 嵌套作用域和静态函数
+
+可以添加嵌套的作用域到一个类.当你需要包装一个嵌套类或者一个静态函数的时候就会很有用.
+class_<foo>("foo")
+.def(constructor<>()
+.scope
+[
+class_<inner>("nested"),
+def("f", &f)
+];
+
+在上面的例子里, f 将表现的像一个类 foo 的静态函数,而 类 nested 将表现的像类 foo 的嵌套类.
+
+还可以用同样的语法添加名空间到类里面.
+
+
+8.6 继承类
+
+如果你想要注册一个继承自其它类的类到Lua, 你可以指定一个模板参数 bases<> 给 class_ 的构造器.
+如下的继承关系:
+struct A {};
+struct B : A {};
+
+可以这样注册:
+module(L)
+[
+class_<A>("A"),
+class_<B, A>("B")
+];
+
+如果你使用了多继承,你可以指定多于一个的基类.如果 B 还继承了类 C , 它可以这样注册:
+module(L)
+[
+class_<B, bases<A, C> >("B")
+];
+
+注意,你可以省去 bases<> 当你用的是单继承的时候.
+
+注意
+如果你不指定类的继承关系, LuaBind 将不能在相关的继承类型间进行隐式类型转换.
+
+
+8.7 智能指针
+
+当你注册一个类的时候,你可以告诉 LuaBind 所有的该类的实例应该被某种智能指针持有.(例如: boost::shared_ptr)
+你可通过把一个 持有器类型模板参数 给 class_ 类的构造器来实现该功能.例如:
+module(L)
+[
+class_<A, boost::shared_ptr<A> >("A")
+];
+
+你还必须为你的智能指针提供两个函数.一个返回常量版本的智能指针类型(这里是: boost:shared_ptr< const A >).
+另一个函数要可以从智能指针萃取流指针(raw pointer). 之所以需要第一个函数是因为,LuaBind 允许
+非常量 -> 转换在传递Lua值到C++的时候.之所以需要第二个函数是因为,当Lua调用一个被智能指针持有
+的类的成员函数的时候,this 指针必须是一个流指针.还有一个原因是,从Lua转换到C++的时候,需要实现
+智能指针到普通指针的转换.看上去像这样:
+namespace luabind {
+
+template<class T>
+T* get_pointer(boost::shared_ptr<T>& p)
+{
+return p.get();
+}
+
+template<class A>
+boost::shared_ptr<const A>*
+get_const_holder(boost::shared_ptr<A>*)
+{
+return 0;
+}
+}
+
+第二个函数只在编译时用于映射 boost::shared_ptr<A>到其常量版本 boost::shared_ptr<const A>.
+它从来不会被调用,所以返回值是无所谓的(返回值的类型才是关键).
+
+这个转换将这样工作(假定 B 是A的基类):
+从Lua到C++
+Source     Target
+holder_type<A>     A*
+holder_type<A>     B*
+holder_type<A>     A const*
+holder_type<A>     B const*
+holder_type<A>     holder_type<A>
+holder_type<A>     holder_type<A const>
+holder_type<A const>     A const*
+holder_type<A const>     B const*
+holder_type<A const>     holder_type<A const
+
+从C++到Lua
+Source     Target
+holder_type<A>     holder_type<A>
+holder_type<A const>     holder_type<A const>
+holder_type<A> const&     holder_type<A>
+holder_type<A const> const&     holder_type<A const>
+
+当使用持有器类型的时候,知道指针是不是合法(例如:非空)是很有用的.例如,当使用 std::auto_ptr 的时候,
+持有器通过一个参数传递给函数的时候将会变得无效. 为了这个目的,所有的对象实例都有一个成员叫: __ok.
+
+struct X {};
+void f(std::auto_ptr<X>);
+
+module(L)
+[
+class_<X, std::auto_ptr<X> >("X")
+.def(constructor<>()),
+
+def("f", &f)
+];
+
+Lua 5.0 Copyright (C) 1994-2003 Tecgraf, PUC-Rio
+> a = X()
+> f(a)
+> print a.__ok
+false
+
+
+当注册一个继承树的时候,所有的实例被智能指针持有的地方,所有的类必须包含持有器类型.例如:
+
+module(L)
+[
+class_<base, boost::shared_ptr<base> >("base")
+.def(constructor<>()),
+class_<derived, base, boost::shared_ptr<base> >("base")
+.def(constructor<>())
+];
+
+
+在内部, LuaBind 将会做必要的转换于萃取自持有器的流指针之上.
+
+8.8 拆分类注册
+
+在某些情况下,可能需要分开注册一个类在不同的编译单元. 部分原因可能是节约重编译时间,而某些编译器的
+限制可能要求不得不分开注册一个类.其实很简单.考虑下面的示例代码:
+
+void register_part1(class_<X>& x)
+{
+x.def(/*...*/);
+}
+
+void register_part2(class_<X>& x)
+{
+x.def(/*...*/);
+}
+
+void register_(lua_State* L)
+{
+class_<X> x("x");
+
+register_part1(x);
+register_part2(x);
+
+module(L) [ x ];
+}
+
+
+这里,类X被分两步注册.两个函数 register_part 和 register_part2 可能被放到不同的编译单元里.
+
+关于分开注册一个模块的信息请参阅: 分开注册 章节.
+
+
+
+9 对象
+
+因为函数必须能够接受Lua值作为参数,我们必须包装之. 这个包装被称作 luabind::object. 如果你注册的函数
+接受一个对象,那它就可以匹配任何Lua值.为了使用它,你需要包含头文件: <luabind/object.hpp>.
+
+摘要
+
+class object
+{
+public:
+template<class T>
+object(lua_State*, T const& value);
+object(from_stack const&);
+object(object const&);
+object();
+
+~object();
+
+lua_State* interpreter() const;
+void push() const;
+bool is_valid() const;
+operator safe_bool_type () const;
+
+template<class Key>
+implementation-defined operator[](Key const&);
+
+template<class T>
+object& operator=(T const&);
+object& operator=(object const&);
+
+bool operator==(object const&) const;
+bool operator<(object const&) const;
+bool operator<=(object const&) const;
+bool operator>(object const&) const;
+bool operator>=(object const&) const;
+bool operator!=(object const&) const;
+
+template <class T>
+implementation-defined operator[](T const& key) const
+
+void swap(object&);
+
+implementation-defined operator()();
+
+template<class A0>
+implementation-defined operator()(A0 const& a0);
+
+template<class A0, class A1>
+implementation-defined operator()(A0 const& a0, A1 const& a1);
+
+/* ... */
+};
+
+
+当你需要一个Lua对象的时候,你可以通过=操作符给它赋一个新值.当你这么做的时候,default_policy
+会被用来转换C++值到Lua. 如果你的 luabind::object  是一个table,你可以通过 []操作符或者迭代器
+来访问它的成员.[]操作符的返回值是一个代理对象,这个对象可以用于读写表里的值(通过=操作符).
+
+注意,没有办法知道一个Lua对象是否可以索引化访问(  lua_gettable 不会失败,要不成功,要不崩溃 ).
+这意味着,如果你在一个不可以索引化访问的东西上进行索引,你就只能靠自己了.Lua将会调用它的 panic()
+函数.
+
+还有一些自由函数可以用来索引一张table,参阅 相关函数 章节.
+
+那个接受 from_stack 对象作为参数的构造器是用来初始化一个关联Lua栈值的对象的. from_stack 类型
+有如下的构造器:
+from_stack(lua_State* L, int index);
+
+index参数就是原始的Lua栈的索引,负值是从栈顶开始索引的.你可以这样用:
+object o(from_stack(L, -1));
+
+这将会创建一个 object的实例 o,并拷贝Lua栈顶的对象的值.
+
+interpreter() 函数返回保存object实例的Lua状态机.如果你想要直接用Lua函数操作object对象的实例,你
+可以通过调用 push() 来把它压入Lua栈.
+
+==操作符将会在操作数上调用 lua_equal()并返回它的结果.
+
+is_valid() 函数会告诉你object的实例是否已经初始化过了.通过默认构造器来初始化的实例是非法的.要使之
+合法,你可以给其赋一个值.如果你想使一个 object 不合法,最简单的办法就是给它赋一个非法的 object.
+
+operator safe_bool_type() 和 to is_valid() 是等价的.这意味着,下面的代码片段是等价的:
+
+object o;
+// ...
+if (o)
+{
+// ...
+}
+
+...
+
+object o;
+// ...
+if (o.is_valid())
+{
+// ...
+}
+
+
+应用程序操作符() 将会像对待一个函数那样来调用绑定的值. 你可以给它任何数量的参数
+(目前, default_policy 将被用于转换 ).返回的对象将代表函数的返回值(当前只支持一个返回值).该操作符
+可能会抛出 luabind::error ,如果函数调用失败.如果你想指定一个特殊的函数调用策略,你可以通过在函数
+调用时使用 []操作符来指定策略.像这样:
+
+my_function_object(
+2
+, 8
+, new my_complex_structure(6)
+) [ adopt(_3) ];
+
+
+这告诉 LuaBind 让 Lua 接受所有权和负责传入给lua函数的指针.
+
+重要的是当Lua状态机关闭的时候,所有的 object 的实例都会被析构.object实例会持有Lua状态机的指针,并在
+自己析构的时候释放它的Lua对象.
+
+这里有一个函数怎样使用 table 的例子:
+
+void my_function(object const& table)
+{
+if (type(table) == LUA_TTABLE)
+{
+table["time"] = std::clock();
+table["name"] = std::rand() < 500 ? "unusual" : "usual";
+
+std::cout << object_cast<std::string>(table[5]) << "\n";
+}
+}
+
+
+如果函数接受一个object作为参数,那么任何Lua值都将匹配这个参数.这就是为什么,我们必须保证入参是一个table
+
+的原因.
+std::ostream& operator<<(std::ostream&, object const&);
+
+
+流操作符可以把object实例借由 boost::lexical_cast  转换到string或者方便打印输出.这将会使用Lua的string
+
+转换函数.如果你用 tostring 去转换一个C++对象,对应类型的流操作符将会被使用.
+
+
+
+9.1 迭代器
+
+
+
+有两种迭代器. 普通迭代器将会使用对象的原方法(如果存在)来获取值. 普通迭代器被称为 luabind::iterator. 另一个
+
+迭代器被称为 luabind::raw_iterator ,它将忽略原方法而直接给出表里的真实内容. 它们具有相同的接口,  都实现了
+
+ForwardIterator 概念.大部分标准迭代器都有如下的成员和构造器:
+
+class iterator
+{
+iterator();
+iterator(object const&);
+
+object key() const;
+
+standard iterator members
+};
+
+
+
+
+接受一个 luabind::object 的构造器实际上是一个用于操作 object 的模板.通过传入一个 object 给构造器来构造出
+
+一个指向 object 里的第一个元素的迭代器.
+
+缺省的构造器将会初始化迭代器为一个指向最后一个元素的后面位置的迭代器.这可以用来测试是否抵达了序列的末端.
+
+
+迭代器的值类型是一个支持和 luabind::object 相同的操作的代理类型.这意味着,大部分情况下你可以当它就是一个原始
+的 object 实例. 它们之间的不同之处在于,任何对代理的赋值操作都会导致值被插入到表中迭代器所指的位置.
+
+key() 成员返回迭代器用于索引表的键.
+
+一个迭代器的例子如下:
+
+for (iterator i(globals(L)["a"]), end; i != end; ++i)
+{
+*i = 1;
+}
+
+
+end 迭代器是一个缺省的指向序列末尾的迭代器.在这个例子里,我们简单的迭代了表 a 里面所有的实体,并将之赋值为 1.
+
+
+9.2 相关函数
+
+这里介绍些用于 对象 和 表 操作的函数.
+int type(object const&);
+
+这个函数将会返回lua类型索引.例如: . LUA_TNIL, LUA_TNUMBER 等.
+
+template<class T, class K>
+void settable(object const& o, K const& key, T const& value);
+template<class K>
+object gettable(object const& o, K const& key);
+template<class T, class K>
+void rawset(object const& o, K const& key, T const& value);
+template<class K>
+object rawget(object const& o, K const& key);
+
+
+这些函数是用来索引 table 用的. settable 和 gettable 函数分别翻译调用到 lua_settable 和 lua_gettable 函数.
+这意味着,你可以在对象上使用索引操作符.
+
+rawset 和 rawget 将会翻译调用到 lua_rawset 和 lua_rawget. 所以他们可以绕开任何原方法而给你表里实体的
+真实值.
+
+template<class T>
+T object_cast<T>(object const&);
+template<class T, class Policies>
+T object_cast<T>(object const&, Policies);
+
+template<class T>
+boost::optional<T> object_cast_nothrow<T>(object const&);
+template<class T, class Policies>
+boost::optional<T> object_cast_nothrow<T>(object const&, Policies);
+
+
+object_cast 函数转型对象的值到C++值.你可以给这个从lua到C++的转换提供一个转换策略.如果转型失败,
+cast_failed 异常将被抛出. 如果你已经定义了 LUABIND_NO_ERROR_CHECKING  (参阅 编译选项)宏,就不会
+进行任何检查,如果转型非法,应用程序将会彻底崩溃. 不抛出异常的版本会返回一个没有初始化的
+boost::optional<T> 对象,由此来指出转型不能进行.   
+
+上面的函数的签名确实是模板化的 object 参数,但是这里你应该只传递 object 对象.
+
+object globals(lua_State*);
+object registry(lua_State*);
+
+
+
+
+这些函数分别返回全局环境表和Lua注册表.
+
+object newtable(lua_State*);
+
+
+
+这个函数创建一个新的 table 并以一个 object 来返回它.
+
+
+
+
+10  在Lua里定义类
+
+
+
+
+作为一个附加功能,LuaBind还提供了一个 Lua侧OO系统来绑定C++函数和对象.
+
+class 'lua_testclass'
+
+function lua_testclass:__init(name)-- 译注:这个风格类似Python的OO语法
+self.name = name
+end
+
+function lua_testclass:print()
+print(self.name)
+end
+
+a = lua_testclass('example')
+a:print()
+
+
+在Lua类之间可以使用继承:
+
+class 'derived' (lua_testclass)
+
+function derived:__init() super('derived name')
+end
+
+function derived:print()
+print('Derived:print() -> ')
+lua_testclass.print(self)-- 译注:注意这里 : 和 . 的区别
+end
+
+
+
+
+这里的 super 关键字用来初始化基类.用户必须在构造器里面第一个调用 super.
+
+正如你在这个例子里看到的,你可以调用基类的成员函数.你可以找到所有的基类成员,但是你必须把 this指针(self)
+
+做为函数的第一个参数.
+
+
+10.1 在Lua里继承
+
+你还可以从Lua侧继承一个C++类,并用Lua函数来覆写虚函数.为了实现这个,我们必须为C++基类创建一个封装类.
+
+当我们实例化一个Lua类的时候,这个封装类将持有Lua对象.
+
+class base
+{
+	public:
+	base(const char* s)
+	{ std::cout << s << "\n"; }
+	
+	virtual void f(int a) 
+	{ std::cout << "f(" << a << ")\n"; }
+};
+
+struct base_wrapper : base, luabind::wrap_base
+{
+	base_wrapper(const char* s)
+	: base(s) 
+	{}
+	
+	virtual void f(int a) 
+	{ 
+		call<void>("f", a); 
+	}
+	
+	static void default_f(base* ptr, int a)
+	{
+		return ptr->base::f(a);
+	}
+};
+
+...
+
+module(L)
+[
+class_<base, base_wrapper>("base")
+.def(constructor<const char*>())
+.def("f", &base::f, &base_wrapper::default_f)
+];
+
+
+
+
+
+重要
+因为MSVC6.5不支持成员函数的显示模板参数化,作为成员函数 call()的替代, 你可以调用自由函数 call_member()并把 this指针作为第一个参数传入该函数.
+
+
+
+注意,如果你同时绑定 base 类 和 base类封装,你必须把基类和基类的封装一起作为模板参数提供给 class_
+
+(就像上面的例子中所做的一样).你指定它们的顺序并不重要.你必须还要从wrapper注册静态版本的和虚函数版
+
+本的封装函数,这是让LuaBind实现动态和静态分派函数调用的必须.
+ 

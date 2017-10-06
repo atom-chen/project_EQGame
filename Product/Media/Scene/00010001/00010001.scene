@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EQScene name="00010001">
+    <Ambient ChangeTime="3000" DayAmbient="0.627451 0.627451 0.776471" DayDiffuse="0.984314 0.839216 0.686275" DaySpecular="0 0 0" DayMainDir="-1 -1 -1" DayFogColor="0 0 0" DayFogParam="0 0 0 0" DaySkybox="" NightAmbient="0.203922 0.184314 0.384314" NightDiffuse="0.121569 0.121569 0.121569" NightSpecular="0 0 0" NightMainDir="-1 -1 -1" NightFogColor="0 0 0" NightFogParam="0 0 0 0" NightSkybox="" Contrast="1.1" />
+    <House filename="00010001.house" />
+    <Terrain filename="00010001.Terrain" />
+    <Edge value="-2000.000000 -2000.000000 2000.000000 2000.000000" />
+    <Entity id="4" pos="-1018.69 0 -986.525" />
+    <Entity id="6" pos="-1136.34 0.00012207 -385.107" />
+    <Entity id="24" pos="588.357 -6.10352e-005 -873.612" rot="0.286715 0 0.958015 0" />
+    <Entity id="34" pos="492.932 -8.73169 -361.563" />
+    <Entity id="35" pos="360 0 720" rot="0.707107 0 0.707107 0" />
+    <Entity id="35" pos="135.73 0 719.999" rot="0.707107 -0 -0.707107 -0" />
+    <Entity id="35" pos="-816.361 -9.13016 700.844" rot="0.707107 0 0.707107 0" />
+    <Entity id="35" pos="-1118.68 -7.67163 439.403" rot="-1.62921e-007 0 1 0" />
+    <Entity id="35" pos="283.532 -9.59872 -578.27" rot="0.707107 0 0.707107 0" />
+    <Entity id="35" pos="125.143 -10.9119 -579.203" rot="0.707107 -0 -0.707107 -0" />
+    <Entity id="35" pos="492.755 -9.10133 -126.941" />
+    <Entity id="36" pos="-1066.94 -8.8728 701.178" rot="0.707107 -0 -0.707107 -0" />
+    <Entity id="36" pos="442.151 -8.9052 -578.873" rot="0.707107 0 0.707107 0" />
+    <Entity id="71" pos="-663.03 -0.00012207 711.341" scale="0.844866 0.844866 0.844866" />
+    <Entity id="89" pos="-1051.16 -0.00305176 -906.29" rot="0.771246 0 -0.636537 0" scale="2.39766 2.39766 2.39766" />
+    <Entity id="90" pos="-667.811 0 661.638" rot="0.745174 0 -0.66687 0" scale="0.596743 0.596743 0.596743" />
+    <Entity id="90" pos="-594.821 0.000183105 706.732" rot="0.872745 0 0.488177 0" scale="0.408376 0.408376 0.408376" />
+    <Entity id="91" pos="510.516 -0.000244141 -809.47" rot="0.995953 0 0.0898781 0" />
+    <Entity id="91" pos="-606.993 0.000366211 652.632" />
+    <Entity id="91" pos="419.951 0.000488281 -929.98" rot="-0.304299 0 -0.952575 0" />
+    <Entity id="158" pos="518.05 0 663.294" rot="0.707107 0 0.707107 0" />
+    <Entity id="180" pos="-680.904 -0.00012207 205.002" />
+    <Entity id="290" pos="-619.722 23.534 684.822" rot="-0.487482 0 0.873133 0" scale="0.1 0.1 0.1" />
+    <Entity id="293" pos="-1024.52 0.000701904 -942.26" rot="0.847254 0 0.531186 0" scale="0.259599 0.259599 0.259599" />
+    <Entity id="294" pos="-1129.22 0.000244141 -798.514" scale="0.17395 0.17395 0.17395" />
+    <Entity id="294" pos="509.251 0.000183105 -899.136" rot="0.99875 0 0.0499792 0" scale="0.359875 0.359875 0.359875" />
+    <Entity id="408" pos="-449.864 0 -927.063" scale="2.27462 2.27462 2.27462" />
+    <Entity id="408" pos="-869.285 0 -926.396" rot="0.0226969 0 0.999742 0" scale="2.09075 2.09075 2.09075" />
+    <Entity id="408" pos="-743.198 0 -926.205" rot="0.96639 0 -0.25708 0" scale="2.20385 2.20385 2.20385" />
+    <Entity id="408" pos="-575.324 0.000366211 -943.527" rot="-0.27559 0 -0.961275 0" scale="2.32306 2.32306 2.32306" />
+    <Entity id="443" pos="120 0 720" />
+    <Entity id="443" pos="320 0 720" />
+    <Entity id="555" pos="-614.083 47.0434 -395.023" rot="0.637151 0 -0.770738 0" scale="2.96007 2.96007 2.96007" />
+    <Entity id="557" pos="-570.005 4.11136 -255.161" rot="0.973666 0 0.227977 0" scale="1.98346 1.98346 1.98346" />
+    <Entity id="558" pos="-762.361 5.1738 -425.953" rot="0.462485 0 -0.886625 0" scale="1.50818 1.50818 1.50818" />
+    <Entity id="1005" pos="680.667 0 479.121" />
+    <Entity mesh="outside/b60020260.mesh" pos="-201.313 -1 -607.786" rot="-0.703279 0 -0.710914 0" />
+    <Entity mesh="outside/b60020256.mesh" pos="-639.442 9.28419 -312.428" />
+    <Entity mesh="outside/b60020255.mesh" pos="583.369 6.10352e-005 280.465" rot="0.707107 0 0.707107 0" scale="1.24764 1.24764 1.24764" />
+    <Entity mesh="outside/b60020254.mesh" pos="720 0 -360" />
+    <Entity mesh="outside/b60020254.mesh" pos="720 0.000183105 120" />
+    <Entity mesh="outside/b60020254.mesh" pos="720 0 -840" />
+    <Entity mesh="outside/b60020254.mesh" pos="720 6.10352e-005 -120" />
+    <Entity mesh="outside/b60020254.mesh" pos="720 0 -920" />
+    <Entity mesh="outside/b60020254.mesh" pos="320 -0.000183105 -1040" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="-400 -0.00012207 -1040" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="-640 0.000366211 -1040" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="-160 -0.00012207 -1040" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="80 -0.000183105 -1040" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="-1040 6.10352e-005 -1040" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="-1200 0.000183105 560" />
+    <Entity mesh="outside/b60020254.mesh" pos="-680 0.00012207 760" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="720 0 -600" />
+    <Entity mesh="outside/b60020254.mesh" pos="-840 0 760" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="560 -6.10352e-005 -1040" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="-880 0 -1040" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="-1080 0.000244141 760" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020254.mesh" pos="-1200 0 -640" />
+    <Entity mesh="outside/b60020254.mesh" pos="-1199.84 0 652.223" />
+    <Entity mesh="outside/b60020254.mesh" pos="-1200 -6.10352e-005 80" />
+    <Entity mesh="outside/b60020254.mesh" pos="-1200 -6.10352e-005 -160" />
+    <Entity mesh="outside/b60020254.mesh" pos="-1200 6.10352e-005 -400" />
+    <Entity mesh="outside/b60020254.mesh" pos="-1200 0 -880" />
+    <Entity mesh="outside/b60020254.mesh" pos="-1200 -6.10352e-005 320" />
+    <Entity mesh="outside/b60020253.mesh" pos="447.517 -6.10352e-005 274.778" scale="1.15894 1.15894 1.15894" />
+    <Entity mesh="outside/b60020253.mesh" pos="720 -6.10352e-005 280" scale="1.12288 1.12288 1.12288" />
+    <Entity mesh="outside/b60020253.mesh" pos="-520 0 760" />
+    <Entity mesh="outside/b60020253.mesh" pos="-1200 0 -1040" />
+    <Entity mesh="outside/b60020253.mesh" pos="-1200 0 760" />
+    <Entity mesh="outside/b60020253.mesh" pos="720 6.10352e-005 -1040" />
+</EQScene>

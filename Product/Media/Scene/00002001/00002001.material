@@ -1,0 +1,254 @@
+import * from "commTemplate.material"
+
+
+material 00002001_floor_102_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> floor000002.dds
+}
+
+
+
+material 00002001_outwall_102_02 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> neiqiang12.dds
+}
+
+
+
+
+material 00002001_outwall_100_05 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+material 00002001_outwall_102_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> neiqiang12.dds
+}
+
+
+
+
+material 00002001_tcx_100_05 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+material 00002001_outwall_101_02 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> neiqian1.dds
+}
+
+
+
+
+material 00002001_tcx_102_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> tijiaoxian.dds
+}
+
+
+
+
+material 00002001_outwall_103_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> neiqiang001.dds
+}
+
+
+
+
+material 00002001_innerwall_103_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> neiqiang001.dds
+}
+
+
+
+material material_walledge_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cement.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+
+material 00002001_tcx_100_02 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+
+material 00002001_tcx_100_03 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+
+material 00002001_outwall_100_03 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+material 00002001_floor_103_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> floor000001.dds
+}
+
+
+
+
+material 00002001_outwall_100_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+
+material 00002001_outwall_100_01 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+material 00002001_outwall_100_02 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+
+material 00002001_outwall_100_04 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+
+material 00002001_outwall_102_01 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> neiqiang12.dds
+}
+
+
+
+material 00002001_outwall_101_00 : Tplt/NormalMap
+{
+	//set $diffuse_colour "0 0 0"
+	//set_texture_alias <normalmapTex> normalmap/normalmap_test.png
+	set_texture_alias <baseTex> neiqian1.dds
+}
+
+
+
+
+material 00002001_tcx_100_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+
+material 00002001_tcx_100_01 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+
+material 00002001_outwall_103_01 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> neiqiang001.dds
+}
+
+
+
+material 00002001_outwall_101_01 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> neiqian1.dds
+}
+
+
+
+
+material 00002001_tcx_100_04 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> qiang3wai.dds
+}
+
+
+
+
+material 00002001_tcx_101_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> tijiaoxian.dds
+}
+
+
+
+
+material 00002001_tcx_103_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> tijiaoxian2.dds
+}
+
+
+
+material 00002001_innerwall_101_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> neiqian1.dds
+}
+
+
+
+
+material 00002001_floor_101_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> floor03.dds
+}
+
+
+
+
+material 00002001_roof_100_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> roof_00_00.dds
+}
+
+
+
+
+material 00002001_innerwall_102_00 : Tplt/NormalMap
+{
+	set_texture_alias <baseTex> neiqiang12.dds
+}
+
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="newbiehelp" >
+        <Property Name="Text" Value="新手帮助" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,185},{0,184},{0,464},{0,432}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="newbiehelp/" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,23},{0,2},{0,84},{0,20}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="newbiehelp/zhuchuangkou" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,6},{0,24},{1,-6},{1,-7}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="newbiehelp/zhuchuangkou/help1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="鼠标操作" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF00FFFC" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00125,0},{0,19},{0,231},{0,42}}" />
+                <Property Name="NormalTextColour" Value="FF00FFFC" />
+                <Property Name="PushedTextColour" Value="FF1BADAC" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="newbiehelp/zhuchuangkou/help2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="主界面各按钮的作用" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF00FFFC" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00125,0},{0,46},{0,231},{0,70}}" />
+                <Property Name="NormalTextColour" Value="FF00FFFC" />
+                <Property Name="PushedTextColour" Value="FF1BADAC" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="newbiehelp/zhuchuangkou/help3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="如何查看任务" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF00FFFC" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00125,0},{0,74},{0,231},{0,98}}" />
+                <Property Name="NormalTextColour" Value="FF00FFFC" />
+                <Property Name="PushedTextColour" Value="FF1BADAC" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="newbiehelp/zhuchuangkou/help4" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="如何换衣服" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF00FFFC" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00125,0},{0,101},{0,231},{0,125}}" />
+                <Property Name="NormalTextColour" Value="FF00FFFC" />
+                <Property Name="PushedTextColour" Value="FF1BADAC" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="newbiehelp/zhuchuangkou/help5" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="如何摆放家具" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF00FFFC" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00125,0},{0,129},{0,231},{0,153}}" />
+                <Property Name="NormalTextColour" Value="FF00FFFC" />
+                <Property Name="PushedTextColour" Value="FF1BADAC" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="newbiehelp/zhuchuangkou/help6" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="查看城市地图" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF00FFFC" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00125,0},{0,157},{0,231},{0,181}}" />
+                <Property Name="NormalTextColour" Value="FF00FFFC" />
+                <Property Name="PushedTextColour" Value="FF1BADAC" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="newbiehelp/zhuchuangkou/likai" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="离 开" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,182},{0,182},{0,227},{0,208}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

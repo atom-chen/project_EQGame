@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<row>
+		<id>1</id>
+		<page>1</page>
+		<pos>1</pos>
+		<image>set:Button5 image:NewImage347</image>
+		<name>乐园第一街</name>
+		<target>2</target>
+	</row>
+	<row>
+		<id>2</id>
+		<page>1</page>
+		<pos>2</pos>
+		<image>set:Button5 image:NewImage448</image>
+		<name>集美大学</name>
+		<target>30</target>
+	</row>
+	<row>
+		<id>3</id>
+		<page>1</page>
+		<pos>3</pos>
+		<image>set:Button5 image:NewImage346</image>
+		<name>幽静山谷</name>
+		<target>1</target>
+	</row>
+	<row>
+		<id>4</id>
+		<page>1</page>
+		<pos>4</pos>
+		<image>set:Button5 image:NewImage348</image>
+		<name>乐园海滨</name>
+		<target>3</target>
+	</row>
+	<row>
+		<id>5</id>
+		<page>1</page>
+		<pos>5</pos>
+		<image>set:Button5 image:NewImage389</image>
+		<name>服装店</name>
+		<target>4</target>
+	</row>
+	<row>
+		<id>6</id>
+		<page>1</page>
+		<pos>6</pos>
+		<image>set:Button5 image:NewImage392</image>
+		<name>家具店</name>
+		<target>5</target>
+	</row>
+	<row>
+		<id>7</id>
+		<page>1</page>
+		<pos>7</pos>
+		<image>set:Button5 image:NewImage388</image>
+		<name>售楼处</name>
+		<target>7</target>
+	</row>
+	<row>
+		<id>8</id>
+		<page>1</page>
+		<pos>8</pos>
+		<image>set:Button5 image:NewImage391</image>
+		<name>医院</name>
+		<target>8</target>
+	</row>
+	<row>
+		<id>9</id>
+		<page>2</page>
+		<pos>11</pos>
+		<image>set:Button5 image:NewImage387</image>
+		<name>美容院</name>
+		<target>6</target>
+	</row>
+	<row>
+		<id>10</id>
+		<page>2</page>
+		<pos>12</pos>
+		<image>set:Button5 image:NewImage390</image>
+		<name>道具店</name>
+		<target>9</target>
+	</row>
+</root>

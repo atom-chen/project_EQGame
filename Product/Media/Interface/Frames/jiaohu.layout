@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="ItemInteractWnd" >
+        <Property Name="Font" Value="simsun-10" />
+        <Property Name="Text" Value="我的背包" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,216},{0,67},{0,499},{0,403}}" />
+        <Property Name="EWSizingCursorImage" Value="" />
+        <Property Name="NSSizingCursorImage" Value="" />
+        <Property Name="NESWSizingCursorImage" Value="" />
+        <Property Name="NWSESizingCursorImage" Value="" />
+        <Window Type="NewEQHomeLook/NewTabControl1" Name="ItemInteractWnd/xuanxiangka" >
+            <Property Name="TabHeight" Value="{0,21}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,28},{1,-10},{1,-10}}" />
+            <Window Type="DefaultWindow" Name="ItemInteractWnd/xuanxiangka/Tab 1" >
+                <Property Name="Text" Value="农场" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="ItemInteractWnd/BgPanel" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,1},{1,-5},{1,-5}}" />
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot20" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,45},{0,125},{0,85},{0,165}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot1" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,45},{0,45}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot2" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,45},{0,5},{0,85},{0,45}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot3" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,85},{0,5},{0,125},{0,45}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot4" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,125},{0,5},{0,165},{0,45}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot5" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,165},{0,5},{0,205},{0,45}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot6" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,205},{0,5},{0,245},{0,45}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot7" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,45},{0,45},{0,85}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot8" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,45},{0,45},{0,85},{0,85}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot9" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,85},{0,45},{0,125},{0,85}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot10" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,125},{0,45},{0,165},{0,85}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot11" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,165},{0,45},{0,205},{0,85}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot12" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,205},{0,45},{0,245},{0,85}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot13" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,85},{0,45},{0,125}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot14" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,45},{0,85},{0,85},{0,125}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot15" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,85},{0,85},{0,125},{0,125}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot16" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,125},{0,85},{0,165},{0,125}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot17" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,165},{0,85},{0,205},{0,125}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot18" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,205},{0,85},{0,245},{0,125}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot19" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,125},{0,45},{0,165}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot21" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,85},{0,125},{0,125},{0,165}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot22" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,125},{0,125},{0,165},{0,165}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot23" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,165},{0,125},{0,205},{0,165}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot24" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,205},{0,125},{0,245},{0,165}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot25" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,165},{0,45},{0,205}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot26" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,45},{0,165},{0,85},{0,205}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot27" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,85},{0,165},{0,125},{0,205}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot28" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,125},{0,165},{0,165},{0,205}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot29" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,165},{0,165},{0,205},{0,205}}" />
+                    </Window>
+                    <Window Type="NewEQHomeLook/NewStaticImage3" Name="ItemInteractWnd/BgPanel/Slot30" >
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,205},{0,165},{0,245},{0,205}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="ItemInteractWnd/BgPanel/qian" >
+                        <Property Name="Image" Value="set:Button5 image:NewImage238" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,8},{0,229},{0,129},{0,266}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText2" Name="ItemInteractWnd/BgPanel/Txt_GoldBox" >
+                        <Property Name="Text" Value="0" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,43},{0,236},{0,155},{0,258}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="ItemInteractWnd/BgPanel/fanye1" >
+                        <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,220},{0,90},{0,223}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticImage" Name="ItemInteractWnd/BgPanel/fanye2" >
+                        <Property Name="Image" Value="set:Button5 image:NewImage140" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,160},{0,220},{0,253},{0,223}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="ItemInteractWnd/BgPanel/fanye3" >
+                        <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+                        <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+                        <Property Name="PushedImage" Value="set:Button5 image:NewImage141" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,90},{0,215},{0,102},{0,227}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/ImageButton" Name="ItemInteractWnd/BgPanel/fanye4" >
+                        <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+                        <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+                        <Property Name="PushedImage" Value="set:Button5 image:NewImage139" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,148},{0,215},{0,160},{0,227}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="ItemInteractWnd/BgPanel/fanye5" >
+                        <Property Name="Text" Value="1/1" />
+                        <Property Name="TextColours" Value="tl:FF00FFF0 tr:FF00FFF0 bl:FF00FFF0 br:FF00FFF0" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,106},{0,211},{0,142},{0,231}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="ItemInteractWnd/BgPanel/tishixinxi" >
+                        <Property Name="Text" >点击“$”可以
+导入金钱</Property>
+                        <Property Name="TextColours" Value="tl:FF00FFF0 tr:FF00FFF0 bl:FF00FFF0 br:FF00FFF0" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,135},{0,232},{0,244},{0,265}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

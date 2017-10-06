@@ -1,0 +1,1 @@
+erl -name eqf -setcookie abcd -mnesia dc_dump_limit 40 -env ERL_MAX_PORTS 10000  -pz lib\exmpp\ebin -pz log -pz erlsom -boot start_sasl -config elog -s logger -s db_connection open localhost -s farmsvr -run gate start tcp_farm 

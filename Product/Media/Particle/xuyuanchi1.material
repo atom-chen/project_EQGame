@@ -1,0 +1,99 @@
+
+material xuyuanchi
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend 
+			lighting off
+			cull_hardware none
+
+			texture_unit
+			{
+				texture xuyuanchi1.png
+				scroll_anim 0.1 0
+			}
+		}
+
+	}
+
+}
+
+
+
+material c60000085_00
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture c60000085_00.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material c60000085_03
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 00200014.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material c60000085_02
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture c60000085_02.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material c60000085_01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture c60000085_01.dds
+			}
+		}
+
+	}
+
+}
+
+

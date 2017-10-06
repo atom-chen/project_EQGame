@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="pragma" content="no-cache" />
+<title>eq server</title>
+<link rel="stylesheet" type="text/css" href="style/main.css"/>
+<link rel="stylesheet" type="text/css" href="style/thickbox.css"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/thickbox.js"></script>
+<script type="text/javascript" src="js/jquery.query.js"></script>
+<script type="text/javascript" src="js/broadcast.js"></script>
+<body>
+    <table width="100%" cellpadding="0" border="0" cellspacing="0">
+        <tr style="background-color:#333333; height:28px;">
+            <td style="color:White">公告类型：</td>
+            <td style="text-align:left;">
+                <select name="type" id="type">
+                    <option value="1">系统自动显示播放的公告</option>
+                    <option value="2">系统定点播放的公告</option>
+                    <option value="3">玩家行为引起的公告</option>
+                    <option value="4">GM公告</option>
+                    <option value="5">农场公告</option>
+                    <option value="6">每天定点公告</option>
+                </select>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align:right;"></td>    
+            <td style="text-align:right;"><input type="submit" name="search" id="add_broadcast" value=" 增加公告 " /></td>
+            <td style="text-align:right; width:50px;"><input type="submit" name="search" id="search" value=" 查询 " /></td>
+        </tr>
+    </table>
+    </br>
+    <table id="table" width="100%" cellpadding="0" border="0" cellspacing="1">
+        <tr style="background-color:#333333; height:28px;">
+            <td style="color:White; text-align:center; width:50px">公告实例</td>   
+            <td style="color:White; text-align:center; width:50px">公告类型</td>
+            <td style="color:White; text-align:center; width:300px">内容</td>
+            <td style="color:White; text-align:center; width:50px">播放次数</td>
+            <td style="color:White; text-align:center; width:50px">播放时间</td>
+            <td style="color:White; text-align:center; width:50px">优先级</td>
+            <td style="color:White; text-align:center; width:50px">操作</td>
+        </tr>
+    </table>
+</body>
+</html>

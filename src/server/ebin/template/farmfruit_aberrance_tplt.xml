@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<farmfruit_aberrance_tplt>
+		<seed_id>80001</seed_id>
+		<ratio1>50</ratio1>
+		<fruit_id1>80002</fruit_id1>
+		<ratio2>50</ratio2>
+		<fruit_id2>80000</fruit_id2>
+		<ratio3>0</ratio3>
+		<fruit_id3>0</fruit_id3>
+		<ratio4>0</ratio4>
+		<fruit_id4>0</fruit_id4>
+		<ratio5>0</ratio5>
+		<fruit_id5>0</fruit_id5>
+		<ratio6>0</ratio6>
+		<fruit_id6>0</fruit_id6>
+		<ratio7>0</ratio7>
+		<fruit_id7>0</fruit_id7>
+		<ratio8>0</ratio8>
+		<fruit_id8>0</fruit_id8>
+		<ratio9>0</ratio9>
+		<fruit_id9>0</fruit_id9>
+		<ratio10>0</ratio10>
+		<fruit_id10>0</fruit_id10>
+		<ratio11>0</ratio11>
+		<fruit_id11>0</fruit_id11>
+		<ratio12>0</ratio12>
+		<fruit_id12>0</fruit_id12>
+	</farmfruit_aberrance_tplt>
+</root>

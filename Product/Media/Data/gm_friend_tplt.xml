@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<gm_friend_tplt>
+		<account>lele35info</account>
+		<name>[GM]乐乐</name>
+		<house_id>5003</house_id>
+		<first_time_magic_box>1</first_time_magic_box>
+		<first_time_garbage_box>1</first_time_garbage_box>
+	</gm_friend_tplt>
+</root>

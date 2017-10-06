@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="ordinary" >
+        <Property Name="Text" Value="普通瓶子" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-188},{0.5,-158},{0.5,172},{0.5,142}}" />
+        <Window Type="NewEQHomeLook/NewMultiLineEditbox1" Name="ordinary/wenzi" >
+            <Property Name="Text" >
+</Property>
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,65},{1,-20},{0,255}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ordinary/reng" >
+            <Property Name="Text" Value="扔出去" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,236},{0,255},{0,291},{0,281}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewCheckbox" Name="ordinary/niming" >
+            <Property Name="Text" Value="匿名发送" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,47},{0,255},{0,130},{0,281}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,8 @@
+{"*",
+[debug_info,
+ {i, "../../include"},
+ {i, "../../src"},
+ {outdir, "../../ebin"}
+%,{parse_transform, smart_exceptions}
+]
+}.

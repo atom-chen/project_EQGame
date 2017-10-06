@@ -1,0 +1,206 @@
+2011-04-27 16:59:02:086 *******************************************************************************
+2011-04-27 16:59:02:086 ***************************   EQUpdater log start   ***************************
+2011-04-27 16:59:02:086 *******************************************************************************
+2011-04-27 16:59:05:335 Build load list ok, use time:3125.
+2011-07-29 11:29:02:745 *******************************************************************************
+2011-07-29 11:29:02:761 ***************************   EQUpdater log start   ***************************
+2011-07-29 11:29:02:761 *******************************************************************************
+2011-07-29 11:29:06:377 Build load list ok, use time:3469.
+2011-07-29 11:29:12:045 Load file [CEGUIBase.dll] ok!
+2011-07-29 11:29:12:499 Load file [CEGUIExpatParser.dll] ok!
+2011-07-29 11:29:12:546 Load file [CEGUIFalagardWRBase.dll] ok!
+2011-07-29 11:29:13:955 Load file [CEGUILua.dll] ok!
+2011-07-29 11:29:21:627 Load file [cg.dll] ok!
+2011-07-29 11:29:22:926 Load file [curl.exe] ok!
+2011-07-29 11:29:23:333 Load file [curllib.dll] ok!
+2011-07-29 11:29:29:580 Load file [D3DCompiler_42.dll] ok!
+2011-07-29 11:29:35:232 Load file [D3DX9_42.dll] ok!
+2011-07-29 11:29:35:263 Load file [data/word.txt] ok!
+2011-07-29 11:29:38:160 Load file [dbghelp.dll] ok!
+2011-07-29 11:30:59:542 *******************************************************************************
+2011-07-29 11:30:59:542 ***************************   EQUpdater log start   ***************************
+2011-07-29 11:30:59:542 *******************************************************************************
+2011-07-29 11:31:02:908 Build load list ok, use time:3297.
+2011-07-29 11:31:14:916 Load file [EQClient.exe] ok!
+2011-07-29 11:31:26:815 Load file [EQFarm.exe] ok!
+2011-07-29 11:31:29:226 Load file [EQUpdater.exe] ok!
+2011-07-29 11:34:31:992 *******************************************************************************
+2011-07-29 11:34:31:992 ***************************   EQUpdater log start   ***************************
+2011-07-29 11:34:31:992 *******************************************************************************
+2011-07-29 11:34:35:388 Build load list ok, use time:3313.
+2011-07-29 11:34:42:117 Load file [EQUpdaterI.exe] ok!
+2011-07-29 11:34:43:134 Load file [ErrorReport.exe] ok!
+2011-07-29 11:34:43:150 Load file [ErrorReportTemplate.txt] ok!
+2011-07-29 11:34:46:264 Load file [libeay32.dll] ok!
+2011-07-29 11:34:46:734 Load file [libsasl.dll] ok!
+2011-07-29 11:34:46:781 Load file [lua.dll] ok!
+2011-07-29 11:34:46:796 Load file [Microsoft.VC90.CRT.manifest] ok!
+2011-07-29 11:34:48:017 Load file [msvcp90.dll] ok!
+2011-07-29 11:34:50:364 Load file [msvcr90.dll] ok!
+2011-07-29 11:35:07:406 Load file [OgreMain.dll] ok!
+2011-07-29 11:35:07:907 Load file [OIS.dll] ok!
+2011-07-29 11:35:08:298 Load file [openldap.dll] ok!
+2011-07-29 11:35:08:329 Load file [Plugin_CgProgramManager.dll] ok!
+2011-07-29 11:35:09:206 Load file [Plugin_OctreeSceneManager.dll] ok!
+2011-07-29 11:35:09:252 Load file [Plugin_ParticleFX.dll] ok!
+2011-07-29 11:35:10:317 Load file [QWBlogAPI.dll] ok!
+2011-07-29 11:35:11:256 Load file [RenderSystem_Direct3D9.dll] ok!
+2011-07-29 11:35:11:631 Load file [ssleay32.dll] ok!
+2011-07-29 11:35:11:662 Load file [tolua++.dll] ok!
+2011-07-29 11:35:11:678 Load file [EQFarmSystem.cfg] ok!
+2011-07-29 11:35:11:678 Load file [EQStart.cfg] ok!
+2011-07-29 11:35:11:694 Load file [EQSystem.cfg] ok!
+2011-07-29 11:35:11:725 Load file [resources.cfg] ok!
+2011-07-29 11:35:11:741 Load file [UpdateCfg.ini] ok!
+2011-07-29 11:35:11:772 Load file [Base/003.dds] ok!
+2011-07-29 11:35:11:788 Load file [Base/BaseTerrSurfaceMud.jpg] ok!
+2011-07-29 11:35:11:819 Load file [Base/commTemplate.material] ok!
+2011-07-29 11:35:11:819 Load file [Base/debug.material] ok!
+2011-07-29 11:35:11:835 Load file [Base/nc_00.material] ok!
+2011-07-29 11:35:11:850 Load file [Base/nc_00.mesh] ok!
+2011-07-29 11:35:11:881 Load file [Base/r2skin.jpg] ok!
+2011-07-29 11:35:11:881 Load file [Base/remark.txt] ok!
+2011-07-29 11:35:11:913 Load file [Base/robot.mesh] ok!
+2011-07-29 11:35:11:944 Load file [Base/robot.skeleton] ok!
+2011-07-29 11:35:11:975 Load file [Base/scbArrowEx.mesh] ok!
+2011-07-29 11:35:12:007 Load file [Base/SheetShadow.dds] ok!
+2011-07-29 11:35:12:038 Load file [Base/showTarget.mesh] ok!
+2011-07-29 11:35:12:069 Load file [Base/system.material] ok!
+2011-07-29 11:35:12:085 Load file [Base/tempTerr.material] ok!
+2011-07-29 11:35:12:116 Load file [Brush/baiyuzhuan.jpg] ok!
+2011-07-29 11:35:12:132 Load file [Brush/brick/baizuan.jpg] ok!
+2011-07-29 11:35:12:163 Load file [Brush/brick/caoshangz.jpg] ok!
+2011-07-29 11:35:12:194 Load file [Brush/brick/caoshangz.tga] ok!
+2011-07-29 11:35:12:727 Load file [Brush/brick/changshilu.jpg] ok!
+2011-07-29 11:35:12:758 Load file [Brush/brick/csz.jpg] ok!
+2011-07-29 11:35:12:789 Load file [Brush/brick/dangkz.tga] ok!
+2011-07-29 11:35:12:805 Load file [Brush/brick/dbzhuan.jpg] ok!
+2011-07-29 11:35:12:836 Load file [Brush/brick/dibanz.jpg] ok!
+2011-07-29 11:35:12:852 Load file [Brush/brick/dimianz.jpg] ok!
+2011-07-29 11:35:13:337 Load file [Brush/brick/dszhuan.jpg] ok!
+2011-07-29 11:35:13:368 Load file [Brush/brick/eluanslu.jpg] ok!
+2011-07-29 11:35:13:399 Load file [Brush/brick/esl.jpg] ok!
+2011-07-29 11:35:13:431 Load file [Brush/brick/fangwuzd.jpg] ok!
+2011-07-29 11:35:13:462 Load file [Brush/brick/geziz.jpg] ok!
+2011-07-29 11:35:13:462 Load file [Brush/brick/heibaiz.jpg] ok!
+2011-07-29 11:35:13:493 Load file [Brush/brick/heibianz.tga] ok!
+2011-07-29 11:35:13:525 Load file [Brush/brick/heihuige.jpg] ok!
+2011-07-29 11:35:13:556 Load file [Brush/brick/heisedl.jpg] ok!
+2011-07-29 11:35:13:572 Load file [Brush/brick/hengzhuan.tga] ok!
+2011-07-29 11:35:13:603 Load file [Brush/brick/hgzz.jpg] ok!
+2011-07-29 11:35:13:634 Load file [Brush/brick/hhgz.jpg] ok!
+2011-07-29 11:35:13:650 Load file [Brush/brick/hhxz.jpg] ok!
+2011-07-29 11:35:13:681 Load file [Brush/brick/honglange.jpg] ok!
+2011-07-29 11:35:13:712 Load file [Brush/brick/honglangz.jpg] ok!
+2011-07-29 11:35:13:728 Load file [Brush/brick/hongsetan.jpg] ok!
+2011-07-29 12:05:29:146 *******************************************************************************
+2011-07-29 12:05:29:146 ***************************   EQUpdater log start   ***************************
+2011-07-29 12:05:29:146 *******************************************************************************
+2011-07-29 12:05:32:088 Build load list ok, use time:2844.
+2011-07-29 12:05:32:479 Load file [Brush/brick/hongsez.jpg] ok!
+2011-07-29 12:05:32:510 Load file [Brush/brick/hsgzz-bian.tga] ok!
+2011-07-29 12:05:32:542 Load file [Brush/brick/hsgzz.jpg] ok!
+2011-07-29 13:28:36:859 *******************************************************************************
+2011-07-29 13:28:36:859 ***************************   EQUpdater log start   ***************************
+2011-07-29 13:28:36:859 *******************************************************************************
+2011-07-29 13:28:40:359 Build load list ok, use time:3453.
+2011-07-29 13:28:40:953 Load file [Brush/brick/hsljzhuan.jpg] ok!
+2011-07-29 13:28:40:999 Load file [Brush/brick/huahuagz.jpg] ok!
+2011-07-29 13:28:41:031 Load file [Brush/brick/huangzhuan.jpg] ok!
+2011-07-29 13:28:41:062 Load file [Brush/brick/huibianz.tga] ok!
+2011-07-29 13:28:41:093 Load file [Brush/brick/huisez.jpg] ok!
+2011-07-29 13:28:41:656 Load file [Brush/brick/ka-dmcz.jpg] ok!
+2011-07-29 13:28:41:687 Load file [Brush/brick/lanbaizhuan.jpg] ok!
+2011-07-29 13:28:41:702 Load file [Brush/brick/lanheibian.tga] ok!
+2011-07-29 13:28:41:702 Load file [Brush/brick/lanheiguai.tga] ok!
+2011-07-29 13:28:41:734 Load file [Brush/brick/lixingz.jpg] ok!
+2011-07-29 13:28:41:765 Load file [Brush/brick/lizhuan.tga] ok!
+2011-07-29 13:28:41:796 Load file [Brush/brick/lizhuanz.tga] ok!
+2011-07-29 13:28:41:812 Load file [Brush/brick/luanz.jpg] ok!
+2011-07-29 13:28:41:843 Load file [Brush/brick/luzhuan.jpg] ok!
+2011-07-29 13:28:41:859 Load file [Brush/brick/lvzhuan.jpg] ok!
+2011-07-29 13:28:41:890 Load file [Brush/brick/lxz.jpg] ok!
+2011-07-29 13:28:41:890 Load file [Brush/brick/lxzhuan.jpg] ok!
+2011-07-29 13:28:41:921 Load file [Brush/brick/shenhongbz-h.tga] ok!
+2011-07-29 13:28:41:952 Load file [Brush/brick/shenhongbz-j.tga] ok!
+2011-07-29 13:28:41:984 Load file [Brush/brick/shizilu.jpg] ok!
+2011-07-29 13:28:42:015 Load file [Brush/brick/shuzhuan.jpg] ok!
+2011-07-29 13:28:42:031 Load file [Brush/brick/sifangzhuan.jpg] ok!
+2011-07-29 13:28:42:499 Load file [Brush/brick/suishid.tga] ok!
+2011-07-29 13:28:42:515 Load file [Brush/brick/suzhuan.jpg] ok!
+2011-07-29 13:28:42:546 Load file [Brush/brick/suzhuan.tga] ok!
+2011-07-29 13:28:42:546 Load file [Brush/brick/suzhuangj.tga] ok!
+2011-07-29 13:28:42:593 Load file [Brush/brick/tongqianz.jpg] ok!
+2011-07-29 13:28:42:609 Load file [Brush/brick/tuanz.jpg] ok!
+2011-07-29 13:28:42:640 Load file [Brush/brick/xiehongz.jpg] ok!
+2011-07-29 13:28:42:687 Load file [Brush/brick/xiez.jpg] ok!
+2011-07-29 13:28:42:718 Load file [Brush/brick/xxhgz.jpg] ok!
+2011-07-29 13:28:42:765 Load file [Brush/brick/zuan.jpg] ok!
+2011-07-29 13:28:42:812 Load file [Brush/fangwuzd.jpg] ok!
+2011-07-29 13:28:42:874 Load file [Brush/gf/aicao.tga] ok!
+2011-07-29 13:28:43:499 Load file [Brush/gf/chuju.tga] ok!
+2011-07-29 13:28:43:859 Load file [Brush/gf/labahua.tga] ok!
+2011-07-29 13:28:43:905 Load file [Brush/gf/luoye.tga] ok!
+2011-07-29 13:28:44:515 Load file [Brush/gf/taiyanghua.tga] ok!
+2011-07-29 13:28:45:124 Load file [Brush/gf/taohua.tga] ok!
+2011-07-29 13:28:45:155 Load file [Brush/gf/wutongye.tga] ok!
+2011-07-29 13:28:45:812 Load file [Brush/gf/xiaohua.tga] ok!
+2011-07-29 13:28:45:858 Load file [Brush/gf/zhuye.tga] ok!
+2011-07-29 13:28:46:515 Load file [Brush/gonglu.tga] ok!
+2011-07-29 13:28:46:546 Load file [Brush/grass/cao.jpg] ok!
+2011-07-29 13:28:47:530 Load file [Brush/grass/cao.tga] ok!
+2011-07-29 13:28:47:561 Load file [Brush/grass/ceshi.jpg] ok!
+2011-07-29 13:28:48:530 Load file [Brush/grass/ceshi.tga] ok!
+2011-07-29 13:28:48:561 Load file [Brush/grass/ceshi1.jpg] ok!
+2011-07-29 13:28:49:046 Load file [Brush/grass/ceshi10.jpg] ok!
+2011-07-29 13:28:49:092 Load file [Brush/grass/ceshi2.jpg] ok!
+2011-07-29 13:28:49:139 Load file [Brush/grass/ceshi3.jpg] ok!
+2011-07-29 13:28:49:186 Load file [Brush/grass/ceshi4.jpg] ok!
+2011-07-29 13:28:50:452 Load file [Brush/grass/ceshi4.tga] ok!
+2011-07-29 13:28:50:467 Load file [Brush/grass/ceshi5.jpg] ok!
+2011-07-29 13:28:50:483 Load file [Brush/grass/ceshi6.jpg] ok!
+2011-07-29 13:28:50:514 Load file [Brush/grass/ceshi7.jpg] ok!
+2011-07-29 13:28:50:545 Load file [Brush/grass/ceshi8.jpg] ok!
+2011-07-29 13:28:51:155 Load file [Brush/grass/ceshi9.jpg] ok!
+2011-07-29 13:28:52:045 Load file [Brush/grass/ceshi9.tga] ok!
+2011-07-29 13:28:52:077 Load file [Brush/grass/cuilvcdc.jpg] ok!
+2011-07-29 13:28:52:967 Load file [Brush/grass/cuilvcsc.tga] ok!
+2011-07-29 13:28:53:467 Load file [Brush/grass/dianzhuic.jpg] ok!
+2011-07-29 13:53:01:749 *******************************************************************************
+2011-07-29 13:53:01:749 ***************************   EQUpdater log start   ***************************
+2011-07-29 13:53:01:749 *******************************************************************************
+2011-07-29 13:56:39:042 *******************************************************************************
+2011-07-29 13:56:39:042 ***************************   EQUpdater log start   ***************************
+2011-07-29 13:56:39:042 *******************************************************************************
+2011-07-29 14:10:34:599 *******************************************************************************
+2011-07-29 14:10:34:599 ***************************   EQUpdater log start   ***************************
+2011-07-29 14:10:34:599 *******************************************************************************
+2011-07-29 14:13:17:447 Build load list ok, use time:162906.
+2011-07-29 14:13:41:335 Load file [Brush/grass/dianzhuic.tga] ok!
+2011-07-29 14:14:28:782 Load file [Brush/grass/hcdc.jpg] ok!
+2011-07-29 14:14:50:859 *******************************************************************************
+2011-07-29 14:14:50:859 ***************************   EQUpdater log start   ***************************
+2011-07-29 14:14:50:859 *******************************************************************************
+2011-07-29 14:15:55:919 Build load list ok, use time:55954.
+2011-07-29 14:16:07:362 Load file [Brush/grass/hcsc.tga] ok!
+2011-07-29 14:16:15:980 Load file [Brush/grass/hlzcdc.jpg] ok!
+2011-07-29 14:21:52:007 *******************************************************************************
+2011-07-29 14:21:52:007 ***************************   EQUpdater log start   ***************************
+2011-07-29 14:21:52:007 *******************************************************************************
+2011-07-29 14:21:59:563 Build load list ok, use time:3313. Load:6454
+2011-07-29 14:22:03:653 Load file [Brush/grass/hlzcsc.tga] ok!
+2011-07-29 14:22:48:473 *******************************************************************************
+2011-07-29 14:22:48:473 ***************************   EQUpdater log start   ***************************
+2011-07-29 14:22:48:473 *******************************************************************************
+2011-07-29 14:22:53:719 Build load list ok, use time:2797. Load:6453
+2011-07-29 14:22:55:077 Load file [Brush/grass/huangsecd.jpg] ok!
+2011-07-29 14:22:56:841 Load file [Brush/grass/huangsecd.tga] ok!
+2011-07-29 14:22:58:340 Load file [Brush/grass/jhscdc.jpg] ok!
+2011-07-29 14:33:32:550 *******************************************************************************
+2011-07-29 14:33:32:550 ***************************   EQUpdater log start   ***************************
+2011-07-29 14:33:32:550 *******************************************************************************
+2011-07-29 14:33:38:915 Build load list ok, use time:2891. Load:6450,Move:6602
+2011-07-29 14:33:40:182 Load file1 [Brush/grass/jhscsc.tga] ok!
+2011-07-29 14:33:41:558 Load file2 [Brush/grass/lvcao.jpg] ok!
+2011-07-29 14:33:43:388 Load file3 [Brush/grass/lvcao.tga] ok!
+2011-07-29 14:33:44:358 Load file4 [Brush/grass/slcdc.jpg] ok!

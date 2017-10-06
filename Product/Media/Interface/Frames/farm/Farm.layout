@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="FarmmainUI" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmSystem" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-400},{0,0},{1,0},{0,50}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmSystem/Farm1" >
+                <Property Name="Tooltip" Value="我的农场" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton13_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton13_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton13_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-248},{0,6},{1,-208},{0,48}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmSystem/pasture" >
+                <Property Name="Tooltip" Value="我的牧场" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton14_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton14_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton14_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-208},{0,6},{1,-168},{0,48}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="FarmmainUI/FarmSystem/pasture/useless2" >
+                    <Property Name="Image" Value="set:Button3 image:ImageButton22_Normal" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-15},{1,-15},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmSystem/farm_stock" >
+                <Property Name="Tooltip" Value="我的仓库" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton15_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton15_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton15_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-168},{0,6},{1,-128},{0,48}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmSystem/farm_store" >
+                <Property Name="Tooltip" Value="我的商店" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton16_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton16_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton16_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-128},{0,6},{1,-88},{0,48}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmSystem/decoration" >
+                <Property Name="Tooltip" Value="我的装饰" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-88},{0,6},{1,-48},{0,48}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmSystem/Garden" >
+                <Property Name="Tooltip" Value="我的花园" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton12_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton12_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton12_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-288},{0,6},{1,-248},{0,48}}" />
+                <Window Type="EQHomeLook/StaticImage" Name="FarmmainUI/FarmSystem/Garden/useless" >
+                    <Property Name="Image" Value="set:Button3 image:ImageButton22_Normal" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-15},{1,-15},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/msg" >
+            <Property Name="Tooltip" Value="消息" />
+            <Property Name="HoverImage" Value="set:Button3 image:ImageButton9_Hover" />
+            <Property Name="NormalImage" Value="set:Button3 image:ImageButton9_Normal" />
+            <Property Name="PushedImage" Value="set:Button3 image:ImageButton9_Pushed" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,69},{0,37},{0,102}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/infor" >
+            <Property Name="Tooltip" Value="系统公告" />
+            <Property Name="HoverImage" Value="set:Button3 image:ImageButton11_Hover" />
+            <Property Name="NormalImage" Value="set:Button3 image:ImageButton11_Normal" />
+            <Property Name="PushedImage" Value="set:Button3 image:ImageButton11_Pushed" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,73},{0,69},{0,99},{0,102}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="FarmmainUI/infor/useless3" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-15},{1,-15},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/Note" >
+            <Property Name="Tooltip" Value="留言" />
+            <Property Name="HoverImage" Value="set:Button3 image:ImageButton10_Hover" />
+            <Property Name="NormalImage" Value="set:Button3 image:ImageButton10_Normal" />
+            <Property Name="PushedImage" Value="set:Button3 image:ImageButton10_Pushed" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,38},{0,69},{0,70},{0,101}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="FarmmainUI/FarmEntertainment" >
+            <Property Name="Image" Value="set:window2 image:farm_Entertainment" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-166},{1,-42},{0.5,164},{1,0}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/move" >
+                <Property Name="Tooltip" Value="可移动鼠标" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton1_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton1_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton1_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,11},{0,6},{0,41},{0,37}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/levelup" >
+                <Property Name="Tooltip" Value="升级为红土地" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton18_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton18_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton18_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,42},{0,4},{0,74},{0,37}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/turn_soil" >
+                <Property Name="Tooltip" Value="翻地" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton19_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton19_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton19_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,78},{0,4},{0,110},{0,36}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/seedbag" >
+                <Property Name="Tooltip" Value="种子道具包" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton20_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton20_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton20_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,114},{0,5},{0,144},{0,38}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/watering" >
+                <Property Name="Tooltip" Value="浇水" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton2_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton2_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton2_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,147},{0,5},{0,181},{0,38}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/weed" >
+                <Property Name="Tooltip" Value="除草" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton3_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton3_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton3_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,186},{0,5},{0,216},{0,38}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/pick_insect" >
+                <Property Name="Tooltip" Value="除虫" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton4_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton4_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton4_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,221},{0,5},{0,251},{0,40}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/harvest" >
+                <Property Name="Tooltip" Value="收获" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton21_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton21_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton21_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,254},{0,5},{0,286},{0,39}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/all_harvest" >
+                <Property Name="Tooltip" Value="一键收获" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton8_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton8_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton8_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,289},{0,5},{0,321},{0,38}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="FarmmainUI/FarmEntertainment1" >
+            <Property Name="Image" Value="set:window2 image:farm_Entertainment" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-166},{1,-42},{0.5,164},{1,0}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainmen/move1" >
+                <Property Name="Tooltip" Value="可移动鼠标" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton1_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton1_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton1_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,11},{0,7},{0,41},{0,39}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/watering1" >
+                <Property Name="Tooltip" Value="浇水" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton2_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton2_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton2_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,42},{0,6},{0,76},{0,40}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/weed1" >
+                <Property Name="Tooltip" Value="除草" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton3_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton3_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton3_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,78},{0,6},{0,110},{0,39}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/pick_insect1" >
+                <Property Name="Tooltip" Value="除虫" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton4_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton4_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton4_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,114},{0,6},{0,144},{0,39}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/harvest1" >
+                <Property Name="Tooltip" Value="偷窃" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton5_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton5_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton5_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,225},{0,6},{0,259},{0,40}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/put_insect" >
+                <Property Name="Tooltip" Value="放虫" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton6_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton6_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton6_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,186},{0,6},{0,220},{0,38}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/put_weed" >
+                <Property Name="Tooltip" Value="放草" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton7_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton7_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton7_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,147},{0,7},{0,183},{0,39}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/FarmEntertainment/all_harvest1" >
+                <Property Name="Tooltip" Value="一键偷窃" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton8_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton8_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton8_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,265},{0,6},{0,297},{0,40}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="FarmmainUI/PlayerInfo" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,301},{0,69}}" />
+            <Window Type="EQHomeLook/ProgressBar1" Name="FarmmainUI/PlayerInfo/Exp" >
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,52},{0,17},{0,148},{0,28}}" />
+                <Window Type="EQHomeLook/StaticText" Name="FarmmainUI/PlayerInfo/Exp/number" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,1},{0,91},{0,11}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="FarmmainUI/PlayerInfo/LevelImage" >
+                <Property Name="Image" Value="set:Button1 image:ImageButton48" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,35},{0,32},{0,60},{0,58}}" />
+                <Window Type="EQHomeLook/StaticText" Name="FarmmainUI/PlayerInfo/LevelImage/Level" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,8},{0,23},{0,17}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage15" Name="FarmmainUI/PlayerInfo/PlayImg" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,1},{0,1},{0,49},{0,49}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="FarmmainUI/PlayerInfo1" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0,69},{0,179},{0,133}}" />
+            <Window Type="EQHomeLook/ProgressBar1" Name="FarmmainUI/PlayerInfo/Exp1" >
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,52},{0,17},{0,147},{0,28}}" />
+                <Window Type="EQHomeLook/StaticText" Name="FarmmainUI/PlayerInfo/Exp/number1" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,1},{0,91},{0,11}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/StaticImage15" Name="FarmmainUI/PlayerInfo/PlayerImg1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,1},{0,1},{0,49},{0,49}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="FarmmainUI/PlayerInfo/LevelImage1" >
+                <Property Name="Image" Value="set:Button1 image:ImageButton48" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,35},{0,32},{0,60},{0,57}}" />
+                <Window Type="EQHomeLook/StaticText" Name="FarmmainUI/PlayerInfo/LevelImage/Level1" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,8},{0,23},{0,17}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/PlayerInfo1/Note1" >
+                <Property Name="Tooltip" Value="给他留言" />
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton10_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton10_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton10_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,150},{0,13},{0,177},{0,40}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/Editbox2" Name="FarmmainUI/tempEdit" >
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{1,-68},{0,214},{1,-46}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/farm_system_button" >
+            <Property Name="Tooltip" Value="农场设置" />
+            <Property Name="HoverImage" Value="set:Button3 image:ImageButton33_Hover" />
+            <Property Name="NormalImage" Value="set:Button3 image:ImageButton33_Normal" />
+            <Property Name="PushedImage" Value="set:Button3 image:ImageButton33_Pushed" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-46},{0,5},{1,-6},{0,47}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="FarmmainUI/farm_exit_button" >
+            <Property Name="Tooltip" Value="退出农场" />
+            <Property Name="HoverImage" Value="set:Button3 image:ImageButton34_Hover" />
+            <Property Name="NormalImage" Value="set:Button3 image:ImageButton34_Normal" />
+            <Property Name="PushedImage" Value="set:Button3 image:ImageButton34_Normal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-43},{1,-25},{1,-3},{1,0}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="FarmmainUI/task_icon" >
+            <Property Name="Image" Value="set:farm_task image:NewImage11" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{1,-45},{0,45},{1,-5}}" />
+        </Window>
+    </Window>
+</GUILayout>

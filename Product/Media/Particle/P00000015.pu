@@ -1,0 +1,146 @@
+system P00000015
+{
+    technique Technique27
+    {
+        position                                0 -10 0
+        visual_particle_quota                   200
+        emitted_emitter_quota                   15
+        material                                PUMediaPack/Flare_01
+        renderer                                Billboard
+        {
+            billboard_type                      oriented_self
+        }
+        emitter                                 Circle Emitter61
+        {
+            emission_rate                       dyn_oscillate
+            {
+                oscillate_frequency             0.5
+                oscillate_phase                 0
+                oscillate_base                  30
+                oscillate_amplitude             30
+                oscillate_type                  sine
+            }
+            angle                               0
+            time_to_live                        0.6
+            duration                            1.2
+            particle_width                      dyn_random
+            {
+                min                             8
+                max                             20
+            }
+            particle_height                     dyn_random
+            {
+                min                             120
+                max                             200
+            }
+            position                            0 30 0
+            circle_em_radius                    25
+        }
+        emitter                                 Circle Emitter64
+        {
+            emission_rate                       dyn_oscillate
+            {
+                oscillate_frequency             0.5
+                oscillate_phase                 0
+                oscillate_base                  25
+                oscillate_amplitude             25
+                oscillate_type                  sine
+            }
+            angle                               0
+            time_to_live                        0.5
+            duration                            1
+            particle_width                      dyn_random
+            {
+                min                             10
+                max                             15
+            }
+            particle_height                     dyn_random
+            {
+                min                             220
+                max                             450
+            }
+            position                            0 30 0
+            circle_em_radius                    8
+        }
+        affector                                Colour Affector104
+        {
+            colour_aff_time_colour              0    0.709804 1 0.443137 0.313726
+            colour_aff_time_colour              0.8  0.709804 1 0.443137 0.470588
+            colour_aff_time_colour              1    0.709804 1 0.443137 0
+            colour_operation                    multiply
+        }
+        affector                                Scale Affector105
+        {
+            xyz_scale                           -30
+        }
+    }
+    technique Technique56
+    {
+        material                                guanxian2
+        default_particle_width                  10
+        default_particle_height                 10
+        default_particle_depth                  10
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Point Emitter65
+        {
+            emission_rate                       30
+            time_to_live                        dyn_random
+            {
+                min                             1
+                max                             1.3
+            }
+            velocity                            150
+            duration                            0.2
+        }
+        affector                                Vortex Affector106
+        {
+            vortex_aff_vector                   0 1 0
+            vortex_aff_speed                    15
+        }
+        affector                                Colour Affector108
+        {
+            colour_aff_time_colour              0    1 0.52549 0.870588 0
+            colour_aff_time_colour              0.85 1 0.52549 0.870588 1
+            colour_aff_time_colour              1    1 0.52549 0.870588 0
+        }
+        affector                                Scale Affector107
+        {
+            xyz_scale                           60
+        }
+    }
+    technique Technique66
+    {
+        visual_particle_quota                   5
+        material                                PUMediaPack/Ring_14
+        default_particle_width                  10
+        default_particle_height                 10
+        default_particle_depth                  10
+        renderer                                Billboard
+        {
+            billboard_type                      perpendicular_common
+            common_direction                    0 1 0
+            common_up_vector                    0 0 1
+        }
+        emitter                                 Point Emitter77
+        {
+            angle                               0
+            time_to_live                        0.5
+            velocity                            0
+            duration                            1
+            position                            0 4 0
+        }
+        affector                                Scale Affector136
+        {
+            xyz_scale                           200
+        }
+        affector                                Colour Affector137
+        {
+            colour_aff_time_colour              0    0.709804 1 0.443137 0
+            colour_aff_time_colour              0.5  0.709804 1 0.443137 0.705882
+            colour_aff_time_colour              1    0.709804 1 0.443137 0
+            colour_operation                    multiply
+        }
+    }
+}

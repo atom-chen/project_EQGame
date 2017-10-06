@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage1" Name="gotohouse" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,266},{0,193},{0,631},{0,447}}" />
+        <Window Type="NewEQHomeLook/NewStaticImage3" Name="gotohouse/house1" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,60},{0.05,36},{0,160},{0.05,136}}" />
+            <Window Type="EQHomeLook/StaticText" Name="gotohouse/house1/mingcheng" >
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,95},{0,23}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="gotohouse/house1/zhuangtai" >
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,5},{0,76},{0,95},{0,94}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="NewEQHomeLook/NewStaticImage3" Name="gotohouse/house2" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,194},{0.05,36},{0.05,294},{0.05,136}}" />
+            <Window Type="EQHomeLook/StaticText" Name="gotohouse/house2/mingcheng" >
+                <Property Name="TextColours" Value="tl:FFB50B20 tr:FFB50B20 bl:FFB50B20 br:FFB50B20" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,95},{0,23}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="gotohouse/house2/zhuangtai" >
+                <Property Name="TextColours" Value="tl:FFB50B20 tr:FFB50B20 bl:FFB50B20 br:FFB50B20" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,5},{0,76},{0,95},{0,94}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="gotohouse/queding" >
+            <Property Name="Text" Value="前 往" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,93},{0,186},{0,139},{0,212}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="gotohouse/yulan" >
+            <Property Name="Text" Value="预 览" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,163},{0,186},{0,209},{0,212}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="gotohouse/quxiao" >
+            <Property Name="Text" Value="取 消" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,233},{0,186},{0,279},{0,212}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="gotohouse/fanye1" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage146" />
+            <Property Name="DisabledImage" Value="set:Button5 image:NewImage146" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,25},{0.05,75},{0,47},{0.05,97}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="gotohouse/fanye11" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+            <Property Name="PushedImage" Value="set:Button5 set:Button5 image:NewImage145" />
+            <Property Name="DisabledImage" Value="set:Button5 image:NewImage145" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,308},{0.05,75},{0.05,330},{0.05,97}}" />
+        </Window>
+    </Window>
+</GUILayout>

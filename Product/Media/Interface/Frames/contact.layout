@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="contacts/n/" >
+        <Property Name="Text" Value="交往瓶" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-173},{0.5,-128},{0.5,147},{0.5,133}}" />
+        <Window Type="NewEQHomeLook/NewMultiLineEditbox1" Name="contacts/n/wenzi" >
+            <Property Name="Text" >
+</Property>
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,60},{1,-15},{1,-40}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="contacts/n/reng" >
+            <Property Name="Text" Value="扔出去" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,199},{1,-40},{0,257},{1,-14}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewRadioButton" Name="contacts/nan" >
+            <Property Name="Text" Value="男" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,94},{0,36},{0,130},{0,57}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewRadioButton" Name="contacts/nv" >
+            <Property Name="Text" Value="女" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,135},{0,36},{0,171},{0,57}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="contacts/jieshao" >
+            <Property Name="Text" Value="我期待的是：" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3,-74},{0,36},{0.52905,-74},{0.080394,36}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="NewEQHomeLook/NewCheckbox" Name="contacts/niming" >
+            <Property Name="Text" Value="匿名发送" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0.511173,-123},{0.62483,58},{0.75,-124},{0.75,52}}" />
+            <Property Name="NormalTextColour" Value="FF00FFFC" />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+        </Window>
+    </Window>
+</GUILayout>

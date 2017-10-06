@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow2" Name="zhaoxiangji" >
+        <Property Name="Text" Value="照相机（可拖拽）" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-130},{0.5,-200},{0.5,130},{0.5,100}}" />
+        <Window Type="NewEQHomeLook/NewStaticImage1" Name="zhaoxiangji/bottom" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-59},{1,0},{1,0}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="zhaoxiangji/bottom/paizhao" >
+                <Property Name="Text" Value="拍照" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,20},{0,15},{0,90},{0,45}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewCombobox" Name="zhaoxiangji/bottom/daxiao" >
+                <Property Name="Text" Value="小" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-70},{0,20},{1,-20},{0,125}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+        </Window>
+        <Window Type="NewEQHomeLook/NewStaticImage1" Name="zhaoxiangji/image" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,6},{0,26},{1,-6},{1,-60}}" />
+            <Window Type="NewEQHomeLook/NewStaticImage1" Name="zhaoxiangji/image/jiaodian" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,6},{0,6},{1,-6},{1,-6}}" />
+                <Window Type="NewEQHomeLook/NewStaticImage1" Name="zhaoxiangji/image/jiaodian/img1" >
+                    <Property Name="Image" Value="set:windows1 image:backGround25" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,27},{0,27}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage1" Name="zhaoxiangji/image/jiaodian/img2" >
+                    <Property Name="Image" Value="set:windows1 image:backGround26" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-27},{0,0},{1,0},{0,27}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage1" Name="zhaoxiangji/image/jiaodian/img3" >
+                    <Property Name="Image" Value="set:windows1 image:backGround27" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-27},{0,27},{1,0}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage1" Name="zhaoxiangji/image/jiaodian/img4" >
+                    <Property Name="Image" Value="set:windows1 image:backGround28" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{1,-27},{1,-27},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage1" Name="zhaoxiangji/image/jiaodian/img5" >
+                    <Property Name="Image" Value="set:windows1 image:backGround29" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,-29},{0.5,-29},{0.5,29},{0.5,29}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

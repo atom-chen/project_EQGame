@@ -1,0 +1,581 @@
+// 通用材质模板  2010.5.7      Y3
+// 用于给其他材质提供模板支持, 必须先解析模板文件
+// 模板请统一用Tplt/开头
+// 这个文件由程序人员来编辑
+// 其他文件要引用这文件, 请在最前面加  import * from "commTemplate.material"
+
+
+//----------------------------------------------------------------------------
+// 抽象脚本继承
+// 抽象pass以为Pass/开头
+//----------------------------------------------------------------------------
+abstract pass Pass/BaseTex
+{
+	texture_unit
+	{
+		texture <nullTex>
+		texture_alias <baseTex>
+		tex_address_mode clamp
+	}
+}
+
+//----------------------------------------------------------------------------
+// 通用模板
+//----------------------------------------------------------------------------
+
+// 纹理别名
+// 这个模板啥都没做, 就是提供一个材质别名. 就为了最普通的材质脚本少几行文本
+material Tplt/AliasTex
+{
+	receive_shadows off
+	transparency_casts_shadows
+
+	set $diffuse_colour "1 1 1"
+	set $emissive_colour "0.1 0.1 0.1"
+	technique
+	{
+		pass BassPass
+		{
+			diffuse $diffuse_colour
+			emissive $emissive_colour
+			texture_unit
+			{
+				texture <nullTex>
+				texture_alias <baseTex>
+			}
+		}
+	}
+}
+
+// 通用动画纹理模板
+material Tplt/AnimTex
+{
+	receive_shadows off
+	transparency_casts_shadows
+	
+	set $diffuse_colour "1 1 1"
+	set $emissive_colour "0 0 0"
+	set $anim_texture "1.jpg"
+	set $num_frames "1"
+	set $duration "0"
+	technique
+	{
+		pass BassPass
+		{
+			diffuse $diffuse_colour
+			emissive $emissive_colour
+			alpha_rejection greater 128
+			scene_blend alpha_blend
+			texture_unit
+			{
+				anim_texture $anim_texture $num_frames $duration
+			}
+		}
+	}
+}
+
+material Tplt/ScrollTex
+{
+	receive_shadows off
+	transparency_casts_shadows
+
+	set $diffuse_colour "1 1 1"
+	set $emissive_colour "0 0 0"
+	set $scroll_x "0"
+	set $scroll_y "0"
+	technique
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			diffuse $diffuse_colour
+			emissive $emissive_colour
+			texture_unit
+			{
+				scroll_anim $scroll_x $scroll_y
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+
+//----------------------------------------------------------------------------
+// 透明模板
+//----------------------------------------------------------------------------
+
+// 伪透明
+// 使用最多的透明方式.
+// 用于严格只有透明和非透明通道的材质, 而没有具体透明值. 这类的材质建议使用带透明的DXT1
+// 严格意义上来说, 这绘制的是实体物件. 特别适用于镂空物体.
+// 使用举例: 栏杆, 不带半透明属性的球网,网球拍等, 不需要半透明属性的花草树木.
+material Tplt/FakeTranspt
+{
+	receive_shadows off
+	transparency_casts_shadows
+
+	set $diffuse_colour "1 1 1"
+	set $emissive_colour "0.1 0.1 0.1"
+	technique
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			diffuse $diffuse_colour
+			emissive $emissive_colour
+			alpha_rejection greater 128
+		}
+	}
+}
+
+// 伪透明增强  --不建议使用这种方式, 多使用"伪透明"
+// 这类透明一般用于有半透明边缘过度的物体, 这类物体的边缘比较小且不明显.
+// 这类透明会产生比较明显的锯齿边缘.
+// 由于这种方式同时带有透明属性, 且在引擎中, 渲染不按物件前后排序, 所以容易产生
+// 半透明错误.
+// 使用举例: 用于边缘有半透明效果花草灌木居多.
+material Tplt/FakeTransptEx
+{
+	receive_shadows off
+	transparency_casts_shadows
+
+	set $diffuse_colour "1 1 1"
+	set $emissive_colour "0.1 0.1 0.1"
+	technique
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			diffuse $diffuse_colour
+			emissive $emissive_colour
+			alpha_rejection greater 128
+			scene_blend alpha_blend
+		}
+	}
+}
+
+// 基本透明
+// 用于真实中我们看到的部分透明物件. 这种透明不适合需要自身遮挡情况的物件.
+// 使用举例: 玻璃球(还有其他透明融合方式), 有羽毛的帽子的羽毛部分.
+material Tplt/Transpt
+{
+	receive_shadows off
+	transparency_casts_shadows
+
+	set $diffuse_colour "1 1 1"
+	set $emissive_colour "0.1 0.1 0.1"
+	technique
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			diffuse $diffuse_colour
+			emissive $emissive_colour
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+}
+
+
+// 复杂透明 --建议不用
+// 用于自身遮挡关系复杂的物体的透明材质（需渲染两遍，第一遍渲深度缓冲, 渲染效率成本提高一倍）
+// 脚本来之tlbb
+// 这种透明建议不用, 是因为要渲染2次. 一般来说只用在特殊的透明处理上.
+// 使用举例: 贼的潜行效果. 头发的复杂遮挡, 且需要透明过度. 
+material Tplt/ComplexTranspt
+{
+	receive_shadows off
+	transparency_casts_shadows
+
+	technique
+	{    
+		pass : Pass/BaseTex
+		{					
+			alpha_rejection greater 128
+			colour_write off
+			// 保证在那些不支持colour_write的显卡上也不显示该pass的颜色
+			scene_blend zero one			
+		}
+
+		pass BassPass : Pass/BaseTex
+		{	
+			scene_blend alpha_blend
+			depth_write off
+		}	
+	}	
+}
+
+
+// 法线贴图
+// 用途1：丰富模型表面细节
+// 用途2：平滑光照过渡
+material Tplt/NormalMap
+{
+	receive_shadows off
+	transparency_casts_shadows
+
+	set $ambient_colour "1 1 1"
+	set $diffuse_colour "0.7 0.7 0.7"
+	set $specular_color "0 0 0 0 0"
+	technique normalmap
+	{
+		//环境光单独一个通道，避免无灯光情况下无法显示
+		pass ambient
+		{
+			ambient $ambient_colour
+			diffuse 0 0 0 0
+			specular 0 0 0 0 
+			emissive 0 0 0 0
+	
+			vertex_program_ref NormalMap/Ambient
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+				param_named_auto ambient derived_ambient_light_colour
+				param_named_auto emissive surface_emissive_colour
+			}
+			
+		}
+		
+		//每个灯光一个通道
+		pass perlight
+		{
+			ambient 0 0 0 0
+			diffuse $diffuse_colour
+			specular $specular_color
+			
+			//遍历灯光
+			max_lights 100
+			iteration once_per_light
+	
+			//多个灯光使用叠加方式
+			scene_blend add
+	
+			vertex_program_ref NormalMap/VP
+			{
+				param_named_auto lightPosition light_position_object_space 0
+				param_named_auto eyePosition camera_position_object_space
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+	
+			fragment_program_ref NormalMap/FP
+			{
+				param_named_auto lightDiffuse derived_light_diffuse_colour 0 
+				param_named_auto lightAtten light_attenuation 0 
+				param_named_auto lightPosition light_position_object_space 0
+				param_named_auto lightSpecular derived_light_specular_colour 0
+				param_named_auto shininess surface_shininess 
+			}
+			
+			//法线贴图
+			texture_unit NormalTexture
+			{
+				texture normalmap/normalmap.png
+				texture_alias <normalmapTex>
+				colour_op replace
+			}
+		}
+	
+		//最后计算纹理颜色
+		pass BassPass
+		{
+			lighting off
+	
+			vertex_program_ref NormalMap/Base
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+			
+			// light * texture
+			scene_blend dest_colour zero
+			
+			//基础纹理
+			texture_unit
+			{
+				 texture <nullTex>
+				 texture_alias <baseTex>
+			}
+		}
+	}
+	
+	//避免无法支持法线贴图的显卡也能正常显示
+	technique
+	{
+		pass BassPass
+		{
+			texture_unit
+			{
+				texture <nullTex>
+				texture_alias <baseTex>
+			}
+		}
+	}
+}
+
+//----------------------------------------------------------------------------
+// 测试模板
+//----------------------------------------------------------------------------
+
+// 测试镜面反射
+material Tplt/TestSpecular
+{
+	//要调整镜面反射, 请调整这个数值specular_colour, 这个数值的4个参数请参考相关文档
+	set $specular_colour "0.0 0.0 0.0 0.0 0.0"
+	set $emissive_colour "0.1 0.1 0.1"
+	technique
+	{
+		pass BassPass
+		{
+			specular $specular_colour
+			emissive $emissive_colour
+			texture_unit
+			{
+				texture <nullTex>
+				texture_alias <baseTex>
+			}
+		}
+	}
+}
+
+
+
+// 骨骼动画
+material Tplt/SkinningAliasTex
+{
+	set $emissive_colour "0.1 0.1 0.1"
+	technique hardwareSkinning
+	{
+		pass BassPass
+		{
+			vertex_program_ref HardwareSkinningThreeWeights
+			{
+			}
+			
+			shadow_caster_vertex_program_ref HardwareSkinningThreeWeightsShadowCaster
+			{
+			}
+
+			emissive $emissive_colour
+			texture_unit
+			{
+				texture <nullTex>
+				texture_alias <baseTex>
+			}
+		}
+	}
+	
+	technique softwareSkinning
+	{
+		pass BassPass
+		{
+			emissive $emissive_colour
+			texture_unit
+			{
+				texture <nullTex>
+				texture_alias <baseTex>
+			}
+		}
+	}
+}
+
+material Tplt/SkinningFakeTranspt
+{
+	set $emissive_colour "0.1 0.1 0.1"
+	technique hardwareSkinning
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			vertex_program_ref HardwareSkinningThreeWeights
+			{
+			}
+			
+			shadow_caster_vertex_program_ref HardwareSkinningThreeWeightsShadowCaster
+			{
+			}
+
+			emissive $emissive_colour
+			alpha_rejection greater 128
+		}
+	}
+	
+	technique softwareSkinning
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			emissive $emissive_colour
+			alpha_rejection greater 128
+		}
+	}
+}
+
+material Tplt/SkinningFakeTransptEx
+{
+	set $emissive_colour "0.1 0.1 0.1"
+	technique hardwareSkinning
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			vertex_program_ref HardwareSkinningThreeWeights
+			{
+			}
+			
+			shadow_caster_vertex_program_ref HardwareSkinningThreeWeightsShadowCaster
+			{
+			}
+
+			emissive $emissive_colour
+			alpha_rejection greater 128
+			scene_blend alpha_blend
+		}
+	}
+	
+	technique softwareSkinning
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			emissive $emissive_colour
+			alpha_rejection greater 128
+			scene_blend alpha_blend
+		}
+	}
+}
+
+material Tplt/SkinningTranspt
+{
+	set $emissive_colour "0.1 0.1 0.1"
+	technique hardwareSkinning
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			vertex_program_ref HardwareSkinningThreeWeights
+			{
+			}
+			
+			shadow_caster_vertex_program_ref HardwareSkinningThreeWeightsShadowCaster
+			{
+			}
+
+			emissive $emissive_colour
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+	
+	technique softwareSkinning
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			emissive $emissive_colour
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+}
+
+//海洋
+material Tplt/Ocean
+{  
+	receive_shadows off
+	transparency_casts_shadows
+
+    technique High
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_check on
+			depth_write off
+			lighting off
+			
+			vertex_program_ref Cg/Ocean2VS
+			{
+				
+			}
+
+			fragment_program_ref Cg/Ocean2FS
+			{
+				
+			}
+
+			texture_unit
+			{
+				texture waves2.dds
+				tex_coord_set 0
+				filtering linear linear linear
+			}
+
+			texture_unit skybox
+			{
+				cubic_texture ct.jpg combinedUVW
+				tex_address_mode clamp
+				tex_coord_set 1
+				filtering linear linear linear
+			}
+		}
+	}
+	
+	technique Low
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			scene_blend alpha_blend
+			depth_write off
+		}	
+	}
+}
+
+//水面
+material Tplt/Water
+{
+	receive_shadows off
+	transparency_casts_shadows
+
+	set $fadeBias "0.3"
+	set $fadeExp "6"
+	set $waterColor "0.3 0.8 0.4 1.0"
+
+	//如果有其他透明物件在附近的话，需要写深度缓冲
+	set $depth_write "off"
+    technique High
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_check on
+			depth_write $depth_write
+			lighting off
+			
+			vertex_program_ref Cg/OceanVS
+			{
+				
+			}
+
+			fragment_program_ref Cg/OceanFS
+			{
+				param_named fadeBias float $fadeBias
+				param_named fadeExp float $fadeExp
+				param_named waterColor float4 $waterColor
+			}
+
+			texture_unit
+			{
+				texture NoiseVolume.dds 3d
+				tex_coord_set 0
+				filtering linear linear linear
+			}
+
+			//天空盒固定用白天那张
+			texture_unit skybox_bak
+			{
+				cubic_texture ct.jpg combinedUVW
+				tex_address_mode clamp
+				tex_coord_set 1
+				filtering linear linear linear
+			}
+		}
+	}
+	
+	technique Low
+	{
+		pass BassPass : Pass/BaseTex
+		{
+			scene_blend alpha_blend
+			depth_write $depth_write
+		}	
+	}
+}

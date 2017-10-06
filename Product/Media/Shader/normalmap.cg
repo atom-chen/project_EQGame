@@ -1,0 +1,105 @@
+void ambient_vp(float4 position : POSITION,
+				float2 uv		: TEXCOORD0,
+					  
+				out float4 oPosition	: POSITION,
+				out float2 oUv	   		: TEXCOORD0,
+				out float4 colour    	: COLOR,
+
+				uniform float4x4 worldViewProj,
+				uniform float4 ambient,
+				uniform float4 emissive)
+{
+	oPosition = mul(worldViewProj, position);
+	oUv = uv;
+	colour = ambient + emissive;
+}
+
+void base_vp(	float4 position : POSITION,
+				float2 uv		: TEXCOORD0,
+
+				out float4 oPosition 	: POSITION,
+				out float2 oUv	   		: TEXCOORD0,
+				out float4 colour    	: COLOR, //加上这句是为了解决7300无法照亮的bug
+							
+				uniform float4x4 worldViewProj)
+{
+	oPosition = mul(worldViewProj, position);
+	oUv = uv;
+	colour = float4(1,1,1,1); //加上这句是为了解决7300无法照亮的bug
+}
+
+//颜色转矢量
+float3 expand(float3 v)
+{
+	return (v - 0.5) * 2;
+}
+
+void main_vp(	float4 position	: POSITION,
+			 	float3 normal	: NORMAL,
+			 	float2 uv		: TEXCOORD0,
+			 	float4 tangent  : TANGENT0,
+			 
+			 	out float4 oPosition	: POSITION,
+			 	out float2 oUv			: TEXCOORD0,
+			 	out float3 oLightDir	: TEXCOORD1,
+			 	out float3 oPos			: TEXCOORD2,
+			 	out float3 oEyeDir		: TEXCOORD3,
+			 
+			 	uniform float4 lightPosition,
+			 	uniform float3 eyePosition,
+			 	uniform float4x4 worldViewProj)
+{
+	oPosition = mul(worldViewProj, position);
+	oUv = uv;
+	oPos = position;
+	
+	//切空间转换矩阵
+	float3 binormal = cross(tangent.xyz, normal);
+	float3x3 rotation = float3x3(tangent.xyz, binormal, normal);
+	
+	float3 lightDir = lightPosition.xyz -  (position * lightPosition.w);
+	oLightDir = mul(rotation, lightDir);
+	
+	float3 eyeDir = normalize(eyePosition - position.xyz);
+	oEyeDir = mul(rotation, eyeDir);
+}
+
+void main_fp(	float2 uv		: TEXCOORD0,
+				float3 lightDir : TEXCOORD1,
+				float3 pos		: TEXCOORD2,
+				float3 eyeDir	: TEXCOORD3,
+
+			 	out float4 colour	: COLOR,
+
+			  	uniform float4 lightDiffuse,
+			  	uniform float4 lightAtten,
+			  	uniform float4 lightPosition,
+			  	uniform float4 lightSpecular,
+			  	uniform float4 shininess,
+			  	uniform sampler2D   normalMap : register(s0))
+{
+	//计算衰减
+	float D = length( lightPosition - pos );
+	float A = D>lightAtten.x ? 0 : 1.0/dot(float3(lightAtten.yzw), float3(1,D,D*D));
+
+	//光入射方向
+	float3 L = normalize(lightDir).xyz;
+
+	//读取法线
+	float3 N = expand(tex2D(normalMap, uv).xyz);
+
+	//漫反射
+	float4 diffuse = lightDiffuse * dot(N, L) * A;
+	
+	//镜面反射
+	float4 specular = 0;
+	if( shininess != 0 )
+	{
+		float3 E = normalize(eyeDir);
+		float3 H = normalize(L + E);
+		specular = lightSpecular * pow(saturate(dot(N, H)), shininess) * A;
+	}
+	
+	colour = diffuse + specular;
+}
+

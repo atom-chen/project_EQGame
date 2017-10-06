@@ -1,0 +1,124 @@
+system P00000012
+{
+    technique Technique6
+    {
+        visual_particle_quota                   300
+        material                                yanwu1
+        default_particle_width                  60
+        default_particle_height                 60
+        default_particle_depth                  60
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box Emitter7
+        {
+            emission_rate                       18
+            angle                               30
+            time_to_live                        dyn_random
+            {
+                min                             2
+                max                             4
+            }
+            velocity                            dyn_random
+            {
+                min                             8
+                max                             18
+            }
+            box_em_width                        50
+            box_em_height                       20
+            box_em_depth                        50
+        }
+        emitter                                 Box Emitter60
+        {
+            emission_rate                       5
+            time_to_live                        dyn_random
+            {
+                min                             3
+                max                             5
+            }
+            velocity                            10
+            position                            0 20 0
+            box_em_height                       50
+        }
+        affector                                Scale Affector8
+        {
+            xyz_scale                           20
+        }
+        affector                                TextureRotator Affector9
+        {
+            tex_rot_rotation                    dyn_random
+            {
+                min                             -2
+                max                             2
+            }
+            tex_rot_speed                       dyn_random
+            {
+                min                             -0.2
+                max                             0.2
+            }
+        }
+        affector                                Colour Affector10
+        {
+            colour_aff_time_colour              0    1 1 1 0
+            colour_aff_time_colour              0.5  1 1 1 0.54902
+            colour_aff_time_colour              1    1 1 1 0
+        }
+        affector                                LinearForce Affector48
+        {
+            exclude_emitter                     "Emitter60" 
+            force_aff_vector                    0 -10 0
+        }
+    }
+    technique Technique4
+    {
+        material                                yanwu1
+        default_particle_width                  80
+        default_particle_height                 80
+        default_particle_depth                  80
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Circle Emitter6
+        {
+            emission_rate                       15
+            time_to_live                        dyn_random
+            {
+                min                             2
+                max                             4
+            }
+            velocity                            dyn_random
+            {
+                min                             8
+                max                             18
+            }
+            circle_em_radius                    60
+        }
+        affector                                Scale Affector11
+        {
+            xyz_scale                           20
+        }
+        affector                                TextureRotator Affector12
+        {
+            tex_rot_rotation                    dyn_random
+            {
+                min                             -2
+                max                             2
+            }
+            tex_rot_speed                       dyn_random
+            {
+                min                             -0.2
+                max                             0.2
+            }
+        }
+        affector                                Colour Affector13
+        {
+            colour_aff_time_colour              0    1 1 1 0
+            colour_aff_time_colour              0.5  1 1 1 0.254902
+            colour_aff_time_colour              1    1 1 1 0
+        }
+        affector                                LinearForce Affector49
+        {
+            force_aff_vector                    0 -10 0
+        }
+    }
+}

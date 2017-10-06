@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="BulletinBoard" >
+        <Property Name="Text" Value="确定" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,72},{0,74},{0,362},{0,278}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="BulletinBoard/Bg" >
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.013004,18},{0.182173,0},{0.936483,0},{0.917926,0}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="BulletinBoard/Bg/Sure" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="确 定" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,113},{0,146},{0,139}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="BulletinBoard/Bg/Text" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="TextColours" Value="tl:FF5C96FF tr:FF5C96FF bl:FF5C96FF br:FF5C96FF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.002362,1},{0.00557,0},{0.997246,1},{0.714456,-5}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

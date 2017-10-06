@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage" Name="popupWin" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.059375,0},{0.0229167,0},{0,147},{0,194}}" />
+        <Window Type="EQHomeLook/Button" Name="popupWin/btn1" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="删除好友" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0,5},{0,97},{0,33}}" />
+        </Window>
+        <Window Type="EQHomeLook/Button" Name="popupWin/btn2" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="悄悄话" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0.05,24},{0,97},{0.05,52}}" />
+        </Window>
+        <Window Type="EQHomeLook/Button" Name="popupWin/btn3" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="邀请好友进入房间" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0.15,35},{0,108},{0.15,63}}" />
+        </Window>
+        <Window Type="EQHomeLook/Button" Name="popupWin/btn4" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="访问好友房间" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0.2,54},{0,97},{0.2,82}}" />
+        </Window>
+        <Window Type="EQHomeLook/Button" Name="popupWin/btn5" >
+            <Property Name="Text" Value="查看好友资料" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0.25,73},{0,97},{0.25,101}}" />
+        </Window>
+        <Window Type="EQHomeLook/Button" Name="popupWin/btn6" >
+            <Property Name="Text" Value="发送邮件" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0.3,92},{0.05,95},{0.3,120}}" />
+        </Window>
+    </Window>
+</GUILayout>

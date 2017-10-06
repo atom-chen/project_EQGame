@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow1" Name="NewFrameWindow1" >
+        <Property Name="Text" Value="交往瓶" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-149},{0.5,-120},{0.5,151},{0.5,120}}" />
+        <Window Type="NewEQHomeLook/NewMultiLineEditbox1" Name="jiaowang" >
+            <Property Name="Text" >
+</Property>
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-129},{0.5,-65},{0.5,134},{0.5,84}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="touxiang/touxiang" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,17},{0,27},{0,57},{0,67}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="touxiang/nicheng" >
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,73},{0,26},{1,-17},{0,56}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="jiaowang/guanbi" >
+            <Property Name="Text" Value="关 闭" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage279" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage278" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage280" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,223},{0,208},{0.05,270},{0,228}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+    </Window>
+</GUILayout>

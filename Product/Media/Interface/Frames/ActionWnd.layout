@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage2" Name="ActionWnd" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{1,-175},{1,-200},{1,-65},{1,-35}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act1" >
+            <Property Name="Tooltip" Value="坐下" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage2" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage36" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage36" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,70},{0,39},{0,100},{0,68}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act2" >
+            <Property Name="Tooltip" Value="平躺" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage3" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage37" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage37" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,70},{0,10},{0,100},{0,39}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act3" >
+            <Property Name="Tooltip" Value="大笑" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage4" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage38" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage38" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,70},{0,68},{0,100},{0,97}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act4" >
+            <Property Name="Tooltip" Value="欢呼" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage5" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage39" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage39" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,70},{0,97},{0,100},{0,126}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act5" >
+            <Property Name="Tooltip" Value="哭泣" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage6" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage40" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage40" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,10},{0,39},{0,39}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act6" >
+            <Property Name="Tooltip" Value="鞠躬" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage7" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage41" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage41" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,39},{0,10},{0,69},{0,39}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act8" >
+            <Property Name="Tooltip" Value="鼓掌" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage9" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage43" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage43" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,39},{0,39},{0,69},{0,68}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act7" >
+            <Property Name="Tooltip" Value="打哈欠" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage8" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage42" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage42" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,39},{0,39},{0,68}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act10" >
+            <Property Name="Tooltip" Value="发怒" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage11" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage45" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage45" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,39},{0,68},{0,69},{0,97}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act9" >
+            <Property Name="Tooltip" Value="偷笑" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage10" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage44" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage44" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,68},{0,39},{0,97}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act11" >
+            <Property Name="Tooltip" Value="摇头" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage12" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage46" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage46" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,97},{0,39},{0,126}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act12" >
+            <Property Name="Tooltip" Value="无可奈何" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage13" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage47" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage47" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,39},{0,97},{0,69},{0,126}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act14" >
+            <Property Name="Tooltip" Value="挥挥手" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage15" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage49" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage49" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,39},{0,126},{0,69},{0,155}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act13" >
+            <Property Name="Tooltip" Value="蹦达蹦达" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage14" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage48" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage48" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,9},{0,126},{0,39},{0,155}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="ActionWnd/act15" >
+            <Property Name="Tooltip" Value="跳舞" />
+            <Property Name="HoverImage" Value="set:Button6 image:NewImage14" />
+            <Property Name="NormalImage" Value="set:Button6 image:NewImage48" />
+            <Property Name="PushedImage" Value="set:Button6 image:NewImage48" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,70},{0,126},{0,100},{0,155}}" />
+        </Window>
+    </Window>
+</GUILayout>

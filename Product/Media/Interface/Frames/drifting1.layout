@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage7" Name="Root/drifting" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-168},{0.5,-143},{0.5,167},{0.5,143}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="Root/drifting/pingzi" >
+            <Property Name="Tooltip" Value="扔瓶子" />
+            <Property Name="HoverImage" Value="set:drifting_face1 image:NewImage1" />
+            <Property Name="NormalImage" Value="set:drifting_face image:NewImage1" />
+            <Property Name="PushedImage" Value="set:drifting_face image:NewImage1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,19},{0,54},{0,107},{0,142}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/drifting/laoqu" >
+            <Property Name="Tooltip" Value="捞瓶子" />
+            <Property Name="HoverImage" Value="set:drifting_face1 image:NewImage3" />
+            <Property Name="NormalImage" Value="set:drifting_face image:NewImage2" />
+            <Property Name="PushedImage" Value="set:drifting_face image:NewImage2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,123},{0,54},{0,211},{0,143}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/drifting/wodepingzi" >
+            <Property Name="Tooltip" Value="我的瓶子" />
+            <Property Name="HoverImage" Value="set:drifting_face1 image:NewImage4" />
+            <Property Name="NormalImage" Value="set:drifting_face image:NewImage3" />
+            <Property Name="PushedImage" Value="set:drifting_face2 image:NewImage4" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,227},{0,54},{0,315},{0,143}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="Root/drifting/guanbi" >
+            <Property Name="Text" Value="离 开" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-23},{0,240},{0.5,24},{0,266}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/drifting/1" >
+            <Property Name="Font" Value="simsun-11" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,92},{0,56},{0,107},{0,71}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/drifting/2" >
+            <Property Name="Font" Value="simsun-11" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,196},{0,56},{0,211},{0,71}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/drifting/shuoming1" >
+            <Property Name="Text" Value="扔瓶子" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.4,-93},{0.4,35},{0.65,-135},{0.65,-18}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/drifting/shuoming11" >
+            <Property Name="Text" Value="捞瓶子" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.45,-4},{0.4,33},{0.7,-45},{0.65,-14}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/drifting/shuoming111" >
+            <Property Name="Text" Value="我的瓶子" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,76},{0.4,35},{0.75,46},{0.593503,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="Root/drifting/tishi" >
+            <Property Name="Text" Value="每天可以扔6个瓶，也可以捞6个瓶子。" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,53},{0,12},{0,285},{0,42}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

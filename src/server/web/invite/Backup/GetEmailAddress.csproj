@@ -1,0 +1,40 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="local" ProjectVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="2fb0165d-e678-4ee6-a426-159a8aeebbef">
+    <Build>
+      <Settings AssemblyName="GetEmailAddress" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library">
+        <Config Name="Debug" AllowUnsafeBlocks="true" DefineConstants="DEBUG;TRACE" DebugSymbols="true" IncrementalBuild="false" NoStdLib="false" Optimize="false" OutputPath="bin\Debug\" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="true" DefineConstants="TRACE" DebugSymbols="false" IncrementalBuild="false" NoStdLib="false" Optimize="true" OutputPath="bin\Release\" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="System" AssemblyName="System" />
+        <Reference Name="System.Web" AssemblyName="System.Web" />
+        <Reference Name="MSNPSharp" AssemblyName="MSNPSharp" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" />
+        <Reference Name="Google.GData.Client" AssemblyName="Google.GData.Client" />
+        <Reference Name="Google.GData.Contacts" AssemblyName="Google.GData.Contacts" />
+        <Reference Name="Google.GData.Extensions" AssemblyName="Google.GData.Extensions" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Global.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\Address163.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\AddressYeah.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\AddressBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\AddressTom.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\GetContactPerson.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\GetAddressByMsn.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\Person.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\AddressYahoo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\AddressHotMail.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\Address126.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\GetAddressStatus.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\AddressSina.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\AddressSohu.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\AddressGmail.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="GetEmailAddress\AddressQQ.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

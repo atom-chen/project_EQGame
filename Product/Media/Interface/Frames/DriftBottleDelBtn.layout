@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/ImageButton" Name="DriftBottleItemMoveInUI/deleteBtn" >
+        <Property Name="Text" Value="删 除" />
+        <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+        <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+        <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="HoverTextColour" Value="FFEBE5E5" />
+        <Property Name="UnifiedAreaRect" Value="{{1,-50},{0,24},{1,-2},{0,50}}" />
+        <Property Name="NormalTextColour" Value="FFFFFFFF" />
+        <Property Name="PushedTextColour" Value="FFD6C2C2" />
+    </Window>
+</GUILayout>

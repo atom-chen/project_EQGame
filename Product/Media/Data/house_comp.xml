@@ -1,0 +1,7287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<house_comp>
+		<id>13</id>
+		<name>主动光</name>
+		<prop_id>139</prop_id>
+		<dis_id>20000</dis_id>
+		<pos>0, 0, 0</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>(null)</loop_id>
+		<particle>(null)</particle>
+	</house_comp>
+	<house_comp>
+		<id>14</id>
+		<name>穿透光</name>
+		<prop_id>140</prop_id>
+		<dis_id>30003</dis_id>
+		<pos>-40.00, 0.00, 40</pos>
+		<rot>0.00, 1.00, 0.00, 0.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>14</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>21</id>
+		<name>###缩小男###</name>
+		<prop_id>201</prop_id>
+		<dis_id>50000</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>21</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>22</id>
+		<name>####女####</name>
+		<prop_id>201</prop_id>
+		<dis_id>50001</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>22</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>23</id>
+		<name>####男####</name>
+		<prop_id>201</prop_id>
+		<dis_id>50000</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>23</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>24</id>
+		<name>简易办公桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20000</dis_id>
+		<pos>-5.04, 0.00, 40.94</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>24</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>25</id>
+		<name>简易木椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21000</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>25</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>26</id>
+		<name>粗制单人床</name>
+		<prop_id>202</prop_id>
+		<dis_id>22000</dis_id>
+		<pos>73.80, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>26</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>27</id>
+		<name>测试浴室</name>
+		<prop_id>2501</prop_id>
+		<dis_id>23000</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>27</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>28</id>
+		<name>简易蹲式便池（白）</name>
+		<prop_id>2512</prop_id>
+		<dis_id>23001</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>28</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>29</id>
+		<name>粗制大衣柜</name>
+		<prop_id>518</prop_id>
+		<dis_id>24000</dis_id>
+		<pos>-11.61, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>29</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>31</id>
+		<name>简易单人床</name>
+		<prop_id>202</prop_id>
+		<dis_id>22001</dis_id>
+		<pos>63.29, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>31</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>32</id>
+		<name>简易双人床</name>
+		<prop_id>203</prop_id>
+		<dis_id>22002</dis_id>
+		<pos>75.14, 0.00, 36.62</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>32</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>33</id>
+		<name>关闭的红木大门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30000</dis_id>
+		<pos>-40.00, 0.00, 0.00</pos>
+		<rot>0.00, 1.00, 0.00, 0.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>34</id>
+		<name>“柏居”红木大门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30001</dis_id>
+		<pos>-73.44, -0.00, 2.08</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>35</id>
+		<name>“居客”单扇铝合金窗</name>
+		<prop_id>4501</prop_id>
+		<dis_id>30002</dis_id>
+		<pos>-40.00, 80.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>36</id>
+		<name>“居客”双扇铝合金窗</name>
+		<prop_id>4505</prop_id>
+		<dis_id>30003</dis_id>
+		<pos>-40.00, 80.00, 40</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>37</id>
+		<name>关闭的高级防盗门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30004</dis_id>
+		<pos>-40.00, 0.00, 0.02</pos>
+		<rot>0.00, 1.00, 0.00, 0.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>38</id>
+		<name>“宇华”高级防盗门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30005</dis_id>
+		<pos>-73.14, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>39</id>
+		<name>“落薇”双扇侧拉窗</name>
+		<prop_id>4505</prop_id>
+		<dis_id>30006</dis_id>
+		<pos>-40.00, 80.00, 40</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>40</id>
+		<name>“落薇”单扇侧拉窗</name>
+		<prop_id>4501</prop_id>
+		<dis_id>30007</dis_id>
+		<pos>-40.00, 80.00, 0.01</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>514</id>
+		<name>“千宏”高级木框单窗</name>
+		<prop_id>4501</prop_id>
+		<dis_id>30010</dis_id>
+		<pos>-40.00, 80.00, 0.0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>515</id>
+		<name>“千宏”高级木框双窗</name>
+		<prop_id>4505</prop_id>
+		<dis_id>30011</dis_id>
+		<pos>-40.00, 80.00, 40</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>41</id>
+		<name>金属台灯</name>
+		<prop_id>3020</prop_id>
+		<dis_id>31000</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>41</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>42</id>
+		<name>美女落地灯</name>
+		<prop_id>3026</prop_id>
+		<dis_id>31001</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>42</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>43</id>
+		<name>玻璃壁灯</name>
+		<prop_id>3024</prop_id>
+		<dis_id>31002</dis_id>
+		<pos>-29.07, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>43</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>44</id>
+		<name>粉色星星灯</name>
+		<prop_id>3013</prop_id>
+		<dis_id>31007</dis_id>
+		<pos>-33.62, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>44</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>45</id>
+		<name>气泡吊灯</name>
+		<prop_id>3025</prop_id>
+		<dis_id>31004</dis_id>
+		<pos>0 220 0</pos>
+		<rot>0.00, 1.00, 0.00, 0.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>45</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>46</id>
+		<name>豪华吊灯</name>
+		<prop_id>3002</prop_id>
+		<dis_id>31005</dis_id>
+		<pos>0 220 0</pos>
+		<rot>0.00, 1.00, 0.00, 0.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>46</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>47</id>
+		<name>蓝色星星灯</name>
+		<prop_id>3015</prop_id>
+		<dis_id>31006</dis_id>
+		<pos>-33.62, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>47</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>48</id>
+		<name>黄色星星灯</name>
+		<prop_id>3016</prop_id>
+		<dis_id>31003</dis_id>
+		<pos>-33.62, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>48</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>49</id>
+		<name>“超时空”电子座钟</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32000</dis_id>
+		<pos>0.97, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>49</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>50</id>
+		<name>“超能力”闪电球</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32001</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>50</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>51</id>
+		<name>HI Pob 游戏机</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32002</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>51</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>52</id>
+		<name>“宇宙动力”撞球机（红）</name>
+		<prop_id>1502</prop_id>
+		<dis_id>32003</dis_id>
+		<pos>20.07, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>52</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>53</id>
+		<name>“小太阳”球面彩电</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32004</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>53</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>54</id>
+		<name>“神咒”家用电脑</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32005</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>54</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>55</id>
+		<name>“昌泓”平板液晶彩电</name>
+		<prop_id>1509</prop_id>
+		<dis_id>32006</dis_id>
+		<pos>-15.27, 0.00, 80.39</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>55</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>56</id>
+		<name>“炎舞”家用组合音响</name>
+		<prop_id>1508</prop_id>
+		<dis_id>32007</dis_id>
+		<pos>10.43, 0.00, 41.37</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>56</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>57</id>
+		<name>“炎舞”手提MP3（红）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32008</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>57</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>58</id>
+		<name>“丽升”双声道音响</name>
+		<prop_id>3508</prop_id>
+		<dis_id>32009</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>58</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>59</id>
+		<name>“牵牛花”手摇留声机</name>
+		<prop_id>3508</prop_id>
+		<dis_id>32010</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>59</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>60</id>
+		<name>“炎舞”4.1组合音响</name>
+		<prop_id>1508</prop_id>
+		<dis_id>32011</dis_id>
+		<pos>0.00, 0.00, 41.37</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>60</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>61</id>
+		<name>“Cool”专业混音台</name>
+		<prop_id>3529</prop_id>
+		<dis_id>32012</dis_id>
+		<pos>2.29, 0.00, 39.54</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>61</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>62</id>
+		<name>“铁蒺藜”发条闹钟（红）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32013</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>62</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>63</id>
+		<name>“贵族”复古电话（红）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32014</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>63</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>64</id>
+		<name>“八八高”无绳电话（银灰）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32015</dis_id>
+		<pos>0 5.69 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>64</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>65</id>
+		<name>“宇宙动力”撞球机（蓝）</name>
+		<prop_id>1502</prop_id>
+		<dis_id>32016</dis_id>
+		<pos>20.07, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>65</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>66</id>
+		<name>“宇宙动力”撞球机（黑）</name>
+		<prop_id>1502</prop_id>
+		<dis_id>32017</dis_id>
+		<pos>20.07, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>66</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>67</id>
+		<name>“炎舞”手提MP3（灰）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32018</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>67</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>68</id>
+		<name>“炎舞”手提MP3（蓝）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32019</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>68</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>69</id>
+		<name>“铁蒺藜”发条闹钟（黑）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32020</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>69</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>70</id>
+		<name>“铁蒺藜”发条闹钟（蓝）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32021</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>70</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>71</id>
+		<name>“贵族”复古电话（黑）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32022</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>71</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>72</id>
+		<name>“贵族”复古电话（白）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32023</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>72</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>73</id>
+		<name>“八八高”无绳电话（灰）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32024</dis_id>
+		<pos>0 5.69 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>73</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>74</id>
+		<name>“八八高”无绳电话（白）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32025</dis_id>
+		<pos>0 5.69 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>74</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>75</id>
+		<name>“地狱骑士”洗衣机</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33000</dis_id>
+		<pos>-4.63, 0.00, 3.19</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>75</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>76</id>
+		<name>“主妇”家用烘焙箱（白）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33001</dis_id>
+		<pos>-3.99, 0.00, -0.04</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>76</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>77</id>
+		<name>“魅迪”金属烤炉（黑）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33002</dis_id>
+		<pos>-5.20, 0.00, 0.12</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>77</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>78</id>
+		<name>“魅迪”金属烤炉（灰）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33003</dis_id>
+		<pos>-5.20, 0.00, 0.13</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>78</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>79</id>
+		<name>“魅迪”主妇烤炉（粉）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33004</dis_id>
+		<pos>-5.20, 0.00, 0.14</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>79</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>80</id>
+		<name>“魅迪”家用小冰箱</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33005</dis_id>
+		<pos>-3.58, 0.00, 0.00</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>80</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>81</id>
+		<name>“魅迪”冷旋风冰柜（蓝）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33006</dis_id>
+		<pos>-6.07, 0.00, 0.00</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>81</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>82</id>
+		<name>“魅迪”冷旋风冰柜（白）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33007</dis_id>
+		<pos>-6.07, 0.00, 0.00</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>82</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>83</id>
+		<name>“魅迪”冷旋风冰柜（黄）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33008</dis_id>
+		<pos>-6.07, 0.00, 0.00</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>83</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>84</id>
+		<name>“德古拉”立式冰柜</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33009</dis_id>
+		<pos>-6.07, 0.00, 0.00</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>84</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>85</id>
+		<name>“掘井人”饮水机</name>
+		<prop_id>1504</prop_id>
+		<dis_id>33010</dis_id>
+		<pos>-19.90, 0.00, 0.00</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>85</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>86</id>
+		<name>“鹰巢”自动咖啡机</name>
+		<prop_id>1504</prop_id>
+		<dis_id>33011</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>86</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>87</id>
+		<name>“鹰巢”自动榨汁机</name>
+		<prop_id>1504</prop_id>
+		<dis_id>33012</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>87</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>88</id>
+		<name>“魅迪”双筒洗衣机</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33013</dis_id>
+		<pos>-10.51, 0.00, 0.00</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>88</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>89</id>
+		<name>简易蹲式便池（木纹）</name>
+		<prop_id>2512</prop_id>
+		<dis_id>23003</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>89</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>90</id>
+		<name>简易蹲式便池（蓝）</name>
+		<prop_id>2512</prop_id>
+		<dis_id>23004</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>90</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>91</id>
+		<name>“孵化室”热水浴缸</name>
+		<prop_id>2510</prop_id>
+		<dis_id>23005</dis_id>
+		<pos>31.67, 0.00, 44.95</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>91</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>92</id>
+		<name>“向前”斗式便池（白）</name>
+		<prop_id>2505</prop_id>
+		<dis_id>23006</dis_id>
+		<pos>-24.52, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>92</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>93</id>
+		<name>“向前”斗式便池（棕）</name>
+		<prop_id>2505</prop_id>
+		<dis_id>23007</dis_id>
+		<pos>-24.52, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>93</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>94</id>
+		<name>“向前”斗式便池（蓝）</name>
+		<prop_id>2505</prop_id>
+		<dis_id>23008</dis_id>
+		<pos>-24.52, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>94</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>95</id>
+		<name>“冲锋”大众坐式马桶</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23009</dis_id>
+		<pos>-3.74, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>95</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>96</id>
+		<name>“冲锋”豪华坐式马桶</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23010</dis_id>
+		<pos>1.52, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>96</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>97</id>
+		<name>“冲锋”自然坐式马桶</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23011</dis_id>
+		<pos>1.31, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>97</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>98</id>
+		<name>“冲锋”野性坐式马桶</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23012</dis_id>
+		<pos>1.31, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>98</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>99</id>
+		<name>“冲锋”悬空坐式马桶</name>
+		<prop_id>2511</prop_id>
+		<dis_id>23013</dis_id>
+		<pos>3.21, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>99</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>100</id>
+		<name>“冲锋”大理石坐式马桶</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23014</dis_id>
+		<pos>-4.95, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>100</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>101</id>
+		<name>“冲锋”皇家坐式马桶</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23015</dis_id>
+		<pos>-4.95, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>101</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>102</id>
+		<name>简易金属淋浴组件</name>
+		<prop_id>2507</prop_id>
+		<dis_id>23016</dis_id>
+		<pos>-13.08, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>102</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>103</id>
+		<name>玻璃单身淋浴房</name>
+		<prop_id>2501</prop_id>
+		<dis_id>23017</dis_id>
+		<pos>0.88, 0.75, 1.38</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>103</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>104</id>
+		<name>“总统”热水浴缸</name>
+		<prop_id>2513</prop_id>
+		<dis_id>23018</dis_id>
+		<pos>41.78, 0.00, 2.01</pos>
+		<rot>0.00, -1.00, 0.00, 0.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>104</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>105</id>
+		<name>“佳人”红粉豪华淋浴房</name>
+		<prop_id>2501</prop_id>
+		<dis_id>23019</dis_id>
+		<pos>2.62, 1.00, 1.07</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>105</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>106</id>
+		<name>“佳人”红粉玫瑰浴缸</name>
+		<prop_id>2513</prop_id>
+		<dis_id>23020</dis_id>
+		<pos>43.36, 0.00, -0.44</pos>
+		<rot>0.00, -1.00, 0.00, 0.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>106</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>107</id>
+		<name>“德古拉”金属浴缸</name>
+		<prop_id>2513</prop_id>
+		<dis_id>23021</dis_id>
+		<pos>37.97, 0.00, -0.10</pos>
+		<rot>0.00, -0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>107</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>108</id>
+		<name>蛋白石豪华水槽</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23022</dis_id>
+		<pos>-10.32, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>108</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>109</id>
+		<name>花瓷洗手池（黄）</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23023</dis_id>
+		<pos>-13.84, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>109</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>110</id>
+		<name>花瓷洗手池（蓝）</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23024</dis_id>
+		<pos>-13.84, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>110</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>111</id>
+		<name>花瓷洗手池（白）</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23025</dis_id>
+		<pos>-13.84, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>111</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>112</id>
+		<name>青花洗手池</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23026</dis_id>
+		<pos>-15.88, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>112</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>113</id>
+		<name>竹墨洗手池</name>
+		<prop_id>2509</prop_id>
+		<dis_id>23027</dis_id>
+		<pos>-7.11, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>113</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>114</id>
+		<name>“富贵”豪华洗手池</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23028</dis_id>
+		<pos>-11.82, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>114</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>115</id>
+		<name>“莲花”青瓷洗手池</name>
+		<prop_id>2509</prop_id>
+		<dis_id>23029</dis_id>
+		<pos>-8.95, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>115</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>116</id>
+		<name>“德古拉”金属洗手池</name>
+		<prop_id>2509</prop_id>
+		<dis_id>23030</dis_id>
+		<pos>-6.81, 0.00, 1.42</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>116</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>117</id>
+		<name>“木桶”圆形大浴池</name>
+		<prop_id>2510</prop_id>
+		<dis_id>23031</dis_id>
+		<pos>41.60, 0.00, 41.86</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>117</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>118</id>
+		<name>“木桶”方形大浴池</name>
+		<prop_id>2510</prop_id>
+		<dis_id>23032</dis_id>
+		<pos>41.67, 0.00, 40.57</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>118</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>119</id>
+		<name>“木桶”蛋白石浴池</name>
+		<prop_id>2510</prop_id>
+		<dis_id>23033</dis_id>
+		<pos>43.23, 0.00, 40.92</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>119</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>120</id>
+		<name>“海洋”方形大浴池</name>
+		<prop_id>2510</prop_id>
+		<dis_id>23034</dis_id>
+		<pos>41.67, 0.00, 40.57</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>120</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>121</id>
+		<name>“贵族”豪华大浴池</name>
+		<prop_id>2510</prop_id>
+		<dis_id>23035</dis_id>
+		<pos>41.67, 0.00, 40.57</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>121</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>122</id>
+		<name>“波浪”方形大浴池</name>
+		<prop_id>2510</prop_id>
+		<dis_id>23036</dis_id>
+		<pos>40.30, 0.00, 40.57</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>122</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>123</id>
+		<name>“哥特”金属墙柜</name>
+		<prop_id>515</prop_id>
+		<dis_id>20001</dis_id>
+		<pos>-3.73, 0.00, 40.84</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>123</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>124</id>
+		<name>木质床头矮柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20002</dis_id>
+		<pos>-1.48, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>124</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>125</id>
+		<name>大理石矮柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20003</dis_id>
+		<pos>0.40, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>125</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>126</id>
+		<name>“粉红豹”梳妆台</name>
+		<prop_id>505</prop_id>
+		<dis_id>20004</dis_id>
+		<pos>-4.54, 0.00, 41.96</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>126</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>127</id>
+		<name>“粉红豹”矮柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20005</dis_id>
+		<pos>-0.55, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>127</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>128</id>
+		<name>木质方桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20006</dis_id>
+		<pos>0.00, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>128</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>129</id>
+		<name>木质圆桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20007</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>129</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>130</id>
+		<name>木纹高脚桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20008</dis_id>
+		<pos>-0.14, -0.39, -0.01</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>130</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>131</id>
+		<name>“哥特”金属长桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20009</dis_id>
+		<pos>0.50, 0.00, 42.63</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>131</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>132</id>
+		<name>“哥特”金属方桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20010</dis_id>
+		<pos>0.00, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>132</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>133</id>
+		<name>木质方茶几</name>
+		<prop_id>507</prop_id>
+		<dis_id>20011</dis_id>
+		<pos>0.82, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1.06, 1.00, 1.06</scale>
+		<loop_id>133</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>134</id>
+		<name>时尚讲师长桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20012</dis_id>
+		<pos>-4.55, 0.00, 38.42</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>134</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>135</id>
+		<name>时尚办公桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20013</dis_id>
+		<pos>0.00, 0.00, 39.73</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>135</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>136</id>
+		<name>“哥特”金属三角桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20014</dis_id>
+		<pos>-0.59, 0.00, 38.54</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>136</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>137</id>
+		<name>木质豪华办公桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20015</dis_id>
+		<pos>-0.50, 0.00, 40.22</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>137</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>138</id>
+		<name>木质五斗橱</name>
+		<prop_id>511</prop_id>
+		<dis_id>20016</dis_id>
+		<pos>-16.15, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>138</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>139</id>
+		<name>“小恐龙”置物架</name>
+		<prop_id>502</prop_id>
+		<dis_id>20017</dis_id>
+		<pos>-16.41, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>0.90, 0.90, 0.90</scale>
+		<loop_id>139</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>140</id>
+		<name>木质靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21001</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>140</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>141</id>
+		<name>斜置木书架</name>
+		<prop_id>513</prop_id>
+		<dis_id>21002</dis_id>
+		<pos>-12.77, -0.00, 39.88</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>141</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>142</id>
+		<name>小折叠椅（粉）</name>
+		<prop_id>201</prop_id>
+		<dis_id>21003</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>142</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>143</id>
+		<name>小折叠椅（蓝）</name>
+		<prop_id>201</prop_id>
+		<dis_id>21004</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>143</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>144</id>
+		<name>软垫办公椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21005</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>144</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>145</id>
+		<name>彩纹折叠凳（蓝）</name>
+		<prop_id>201</prop_id>
+		<dis_id>21006</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>145</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>146</id>
+		<name>彩纹折叠凳（红）</name>
+		<prop_id>201</prop_id>
+		<dis_id>21007</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>146</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>147</id>
+		<name>海绵靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21008</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>147</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>148</id>
+		<name>“粉红豹”靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21009</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>148</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>149</id>
+		<name>“哥特”金属单人沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>21010</dis_id>
+		<pos>-4.00, 0.00, -4.09</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>149</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>150</id>
+		<name>“贵族”豪华靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21011</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>150</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>151</id>
+		<name>塑料靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21012</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>151</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>152</id>
+		<name>太极海绵坐垫</name>
+		<prop_id>201</prop_id>
+		<dis_id>21013</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>152</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>153</id>
+		<name>红棕海绵躺椅</name>
+		<prop_id>204</prop_id>
+		<dis_id>21014</dis_id>
+		<pos>31.55, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>153</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>154</id>
+		<name>动物海绵沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>21015</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>154</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>155</id>
+		<name>“粉红豹”海绵躺椅</name>
+		<prop_id>204</prop_id>
+		<dis_id>21016</dis_id>
+		<pos>34.81, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>155</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>156</id>
+		<name>“哥特”高背沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>21017</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>156</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>157</id>
+		<name>红漆长木椅</name>
+		<prop_id>205</prop_id>
+		<dis_id>21018</dis_id>
+		<pos>-1.90, 0.00, 43.66</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>157</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>158</id>
+		<name>“大自然”长椅</name>
+		<prop_id>205</prop_id>
+		<dis_id>21019</dis_id>
+		<pos>1.41, 0.00, 39.68</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>0.90, 0.90, 0.90</scale>
+		<loop_id>158</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>159</id>
+		<name>金属双人座椅</name>
+		<prop_id>205</prop_id>
+		<dis_id>21020</dis_id>
+		<pos>-1.90, 0.00, 39.83</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>159</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>160</id>
+		<name>绒布豪华靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21021</dis_id>
+		<pos>2.91, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>160</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>161</id>
+		<name>海绵单人座沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>21022</dis_id>
+		<pos>3.82, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>161</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>162</id>
+		<name>海绵双人座沙发</name>
+		<prop_id>205</prop_id>
+		<dis_id>21023</dis_id>
+		<pos>3.14, 0.00, 43.66</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>162</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>163</id>
+		<name>天鹅绒布质沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>21024</dis_id>
+		<pos>2.18, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>163</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>164</id>
+		<name>天鹅绒双人沙发</name>
+		<prop_id>205</prop_id>
+		<dis_id>21025</dis_id>
+		<pos>1.80, 0.00, 40.74</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>164</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>165</id>
+		<name>天鹅绒三人沙发</name>
+		<prop_id>206</prop_id>
+		<dis_id>21026</dis_id>
+		<pos>2.80, 0.00, 81.55</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>165</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>166</id>
+		<name>呢绒单人沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>21027</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>166</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>167</id>
+		<name>玫瑰双人花布沙发</name>
+		<prop_id>205</prop_id>
+		<dis_id>21028</dis_id>
+		<pos>1.36, 0.00, 39.74</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>167</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>168</id>
+		<name>哥特王座</name>
+		<prop_id>201</prop_id>
+		<dis_id>21029</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>168</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>169</id>
+		<name>艺术布质沙发（黑）</name>
+		<prop_id>201</prop_id>
+		<dis_id>21030</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>169</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>170</id>
+		<name>艺术布质沙发（黄）</name>
+		<prop_id>201</prop_id>
+		<dis_id>21031</dis_id>
+		<pos>2.91, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>170</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>171</id>
+		<name>“富贵”花布沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>21032</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>171</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>172</id>
+		<name>“富贵”花布双人沙发</name>
+		<prop_id>205</prop_id>
+		<dis_id>21033</dis_id>
+		<pos>-1.90, 0.00, 39.68</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>172</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>173</id>
+		<name>绒布行军床</name>
+		<prop_id>202</prop_id>
+		<dis_id>21034</dis_id>
+		<pos>67.20, 0.00, 1.16</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>173</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>174</id>
+		<name>绒布钢丝床</name>
+		<prop_id>202</prop_id>
+		<dis_id>21035</dis_id>
+		<pos>73.86, 0.00, 1.16</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>174</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>175</id>
+		<name>绒布双人床</name>
+		<prop_id>203</prop_id>
+		<dis_id>21036</dis_id>
+		<pos>73.99, 0.00, 39.86</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>175</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>176</id>
+		<name>“富贵”单人软床</name>
+		<prop_id>202</prop_id>
+		<dis_id>21037</dis_id>
+		<pos>74.16, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>176</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>177</id>
+		<name>“富贵”双人软床</name>
+		<prop_id>203</prop_id>
+		<dis_id>21038</dis_id>
+		<pos>73.33, 0.00, 41.44</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>177</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>178</id>
+		<name>“粉红豹”沙发床</name>
+		<prop_id>202</prop_id>
+		<dis_id>21039</dis_id>
+		<pos>74.46, 0.00, 3.84</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>178</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>179</id>
+		<name>“粉红豹”富贵床</name>
+		<prop_id>203</prop_id>
+		<dis_id>21040</dis_id>
+		<pos>74.65, 0.00, 40.64</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>179</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>180</id>
+		<name>食人花</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34000</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>180</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>181</id>
+		<name>挂画《少女与星星》</name>
+		<prop_id>5003</prop_id>
+		<dis_id>34001</dis_id>
+		<pos>-32.82, 160.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>181</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>182</id>
+		<name>挂画《家园》</name>
+		<prop_id>5004</prop_id>
+		<dis_id>34002</dis_id>
+		<pos>-35.88, 160.00, 36.77</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>182</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>183</id>
+		<name>脸谱</name>
+		<prop_id>5003</prop_id>
+		<dis_id>34003</dis_id>
+		<pos>-31.36, 160.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>183</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>184</id>
+		<name>小雪人</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34004</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>184</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>185</id>
+		<name>飞鹰奖杯</name>
+		<prop_id>5001</prop_id>
+		<dis_id>34005</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>185</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>186</id>
+		<name>海豚雕塑</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34006</dis_id>
+		<pos>3.74, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>186</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>187</id>
+		<name>斯巴达战盔</name>
+		<prop_id>5005</prop_id>
+		<dis_id>34007</dis_id>
+		<pos>0.00, 0.00, 5.51</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>0.90, 0.90, 0.90</scale>
+		<loop_id>187</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>188</id>
+		<name>断臂的维纳斯</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34008</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>188</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>189</id>
+		<name>牛人图腾</name>
+		<prop_id>5005</prop_id>
+		<dis_id>34009</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>189</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>190</id>
+		<name>百合花</name>
+		<prop_id>5001</prop_id>
+		<dis_id>34010</dis_id>
+		<pos>-5.78, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>190</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>191</id>
+		<name>圣诞树</name>
+		<prop_id>5005</prop_id>
+		<dis_id>34011</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>191</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>192</id>
+		<name>吊兰</name>
+		<prop_id>5009</prop_id>
+		<dis_id>34012</dis_id>
+		<pos>0 220 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>192</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>193</id>
+		<name>龟背藤</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34013</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>193</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>194</id>
+		<name>仙人掌</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34014</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>194</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>195</id>
+		<name>马拉巴栗</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34015</dis_id>
+		<pos>-8.84, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>195</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>196</id>
+		<name>小型棕榈盆栽</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34016</dis_id>
+		<pos>2.34, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>196</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>197</id>
+		<name>“超时代”宠物健身器</name>
+		<prop_id>3501</prop_id>
+		<dis_id>35000</dis_id>
+		<pos>4.59, -0.00, -0.20</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>197</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>198</id>
+		<name>“高进”棋牌桌</name>
+		<prop_id>3501</prop_id>
+		<dis_id>35001</dis_id>
+		<pos>0.0, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>198</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>199</id>
+		<name>“皇后”国际象棋桌</name>
+		<prop_id>3501</prop_id>
+		<dis_id>35002</dis_id>
+		<pos>-1.00, 0.00, 0.00</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>199</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>200</id>
+		<name>“三连星”高级桌球桌</name>
+		<prop_id>3506</prop_id>
+		<dis_id>35003</dis_id>
+		<pos>44.39, 0.00, 39.93</pos>
+		<rot>0.00, -0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>200</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>201</id>
+		<name>高级藏书架</name>
+		<prop_id>511</prop_id>
+		<dis_id>35004</dis_id>
+		<pos>-14.74, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>201</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>202</id>
+		<name>S型高级书架</name>
+		<prop_id>3501</prop_id>
+		<dis_id>35005</dis_id>
+		<pos>-12.93, 0.00, 0.00</pos>
+		<rot>0.00, -0.01, 0.00, -1.00</rot>
+		<scale>0.90, 0.90, 0.90</scale>
+		<loop_id>202</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>203</id>
+		<name>异性书架</name>
+		<prop_id>3501</prop_id>
+		<dis_id>35006</dis_id>
+		<pos>-12.69, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>0.90, 0.90, 0.90</scale>
+		<loop_id>203</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>204</id>
+		<name>“地狱咆哮”重金属爵士鼓</name>
+		<prop_id>3504</prop_id>
+		<dis_id>35007</dis_id>
+		<pos>3.48, 0.00, 41.22</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>204</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>205</id>
+		<name>“回声”高级钢琴</name>
+		<prop_id>3506</prop_id>
+		<dis_id>35008</dis_id>
+		<pos>40.78, 0.00, 39.75</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>205</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>206</id>
+		<name>“歌特”金属衣柜</name>
+		<prop_id>515</prop_id>
+		<dis_id>35010</dis_id>
+		<pos>-1.70, 0.00, 40.31</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>206</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>207</id>
+		<name>皇家豪华衣柜</name>
+		<prop_id>3504</prop_id>
+		<dis_id>35011</dis_id>
+		<pos>-11.87, 0.00, 38.47</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>207</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>208</id>
+		<name>“自然”金鱼缸</name>
+		<prop_id>3507</prop_id>
+		<dis_id>35012</dis_id>
+		<pos>-4.22, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>0.90, 0.90, 0.90</scale>
+		<loop_id>208</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>209</id>
+		<name>“自然”水族箱</name>
+		<prop_id>3507</prop_id>
+		<dis_id>35013</dis_id>
+		<pos>-12.61, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>0.90, 0.90, 0.90</scale>
+		<loop_id>209</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>210</id>
+		<name>宠物摇篮</name>
+		<prop_id>3501</prop_id>
+		<dis_id>35014</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>210</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>211</id>
+		<name>宠物城堡</name>
+		<prop_id>3501</prop_id>
+		<dis_id>35015</dis_id>
+		<pos>3.36, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>211</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>212</id>
+		<name>布质台灯（白）</name>
+		<prop_id>3006</prop_id>
+		<dis_id>31008</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>212</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>213</id>
+		<name>布质台灯（粉）</name>
+		<prop_id>3007</prop_id>
+		<dis_id>31009</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>213</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>214</id>
+		<name>布质台灯（青）</name>
+		<prop_id>3008</prop_id>
+		<dis_id>31010</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>214</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>215</id>
+		<name>“贵妇人”高级台灯</name>
+		<prop_id>3006</prop_id>
+		<dis_id>31011</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>215</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>216</id>
+		<name>“寰宇”三星灯</name>
+		<prop_id>3006</prop_id>
+		<dis_id>31012</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>216</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>217</id>
+		<name>布质落地台灯（黄）</name>
+		<prop_id>3017</prop_id>
+		<dis_id>31013</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>217</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>218</id>
+		<name>布质落地台灯（绿）</name>
+		<prop_id>3018</prop_id>
+		<dis_id>31014</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>218</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>219</id>
+		<name>布质落地台灯（紫）</name>
+		<prop_id>3019</prop_id>
+		<dis_id>31015</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>219</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>220</id>
+		<name>金属落地灯</name>
+		<prop_id>3027</prop_id>
+		<dis_id>31016</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>220</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>221</id>
+		<name>“歌特”灯柱</name>
+		<prop_id>3014</prop_id>
+		<dis_id>31017</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>221</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>222</id>
+		<name>彩条装饰灯</name>
+		<prop_id>3012</prop_id>
+		<dis_id>31018</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>222</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>223</id>
+		<name>金属枣形壁灯</name>
+		<prop_id>3023</prop_id>
+		<dis_id>31019</dis_id>
+		<pos>-25.10, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>223</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>224</id>
+		<name>豪华壁挂灯</name>
+		<prop_id>3022</prop_id>
+		<dis_id>31020</dis_id>
+		<pos>-25.36, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>224</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>225</id>
+		<name>草莓壁灯</name>
+		<prop_id>3021</prop_id>
+		<dis_id>31021</dis_id>
+		<pos>-18.32, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>225</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>226</id>
+		<name>金属白光灯</name>
+		<prop_id>3005</prop_id>
+		<dis_id>31022</dis_id>
+		<pos>-31.44, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>226</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>227</id>
+		<name>蜘蛛吊灯</name>
+		<prop_id>3028</prop_id>
+		<dis_id>31023</dis_id>
+		<pos>0 220 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>227</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>511</id>
+		<name>章鱼吊灯</name>
+		<prop_id>3002</prop_id>
+		<dis_id>31045</dis_id>
+		<pos>0 220 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>511</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>228</id>
+		<name>塑料折叠靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>20018</dis_id>
+		<pos>-10.98, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>228</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>229</id>
+		<name>木纹靠背沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>20019</dis_id>
+		<pos>-3.96, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>229</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>230</id>
+		<name>棕木靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>20020</dis_id>
+		<pos>-8.82, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>230</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>231</id>
+		<name>“兽血”石椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>20021</dis_id>
+		<pos>-4.06, -1.91, 0.53</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>231</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>232</id>
+		<name>后现代高背椅（黑）</name>
+		<prop_id>201</prop_id>
+		<dis_id>20022</dis_id>
+		<pos>-10.91, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>232</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>233</id>
+		<name>后现代高背椅（红）</name>
+		<prop_id>201</prop_id>
+		<dis_id>20023</dis_id>
+		<pos>-10.91, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>233</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>234</id>
+		<name>“富贵”靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>20024</dis_id>
+		<pos>2.55, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>234</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>235</id>
+		<name>“简约”塑料椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>20025</dis_id>
+		<pos>-10.90, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>235</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>236</id>
+		<name>皮革办公椅（绿）</name>
+		<prop_id>201</prop_id>
+		<dis_id>20026</dis_id>
+		<pos>-5.83, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>236</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>237</id>
+		<name>“休憩”长沙滩椅</name>
+		<prop_id>204</prop_id>
+		<dis_id>20027</dis_id>
+		<pos>35.91, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>237</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>238</id>
+		<name>布质矮背椅（绿）</name>
+		<prop_id>201</prop_id>
+		<dis_id>20028</dis_id>
+		<pos>-3.28, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>238</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>239</id>
+		<name>塑料折叠椅（蓝）</name>
+		<prop_id>201</prop_id>
+		<dis_id>20029</dis_id>
+		<pos>3.39, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>239</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>240</id>
+		<name>“未来”网格靠背椅</name>
+		<prop_id>204</prop_id>
+		<dis_id>20030</dis_id>
+		<pos>27.89, 0.00, 0.97</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>240</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>241</id>
+		<name>后现代金属高背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>20031</dis_id>
+		<pos>-7.89, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>241</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>242</id>
+		<name>红木雕花椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>20032</dis_id>
+		<pos>2.78, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>242</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>243</id>
+		<name>“简约”家居单人沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>20033</dis_id>
+		<pos>3.39, 0.00, 0.26</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>243</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>244</id>
+		<name>“简约”家居双人沙发</name>
+		<prop_id>205</prop_id>
+		<dis_id>20034</dis_id>
+		<pos>0.13, -0.80, 41.22</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>244</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>245</id>
+		<name>“粉红豹”软座单人沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>20035</dis_id>
+		<pos>2.13, 0.00, 0.92</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>245</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>246</id>
+		<name>“粉红豹”软座双人沙发</name>
+		<prop_id>205</prop_id>
+		<dis_id>20036</dis_id>
+		<pos>4.00, 0.00, 41.70</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>246</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>247</id>
+		<name>“粉红豹”软座三人沙发</name>
+		<prop_id>206</prop_id>
+		<dis_id>20037</dis_id>
+		<pos>3.71, 0.00, 80.11</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>247</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>248</id>
+		<name>“时尚”斑马纹躺椅</name>
+		<prop_id>204</prop_id>
+		<dis_id>20038</dis_id>
+		<pos>29.28, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>248</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>249</id>
+		<name>梨花木椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>20039</dis_id>
+		<pos>-0.61, 0.00, 0.56</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>249</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>250</id>
+		<name>“宜居”单人木床</name>
+		<prop_id>202</prop_id>
+		<dis_id>20040</dis_id>
+		<pos>65.14, 0.67, 0.28</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>250</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>251</id>
+		<name>“宜居”双人木床</name>
+		<prop_id>203</prop_id>
+		<dis_id>20041</dis_id>
+		<pos>72.90, 0.00, 38.40</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>251</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>252</id>
+		<name>“宜居”双层木床</name>
+		<prop_id>202</prop_id>
+		<dis_id>20042</dis_id>
+		<pos>77.48, 0.00, 0.24</pos>
+		<rot>0.00, 0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>252</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>253</id>
+		<name>“时代”单人软床</name>
+		<prop_id>202</prop_id>
+		<dis_id>20043</dis_id>
+		<pos>73.35, 1.31, 0.46</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>253</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>254</id>
+		<name>“未来”单人软床</name>
+		<prop_id>202</prop_id>
+		<dis_id>20044</dis_id>
+		<pos>76.92, 0.67, -0.63</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>254</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>255</id>
+		<name>“未来”双人软床</name>
+		<prop_id>203</prop_id>
+		<dis_id>20045</dis_id>
+		<pos>75.99, 0.67, 40.04</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>255</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>256</id>
+		<name>红木仿古单人床</name>
+		<prop_id>202</prop_id>
+		<dis_id>20046</dis_id>
+		<pos>78.17, -2.19, 1.23</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>256</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>257</id>
+		<name>仿古镂空雕花双人床</name>
+		<prop_id>203</prop_id>
+		<dis_id>20047</dis_id>
+		<pos>74.15, 0.00, 37</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>257</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>258</id>
+		<name>圆角木纹矮柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20048</dis_id>
+		<pos>-2.73, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>258</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>259</id>
+		<name>木纹双开门矮柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20049</dis_id>
+		<pos>0.20, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>259</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>260</id>
+		<name>木纹梳妆台</name>
+		<prop_id>505</prop_id>
+		<dis_id>20050</dis_id>
+		<pos>-3.17, -1.32, 39.44</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>260</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>261</id>
+		<name>木纹床头矮柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20051</dis_id>
+		<pos>-4.24, 0.61, -1.20</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>261</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>262</id>
+		<name>大理石木纹矮柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20052</dis_id>
+		<pos>0.40, 0.00, -0.12</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>262</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>263</id>
+		<name>木制简易工作台</name>
+		<prop_id>501</prop_id>
+		<dis_id>20053</dis_id>
+		<pos>41.67, -1.12, -0.23</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>263</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>264</id>
+		<name>木制单人工作台</name>
+		<prop_id>504</prop_id>
+		<dis_id>20054</dis_id>
+		<pos>-0.17, 0.00, 0.23</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>264</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>265</id>
+		<name>“富贵”单人桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20055</dis_id>
+		<pos>0.49, 0.00, 1.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>265</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>266</id>
+		<name>独脚圆桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20056</dis_id>
+		<pos>3.24, 0.00, 0.67</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>266</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>267</id>
+		<name>“典雅”木制办公桌</name>
+		<prop_id>501</prop_id>
+		<dis_id>20057</dis_id>
+		<pos>40.54, 0.00, -3.63</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>267</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>268</id>
+		<name>“典雅”木制工作台</name>
+		<prop_id>504</prop_id>
+		<dis_id>20058</dis_id>
+		<pos>-0.63, -0.27, -0.40</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>268</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>269</id>
+		<name>“典雅”木制圆桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20059</dis_id>
+		<pos>0.05, 0.00, 1.55</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>269</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>270</id>
+		<name>上古石桌</name>
+		<prop_id>501</prop_id>
+		<dis_id>20060</dis_id>
+		<pos>41.41, 0.00, 0.90</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>270</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>271</id>
+		<name>“兽血”单人桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20061</dis_id>
+		<pos>1.11, 0.00, -4.58</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>271</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>272</id>
+		<name>“时尚”吧台</name>
+		<prop_id>503</prop_id>
+		<dis_id>20062</dis_id>
+		<pos>-3.80, 0.00, 42.24</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>272</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>273</id>
+		<name>“魔方”办公桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20063</dis_id>
+		<pos>-0.00, 0.00, 37.58</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>273</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>274</id>
+		<name>“魔方”三角桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20064</dis_id>
+		<pos>4.84, 0.00, 0.32</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>274</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>275</id>
+		<name>“天元”玻璃茶几</name>
+		<prop_id>508</prop_id>
+		<dis_id>20065</dis_id>
+		<pos>40.39, 0.00, -4.62</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>275</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>276</id>
+		<name>白玉玻璃茶几</name>
+		<prop_id>508</prop_id>
+		<dis_id>20066</dis_id>
+		<pos>40.50, -3.22, -5.79</pos>
+		<rot>0.00, 0.71, 0.00, 0.70</rot>
+		<scale>1 1 1</scale>
+		<loop_id>276</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>277</id>
+		<name>“时尚”玻璃茶几</name>
+		<prop_id>508</prop_id>
+		<dis_id>20067</dis_id>
+		<pos>39.06, 0.00, -5.44</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>277</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>278</id>
+		<name>桦木仿古茶几</name>
+		<prop_id>508</prop_id>
+		<dis_id>20068</dis_id>
+		<pos>39.81, 0.00, -4.88</pos>
+		<rot>0.00, 0.71, 0.00, 0.70</rot>
+		<scale>1 1 1</scale>
+		<loop_id>278</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>279</id>
+		<name>木制矮茶几</name>
+		<prop_id>508</prop_id>
+		<dis_id>20069</dis_id>
+		<pos>40.66, 0.00, -4.79</pos>
+		<rot>0.00, 0.71, 0.00, 0.70</rot>
+		<scale>1 1 1</scale>
+		<loop_id>279</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>280</id>
+		<name>“现代”金属茶几</name>
+		<prop_id>508</prop_id>
+		<dis_id>20070</dis_id>
+		<pos>39.38, 0.00, -4.79</pos>
+		<rot>0.00, 0.71, 0.00, 0.70</rot>
+		<scale>1 1 1</scale>
+		<loop_id>280</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>281</id>
+		<name>“现代”玻璃茶几</name>
+		<prop_id>508</prop_id>
+		<dis_id>20071</dis_id>
+		<pos>41.88, 0.00, -3.98</pos>
+		<rot>0.00, 0.71, 0.00, 0.70</rot>
+		<scale>1 1 1</scale>
+		<loop_id>281</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>282</id>
+		<name>木纹现代办公桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20072</dis_id>
+		<pos>0.15, 0.00, 39.75</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>282</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>283</id>
+		<name>木纹教学讲台</name>
+		<prop_id>503</prop_id>
+		<dis_id>20073</dis_id>
+		<pos>-4.09, 0.00, 40.36</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>283</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>284</id>
+		<name>木纹多功能办公桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20074</dis_id>
+		<pos>-4.05, -0.00, 41.19</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>284</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>285</id>
+		<name>“时尚”金属网格讲台</name>
+		<prop_id>503</prop_id>
+		<dis_id>20075</dis_id>
+		<pos>-4.03, 0.00, 40.66</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>285</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>286</id>
+		<name>“斑点狗”时尚办公桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20076</dis_id>
+		<pos>1.93, 0.00, 40.12</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>286</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>287</id>
+		<name>木纹五斗橱</name>
+		<prop_id>511</prop_id>
+		<dis_id>20077</dis_id>
+		<pos>-11.51, 0.54, 0.47</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>287</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>288</id>
+		<name>“富贵”咖啡茶柜</name>
+		<prop_id>502</prop_id>
+		<dis_id>20078</dis_id>
+		<pos>-11.76, 0.54, 0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>288</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>289</id>
+		<name>“多彩”三层置物架</name>
+		<prop_id>502</prop_id>
+		<dis_id>20079</dis_id>
+		<pos>-13.40, 0.54, -0.03</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>0.90, 0.90, 0.90</scale>
+		<loop_id>289</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>290</id>
+		<name>木纹开门大衣柜</name>
+		<prop_id>518</prop_id>
+		<dis_id>20080</dis_id>
+		<pos>-14.48, 0.54, -0.79</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>290</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>291</id>
+		<name>“兽血”开门衣柜</name>
+		<prop_id>505</prop_id>
+		<dis_id>20081</dis_id>
+		<pos>-2.82, 0.54, 42.48</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>291</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>292</id>
+		<name>“后现代”时尚衣柜</name>
+		<prop_id>505</prop_id>
+		<dis_id>20082</dis_id>
+		<pos>-5.38, 0.54, 41.74</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>292</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>293</id>
+		<name>《城堡》挂画</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20083</dis_id>
+		<pos>-36.56, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>293</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>294</id>
+		<name>《飞翔的荷兰人》挂画</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20084</dis_id>
+		<pos>-36.53, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>294</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>295</id>
+		<name>《露营》挂画</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20085</dis_id>
+		<pos>-36.12, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>295</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>296</id>
+		<name>黑胡子海盗藏宝图</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20086</dis_id>
+		<pos>-32.06, 160.00, 0.61</pos>
+		<rot>0.00, 0.71, 0.00, 0.70</rot>
+		<scale>1 1 1</scale>
+		<loop_id>296</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>297</id>
+		<name>《游击队长》挂画</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20087</dis_id>
+		<pos>-34.53, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>297</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>298</id>
+		<name>“兵人”人偶玩具</name>
+		<prop_id>5001</prop_id>
+		<dis_id>20088</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>298</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>299</id>
+		<name>恐龙蛋展示柜</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20089</dis_id>
+		<pos>-14.26, 0.00, -0.96</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>299</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>300</id>
+		<name>马其顿武士护甲</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20090</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>300</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>301</id>
+		<name>百合花</name>
+		<prop_id>5001</prop_id>
+		<dis_id>20091</dis_id>
+		<pos>-8.95, 0.00, -2.51</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>301</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>302</id>
+		<name>盆栽花卉（红）</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20092</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>302</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>303</id>
+		<name>盆栽花卉（蓝）</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20093</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>303</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>304</id>
+		<name>盆栽花卉（粉）</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20094</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>304</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>305</id>
+		<name>FX-56赛车模型（红）</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20095</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>305</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>306</id>
+		<name>FX-56赛车模型（蓝）</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20096</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>306</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>307</id>
+		<name>FX-56赛车模型（黄）</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20097</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>307</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>308</id>
+		<name>“霸王”拳速测试机</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20098</dis_id>
+		<pos>0.91, 0.32, 1.55</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>308</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>309</id>
+		<name>“霸王”拳力测试机</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20099</dis_id>
+		<pos>0.81, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>309</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>310</id>
+		<name>“少林足球”足球桌</name>
+		<prop_id>3502</prop_id>
+		<dis_id>20100</dis_id>
+		<pos>43.17, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>310</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>311</id>
+		<name>“海潮”显示器</name>
+		<prop_id>1504</prop_id>
+		<dis_id>20101</dis_id>
+		<pos>-7.42, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>311</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>312</id>
+		<name>“海潮”家用电脑</name>
+		<prop_id>1504</prop_id>
+		<dis_id>20102</dis_id>
+		<pos>-3.91, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>312</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>313</id>
+		<name>“闪电”监听仪</name>
+		<prop_id>1501</prop_id>
+		<dis_id>20103</dis_id>
+		<pos>-14.95, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>313</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>314</id>
+		<name>“神咒”桌上电脑</name>
+		<prop_id>1504</prop_id>
+		<dis_id>20104</dis_id>
+		<pos>-5.17, 0.77, 2.02</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>314</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>315</id>
+		<name>“珊瑚”黑白电视机</name>
+		<prop_id>1501</prop_id>
+		<dis_id>20105</dis_id>
+		<pos>-5.15, 0.00, -0.32</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>315</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>316</id>
+		<name>“异想”笔记本电脑（银）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>20106</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>316</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>317</id>
+		<name>“异想”笔记本电脑（黑）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>20107</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>317</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>318</id>
+		<name>“异想”笔记本电脑（红）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>20108</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>318</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>319</id>
+		<name>“异想”家用组合音响（黄）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>20109</dis_id>
+		<pos>1.82, 0.00, 0.32</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>319</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>320</id>
+		<name>“异想”家用组合音响（黑）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>20110</dis_id>
+		<pos>1.82, 0.00, 0.32</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>320</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>321</id>
+		<name>“异想”家用组合音响（红）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>20111</dis_id>
+		<pos>1.82, 0.00, 0.32</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>321</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>322</id>
+		<name>“梦想”家用组合音响（棕）</name>
+		<prop_id>1508</prop_id>
+		<dis_id>20112</dis_id>
+		<pos>-11.05, 0.00, 39.96</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>322</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>323</id>
+		<name>“梦想”家用组合音响（白）</name>
+		<prop_id>1508</prop_id>
+		<dis_id>20113</dis_id>
+		<pos>-11.05, 0.00, 39.96</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>323</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>324</id>
+		<name>“梦想”家用组合音响（蓝）</name>
+		<prop_id>1508</prop_id>
+		<dis_id>20114</dis_id>
+		<pos>-11.05, 0.00, 39.96</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>324</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>325</id>
+		<name>“梦想”家用组合音响（绿）</name>
+		<prop_id>1508</prop_id>
+		<dis_id>20115</dis_id>
+		<pos>-11.05, 0.00, 39.96</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>325</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>326</id>
+		<name>“神咒”个人终端</name>
+		<prop_id>1504</prop_id>
+		<dis_id>20116</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>326</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>327</id>
+		<name>“未来”人体工学一体机</name>
+		<prop_id>3502</prop_id>
+		<dis_id>20117</dis_id>
+		<pos>23.02, 0.00, -0.18</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>327</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>328</id>
+		<name>“梦想”背投彩电</name>
+		<prop_id>1508</prop_id>
+		<dis_id>20118</dis_id>
+		<pos>-9.22, 0.00, 40.93</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>328</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>329</id>
+		<name>“熊猫”收音机</name>
+		<prop_id>1504</prop_id>
+		<dis_id>20119</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>329</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>330</id>
+		<name>“熊猫”点唱机</name>
+		<prop_id>1501</prop_id>
+		<dis_id>20120</dis_id>
+		<pos>-17.99, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>330</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>331</id>
+		<name>“梦想”专业级音响组合</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20121</dis_id>
+		<pos>-8.41, 0.00, -0.56</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>331</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>332</id>
+		<name>“梦想”专业级低音音响</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20122</dis_id>
+		<pos>-7.82, 0.00, -0.68</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>332</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>333</id>
+		<name>“梦想”专业级调音台</name>
+		<prop_id>1508</prop_id>
+		<dis_id>20123</dis_id>
+		<pos>25.77, 0.34, 40.76</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>333</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>334</id>
+		<name>吓人箱</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20124</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>334</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>335</id>
+		<name>超异型时钟（灰）</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20125</dis_id>
+		<pos>-36.30, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>335</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>336</id>
+		<name>太极八卦钟</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20126</dis_id>
+		<pos>-36.47, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>336</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>337</id>
+		<name>大海舵手时钟</name>
+		<prop_id>5004</prop_id>
+		<dis_id>20127</dis_id>
+		<pos>-25.15, 160.00, 41.13</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>0.59, 0.59, 0.59</scale>
+		<loop_id>337</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>338</id>
+		<name>壁挂电话（白）</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20128</dis_id>
+		<pos>-32.07, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>338</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>339</id>
+		<name>壁挂电话（红）</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20129</dis_id>
+		<pos>-32.07, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>339</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>340</id>
+		<name>壁挂电话（蓝）</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20130</dis_id>
+		<pos>-32.07, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>340</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>341</id>
+		<name>超异型时钟（银）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20131</dis_id>
+		<pos>0.06, 0.00, -1.39</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>341</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>342</id>
+		<name>超异型时钟（白）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20132</dis_id>
+		<pos>0.06, 0.00, -1.39</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>342</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>343</id>
+		<name>“夏日”炭火烤架</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20133</dis_id>
+		<pos>-20.55, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>343</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>344</id>
+		<name>“主妇”家用烘焙箱（银）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20134</dis_id>
+		<pos>-0.74, 0.00, -0.13</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>344</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>345</id>
+		<name>“主妇”家用烘焙箱（黑）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20135</dis_id>
+		<pos>-0.74, 0.00, -0.13</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>345</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>346</id>
+		<name>“夏日”无烟烧烤架</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20136</dis_id>
+		<pos>-2.40, 0.00, -0.30</pos>
+		<rot>0.00, 1.00, 0.00, -0.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>346</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>347</id>
+		<name>“蓝焰”6芯炉灶（红）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20137</dis_id>
+		<pos>-2.78, 0.00, -0.09</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>347</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>348</id>
+		<name>“蓝焰”6芯炉灶（蓝）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20138</dis_id>
+		<pos>-2.78, 0.00, -0.09</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>348</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>349</id>
+		<name>“蓝焰”6芯炉灶（绿）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20139</dis_id>
+		<pos>-2.78, 0.00, -0.09</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>349</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>350</id>
+		<name>“蓝焰”5芯炉灶（银）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20140</dis_id>
+		<pos>-2.55, 0.00, 0.01</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>350</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>351</id>
+		<name>“蓝焰”10芯炉灶</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20141</dis_id>
+		<pos>-2.07, 0.60, 39.79</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>351</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>352</id>
+		<name>“北极熊”冷藏展示柜</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20142</dis_id>
+		<pos>-5.30, 0.00, 35.71</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>352</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>353</id>
+		<name>“北极熊”冰柜</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20143</dis_id>
+		<pos>-5.16, -0.55, 41.59</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>353</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>354</id>
+		<name>“北极熊”三门冰箱</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20144</dis_id>
+		<pos>-3.35, 0.00, 36.29</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>354</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>355</id>
+		<name>“北极熊”专业冷冻箱</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20145</dis_id>
+		<pos>-3.67, 0.00, 41.40</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>355</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>356</id>
+		<name>“北极熊”三门饮料柜</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20146</dis_id>
+		<pos>-2.59, 0.00, 40.81</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>356</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>357</id>
+		<name>“北极熊”单门饮料柜</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20147</dis_id>
+		<pos>-5.48, 0.00, -4.28</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>357</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>358</id>
+		<name>“北极熊”家用冰箱</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20148</dis_id>
+		<pos>-2.14, 0.00, -3.12</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>358</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>359</id>
+		<name>“极速”咖啡机（黄）</name>
+		<prop_id>5001</prop_id>
+		<dis_id>20149</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>359</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>360</id>
+		<name>“极速”咖啡机（灰）</name>
+		<prop_id>5001</prop_id>
+		<dis_id>20150</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>360</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>361</id>
+		<name>“极速”咖啡机（绿）</name>
+		<prop_id>5001</prop_id>
+		<dis_id>20151</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>361</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>362</id>
+		<name>“美空”家用微波炉</name>
+		<prop_id>5001</prop_id>
+		<dis_id>20152</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>362</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>363</id>
+		<name>“桔力”饮料榨汁机</name>
+		<prop_id>5001</prop_id>
+		<dis_id>20153</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>363</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>364</id>
+		<name>“黑公爵”饮水机</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20154</dis_id>
+		<pos>-14.22, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>364</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>365</id>
+		<name>“铁将军”保险箱</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20155</dis_id>
+		<pos>-0.72, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>365</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>366</id>
+		<name>“好主妇”组合厨房用具</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20156</dis_id>
+		<pos>-3.25, -0.87, 36.55</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>366</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>367</id>
+		<name>“爱情号”双缸洗衣机</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20157</dis_id>
+		<pos>-11.43, 0.00, 2.04</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>367</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>368</id>
+		<name>“坚钢”大理石橱柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20158</dis_id>
+		<pos>0.06, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>368</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>369</id>
+		<name>“磐石”大理石橱柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20159</dis_id>
+		<pos>-0.10, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>369</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>370</id>
+		<name>“美空”家用滚筒洗衣机</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20160</dis_id>
+		<pos>-2.20, 0.00, -0.34</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>370</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>371</id>
+		<name>“丑小鸭”滚筒洗衣机</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20161</dis_id>
+		<pos>-1.80, 0.00, 0.22</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>371</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>372</id>
+		<name>“格力极”家用烤箱</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20162</dis_id>
+		<pos>0.48, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>372</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>373</id>
+		<name>“艺术家”豪华座便器</name>
+		<prop_id>2503</prop_id>
+		<dis_id>20163</dis_id>
+		<pos>1.71, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>373</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>374</id>
+		<name>“未来”卵形淋浴房</name>
+		<prop_id>2515</prop_id>
+		<dis_id>20164</dis_id>
+		<pos>19.36, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>374</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>375</id>
+		<name>“主妇”鞋型浴缸</name>
+		<prop_id>2513</prop_id>
+		<dis_id>20165</dis_id>
+		<pos>40.70, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>375</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>376</id>
+		<name>“现代”讲台型洗手池</name>
+		<prop_id>2501</prop_id>
+		<dis_id>20166</dis_id>
+		<pos>-13.98, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>376</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>377</id>
+		<name>“未来”圆形淋浴房</name>
+		<prop_id>2514</prop_id>
+		<dis_id>20167</dis_id>
+		<pos>74.91, 0.56, 81.41</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>377</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>378</id>
+		<name>“神射手”飞镖靶台</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20168</dis_id>
+		<pos>-30.81, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>378</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>379</id>
+		<name>“知识”飞行棋桌</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20169</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>379</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>380</id>
+		<name>“孩之宝”室内滑梯</name>
+		<prop_id>3502</prop_id>
+		<dis_id>20170</dis_id>
+		<pos>46.72, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>380</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>381</id>
+		<name>“胜利11人”足球游戏机</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20171</dis_id>
+		<pos>2.58, -0.45, 39.03</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>381</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>382</id>
+		<name>“健将”练功沙袋</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20172</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>382</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>383</id>
+		<name>“匹诺曹”木边台球桌</name>
+		<prop_id>3506</prop_id>
+		<dis_id>20173</dis_id>
+		<pos>42.13, 4.97, 42.38</pos>
+		<rot>0.00, -0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>383</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>384</id>
+		<name>“健将”小型蹦床</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20174</dis_id>
+		<pos>1, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>384</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>385</id>
+		<name>木制书柜</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20175</dis_id>
+		<pos>-16.57, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>385</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>386</id>
+		<name>“小狼号”天文望远镜</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20176</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>386</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>387</id>
+		<name>“小狼号”专业天文望远镜</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20177</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>387</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>388</id>
+		<name>木制画板</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20178</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>388</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>389</id>
+		<name>“蜂鸟”木制钢琴</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20179</dis_id>
+		<pos>-3.57, 0.00, 39.63</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>389</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>390</id>
+		<name>“蜂鸟”木制古筝</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20180</dis_id>
+		<pos>-13.09, 0.00, 39.06</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>390</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>391</id>
+		<name>“蜂鸟”豪华钢琴</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20181</dis_id>
+		<pos>-2.22, 0.00, 39.08</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>391</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>392</id>
+		<name>简易木制画架</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20182</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>392</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>393</id>
+		<name>“爱芬斯”民谣吉他</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20183</dis_id>
+		<pos>-26.46, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>393</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>394</id>
+		<name>“爱芬斯”摇滚电吉他</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20184</dis_id>
+		<pos>-28.82, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>394</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>395</id>
+		<name>“蜂鸟”羊皮大鼓</name>
+		<prop_id>3506</prop_id>
+		<dis_id>20185</dis_id>
+		<pos>39.69, 0.00, 39.86</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>395</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>396</id>
+		<name>桦木朴素衣柜</name>
+		<prop_id>511</prop_id>
+		<dis_id>20186</dis_id>
+		<pos>-11.93, 0.00, 1.64</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>396</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>397</id>
+		<name>“白领”木制衣柜</name>
+		<prop_id>511</prop_id>
+		<dis_id>20187</dis_id>
+		<pos>-12.12, 0.00, -0.09</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>397</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>398</id>
+		<name>“豪华”仿古木制衣柜</name>
+		<prop_id>518</prop_id>
+		<dis_id>20188</dis_id>
+		<pos>-13.79, 0.00, 0.71</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>398</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>399</id>
+		<name>“兽血”原始衣柜</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20189</dis_id>
+		<pos>2.85, 0.00, 40.25</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>399</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>400</id>
+		<name>“SB”异型衣柜</name>
+		<prop_id>512</prop_id>
+		<dis_id>20190</dis_id>
+		<pos>-12.19, 0.00, 35.23</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>400</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>401</id>
+		<name>塑料狗食盆（红）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20191</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>401</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>402</id>
+		<name>塑料狗食盆（蓝）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20192</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>402</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>403</id>
+		<name>塑料狗食盆（黄）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20193</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>403</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>404</id>
+		<name>塑料骨头狗玩具</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20194</dis_id>
+		<pos>1.11, 0.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>404</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>405</id>
+		<name>塑料宠物笼</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20195</dis_id>
+		<pos>1.11, 0.00, -0.61</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>405</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>406</id>
+		<name>塑料砂盆</name>
+		<prop_id>3508</prop_id>
+		<dis_id>20196</dis_id>
+		<pos>2.81, 0.00, -0.04</pos>
+		<rot>0.00, 0.70, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>406</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>407</id>
+		<name>宠物假山池</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20197</dis_id>
+		<pos>3.51, 0.00, 42.50</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>407</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>408</id>
+		<name>“深源”藤条靠背椅</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20198</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>408</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>409</id>
+		<name>“源享”白色休闲躺椅</name>
+		<prop_id>3502</prop_id>
+		<dis_id>20199</dis_id>
+		<pos>34.17, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>409</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>410</id>
+		<name>“欧派”铁艺躺椅</name>
+		<prop_id>3502</prop_id>
+		<dis_id>20200</dis_id>
+		<pos>20.77, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>410</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>411</id>
+		<name>“粉公主”靠背椅</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20201</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>411</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>412</id>
+		<name>“源享”帆布折叠椅</name>
+		<prop_id>3502</prop_id>
+		<dis_id>20202</dis_id>
+		<pos>35.89, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>412</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>413</id>
+		<name>“75”纯木靠背椅</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20203</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>413</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>414</id>
+		<name>“八竖木”躺椅</name>
+		<prop_id>3502</prop_id>
+		<dis_id>20204</dis_id>
+		<pos>29.35, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>414</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>415</id>
+		<name>“海军”帆布折叠躺椅</name>
+		<prop_id>3502</prop_id>
+		<dis_id>20205</dis_id>
+		<pos>26.42, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>415</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>416</id>
+		<name>“深源”藤条办公转椅</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20206</dis_id>
+		<pos>2.35, 0.00, 0.00</pos>
+		<rot>0.00, 1.00, 0.00, -0.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>416</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>417</id>
+		<name>“源享”单人木框沙发</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20208</dis_id>
+		<pos>2.50, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>417</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>418</id>
+		<name>“源享”三人木框沙发</name>
+		<prop_id>3505</prop_id>
+		<dis_id>20209</dis_id>
+		<pos>1.38, 0.00, 79.85</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>418</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>419</id>
+		<name>“简约”家居三人沙发</name>
+		<prop_id>3505</prop_id>
+		<dis_id>20210</dis_id>
+		<pos>0.00, 0.00, 79.74</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>419</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>420</id>
+		<name>“富贵”花布三人沙发</name>
+		<prop_id>3505</prop_id>
+		<dis_id>20211</dis_id>
+		<pos>-3.29, 0.00, 80.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>420</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>421</id>
+		<name>玫瑰花布三人沙发</name>
+		<prop_id>3505</prop_id>
+		<dis_id>20212</dis_id>
+		<pos>0.00, 0.00, 78.49</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>421</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>422</id>
+		<name>玫瑰花布单人沙发</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20213</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>422</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>423</id>
+		<name>“深源”藤条三人沙发</name>
+		<prop_id>3505</prop_id>
+		<dis_id>20214</dis_id>
+		<pos>2.14, 0.00, 79.06</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>423</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>424</id>
+		<name>“源享”双人木框沙发</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20215</dis_id>
+		<pos>2.20, 0.00, 39.94</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>424</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>425</id>
+		<name>“深源”藤条双人沙发</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20216</dis_id>
+		<pos>0.00, 0.00, 38.89</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>425</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>426</id>
+		<name>“怀旧”木艺双人床</name>
+		<prop_id>203</prop_id>
+		<dis_id>20217</dis_id>
+		<pos>74.45, -0.00, 40.85</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>426</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>427</id>
+		<name>“源享”木艺组合双人床</name>
+		<prop_id>203</prop_id>
+		<dis_id>20218</dis_id>
+		<pos>75.09, 0.00, 40.97</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>427</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>428</id>
+		<name>“源享”木艺床头柜</name>
+		<prop_id>507</prop_id>
+		<dis_id>20219</dis_id>
+		<pos>-4.35, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>428</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>429</id>
+		<name>“源享”木艺电视柜</name>
+		<prop_id>509</prop_id>
+		<dis_id>20220</dis_id>
+		<pos>-3.05, 0.00, 80.54</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>429</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>430</id>
+		<name>“豹纹”大理石灶台</name>
+		<prop_id>503</prop_id>
+		<dis_id>20221</dis_id>
+		<pos>-0.71, 0.00, 40.11</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>430</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>431</id>
+		<name>“豹纹”大理石洗碗池</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20222</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>431</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>432</id>
+		<name>“豹纹”大理石收纳柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20223</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>432</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>433</id>
+		<name>“豹纹”大理石电视柜</name>
+		<prop_id>509</prop_id>
+		<dis_id>20224</dis_id>
+		<pos>-1.56, 0.00, 81.26</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>433</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>434</id>
+		<name>“欧派”多功能存储柜</name>
+		<prop_id>514</prop_id>
+		<dis_id>20225</dis_id>
+		<pos>-2.79, 0.00, 41.44</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>434</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>435</id>
+		<name>“欧派”床头柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20226</dis_id>
+		<pos>-5.44, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>435</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>436</id>
+		<name>“粉公主”床头柜</name>
+		<prop_id>507</prop_id>
+		<dis_id>20227</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.70, 0.00, 0.70</rot>
+		<scale>1 1 1</scale>
+		<loop_id>436</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>437</id>
+		<name>“粉公主”电视柜</name>
+		<prop_id>509</prop_id>
+		<dis_id>20228</dis_id>
+		<pos>-5.05, 0.00, 80.51</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>437</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>438</id>
+		<name>“欧派”电视柜</name>
+		<prop_id>509</prop_id>
+		<dis_id>20229</dis_id>
+		<pos>0.00, 0.00, 82.42</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>438</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>439</id>
+		<name>“怀旧”木质电视柜</name>
+		<prop_id>509</prop_id>
+		<dis_id>20230</dis_id>
+		<pos>0.00, 0.00, 79.47</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>439</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>440</id>
+		<name>“源享”木艺电视柜</name>
+		<prop_id>509</prop_id>
+		<dis_id>20231</dis_id>
+		<pos>0.00, 0.04, 79.08</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>440</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>441</id>
+		<name>“深源”藤条电视柜</name>
+		<prop_id>509</prop_id>
+		<dis_id>20232</dis_id>
+		<pos>0.00, 0.00, 81.35</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>441</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>442</id>
+		<name>“深源”藤条装饰柜</name>
+		<prop_id>516</prop_id>
+		<dis_id>20233</dis_id>
+		<pos>-12.60, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>442</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>443</id>
+		<name>“深源”藤条收纳柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20234</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>443</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>444</id>
+		<name>“豹纹”大理石餐桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20235</dis_id>
+		<pos>0.00, 0.00, 40.17</pos>
+		<rot>0.00, -0.71, 0.00, 0.70</rot>
+		<scale>1 1 1</scale>
+		<loop_id>444</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>445</id>
+		<name>“粉公主”餐桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20236</dis_id>
+		<pos>0.00, 0.00, 39.58</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>445</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>446</id>
+		<name>“深源”藤条餐桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20237</dis_id>
+		<pos>0.00, 0.00, 39.82</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>446</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>447</id>
+		<name>“欧派”茶几</name>
+		<prop_id>510</prop_id>
+		<dis_id>20238</dis_id>
+		<pos>1.35, 0.00, 40.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>447</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>448</id>
+		<name>“粉公主”茶几</name>
+		<prop_id>510</prop_id>
+		<dis_id>20239</dis_id>
+		<pos>-0.60, -0.70, 39.40</pos>
+		<rot>0.00, 0.72, 0.00, 0.72</rot>
+		<scale>1 1 1</scale>
+		<loop_id>448</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>449</id>
+		<name>“深源”藤条茶几</name>
+		<prop_id>510</prop_id>
+		<dis_id>20240</dis_id>
+		<pos>-6.39, 0.00, 39.29</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>449</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>450</id>
+		<name>“粉公主”办公桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20241</dis_id>
+		<pos>3.04, 0.00, 41.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>450</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>451</id>
+		<name>“深源”藤条办公桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20242</dis_id>
+		<pos>0.00, 0.00, 39.92</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>451</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>452</id>
+		<name>“粉公主”装饰柜</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20243</dis_id>
+		<pos>-3.04, 0.00, 39.60</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>452</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>453</id>
+		<name>“粉公主”衣橱</name>
+		<prop_id>515</prop_id>
+		<dis_id>20244</dis_id>
+		<pos>-4.21, 0.00, 40.60</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>453</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>454</id>
+		<name>“怀旧”木质书架</name>
+		<prop_id>516</prop_id>
+		<dis_id>20245</dis_id>
+		<pos>-10.43, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>454</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>455</id>
+		<name>“深源”藤条衣橱</name>
+		<prop_id>515</prop_id>
+		<dis_id>20246</dis_id>
+		<pos>-4.85, 0.00, 40.68</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>455</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>456</id>
+		<name>“深源”藤条床头柜</name>
+		<prop_id>507</prop_id>
+		<dis_id>20247</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>456</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>457</id>
+		<name>“豹纹”大理石马桶</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20248</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>457</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>458</id>
+		<name>“粉公主”马桶</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20249</dis_id>
+		<pos>4.14, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>458</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>459</id>
+		<name>“深源”藤条马桶</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20250</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>459</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>460</id>
+		<name>“深源”藤条沐浴房</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20251</dis_id>
+		<pos>5.38, 0.00, 4.19</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>460</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>461</id>
+		<name>“源享”洗手池</name>
+		<prop_id>2509</prop_id>
+		<dis_id>20252</dis_id>
+		<pos>-3.82, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>461</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>462</id>
+		<name>“豹纹”大理石洗手池</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20253</dis_id>
+		<pos>0.00, 0.00, 39.72</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>462</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>463</id>
+		<name>“粉公主”洗手池</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20254</dis_id>
+		<pos>-8.18, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>463</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>464</id>
+		<name>“欧派”洗手池</name>
+		<prop_id>2509</prop_id>
+		<dis_id>20255</dis_id>
+		<pos>-13.53, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>464</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>465</id>
+		<name>“怀旧”木质洗手池</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20256</dis_id>
+		<pos>-12.66, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>465</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>466</id>
+		<name>“源享”木质洗手池</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20257</dis_id>
+		<pos>-12.05, -12.57, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>466</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>467</id>
+		<name>“深源”藤条洗手池</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20258</dis_id>
+		<pos>-12.05, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>467</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>468</id>
+		<name>“豹纹”大理石浴缸</name>
+		<prop_id>2513</prop_id>
+		<dis_id>20259</dis_id>
+		<pos>39.84, 0.00, 0.27</pos>
+		<rot>0.00, -0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>468</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>469</id>
+		<name>“源享”白色浴缸</name>
+		<prop_id>2513</prop_id>
+		<dis_id>20260</dis_id>
+		<pos>40.70, 0.00, 5.98</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>469</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>470</id>
+		<name>“深源”藤条浴缸</name>
+		<prop_id>2513</prop_id>
+		<dis_id>20261</dis_id>
+		<pos>45.29, 0.00, -2.86</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>470</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>471</id>
+		<name>“深源”藤条双人床</name>
+		<prop_id>203</prop_id>
+		<dis_id>20262</dis_id>
+		<pos>74.08, 0.00, 39.76</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>471</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>472</id>
+		<name>“深源”藤条单人床</name>
+		<prop_id>202</prop_id>
+		<dis_id>20263</dis_id>
+		<pos>66.57, 0.00, 0.59</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>472</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>473</id>
+		<name>“现代”塑料百叶窗</name>
+		<prop_id>5011</prop_id>
+		<dis_id>20264</dis_id>
+		<pos>-27.00, 0.00, 0.02</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>473</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>474</id>
+		<name>“幸福”棉布窗帘</name>
+		<prop_id>5012</prop_id>
+		<dis_id>20265</dis_id>
+		<pos>-30.69, 0.00, 38.89</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>474</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>475</id>
+		<name>“欧派”双窗布质窗帘</name>
+		<prop_id>5012</prop_id>
+		<dis_id>20266</dis_id>
+		<pos>-26.55, 0.00, 40.01</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>475</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>476</id>
+		<name>“幸福”樱花布质窗帘</name>
+		<prop_id>5012</prop_id>
+		<dis_id>20267</dis_id>
+		<pos>-30.29, 0.00, 38.60</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>476</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>477</id>
+		<name>“幸福”花纹布质窗帘</name>
+		<prop_id>5014</prop_id>
+		<dis_id>20268</dis_id>
+		<pos>-32.95, 0.00, 40.26</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>477</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>478</id>
+		<name>“现代”印花厚布窗帘</name>
+		<prop_id>5014</prop_id>
+		<dis_id>20269</dis_id>
+		<pos>-35.46, 0.00, 39.85</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>478</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>479</id>
+		<name>“佳人”花纹布质窗帘</name>
+		<prop_id>5012</prop_id>
+		<dis_id>20270</dis_id>
+		<pos>-33.60, 0.00, 39.51</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>479</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>480</id>
+		<name>“欧派”高档布艺窗帘</name>
+		<prop_id>5014</prop_id>
+		<dis_id>20271</dis_id>
+		<pos>-31.15, 1.08, 41.41</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>480</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>481</id>
+		<name>“现代”木纹百叶窗</name>
+		<prop_id>5011</prop_id>
+		<dis_id>20272</dis_id>
+		<pos>-26.50, 0.00, 0.02</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>481</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>482</id>
+		<name>“现代”藤编百叶窗</name>
+		<prop_id>5011</prop_id>
+		<dis_id>20273</dis_id>
+		<pos>-26.50, 0.00, 0.02</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>482</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>483</id>
+		<name>“现代”布质窗帘</name>
+		<prop_id>5012</prop_id>
+		<dis_id>20274</dis_id>
+		<pos>-28.45, 0.00, 40.90</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>483</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>484</id>
+		<name>售楼处落地窗</name>
+		<prop_id>4503</prop_id>
+		<dis_id>30008</dis_id>
+		<pos>-40.00, 0.00, 198.73</pos>
+		<rot>0.00, 1.00, 0.00, 0.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>485</id>
+		<name>售楼处大门</name>
+		<prop_id>4002</prop_id>
+		<dis_id>30009</dis_id>
+		<pos>-102.94, 0.00, 80.79</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>486</id>
+		<name>“好生活”软垫餐椅</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20275</dis_id>
+		<pos>0.88, 0.00, 0.10</pos>
+		<rot>0.00, -0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>486</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>487</id>
+		<name>“好生活”软垫靠背椅</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20276</dis_id>
+		<pos>2.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>487</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>488</id>
+		<name>“好生活”软垫躺椅</name>
+		<prop_id>3502</prop_id>
+		<dis_id>20277</dis_id>
+		<pos>27.33, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>488</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>489</id>
+		<name>“好生活”三人布艺沙发</name>
+		<prop_id>3505</prop_id>
+		<dis_id>20278</dis_id>
+		<pos>-2.52, 0.00, 80.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>489</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>490</id>
+		<name>“好生活”双人布艺沙发</name>
+		<prop_id>3504</prop_id>
+		<dis_id>20279</dis_id>
+		<pos>2.99, 0.00, 38.97</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>490</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>491</id>
+		<name>“好生活”单人布艺沙发(左)</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20280</dis_id>
+		<pos>2.72, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>491</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>563</id>
+		<name>“好生活”单人布艺沙发(右)</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20302</dis_id>
+		<pos>2.72, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>563</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>492</id>
+		<name>“好生活”双人软床</name>
+		<prop_id>203</prop_id>
+		<dis_id>20281</dis_id>
+		<pos>79.93, 0.00, 40.17</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>492</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>493</id>
+		<name>“好生活”单人软床</name>
+		<prop_id>202</prop_id>
+		<dis_id>20282</dis_id>
+		<pos>76.60, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>493</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>494</id>
+		<name>“好生活”双层床</name>
+		<prop_id>202</prop_id>
+		<dis_id>20283</dis_id>
+		<pos>75.32, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>494</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>495</id>
+		<name>“好生活”橱柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20284</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>495</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>496</id>
+		<name>“好生活”洗碗池</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20285</dis_id>
+		<pos>2.09, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>496</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>497</id>
+		<name>“好生活”灶台</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20286</dis_id>
+		<pos>0.56, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>497</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>498</id>
+		<name>“好生活”铁框圆桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20287</dis_id>
+		<pos>-0.26, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>498</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>499</id>
+		<name>“好生活”亚克力餐桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20288</dis_id>
+		<pos>0.00, 0.00, 41.62</pos>
+		<rot>0.00, 0.73, 0.00, 0.73</rot>
+		<scale>1 1 1</scale>
+		<loop_id>499</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>500</id>
+		<name>“好生活”电视柜</name>
+		<prop_id>509</prop_id>
+		<dis_id>20289</dis_id>
+		<pos>0.00, 0.00, 80.62</pos>
+		<rot>0.00, 0.73, 0.00, 0.73</rot>
+		<scale>1 1 1</scale>
+		<loop_id>500</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>501</id>
+		<name>“好生活”铁框茶几</name>
+		<prop_id>510</prop_id>
+		<dis_id>20290</dis_id>
+		<pos>-0.10, 0.00, 40.40</pos>
+		<rot>0.00, 0.73, 0.00, 0.73</rot>
+		<scale>1 1 1</scale>
+		<loop_id>501</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>502</id>
+		<name>“好生活”床头柜</name>
+		<prop_id>507</prop_id>
+		<dis_id>20291</dis_id>
+		<pos>-5.50, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>502</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>503</id>
+		<name>“好生活”书桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20292</dis_id>
+		<pos>-0.08, 0.00, 40.78</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>503</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>504</id>
+		<name>“好生活”豪华衣柜</name>
+		<prop_id>515</prop_id>
+		<dis_id>20293</dis_id>
+		<pos>-3.62, 0.00, 40.52</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>504</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>505</id>
+		<name>“好生活”木质装饰柜</name>
+		<prop_id>517</prop_id>
+		<dis_id>20294</dis_id>
+		<pos>-4.71, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>505</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>506</id>
+		<name>“好生活”抽水马桶</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20295</dis_id>
+		<pos>-4.46, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>506</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>507</id>
+		<name>“好生活”陶瓷洗手池</name>
+		<prop_id>2509</prop_id>
+		<dis_id>20296</dis_id>
+		<pos>-5.18, 0.00, 0.15</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>507</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>508</id>
+		<name>“好生活”书柜</name>
+		<prop_id>516</prop_id>
+		<dis_id>20297</dis_id>
+		<pos>-7.05, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>508</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>509</id>
+		<name>“好生活”豪华浴缸</name>
+		<prop_id>2513</prop_id>
+		<dis_id>20298</dis_id>
+		<pos>38.84, 0.00, 0.07</pos>
+		<rot>0.00, -0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>509</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>510</id>
+		<name>“好生活”豪华淋浴室</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20299</dis_id>
+		<pos>1.48, 0.00, 3.27</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>510</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>516</id>
+		<name>红色电子向日葵</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25000</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>516</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>517</id>
+		<name>黄色电子向日葵</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25001</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>517</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>518</id>
+		<name>蓝色电子向日葵</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25002</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>518</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>519</id>
+		<name>紫色电子向日葵</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25003</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>519</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>520</id>
+		<name>粉色电子向日葵</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25004</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>520</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>521</id>
+		<name>红色电子郁金香</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25005</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>521</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>522</id>
+		<name>紫色电子郁金香</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25006</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>522</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>523</id>
+		<name>黄色电子郁金香</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25007</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>523</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>524</id>
+		<name>粉色电子郁金香</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25008</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>524</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>525</id>
+		<name>黄金电子郁金香</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25009</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>525</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>526</id>
+		<name>红色电子向日葵(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25010</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>526</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>527</id>
+		<name>黄色电子向日葵(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25011</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>527</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>528</id>
+		<name>蓝色电子向日葵(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25012</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>528</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>529</id>
+		<name>紫色电子向日葵(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25013</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>529</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>530</id>
+		<name>粉色电子向日葵(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25014</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>530</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>531</id>
+		<name>红色电子郁金香(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25015</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>531</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>532</id>
+		<name>紫色电子郁金香(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25016</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>532</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>533</id>
+		<name>黄色电子郁金香(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25017</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>533</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>534</id>
+		<name>粉色电子郁金香(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25018</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>534</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>535</id>
+		<name>黄金电子郁金香(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25019</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>535</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>536</id>
+		<name>“富特”别墅双窗</name>
+		<prop_id>4505</prop_id>
+		<dis_id>30012</dis_id>
+		<pos>-46.01, 80.00, 41.40</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>537</id>
+		<name>别墅落地窗</name>
+		<prop_id>4504</prop_id>
+		<dis_id>30013</dis_id>
+		<pos>-41.28, 20.00, 199.61</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>538</id>
+		<name>别墅圆窗</name>
+		<prop_id>4501</prop_id>
+		<dis_id>30014</dis_id>
+		<pos>-39.63, 80.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>539</id>
+		<name>高级户外藤椅</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20300</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>539</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>540</id>
+		<name>高级户外藤条桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20301</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>540</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>541</id>
+		<name>高级别墅路灯</name>
+		<prop_id>3029</prop_id>
+		<dis_id>31046</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>541</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>542</id>
+		<name>四色装饰灯</name>
+		<prop_id>3030</prop_id>
+		<dis_id>31024</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>542</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>543</id>
+		<name>南瓜头灯</name>
+		<prop_id>3031</prop_id>
+		<dis_id>31025</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>543</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>544</id>
+		<name>鱼形装饰灯（青）</name>
+		<prop_id>3032</prop_id>
+		<dis_id>31026</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>544</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>545</id>
+		<name>鱼形装饰灯（灰）</name>
+		<prop_id>3033</prop_id>
+		<dis_id>31027</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>545</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>546</id>
+		<name>鱼形装饰灯（褐）</name>
+		<prop_id>3034</prop_id>
+		<dis_id>31028</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>546</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>547</id>
+		<name>水立方装饰灯</name>
+		<prop_id>3035</prop_id>
+		<dis_id>31029</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>547</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>548</id>
+		<name>阿尔巴尼加装饰灯</name>
+		<prop_id>3036</prop_id>
+		<dis_id>31030</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>548</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>549</id>
+		<name>异形卵蛋装饰灯</name>
+		<prop_id>3037</prop_id>
+		<dis_id>31031</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>549</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>550</id>
+		<name>白布落地灯</name>
+		<prop_id>3038</prop_id>
+		<dis_id>31032</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>550</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>551</id>
+		<name>“白光”落地灯柱</name>
+		<prop_id>3039</prop_id>
+		<dis_id>31033</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>551</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>552</id>
+		<name>梨形树挂灯</name>
+		<prop_id>3040</prop_id>
+		<dis_id>31034</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>552</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>553</id>
+		<name>“萤火虫”白光壁灯</name>
+		<prop_id>3041</prop_id>
+		<dis_id>31035</dis_id>
+		<pos>-24.11, 180, 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>553</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>554</id>
+		<name>“纽扣”壁灯</name>
+		<prop_id>3042</prop_id>
+		<dis_id>31036</dis_id>
+		<pos>-32.36, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>554</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>555</id>
+		<name>“烛光”壁灯</name>
+		<prop_id>3043</prop_id>
+		<dis_id>31037</dis_id>
+		<pos>-33.0, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>555</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>556</id>
+		<name>闪电壁挂霓虹灯</name>
+		<prop_id>3044</prop_id>
+		<dis_id>31038</dis_id>
+		<pos>-34.89, 180.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>556</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>557</id>
+		<name>金属吊灯</name>
+		<prop_id>3045</prop_id>
+		<dis_id>31039</dis_id>
+		<pos>0.00,220.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>557</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>558</id>
+		<name>蛋白石吊灯</name>
+		<prop_id>3046</prop_id>
+		<dis_id>31040</dis_id>
+		<pos>0.00,220.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>558</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>559</id>
+		<name>鸟巢卵形吊灯</name>
+		<prop_id>3047</prop_id>
+		<dis_id>31041</dis_id>
+		<pos>0.00,220.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>559</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>560</id>
+		<name>三角方吊灯</name>
+		<prop_id>3048</prop_id>
+		<dis_id>31042</dis_id>
+		<pos>0.00,220.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>560</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>561</id>
+		<name>红光走马吊灯</name>
+		<prop_id>3049</prop_id>
+		<dis_id>31043</dis_id>
+		<pos>0.00,220.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>561</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>562</id>
+		<name>“好生活”吸顶灯</name>
+		<prop_id>3050</prop_id>
+		<dis_id>31044</dis_id>
+		<pos>0.00,220.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>562</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>564</id>
+		<name>“舒适”布艺餐椅</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25020</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>564</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>565</id>
+		<name>“舒适”布艺躺椅</name>
+		<prop_id>3502</prop_id>
+		<dis_id>25021</dis_id>
+		<pos>36.77, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>565</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>566</id>
+		<name>“舒适”靠背椅</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25022</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>566</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>567</id>
+		<name>“舒适”布艺三人沙发</name>
+		<prop_id>3505</prop_id>
+		<dis_id>25023</dis_id>
+		<pos>0.00, 0.00, 81.38</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>567</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>568</id>
+		<name>“舒适”布艺双人沙发</name>
+		<prop_id>3504</prop_id>
+		<dis_id>25024</dis_id>
+		<pos>0.00, 0.00, 40.64</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>568</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>569</id>
+		<name>“舒适”布艺坐垫</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25025</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>569</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>570</id>
+		<name>“舒适”布艺单人沙发</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25026</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>570</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>571</id>
+		<name>“舒适”双人软床</name>
+		<prop_id>203</prop_id>
+		<dis_id>25027</dis_id>
+		<pos>78.90, 0.00, 40.87</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>571</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>572</id>
+		<name>“舒适”单人软床</name>
+		<prop_id>202</prop_id>
+		<dis_id>25028</dis_id>
+		<pos>79.63, -0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>572</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>573</id>
+		<name>“舒适”双层软床</name>
+		<prop_id>202</prop_id>
+		<dis_id>25029</dis_id>
+		<pos>77.22, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>573</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>574</id>
+		<name>“舒适”洗碗池</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25030</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>574</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>575</id>
+		<name>“舒适”大理石灶台</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25031</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>575</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>576</id>
+		<name>“舒适”大理石橱柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>25032</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>576</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>577</id>
+		<name>“舒适”圆餐桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>25033</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>577</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>578</id>
+		<name>“舒适”布艺餐桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>25034</dis_id>
+		<pos>0.00, 0.00, 40.25</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>578</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>579</id>
+		<name>“舒适”床头矮柜</name>
+		<prop_id>507</prop_id>
+		<dis_id>25035</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>579</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>580</id>
+		<name>“舒适”亚克力茶几</name>
+		<prop_id>510</prop_id>
+		<dis_id>25036</dis_id>
+		<pos>0.00, 0.00, 40.91</pos>
+		<rot>0.00, -0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>580</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>581</id>
+		<name>“舒适”电视机柜</name>
+		<prop_id>509</prop_id>
+		<dis_id>25037</dis_id>
+		<pos>0.00, 0.00, 80.00</pos>
+		<rot>0.00, -0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>581</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>582</id>
+		<name>“舒适”时尚办公桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>25038</dis_id>
+		<pos>-2.04, 0.00, 40.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>582</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>583</id>
+		<name>“舒适”高档装饰柜</name>
+		<prop_id>516</prop_id>
+		<dis_id>25039</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>583</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>584</id>
+		<name>“舒适”三门衣柜</name>
+		<prop_id>3504</prop_id>
+		<dis_id>25040</dis_id>
+		<pos>0.00, 0.00, 40.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>584</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>585</id>
+		<name>“舒适”M型书架</name>
+		<prop_id>3504</prop_id>
+		<dis_id>25041</dis_id>
+		<pos>0.00, 0.00, 40.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>585</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>586</id>
+		<name>“舒适”抽水马桶</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25042</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>586</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>587</id>
+		<name>“舒适”洗手池</name>
+		<prop_id>2509</prop_id>
+		<dis_id>25043</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>587</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>588</id>
+		<name>“舒适”时尚浴缸</name>
+		<prop_id>3506</prop_id>
+		<dis_id>25044</dis_id>
+		<pos>40.38, 0.00, 41.41</pos>
+		<rot>0.00, -0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>588</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>589</id>
+		<name>“乡村”室外石桌</name>
+		<prop_id>504</prop_id>
+		<dis_id>20303</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>589</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>590</id>
+		<name>“乡村”室外石凳</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20304</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>590</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>591</id>
+		<name>“舒适”淋浴间</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25045</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>591</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>592</id>
+		<name>“深源”藤条单人沙发</name>
+		<prop_id>3501</prop_id>
+		<dis_id>20305</dis_id>
+		<pos>0.00, 0.00, 1.00</pos>
+		<rot>0.00, 0.71, 0.00, 0.70</rot>
+		<scale>0.85, 0.85, 0.85</scale>
+		<loop_id>592</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>593</id>
+		<name>海绵三人座沙发</name>
+		<prop_id>3505</prop_id>
+		<dis_id>20306</dis_id>
+		<pos>0.00, 0.00, 80.61</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>593</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>594</id>
+		<name>4格门（带光源）</name>
+		<prop_id>4003</prop_id>
+		<dis_id>30015</dis_id>
+		<pos>-40.00, 0.00, -200.55</pos>
+		<rot>0.00, 0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>595</id>
+		<name>2格门（带光源）</name>
+		<prop_id>4004</prop_id>
+		<dis_id>30016</dis_id>
+		<pos>-40.00, 0.00, -120.00</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>596</id>
+		<name>“中天”4扇白色凸窗</name>
+		<prop_id>4506</prop_id>
+		<dis_id>30017</dis_id>
+		<pos>-75.73, 80.00, 120</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>596</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>597</id>
+		<name>“辉曜”双扇橘色凸窗</name>
+		<prop_id>4505</prop_id>
+		<dis_id>30018</dis_id>
+		<pos>-82.29, 80.00, 40</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>597</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>598</id>
+		<name>小粉红</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25046</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0, 0.00, 1</rot>
+		<scale>1 1 1</scale>
+		<loop_id>516</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>599</id>
+		<name>龅牙绿</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25047</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0, 0.00, 1</rot>
+		<scale>1 1 1</scale>
+		<loop_id>516</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>600</id>
+		<name>迷彩黄</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25048</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0, 0.00, 1</rot>
+		<scale>1 1 1</scale>
+		<loop_id>516</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>601</id>
+		<name>煎蛋蓝</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25049</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0, 0.00, 1</rot>
+		<scale>1 1 1</scale>
+		<loop_id>516</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>602</id>
+		<name>小丑黑</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25050</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0, 0.00, 1</rot>
+		<scale>1 1 1</scale>
+		<loop_id>516</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>603</id>
+		<name>包养紫</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25051</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0, 0.00, 1</rot>
+		<scale>1 1 1</scale>
+		<loop_id>516</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>604</id>
+		<name>褐强盗</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25052</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0, 0.00, 1</rot>
+		<scale>1 1 1</scale>
+		<loop_id>516</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>605</id>
+		<name>总闸</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25053</dis_id>
+		<pos>-35.29, 160.00, 1.00</pos>
+		<rot>0.00, 0, 0.00, 1</rot>
+		<scale>1 1 1</scale>
+		<loop_id>605</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>606</id>
+		<name>室内传送点</name>
+		<prop_id>5009</prop_id>
+		<dis_id>31408</dis_id>
+		<pos>80.00, 0.00, 0.00</pos>
+		<rot>0.00, 0, 0.00, 1</rot>
+		<scale>1 1 1</scale>
+		<loop_id>606</loop_id>
+		<particle>1007</particle>
+	</house_comp>
+	<house_comp>
+		<id>607</id>
+		<name>“洁净”洗衣机（浅绿）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25054</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>607</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>608</id>
+		<name>“洁净”洗衣机（白）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25055</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>608</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>609</id>
+		<name>“冠升”休闲办公椅（黑）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25056</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>609</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>610</id>
+		<name>“艺居”会议椅（蓝）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25057</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>610</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>611</id>
+		<name>“艺居”会议椅（黑）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25058</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>611</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>612</id>
+		<name>“雅宁”办公椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>25059</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>612</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>613</id>
+		<name>“尊享”办公椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>25060</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>613</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>614</id>
+		<name>原木玻璃吊柜</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25061</dis_id>
+		<pos>-15.34,200.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>614</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>615</id>
+		<name>白色玻璃吊柜</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25062</dis_id>
+		<pos>-15.34,200.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>615</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>616</id>
+		<name>蓝色玻璃吊柜</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25063</dis_id>
+		<pos>-15.34,200.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>616</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>617</id>
+		<name>“缘慕”豪华梳妆台</name>
+		<prop_id>505</prop_id>
+		<dis_id>25064</dis_id>
+		<pos>-8.42, 0.00, 39.76</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>617</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>618</id>
+		<name>“梦莎”梳妆台</name>
+		<prop_id>505</prop_id>
+		<dis_id>25065</dis_id>
+		<pos>-8.42, 0.00, 39.76</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>618</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>619</id>
+		<name>“天鹅”梳妆台</name>
+		<prop_id>505</prop_id>
+		<dis_id>25066</dis_id>
+		<pos>-4.05, 0.00, 39.76</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>619</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>620</id>
+		<name>简易“淑女”梳妆台</name>
+		<prop_id>505</prop_id>
+		<dis_id>25067</dis_id>
+		<pos>-4.05, 0.00, 39.76</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>620</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>621</id>
+		<name>“乐嘉”滚筒洗衣机（暗色）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25068</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>621</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>622</id>
+		<name>“乐嘉”滚筒洗衣机（白）</name>
+		<prop_id>3501</prop_id>
+		<dis_id>25069</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>622</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>623</id>
+		<name>“夏维”液晶电视（白）</name>
+		<prop_id>1510</prop_id>
+		<dis_id>25070</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>623</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>624</id>
+		<name>“夏维”液晶电视（黑）</name>
+		<prop_id>1510</prop_id>
+		<dis_id>25071</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>624</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>625</id>
+		<name>“飞虹”背投电视（银）</name>
+		<prop_id>3504</prop_id>
+		<dis_id>25072</dis_id>
+		<pos>0.00, 0.00, 42.82</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>625</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>626</id>
+		<name>“飞虹”背投电视（黑）</name>
+		<prop_id>3504</prop_id>
+		<dis_id>25073</dis_id>
+		<pos>0.00, 0.00, 42.82</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>626</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>627</id>
+		<name>“康睿”背投电视（黑）</name>
+		<prop_id>3504</prop_id>
+		<dis_id>25074</dis_id>
+		<pos>0.00, 0.00, 42.82</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>627</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>628</id>
+		<name>“康睿”背投电视（白）</name>
+		<prop_id>3504</prop_id>
+		<dis_id>25075</dis_id>
+		<pos>0.00, 0.00, 42.82</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>628</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>629</id>
+		<name>“华普”豪华影院120寸液晶</name>
+		<prop_id>3505</prop_id>
+		<dis_id>25076</dis_id>
+		<pos>0.00, 0.00, 79.65</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>629</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>630</id>
+		<name>“智睿”背投电视（银）</name>
+		<prop_id>3504</prop_id>
+		<dis_id>25077</dis_id>
+		<pos>0.00, 0.00, 42.82</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>630</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>631</id>
+		<name>自制“月亮井”特色椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>25078</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>631</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>632</id>
+		<name>“天鹅”梳妆椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>25079</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>632</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>633</id>
+		<name>“缘慕”梳妆椅（灰）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25080</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>633</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>634</id>
+		<name>“缘慕”梳妆椅（紫）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25081</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>634</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>635</id>
+		<name>“精钢”浴室</name>
+		<prop_id>2501</prop_id>
+		<dis_id>25082</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>635</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>636</id>
+		<name>“熊猫”浴室</name>
+		<prop_id>2501</prop_id>
+		<dis_id>25083</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>636</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>637</id>
+		<name>“环浴”浴室</name>
+		<prop_id>2501</prop_id>
+		<dis_id>25084</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>637</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>638</id>
+		<name>“金属时代”长形茶几</name>
+		<prop_id>510</prop_id>
+		<dis_id>25085</dis_id>
+		<pos>0.00, 0.00, 42.82</pos>
+		<rot>0.00, -1.00, 0.00, -0.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>638</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>639</id>
+		<name>“金属时代”方形茶几</name>
+		<prop_id>507</prop_id>
+		<dis_id>25086</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>639</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>640</id>
+		<name>“自由生活”玻璃茶几</name>
+		<prop_id>510</prop_id>
+		<dis_id>25087</dis_id>
+		<pos>0.00, 0.00, 42.82</pos>
+		<rot>0.00, -1.00, 0.00, -0.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>640</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>641</id>
+		<name>“主题”玻璃茶几</name>
+		<prop_id>507</prop_id>
+		<dis_id>25088</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>641</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>642</id>
+		<name>普通金属吊柜</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25089</dis_id>
+		<pos>-15.34,200.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>642</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>643</id>
+		<name>“实惠”吊柜（红）</name>
+		<prop_id>5004</prop_id>
+		<dis_id>25090</dis_id>
+		<pos>-15.34, 200.00, 42.82</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>643</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>644</id>
+		<name>“实惠”吊柜（白）</name>
+		<prop_id>5004</prop_id>
+		<dis_id>25091</dis_id>
+		<pos>-15.34, 200.00, 42.82</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>644</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>645</id>
+		<name>豪华木质吊柜</name>
+		<prop_id>5004</prop_id>
+		<dis_id>25092</dis_id>
+		<pos>-15.34, 200.00, 42.82</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>645</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>646</id>
+		<name>普通木质吊柜(蓝)</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25093</dis_id>
+		<pos>-15.34,200.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>646</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>647</id>
+		<name>“大理石”吊柜</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25094</dis_id>
+		<pos>-15.34,200.00,0.00</pos>
+		<rot>0.00, -0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>647</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>648</id>
+		<name>“舒适”休闲办公椅（白）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25095</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>648</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>649</id>
+		<name>“舒适”休闲办公椅（蓝）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25096</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>649</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>650</id>
+		<name>“舒适”休闲办公椅（红）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25097</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>650</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>651</id>
+		<name>简易休闲办公椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>25098</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>651</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>652</id>
+		<name>“五星”休闲会议椅（蓝）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25099</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>652</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>653</id>
+		<name>“五星”休闲会议椅（红）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25100</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>653</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>654</id>
+		<name>“五星”休闲会议椅（绿）</name>
+		<prop_id>201</prop_id>
+		<dis_id>25101</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>654</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>655</id>
+		<name>“雷响”防水庭院灯</name>
+		<prop_id>3052</prop_id>
+		<dis_id>31409</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>655</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>656</id>
+		<name>“拉斯多”草坪灯</name>
+		<prop_id>3053</prop_id>
+		<dis_id>31410</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>656</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>657</id>
+		<name>“普莱德”草坪地灯</name>
+		<prop_id>3054</prop_id>
+		<dis_id>31411</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>657</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>658</id>
+		<name>“莫嘉斯”户外射灯</name>
+		<prop_id>3055</prop_id>
+		<dis_id>31412</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>658</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>659</id>
+		<name>“薇蒂”双头庭院灯</name>
+		<prop_id>3056</prop_id>
+		<dis_id>31413</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>659</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>660</id>
+		<name>“凯迪”草坪地灯</name>
+		<prop_id>3057</prop_id>
+		<dis_id>31414</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>660</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>661</id>
+		<name>“曼德”双头路灯</name>
+		<prop_id>3058</prop_id>
+		<dis_id>31415</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>661</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>662</id>
+		<name>“铭关”高级路灯</name>
+		<prop_id>3059</prop_id>
+		<dis_id>31416</dis_id>
+		<pos>0.00,0.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>662</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>663</id>
+		<name>“烨峰”吊顶灯</name>
+		<prop_id>3051</prop_id>
+		<dis_id>31417</dis_id>
+		<pos>0.00,220.00,0.00</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>663</loop_id>
+		<lamp_type>1</lamp_type>
+	</house_comp>
+	<house_comp>
+		<id>664</id>
+		<name>“虹彩”红木大门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30026</dis_id>
+		<pos>-39.80, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>665</id>
+		<name>“梅利”复合实木大门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30027</dis_id>
+		<pos>-39.80, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>666</id>
+		<name>“羽隆”不锈钢防盗门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30028</dis_id>
+		<pos>-39.80, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>667</id>
+		<name>“序函”红木大门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30029</dis_id>
+		<pos>-39.80, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>668</id>
+		<name>“惠宇”复合实木大门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30030</dis_id>
+		<pos>-39.80, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>669</id>
+		<name>“晶浩”不锈钢防盗门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30031</dis_id>
+		<pos>-39.80, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>670</id>
+		<name>“东辉”不锈钢防盗门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30032</dis_id>
+		<pos>-39.80, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>671</id>
+		<name>“大众”复合实木大门</name>
+		<prop_id>4001</prop_id>
+		<dis_id>30033</dis_id>
+		<pos>-39.80, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>672</id>
+		<name>“倍思”复古四扇贴纸窗户</name>
+		<prop_id>4506</prop_id>
+		<dis_id>30034</dis_id>
+		<pos>-40.00, 80.00, 120.81</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>673</id>
+		<name>“倍思”复古双扇贴纸窗户</name>
+		<prop_id>4505</prop_id>
+		<dis_id>30035</dis_id>
+		<pos>-40.32, 80.00, 39.56</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>674</id>
+		<name>“爱家”玻璃双扇窗</name>
+		<prop_id>4505</prop_id>
+		<dis_id>30036</dis_id>
+		<pos>-40.32, 80.00, 39.56</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>675</id>
+		<name>“爱家”玻璃四扇窗</name>
+		<prop_id>4506</prop_id>
+		<dis_id>30037</dis_id>
+		<pos>-40.00, 80.00, 120.81</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>676</id>
+		<name>“娜娜”自画像</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25102</dis_id>
+		<pos>-36.53, 160.00, -0.30</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>676</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>677</id>
+		<name>“三言两语”画像</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25103</dis_id>
+		<pos>-36.53, 160.00, -0.30</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>677</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>678</id>
+		<name>“海滨秋游”画像</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25104</dis_id>
+		<pos>-36.53, 160.00, -0.30</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>678</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>679</id>
+		<name>“娜娜”自画像（二）</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25105</dis_id>
+		<pos>-36.53, 160.00, -0.30</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>679</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>680</id>
+		<name>“奶茶店风光”画像</name>
+		<prop_id>5003</prop_id>
+		<dis_id>25106</dis_id>
+		<pos>-36.53, 160.00, -0.30</pos>
+		<rot>0.00, -0.71, 0.00, -0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>680</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>681</id>
+		<name>“我的乐园，我的家”（棕）</name>
+		<prop_id>5004</prop_id>
+		<dis_id>25107</dis_id>
+		<pos>-35.88, 160.00, 36.77</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>681</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>682</id>
+		<name>“我的乐园，我的家”（褐）</name>
+		<prop_id>5004</prop_id>
+		<dis_id>25108</dis_id>
+		<pos>-35.88, 160.00, 36.77</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>682</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>683</id>
+		<name>“我的乐园，我的家”（黄）</name>
+		<prop_id>5004</prop_id>
+		<dis_id>25109</dis_id>
+		<pos>-35.88, 160.00, 36.77</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>683</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>684</id>
+		<name>单层别墅大斜窗</name>
+		<prop_id>4507</prop_id>
+		<dis_id>30019</dis_id>
+		<pos>-40.32, 80.00, 39.56</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>685</id>
+		<name>单层别墅小斜窗</name>
+		<prop_id>4507</prop_id>
+		<dis_id>30020</dis_id>
+		<pos>-40.32, 80.00, 39.56</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>686</id>
+		<name>单层别墅落地窗</name>
+		<prop_id>4507</prop_id>
+		<dis_id>30023</dis_id>
+		<pos>-40.32, 0.00, 156.76</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>687</id>
+		<name>“布林”别墅双窗</name>
+		<prop_id>4505</prop_id>
+		<dis_id>30021</dis_id>
+		<pos>-40.32, 80.00, 39.56</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>688</id>
+		<name>3格门（带光源）</name>
+		<prop_id>4508</prop_id>
+		<dis_id>30024</dis_id>
+		<pos>-37.89, 0.00, 79.26</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+	</house_comp>
+	<house_comp>
+		<id>10002</id>
+		<name>木质床头矮柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20002</dis_id>
+		<pos>-1.48, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>124</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10003</id>
+		<name>大理石矮柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20003</dis_id>
+		<pos>0.40, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>125</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10004</id>
+		<name>“粉红豹”梳妆台</name>
+		<prop_id>505</prop_id>
+		<dis_id>20004</dis_id>
+		<pos>-4.54, 0.00, 41.96</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>126</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10005</id>
+		<name>“粉红豹”矮柜</name>
+		<prop_id>504</prop_id>
+		<dis_id>20005</dis_id>
+		<pos>-0.55, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>127</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10006</id>
+		<name>木质方茶几</name>
+		<prop_id>507</prop_id>
+		<dis_id>20011</dis_id>
+		<pos>0.82, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1.06, 1.00, 1.06</scale>
+		<loop_id>133</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10007</id>
+		<name>时尚讲师长桌</name>
+		<prop_id>503</prop_id>
+		<dis_id>20012</dis_id>
+		<pos>-4.55, 0.00, 38.42</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>134</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10008</id>
+		<name>木质五斗橱</name>
+		<prop_id>511</prop_id>
+		<dis_id>20016</dis_id>
+		<pos>-16.15, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>138</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10009</id>
+		<name>木纹五斗橱</name>
+		<prop_id>511</prop_id>
+		<dis_id>20077</dis_id>
+		<pos>-11.51, 0.54, 0.47</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>287</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10010</id>
+		<name>木质靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21001</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>140</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10011</id>
+		<name>斜置木书架</name>
+		<prop_id>513</prop_id>
+		<dis_id>21002</dis_id>
+		<pos>-12.77, -0.00, 39.88</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>141</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10012</id>
+		<name>海绵靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21008</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>147</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10013</id>
+		<name>“粉红豹”靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>21009</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>148</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10014</id>
+		<name>海绵单人座沙发</name>
+		<prop_id>201</prop_id>
+		<dis_id>21022</dis_id>
+		<pos>3.82, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>161</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10015</id>
+		<name>海绵双人座沙发</name>
+		<prop_id>205</prop_id>
+		<dis_id>21023</dis_id>
+		<pos>3.14, 0.00, 43.66</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>162</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10016</id>
+		<name>玫瑰花布双人沙发</name>
+		<prop_id>205</prop_id>
+		<dis_id>21028</dis_id>
+		<pos>1.36, 0.00, 39.74</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>167</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10017</id>
+		<name>“粉红豹”富贵床</name>
+		<prop_id>203</prop_id>
+		<dis_id>21040</dis_id>
+		<pos>74.65, 0.00, 40.64</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>179</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10018</id>
+		<name>简易双人床</name>
+		<prop_id>203</prop_id>
+		<dis_id>22002</dis_id>
+		<pos>75.14, 0.00, 36.62</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>32</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10019</id>
+		<name>简易蹲式便池（木纹）</name>
+		<prop_id>2512</prop_id>
+		<dis_id>23003</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>89</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10020</id>
+		<name>“冲锋”豪华坐式马桶</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23010</dis_id>
+		<pos>1.52, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>96</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10021</id>
+		<name>玻璃单身淋浴房</name>
+		<prop_id>2501</prop_id>
+		<dis_id>23017</dis_id>
+		<pos>0.88, 0.75, 1.38</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>103</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10022</id>
+		<name>“佳人”红粉豪华淋浴房</name>
+		<prop_id>2501</prop_id>
+		<dis_id>23019</dis_id>
+		<pos>2.62, 1.00, 1.07</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>105</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10023</id>
+		<name>花瓷洗手池（白）</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23025</dis_id>
+		<pos>-13.84, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>111</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10024</id>
+		<name>青花洗手池</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23026</dis_id>
+		<pos>-15.88, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>112</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10025</id>
+		<name>三角方吊灯</name>
+		<prop_id>3048</prop_id>
+		<dis_id>31042</dis_id>
+		<pos>0.00,220.00,0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>560</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10026</id>
+		<name>超异型座钟（灰）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32000</dis_id>
+		<pos>0.97, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>49</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10027</id>
+		<name>“神咒”家用电脑</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32005</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>54</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10028</id>
+		<name>“昌泓”平板液晶彩电</name>
+		<prop_id>1509</prop_id>
+		<dis_id>32006</dis_id>
+		<pos>-15.27, 0.00, 80.39</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>55</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10029</id>
+		<name>“炎舞”家用组合音响</name>
+		<prop_id>1508</prop_id>
+		<dis_id>32007</dis_id>
+		<pos>10.43, 0.00, 41.37</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>56</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10030</id>
+		<name>“丽升”双声道音响</name>
+		<prop_id>3508</prop_id>
+		<dis_id>32009</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>58</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10031</id>
+		<name>“炎舞”4.1组合音响</name>
+		<prop_id>1508</prop_id>
+		<dis_id>32011</dis_id>
+		<pos>0.00, 0.00, 41.37</pos>
+		<rot>0.00, 0.00, 0.00, -1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>60</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10032</id>
+		<name>“八八高”无绳电话（银灰）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32015</dis_id>
+		<pos>0 5.69 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>64</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10033</id>
+		<name>“贵族”复古电话（白）</name>
+		<prop_id>1504</prop_id>
+		<dis_id>32023</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>72</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10034</id>
+		<name>“魅迪”冷旋风冰柜（红）</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33007</dis_id>
+		<pos>-6.07, 0.00, 0.00</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>82</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10035</id>
+		<name>“掘井人”饮水机</name>
+		<prop_id>1504</prop_id>
+		<dis_id>33010</dis_id>
+		<pos>-19.90, 0.00, 0.00</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>85</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10036</id>
+		<name>“魅迪”双筒洗衣机</name>
+		<prop_id>1501</prop_id>
+		<dis_id>33013</dis_id>
+		<pos>-10.51, 0.00, 0.00</pos>
+		<rot>0.00, -0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>88</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10037</id>
+		<name>挂画《少女与星星》</name>
+		<prop_id>5003</prop_id>
+		<dis_id>34001</dis_id>
+		<pos>-32.82, 160.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>181</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10038</id>
+		<name>挂画《家园》</name>
+		<prop_id>5004</prop_id>
+		<dis_id>34002</dis_id>
+		<pos>-35.88, 160.00, 36.77</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>182</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10039</id>
+		<name>脸谱</name>
+		<prop_id>5003</prop_id>
+		<dis_id>34003</dis_id>
+		<pos>-31.36, 160.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>183</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10040</id>
+		<name>小雪人</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34004</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>184</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10041</id>
+		<name>海豚雕塑</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34006</dis_id>
+		<pos>3.74, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>186</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10042</id>
+		<name>百合花</name>
+		<prop_id>5001</prop_id>
+		<dis_id>34010</dis_id>
+		<pos>-5.78, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>190</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10043</id>
+		<name>吊兰</name>
+		<prop_id>5009</prop_id>
+		<dis_id>34012</dis_id>
+		<pos>0 220 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>192</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10044</id>
+		<name>龟背藤</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34013</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>193</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10045</id>
+		<name>仙人掌</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34014</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>194</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10046</id>
+		<name>马拉巴栗</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34015</dis_id>
+		<pos>-8.84, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>195</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10047</id>
+		<name>小型棕榈盆栽</name>
+		<prop_id>3508</prop_id>
+		<dis_id>34016</dis_id>
+		<pos>2.34, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>196</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10048</id>
+		<name>“皇后”国际象棋桌</name>
+		<prop_id>3501</prop_id>
+		<dis_id>35002</dis_id>
+		<pos>-1.00, 0.00, 0.00</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>199</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10049</id>
+		<name>高级藏书架</name>
+		<prop_id>511</prop_id>
+		<dis_id>35004</dis_id>
+		<pos>-14.74, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>201</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10050</id>
+		<name>S型高级书架</name>
+		<prop_id>3501</prop_id>
+		<dis_id>35005</dis_id>
+		<pos>-12.93, 0.00, 0.00</pos>
+		<rot>0.00, -0.01, 0.00, -1.00</rot>
+		<scale>0.90, 0.90, 0.90</scale>
+		<loop_id>202</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10051</id>
+		<name>异形书架</name>
+		<prop_id>3501</prop_id>
+		<dis_id>35006</dis_id>
+		<pos>-12.69, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>0.90, 0.90, 0.90</scale>
+		<loop_id>203</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10052</id>
+		<name>皇家豪华衣柜</name>
+		<prop_id>3504</prop_id>
+		<dis_id>35011</dis_id>
+		<pos>-11.87, 0.00, 38.47</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>207</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10053</id>
+		<name>简易蹲式便池（木纹）</name>
+		<prop_id>2512</prop_id>
+		<dis_id>23003</dis_id>
+		<pos>0 0 0</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>89</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10054</id>
+		<name>棕木靠背椅</name>
+		<prop_id>201</prop_id>
+		<dis_id>20020</dis_id>
+		<pos>-8.82, 0.00, -0.14</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>230</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10055</id>
+		<name>蛋白石豪华水槽</name>
+		<prop_id>2502</prop_id>
+		<dis_id>23022</dis_id>
+		<pos>-10.32, 0.00, 0.00</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>108</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10056</id>
+		<name>“现代”塑料百叶窗</name>
+		<prop_id>5011</prop_id>
+		<dis_id>20264</dis_id>
+		<pos>-27.00, 0.00, 0.02</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>473</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10057</id>
+		<name>《飞翔的荷兰人》挂画</name>
+		<prop_id>5003</prop_id>
+		<dis_id>20084</dis_id>
+		<pos>-36.53, 160.00, -0.30</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>294</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10058</id>
+		<name>“怀旧”木艺双人床</name>
+		<prop_id>203</prop_id>
+		<dis_id>20217</dis_id>
+		<pos>74.45, -0.00, 40.85</pos>
+		<rot>0.00, 0.00, 0.00, 1.00</rot>
+		<scale>1 1 1</scale>
+		<loop_id>426</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10059</id>
+		<name>粉色电子郁金香(小)</name>
+		<prop_id>3508</prop_id>
+		<dis_id>25018</dis_id>
+		<pos>0.44, 0.00, 0.10</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>534</loop_id>
+	</house_comp>
+	<house_comp>
+		<id>10060</id>
+		<name>“我的乐园，我的家”（棕）</name>
+		<prop_id>5004</prop_id>
+		<dis_id>25107</dis_id>
+		<pos>-35.88, 160.00, 36.77</pos>
+		<rot>0.00, 0.71, 0.00, 0.71</rot>
+		<scale>1 1 1</scale>
+		<loop_id>681</loop_id>
+	</house_comp>
+</root>

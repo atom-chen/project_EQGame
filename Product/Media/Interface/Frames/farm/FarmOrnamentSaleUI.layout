@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="FShopOrnamentSale" >
+        <Property Name="Text" Value="购买装饰" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-154},{0.4,-116},{0.5,155},{0.4,116}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="FShopOrnamentSale/bg" >
+            <Property Name="Image" Value="set:common1 image:Window5_Mid" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,7},{0,30},{1,-7},{1,-7}}" />
+            <Window Type="EQHomeLook/StaticImage3" Name="FShopOrnamentSale/bg/image" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,103},{0,103}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/name" >
+                <Property Name="Font" Value="simsun-16" />
+                <Property Name="TextColours" Value="tl:FF4A9E00 tr:FF4A9E00 bl:FF4A9E00 br:FF4A9E00" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,111},{0,6},{0,270},{0,26}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/pricegold" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="金币价：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,111},{0,35},{0,159},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/period" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="有效期：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,111},{0,107},{0,159},{0,122}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/gold" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FFFF6600 tr:FFFF6600 bl:FFFF6600 br:FFFF6600" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,160},{0,35},{0,228},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/validatyTime" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,156},{0,107},{0,178},{0,122}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FShopOrnamentSale/bg/byeq" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="用EQ币购买" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-170},{1,-24},{1,-87},{1,-6}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FShopOrnamentSale/bg/cancle" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="取消" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-78},{1,-24},{1,-33},{1,-6}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/goldunit" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FFCC3300 tr:FFCC3300 bl:FFCC3300 br:FFCC3300" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,228},{0,35},{0,260},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/priceEq" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="EQ币：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,111},{0,53},{0,155},{0,68}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/eq" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FF0099FF tr:FF0099FF bl:FF0099FF br:FF0099FF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,155},{0,53},{0,178},{0,68}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/equnit" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,182},{0,53},{0,207},{0,68}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/premium" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="特惠价：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,111},{0,71},{0,161},{0,88}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/premiumcontent" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,161},{0,71},{0,269},{0,88}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/premiumdescription " >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FF818181 tr:FF818181 bl:FF818181 br:FF818181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,111},{0,89},{0,292},{0,106}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/exp" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="可获经验：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,196},{0,107},{0,251},{0,122}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/validatyTimeunit" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="天," />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,178},{0,107},{0,194},{0,122}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="FShopOrnamentSale/bg/bygold" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="用金币购买" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton18_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton18_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-262},{1,-24},{1,-179},{1,-6}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/enlighten" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="TextColours" Value="tl:FFCC3300 tr:FFCC3300 bl:FFCC3300 br:FFCC3300" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,70},{1,-45},{1,-70},{1,-30}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="FShopOrnamentSale/bg/expunit" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,254},{0,107},{0,287},{0,122}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,182 @@
+material pubu1
+{
+	technique 
+	{
+		pass
+		{
+		
+			diffuse vertexcolour
+			
+			scene_blend alpha_blend
+emissive 0.3 0.3 0.3
+
+depth_write off
+
+			texture_unit
+			{
+				texture testAnimTex/tga_pubu1.dds
+	   scroll_anim 0 0.6
+	   
+			}
+		}
+
+	}
+
+}
+
+material pubu3
+{
+	technique
+	{
+		pass
+		{
+			
+			diffuse vertexcolour
+			scene_blend alpha_blend
+			
+
+			depth_write off
+                        emissive 0.3 0.3 0.3
+			texture_unit
+			{
+				texture testAnimTex/tga_pubu1.dds
+				scroll 0 -444.406
+				scroll_anim 0 0.2
+			}
+		}
+	}
+}
+
+material pubu5
+{
+	technique
+	{
+		pass
+		{
+			
+			diffuse vertexcolour
+			
+			scene_blend alpha_blend
+			
+                        emissive 0.3 0.3 0.3
+			depth_write off
+			texture_unit
+			{
+				texture testAnimTex/tga_pubu1.dds
+				scroll 0 -78.3686
+				scroll_anim 0 0.3
+			}
+		}
+	}
+}
+
+material pubu_1
+{
+	technique 
+	{
+		pass
+		{
+		
+			diffuse vertexcolour
+			
+			scene_blend alpha_blend
+emissive 0.3 0.3 0.3
+
+depth_write off
+
+			texture_unit
+			{
+				texture testAnimTex/tga_pubu1.dds
+	   scroll_anim 0 0.3
+	   
+			}
+		}
+
+	}
+
+}
+material pubu_3
+{
+    technique
+	{
+		pass
+		{
+			emissive 0.3 0.3 0.3
+			scene_blend alpha_blend
+			
+			depth_write off
+
+			texture_unit
+			{
+				texture testAnimTex/tga_pubu1.dds
+                              scroll_anim 0 0.4
+
+                          
+            }
+        }
+    }
+}
+
+
+material shui1
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.3 0.3 0.3
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture testAnimTex/shui1.dds
+				scroll_anim 0 0.2
+			}
+		}
+	}
+}
+
+
+
+
+
+material xuyuanchi1_00
+{
+	technique
+	{
+		pass
+		{
+			
+			diffuse vertexcolour
+			
+			scene_blend alpha_blend
+			
+                        emissive 0.3 0.3 0.3
+			depth_write off
+			texture_unit
+			{
+				texture testAnimTex/xuyuanchi1_00.dds
+				scroll_anim -0.3 0
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,680 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\HouseEditor.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""          // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\HouseEditor.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_BUTTON_COMPONENT
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_BUTTON_GRID
+    BUTTON      ID_BUTTON_PROPERTY
+    BUTTON      ID_BUTTON32779
+    BUTTON      ID_BUTTON32788
+    BUTTON      ID_BUTTON32789
+    BUTTON      ID_BUTTON32793
+    BUTTON      ID_BUTTON32794
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "打开",                          ID_APP_OPEN
+        MENUITEM "导入OgreScene",                 ID_APP_IMPORTSCENE
+        MENUITEM "关闭",                          ID_APP_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "保存房屋",                        ID_APP_SAVEHOUSE
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM "恢复(&R)\tCtrl+Y",              ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        MENUITEM "显示所有面板",                      ID_SHOW_PANEL
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 HouseEditor(&o)...",       ID_APP_ABOUT
+    END
+    POPUP "其它"
+    BEGIN
+        MENUITEM "测试自动寻路",                      ID_TEST_AUTO_FIND_PATH
+        MENUITEM "加载/移除农场",                     ID_LOAD_REMOVE_FARM_SCENE
+        MENUITEM "执行农场脚本",                      ID_RUN_FARM_SCRIPT
+        MENUITEM "地形阴影",                        ID_TERRAIN_SHADOWMAP
+        MENUITEM "透视/平行视图",                     ID_PROJ_VIEW
+        MENUITEM "测试室外剔除",                      ID_TEST_OUTSIDE_CUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 HouseEditor"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "HouseEditor, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_BOTTOM_COMM DIALOGEX 0, 0, 399, 61
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_BC_CAM_RATESLD,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,13,86,11
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,96,0,1,59
+    LTEXT           "摄像机速率:",IDC_STATIC,7,2,44,8
+    EDITTEXT        IDC_BC_CAM_RATE,53,0,40,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "上层",IDC_BC_HOUSE_UP,99,0,21,14
+    PUSHBUTTON      "下层",IDC_BC_HOUSE_DOWN,120,0,21,14
+    COMBOBOX        IDC_BC_HOUSE_MODE,100,15,32,56,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,144,0,1,59
+    EDITTEXT        IDC_BC_HOUSE_CURRFLOOR,132,14,8,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "世界网格",IDC_BC_CAM_WORLD_GRID,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,7,25,39,13
+    LTEXT           "网格显示",IDC_STATIC,147,2,33,8
+    COMBOBOX        IDC_BC_GRID_MODE,147,12,33,70,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,183,0,1,59
+    LTEXT           "地形笔刷",IDC_STATIC,191,2,33,8
+    COMBOBOX        IDC_BC_BRUSH_TYPE,187,12,41,44,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_BC_BRUSH_SPIN_Z,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,218,41,11,14
+    CONTROL         "",IDC_BC_BRUSH_SPIN_X,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,218,25,11,14
+    EDITTEXT        IDC_BC_BRUSH_SIZE_X,194,25,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_BC_BRUSH_SIZE_Z,194,41,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "X",IDC_STATIC,186,28,8,8
+    LTEXT           "Z",IDC_STATIC,186,44,8,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,231,0,1,59
+    CONTROL         "地表网格",IDC_BC_CAM_TERRGRID,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,51,25,39,13
+    CONTROL         "地图边界",IDC_BC_CAM_EDGE,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,7,39,39,13
+END
+
+IDD_HOUSE_GRID DIALOGEX 0, 0, 120, 242
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "当前楼层",IDC_STATIC,0,0,120,46
+    CONTROL         "辅助平面",IDC_HG_ASSPLA,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,1,12,38,12
+    LTEXT           "半径",IDC_STATIC,42,14,17,8
+    EDITTEXT        IDC_HG_ASSPLA_GRID,61,12,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "格子",IDC_STATIC,91,15,17,8
+    EDITTEXT        IDC_HG_FLOORHEI,23,29,26,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    CONTROL         "",IDC_HG_FLOORHEI_SLD,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,52,30,68,12
+    GROUPBOX        "网格",IDC_STATIC,0,48,120,63
+    CONTROL         "增减网格",IDC_HG_CREATEGRID,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,4,59,39,14
+    CONTROL         "增减墙体",IDC_HG_WALLGRID,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,4,75,39,14
+    LTEXT           "楼层",IDC_STATIC,3,32,17,8
+    COMBOBOX        IDC_HG_GRIDTYPE,45,60,73,123,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "增减连通点",IDC_HG_STAIRGRID,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,4,91,46,14
+    GROUPBOX        "房间",IDC_STATIC,0,113,120,27
+    CONTROL         "编辑房间",IDC_HG_EDITROOM,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,4,123,39,14
+    COMBOBOX        IDC_HG_ROOMID,45,123,73,123,CBS_DROPDOWNLIST | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SAVE DIALOGEX 0, 0, 242, 28
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "打开资源"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,185,7,50,14
+    EDITTEXT        IDC_OSEC_RESNAME,7,7,176,14,ES_AUTOHSCROLL
+END
+
+IDD_SCENE_DLG DIALOGEX 0, 0, 128, 161
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,19,14,87,125
+END
+
+IDD_COMP_DLG DIALOGEX 0, 0, 151, 144
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,65,78,71
+    COMBOBOX        IDC_PUTMODE,44,8,56,45,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "摆放模式",IDC_STATIC,7,11,33,8
+    LTEXT           "查找",IDC_STATIC,7,26,17,8
+    EDITTEXT        IDC_FIND,31,23,68,13,ES_AUTOHSCROLL
+END
+
+IDD_OPEN DIALOGEX 0, 0, 114, 154
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择户型"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,32,133,50,14
+    LISTBOX         IDC_OPENLIST,8,8,97,118,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_BRUSH_SELECTOR DIALOGEX 0, 0, 121, 304
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_BS_PIXMAP_LIST,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,0,111,121,192
+    CONTROL         "",IDC_BS_PIXMAP_PREVIEW,"Static",SS_BITMAP | WS_BORDER,0,50,16,14
+    CONTROL         "水平翻转",IDC_BS_FLIP_HORIZONTAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,49,48,10
+    CONTROL         "垂直翻转",IDC_BS_FLIP_VERTICAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,58,48,10
+    CONTROL         "右转90度",IDC_BS_ROTATE_RIGHT_ANGLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,67,48,10
+    CONTROL         "对角镜像",IDC_BS_RMIRROR_DIAGONAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,76,49,10
+    CONTROL         "随机",IDC_BS_RANDOM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,85,32,10
+    CONTROL         "预览",IDC_BS_ENABLE_PIXMAP_PREVIEW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,95,32,10
+    PUSHBUTTON      "刷",IDC_BS_RELOAD_PIXMAP_LIST,38,92,12,14
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,47,121,1,WS_EX_DLGMODALFRAME
+    LTEXT           "地形调整",IDC_STATIC,0,0,33,8
+    COMBOBOX        IDC_BS_TERRAIN_MODIFY,4,13,64,117,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_BS_TERRAIN_VALUE,73,13,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BS_AFFECT_RANGE,4,30,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_BS_EXP_VALUE,50,30,40,14,ES_AUTOHSCROLL
+    CONTROL         "填充一格",IDC_BS_PAINT_ONE_GRID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,94,48,10
+END
+
+IDD_RESHAPE_TERRAIN_DLG DIALOGEX 0, 0, 83, 105
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "扩容地形"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,16,84,50,14
+    EDITTEXT        IDC_RT_LEFT,36,7,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RT_RIGHT,36,23,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RT_TOP,36,39,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RT_DOWN,36,55,40,14,ES_AUTOHSCROLL
+    LTEXT           "左(-x):",IDC_STATIC,7,9,24,8
+    LTEXT           "右(+x):",IDC_STATIC,7,25,26,8
+    LTEXT           "上(-z):",IDC_STATIC,7,42,23,8
+    LTEXT           "下(+z):",IDC_STATIC,7,57,26,8
+    LTEXT           "想缩小就取负值",IDC_STATIC,13,73,57,8
+END
+
+IDD_CREATE_TERRAIN_DLG DIALOGEX 0, 0, 93, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "创建地形"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,22,50,50,14
+    LTEXT           "宽度x(格):",IDC_STATIC,7,9,37,8
+    LTEXT           "深度z(格):",IDC_STATIC,7,24,36,8
+    EDITTEXT        IDC_CT_WIDTH,46,7,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_CT_DEPTH,46,22,40,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_SCENE_OBJECT DIALOGEX 0, 0, 121, 243
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SO_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,13,49,98,91
+    CONTROL         "选",IDC_SO_SELECT,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,5,0,19,14
+    CONTROL         "移",IDC_SO_MOVE,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,35,0,19,14
+    CONTROL         "旋",IDC_SO_ROTATION,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,68,0,19,14
+    CONTROL         "缩",IDC_SO_SCALE,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,97,0,19,14
+    LTEXT           "查找",IDC_STATIC,8,21,20,10
+    EDITTEXT        IDC_EDIT1,35,19,73,12,ES_AUTOHSCROLL
+END
+
+IDD_TERR_SHADOWMAP DIALOGEX 0, 0, 186, 150
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "地形阴影"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,75,129,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,129,50,14
+    PUSHBUTTON      "更新地图阴影",IDC_TSM_UPDATE_SHADOWMAP,7,26,172,14
+    GROUPBOX        "Option",IDC_STATIC,7,61,172,62
+    CONTROL         "关闭地形阴影",IDC_TSM_OPT1,"Button",BS_AUTORADIOBUTTON,12,74,64,10
+    CONTROL         "显示低质量地形阴影",IDC_TSM_OPT2,"Button",BS_AUTORADIOBUTTON,12,89,88,10
+    CONTROL         "显示高质量地形阴影",IDC_TSM_OPT3,"Button",BS_AUTORADIOBUTTON,12,104,88,10
+    LTEXT           "阴影强度(0~1):",IDC_STATIC,7,10,54,8
+    EDITTEXT        IDC_TSM_DENSITY,65,7,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,7,52,172,1,WS_EX_DLGMODALFRAME
+END
+
+IDD_PATH_SEARCH DIALOGEX 0, 0, 121, 240
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "区域",IDC_STATIC,3,9,17,8
+    LISTBOX         IDC_PS_REGION_LIST,0,18,47,81,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "点",IDC_STATIC,53,8,9,8
+    LISTBOX         IDC_PS_POINT_LIST,49,18,71,81,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "添加新的区域",IDC_PS_ADDREGION,4,100,50,14
+    PUSHBUTTON      "删除区域",IDC_PS_DELREGION,3,114,50,14
+    PUSHBUTTON      "创建区域",IDC_PS_CREATEAREA,67,100,50,14
+    PUSHBUTTON      "检查并创建所有区域",IDC_PS_CHECKCREATEALLAREA,4,129,112,14
+    PUSHBUTTON      "?",IDC_BUTTON4,108,8,12,10
+    PUSHBUTTON      "刷新边界",IDC_PS_REFLASHEDGE,2,156,50,14
+    PUSHBUTTON      "调整边界",IDC_PS_MODIFYEDGE,67,156,50,14
+    GROUPBOX        "地图边界",IDC_STATIC,0,147,121,26
+    GROUPBOX        "区域编辑",IDC_STATIC,0,0,121,146
+    PUSHBUTTON      "检查并生成生成导航网格",IDC_PS_CREATE_NAVGRID,4,194,113,14
+    LTEXT           "执行这个命令有一定几率挂掉:(",IDC_STATIC,4,184,110,8
+    PUSHBUTTON      "隐藏/显示",IDC_PS_SHOW_NAV,4,210,50,14
+    GROUPBOX        "导航网格",IDC_STATIC,0,174,121,62
+    PUSHBUTTON      "寻路测试",IDC_PS_TESTNAVPATH,67,210,50,14
+END
+
+IDD_LIGHT_ADJUST DIALOGEX 0, 0, 267, 87
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "灯光调节助手"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "衰减",IDC_STATIC,7,4,254,74
+    EDITTEXT        IDC_EDIT_RANGE_B,80,15,25,12,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SCROLLBAR_RANGE,108,15,122,12
+    EDITTEXT        IDC_EDIT_RANGE_E,232,15,25,12,ES_AUTOHSCROLL
+    LTEXT           "范围",IDC_STATIC,10,15,32,12
+    EDITTEXT        IDC_EDIT_CONST_B,80,29,25,12,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SCROLLBAR_CONST,108,29,122,12
+    EDITTEXT        IDC_EDIT_CONST_E,232,29,25,12,ES_AUTOHSCROLL
+    LTEXT           "常熟衰减",IDC_STATIC,10,29,32,12
+    EDITTEXT        IDC_EDIT_LINE_B,80,44,25,12,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SCROLLBAR_LINE,108,44,122,12
+    EDITTEXT        IDC_EDIT_LINE_E,232,44,25,12,ES_AUTOHSCROLL
+    LTEXT           "线性衰减",IDC_STATIC,10,44,32,12
+    EDITTEXT        IDC_EDIT_QUAD_B,80,59,25,12,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SCROLLBAR_QUAD,108,59,122,12
+    EDITTEXT        IDC_EDIT_QUAD_E,232,59,25,12,ES_AUTOHSCROLL
+    LTEXT           "二次衰减",IDC_STATIC,10,59,32,12
+    EDITTEXT        IDC_EDIT_RANGE_P,46,15,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CONST_P,46,29,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LINE_P,46,44,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_QUAD_P,46,59,25,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "HouseEditor.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "HouseEditor.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_BOTTOM_COMM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 392
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_SAVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 21
+    END
+
+    IDD_SCENE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 121
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_COMP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_OPEN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 107
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_RESHAPE_TERRAIN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 76
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_CREATE_TERRAIN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 86
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_TERR_SHADOWMAP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_LIGHT_ADJUST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_COMP_DLG DLGINIT
+BEGIN
+    IDC_PUTMODE, 0x403, 11, 0
+0xe0b1, 0xadbc, 0xf7c6, 0xa3c4, 0xbdca, "\000" 
+    IDC_PUTMODE, 0x403, 9, 0
+0xe6cd, 0xd2bc, 0xa3c4, 0xbdca, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "HouseEditor"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "HouseEditor"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+    ID_INDICATOR_RAY_POS    "坐标                             "
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "恢复上次撤消的操作\n重做"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小为图标"
+    AFX_IDS_SCMAXIMIZE      "使窗口最大化显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到前一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_32771                "导入OgreMax的.Scene文件"
+    ID_APP_IMPORTSCENE      "导入OgreMax的Scene文件"
+    ID_APP_SAVEHOUSE        "保存房屋场景"
+    ID_APP_OPEN             "打开房屋场景"
+    ID_BUTTON_GRID          "a"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BUTTON_COMPONENT     "a"
+    ID_BUTTON_PROPERTY      "a"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_HINT          "                                                        "
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\HouseEditor.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"          // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

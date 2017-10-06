@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="LightCue" Imagefile="LightCue\LightCue.dds" >
+    <Image Name="LightCue01" XPos="0" YPos="0" Width="34" Height="34" />
+    <Image Name="LightCue02" XPos="34" YPos="0" Width="34" Height="34" />
+    <Image Name="LightCue03" XPos="68" YPos="0" Width="34" Height="34" />
+    <Image Name="LightCue04" XPos="102" YPos="0" Width="34" Height="34" />
+    <Image Name="LightCue05" XPos="136" YPos="0" Width="34" Height="34" />
+    <Image Name="LightCue06" XPos="170" YPos="0" Width="34" Height="34" />
+    <Image Name="LightCue07" XPos="204" YPos="0" Width="34" Height="34" />
+    <Image Name="LightCue08" XPos="0" YPos="34" Width="34" Height="34" />
+    <Image Name="LightCue09" XPos="34" YPos="34" Width="34" Height="34" />
+    <Image Name="LightCue10" XPos="68" YPos="34" Width="34" Height="34" />
+    <Image Name="LightCue11" XPos="102" YPos="34" Width="34" Height="34" />
+    <Image Name="LightCue12" XPos="136" YPos="34" Width="34" Height="34" />
+    <Image Name="LightCue13" XPos="170" YPos="34" Width="34" Height="34" />
+    <Image Name="LightCue14" XPos="204" YPos="34" Width="34" Height="34" />
+    <Image Name="LightCue15" XPos="0" YPos="68" Width="34" Height="34" />
+    <Image Name="LightCue16" XPos="34" YPos="68" Width="34" Height="34" />
+    <Image Name="LightCue17" XPos="68" YPos="68" Width="34" Height="34" />
+    <Image Name="LightCue18" XPos="102" YPos="68" Width="34" Height="34" />
+    <Image Name="LightCue19" XPos="136" YPos="68" Width="34" Height="34" />
+    <Image Name="LightCue20" XPos="170" YPos="68" Width="34" Height="34" />
+</Imageset>

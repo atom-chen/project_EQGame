@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage1" Name="lwchuangkou1" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,100},{0,100},{0,500},{0,400}}" />
+        <Window Type="NewEQHomeLook/NewFrameWindowChildStaticImage" Name="lwchuangkou/chuangkou1" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,12},{0,12},{1,-12},{1,-12}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="lwchuangkou/chuangkou1/anjian1" >
+                <Property Name="Image" Value="set:liwu002 image:songli_02" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,70},{0,50},{0,160},{0,140}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="lwchuangkou/chuangkou1/anjian2" >
+                <Property Name="Image" Value="set:liwu002 image:songli_01" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,220},{0,50},{0,310},{0,140}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou/chuangkou1/biaoti1" >
+                <Property Name="Font" Value="simsun-12" />
+                <Property Name="Text" Value="礼盒制作" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,76},{0,144},{0,156},{0,169}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou/chuangkou1/biaoti11" >
+                <Property Name="Font" Value="simsun-12" />
+                <Property Name="Text" Value="快递礼物" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,226},{0,144},{0,306},{0,169}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou/chuangkou1/biaoti12" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" >    制作好的礼盒需要
+亲自送到别人家中，送
+礼亲自上门更有诚意</Property>
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,46},{0,170},{0,177},{0,230}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou/chuangkou1/biaoti121" >
+                <Property Name="Text" >    快递礼物可以直接
+发送给对方，操作起来
+更方便</Property>
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,197},{0,170},{0,328},{0,230}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="lwchuangkou/chuangkou1/likai" >
+                <Property Name="Text" Value="离 开" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,160},{0,237},{0,220},{0,263}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="lwchuangkou/chuangkou1/songlifangshi" >
+                <Property Name="Font" Value="simsun-14" />
+                <Property Name="Text" Value="请选择送礼方式" />
+                <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,114},{0,10},{0,264},{0,40}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

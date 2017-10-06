@@ -1,0 +1,40 @@
+// Bloom an area using gaussian distribution
+fragment_program Ogre/Compositor/HDR/bloomHLSL_fp hlsl
+{
+	source GaussianBlur.hlsl
+	entry_point bloom
+	target ps_2_0
+}
+
+fragment_program Ogre/Compositor/HDR/bloom_fp unified
+{
+	delegate Ogre/Compositor/HDR/bloomHLSL_fp
+}
+
+material Ogre/Compositor/HDR/GaussianBloom
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			depth_check off
+
+			vertex_program_ref Ogre/Compositor/StdQuad_vp
+			{
+			}
+			fragment_program_ref Ogre/Compositor/HDR/bloom_fp
+			{
+			}
+
+			// Input 
+			texture_unit
+			{
+                tex_coord_set 0
+				tex_address_mode clamp
+				filtering none 
+			}
+		}
+	}
+}

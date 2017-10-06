@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EQScene name="00001001">
+    <Ambient ChangeTime="3000" DayAmbient="0.627451 0.627451 0.776471" DayDiffuse="0.984314 0.839216 0.686275" DaySpecular="0 0 0" DayMainDir="-1 -1 -1" DayFogColor="0 0 0" DayFogParam="0 0 0 0" DaySkybox="" NightAmbient="0.203922 0.184314 0.384314" NightDiffuse="0.784314 1 1" NightSpecular="0 0 0" NightMainDir="-1 -1 -1" NightFogColor="0 0 0" NightFogParam="0 0 0 0" NightSkybox="" Contrast="1.2" />
+    <House filename="00001001.house" />
+    <Terrain filename="00001001.Terrain" />
+    <Edge value="-2000.000000 -2000.000000 2000.000000 2000.000000" />
+    <Entity id="1005" pos="360.272 0 -200.016" />
+</EQScene>

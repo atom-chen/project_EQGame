@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="buy_dog_food" >
+        <Property Name="Text" Value="购买狗狗粮食" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,163},{0,107},{0,463},{0,337}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="buy_dog_food/background" >
+            <Property Name="Image" Value="set:common1 image:Window5_Mid" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,24},{1,-5},{1,-6}}" />
+            <Window Type="EQHomeLook/StaticImage6" Name="buy_dog_food/background/icon" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{0,76},{0,76}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog_food/background/name" >
+                <Property Name="Font" Value="simsun-15" />
+                <Property Name="TextColours" Value="tl:FF339933 tr:FF339933 bl:FF339933 br:FF339933" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,10},{0,250},{0,30}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog_food/background/cost" >
+                <Property Name="Text" Value="EQ币：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,35},{0,145},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog_food/background/count" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,148},{0,35},{0,240},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog_food/background/type" >
+                <Property Name="Text" Value="类  型：狗粮" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,55},{0,184},{0,70}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog_food/background/intro" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,75},{0,285},{0,157}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="buy_dog_food/background/tostorage" >
+                <Property Name="Text" Value="存放到仓库" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,31},{0,160},{0,109},{0,178}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="buy_dog_food/background/todoghouse" >
+                <Property Name="Text" Value="添加到狗窝" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,120},{0,160},{0,198},{0,178}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="buy_dog_food/background/cancel" >
+                <Property Name="Text" Value="取消" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,210},{0,160},{0,260},{0,178}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="buy_dog_food/background/minus" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton94_pushed" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton94_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton94_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,80},{0,23},{0,102}}" />
+            </Window>
+            <Window Type="EQHomeLook/Editbox3" Name="buy_dog_food/background/counts" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,24},{0,82},{0,67},{0,100}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="buy_dog_food/background/add" >
+                <Property Name="HoverImage" Value="set:Button1 image:imagebutton95_Pushed" />
+                <Property Name="NormalImage" Value="set:Button1 image:imagebutton95_normal" />
+                <Property Name="PushedImage" Value="set:Button1 image:imagebutton95_normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,68},{0,80},{0,81},{0,102}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

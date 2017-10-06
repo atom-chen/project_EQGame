@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="selllog" >
+        <Property Name="Font" Value="simsun-10" />
+        <Property Name="Text" Value="消费记录" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,1},{0,1},{0,268},{0,294}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="selllog/Background" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,16},{0,42},{0,253},{0,269}}" />
+            <Window Type="NewEQHomeLook/NewVerticalScrollbar" Name="selllog/bar" >
+                <Property Name="PageSize" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,218},{0,7},{0,233},{0,221}}" />
+            </Window>
+            <Window Type="NewEQHomeLook/NewStaticImage5" Name="selllog/Background/frame" >
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,4},{0,7},{0,216},{0,221}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="selllog/Background/txt" >
+                <Property Name="Font" Value="simsun-12" />
+                <Property Name="TextColours" Value="tl:FF1BADAC tr:FF1BADAC bl:FF1BADAC br:FF1BADAC" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,5},{0,8},{0,215},{0,220}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

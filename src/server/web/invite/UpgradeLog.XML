@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="web">
+</Property><Property Name="Solution File" Value="E:\work\eq\trunk\src\server\web\invite\web.sln">
+</Property><Property Name="Date" Value="2011年4月1日">
+</Property><Property Name="Time" Value="9:59:28">
+</Property></Properties><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress.csproj" Description="Project file successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress.csproj">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\AssemblyInfo.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\Address126.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\Address126.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\Address163.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\Address163.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\AddressBase.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\AddressBase.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\AddressGmail.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\AddressGmail.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\AddressHotMail.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\AddressHotMail.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\AddressQQ.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\AddressQQ.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\AddressSina.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\AddressSina.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\AddressSohu.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\AddressSohu.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\AddressTom.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\AddressTom.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\AddressYahoo.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\AddressYahoo.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\AddressYeah.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\AddressYeah.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\GetAddressByMsn.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\GetAddressByMsn.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\GetAddressStatus.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\GetAddressStatus.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\GetContactPerson.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\GetContactPerson.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress\Person.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\GetEmailAddress\Person.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\Global.cs" Description="File successfully backed up as E:\work\eq\trunk\src\server\web\invite\Backup\Global.cs">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GetEmailAddress" Source="GetEmailAddress\GetEmailAddress.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

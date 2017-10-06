@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="UselessWindow" >
+        <Property Name="Font" Value="simsun-16" />
+        <Property Name="Text" Value="消息提示" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.2,0},{0.601001,0},{0.580342,0}}" />
+        <Window Type="EQHomeLook/StaticText" Name="UselessWindow/Words" >
+            <Property Name="Font" Value="simsun-16" />
+            <Property Name="Text" Value="该功能还没有正式推出，敬请期待！" />
+            <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0888567,0},{0.297753,0},{0.911384,0},{0.75,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

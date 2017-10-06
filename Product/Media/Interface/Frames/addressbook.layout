@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="addressbook" >
+        <Property Name="Text" Value="电话薄" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,177},{0,79},{0,456},{0,333}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="addressbook/" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,23},{0,2},{0,67},{0,19}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="addressbook/zhuchuangkou" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,6},{0,24},{1,-6},{1,-7}}" />
+            <Window Type="EQHomeLook/ImageButton" Name="addressbook/zhuchuangkou/dianhuahaoma1" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="顶好家政公司" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF00FFFC" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,20},{0,250},{0,43}}" />
+                <Property Name="NormalTextColour" Value="FF00FFFC" />
+                <Property Name="PushedTextColour" Value="FF1BADAC" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="addressbook/zhuchuangkou/dianhuahaoma2" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,43},{0,250},{0,67}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="addressbook/zhuchuangkou/dianhuahaoma3" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,67},{0,250},{0,91}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="addressbook/zhuchuangkou/dianhuahaoma4" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,91},{0,250},{0,115}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="addressbook/zhuchuangkou/dianhuahaoma5" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,115},{0,250},{0,139}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="addressbook/zhuchuangkou/dianhuahaoma6" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,139},{0,250},{0,163}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="addressbook/zhuchuangkou/dianhuahaoma7" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="HoverImage" Value="set:Button6 image:NewImage16" />
+                <Property Name="NormalImage" Value="set:Button6 image:NewImage1" />
+                <Property Name="PushedImage" Value="set:Button6 image:NewImage17" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,18},{0,163},{0,250},{0,187}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="addressbook/zhuchuangkou/likai" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="离 开" />
+                <Property Name="HoverImage" Value="set:Button5 image:NewImage337" />
+                <Property Name="NormalImage" Value="set:Button5 image:NewImage335" />
+                <Property Name="PushedImage" Value="set:Button5 image:NewImage339" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFEBE5E5" />
+                <Property Name="UnifiedAreaRect" Value="{{0,201},{0,188},{0,246},{0,214}}" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFD6C2C2" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

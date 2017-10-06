@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow1" Name="NewFrameWindow1" >
+        <Property Name="Text" Value="我的瓶子" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-182},{0.5,-172},{0.5,178},{0.5,138}}" />
+        <Window Type="EQHomeLook/ImageButton" Name="NewFrameWindow1/" >
+            <Property Name="Text" Value="收到的瓶子" />
+            <Property Name="Tooltip" Value="捞到的瓶子" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage297" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage296" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage298" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0,75},{0,32},{0,175},{0,58}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="NewFrameWindow1/1" >
+            <Property Name="Text" Value="扔出的瓶子" />
+            <Property Name="Tooltip" Value="扔出的瓶子" />
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage432" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage431" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage433" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FFEBE5E5" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,169},{0,32},{0.05,269},{0,58}}" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFD6C2C2" />
+        </Window>
+        <Window Type="DefaultWindow" Name="NewFrameWindow1/xinxi1" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,66},{1,-13},{0,116}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="NewFrameWindow1/xinxi/touxiang1" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{0,48},{1,-2}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="NewFrameWindow1/xinxi/1" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,50},{0,2},{0,250},{1,-2}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="NewFrameWindow1/xinxi/time1" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-78},{0,2},{1,0},{0,46}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="NewFrameWindow1/xinxi2" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,121},{1,-13},{0,171}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="NewFrameWindow1/xinxi/touxiang2" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{0,48},{1,-2}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="NewFrameWindow1/xinxi/2" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,50},{0,2},{0,250},{1,-2}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="NewFrameWindow1/xinxi/time2" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-78},{0,2},{1,0},{0,46}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="NewFrameWindow1/xinxi3" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,176},{1,-13},{0,226}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="NewFrameWindow1/xinxi/touxiang3" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{0,48},{1,-2}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="NewFrameWindow1/xinxi/3" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,50},{0,2},{0,250},{1,-2}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="NewFrameWindow1/xinxi/time3" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-78},{0,2},{1,0},{0,46}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="NewFrameWindow1/xinxi4" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{0,231},{1,-13},{0,281}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="NewFrameWindow1/xinxi/touxiang4" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{0,48},{1,-2}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="NewFrameWindow1/xinxi/4" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,50},{0,2},{0,250},{1,-2}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="NewFrameWindow1/xinxi/time4" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{1,-78},{0,2},{1,0},{0,46}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="NewFrameWindow1/xian1" >
+            <Property Name="Image" Value="set:Button5 image:NewImage140" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0.05,277},{0,150},{0.05,280}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="NewFrameWindow1/zuo" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage141" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage141" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,150},{0.05,272},{0,162},{0.05,284}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="NewFrameWindow1/xian11" >
+            <Property Name="Image" Value="set:Button5 image:NewImage140" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,191},{0.05,277},{0.05,321},{0.05,280}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="NewFrameWindow1/zuo1" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage139" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage139" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,179},{0.05,272},{0.05,191},{0.05,284}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="NewFrameWindow1/yeshu" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,165},{0,284},{0,197},{0,302}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

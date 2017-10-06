@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<House>
+    <Material file="00500006.material" />
+    <Floors rootNO="1">
+        <Floor NO="1" height="0">
+            <Grids />
+            <Walls />
+        </Floor>
+    </Floors>
+    <Components>
+        <Comp name="00500006_edgetcx_100_00" frame="true" compTyp="6" mesh="00500006_edgetcx_100_00.mesh" pos="0 10 -4.37114e-007" flr="1" room="0" />
+        <Comp name="00500006_floor_100_00" frame="true" compTyp="2" mesh="00500006_floor_100_00.mesh" pos="0 0.1 -4.37114e-009" flr="1" room="0" />
+        <Comp name="00500006_outedge_100_00" frame="true" compTyp="3" mesh="00500006_outedge_100_00.mesh" pos="320 150 5.44784e-005" flr="1" room="0" />
+        <Comp name="00500006_outedge_100_01" frame="true" compTyp="3" mesh="00500006_outedge_100_01.mesh" pos="7.05713e-005 150 -480" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00500006_outedge_100_02" frame="true" compTyp="3" mesh="00500006_outedge_100_02.mesh" pos="-320 150 -6.75919e-005" rot="1.19249e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00500006_outedge_100_03" frame="true" compTyp="3" mesh="00500006_outedge_100_03.mesh" pos="-6.10352e-005 150 480" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+        <Comp name="00500006_outwall_100_00" frame="true" compTyp="3" mesh="00500006_outwall_100_00.mesh" pos="-6.121e-005 150 484" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+        <Comp name="00500006_outwall_100_00_1" frame="true" compTyp="3" mesh="00500006_outwall_100_00_1.mesh" pos="324 150 5.44784e-005" flr="1" room="0" />
+        <Comp name="00500006_outwall_100_00_2" frame="true" compTyp="3" mesh="00500006_outwall_100_00_2.mesh" pos="271.237 139.691 5.4929e-005" flr="1" room="0" />
+        <Comp name="00500006_outwall_100_01" frame="true" compTyp="3" mesh="00500006_outwall_100_01.mesh" pos="9.73244e-005 150 -484" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00500006_outwall_100_01_1" frame="true" compTyp="3" mesh="00500006_outwall_100_01_1.mesh" pos="-0.481812 150.233 -473.318" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00500006_outwall_100_02" frame="true" compTyp="3" mesh="00500006_outwall_100_02.mesh" pos="-324 150 -3.77737e-005" rot="1.19249e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00500006_outwall_100_02_1" frame="true" compTyp="3" mesh="00500006_outwall_100_02_1.mesh" pos="-145.249 140.683 -7.67214e-005" rot="-4.37114e-008 3.82137e-015 1 4.37114e-008" flr="1" room="0" />
+        <Comp name="00500006_outwall_100_03" frame="true" compTyp="3" mesh="00500006_outwall_100_03.mesh" pos="-0.493927 150 472.661" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+        <Comp name="00500006_tcx_100_00" frame="true" compTyp="6" mesh="00500006_tcx_100_00.mesh" pos="-0.455429 9.97293 -0.0169835" flr="1" room="0" />
+        <Comp name="00500006_tcx_100_00_1" frame="true" compTyp="6" mesh="00500006_tcx_100_00_1.mesh" pos="324 10 6.0598e-005" flr="1" room="0" />
+        <Comp name="00500006_tcx_100_01" frame="true" compTyp="6" mesh="00500006_tcx_100_01.mesh" pos="3.98788e-005 9.99998 -484" rot="0.707107 0 0.707107 -3.09086e-008" flr="1" room="0" />
+        <Comp name="00500006_tcx_100_02" frame="true" compTyp="6" mesh="00500006_tcx_100_02.mesh" pos="-324 10 8.04803e-006" rot="1.19249e-008 0 1 -4.37114e-008" flr="1" room="0" />
+        <Comp name="00500006_tcx_100_03" frame="true" compTyp="6" mesh="00500006_tcx_100_03.mesh" pos="-6.10352e-005 10 484" rot="0.707107 0 -0.707107 3.09086e-008" flr="1" room="0" />
+    </Components>
+    <LinkGrids />
+</House>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewStaticImage6" Name="friendlist_manage" >
+        <Property Name="FrameEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,272},{0,135},{0,446},{0,258}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="friendlist_manage/background" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,3},{0,0},{0,24},{1,0}}" />
+            <Window Type="EQHomeLook/StaticImage" Name="friendlist_manage/background/whisper" >
+                <Property Name="Image" Value="set:Button3 image:ImageButton27_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,4},{0,19},{0,20}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="friendlist_manage/background/" >
+                <Property Name="Image" Value="set:Button3 image:ImageButton28_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,23},{0,19},{0,40}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="friendlist_manage/background/invite" >
+                <Property Name="Image" Value="set:Button3 image:ImageButton32_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,44},{0,19},{0,60}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="friendlist_manage/background/check" >
+                <Property Name="Image" Value="set:Button3 image:ImageButton29_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,63},{0,19},{0,79}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="friendlist_manage/background/mail" >
+                <Property Name="Image" Value="set:Button3 image:ImageButton30_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,83},{0,19},{0,99}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticImage" Name="friendlist_manage/background/Unfriend" >
+                <Property Name="Image" Value="set:Button3 image:ImageButton31_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,2},{0,101},{0,19},{0,117}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="friendlist_manage/whisper1" >
+            <Property Name="Text" Value="悄悄话               " />
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="NormalImage" Value="1" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,24},{0,3},{0,170},{0,23}}" />
+            <Property Name="NormalTextColour" Value="FF5C96FF " />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="friendlist_manage/channel1" >
+            <Property Name="Text" Value="访问Ta的             " />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,24},{0,22},{0,170},{0,42}}" />
+            <Property Name="NormalTextColour" Value="FF5C96FF " />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+            <Window Type="EQHomeLook/ImageButton" Name="friendlist_manage/channel1/home" >
+                <Property Name="HoverImage" Value="set:Button3 image:ImageButton23_Hover" />
+                <Property Name="NormalImage" Value="set:Button3 image:ImageButton23_Normal" />
+                <Property Name="PushedImage" Value="set:Button3 image:ImageButton23_Normal" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,55},{0,2},{0,71},{0,18}}" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="friendlist_manage/invute1" >
+            <Property Name="Text" Value="邀请对方进去自己的家园" />
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,24},{0,41},{0,170},{0,61}}" />
+            <Property Name="NormalTextColour" Value="FF5C96FF " />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="friendlist_manage/check1" >
+            <Property Name="Text" Value="查看好友资料         " />
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="NormalImage" Value="1" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,23},{0,59},{0,169},{0,79}}" />
+            <Property Name="NormalTextColour" Value="FF5C96FF " />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="friendlist_manage/mail1" >
+            <Property Name="Text" Value="发送邮件             " />
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="NormalImage" Value="1" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,24},{0,78},{0,170},{0,98}}" />
+            <Property Name="NormalTextColour" Value="FF5C96FF " />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="friendlist_manage/unfeirend" >
+            <Property Name="Text" Value="删除好友             " />
+            <Property Name="HoverImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="NormalImage" Value="1" />
+            <Property Name="PushedImage" Value="set:window2 image:farm_freindlist2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF00FFFC" />
+            <Property Name="UnifiedAreaRect" Value="{{0,-4},{0,97},{0,142},{0,117}}" />
+            <Property Name="NormalTextColour" Value="FF5C96FF " />
+            <Property Name="PushedTextColour" Value="FF1BADAC" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+        </Window>
+    </Window>
+</GUILayout>

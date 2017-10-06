@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow1" Name="buy_dog" >
+        <Property Name="Text" Value="购买看护犬" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,203},{0,117},{0,503},{0,347}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="buy_dog/background" >
+            <Property Name="Image" Value="set:common1 image:Window5_Mid" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,25},{1,-5},{1,-5}}" />
+            <Window Type="EQHomeLook/StaticImage6" Name="buy_dog/background/icon" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{0,76},{0,76}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog/background/name" >
+                <Property Name="Font" Value="simsun-15" />
+                <Property Name="TextColours" Value="tl:FF339933 tr:FF339933 bl:FF339933 br:FF339933" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,10},{0,250},{0,30}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog/background/cost" >
+                <Property Name="Text" Value="金币价：" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,35},{0,145},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog/background/count" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,148},{0,35},{0,240},{0,50}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog/background/type" >
+                <Property Name="Text" Value="类  型：狗" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,55},{0,170},{0,70}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog/background/intro" >
+                <Property Name="Text" >说  明：狗有一定的几率抓住前
+来偷菜的好友，抓住后会惩罚一
+定的金币，罚金归农场主所有。
+没有狗粮狗不会抓人哦。</Property>
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,100},{0,75},{0,285},{0,136}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="buy_dog/background/done" >
+                <Property Name="Text" Value="确定" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,80},{0,160},{0,125},{0,178}}" />
+            </Window>
+            <Window Type="EQHomeLook/ImageButton" Name="buy_dog/background/cancel" >
+                <Property Name="Text" Value="取消" />
+                <Property Name="HoverImage" Value="set:common1 image:ImageButton17_Hover" />
+                <Property Name="NormalImage" Value="set:common1 image:ImageButton17_Normal" />
+                <Property Name="PushedImage" Value="set:common1 image:ImageButton17_Pushed" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,150},{0,160},{0,195},{0,178}}" />
+            </Window>
+            <Window Type="EQHomeLook/StaticText" Name="buy_dog/background/tips" >
+                <Property Name="Text" Value="购买狗将会赠送一天的狗粮。" />
+                <Property Name="TextColours" Value="tl:FFFFA700 tr:FFFFA700 bl:FFFFA700 br:FFFFA700" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,50},{0,138},{0,230},{0,153}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

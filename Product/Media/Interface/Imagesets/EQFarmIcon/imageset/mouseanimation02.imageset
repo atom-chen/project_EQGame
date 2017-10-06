@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="mouseanimation02" Imagefile="EQFarmIcon\mouseanimation02.dds" >
+    <Image Name="mouse_assert_01" XPos="10" YPos="8" Width="100" Height="100" />
+    <Image Name="mouse_assert_02" XPos="110" YPos="8" Width="100" Height="100" />
+    <Image Name="mouse_assert_03" XPos="210" YPos="8" Width="100" Height="100" />
+    <Image Name="mouse_assert_04" XPos="310" YPos="8" Width="100" Height="100" />
+    <Image Name="mouse_assert_05" XPos="410" YPos="8" Width="100" Height="100" />
+    <Image Name="mouse_assert_06" XPos="10" YPos="108" Width="100" Height="100" />
+    <Image Name="mouse_assert_07" XPos="110" YPos="108" Width="100" Height="100" />
+    <Image Name="mouse_assert_08" XPos="210" YPos="108" Width="100" Height="100" />
+    <Image Name="mouse_assert_09" XPos="310" YPos="108" Width="100" Height="100" />
+</Imageset>

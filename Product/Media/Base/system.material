@@ -1,0 +1,452 @@
+
+// 目前用于显示房屋网格.		Y3
+material SystemMat/Comm-1
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+			lighting off
+			cull_hardware none
+		}
+	}
+}
+
+material SystemMat/Comm-2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+		}
+	}
+}
+
+material SystemMat/SheetShadow
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+			lighting off
+			
+			texture_unit
+			{
+				texture SheetShadow.dds
+			}
+		}
+	}
+}
+
+//
+// 与坐标箭头相关的			锦旭
+// 这部分有不少已经没用, 可能需要整理
+material mtBuilderPlane
+{
+	technique
+	{
+		pass
+		{
+			ambient  0 0 0
+                  specular 0 0 0 1
+                  emissive 1 1 1
+			scene_blend alpha_blend
+                  depth_write off
+                  cull_hardware none
+			cull_software none
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+
+			texture_unit
+			{
+				texture builderplane.bmp
+                        filtering trilinear
+			}
+		}
+	}
+}
+
+material mtSELECTION
+{
+	technique
+	{
+		pass
+		{
+			ambient  0 0 0
+                  specular 0 0 0 0.1
+                  emissive 0.5 0 1 0.05
+			scene_blend alpha_blend
+                  depth_write off
+                  cull_hardware none
+			cull_software none
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+			texture_unit
+			{
+				texture selection.bmp
+                        filtering trilinear
+			}
+		}
+	}
+}
+
+
+material mtSCBLIGHT
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 0.95 0.95 0 1
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+		}
+
+	}
+
+}
+
+material mtSCBCAM
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+			specular 0 0 0 1 10
+                  emissive 0.254902 0.254902 0.254902 1
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+		}
+
+	}
+
+}
+
+material mtSCBRED
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 0.8 0 0 
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+                  depth_check off
+		}
+
+	}
+
+}
+
+material mtPARTICLEBLUE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.18 0.55 0.84 1
+                  specular 0 0 0 1
+                  emissive 0.18 0.55 0.84
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+		}
+	}
+}
+
+material mtSCBBLUE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 0 0 0.8
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+                  depth_check off
+		}
+
+	}
+
+}
+
+material mtSCBGREEN
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 0 0.8 0
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+                  depth_check off
+		}
+
+	}
+
+}
+
+material mtSCBREDL
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 1 0.4 0.4 
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+                  depth_check off
+		}
+
+	}
+
+}
+
+material mtSCBBLUEL
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 0.4 0.4 1 
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+                  depth_check off
+		}
+
+	}
+
+}
+
+material mtSCBGREENL
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 0.4 1 0.4
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+                  depth_check off
+		}
+
+	}
+
+}
+
+material mtSCBYELLOW
+{
+	technique
+	{
+		pass
+		{
+                  cull_hardware none
+			cull_software none
+                  transparent_sorting on
+                  ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 0.6 0.6 0 1
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+                  depth_check off
+		}
+
+	}
+
+}
+
+
+material mtSCBMYYELLOW
+{
+	technique
+	{
+		pass
+		{
+                  cull_hardware none
+			cull_software none
+                  transparent_sorting on
+                  ambient 0 0 0
+			diffuse 0.5 0.5 0.5 1
+                  specular 0 0 0 1
+                  emissive 1 1 0.2 1
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+			scene_blend alpha_blend
+
+       	}
+
+	}
+
+}
+
+
+material mtSCBYELLOWL
+{
+	technique
+	{
+		pass
+		{
+                  cull_hardware none
+			cull_software none
+                  transparent_sorting on
+                  ambient 0 0 0
+			diffuse 0.5 0.5 0.5 1
+                  specular 0 0 0 1
+                  emissive 1 1 0.2 1
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+                  depth_check off
+		}
+
+	}
+
+}
+
+material mtSCBTEAL
+{
+	technique
+	{
+		pass
+		{
+                  cull_hardware none
+			cull_software none
+                  transparent_sorting on
+                  ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 0 0.6 0.6 1
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+		}
+
+	}
+
+}
+
+material mtSCBTEALL
+{
+	technique
+	{
+		pass
+		{
+                  cull_hardware none
+			cull_software none
+                  transparent_sorting on
+                  ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 0.2 1 1 1
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+		}
+
+	}
+
+}
+
+material mtSCBBROWN
+{
+	technique
+	{
+		pass
+		{
+                  cull_hardware none
+			cull_software none
+                  transparent_sorting on
+                  ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 0.6 0 0.6 1
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+		}
+
+	}
+
+}
+
+material mtSCBBROWNL
+{
+	technique
+	{
+		pass
+		{
+                  cull_hardware none
+			cull_software none
+                  transparent_sorting on
+                  ambient 0 0 0
+			diffuse 0.2 0.2 0.2 1
+                  specular 0 0 0 1
+                  emissive 1 0.2 1 1
+                  polygon_mode solid
+                  polygon_mode_overrideable false
+		}
+
+	}
+
+}
+
+
+material ogtDefaultMarker
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+material scbMATWIREFRAME
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 1 1 1 1
+                  specular 0 0 0 1
+                  emissive 1 1 1 1
+                  polygon_mode wireframe
+                  polygon_mode_overrideable false
+		}
+
+	}
+
+}
+

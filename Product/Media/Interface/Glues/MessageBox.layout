@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="MessageBox" >
+        <Property Name="Font" Value="simsun-10" />
+        <Property Name="Text" Value="MessageBox" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.28125,0},{0.322917,0},{0.629687,0},{0.55,0}}" />
+        <Window Type="TaharezLook/StaticText" Name="MessageBox/Text" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="登录失败！" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000885949,0},{0.244149,0},{0.696746,0},{0.655336,0}}" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="MessageBox/OK" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="Text" Value="确定" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.754386,0},{0.579546,0},{0.925439,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

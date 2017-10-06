@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/StaticImage14" Name="Root/fnepreview" >
+        <Property Name="Image" Value="set:Button5 image:NewImage363" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.5,-87},{0.5,-165},{0.5,87},{0.5,165}}" />
+        <Window Type="EQHomeLook/StaticImage" Name="Root/fnepreview/rtt" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-87},{0.5,-165},{0.5,87},{0.5,165}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="Root/fnepreview/img" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3,5},{0.3,-91},{0.55,25},{0.55,-111}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="Button4" Imagefile="EQHomeUIimg\Button4.dds" AutoScaled="true" >
+    <Image Name="imagebutton0_push" XPos="263" YPos="47" Width="25" Height="19" />
+    <Image Name="imagebutton1_push" XPos="2" YPos="47" Width="25" Height="19" />
+    <Image Name="imagebutton2_push" XPos="31" YPos="47" Width="25" Height="19" />
+    <Image Name="imagebutton3_push" XPos="60" YPos="47" Width="25" Height="19" />
+    <Image Name="imagebutton4_push" XPos="89" YPos="47" Width="25" Height="19" />
+    <Image Name="imagebutton5_push" XPos="118" YPos="47" Width="25" Height="19" />
+    <Image Name="imagebutton6_push" XPos="147" YPos="47" Width="25" Height="19" />
+    <Image Name="imagebutton7_push" XPos="176" YPos="47" Width="25" Height="19" />
+    <Image Name="imagebutton8_push" XPos="205" YPos="47" Width="25" Height="19" />
+    <Image Name="imagebutton9_push" XPos="234" YPos="47" Width="25" Height="19" />
+    <Image Name="imagebutton0_hover" XPos="263" YPos="25" Width="25" Height="19" />
+    <Image Name="imagebutton10_push" XPos="292" YPos="48" Width="34" Height="18" />
+    <Image Name="imagebutton11_push" XPos="330" YPos="47" Width="30" Height="19" />
+    <Image Name="imagebutton1_hover" XPos="2" YPos="25" Width="25" Height="19" />
+    <Image Name="imagebutton2_hover" XPos="31" YPos="25" Width="25" Height="19" />
+    <Image Name="imagebutton3_hover" XPos="60" YPos="25" Width="25" Height="19" />
+    <Image Name="imagebutton4_hover" XPos="89" YPos="25" Width="25" Height="19" />
+    <Image Name="imagebutton5_hover" XPos="118" YPos="25" Width="25" Height="19" />
+    <Image Name="imagebutton6_hover" XPos="147" YPos="25" Width="25" Height="19" />
+    <Image Name="imagebutton7_hover" XPos="176" YPos="25" Width="25" Height="19" />
+    <Image Name="imagebutton8_hover" XPos="205" YPos="25" Width="25" Height="19" />
+    <Image Name="imagebutton9_hover" XPos="234" YPos="25" Width="25" Height="19" />
+    <Image Name="imagebutton0_normal" XPos="263" YPos="3" Width="25" Height="19" />
+    <Image Name="imagebutton10_hover" XPos="292" YPos="26" Width="34" Height="18" />
+    <Image Name="imagebutton11_hover" XPos="330" YPos="25" Width="30" Height="19" />
+    <Image Name="imagebutton1_normal" XPos="2" YPos="3" Width="25" Height="19" />
+    <Image Name="imagebutton2_normal" XPos="31" YPos="3" Width="25" Height="19" />
+    <Image Name="imagebutton3_normal" XPos="60" YPos="3" Width="25" Height="19" />
+    <Image Name="imagebutton4_normal" XPos="89" YPos="3" Width="25" Height="19" />
+    <Image Name="imagebutton5_normal" XPos="118" YPos="3" Width="25" Height="19" />
+    <Image Name="imagebutton6_normal" XPos="147" YPos="3" Width="25" Height="19" />
+    <Image Name="imagebutton7_normal" XPos="176" YPos="3" Width="25" Height="19" />
+    <Image Name="imagebutton8_normal" XPos="205" YPos="3" Width="25" Height="19" />
+    <Image Name="imagebutton9_normal" XPos="234" YPos="3" Width="25" Height="19" />
+    <Image Name="imagebutton10_normal" XPos="292" YPos="4" Width="34" Height="18" />
+    <Image Name="imagebutton11_normal" XPos="330" YPos="3" Width="30" Height="19" />
+</Imageset>

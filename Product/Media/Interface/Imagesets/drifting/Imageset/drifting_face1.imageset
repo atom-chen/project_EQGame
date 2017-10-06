@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="drifting_face1" Imagefile="drifting\drifting_face1.png" >
+    <Image Name="NewImage1" XPos="2" YPos="2" Width="88" Height="88" />
+    <Image Name="NewImage2" XPos="94" YPos="2" Width="88" Height="88" />
+    <Image Name="NewImage3" XPos="2" YPos="94" Width="88" Height="88" />
+    <Image Name="NewImage4" XPos="95" YPos="94" Width="88" Height="88" />
+</Imageset>

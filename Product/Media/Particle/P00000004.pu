@@ -1,0 +1,94 @@
+system P00000004
+{
+    technique Technique69
+    {
+        visual_particle_quota                   100
+        material                                guanxian1
+        renderer                                Billboard
+        {
+            billboard_type                      oriented_self
+        }
+        emitter                                 Circle Emitter78
+        {
+            emission_rate                       8
+            angle                               0
+            time_to_live                        dyn_random
+            {
+                min                             1
+                max                             3
+            }
+            velocity                            20
+            particle_width                      dyn_random
+            {
+                min                             15
+                max                             40
+            }
+            particle_height                     dyn_random
+            {
+                min                             250
+                max                             500
+            }
+            position                            0 150 0
+            start_colour_range                  0.984314 0.929412 0.184314 0.588235
+            end_colour_range                    0.164706 0.164706 0.992157 0.588235
+            colour                              0.52549 0.917647 1 1
+            circle_em_radius                    330
+        }
+    }
+    technique Technique24
+    {
+        visual_particle_quota                   50
+        material                                PUMediaPack/Flare_05
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box Emitter29
+        {
+            emission_rate                       15
+            time_to_live                        dyn_random
+            {
+                min                             0.2
+                max                             1
+            }
+            velocity                            10
+            position                            0 120 0
+            start_colour_range                  0.309804 0.988235 0.188235 1
+            end_colour_range                    0.988235 0.227451 0.627451 1
+            box_em_width                        800
+            box_em_height                       400
+            box_em_depth                        600
+        }
+    }
+    technique Technique25
+    {
+        position                                0 -150 0
+        visual_particle_quota                   50
+        material                                PUMediaPack/Flare_01
+        default_particle_width                  20
+        default_particle_height                 20
+        default_particle_depth                  20
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box Emitter30
+        {
+            emission_rate                       dyn_random
+            {
+                min                             3
+                max                             8
+            }
+            angle                               60
+            time_to_live                        dyn_random
+            {
+                min                             8
+                max                             10
+            }
+            velocity                            50
+            position                            0 120 0
+            colour                              0.00392157 0.278431 0.921569 1
+            box_em_width                        600
+            box_em_height                       50
+            box_em_depth                        500
+        }
+    }
+}

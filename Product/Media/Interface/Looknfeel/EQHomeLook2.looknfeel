@@ -1,0 +1,3853 @@
+<?xml version="1.0" ?>
+<Falagard>
+	<!--
+    ***************************************************
+        EQHomeLook/FrameWindow1
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/FrameWindow1">
+        <PropertyLinkDefinition name="CaptionColour" widget="__auto_titlebar__" targetProperty="CaptionColour" initialValue="FFE3F3FF" />
+        <PropertyLinkDefinition name="TitlebarFont" widget="__auto_titlebar__" targetProperty="Font" />
+        <Property name="NSSizingCursorImage" value="set:common1 image:ImageButton2_Normal" />
+        <Property name="EWSizingCursorImage" value="set:common1 image:ImageButton2_Normal" />
+        <Property name="NWSESizingCursorImage" value="set:common1 image:ImageButton2_Normal" />
+        <Property name="NESWSizingCursorImage" value="set:common1 image:ImageButton2_Normal" />
+        <Property name="SizingEnabled" value="False" />
+        <Property name="RollUpEnabled" value="False" />
+        <Property name="UnifiedMinSize" value="{{0.1,0},{0.1,0}}" />
+        <NamedArea name="ClientWithTitleWithFrame">
+            <Area>
+                <Dim type="LeftEdge">
+                    <ImageDim imageset="common1" image="window15_left" dimension="Width" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_titlebar__" dimension="BottomEdge" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="common1" image="window15_right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="common1" image="window15_bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ClientWithTitleNoFrame">
+            <Area>
+                <Dim type="LeftEdge">
+                    <AbsoluteDim value="0" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_titlebar__" dimension="BottomEdge" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" type="RightEdge" />
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" type="BottomEdge" />
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ClientNoTitleWithFrame">
+            <Area>
+                <Dim type="LeftEdge">
+                    <ImageDim imageset="common1" image="window15_left" dimension="Width" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <ImageDim imageset="common1" image="window15_top" dimension="Height" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="common1" image="window15_right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="common1" image="window15_bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ClientNoTitleNoFrame">
+            <Area>
+                <Dim type="LeftEdge">
+                    <AbsoluteDim value="0" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <AbsoluteDim value="0" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" type="RightEdge" />
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" type="BottomEdge" />
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child type="EQHomeLook/Titlebar1" nameSuffix="__auto_titlebar__">
+            <Area>
+                <Dim type="LeftEdge">
+                    <AbsoluteDim value="0" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <AbsoluteDim value="0" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" type="RightEdge" />
+                </Dim>
+                <Dim type="Height">
+                    <FontDim widget="__auto_titlebar__" type="LineSpacing">
+                        <DimOperator op="Multiply">
+                            <AbsoluteDim value="1.4" />
+                        </DimOperator>
+                    </FontDim>
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="False" />
+        </Child>
+        <Child type="EQHomeLook/SystemButton" nameSuffix="__auto_closebutton__">
+            <Area>
+                <Dim type="LeftEdge">
+                    <UnifiedDim scale="1" type="LeftEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="0.6">
+                                <DimOperator op="Multiply">
+                                    <ImageDim imageset="common1" image="ImageButton20_Normal" dimension="Width">
+                                        <DimOperator op="Add">
+                                            <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                                        </DimOperator>
+                                    </ImageDim>
+                                </DimOperator>
+                            </AbsoluteDim>
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_titlebar__" dimension="Height">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="0.5">
+                                <DimOperator op="Multiply">
+                                    <WidgetDim widget="__auto_titlebar__" dimension="Height">
+                                        <DimOperator op="Add">
+                                            <ImageDim imageset="common1" image="ImageButton20_Normal" dimension="Height" />
+                                        </DimOperator>
+                                    </WidgetDim>
+                                </DimOperator>
+                            </AbsoluteDim>
+                        </DimOperator>
+                    </WidgetDim>
+                </Dim>
+                <Dim type="Width">
+                    <ImageDim imageset="common1" image="ImageButton20_Normal" dimension="Width" />
+                </Dim>
+                <Dim type="Height">
+                    <ImageDim imageset="common1" image="ImageButton20_Normal" dimension="Height" />
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="True" />
+            <Property name="NormalImage" value="set:common1 image:ImageButton20_Normal" />
+            <Property name="HoverImage" value="set:common1 image:ImageButton20_Hover" />
+            <Property name="PushedImage" value="set:common1 image:ImageButton20_Normal" />
+        </Child>
+        <Child type="EQHomeLook/SystemButton1" nameSuffix="__auto_button__">
+            <Area>
+                <Dim type="LeftEdge">
+                    <UnifiedDim scale="1" type="LeftEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="1.15">
+                                <DimOperator op="Multiply">
+                                    <ImageDim imageset="common1" image="ImageButton16_Normal" dimension="Width">
+                                        <DimOperator op="Add">
+                                            <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                                        </DimOperator>
+                                    </ImageDim>
+                                </DimOperator>
+                            </AbsoluteDim>
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_titlebar__" dimension="Height">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="0.5">
+                                <DimOperator op="Multiply">
+                                    <WidgetDim widget="__auto_titlebar__" dimension="Height">
+                                        <DimOperator op="Add">
+                                            <ImageDim imageset="common1" image="ImageButton16_Normal" dimension="Height" />
+                                        </DimOperator>
+                                    </WidgetDim>
+                                </DimOperator>
+                            </AbsoluteDim>
+                        </DimOperator>
+                    </WidgetDim>
+                </Dim>
+                <Dim type="Width">
+                    <ImageDim imageset="common1" image="ImageButton16_Normal" dimension="Width" />
+                </Dim>
+                <Dim type="Height">
+                    <ImageDim imageset="common1" image="ImageButton16_Normal" dimension="Height" />
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="True" />
+            <Property name="NormalImage" value="set:common1 image:ImageButton16_Normal" />
+            <Property name="HoverImage" value="set:common1 image:ImageButton16_Hover" />
+            <Property name="PushedImage" value="set:common1 image:ImageButton16_Hover" />
+        </Child>
+        <ImagerySection name="withtitle_frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image type="BottomLeftCorner" imageset="common1" image="window15_bottomleft" />
+                <Image type="BottomRightCorner" imageset="common1" image="window15_bottomright" />
+                <Image type="LeftEdge" imageset="common1" image="window15_left" />
+                <Image type="RightEdge" imageset="common1" image="window15_right" />
+                <Image type="BottomEdge" imageset="common1" image="window15_bottom" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="notitle_frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="common1" image="window15_topleft" />
+                <Image type="TopRightCorner" imageset="common1" image="window15_topright" />
+                <Image type="BottomLeftCorner" imageset="common1" image="window15_bottomleft" />
+                <Image type="BottomRightCorner" imageset="common1" image="window15_bottomright" />
+                <Image type="LeftEdge" imageset="common1" image="window15_left" />
+                <Image type="TopEdge" imageset="common1" image="window15_top" />
+                <Image type="RightEdge" imageset="common1" image="window15_right" />
+                <Image type="BottomEdge" imageset="common1" image="window15_bottom" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="withtitle_withframe_client_area">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="common1" image="window15_left" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="common1" image="window15_right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="common1" image="window15_bottom" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="common1" image="window15_mid" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="notitle_withframe_client_area">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="common1" image="window15_left" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="common1" image="window15_top" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="common1" image="window15_right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="common1" image="window15_bottom" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="common1" image="window15_mid" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="withtitle_noframe_client_area">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image imageset="common1" image="window15_mid" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="notitle_noframe_client_area">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image imageset="common1" image="window15_mid" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="ActiveWithTitleWithFrame">
+            <Layer>
+                <Section section="withtitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="withtitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveWithTitleWithFrame">
+            <Layer>
+                <Section section="withtitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="withtitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledWithTitleWithFrame">
+            <Layer>
+                <Section section="withtitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="withtitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveWithTitleNoFrame">
+            <Layer>
+                <Section section="withtitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveWithTitleNoFrame">
+            <Layer>
+                <Section section="withtitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledWithTitleNoFrame">
+            <Layer>
+                <Section section="withtitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveNoTitleWithFrame">
+            <Layer>
+                <Section section="notitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="notitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveNoTitleWithFrame">
+            <Layer>
+                <Section section="notitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="notitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledNoTitleWithFrame">
+            <Layer>
+                <Section section="notitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="notitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveNoTitleNoFrame">
+            <Layer>
+                <Section section="notitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveNoTitleNoFrame">
+            <Layer>
+                <Section section="notitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledNoTitleNoFrame">
+            <Layer>
+                <Section section="notitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+		<!--
+    ***************************************************
+        EQHomeLook/FrameWindow(WithGrayBg)
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/FrameWindow(WithGrayBg)">
+        <PropertyLinkDefinition name="CaptionColour" widget="__auto_titlebar__" targetProperty="CaptionColour" initialValue="FFE3F3FF" />
+        <PropertyLinkDefinition name="TitlebarFont" widget="__auto_titlebar__" targetProperty="Font" />
+        <Property name="NSSizingCursorImage" value="set:common1 image:ImageButton2_Normal" />
+        <Property name="EWSizingCursorImage" value="set:common1 image:ImageButton2_Normal" />
+        <Property name="NWSESizingCursorImage" value="set:common1 image:ImageButton2_Normal" />
+        <Property name="NESWSizingCursorImage" value="set:common1 image:ImageButton2_Normal" />
+        <Property name="SizingEnabled" value="False" />
+        <Property name="RollUpEnabled" value="False" />
+        <Property name="UnifiedMinSize" value="{{0.1,0},{0.1,0}}" />
+        <NamedArea name="ClientWithTitleWithFrame">
+            <Area>
+                <Dim type="LeftEdge">
+                    <ImageDim imageset="common1" image="winWithGrayBg_Left" dimension="Width" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_titlebar__" dimension="BottomEdge" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="common1" image="winWithGrayBg_Right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="common1" image="winWithGrayBg_Bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ClientWithTitleNoFrame">
+            <Area>
+                <Dim type="LeftEdge">
+                    <AbsoluteDim value="0" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_titlebar__" dimension="BottomEdge" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" type="RightEdge" />
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" type="BottomEdge" />
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ClientNoTitleWithFrame">
+            <Area>
+                <Dim type="LeftEdge">
+                    <ImageDim imageset="common1" image="winWithGrayBg_Left" dimension="Width" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <ImageDim imageset="common1" image="winWithGrayBg_Top" dimension="Height" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="common1" image="winWithGrayBg_Right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="common1" image="winWithGrayBg_Bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ClientNoTitleNoFrame">
+            <Area>
+                <Dim type="LeftEdge">
+                    <AbsoluteDim value="0" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <AbsoluteDim value="0" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" type="RightEdge" />
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" type="BottomEdge" />
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child type="EQHomeLook/Titlebar1" nameSuffix="__auto_titlebar__">
+            <Area>
+                <Dim type="LeftEdge">
+                    <AbsoluteDim value="0" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <AbsoluteDim value="0" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" type="RightEdge" />
+                </Dim>
+                <Dim type="Height">
+                    <FontDim widget="__auto_titlebar__" type="LineSpacing">
+                        <DimOperator op="Multiply">
+                            <AbsoluteDim value="1.4" />
+                        </DimOperator>
+                    </FontDim>
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="False" />
+        </Child>
+        <Child type="EQHomeLook/SystemButton" nameSuffix="__auto_closebutton__">
+            <Area>
+                <Dim type="LeftEdge">
+                    <UnifiedDim scale="1" type="LeftEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="0.6">
+                                <DimOperator op="Multiply">
+                                    <ImageDim imageset="common1" image="ImageButton20_Normal" dimension="Width">
+                                        <DimOperator op="Add">
+                                            <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                                        </DimOperator>
+                                    </ImageDim>
+                                </DimOperator>
+                            </AbsoluteDim>
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_titlebar__" dimension="Height">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="0.5">
+                                <DimOperator op="Multiply">
+                                    <WidgetDim widget="__auto_titlebar__" dimension="Height">
+                                        <DimOperator op="Add">
+                                            <ImageDim imageset="common1" image="ImageButton20_Normal" dimension="Height" />
+                                        </DimOperator>
+                                    </WidgetDim>
+                                </DimOperator>
+                            </AbsoluteDim>
+                        </DimOperator>
+                    </WidgetDim>
+                </Dim>
+                <Dim type="Width">
+                    <ImageDim imageset="common1" image="ImageButton20_Normal" dimension="Width" />
+                </Dim>
+                <Dim type="Height">
+                    <ImageDim imageset="common1" image="ImageButton20_Normal" dimension="Height" />
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="True" />
+            <Property name="NormalImage" value="set:common1 image:ImageButton20_Normal" />
+            <Property name="HoverImage" value="set:common1 image:ImageButton20_Hover" />
+            <Property name="PushedImage" value="set:common1 image:ImageButton20_Normal" />
+        </Child>
+        <Child type="EQHomeLook/SystemButton1" nameSuffix="__auto_button__">
+            <Area>
+                <Dim type="LeftEdge">
+                    <UnifiedDim scale="1" type="LeftEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="1.15">
+                                <DimOperator op="Multiply">
+                                    <ImageDim imageset="common1" image="ImageButton16_Normal" dimension="Width">
+                                        <DimOperator op="Add">
+                                            <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                                        </DimOperator>
+                                    </ImageDim>
+                                </DimOperator>
+                            </AbsoluteDim>
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_titlebar__" dimension="Height">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="0.5">
+                                <DimOperator op="Multiply">
+                                    <WidgetDim widget="__auto_titlebar__" dimension="Height">
+                                        <DimOperator op="Add">
+                                            <ImageDim imageset="common1" image="ImageButton16_Normal" dimension="Height" />
+                                        </DimOperator>
+                                    </WidgetDim>
+                                </DimOperator>
+                            </AbsoluteDim>
+                        </DimOperator>
+                    </WidgetDim>
+                </Dim>
+                <Dim type="Width">
+                    <ImageDim imageset="common1" image="ImageButton16_Normal" dimension="Width" />
+                </Dim>
+                <Dim type="Height">
+                    <ImageDim imageset="common1" image="ImageButton16_Normal" dimension="Height" />
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="True" />
+            <Property name="NormalImage" value="set:common1 image:ImageButton16_Normal" />
+            <Property name="HoverImage" value="set:common1 image:ImageButton16_Hover" />
+            <Property name="PushedImage" value="set:common1 image:ImageButton16_Hover" />
+        </Child>
+        <ImagerySection name="withtitle_frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image type="TopEdge" imageset="common1" image="winWithGrayBg_Top" />
+                <Image type="BottomLeftCorner" imageset="common1" image="winWithGrayBg_BottomLeft" />
+                <Image type="BottomRightCorner" imageset="common1" image="winWithGrayBg_BottomRight" />
+                <Image type="LeftEdge" imageset="common1" image="winWithGrayBg_Left" />
+                <Image type="RightEdge" imageset="common1" image="winWithGrayBg_Right" />
+                <Image type="BottomEdge" imageset="common1" image="winWithGrayBg_Bottom" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="notitle_frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="common1" image="winWithGrayBg_TopLeft" />
+                <Image type="TopRightCorner" imageset="common1" image="winWithGrayBg_TopRight" />
+                <Image type="BottomLeftCorner" imageset="common1" image="winWithGrayBg_BottomLeft" />
+                <Image type="BottomRightCorner" imageset="common1" image="winWithGrayBg_BottomRight" />
+                <Image type="LeftEdge" imageset="common1" image="winWithGrayBg_Left" />
+                <Image type="TopEdge" imageset="common1" image="winWithGrayBg_Top" />
+                <Image type="RightEdge" imageset="common1" image="winWithGrayBg_Right" />
+                <Image type="BottomEdge" imageset="common1" image="winWithGrayBg_Bottom" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="withtitle_withframe_client_area">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="common1" image="winWithGrayBg_Left" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <WidgetDim widget="__auto_titlebar__" dimension="Height" >
+														<DimOperator op="Add">
+                                <AbsoluteDim value="2" />
+                            </DimOperator>                       
+                        </WidgetDim>
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="common1" image="winWithGrayBg_Right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="common1" image="winWithGrayBg_Bottom" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="common1" image="winWithGrayBg_Mid" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="notitle_withframe_client_area">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="common1" image="winWithGrayBg_Left" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="common1" image="winWithGrayBg_Top" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="common1" image="winWithGrayBg_Right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="common1" image="winWithGrayBg_Bottom" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="common1" image="winWithGrayBg_Mid" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="withtitle_noframe_client_area">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image imageset="common1" image="winWithGrayBg_Mid" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="notitle_noframe_client_area">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image imageset="common1" image="winWithGrayBg_Mid" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="ActiveWithTitleWithFrame">
+            <Layer>
+                <Section section="withtitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="withtitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveWithTitleWithFrame">
+            <Layer>
+                <Section section="withtitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="withtitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledWithTitleWithFrame">
+            <Layer>
+                <Section section="withtitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="withtitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveWithTitleNoFrame">
+            <Layer>
+                <Section section="withtitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveWithTitleNoFrame">
+            <Layer>
+                <Section section="withtitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledWithTitleNoFrame">
+            <Layer>
+                <Section section="withtitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveNoTitleWithFrame">
+            <Layer>
+                <Section section="notitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="notitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveNoTitleWithFrame">
+            <Layer>
+                <Section section="notitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="notitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledNoTitleWithFrame">
+            <Layer>
+                <Section section="notitle_frame">
+            <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="notitle_withframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveNoTitleNoFrame">
+            <Layer>
+                <Section section="notitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveNoTitleNoFrame">
+            <Layer>
+                <Section section="notitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledNoTitleNoFrame">
+            <Layer>
+                <Section section="notitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/SystemButton1
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/SystemButton1">
+        <PropertyDefinition name="NormalImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedImage" initialValue="" redrawOnWrite="true" />
+        <Property name="WantsMultiClickEvents" value="False" />
+        <ImagerySection name="normal">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <ImageProperty name="NormalImage" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <ImageProperty name="HoverImage" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="pushed">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <ImageProperty name="PushedImage" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="pushed" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FFDFDFDF" topRight="FFDFDFDF" bottomLeft="FFDFDFDF" bottomRight="FFDFDFDF" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/Titlebar1
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/Titlebar1">
+        <PropertyDefinition name="CaptionColour" initialValue="FF000000" redrawOnWrite="true" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="common1" image="Titlebar1_TopLeft" />
+                <Image type="TopRightCorner" imageset="common1" image="Titlebar1_TopRight" />
+                <Image type="BottomLeftCorner" imageset="common1" image="Titlebar1_BottomLeft" />
+                <Image type="BottomRightCorner" imageset="common1" image="Titlebar1_BottomRight" />
+                <Image type="LeftEdge" imageset="common1" image="Titlebar1_Left" />
+                <Image type="TopEdge" imageset="common1" image="Titlebar1_Top" />
+                <Image type="RightEdge" imageset="common1" image="Titlebar1_Right" />
+                <Image type="BottomEdge" imageset="common1" image="Titlebar1_Bottom" />
+                <Image type="Background" imageset="common1" image="Titlebar1_Mid" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="caption">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="1" /></Dim>
+                    <Dim type="RightEdge" >
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <WidgetDim dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <ColourProperty name="CaptionColour" />
+                <VertFormat type="CentreAligned" />
+            </TextComponent>
+        </ImagerySection>
+        <StateImagery name="Active">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="caption" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Inactive">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                </Section>
+                <Section section="caption" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FFEFEFEF" topRight="FFEFEFEF" bottomLeft="FFEFEFEF" bottomRight="FFEFEFEF" />
+                </Section>
+                <Section section="caption" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+       	EQHomeLook/TabControl2
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/TabControl2">
+        <Property name="TabButtonType" value="EQHomeLook/TabButton1" />
+        <Property name="TabTextPadding" value="{0,6}" />
+        <Child type="EQHomeLook/TabContentPane2" nameSuffix="__auto_TabPane__">
+            <Area>
+                <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge"><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="TopEdge">
+                    <PropertyDim widget="__auto_TabPane__" name="EnableBottom">
+                        <DimOperator op="Multiply">
+                            <AbsoluteDim value="26" />
+                        </DimOperator>
+                    </PropertyDim>
+                </Dim>
+                <Dim type="Height">
+                    <UnifiedDim scale="1" type="Height">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="26" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </Child>
+        <Child  type="EQHomeLook/TabButtonPane2" nameSuffix="__auto_TabPane__Buttons">
+            <Area>
+                <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge"><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="TopEdge">
+                    <PropertyDim widget="__auto_TabPane__Buttons" name="EnableTop">
+                        <DimOperator op="Multiply">
+                            <UnifiedDim scale="1" type="Height">
+                                <DimOperator op="Subtract">
+                                    <PropertyDim name="TabHeight" type="Height" />
+                                </DimOperator>
+                            </UnifiedDim>
+                        </DimOperator>
+                    </PropertyDim>
+                </Dim>
+                <Dim type="Height"><AbsoluteDim value="26" /></Dim>
+            </Area>
+        </Child>
+        <Child type="EQHomeLook/SystemButton" nameSuffix="__auto_TabPane__ScrollLeft">
+            <Area>
+                <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="TopEdge" />
+                </Dim>
+                <Dim type="Width">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="Height">
+                        <DimOperator op="Multiply">
+                            <ImageDim imageset="common1" image="ImageButton8_Normal" dimension="Width">
+                                <DimOperator op="Divide">
+                                    <ImageDim imageset="common1" image="ImageButton8_Normal" dimension="Height" />
+                                </DimOperator>
+                            </ImageDim>
+                        </DimOperator>
+                    </WidgetDim>
+                </Dim>
+                <Dim type="BottomEdge">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="BottomEdge" />
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="True" />
+            <Property name="NormalImage" value="set:common1 image:ImageButton8_Normal" />
+            <Property name="HoverImage" value="set:common1 image:ImageButton8_Normal" />
+            <Property name="PushedImage" value="set:common1 image:ImageButton8_Normal" />
+        </Child>
+        <Child type="EQHomeLook/SystemButton" nameSuffix="__auto_TabPane__ScrollRight">
+            <Area>
+                <Dim type="Width">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="Height">
+                        <DimOperator op="Multiply">
+                            <ImageDim imageset="common1" image="ImageButton9_Normal" dimension="Width">
+                                <DimOperator op="Divide">
+                                    <ImageDim imageset="common1" image="ImageButton9_Normal" dimension="Height" />
+                                </DimOperator>
+                            </ImageDim>
+                        </DimOperator>
+                    </WidgetDim>
+                </Dim>
+                <Dim type="LeftEdge">
+                    <UnifiedDim scale="1" type="Width">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_TabPane__ScrollRight" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="TopEdge" />
+                </Dim>
+                <Dim type="Height">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="Height" />
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="True" />
+            <Property name="NormalImage" value="set:common1 image:ImageButton9_Normal" />
+            <Property name="HoverImage" value="set:common1 image:ImageButton9_Normal" />
+            <Property name="PushedImage" value="set:common1 image:ImageButton9_Normal" />
+        </Child>
+        <StateImagery name="Enabled" />
+        <StateImagery name="Disabled" />
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/TabButton1
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/TabButton1">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFC0C0C0" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverTextColour" initialValue="FFE0E0E0" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="SelectedTextColour" initialValue="FFE0E0E0" redrawOnWrite="true" />
+        <PropertyDefinition name="DisabledTextColour" initialValue="FF7F7F7F" redrawOnWrite="true" />
+        <Property name="WantsMultiClickEvents" value="False" />
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="CentreAligned" />
+            </TextComponent>
+        </ImagerySection>
+        <ImagerySection name="top_normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton1_TopLeft_Selected" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton1_TopRight_Selected" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton1_BottomLeft_Selected" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton1_BottomRight_Selected" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton1_Left_Selected" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton1_Right_Selected" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton1_Top_Selected" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton1_Bottom_Selected" />
+                <Image type="Background" imageset="windows1" image="TabButton1_Mid_Selected" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="bot_normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton1_TopLeft_Selected" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton1_TopRight_Selected" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton1_BottomLeft_Selected" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton1_BottomRight_Selected" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton1_Left_Selected" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton1_Right_Selected" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton1_Top_Selected" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton1_Bottom_Selected" />
+                <Image type="Background" imageset="windows1" image="TabButton1_Mid_Selected" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="top_hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton1_TopLeft_Selected" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton1_TopRight_Selected" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton1_BottomLeft_Selected" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton1_BottomRight_Selected" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton1_Left_Selected" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton1_Right_Selected" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton1_Top_Selected" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton1_Bottom_Selected" />
+                <Image type="Background" imageset="windows1" image="TabButton1_Mid_Selected" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="bot_hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton1_TopLeft_Selected" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton1_TopRight_Selected" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton1_BottomLeft_Selected" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton1_BottomRight_Selected" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton1_Left_Selected" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton1_Right_Selected" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton1_Top_Selected" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton1_Bottom_Selected" />
+                <Image type="Background" imageset="windows1" image="TabButton1_Mid_Selected" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="top_selected">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton1_TopLeft_Normal" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton1_Top_Normal" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton1_TopRight_Normal" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton1_Left_Normal" />
+                <Image type="Background" imageset="windows1" image="TabButton1_Mid_Normal" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton1_Right_Normal" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="bot_selected">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="windows1" image="TabButton1_Left_Normal" />
+                <Image type="Background" imageset="windows1" image="TabButton1_Mid_Normal" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton1_Right_Normal" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton1_BottomLeft_Normal" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton1_Bottom_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton1_BottomRight_Normal" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="TopNormal">
+            <Layer>
+                <Section section="top_normal" />
+                <Section section="label">
+                    <ColourProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomNormal">
+            <Layer>
+                <Section section="bot_normal" />
+                <Section section="label">
+                    <ColourProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopHover">
+            <Layer>
+                <Section section="top_hover" />
+                <Section section="label">
+                    <ColourProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomHover">
+            <Layer>
+                <Section section="bot_hover" />
+                <Section section="label">
+                    <ColourProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopSelected">
+            <Layer>
+                <Section section="top_selected" />
+                <Section section="label">
+                    <ColourProperty name="SelectedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomSelected">
+            <Layer>
+                <Section section="bot_selected" />
+                <Section section="label">
+                    <ColourProperty name="SelectedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopPushed">
+            <Layer>
+                <Section section="top_normal" />
+                <Section section="label">
+                    <ColourProperty name="PushedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomPushed">
+            <Layer>
+                <Section section="bot_normal" />
+                <Section section="label">
+                    <ColourProperty name="PushedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopDisabled">
+            <Layer>
+                <Section section="top_normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+                <Section section="label">
+                    <ColourProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomDisabled">
+            <Layer>
+                <Section section="bot_normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+                <Section section="label">
+                    <ColourProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/TabButton2
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/TabButton2">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="SelectedTextColour" initialValue="FF718FC2" redrawOnWrite="true" />
+        <PropertyDefinition name="DisabledTextColour" initialValue="FF7F7F7F" redrawOnWrite="true" />
+        <Property name="WantsMultiClickEvents" value="False" />
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="CentreAligned" />
+            </TextComponent>
+        </ImagerySection>
+        <ImagerySection name="top_normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton2_TopLeft_Normal" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton2_TopRight_Normal" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton2_BottomLeft_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton2_BottomRight_Normal" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton2_Left_Normal" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton2_Right_Normal" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton2_Top_Normal" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton2_Bottom_Normal" />
+                <Image type="Background" imageset="windows1" image="TabButton2_Mid_Normal" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="bot_normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton2_TopLeft_Normal" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton2_TopRight_Normal" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton2_BottomLeft_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton2_BottomRight_Normal" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton2_Left_Normal" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton2_Right_Normal" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton2_Top_Normal" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton2_Bottom_Normal" />
+                <Image type="Background" imageset="windows1" image="TabButton2_Mid_Normal" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="top_hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton2_TopLeft_Normal" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton2_TopRight_Normal" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton2_BottomLeft_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton2_BottomRight_Normal" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton2_Left_Normal" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton2_Right_Normal" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton2_Top_Normal" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton2_Bottom_Normal" />
+                <Image type="Background" imageset="windows1" image="TabButton2_Mid_Normal" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="bot_hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton2_TopLeft_Normal" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton2_TopRight_Normal" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton2_BottomLeft_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton2_BottomRight_Normal" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton2_Left_Normal" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton2_Right_Normal" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton2_Top_Normal" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton2_Bottom_Normal" />
+                <Image type="Background" imageset="windows1" image="TabButton2_Mid_Normal" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="top_selected">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton2_TopLeft_Selected" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton2_Top_Selected" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton2_TopRight_Selected" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton2_Left_Selected" />
+                <Image type="Background" imageset="windows1" image="TabButton2_Mid_Selected" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton2_Right_Selected" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="bot_selected">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="windows1" image="TabButton2_Left_Selected" />
+                <Image type="Background" imageset="windows1" image="TabButton2_Mid_Selected" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton2_Right_Selected" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton2_BottomLeft_Selected" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton2_Bottom_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton2_BottomRight_Selected" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="TopNormal">
+            <Layer>
+                <Section section="top_normal" />
+                <Section section="label">
+                    <ColourProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomNormal">
+            <Layer>
+                <Section section="bot_normal" />
+                <Section section="label">
+                    <ColourProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopHover">
+            <Layer>
+                <Section section="top_hover" />
+                <Section section="label">
+                    <ColourProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomHover">
+            <Layer>
+                <Section section="bot_hover" />
+                <Section section="label">
+                    <ColourProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopSelected">
+            <Layer>
+                <Section section="top_selected" />
+                <Section section="label">
+                    <ColourProperty name="SelectedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomSelected">
+            <Layer>
+                <Section section="bot_selected" />
+                <Section section="label">
+                    <ColourProperty name="SelectedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopPushed">
+            <Layer>
+                <Section section="top_normal" />
+                <Section section="label">
+                    <ColourProperty name="PushedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomPushed">
+            <Layer>
+                <Section section="bot_normal" />
+                <Section section="label">
+                    <ColourProperty name="PushedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopDisabled">
+            <Layer>
+                <Section section="top_normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+                <Section section="label">
+                    <ColourProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomDisabled">
+            <Layer>
+                <Section section="bot_normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+                <Section section="label">
+                    <ColourProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/TabButton3
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/TabButton3">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="SelectedTextColour" initialValue="FF718FC2" redrawOnWrite="true" />
+        <PropertyDefinition name="DisabledTextColour" initialValue="FF7F7F7F" redrawOnWrite="true" />
+        <Property name="WantsMultiClickEvents" value="False" />
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="CentreAligned" />
+            </TextComponent>
+        </ImagerySection>
+        <ImagerySection name="top_normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton3_TopLeft_Normal" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton3_TopRight_Normal" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton3_BottomLeft_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton3_BottomRight_Normal" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton3_Left_Normal" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton3_Right_Normal" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton3_Top_Normal" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton3_Bottom_Normal" />
+                <Image type="Background" imageset="windows1" image="TabButton3_Mid_Normal" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="bot_normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton3_TopLeft_Normal" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton3_TopRight_Normal" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton3_BottomLeft_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton3_BottomRight_Normal" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton3_Left_Normal" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton3_Right_Normal" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton3_Top_Normal" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton3_Bottom_Normal" />
+                <Image type="Background" imageset="windows1" image="TabButton3_Mid_Normal" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="top_hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton3_TopLeft_Normal" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton3_TopRight_Normal" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton3_BottomLeft_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton3_BottomRight_Normal" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton3_Left_Normal" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton3_Right_Normal" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton3_Top_Normal" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton3_Bottom_Normal" />
+                <Image type="Background" imageset="windows1" image="TabButton3_Mid_Normal" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="bot_hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton3_TopLeft_Normal" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton3_TopRight_Normal" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton3_BottomLeft_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton3_BottomRight_Normal" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton3_Left_Normal" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton3_Right_Normal" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton3_Top_Normal" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton3_Bottom_Normal" />
+                <Image type="Background" imageset="windows1" image="TabButton3_Mid_Normal" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="top_selected">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="TabButton3_TopLeft_Selected" />
+                <Image type="TopEdge" imageset="windows1" image="TabButton3_Top_Selected" />
+                <Image type="TopRightCorner" imageset="windows1" image="TabButton3_TopRight_Selected" />
+                <Image type="LeftEdge" imageset="windows1" image="TabButton3_Left_Selected" />
+                <Image type="Background" imageset="windows1" image="TabButton3_Mid_Selected" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton3_Right_Selected" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="bot_selected">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="windows1" image="TabButton3_Left_Selected" />
+                <Image type="Background" imageset="windows1" image="TabButton3_Mid_Selected" />
+                <Image type="RightEdge" imageset="windows1" image="TabButton3_Right_Selected" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="TabButton3_BottomLeft_Selected" />
+                <Image type="BottomEdge" imageset="windows1" image="TabButton3_Bottom_Normal" />
+                <Image type="BottomRightCorner" imageset="windows1" image="TabButton3_BottomRight_Selected" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="TopNormal">
+            <Layer>
+                <Section section="top_normal" />
+                <Section section="label">
+                    <ColourProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomNormal">
+            <Layer>
+                <Section section="bot_normal" />
+                <Section section="label">
+                    <ColourProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopHover">
+            <Layer>
+                <Section section="top_hover" />
+                <Section section="label">
+                    <ColourProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomHover">
+            <Layer>
+                <Section section="bot_hover" />
+                <Section section="label">
+                    <ColourProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopSelected">
+            <Layer>
+                <Section section="top_selected" />
+                <Section section="label">
+                    <ColourProperty name="SelectedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomSelected">
+            <Layer>
+                <Section section="bot_selected" />
+                <Section section="label">
+                    <ColourProperty name="SelectedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopPushed">
+            <Layer>
+                <Section section="top_normal" />
+                <Section section="label">
+                    <ColourProperty name="PushedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomPushed">
+            <Layer>
+                <Section section="bot_normal" />
+                <Section section="label">
+                    <ColourProperty name="PushedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="TopDisabled">
+            <Layer>
+                <Section section="top_normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+                <Section section="label">
+                    <ColourProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="BottomDisabled">
+            <Layer>
+                <Section section="bot_normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+                <Section section="label">
+                    <ColourProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/TabButtonPane2
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/TabButtonPane2">
+        <PropertyDefinition name="EnableTop" initialValue="1" redrawOnWrite="true" layoutOnWrite="true" />
+        <PropertyDefinition name="EnableBottom" initialValue="1" redrawOnWrite="true" layoutOnWrite="true" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" >
+                        <ImageDim imageset="windows1" image="TabHorizontalFiller" dimension="Height">
+                            <DimOperator op="Multiply">
+                                <PropertyDim name="EnableTop" />
+                            </DimOperator>
+                        </ImageDim>
+                    </Dim>
+                </Area>
+                <Image type="TopEdge" imageset="windows1" image="" />
+            </FrameComponent>
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" >
+                        <ImageDim imageset="windows1" image="TabHorizontalFiller" dimension="Height">
+                            <DimOperator op="Multiply">
+                                <PropertyDim name="EnableTop" />
+                            </DimOperator>
+                        </ImageDim>
+                    </Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" >
+                        <UnifiedDim scale="1" type="Height">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="windows1" image="TabHorizontalFiller" dimension="Height">
+                                    <DimOperator op="Multiply">
+                                        <PropertyDim name="EnableBottom" />
+                                    </DimOperator>
+                                </ImageDim>
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+            </FrameComponent>
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" >
+                        <UnifiedDim scale="1" type="Height">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="windows1" image="TabHorizontalFiller" dimension="Height">
+                                    <DimOperator op="Multiply">
+                                        <PropertyDim name="EnableBottom" />
+                                    </DimOperator>
+                                </ImageDim>
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="BottomEdge" imageset="windows1" image="" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/TabButtonPane3
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/TabButtonPane3">
+        <PropertyDefinition name="EnableTop" initialValue="1" redrawOnWrite="true" layoutOnWrite="true" />
+        <PropertyDefinition name="EnableBottom" initialValue="1" redrawOnWrite="true" layoutOnWrite="true" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" >
+                        <ImageDim imageset="windows1" image="TabHorizontalFiller" dimension="Height">
+                            <DimOperator op="Multiply">
+                                <PropertyDim name="EnableTop" />
+                            </DimOperator>
+                        </ImageDim>
+                    </Dim>
+                </Area>
+                <Image type="TopEdge" imageset="windows1" image="" />
+            </FrameComponent>
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" >
+                        <ImageDim imageset="windows1" image="TabHorizontalFiller" dimension="Height">
+                            <DimOperator op="Multiply">
+                                <PropertyDim name="EnableTop" />
+                            </DimOperator>
+                        </ImageDim>
+                    </Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" >
+                        <UnifiedDim scale="1" type="Height">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="windows1" image="TabHorizontalFiller" dimension="Height">
+                                    <DimOperator op="Multiply">
+                                        <PropertyDim name="EnableBottom" />
+                                    </DimOperator>
+                                </ImageDim>
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+            </FrameComponent>
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" >
+                        <UnifiedDim scale="1" type="Height">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="windows1" image="TabHorizontalFiller" dimension="Height">
+                                    <DimOperator op="Multiply">
+                                        <PropertyDim name="EnableBottom" />
+                                    </DimOperator>
+                                </ImageDim>
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="BottomEdge" imageset="windows1" image="" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/TabContentPane2
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/TabContentPane2">
+        <PropertyDefinition name="EnableTop" initialValue="0" redrawOnWrite="true" layoutOnWrite="true" />
+        <PropertyDefinition name="EnableBottom" initialValue="0" redrawOnWrite="true" layoutOnWrite="true" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" >
+                        <ImageDim imageset="windows1" image="window8_topleft" dimension="Height">
+                            <DimOperator op="Multiply">
+                                <PropertyDim name="EnableTop" />
+                            </DimOperator>
+                        </ImageDim>
+                    </Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="window8_topleft" />
+                <Image type="TopEdge" imageset="windows1" image="window8_top" />
+                <Image type="TopRightCorner" imageset="windows1" image="window8_topright" />
+            </FrameComponent>
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" >
+                        <ImageDim imageset="windows1" image="window8_topleft" dimension="Height">
+                            <DimOperator op="Multiply">
+                                <PropertyDim name="EnableTop" />
+                            </DimOperator>
+                        </ImageDim>
+                    </Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" >
+                        <UnifiedDim scale="1" type="Height">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="windows1" image="window8_bottomleft" dimension="Height">
+                                    <DimOperator op="Multiply">
+                                        <PropertyDim name="EnableBottom" />
+                                    </DimOperator>
+                                </ImageDim>
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="windows1" image="window8_left" />
+                <Image type="Background" imageset="windows1" image="window8_mid" />
+                <Image type="RightEdge" imageset="windows1" image="window8_right" />
+            </FrameComponent>
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" >
+                        <UnifiedDim scale="1" type="Height">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="windows1" image="window8_bottomleft" dimension="Height">
+                                    <DimOperator op="Multiply">
+                                        <PropertyDim name="EnableBottom" />
+                                    </DimOperator>
+                                </ImageDim>
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="BottomLeftCorner" imageset="windows1" image="window8_bottomleft" />
+                <Image type="BottomEdge" imageset="windows1" image="window8_bottom" />
+                <Image type="BottomRightCorner" imageset="windows1" image="window8_bottomright" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/TabContentPane3
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/TabContentPane3">
+        <PropertyDefinition name="EnableTop" initialValue="0" redrawOnWrite="true" layoutOnWrite="true" />
+        <PropertyDefinition name="EnableBottom" initialValue="0" redrawOnWrite="true" layoutOnWrite="true" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" >
+                        <ImageDim imageset="common1" image="Window7_TopLeft" dimension="Height">
+                            <DimOperator op="Multiply">
+                                <PropertyDim name="EnableTop" />
+                            </DimOperator>
+                        </ImageDim>
+                    </Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="common1" image="Window7_TopLeft" />
+                <Image type="TopEdge" imageset="common1" image="Window7_Top" />
+                <Image type="TopRightCorner" imageset="common1" image="Window7_TopRight" />
+            </FrameComponent>
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" >
+                        <ImageDim imageset="common1" image="Window7_TopLeft" dimension="Height">
+                            <DimOperator op="Multiply">
+                                <PropertyDim name="EnableTop" />
+                            </DimOperator>
+                        </ImageDim>
+                    </Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" >
+                        <UnifiedDim scale="1" type="Height">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="common1" image="Window7_BottomLeft" dimension="Height">
+                                    <DimOperator op="Multiply">
+                                        <PropertyDim name="EnableBottom" />
+                                    </DimOperator>
+                                </ImageDim>
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="common1" image="Window7_Left" />
+                <Image type="Background" imageset="common1" image="Window7_Mid" />
+                <Image type="RightEdge" imageset="common1" image="Window7_Right" />
+            </FrameComponent>
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" >
+                        <UnifiedDim scale="1" type="Height">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="common1" image="Window7_BottomLeft" dimension="Height">
+                                    <DimOperator op="Multiply">
+                                        <PropertyDim name="EnableBottom" />
+                                    </DimOperator>
+                                </ImageDim>
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="BottomLeftCorner" imageset="common1" image="Window7_BottomLeft" />
+                <Image type="BottomEdge" imageset="common1" image="Window7_Bottom" />
+                <Image type="BottomRightCorner" imageset="common1" image="Window7_BottomRight" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/ProgressBar
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/ProgressBar">
+        <NamedArea name="ProgressArea">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="common1" image="Person_data1_left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="common1" image="Person_data1_right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="common1" image="Person_data1_left" />
+                <Image type="RightEdge" imageset="common1" image="Person_data1_right" />
+                <Image type="Background" imageset="common1" image="Person_data1_mid" />
+                <Image type="TopLeftCorner" imageset="common1" image="Person_data1_topleft" />
+                <Image type="TopRightCorner" imageset="common1" image="Person_data1_topright" />
+                <Image type="BottomLeftCorner" imageset="common1" image="Person_data1_bottomleft" />
+                <Image type="BottomRightCorner" imageset="common1" image="Person_data1_bottomright" />
+                <Image type="TopEdge" imageset="common1" image="Person_data1_top" />
+                <Image type="BottomEdge" imageset="common1" image="Person_data1_bottom" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="progress_lights" >
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="1" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><AbsoluteDim value="9" /></Dim>
+                </Area>
+                <Image imageset="common1" image="Person_data2" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="frame">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledProgress">
+            <Layer>
+                <Section section="progress_lights" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledProgress">
+            <Layer>
+                <Section section="progress_lights">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/ProgressBar1
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/ProgressBar1">
+        <NamedArea name="ProgressArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="1" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="1" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="common1" image="Window_FarmExp_Left" />
+                <Image type="RightEdge" imageset="common1" image="Window_FarmExp_Right" />
+                <Image type="Background" imageset="common1" image="Window_FarmExp_Mid" />
+                <Image type="TopLeftCorner" imageset="common1" image="Window_FarmExp_TopLeft" />
+                <Image type="TopRightCorner" imageset="common1" image="Window_FarmExp_TopRight" />
+                <Image type="BottomLeftCorner" imageset="common1" image="Window_FarmExp_BottomLeft" />
+                <Image type="BottomRightCorner" imageset="common1" image="Window_FarmExp_BottomRight" />
+                <Image type="TopEdge" imageset="common1" image="Window_FarmExp_Top" />
+                <Image type="BottomEdge" imageset="common1" image="Window_FarmExp_Bottom" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="progress_lights" >
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image imageset="common1" image="Window_FarmExp2" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="frame">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledProgress">
+            <Layer>
+                <Section section="progress_lights" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledProgress">
+            <Layer>
+                <Section section="progress_lights">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    <!--
+    ***************************************************
+        EQHomeLook/ProgressBar2
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/ProgressBar2">
+        <NamedArea name="ProgressArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="2" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="2" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="common1" image="window_farmstate_left" />
+                <Image type="RightEdge" imageset="common1" image="window_farmstate_right" />
+                <Image type="Background" imageset="common1" image="window_farmstate_mid" />
+                <Image type="TopLeftCorner" imageset="common1" image="window_farmstate_topleft" />
+                <Image type="TopRightCorner" imageset="common1" image="window_farmstate_topright" />
+                <Image type="BottomLeftCorner" imageset="common1" image="window_farmstate_bottomleft" />
+                <Image type="BottomRightCorner" imageset="common1" image="window_farmstate_bottomright" />
+                <Image type="TopEdge" imageset="common1" image="window_farmstate_top" />
+                <Image type="BottomEdge" imageset="common1" image="window_farmstate_bottom" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="progress_lights" >
+            <ImageryComponent>
+               <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="1" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><AbsoluteDim value="8"  /></Dim>
+                </Area>
+                <Image imageset="common1" image="window_farmstate" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="frame">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledProgress">
+            <Layer>
+                <Section section="progress_lights" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledProgress">
+            <Layer>
+                <Section section="progress_lights">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    <!--
+    ***************************************************
+        EQHomeLook/ProgressBar3
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/ProgressBar3">
+        <NamedArea name="ProgressArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="2" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="2" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="common1" image="window_farmgrow_left" />
+                <Image type="RightEdge" imageset="common1" image="window_farmgrow_right" />
+                <Image type="Background" imageset="common1" image="window_farmgrow_mid" />
+                <Image type="TopLeftCorner" imageset="common1" image="window_farmgrow_topleft" />
+                <Image type="TopRightCorner" imageset="common1" image="window_farmgrow_topright" />
+                <Image type="BottomLeftCorner" imageset="common1" image="window_farmgrow_bottomleft" />
+                <Image type="BottomRightCorner" imageset="common1" image="window_farmgrow_bottomright" />
+                <Image type="TopEdge" imageset="common1" image="window_farmgrow_top" />
+                <Image type="BottomEdge" imageset="common1" image="window_farmgrow_bottom" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="progress_lights" >
+            <ImageryComponent>
+               <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="1" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><AbsoluteDim value="8"  /></Dim>
+                </Area>
+                <Image imageset="common1" image="window_farmgrow" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="frame">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledProgress">
+            <Layer>
+                <Section section="progress_lights" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledProgress">
+            <Layer>
+                <Section section="progress_lights">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/Editbox4
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/Editbox4">
+        <PropertyDefinition name="NormalTextColour" initialValue="FF000000" redrawOnWrite="true" />
+        <PropertyDefinition name="SelectedTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="ActiveSelectionColour" initialValue="FF607FFF" redrawOnWrite="true" />
+        <PropertyDefinition name="InactiveSelectionColour" initialValue="FF808080" redrawOnWrite="true" />
+	  		<Property name="MouseCursorImage" value="set:windows1 image:MouseTextBar" />
+        <NamedArea name="TextArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="12" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="3" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" offset="-25" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" offset="-5" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="container_normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="common1" image="farm_friendlist2_left" />
+                <Image type="RightEdge" imageset="common1" image="farm_friendlist2_right" />
+                <Image type="Background" imageset="common1" image="farm_friendlist2_mid" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="selection">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="windows1" image="TextSelectionBrush" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="Carat">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><ImageDim imageset="windows1" image="EditBoxCarat" dimension="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="windows1" image="EditBoxCarat" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="container_normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ReadOnly">
+            <Layer>
+                <Section section="container_normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="container_normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveSelection">
+            <Layer>
+                <Section section="selection">
+                    <ColourProperty name="ActiveSelectionColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveSelection">
+            <Layer>
+                <Section section="selection">
+                    <ColourProperty name="InactiveSelectionColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+		/**********************************************************************************************************
+			EQHomeLook/Tree
+		***********************************************************************************************************/
+		-->
+		<WidgetLook name="EQHomeLook/Tree">
+        <Property name="SelectionBrushImage" value="set:common1 image:Person_data2" />
+        <Property name="NormalTextColour" value="FF000000" />
+        <Property name="SelectedTextColour" value="FFFFFFFF" />
+        <Property name="ActiveSelectionColour" value="FF607FFF" />
+        <Property name="InactiveSelectionColour" value="FF808080" />
+        <NamedArea name="ItemRenderingArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="1" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="5" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="5" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="5" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="EQHomeLook/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="5" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" offset="-25" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="10" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+        </Child>
+        <Child  type="EQHomeLook/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="-5" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="5" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="10" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" offset="-10" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+        <ImagerySection name="OpenTreeButton">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="TaharezLook" image="TreeListClosed" />
+              	<!--<VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" /> -->
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="CloseTreeButton">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="TaharezLook" image="TreeListOpened" />
+                <!--<VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" /> -->
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section look="NewEQHomeLook/NewStaticShared" section="NewStaticImage8frame">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section look="NewEQHomeLook/NewStaticShared" section="NewStaticImage8frame">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+       	EQHomeLook/TabControl3
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/TabControl3">
+        <Property name="TabButtonType" value="EQHomeLook/TabButton3" />
+        <Property name="TabTextPadding" value="{0,6}" />
+        <Child type="EQHomeLook/TabContentPane3" nameSuffix="__auto_TabPane__">
+            <Area>
+                <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge"><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="TopEdge">
+                    <PropertyDim widget="__auto_TabPane__" name="EnableBottom">
+                        <DimOperator op="Multiply">
+                            <PropertyDim name="TabHeight" type="Height" />
+                        </DimOperator>
+                    </PropertyDim>
+                </Dim>
+                <Dim type="Height">
+                    <UnifiedDim scale="1" type="Height">
+                        <DimOperator op="Subtract">
+                            <PropertyDim name="TabHeight" type="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </Child>
+        <Child  type="EQHomeLook/TabButtonPane3" nameSuffix="__auto_TabPane__Buttons">
+            <Area>
+                <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge"><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="TopEdge">
+                    <PropertyDim widget="__auto_TabPane__Buttons" name="EnableTop">
+                        <DimOperator op="Multiply">
+                            <UnifiedDim scale="1" type="Height">
+                                <DimOperator op="Subtract">
+                                    <PropertyDim name="TabHeight" type="Height" />
+                                </DimOperator>
+                            </UnifiedDim>
+                        </DimOperator>
+                    </PropertyDim>
+                </Dim>
+                <Dim type="Height"><PropertyDim name="TabHeight" type="Height" /></Dim>
+            </Area>
+        </Child>
+        <Child type="EQHomeLook/SystemButton" nameSuffix="__auto_TabPane__ScrollLeft">
+            <Area>
+                <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="TopEdge" />
+                </Dim>
+                <Dim type="Width">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="Height">
+                        <DimOperator op="Multiply">
+                            <ImageDim imageset="common1" image="ImageButton8_Normal" dimension="Width">
+                                <DimOperator op="Divide">
+                                    <ImageDim imageset="common1" image="ImageButton8_Normal" dimension="Height" />
+                                </DimOperator>
+                            </ImageDim>
+                        </DimOperator>
+                    </WidgetDim>
+                </Dim>
+                <Dim type="BottomEdge">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="BottomEdge" />
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="True" />
+            <Property name="NormalImage" value="set:common1 image:ImageButton8_Normal" />
+            <Property name="HoverImage" value="set:common1 image:ImageButton8_Normal" />
+            <Property name="PushedImage" value="set:common1 image:ImageButton8_Normal" />
+        </Child>
+        <Child type="EQHomeLook/SystemButton" nameSuffix="__auto_TabPane__ScrollRight">
+            <Area>
+                <Dim type="Width">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="Height">
+                        <DimOperator op="Multiply">
+                            <ImageDim imageset="common1" image="ImageButton9_Normal" dimension="Width">
+                                <DimOperator op="Divide">
+                                    <ImageDim imageset="common1" image="ImageButton9_Normal" dimension="Height" />
+                                </DimOperator>
+                            </ImageDim>
+                        </DimOperator>
+                    </WidgetDim>
+                </Dim>
+                <Dim type="LeftEdge">
+                    <UnifiedDim scale="1" type="Width">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_TabPane__ScrollRight" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="TopEdge" />
+                </Dim>
+                <Dim type="Height">
+                    <WidgetDim widget="__auto_TabPane__Buttons" dimension="Height" />
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="True" />
+            <Property name="NormalImage" value="set:common1 image:ImageButton9_Normal" />
+            <Property name="HoverImage" value="set:common1 image:ImageButton9_Normal" />
+            <Property name="PushedImage" value="set:common1 image:ImageButton9_Normal" />
+        </Child>
+        <StateImagery name="Enabled" />
+        <StateImagery name="Disabled" />
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/ScrollablePane
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/ScrollablePane">
+        <NamedArea name="ViewableArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ViewableAreaHScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ViewableAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ViewableAreaHVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="EQHomeLook/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" offset="-12" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="12" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+        </Child>
+        <Child  type="NewEQHomeLook/NewVerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="12" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" offset="-12" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+        <StateImagery name="Enabled" />
+        <StateImagery name="Disabled" />
+    </WidgetLook>
+
+    <!--
+    ***************************************************
+        EQHomeLook/AnimateBox
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/AnimateBox">
+        <ImagerySection name="main">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/MultiLineBox
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/MultiLineBox">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <NamedArea name="TextArea">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Top" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="TextAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Top" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                		<UnifiedDim scale="1" type="RightEdge">
+                				<DimOperator op="Subtract">
+														<WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                				</DimOperator>
+                		</UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="EQHomeLook/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="13" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+        <ImagerySection name="main">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="MultiLineEditbox_TopLeft" />
+                <Image type="TopRightCorner" imageset="windows1" image="MultiLineEditbox_TopRight" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="MultiLineEditbox_BottomLeft" />
+                <Image type="BottomRightCorner" imageset="windows1" image="MultiLineEditbox_BottomRight" />
+                <Image type="LeftEdge" imageset="windows1" image="MultiLineEditbox_Left" />
+                <Image type="RightEdge" imageset="windows1" image="MultiLineEditbox_Right" />
+                <Image type="TopEdge" imageset="windows1" image="MultiLineEditbox_Top" />
+                <Image type="BottomEdge" imageset="windows1" image="MultiLineEditbox_Bottom" />
+                <Image type="Background" imageset="windows1" image="MultiLineEditbox_Mid" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/ItemhintFrame
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/ItemhintFrame">
+				<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+				<PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+        <Property name="FrameEnabled" value="True" />
+        <Property name="BackgroundEnabled" value="True" />
+        <NamedArea name="WithFrameTextRenderArea">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="Button5" image="NewImage183" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="Button5" image="NewImage181" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="Button5" image="NewImage186" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="Button5" image="NewImage185" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="WithFrameTextRenderAreaHScroll">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="Button5" image="NewImage183" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="Button5" image="NewImage181" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="Button5" image="NewImage186" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="WithFrameTextRenderAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="Button5" image="NewImage183" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="Button5" image="NewImage181" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="Button5" image="NewImage185" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="WithFrameTextRenderAreaHVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="Button5" image="NewImage183" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="Button5" image="NewImage181" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="NoFrameTextRenderArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="NoFrameTextRenderAreaHScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="NoFrameTextRenderAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="NoFrameTextRenderAreaHVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="StaticTextframe">
+            <FrameComponent>
+                <Image type="TopLeftCorner" imageset="Button5" image="NewImage180" />
+                <Image type="TopRightCorner" imageset="Button5" image="NewImage190" />
+                <Image type="BottomLeftCorner" imageset="Button5" image="NewImage184" />
+                <Image type="BottomRightCorner" imageset="Button5" image="NewImage187" />
+                <Image type="LeftEdge" imageset="Button5" image="NewImage183" />
+                <Image type="RightEdge" imageset="Button5" image="NewImage186" />
+                <Image type="TopEdge" imageset="Button5" image="NewImage181" />
+                <Image type="BottomEdge" imageset="Button5" image="NewImage185" />
+		    				<Image type="Background" imageset="Button5" image="NewImage182" />
+ 		    				<Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <ColourRectProperty name="FrameColours" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="StaticTextBackground">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><ImageDim imageset="Button5" image="NewImage183" dimension="Width" /></Dim>
+                    <Dim type="TopEdge" ><ImageDim imageset="Button5" image="NewImage181" dimension="Height" /></Dim>
+                    <Dim type="RightEdge" >
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="Button5" image="NewImage186" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge" >
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="Button5" image="NewImage185" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="Button5" image="NewImage182" />
+                <!--<ColourRectProperty name="BackgroundColours" />-->
+                <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="StaticTextBackground_noframe">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="Button5" image="NewImage182" />
+                <!--<ColourRectProperty name="BackgroundColours" />-->
+                <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <Child  type="EQHomeLook/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" offset="-12" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="12" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+        </Child>
+        <Child  type="EQHomeLook/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="12" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" offset="-12" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+        <StateImagery name="Enabled" />
+        <StateImagery name="Disabled" />
+
+        <StateImagery name="EnabledFrame">
+            <Layer>
+                <Section section="StaticTextframe" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledFrame">
+            <Layer>
+                <Section section="StaticTextframe" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameEnabledBackground">
+            <Layer>
+                <Section section="StaticTextBackground" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameDisabledBackground">
+            <Layer>
+                <Section section="StaticTextBackground" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameEnabledBackground">
+            <Layer>
+                <Section section="StaticTextBackground_noframe" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameDisabledBackground">
+            <Layer>
+                <Section section="StaticTextBackground_noframe" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+     <!--
+    ***************************************************
+        EQHomeLook/TransRichTextbox
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/TransRichTextbox">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="SelectedTextColour" initialValue="FF000000" redrawOnWrite="true" />
+        <PropertyDefinition name="ActiveSelectionColour" initialValue="FF607FFF" redrawOnWrite="true" />
+        <PropertyDefinition name="InactiveSelectionColour" initialValue="FF808080" redrawOnWrite="true" />
+        <Property name="MouseCursorImage" value="set:MouseArrow image:MouseArrow" />
+        <Property name="SelectionBrushImage" value="set:windows1 image:" />
+        <NamedArea name="TextArea">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Top" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="TextAreaHScroll">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Top" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="TextAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" >
+                    <UnifiedDim scale="0" type="LeftEdge">
+                        <DimOperator op="Add">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Top" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                		<UnifiedDim scale="1" type="RightEdge">
+                				<DimOperator op="Subtract">
+                						<ImageDim imageset="windows1" image="MultiLineEditbox_Right" dimension="Width" />
+                				</DimOperator>
+                		</UnifiedDim>		
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="TextAreaHVScroll">
+            <Area>
+                <Dim type="LeftEdge" >
+                    <UnifiedDim scale="0" type="LeftEdge">
+                        <DimOperator op="Add">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Top" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                		<UnifiedDim scale="1" type="RightEdge">
+                				<DimOperator op="Subtract">
+                						<ImageDim imageset="windows1" image="MultiLineEditbox_Right" dimension="Width" />
+                				</DimOperator>
+                		</UnifiedDim>		
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="EQHomeLook/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" >
+                    <UnifiedDim scale="0" type="LeftEdge">
+                        <DimOperator op="Add">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" offset="-12" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="15" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+        </Child>
+        <Child  type="EQHomeLook/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="13" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="LeftAligned" />
+        </Child>
+        <ImagerySection name="main">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="" />
+                <Image type="TopRightCorner" imageset="windows1" image="" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="" />
+                <Image type="BottomRightCorner" imageset="windows1" image="" />
+                <Image type="LeftEdge" imageset="windows1" image="" />
+                <Image type="RightEdge" imageset="windows1" image="" />
+                <Image type="TopEdge" imageset="windows1" image="" />
+                <Image type="BottomEdge" imageset="windows1" image="" />
+                <Image type="Background" imageset="windows1" image="" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="Carat">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><ImageDim imageset="windows1" image="EditBoxCarat" dimension="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="windows1" image="EditBoxCarat" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ReadOnly">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/MultiLineBox2
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/MultiLineBox2">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <NamedArea name="TextArea">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Top" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="TextAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Top" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+					<UnifiedDim scale="1" type="RightEdge">
+						<DimOperator op="Subtract">
+							<WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+						</DimOperator>
+					</UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="NewEQHomeLook/NewVerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="13" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+        <ImagerySection name="main">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/MultiLineBox3
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/MultiLineBox3">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <NamedArea name="TextArea">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Top" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="TextAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" >
+                    <UnifiedDim scale="0" type="LeftEdge">
+                        <DimOperator op="Add">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="windows1" image="MultiLineEditbox_Top" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                		<UnifiedDim scale="1" type="RightEdge">
+                				<DimOperator op="Subtract">
+                						<ImageDim imageset="windows1" image="MultiLineEditbox_Right" dimension="Width" />
+                				</DimOperator>
+                		</UnifiedDim>		
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="windows1" image="MultiLineEditbox_Bottom" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="NewEQHomeLook/NewVerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="13" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="LeftAligned" />
+        </Child>
+        <ImagerySection name="main">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="windows1" image="MultiLineEditbox_TopLeft" />
+                <Image type="TopRightCorner" imageset="windows1" image="MultiLineEditbox_TopRight" />
+                <Image type="BottomLeftCorner" imageset="windows1" image="MultiLineEditbox_BottomLeft" />
+                <Image type="BottomRightCorner" imageset="windows1" image="MultiLineEditbox_BottomRight" />
+                <Image type="LeftEdge" imageset="windows1" image="MultiLineEditbox_Left" />
+                <Image type="RightEdge" imageset="windows1" image="MultiLineEditbox_Right" />
+                <Image type="TopEdge" imageset="windows1" image="MultiLineEditbox_Top" />
+                <Image type="BottomEdge" imageset="windows1" image="MultiLineEditbox_Bottom" />
+                <Image type="Background" imageset="windows1" image="MultiLineEditbox_Mid" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/FarmPaoPao
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/FarmPaoPao">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <Property name="MouseCursorImage" value="set:MouseArrow image:MouseArrow" />
+        <NamedArea name="TextArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="6" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="6" /></Dim>
+                <Dim type="Width" >
+                		<UnifiedDim scale="1" type="Width">
+                				<DimOperator op="Subtract">
+                						<AbsoluteDim value="12" />
+                				</DimOperator>                		
+                		</UnifiedDim>
+                </Dim>
+                <Dim type="Height" >
+                		<UnifiedDim scale="1" type="Height">
+                				<DimOperator op="Subtract">
+                						<AbsoluteDim value="28" />
+                				</DimOperator>
+                		</UnifiedDim>
+                </Dim>
+            </Area>           
+        </NamedArea>
+        <NamedArea name="TextAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="6" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="6" /></Dim>
+                <Dim type="RightEdge" >
+                		<UnifiedDim scale="1" type="RightEdge">
+                				<DimOperator op="Subtract">
+														<WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                				</DimOperator>
+                		</UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                				<DimOperator op="Subtract">
+                						<AbsoluteDim value="28" />
+                				</DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="EQHomeLook/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="13" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+        <ImagerySection name="main">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="window2" image="pop_window_topleft" />
+                <Image type="TopRightCorner" imageset="window2" image="pop_window_topright" />
+                <Image type="BottomLeftCorner" imageset="window2" image="pop_window_bottomleft" />
+                <Image type="BottomRightCorner" imageset="window2" image="pop_window_bottomright" />
+                <Image type="LeftEdge" imageset="window2" image="pop_window_left" />
+                <Image type="RightEdge" imageset="window2" image="pop_window_right" />
+                <Image type="TopEdge" imageset="window2" image="pop_window_top" />
+                <Image type="BottomEdge" imageset="window2" image="pop_window_bottom" />
+                <Image type="Background" imageset="window2" image="pop_window_mid" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/ChatPaoPao
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/ChatPaoPao">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <Property name="MouseCursorImage" value="set:MouseArrow image:MouseArrow" />
+        <NamedArea name="TextArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="12" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="12" /></Dim>
+                <Dim type="Width" >
+                	<UnifiedDim scale="1" type="Width">
+                		<DimOperator op="Subtract">
+                			<AbsoluteDim value="12" />
+                		</DimOperator>                		
+                	</UnifiedDim>
+                </Dim>
+                <Dim type="Height" >
+                	<UnifiedDim scale="1" type="Height">
+						<DimOperator op="Subtract">
+                			<AbsoluteDim value="28" />
+                		</DimOperator>
+                	</UnifiedDim>
+                </Dim>
+            </Area>           
+        </NamedArea>
+        <NamedArea name="TextAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="6" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="6" /></Dim>
+                <Dim type="RightEdge" >
+                		<UnifiedDim scale="1" type="RightEdge">
+                				<DimOperator op="Subtract">
+														<WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                				</DimOperator>
+                		</UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                				<DimOperator op="Subtract">
+                						<AbsoluteDim value="28" />
+                				</DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="EQHomeLook/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="13" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+        <ImagerySection name="main">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="window2" image="chat_pop_topleft" />
+                <Image type="TopRightCorner" imageset="window2" image="chat_pop_topright" />
+                <Image type="BottomLeftCorner" imageset="window2" image="chat_pop_bottomleft" />
+                <Image type="BottomRightCorner" imageset="window2" image="chat_pop_bottomright" />
+                <Image type="LeftEdge" imageset="window2" image="chat_pop_left" />
+                <Image type="RightEdge" imageset="window2" image="chat_pop_right" />
+                <Image type="TopEdge" imageset="window2" image="chat_pop_top" />
+                <Image type="BottomEdge" imageset="window2" image="chat_pop_bottom" />
+                <Image type="Background" imageset="window2" image="chat_pop_mid" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        EQHomeLook/NoticeFrame
+    ***************************************************
+    -->
+    <WidgetLook name="EQHomeLook/NoticeFrame">
+		<PropertyDefinition name="ImageColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="VertFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <Property name="BackgroundEnabled" value="True" />
+        <Property name="FrameEnabled" value="True" />
+        <ImagerySection name="image_withframe">
+            <ImageryComponent>
+                <Area>
+										<Dim type="LeftEdge" ><ImageDim imageset="windows1" image="BackGround13_Left" dimension="Width" /></Dim>
+										<Dim type="TopEdge" ><ImageDim imageset="windows1" image="BackGround13_Top" dimension="Height" /></Dim>
+										<Dim type="RightEdge" >
+												<UnifiedDim scale="1" type="RightEdge">
+														<DimOperator op="Subtract">
+																<ImageDim imageset="windows1" image="BackGround13_Right" dimension="Width" />
+														</DimOperator>
+												</UnifiedDim>
+										</Dim>
+										<Dim type="BottomEdge" >
+												<UnifiedDim scale="1" type="BottomEdge">
+														<DimOperator op="Subtract">
+																<ImageDim imageset="windows1" image="BackGround13_Bottom" dimension="Height" />
+														</DimOperator>
+												</UnifiedDim>
+										</Dim>
+								</Area>
+              	<ImageProperty name="Image" />
+                <ColourRectProperty name="ImageColours" />
+                <VertFormatProperty name="VertFormatting" />
+                <HorzFormatProperty name="HorzFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="image_noframe">
+            <ImageryComponent>
+                <Area>
+										<Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+										<Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+										<Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+										<Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+								</Area>
+                <ImageProperty name="Image" />
+                <ColourRectProperty name="ImageColours" />
+                <VertFormatProperty name="VertFormatting" />
+                <HorzFormatProperty name="HorzFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled" />
+        <StateImagery name="Disabled" />
+        <StateImagery name="EnabledFrame">
+            <Layer>
+                <Section look="EQHomeLook/StaticShared" section="StaticNoticeframe" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledFrame">
+            <Layer>
+                <Section look="EQHomeLook/StaticShared" section="StaticNoticeframe" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameEnabledBackground">
+
+        </StateImagery>
+        <StateImagery name="WithFrameDisabledBackground">
+
+        </StateImagery>
+        <StateImagery name="NoFrameEnabledBackground">
+
+        </StateImagery>
+        <StateImagery name="NoFrameDisabledBackground">
+
+        </StateImagery>
+        <StateImagery name="WithFrameImage">
+
+        </StateImagery>
+        <StateImagery name="NoFrameImage">
+
+        </StateImagery>
+    </WidgetLook>
+</Falagard>

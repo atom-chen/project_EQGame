@@ -1,0 +1,4276 @@
+import * from "commTemplate.material"
+
+material 20010001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010001_01.dds
+}
+material 20010001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010001_02.dds
+}
+material 20010002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010002_01.dds
+}
+material 20010002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010002_02.dds
+}
+material 20010002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010002_03.dds
+}
+material 20010003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010003_01.dds
+}
+material 20010003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010003_02.dds
+}
+material 20010003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010003_03.dds
+}
+material 20010003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010003_04.dds
+}
+material 20010003_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010003_05.dds
+}
+material 20010004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010004_01.dds
+}
+material 20010004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010004_02.dds
+}
+material 20010004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010004_03.dds
+}
+material 20010004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010004_04.dds
+}
+material 20010004_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010004_05.dds
+}
+material 20010005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010005_01.dds
+}
+material 20010005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010005_02.dds
+}
+material 20010005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010005_03.dds
+}
+material 20010005_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010005_04.dds
+}
+material 20010005_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010005_05.dds
+}
+material 20010006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010006_01.dds
+}
+material 20010006_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010006_02.dds
+}
+material 20010007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010007_01.dds
+}
+material 20010007_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010007_02.dds
+}
+material 20010007_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010007_03.dds
+}
+material 20010008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010008_01.dds
+}
+material 20010008_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010008_02.dds
+}
+material 20010008_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010008_03.dds
+}
+material 20010008_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010008_04.dds
+}
+material 20010008_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010008_05.dds
+}
+material 20010009_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010009_01.dds
+}
+material 20010009_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010009_02.dds
+}
+material 20010009_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010009_03.dds
+}
+material 20010009_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010009_04.dds
+}
+material 20010009_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010009_05.dds
+}
+material 20010010_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010010_01.dds
+}
+material 20010010_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010010_02.dds
+}
+material 20010010_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010010_03.dds
+}
+material 20010010_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010010_04.dds
+}
+material 20010010_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20010010_05.dds
+}
+material 20015001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20015001_01.dds
+}
+material 20015001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20015001_02.dds
+}
+material 20015002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20015002_01.dds
+}
+material 20015002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20015002_02.dds
+}
+material 20015002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20015002_03.dds
+}
+material 20015003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20015003_01.dds
+}
+material 20015003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20015003_02.dds
+}
+material 20015003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20015003_03.dds
+}
+material 20015003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20015003_04.dds
+}
+
+
+material 20027003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20027003_01.dds
+}
+material 20027004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20027004_01.dds
+}
+material 20027005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20027005_01.dds
+}
+
+
+material 20015004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20015004_01.dds
+}
+material 20015004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20015004_02.dds
+}
+material 20015004_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20015004_03.dds
+}
+material 20035001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20035001_01.dds
+}
+material 20035001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20035001_02.dds
+}
+material 20035001_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20035001_03.dds
+}
+material 20035001_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20035001_04.dds
+}
+material 20037002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20037002_01.dds
+}
+material 20037002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20037002_02.dds
+}
+material 20037002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20037002_03.dds
+}
+material 20037002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20037002_04.dds
+}
+material 20040001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040001_01.dds
+}
+material 20040001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040001_02.dds
+}
+material 20040002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040002_01.dds
+}
+material 20040002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040002_02.dds
+}
+material 20040002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040002_03.dds
+}
+material 20040002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040002_04.dds
+}
+material 20040002_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040002_05.dds
+}
+material 20040002_06 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040002_06.dds
+}
+material 20040002_07 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040002_07.dds
+}
+material 20040002_08 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040002_08.dds
+}
+material 20040002_09 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040002_09.dds
+}
+material 20040002_10 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040002_10.dds
+}
+material 20040003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040003_01.dds
+}
+material 20040003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040003_02.dds
+}
+material 20040003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040003_03.dds
+}
+material 20040003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040003_04.dds
+}
+material 20040003_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040003_05.dds
+}
+material 20040004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040004_01.dds
+}
+material 20040004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040004_02.dds
+}
+material 20040004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040004_03.dds
+}
+material 20040004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040004_04.dds
+}
+material 20040004_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040004_05.dds
+}
+material 20040005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040005_01.dds
+}
+material 20040005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040005_02.dds
+}
+material 20040005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040005_03.dds
+}
+material 20040005_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040005_04.dds
+}
+material 20040006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040006_01.dds
+}
+material 20040006_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040006_02.dds
+}
+material 20040006_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040006_03.dds
+}
+material 20040006_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040006_04.dds
+}
+material 20040006_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040006_05.dds
+}
+material 20040007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040007_01.dds
+}
+material 20042001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042001_01.dds
+}
+material 20042001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042001_02.dds
+}
+material 20042002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042002_01.dds
+}
+material 20042002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042002_02.dds
+}
+material 20042002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042002_03.dds
+}
+material 20042002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042002_04.dds
+}
+material 20042002_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042002_05.dds
+}
+material 20042003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042003_01.dds
+}
+material 20042003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042003_02.dds
+}
+material 20042003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042003_03.dds
+}
+material 20042003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042003_04.dds
+}
+material 20042003_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042003_05.dds
+}
+material 20042004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042004_01.dds
+}
+material 20042004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042004_02.dds
+}
+material 20042004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042004_03.dds
+}
+material 20042004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042004_04.dds
+}
+material 20042004_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042004_05.dds
+}
+material 20042005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042005_01.dds
+}
+material 20042005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042005_02.dds
+}
+material 20042005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042005_03.dds
+}
+material 20042005_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042005_04.dds
+}
+material 20042005_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042005_05.dds
+}
+material 20044001_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044001_01.dds
+}
+material 20044001_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044001_02.dds
+}
+material 20044002_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044002_01.dds
+}
+material 20044002_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044002_02.dds
+}
+material 20044002_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044002_03.dds
+}
+material 20044002_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044002_04.dds
+}
+material 20044002_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044002_05.dds
+}
+material 20044003_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044003_01.dds
+}
+material 20044003_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044003_02.dds
+}
+material 20044003_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044003_03.dds
+}
+material 20044003_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044003_04.dds
+}
+material 20044003_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044003_05.dds
+}
+material 20044004_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044004_01.dds
+}
+material 20044004_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044004_02.dds
+}
+material 20044004_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044004_03.dds
+}
+material 20044004_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044004_04.dds
+}
+material 20044004_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044004_05.dds
+}
+material 20044005_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044005_01.dds
+}
+material 20044005_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044005_02.dds
+}
+material 20044005_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044005_03.dds
+}
+material 20044005_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044005_04.dds
+}
+material 20044005_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20044005_05.dds
+}
+material 20045001_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045001_01.dds
+}
+material 20045001_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045001_02.dds
+}
+material 20045002_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045002_01.dds
+}
+material 20045002_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045002_02.dds
+}
+material 20045002_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045002_03.dds
+}
+material 20045002_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045002_04.dds
+}
+material 20045002_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045002_05.dds
+}
+material 20045003_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045003_01.dds
+}
+material 20045003_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045003_02.dds
+}
+material 20045003_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045003_03.dds
+}
+material 20045003_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045003_04.dds
+}
+material 20045003_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045003_05.dds
+}
+material 20045004_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045004_01.dds
+}
+material 20045004_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045004_02.dds
+}
+material 20045004_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045004_03.dds
+}
+material 20045004_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045004_04.dds
+}
+material 20045004_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045004_05.dds
+}
+material 20045005_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045005_01.dds
+}
+material 20045005_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045005_02.dds
+}
+material 20045005_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045005_03.dds
+}
+material 20045005_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045005_04.dds
+}
+material 20045005_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20045005_05.dds
+}
+material 20046001_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046001_01.dds
+}
+material 20046001_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046001_02.dds
+}
+material 20046002_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046002_01.dds
+}
+material 20046002_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046002_02.dds
+}
+material 20046003_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046003_01.dds
+}
+material 20046003_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046003_02.dds
+}
+material 20046004_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046004_01.dds
+}
+material 20046004_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046004_02.dds
+}
+material 20046005_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046005_01.dds
+}
+material 20046005_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046005_02.dds
+}
+material 20046006_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20046006_01.dds
+}
+material 20047001_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047001_01.dds
+}
+material 20047001_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047001_02.dds
+}
+material 20047001_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047001_03.dds
+}
+material 20047001_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047001_04.dds
+}
+material 20047002_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047002_01.dds
+}
+material 20047002_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047002_02.dds
+}
+material 20047002_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047002_03.dds
+}
+material 20047002_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047002_04.dds
+}
+material 20047002_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047002_05.dds
+}
+material 20047003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20047003_01.dds
+}
+material 20047003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20047003_02.dds
+}
+material 20047003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20047003_03.dds
+}
+material 20047003_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20047003_04.dds
+}
+material 20047004_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047004_01.dds
+}
+material 20047004_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047004_02.dds
+}
+material 20047004_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047004_03.dds
+}
+material 20047004_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047004_04.dds
+}
+material 20047004_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047004_05.dds
+}
+material 20047005_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047005_01.dds
+}
+material 20047005_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047005_02.dds
+}
+material 20047005_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047005_03.dds
+}
+material 20047005_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047005_04.dds
+}
+material 20047005_05 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047005_05.dds
+}
+material 20047006_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20047006_01.dds
+}
+material 20048001_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048001_01.dds
+}
+material 20048001_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048001_02.dds
+}
+material 20048002_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048002_01.dds
+}
+material 20048002_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048002_02.dds
+}
+material 20048002_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048002_03.dds
+}
+material 20048002_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048002_04.dds
+}
+material 20048003_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048003_01.dds
+}
+material 20048003_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048003_02.dds
+}
+material 20048003_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048003_03.dds
+}
+material 20048003_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048003_04.dds
+}
+material 20048004_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048004_01.dds
+}
+material 20048004_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048004_02.dds
+}
+material 20048004_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048004_03.dds
+}
+material 20048004_04 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048004_04.dds
+}
+material 20048005_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048005_01.dds
+}
+material 20048005_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048005_02.dds
+}
+material 20048005_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20048005_03.dds
+}
+material 20049001_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049001_01.dds
+}
+material 20049001_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049001_02.dds
+}
+material 20049002_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049002_01.dds
+}
+material 20049002_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049002_02.dds
+}
+material 20049003_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049003_01.dds
+}
+material 20049003_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049003_02.dds
+}
+material 20049003_03 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049003_03.dds
+}
+material 20049004_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049004_01.dds
+}
+material 20049004_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049004_02.dds
+}
+material 20049005_01 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049005_01.dds
+}
+material 20049005_02 : Tplt/SkinningFakeTranspt                   
+{                                                           
+    set_texture_alias <baseTex> clothes/20049005_02.dds
+}
+material 20050001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050001_01.dds
+}
+material 20050001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050001_02.dds
+}
+material 20050002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050002_01.dds
+}
+material 20050002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050002_02.dds
+}
+material 20050002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050002_03.dds
+}
+material 20050002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050002_04.dds
+}
+material 20050002_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050002_05.dds
+}
+material 20050002_06 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050002_06.dds
+}
+material 20050002_07 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050002_07.dds
+}
+material 20050002_08 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050002_08.dds
+}
+material 20050002_09 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050002_09.dds
+}
+material 20050003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050003_01.dds
+}
+material 20050003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050003_02.dds
+}
+material 20050003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050003_03.dds
+}
+material 20050003_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050003_04.dds
+}
+material 20050003_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050003_05.dds
+}
+material 20050004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050004_01.dds
+}
+material 20050004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050004_02.dds
+}
+material 20050004_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050004_03.dds
+}
+material 20050004_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050004_04.dds
+}
+material 20050004_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050004_05.dds
+}
+material 20050005_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050005_01.dds
+}
+material 20050005_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050005_02.dds
+}
+material 20050005_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050005_03.dds
+}
+material 20050005_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050005_04.dds
+}
+material 20050005_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050005_05.dds
+}
+material 20050006_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050006_01.dds
+}
+material 20050006_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050006_02.dds
+}
+material 20050006_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050006_03.dds
+}
+material 20050006_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050006_04.dds
+}
+material 20050006_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20050006_05.dds
+}
+material 20052001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052001_01.dds
+}
+material 20052001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052001_02.dds
+}
+material 20052002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052002_01.dds
+}
+material 20052002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052002_02.dds
+}
+material 20052002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052002_03.dds
+}
+material 20052002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052002_04.dds
+}
+material 20052003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052003_01.dds
+}
+material 20052003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052003_02.dds
+}
+material 20052003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052003_03.dds
+}
+material 20052003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052003_04.dds
+}
+material 20052003_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052003_05.dds
+}
+material 20052004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052004_01.dds
+}
+material 20052004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052004_02.dds
+}
+material 20052004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052004_03.dds
+}
+material 20052004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052004_04.dds
+}
+material 20052004_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20052004_05.dds
+}
+material 20053001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053001_01.dds
+}
+material 20053001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053001_02.dds
+}
+material 20053002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053002_01.dds
+}
+material 20053002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053002_02.dds
+}
+material 20053002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053002_03.dds
+}
+material 20053002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053002_04.dds
+}
+material 20053003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053003_01.dds
+}
+material 20053003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053003_02.dds
+}
+material 20053003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053003_03.dds
+}
+material 20053003_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053003_04.dds
+}
+material 20053003_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053003_05.dds
+}
+material 20053004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053004_01.dds
+}
+material 20053004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053004_02.dds
+}
+material 20053004_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053004_03.dds
+}
+material 20053004_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053004_04.dds
+}
+material 20053005_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053005_01.dds
+}
+material 20053005_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053005_02.dds
+}
+material 20053005_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053005_03.dds
+}
+material 20053005_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053005_04.dds
+}
+material 20053005_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20053005_05.dds
+}
+material 20053007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20053007_01.dds
+}
+material 20054001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20054001_01.dds
+}
+material 20054001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20054001_02.dds
+}
+material 20054002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20054002_01.dds
+}
+material 20054002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20054002_02.dds
+}
+material 20054002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20054002_03.dds
+}
+material 20054002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20054002_04.dds
+}
+material 20054002_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20054002_05.dds
+}
+material 20054003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20054003_01.dds
+}
+material 20054003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20054003_02.dds
+}
+material 20054003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20054003_03.dds
+}
+material 20054003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20054003_04.dds
+}
+material 20054004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20054004_01.dds
+}
+material 20054004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20054004_02.dds
+}
+material 20054004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20054004_03.dds
+}
+material 20054004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20054004_04.dds
+}
+material 20054004_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20054004_05.dds
+}
+material 20055001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055001_01.dds
+}
+material 20055001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055001_02.dds
+}
+material 20055002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055002_01.dds
+}
+material 20055002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055002_02.dds
+}
+material 20055002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055002_03.dds
+}
+material 20055002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055002_04.dds
+}
+material 20055003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055003_01.dds
+}
+material 20055003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055003_02.dds
+}
+material 20055003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055003_03.dds
+}
+material 20055003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055003_04.dds
+}
+material 20055004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055004_01.dds
+}
+material 20055004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055004_02.dds
+}
+material 20055004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055004_03.dds
+}
+material 20055004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055004_04.dds
+}
+material 20055005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055005_01.dds
+}
+material 20055005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055005_02.dds
+}
+material 20055005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055005_03.dds
+}
+material 20055006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20055006_01.dds
+}
+material 20056001_01 : Tplt/SkinningFakeTranspt                  
+{                                                          
+    set_texture_alias <baseTex> clothes/20056001_01.dds
+}
+material 20056001_02 : Tplt/SkinningFakeTranspt                  
+{                                                          
+    set_texture_alias <baseTex> clothes/20056001_02.dds
+}
+material 20056002_01 : Tplt/SkinningFakeTranspt                  
+{                                                          
+    set_texture_alias <baseTex> clothes/20056002_01.dds
+}
+material 20056002_02 : Tplt/SkinningFakeTranspt                  
+{                                                          
+    set_texture_alias <baseTex> clothes/20056002_02.dds
+}
+material 20056003_01 : Tplt/SkinningFakeTranspt                  
+{                                                          
+    set_texture_alias <baseTex> clothes/20056003_01.dds
+}
+material 20056003_02 : Tplt/SkinningFakeTranspt                  
+{                                                          
+    set_texture_alias <baseTex> clothes/20056003_02.dds
+}
+material 20056004_01 : Tplt/SkinningFakeTranspt                  
+{                                                          
+    set_texture_alias <baseTex> clothes/20056004_01.dds
+}
+material 20056004_02 : Tplt/SkinningFakeTranspt                  
+{                                                          
+    set_texture_alias <baseTex> clothes/20056004_02.dds
+}
+material 20056005_01 : Tplt/SkinningFakeTranspt                  
+{                                                          
+    set_texture_alias <baseTex> clothes/20056005_01.dds
+}
+material 20056005_02 : Tplt/SkinningFakeTranspt                  
+{                                                          
+    set_texture_alias <baseTex> clothes/20056005_02.dds
+}
+material 20057001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057001_01.dds
+}
+material 20057001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057001_02.dds
+}
+material 20057001_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057001_03.dds
+}
+material 20057002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057002_01.dds
+}
+material 20057002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057002_02.dds
+}
+material 20057002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057002_03.dds
+}
+material 20057002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057002_04.dds
+}
+material 20057002_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057002_05.dds
+}
+material 20057003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057003_01.dds
+}
+material 20057003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057003_02.dds
+}
+material 20057003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20057003_03.dds
+}
+
+material 20058001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058001_01.dds
+}
+material 20058001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058001_02.dds
+}
+material 20058002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058002_01.dds
+}
+material 20058002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058002_02.dds
+}
+material 20058002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058002_03.dds
+}
+material 20058002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058002_04.dds
+}
+material 20058002_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058002_05.dds
+}
+material 20058003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058003_01.dds
+}
+material 20058003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058003_02.dds
+}
+material 20058003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058003_03.dds
+}
+material 20058003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058003_04.dds
+}
+material 20058004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058004_01.dds
+}
+material 20058004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058004_02.dds
+}
+material 20058004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058004_03.dds
+}
+material 20058004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058004_04.dds
+}
+material 20058005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058005_01.dds
+}
+material 20058005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058005_02.dds
+}
+material 20058005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20058005_03.dds
+}
+material 20059001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20059001_01.dds
+}
+material 20059001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20059001_02.dds
+}
+material 20059002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20059002_01.dds
+}
+material 20059002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20059002_02.dds
+}
+material 20059003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20059003_01.dds
+}
+material 20059003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20059003_02.dds
+}
+material 20059004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20059004_01.dds
+}
+material 20059004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20059004_02.dds
+}
+material 20060001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060001_01.dds
+}
+material 20060001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060001_02.dds
+}
+material 20060002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060002_01.dds
+}
+material 20060002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060002_02.dds
+}
+material 20060002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060002_03.dds
+}
+material 20060002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060002_04.dds
+}
+material 20060003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060003_01.dds
+}
+material 20060003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060003_02.dds
+}
+material 20060003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060003_03.dds
+}
+material 20060003_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060003_04.dds
+}
+
+material 20060004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060004_01.dds
+}
+material 20060004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060004_02.dds
+}
+material 20060004_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060004_03.dds
+}
+material 20060004_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060004_04.dds
+}
+material 20060005_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060005_01.dds
+}
+material 20060005_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060005_02.dds
+}
+material 20060005_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060005_03.dds
+}
+material 20060006_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20060006_01.dds
+}
+material 20062001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062001_01.dds
+}
+material 20062001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062001_02.dds
+}
+material 20062002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062002_01.dds
+}
+material 20062002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062002_02.dds
+}
+material 20062002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062002_03.dds
+}
+material 20062003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062003_01.dds
+}
+material 20062003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062003_02.dds
+}
+material 20062003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062003_03.dds
+}
+
+material 20062004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062004_01.dds
+}
+material 20062004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062004_02.dds
+}
+material 20062004_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062004_03.dds
+}
+material 20062004_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062004_04.dds
+}
+material 20062004_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20062004_05.dds
+}
+
+material 20063001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063001_01.dds
+}
+material 20063001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063001_02.dds
+}
+
+material 20063002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063002_01.dds
+}
+material 20063002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063002_02.dds
+}
+material 20063002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063002_03.dds
+}
+material 20063002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063002_04.dds
+}
+material 20063002_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063002_05.dds
+}
+
+material 20063003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063003_01.dds
+}
+material 20063003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063003_02.dds
+}
+material 20063003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063003_03.dds
+}
+
+material 20063004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063004_01.dds
+}
+material 20063004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063004_02.dds
+}
+material 20063004_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20063004_03.dds
+}
+
+material 20064001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064001_01.dds
+}
+material 20064001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064001_02.dds
+}
+
+material 20064002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064002_01.dds
+}
+material 20064002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064002_02.dds
+}
+material 20064002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064002_03.dds
+}
+material 20064002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064002_04.dds
+}
+material 20064002_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064002_05.dds
+}
+
+material 20064003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064003_01.dds
+}
+material 20064003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064003_02.dds
+}
+material 20064003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064003_03.dds
+}
+material 20064003_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064003_04.dds
+}
+material 20064003_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064003_05.dds
+}
+
+material 20064004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064004_01.dds
+}
+material 20064004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064004_02.dds
+}
+material 20064004_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064004_03.dds
+}
+material 20064004_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064004_04.dds
+}
+material 20064004_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064004_05.dds
+}
+
+material 20064005_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064005_01.dds
+}
+material 20064005_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064005_02.dds
+}
+material 20064005_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064005_03.dds
+}
+material 20064005_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064005_04.dds
+}
+material 20064005_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20064005_05.dds
+}
+material 20065001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065001_01.dds
+}
+material 20065001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065001_02.dds
+}
+material 20065002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065002_01.dds
+}
+material 20065002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065002_02.dds
+}
+material 20065003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065003_01.dds
+}
+material 20065003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065003_02.dds
+}
+material 20065003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065003_03.dds
+}
+material 20065004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065004_01.dds
+}
+material 20065004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065004_02.dds
+}
+material 20065005_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065005_01.dds
+}
+material 20065005_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20065005_02.dds
+}
+material 20065006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065006_01.dds
+}
+material 20065007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065007_01.dds
+}
+material 20070001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070001_01.dds
+}
+material 20070001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070001_02.dds
+}
+material 20070002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070002_01.dds
+}
+material 20070002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070002_02.dds
+}
+material 20070002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070002_03.dds
+}
+material 20070002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070002_04.dds
+}
+material 20070002_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070002_05.dds
+}
+material 20070002_06 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070002_06.dds
+}
+material 20070003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070003_01.dds
+}
+material 20070003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070003_02.dds
+}
+material 20070003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070003_03.dds
+}
+material 20070003_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070003_04.dds
+}
+material 20070004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070004_01.dds
+}
+material 20070004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070004_02.dds
+}
+material 20070004_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070004_03.dds
+}
+material 20070004_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070004_04.dds
+}
+material 20070005_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070005_01.dds
+}
+material 20070005_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070005_02.dds
+}
+material 20070005_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070005_03.dds
+}
+material 20070005_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070005_04.dds
+}
+material 20070005_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070005_05.dds
+}
+material 20070006_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070006_01.dds
+}
+material 20070006_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070006_02.dds
+}
+material 20070006_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070006_03.dds
+}
+material 20070006_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070006_04.dds
+}
+material 20070006_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20070006_05.dds
+}
+material 20072001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20072001_01.dds
+}
+material 20072001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20072001_02.dds
+}
+material 20072002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20072002_01.dds
+}
+material 20072002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20072002_02.dds
+}
+material 20072002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20072002_03.dds
+}
+material 20072002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20072002_04.dds
+}
+material 20072003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20072003_01.dds
+}
+material 20072003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20072003_02.dds
+}
+material 20072003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20072003_03.dds
+}
+material 20072003_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20072003_04.dds
+}
+material 20073001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20073001_01.dds
+}
+material 20073001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20073001_02.dds
+}
+material 20073002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20073002_01.dds
+}
+material 20073002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20073002_02.dds
+}
+material 20073002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20073002_03.dds
+}
+material 20073002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20073002_04.dds
+}
+material 20073002_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20073002_05.dds
+}
+material 20073003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20073003_01.dds
+}
+material 20073003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20073003_02.dds
+}
+material 20073003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20073003_03.dds
+}
+material 20073003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20073003_04.dds
+}
+material 20074001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074001_01.dds
+}
+material 20074001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074001_02.dds
+}
+material 20074002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074002_01.dds
+}
+material 20074002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074002_02.dds
+}
+material 20074002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074002_03.dds
+}
+material 20074002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074002_04.dds
+}
+material 20074003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074003_01.dds
+}
+material 20074003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074003_02.dds
+}
+material 20074003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074003_03.dds
+}
+material 20074003_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074003_04.dds
+}
+material 20074004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074004_01.dds
+}
+material 20074004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074004_02.dds
+}
+material 20074004_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074004_03.dds
+}
+material 20074004_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074004_04.dds
+}
+material 20074005_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074005_01.dds
+}
+material 20074005_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074005_02.dds
+}
+material 20074005_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20074005_03.dds
+}
+
+material 20075001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075001_01.dds
+}
+material 20075001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075001_02.dds
+}
+material 20075002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075002_01.dds
+}
+material 20075002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075002_02.dds
+}
+material 20075003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075003_01.dds
+}
+material 20075003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075003_02.dds
+}
+material 20075004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075004_01.dds
+}
+material 20075004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075004_02.dds
+}
+material 20075005_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075005_01.dds
+}
+material 20075005_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075005_02.dds
+}
+material 20075006_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075006_01.dds
+}
+material 20075007_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20075007_01.dds
+}
+material 20077001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077001_01.dds
+}
+material 20077001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077001_02.dds
+}
+material 20077001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077001_03.dds
+}
+material 20077002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077002_01.dds
+}
+material 20077002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077002_02.dds
+}
+material 20077002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077002_03.dds
+}
+material 20077002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077002_04.dds
+}
+material 20077002_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077002_05.dds
+}
+material 20077003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077003_01.dds
+}
+material 20077003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077003_02.dds
+}
+material 20077003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077003_03.dds
+}
+material 20077004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077004_01.dds
+}
+material 20077004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077004_02.dds
+}
+material 20077004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077004_03.dds
+}
+material 20077004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077004_04.dds
+}
+material 20077004_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077004_05.dds
+}
+material 20077005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077005_01.dds
+}
+material 20077005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077005_02.dds
+}
+material 20077005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077005_03.dds
+}
+material 20077005_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20077005_04.dds
+}
+material 20079001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20079001_01.dds
+}
+material 20079001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20079001_02.dds
+}
+material 20079001_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20079001_03.dds
+}
+material 20079002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20079002_01.dds
+}
+material 20079002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20079002_02.dds
+}
+material 20079002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20079002_03.dds
+}
+material 20079002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20079002_04.dds
+}
+material 20079002_05 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20079002_05.dds
+}
+material 20083001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083001_01.dds
+}
+material 20083001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083001_02.dds
+}
+material 20083001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083001_03.dds
+}
+material 20083001_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083001_04.dds
+}
+material 20083002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083002_01.dds
+}
+material 20083002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083002_02.dds
+}
+material 20083002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083002_03.dds
+}
+material 20083002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083002_04.dds
+}
+material 20083003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083003_01.dds
+}
+material 20083003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083003_02.dds
+}
+material 20083003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083003_03.dds
+}
+material 20083003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083003_04.dds
+}
+material 20083004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083004_01.dds
+}
+material 20083004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083004_02.dds
+}
+material 20083004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083004_03.dds
+}
+material 20083004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083004_04.dds
+}
+material 20083005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083005_01.dds
+}
+material 20083005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083005_02.dds
+}
+material 20083005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083005_03.dds
+}
+material 20083005_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083005_04.dds
+}
+material 20083006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083006_01.dds
+}
+material 20083006_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083006_02.dds
+}
+material 20083006_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083006_03.dds
+}
+material 20083006_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083006_04.dds
+}
+material 20083007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083007_01.dds
+}
+material 20083008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083008_01.dds
+}
+material 20090007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090007_01.dds
+}
+material 20090008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090008_01.dds
+}
+material 20090009_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090009_01.dds
+}
+material 20092001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20092001_01.dds
+}
+material 20092001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20092001_02.dds
+}
+material 20092001_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20092001_03.dds
+}
+material 20092002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20092002_01.dds
+}
+material 20092002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20092002_02.dds
+}
+material 20092002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20092002_03.dds
+}
+material 20092003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20092003_01.dds
+}
+material 20092003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20092003_02.dds
+}
+material 20092003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20092003_03.dds
+}
+material 20092003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20092003_04.dds
+}
+material 20092004_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20092004_01.dds
+}
+material 20092004_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20092004_02.dds
+}
+material 20092004_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20092004_03.dds
+}
+material 20094001_01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094001_01.dds
+}
+material 20094001_02 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094001_02.dds
+}
+material 20094002_01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094002_01.dds
+}
+material 20094002_02 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094002_02.dds
+}
+material 20094002_03 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094002_03.dds
+}
+material 20094003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094003_01.dds
+}
+material 20094003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094003_02.dds
+}
+material 20094003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094003_03.dds
+}
+material 20094003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094003_04.dds
+}
+
+material 20094004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094004_01.dds
+}
+material 20094004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094004_02.dds
+}
+material 20094004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094004_03.dds
+}
+material 20094004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094004_04.dds
+}
+
+material 20110001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20110001_01.dds
+}
+material 20110002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20110002_01.dds
+}
+material 20110026_01 : Tplt/SkinningAliasTex
+{  
+ set_texture_alias <baseTex> clothes/20110026_01.dds
+}
+material 20112001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112001_01.dds
+}
+material 20112001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112001_02.dds
+}
+material 20112001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112001_03.dds
+}
+material 20112002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112002_01.dds
+}
+material 20112002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112002_02.dds
+}
+material 20112002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112002_03.dds
+}
+material 20112003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112003_01.dds
+}
+material 20112003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112003_02.dds
+}
+material 20112003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112003_03.dds
+}
+material 20112003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112003_04.dds
+}
+material 20112004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112004_01.dds
+}
+material 20112004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112004_02.dds
+}
+material 20112004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20112004_03.dds
+}
+material 20115001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20115001_01.dds
+}
+material 20115001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20115001_02.dds
+}
+material 20115001_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20115001_03.dds
+}
+material 20115001_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20115001_04.dds
+}
+material 20115002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115002_01.dds
+}
+material 20115002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115002_02.dds
+}
+material 20115002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115002_03.dds
+}
+material 20115002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115002_04.dds
+}
+material 20115003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115003_01.dds
+}
+material 20115003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115003_02.dds
+}
+material 20115003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115003_03.dds
+}
+material 20115003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115003_04.dds
+}
+material 20115005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115005_01.dds
+}
+material 20115005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115005_02.dds
+}
+material 20115005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115005_03.dds
+}
+material 20115005_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115005_04.dds
+}
+material 20115005_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20115005_04.dds
+}
+
+material 20120001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120001_01.dds
+}
+material 20120001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120001_02.dds
+}
+material 20120001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120001_03.dds
+}
+material 20120001_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120001_04.dds
+}
+material 20120002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120002_01.dds
+}
+material 20120002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120002_02.dds
+}
+material 20120002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120002_03.dds
+}
+material 20120002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120002_04.dds
+}
+material 20120003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120003_01.dds
+}
+material 20120003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120003_02.dds
+}
+material 20120003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120003_03.dds
+}
+material 20120003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120003_04.dds
+}
+material 20120004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120004_01.dds
+}
+material 20120004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120004_02.dds
+}
+material 20120004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120004_03.dds
+}
+material 20120004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120004_04.dds
+}
+material 20120005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120005_01.dds
+}
+material 20120005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120005_02.dds
+}
+material 20120005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120005_03.dds
+}
+material 20120005_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20120005_04.dds
+}
+material 20125001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125001_01.dds
+}
+material 20125001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125001_02.dds
+}
+material 20125001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125001_03.dds
+}
+material 20125001_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125001_04.dds
+}
+material 20125002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125002_01.dds
+}
+material 20125002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125002_02.dds
+}
+material 20125002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125002_03.dds
+}
+material 20125002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125002_04.dds
+}
+material 20125003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125003_01.dds
+}
+material 20125003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125003_02.dds
+}
+material 20125003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125003_03.dds
+}
+material 20125003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125003_04.dds
+}
+material 20125004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125004_01.dds
+}
+material 20125004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125004_02.dds
+}
+material 20125004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125004_03.dds
+}
+material 20125004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125004_04.dds
+}
+material 20125005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125005_01.dds
+}
+material 20125005_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125005_02.dds
+}
+material 20125005_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125005_03.dds
+}
+material 20125005_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20125005_04.dds
+}
+
+material 20122001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20122001_01.dds
+}
+material 20122001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20122001_02.dds
+}
+material 20122001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20122001_03.dds
+}
+material 20122001_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20122001_04.dds
+}
+material 20127001_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127001_01.dds
+}
+material 20127001_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127001_02.dds
+}
+material 20127001_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127001_03.dds
+}
+material 20127001_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127001_04.dds
+}
+material 20127002_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127002_01.dds
+}
+material 20127002_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127002_02.dds
+}
+material 20127002_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127002_03.dds
+}
+material 20127002_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127002_04.dds
+}
+material 20127003_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127003_01.dds
+}
+material 20127003_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127003_02.dds
+}
+material 20127003_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127003_03.dds
+}
+material 20127003_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127003_04.dds
+}
+material 20127004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20127004_01.dds
+}
+material 20127004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20127004_02.dds
+}
+material 20127004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20127004_03.dds
+}
+material 20127004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20127004_04.dds
+}
+material 20127005_01 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127005_01.dds
+}
+material 20127005_02 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127005_02.dds
+}
+material 20127005_03 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127005_03.dds
+}
+material 20127005_04 : Tplt/SkinningAliasTex
+{  
+    set_texture_alias <baseTex> clothes/20127005_04.dds
+}
+material 20130001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20130001_01.dds
+}
+material 20130001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20130001_02.dds
+}
+material 20130001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20130001_03.dds
+}
+material 20130002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20130002_01.dds
+}
+material 20130002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20130002_02.dds
+}
+material 20130002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20130002_03.dds
+}
+material 20135001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20135001_01.dds
+}
+material 20135001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20135001_02.dds
+}
+material 20135001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20135001_03.dds
+}
+material 20135002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20135002_01.dds
+}
+material 20135002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20135002_02.dds
+}
+material 20135002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20135002_03.dds
+}
+material 20140001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140001_01.dds
+}
+material 20140001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140001_02.dds
+}
+material 20140001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140001_03.dds
+}
+material 20140002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140002_01.dds
+}
+material 20140002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140002_02.dds
+}
+material 20140002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140002_03.dds
+}
+material 20140003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140003_01.dds
+}
+material 20140003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140003_02.dds
+}
+material 20140003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140003_03.dds
+}
+material 20140004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140004_01.dds
+}
+material 20140004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140004_02.dds
+}
+material 20140004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20140004_03.dds
+}
+material 20145001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145001_01.dds
+}
+material 20145001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145001_02.dds
+}
+material 20145001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145001_03.dds
+}
+material 20145002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145002_01.dds
+}
+material 20145002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145002_02.dds
+}
+material 20145002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145002_03.dds
+}
+material 20145003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145003_01.dds
+}
+material 20145003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145003_02.dds
+}
+material 20145003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145003_03.dds
+}
+material 20145004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145004_01.dds
+}
+material 20145004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145004_02.dds
+}
+material 20145004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20145004_03.dds
+}
+material 20150001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150001_01.dds
+}
+material 20150001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150001_02.dds
+}
+material 20150001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150001_03.dds
+}
+material 20150002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150002_01.dds
+}
+material 20150002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150002_02.dds
+}
+material 20150002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150002_03.dds
+}
+material 20150003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150003_01.dds
+}
+material 20150003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150003_02.dds
+}
+material 20150003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150003_03.dds
+}
+material 20150004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150004_01.dds
+}
+material 20150004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150004_02.dds
+}
+material 20150004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20150004_03.dds
+}
+material 20155001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155001_01.dds
+}
+material 20155001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155001_02.dds
+}
+material 20155001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155001_03.dds
+}
+material 20155002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155002_01.dds
+}
+material 20155002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155002_02.dds
+}
+material 20155002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155002_03.dds
+}
+material 20155003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155003_01.dds
+}
+material 20155003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155003_02.dds
+}
+material 20155003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155003_03.dds
+}
+material 20155004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155004_01.dds
+}
+material 20155004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155004_02.dds
+}
+material 20155004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20155004_03.dds
+}
+material 20160001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160001_01.dds
+}
+material 20160001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160001_02.dds
+}
+material 20160001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160001_03.dds
+}
+material 20160002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160002_01.dds
+}
+material 20160002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160002_02.dds
+}
+material 20160002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160002_03.dds
+}
+material 20160003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160003_01.dds
+}
+material 20160003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160003_02.dds
+}
+material 20160003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160003_03.dds
+}
+material 20160004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160004_01.dds
+}
+material 20160004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160004_02.dds
+}
+material 20160004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20160004_03.dds
+}
+material 20165001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165001_01.dds
+}
+material 20165001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165001_02.dds
+}
+material 20165001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165001_03.dds
+}
+material 20165002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165002_01.dds
+}
+material 20165002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165002_02.dds
+}
+material 20165002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165002_03.dds
+}
+material 20165003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165003_01.dds
+}
+material 20165003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165003_02.dds
+}
+material 20165003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165003_03.dds
+}
+material 20165004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165004_01.dds
+}
+material 20165004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165004_02.dds
+}
+material 20165004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20165004_03.dds
+}
+material 20170001_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170001_01.dds
+}
+material 20170001_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170001_02.dds
+}
+material 20170001_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170001_03.dds
+}
+material 20170002_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170002_01.dds
+}
+material 20170002_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170002_02.dds
+}
+material 20170002_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170002_03.dds
+}
+material 20170002_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170002_04.dds
+}
+material 20170003_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170003_01.dds
+}
+material 20170003_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170003_02.dds
+}
+material 20170003_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170003_03.dds
+}
+material 20170003_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170003_04.dds
+}
+material 20170004_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170004_01.dds
+}
+material 20170004_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170004_02.dds
+}
+material 20170004_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170004_03.dds
+}
+material 20170004_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20170004_04.dds
+}
+
+material 20094005_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094005_01.dds
+}
+material 20094005_01-03 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20094005_01-03.dds
+}
+material 20083009-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083009-01_01.dds 
+}
+material 20083010-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083010-01_01.dds 
+}
+material 20083011-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083011-01_01.dds 
+}
+material 20083012-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083012-01_01.dds 
+}
+material 20083013-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083013-01_01.dds 
+}
+material 20083014-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083014-01_01.dds 
+}
+material 20083015-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083015-01_01.dds 
+}
+material 20083016-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083016-01_01.dds 
+}
+material 20083017-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083017-01_01.dds 
+}
+material 20083018-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083018-01_01.dds 
+}
+material 20083019-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083019-01_01.dds 
+}
+material 20083020-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083020-01_01.dds 
+}
+material 20083021-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083021-01_01.dds 
+}
+material 20083022-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083022-01_01.dds 
+}
+material 20083023-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083023-01_01.dds 
+}
+material 20083024-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083024-01_01.dds 
+}
+material 20083025-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083025-01_01.dds 
+}
+material 20083026-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083026-01_01.dds 
+}
+material 20083027-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083027-01_01.dds 
+}
+material 20083028-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083028-01_01.dds 
+}
+material 20083029-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083029-01_01.dds 
+}
+material 20083030-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083030-01_01.dds 
+}
+
+material 20083009-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083009-02_01.dds 
+}
+material 20083010-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083010-02_01.dds 
+}
+material 20083011-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083011-02_01.dds 
+}
+material 20083012-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083012-02_01.dds 
+}
+material 20083013-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083013-02_01.dds 
+}
+material 20083014-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083014-02_01.dds 
+}
+material 20083015-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083015-02_01.dds 
+}
+material 20083016-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083016-02_01.dds 
+}
+material 20083017-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083017-02_01.dds 
+}
+material 20083018-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083018-02_01.dds 
+}
+material 20083019-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083019-02_01.dds 
+}
+material 20083020-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083020-02_01.dds 
+}
+material 20083021-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083021-02_01.dds 
+}
+material 20083022-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083022-02_01.dds 
+}
+material 20083023-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083023-02_01.dds 
+}
+material 20083024-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083024-02_01.dds 
+}
+material 20083025-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083025-02_01.dds 
+}
+material 20083026-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083026-02_01.dds 
+}
+material 20083027-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083027-02_01.dds 
+}
+material 20083028-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083028-02_01.dds 
+}
+material 20083029-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083029-02_01.dds 
+}
+material 20083030-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083030-02_01.dds 
+}
+material 20090010-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090010-01_01.dds 
+}
+material 20090011-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090011-01_01.dds 
+}
+material 20090012-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090012-01_01.dds 
+}
+material 20090013-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090013-01_01.dds 
+}
+material 20090014-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090014-01_01.dds 
+}
+material 20090015-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090015-01_01.dds 
+}
+material 20090017-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090017-01_01.dds 
+}
+material 20090017-01_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090017-01_01.dds 
+}
+material 20090018-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090018-01_01.dds 
+}
+material 20090018-01_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090018-01_01.dds 
+}
+material 20090019-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090019-01_01.dds 
+}
+material 20090020-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090020-01_01.dds 
+}
+material 20090020-01_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090020-01_01.dds 
+}
+
+material 20090010-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090010-02_01.dds 
+}
+material 20090011-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090011-02_01.dds 
+}
+material 20090011-02_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090011-02_01.dds 
+}
+material 20090014-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090014-02_01.dds 
+}
+material 20090015-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090015-02_01.dds 
+}
+material 20090015-02_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090015-02_01.dds 
+}
+material 20090018-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090018-02_01.dds 
+}
+material 20090019-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090019-02_01.dds 
+}
+material 20090019-02_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090019-02_01.dds 
+}
+material 20090020-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090020-02_01.dds 
+}
+material 20090016-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090016-01_01.dds
+}
+material 20090016-01_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090016-01_01.dds
+}
+material 20090021-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090021-01_01.dds
+}
+material 20090021-01_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090021-01_01.dds
+}
+material 20090022-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090022-01_01.dds
+}
+material 20090022-01_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090022-01_01.dds
+}
+material 20090023-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090023-01_01.dds
+}
+material 20090023-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090023-02_01.dds
+}
+material 20090023-02_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090023-02_01.dds
+}
+material 20090024-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090024-01_01.dds
+}
+material 20090025-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090025-01_01.dds
+}
+material 20090026-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090026-01_01.dds
+}
+material 20090027-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090027-01_01.dds
+}
+material 20090027-01_01=01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090027-01_01.dds
+}
+material 20090028-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090028-01_01.dds
+}
+material 20090028-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090028-02_01.dds
+}
+material 20090029-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20090029-01_01.dds
+}
+
+
+material 20094006_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094006_01.dds
+}        
+                                      
+material 20094007_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094007_01.dds
+}                                                
+material 20094008_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094008_01.dds
+}                                                
+material 20094009_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094009_01.dds
+}                                                
+material 20094010_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094010_01.dds
+}        
+material 20094010_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094010_01.dds
+}                                             
+material 20094011_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094011_01.dds
+}   
+                                             
+material 20094012_01 : Tplt/SkinningTranspt     
+{                                                        
+    set_texture_alias <baseTex> clothes/20094012_01.dds
+}           
+material 20094012_01=01 : Tplt/SkinningAliasTex         
+{                                                        
+    set_texture_alias <baseTex> clothes/20094012_01.dds
+}     
+                                    
+material 20094013_01 : Tplt/SkinningFakeTranspt           
+{                                                        
+    set_texture_alias <baseTex> clothes/20094013_01.dds
+}                                                
+material 20094014_01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094014_01.dds
+}     
+        
+material 20094014_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094014_01.dds
+}                                       
+material 20094015_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094015_01.dds
+}                                                
+material 20094016_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094016_01.dds
+}                                                
+material 20094017_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094017_01.dds
+}                                                
+material 20094018_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094018_01.dds
+}                                                
+material 20094019_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094019_01.dds
+}             
+material 20094019_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094019_01.dds
+}                                      
+material 20094020_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094020_01.dds
+}                                                
+material 20094021_01 : Tplt/SkinningTranspt      
+{                                                        
+    set_texture_alias <baseTex> clothes/20094021_01.dds
+}            
+material 20094021_01=01 : Tplt/SkinningFakeTranspt  
+{                                                        
+    set_texture_alias <baseTex> clothes/20094021_01.dds
+}                                        
+material 20094022_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094022_01.dds
+}            
+material 20094022_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094022_01.dds
+}                                          
+material 20094023_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094023_01.dds
+}                                                 
+material 20094024_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094024_01.dds
+}          
+material 20094024_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094024_01.dds
+}                                             
+material 20094025_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094025_01.dds
+}                                                
+material 20094026_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094026_01.dds
+}               
+material 20094026_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094026_01.dds
+}                                     
+material 20094027_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094027_01.dds
+}            
+material 20094027_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094027_01.dds
+}                                          
+material 20094028_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094028_01.dds
+}                   
+material 20094028_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094028_01.dds
+}                                   
+material 20094029_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094029_01.dds
+}            
+material 20094029_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094029_01.dds
+}                                        
+material 20094030_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094030_01.dds
+}          
+material 20094030_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094030_01.dds
+}                                         
+material 20094031_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094031_01.dds
+}                                                
+material 20094032_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094032_01.dds
+}                                                
+material 20094033_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094033_01.dds
+}                
+material 20094033_01=01 : Tplt/SkinningTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094033_01.dds
+}                                      
+material 20094034_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094034_01.dds
+}                                                
+material 20094035_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094035_01.dds
+}                                                
+material 20094036_01 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094036_01.dds
+}                                                
+material 20094036_02 : Tplt/SkinningFakeTranspt       
+{                                                        
+    set_texture_alias <baseTex> clothes/20094036_02.dds
+}
+material 20040008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040008_01.dds
+}
+material 20040009_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_01.dds
+}
+material 20040009_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_02.dds
+}
+material 20040009_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_03.dds
+}
+material 20040009_04 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_04.dds
+}
+material 20040009_05 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_05.dds
+}
+material 20040009_06 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_06.dds
+}
+material 20040009_07 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_07.dds
+}
+material 20040009_08 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_08.dds
+}
+material 20040009_09 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_09.dds
+}
+material 20040009_10 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_10.dds
+}
+material 20040009_11 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_11.dds
+}
+material 20040009_12 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_12.dds
+}
+material 20040009_13 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_13.dds
+}
+material 20040009_14 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_14.dds
+}
+material 20040009_15 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_15.dds
+}
+material 20040009_16 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_16.dds
+}
+material 20040009_17 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_17.dds
+}
+material 20040009_18 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_18.dds
+}
+material 20040009_19 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_19.dds
+}
+material 20040009_20 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_20.dds
+}
+material 20040009_21 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_21.dds
+}
+material 20040009_22 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_22.dds
+}
+material 20040009_23 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_23.dds
+}
+material 20040009_24 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_24.dds
+}
+material 20040009_25 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_25.dds
+}
+material 20040009_26 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_26.dds
+}
+material 20040009_27 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_27.dds
+}
+material 20040009_28 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_28.dds
+}
+material 20040009_29 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_29.dds
+}
+material 20040009_30 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_30.dds
+}
+material 20040009_31 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_31.dds
+}
+material 20040009_32 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_32.dds
+}
+material 20040009_33 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_33.dds
+}
+material 20040009_34 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_34.dds
+}
+material 20040009_35 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_35.dds
+}
+material 20040009_36 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_36.dds
+}
+material 20040009_37 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_37.dds
+}
+material 20040009_38 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_38.dds
+}
+material 20040009_39 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_39.dds
+}
+material 20040009_40 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040009_40.dds
+}
+material 20040010_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20040010_01.dds
+}
+material 20042006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042006_01.dds
+}
+material 20042006_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042006_02.dds
+}
+material 20042006_03 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042006_03.dds
+}
+material 20042007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042007_01.dds
+}
+material 20042007_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20042007_02.dds
+}
+
+
+material 20060007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20060007_01.dds
+}
+material 20060007_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20060007_02.dds
+}
+material 20060008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20060008_01.dds
+}
+material 20060009_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20060009_01.dds
+}
+material 20060010_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20060010_01.dds
+}
+material 20064006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20064006_01.dds
+}
+material 20064007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20064007_01.dds
+}
+material 20064008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20064008_01.dds
+}
+material 20065008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065008_01.dds
+}
+material 20065009_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065009_01.dds
+}
+material 20065010_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065010_01.dds
+}
+material 20065011_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065011_01.dds
+}
+material 20065012_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065012_01.dds
+}
+material 20065013_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065013_01.dds
+}
+material 20065014_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065014_01.dds
+}
+material 20065015_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065015_01.dds
+}
+material 20065016_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065016_01.dds
+}
+material 20065016_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065016_02.dds
+}
+material 20065017_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065017_01.dds
+}
+material 20065018_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20065018_01.dds
+}
+
+material 20083031-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083031-01_01.dds
+}
+material 20083031-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083031-02_01.dds
+}
+material 20083032-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083032-01_01.dds
+}
+material 20083032-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083032-02_01.dds
+}
+material 20083033-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083033-01_01.dds
+}
+material 20083033-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083033-02_01.dds
+}
+material 20083034-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083034-01_01.dds
+}
+material 20083034-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083034-02_01.dds
+}
+material 20083035-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083035-01_01.dds
+}
+material 20083035-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083035-02_01.dds
+}
+material 20083036-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083036-01_01.dds
+}
+material 20083036-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083036-02_01.dds
+}
+material 20083037-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083037-01_01.dds
+}
+material 20083037-02_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083037-02_02.dds
+}
+material 20083038-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083038-01_01.dds
+}
+material 20083038-02_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083038-02_02.dds
+}
+material 20083039-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083039-01_01.dds
+}
+material 20083039-02_02 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083039-02_02.dds
+}
+material 20083040-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083040-01_01.dds
+}
+material 20083040-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083040-02_01.dds
+}
+material 20083041-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083041-01_01.dds
+}
+material 20083041-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083041-02_01.dds
+}
+material 20083042-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083042-01_01.dds
+}
+material 20083042-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083042-02_01.dds
+}
+material 20083043-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083043-01_01.dds
+}
+material 20083043-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083043-02_01.dds
+}
+material 20083044-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083044-01_01.dds
+}
+material 20083044-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083044-02_01.dds
+}
+material 20083045-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083045-01_01.dds
+}
+material 20083045-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083045-02_01.dds
+}
+material 20083046-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083046-01_01.dds
+}
+material 20083046-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083046-02_01.dds
+}
+material 20083047-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083047-01_01.dds
+}
+material 20083047-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083047-02_01.dds
+}
+material 20083048-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083048-01_01.dds
+}
+material 20083048-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083048-02_01.dds
+}
+material 20083049-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083049-01_01.dds
+}
+material 20083049-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083049-02_01.dds
+}
+material 20083050-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083050-01_01.dds
+}
+material 20083050-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083050-02_01.dds
+}
+material 20083051-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083051-01_01.dds
+}
+material 20083051-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083051-02_01.dds
+}
+material 20083052-01_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083052-01_01.dds
+}
+material 20083052-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20083052-02_01.dds
+}
+
+material 20025006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20025006_01.dds
+}
+material 20025006-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20025006-02_01.dds
+}
+
+material 20025007_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20025007_01.dds
+}
+material 20025007-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20025007-02_01.dds
+}
+
+material 20025008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20025008_01.dds
+}
+material 20025008-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20025008-02_01.dds
+}
+
+material 20027006_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20027006_01.dds
+}
+material 20027006-02_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20027006-02_01.dds
+}
+
+material 20027008_01 : Tplt/SkinningFakeTranspt
+{  
+    set_texture_alias <baseTex> clothes/20027008_01.dds
+}
+material 20027008-02_01 : Tplt/SkinningTranspt
+{  
+    set_texture_alias <baseTex> clothes/20027008-02_01.dds
+}

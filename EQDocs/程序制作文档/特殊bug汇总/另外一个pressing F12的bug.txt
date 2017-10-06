@@ -1,0 +1,7 @@
+这个另外一个bug的表现:
+在vs调试状态启动, 退出程序会弹出如下对话框, 程序无法继续, 且程序出错的位置定位比较诡异, 堆栈被破坏. 而且只有在某些机器上会出现这样的问题, 比如我(Y3)的debug_release才会出这问题.
+This may be due to a corruption of the heap, ...
+This may also be due to the user pressing F12 while EQClient_dr.exe has focus.
+
+bug原因分析:
+最后发现, 是MemberMsgHandleRegistHelper的析构函数有个成员std::vector<int>变量被析构了2次. 其中一次是手动调用~vector析构(这种行为是错误的), 一次是系统析构.

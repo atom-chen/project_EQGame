@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<row>
+		<id>1</id>
+		<helpBtnName>PlayerProperty</helpBtnName>
+		<showHelpPicID>28</showHelpPicID>
+	</row>
+	<row>
+		<id>2</id>
+		<helpBtnName>CkFrmWnd</helpBtnName>
+		<showHelpPicID>29</showHelpPicID>
+	</row>
+	<row>
+		<id>3</id>
+		<helpBtnName>Marketroot/Market</helpBtnName>
+		<showHelpPicID>30</showHelpPicID>
+	</row>
+</root>

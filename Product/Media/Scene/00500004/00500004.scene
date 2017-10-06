@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EQScene name="00500004">
+    <Ambient ChangeTime="3000" DayAmbient="0.803922 0.839216 0.886275" DayDiffuse="0 0 0" DaySpecular="0 0 0" DayMainDir="-1 -1 -1" DayFogColor="0 0 0" DayFogParam="0 0 0 0" DaySkybox="" NightAmbient="0.196078 0.27451 0.321569" NightDiffuse="0.219608 0.364706 0.509804" NightSpecular="0 0 0" NightMainDir="-1 -1 -1" NightFogColor="0 0 0" NightFogParam="0 0 0 0" NightSkybox="" Contrast="1.1" />
+    <House filename="00500004.house" />
+    <Terrain filename="00500004.Terrain" />
+    <Edge value="-480.000000 -400.000000 400.000000 480.000000" />
+    <Entity id="551" pos="-1.73178 253.582 110.024" />
+    <Entity id="551" pos="-2.04189 251.808 112.75" />
+    <Entity id="1002" pos="-39.6347 0 462.375" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="363.383 266.05 13.4888" scale="0.603065 0.603065 0.603065" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="362.477 264.811 -233.12" scale="0.642419 0.642419 0.642419" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="-450.274 173.208 -36.1532" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="-447.083 172.15 -174.116" />
+    <Entity mesh="outside/b60020218.mesh" pos="-13.4377 -6.10352e-005 -243.754" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020215.mesh" pos="-41.3573 0.00012207 38.6342" />
+    <Entity mesh="outside/b60020201.mesh" pos="-319.992 0.00012207 -11.246" />
+    <Entity mesh="outside/b60020164.mesh" pos="339.317 0.00012207 32.3899" rot="-1.62921e-007 -0 -1 -0" />
+    <Entity mesh="outside/b60020163.mesh" pos="333.505 0 189.71" rot="-1.62921e-007 -0 -1 -0" />
+    <Entity mesh="outside/b60020162.mesh" pos="351.595 0 -113.798" />
+    <Entity mesh="outside/b60020161.mesh" pos="-274.626 0 283.275" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="furni/10340010.mesh" pos="317.165 151.875 378.412" scale="1.19616 1.19616 1.19616" />
+    <Entity mesh="furni/10160007.mesh" pos="294.443 25.0505 358.521" rot="-0.382684 -0 -0.923879 -0" scale="0.663048 0.663048 0.663048" />
+    <Entity mesh="furni/10110003.mesh" pos="-318.565 0.330734 -258.703" rot="0.707107 -0 -0.707107 -0" scale="1.46126 1.46126 1.46126" />
+</EQScene>

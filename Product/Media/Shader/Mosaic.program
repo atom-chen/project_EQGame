@@ -1,0 +1,8 @@
+//Mosaic
+//由于ps2有命令数的限制，所以这里用的是ps3
+fragment_program Ogre/Compositor/Mosaic_FP cg
+{
+	source Mosaic.cg
+	entry_point Mosaic_ps
+	profiles ps_3_0 arbfp1
+}

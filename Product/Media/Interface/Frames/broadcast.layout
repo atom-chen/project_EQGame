@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="broadcast" >
+        <Property Name="Text" Value="系统公告" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,165},{0,95},{0,465},{0,306}}" />
+        <Window Type="NewEQHomeLook/NewFrameWindowChildStaticImage" Name="broadcast/background" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,12},{0,29},{1,-11},{1,-40}}" />
+            <Window Type="NewEQHomeLook/NewStaticText" Name="broadcast/background/txt" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,3},{0,3},{0,275},{0,138}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="broadcast/leftline" >
+            <Property Name="Image" Value="set:Button5 image:NewImage140" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,15},{1,-27},{0,120},{1,-24}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="broadcast/fan1" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage146" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage315" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage315" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,120},{0,180},{0,132},{0,192}}" />
+        </Window>
+        <Window Type="EQHomeLook/ImageButton" Name="broadcast/fanye2" >
+            <Property Name="HoverImage" Value="set:Button5 image:NewImage145" />
+            <Property Name="NormalImage" Value="set:Button5 image:NewImage314" />
+            <Property Name="PushedImage" Value="set:Button5 image:NewImage314" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,170},{0,180},{0,182},{0,192}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticImage" Name="broadcast/xianright" >
+            <Property Name="Image" Value="set:Button5 image:NewImage140" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,182},{1,-27},{1,-15},{1,-24}}" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="broadcast/yeshu1" >
+            <Property Name="Text" Value="11" />
+            <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,133},{0,175},{0,151},{0,193}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="broadcast/yeshu2" >
+            <Property Name="Text" Value="/22" />
+            <Property Name="TextColours" Value="tl:FFFBCD04 tr:FFFBCD04 bl:FFFBCD04 br:FFFBCD04" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,148},{0,175},{0,168},{0,193}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

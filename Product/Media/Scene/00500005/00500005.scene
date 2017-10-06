@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EQScene name="00500005">
+    <Ambient ChangeTime="3000" DayAmbient="0.87451 0.870588 0.894118" DayDiffuse="0 0 0" DaySpecular="0 0 0" DayMainDir="-1 -1 -1" DayFogColor="0 0 0" DayFogParam="0 0 0 0" DaySkybox="" NightAmbient="0.196078 0.27451 0.313726" NightDiffuse="0.211765 0.211765 0.419608" NightSpecular="0 0 0" NightMainDir="-1 -1 -1" NightFogColor="0 0 0" NightFogParam="0 0 0 0" NightSkybox="" Contrast="1.15" />
+    <House filename="00500005.house" />
+    <Terrain filename="00500005.Terrain" />
+    <Edge value="-400.000000 -880.000000 480.000000 560.000000" />
+    <Entity id="1002" pos="452.76 0 165.844" />
+    <Entity id="100560" pos="309.235 0 472.126" rot="-0.709793 0 -0.704411 0" loop="100560" interact="1" />
+    <Entity id="100560" pos="-25.2173 0 476.716" rot="0.703845 0 0.710353 0" loop="100560" interact="2" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="-367.774 284.82 452.447" scale="0.79311 0.79311 0.79311" />
+    <Entity mesh="outside/b60020249.mesh" light="70" pos="-367.456 280.75 145.75" scale="0.760379 0.760379 0.760379" />
+    <Entity mesh="outside/b60020208.mesh" pos="310.868 46.2767 521.113" rot="1 0 9.31323e-010 0" scale="0.784797 0.784797 0.784797" />
+    <Entity mesh="outside/b60020208.mesh" pos="260.386 0 -860.737" />
+    <Entity mesh="outside/b60020208.mesh" pos="-164.864 0 -861.114" />
+    <Entity mesh="outside/b60020207.mesh" pos="483.705 0 157.097" />
+    <Entity mesh="outside/b60020206.mesh" pos="-253.775 -2.00024 -160.983" />
+    <Entity mesh="outside/b60020206.mesh" pos="-240 -0.000305176 -720" />
+    <Entity mesh="outside/b60020206.mesh" pos="-240 -1.99994 -440" />
+    <Entity mesh="outside/b60020205.mesh" light="69" pos="-384.505 9.15527e-005 -716.038" />
+    <Entity mesh="outside/b60020205.mesh" light="69" pos="-382.629 0 -442.282" />
+    <Entity mesh="outside/b60020205.mesh" light="69" pos="-384.387 -3.05176e-005 -153.956" />
+    <Entity mesh="outside/b60020205.mesh" light="69" pos="474.745 0 -467.466" rot="-1.62921e-007 -0 -1 -0" />
+    <Entity mesh="outside/b60020205.mesh" light="69" pos="478.736 -0.000213623 -723.462" rot="-1.62921e-007 0 1 0" />
+    <Entity mesh="outside/b60020188.mesh" pos="50.5347 40.8557 -852.468" rot="0.707107 -0 -0.707107 -0" />
+    <Entity mesh="outside/b60020187.mesh" pos="470.446 -10.9645 -438.448" rot="-1.62921e-007 0 1 0" />
+    <Entity mesh="outside/b60020187.mesh" pos="-381.605 -11.4568 -120.735" />
+    <Entity mesh="outside/b60020187.mesh" pos="471.644 -11.8873 -598.362" rot="-1.62921e-007 -0 -1 -0" />
+    <Entity mesh="outside/b60020187.mesh" pos="-381.497 -11.4517 -280.554" />
+    <Entity mesh="outside/b60020187.mesh" pos="-381.407 -11.5199 -440.501" />
+    <Entity mesh="outside/b60020187.mesh" pos="471.298 -11.7429 -757.833" rot="-1.62921e-007 -0 -1 -0" />
+    <Entity mesh="outside/b60020187.mesh" pos="-381.261 -11.6725 -760.285" />
+    <Entity mesh="outside/b60020187.mesh" pos="-381.371 -11.5506 -600.29" />
+    <Entity mesh="outside/b60020155.mesh" pos="-243.371 -0.000610352 371.504" />
+    <Entity mesh="outside/b60020153.mesh" pos="280 0 -240" rot="0.707107 0 0.707107 0" />
+    <Entity mesh="outside/b60020152.mesh" pos="-366.786 0 -519.545" />
+    <Entity mesh="outside/b60020152.mesh" pos="-370.05 0.000244141 -822.253" />
+    <Entity mesh="outside/b60020152.mesh" pos="-371.127 0.000488281 -239.242" />
+    <Entity mesh="outside/b60020152.mesh" pos="462.175 0 -544.272" />
+    <Entity mesh="outside/b60020152.mesh" pos="456.065 0 -783.669" />
+    <Entity mesh="outside/b60020151.mesh" pos="360 0.000488281 -720" rot="-1.62921e-007 -0 -1 -0" />
+    <Entity mesh="outside/b60020151.mesh" pos="360 0.000610352 -480" rot="-1.62921e-007 0 1 0" />
+    <Entity mesh="outside/b60020151.mesh" pos="-263.282 -0.000427246 -755.675" />
+    <Entity mesh="outside/b60020151.mesh" pos="-270.661 -1.99988 -424.743" />
+    <Entity mesh="outside/b60020151.mesh" pos="-276.526 -1.99994 -146.73" />
+    <Entity mesh="lamp/10290008.mesh" light="71" pos="382.218 252.509 126.557" />
+    <Entity mesh="furni/10170004.mesh" pos="-265.359 48.261 470.211" rot="-1.62921e-007 0 1 0" />
+    <Entity mesh="furni/10130006.mesh" pos="-226.825 -0.000732422 36.2405" />
+</EQScene>

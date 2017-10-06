@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="NewEQHomeLook/NewFrameWindow" Name="OtherPlayerProperty" >
+        <Property Name="Font" Value="simsun-10" />
+        <Property Name="Text" Value="个人形象" />
+        <Property Name="TitlebarFont" Value="simsun-11" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,132},{0,45},{0,495},{0,333}}" />
+        <Property Name="EWSizingCursorImage" Value="" />
+        <Property Name="NSSizingCursorImage" Value="" />
+        <Property Name="NESWSizingCursorImage" Value="" />
+        <Property Name="NWSESizingCursorImage" Value="" />
+        <Window Type="NewEQHomeLook/NewTabControl1" Name="OtherPlayerProperty/PropertyTabCtrl" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="TabHeight" Value="{0,21}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,29},{1,-10},{1,-8}}" />
+            <Window Type="DefaultWindow" Name="OtherPlayerProperty/PropertyTabCtrl/Property" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="个人形象" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.000699301,0},{0.00542373,0},{1.0007,0},{1.00541,0}}" />
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Slot1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage28" />
+                    <Property Name="Tooltip" Value="帽子" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,1},{0,49},{0,41}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Slot3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage30" />
+                    <Property Name="Tooltip" Value="眼镜" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,41},{0,49},{0,81}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Slot5" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage32" />
+                    <Property Name="Tooltip" Value="披风" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,81},{0,49},{0,121}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Slot7" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage34" />
+                    <Property Name="Tooltip" Value="手持" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,121},{0,49},{0,161}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Slot9" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,161},{0,49},{0,201}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Slot2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage29" />
+                    <Property Name="Tooltip" Value="上衣" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,65},{0,1},{0.25,105},{0,41}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Slot4" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage31" />
+                    <Property Name="Tooltip" Value="裤子" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,65},{0,41},{0.25,105},{0,81}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Slot6" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage33" />
+                    <Property Name="Tooltip" Value="鞋子" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,65},{0,81},{0.25,105},{0,121}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Slot8" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage35" />
+                    <Property Name="Tooltip" Value="饰品" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,65},{0,121},{0.25,105},{0,161}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticImage3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Slot10" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,65},{0,161},{0.25,105},{0,201}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtrl/Property/PlayerShow" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,51},{0.00678428,0},{0,147},{0,220}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/qingjieduTxt" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="人物清洁：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,10},{0,259},{0,25}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtrl/Property/QJDPro1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,200},{0,26},{0,329},{0,45}}" />
+                    <Window Type="NewEQHomeLook/NewSlider" Name="OtherPlayerProperty/PropertyTabCtrl/Property/QJDPro" >
+                        <Property Name="Font" Value="simsun-10" />
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,0},{1,-5},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/jiankangduTXT" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="人物健康：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,45},{0,259},{0,60}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/MLZTXT" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="人物魅力：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,78},{0,259},{0,93}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/fwqjdtxt" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="房屋清洁：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,112},{0,259},{0,127}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/hyztxt" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="活力值：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,145},{0,259},{0,160}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtrl/Property/JKZ1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,200},{0,61},{0,329},{0,80}}" />
+                    <Window Type="NewEQHomeLook/NewSlider1" Name="OtherPlayerProperty/PropertyTabCtrl/Property/JKZ" >
+                        <Property Name="Font" Value="simsun-10" />
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,0},{1,-5},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtrl/Property/MLZ1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,200},{0,92},{0,329},{0,111}}" />
+                    <Window Type="NewEQHomeLook/NewSlider2" Name="OtherPlayerProperty/PropertyTabCtrl/Property/MLZ" >
+                        <Property Name="Font" Value="simsun-10" />
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,0},{1,-5},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtrl/Property/FWQJD1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,200},{0,127},{0,329},{0,146}}" />
+                    <Window Type="NewEQHomeLook/NewSlider3" Name="OtherPlayerProperty/PropertyTabCtrl/Property/FWQJD" >
+                        <Property Name="Font" Value="simsun-10" />
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,0},{1,-5},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtrl/Property/hyz1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Image" Value="set:Button6 image:NewImage1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,200},{0,160},{0,329},{0,179}}" />
+                    <Window Type="NewEQHomeLook/NewSlider4" Name="OtherPlayerProperty/PropertyTabCtrl/Property/hyz" >
+                        <Property Name="Font" Value="simsun-10" />
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{-0.00135686,0},{1,-5},{0.998643,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtrl/Property/ZHUANGTAI" >
+                    <Property Name="Image" Value="set:Button5 image:NewImage18" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,241},{0,179},{0,322},{0,203}}" />
+                    <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtrl/Property/zhuangtaiT" >
+                        <Property Name="Image" Value="set:Button6 image:NewImage81" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,8},{0,2},{0,38},{0,19}}" />
+                    </Window>
+                    <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/zhuangtaiTXT" >
+                        <Property Name="Font" Value="simsun-10" />
+                        <Property Name="Text" Value="健康" />
+                        <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{1,-37},{-0.00135318,2},{1,-8},{1,-5}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/ZHUANGTAITXT" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="状态：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,199},{0,179},{0,234},{0,197}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/shuzhi1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,265},{0,13},{0,341},{0,28}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/shuzhi2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,265},{0,46},{0,341},{0,61}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/shuzhi3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,265},{0,80},{0,341},{0,95}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/shuzhi4" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,265},{0,116},{0,341},{0,131}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/Property/shuzhi5" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,265},{0,152},{0,341},{0,167}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Btn_TurnRight" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="HoverImage" Value="set:chuangjian image:NewImage29" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="NormalImage" Value="set:chuangjian image:NewImage28" />
+                    <Property Name="PushedImage" Value="set:chuangjian image:NewImage32" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,24},{0,203},{0,45},{0,225}}" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewCheckbox" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Checkbox" >
+                    <Property Name="Text" Value="选择预览" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="HoverTextColour" Value="FF00FFFC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,198},{0,201},{0,283},{0,221}}" />
+                    <Property Name="NormalTextColour" Value="FF00FFFC" />
+                    <Property Name="PushedTextColour" Value="FF00FFFC" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="OtherPlayerProperty/PropertyTabCtrl/Property/Btn_TurnLeft" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="HoverImage" Value="set:chuangjian image:NewImage31" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="NormalImage" Value="set:chuangjian image:NewImage30" />
+                    <Property Name="PushedImage" Value="set:chuangjian image:NewImage33" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,134},{0,204},{0.05,155},{0,226}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo" >
+                <Property Name="Text" Value="常规资料" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.000699301,0},{0.00678058,0},{1.0007,0},{1.00677,0}}" />
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="全名：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,7},{0,12},{0,41},{0,28}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="昵称：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,184},{0,12},{0,218},{0,28}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/2" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="生日：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,7},{0,36},{0,41},{0,52}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/3" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="电话：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,184},{0,36},{0,218},{0,52}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/4" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="个性签名：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,7},{0,90},{0,69},{0,104}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/41" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="个人说明：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,7},{0,150},{0,69},{0,166}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/level" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,42},{0,60},{0,142},{0,85}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/31" >
+                    <Property Name="Text" Value="等级：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,7},{0,62},{0,41},{0,78}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/51" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,223},{0,7},{0,323},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/52" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,42},{0,35},{0,142},{0,60}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/54" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,223},{0,35},{0,323},{0,60}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText2" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/55" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,6},{0,106},{0,332},{0,148}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText2" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/551" >
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,6},{0,167},{0,332},{0,227}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="NewEQHomeLook/NewStaticText1" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/5" >
+                    <Property Name="Text" Value="渽" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,42},{0,7},{0,142},{0,32}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/53" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,231},{0,35},{0,343},{0,56}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="OtherPlayerProperty/PropertyTabCtrl/DetailedInfo" >
+                <Property Name="Text" Value="详细资料" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.000699301,0},{0.00678058,0},{1.0007,0},{1.00677,0}}" />
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/42" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="姓名：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0272891,0},{0.026858,-1},{0.169569,0},{0.140168,-1}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/421" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="生日：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0272891,0},{0.110431,0},{0.169569,0},{0.223741,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/422" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="生肖：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0285459,0},{0.18681,0},{0.170826,0},{0.30012,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/423" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="星座：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0272891,0},{0.260791,0},{0.169569,0},{0.378897,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/424" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="血型：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0272891,0},{0.353956,0},{0.169569,0},{0.467266,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/425" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="民族：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0272891,0},{0.432734,0},{0.169569,0},{0.541247,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/426" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="身高：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.503231,0},{0.0270977,0},{0.645511,0},{0.140408,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/427" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="体重：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.503231,0},{0.110671,0},{0.645511,0},{0.223981,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/428" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="职业：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.503231,0},{0.19904,0},{0.645511,0},{0.31235,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/429" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="月薪：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.503231,0},{0.277817,0},{0.645511,0},{0.391128,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/4210" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="教育程度：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.503231,0},{0.356595,0},{0.69219,0},{0.469905,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/4211" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="婚姻状况：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.503231,0},{0.43777,0},{0.697576,0},{0.55108,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/4212" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="兴趣爱好：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0272891,0},{0.569304,0},{0.314991,0},{0.682614,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="OtherPlayerProperty/PropertyTabCtrl/ContactInfo" >
+                <Property Name="Font" Value="simsun-10" />
+                <Property Name="Text" Value="通讯资料" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.000699301,0},{0.00678058,0},{1.0007,0},{1.00677,0}}" />
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/4213" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="基本通讯" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.408862,0},{0.0197836,0},{0.603206,0},{0.133094,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/4214" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="国家：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0291742,0},{0.114032,0},{0.171454,0},{0.227341,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/4215" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="省份：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0291742,0},{0.209162,0},{0.171455,0},{0.322471,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/4216" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="城市：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0291742,0},{0.297166,0},{0.171453,0},{0.410476,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/4217" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="个人主页：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0291742,0},{0.387546,0},{0.230701,0},{0.500856,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/42171" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="详细通讯" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.408862,0},{0.487427,0},{0.610388,0},{0.600737,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/42172" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="电子邮箱：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0291742,0},{0.568306,0},{0.2307,0},{0.681616,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/42173" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="联系电话：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0291742,0},{0.64681,0},{0.230701,0},{0.76012,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/42174" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="手机号码：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0291742,0},{0.720563,0},{0.230701,0},{0.833873,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/42175" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="联系地址：" />
+                    <Property Name="TextColours" Value="tl:FF00FFFC tr:FF00FFFC bl:FF00FFFC br:FF00FFFC" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0291742,0},{0.794316,0},{0.230701,0},{0.907626,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtr/ContactInfo/partition1" >
+                    <Property Name="Text" Value="囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧" />
+                    <Property Name="Image" Value="set:Button5 image:NewImage341" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,16},{0,135},{0,19}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtr/ContactInfo/partition2" >
+                    <Property Name="Text" Value="囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧" />
+                    <Property Name="Image" Value="set:Button5 image:NewImage341" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,196},{0,16},{0,334},{0,19}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtr/ContactInfo/partition3" >
+                    <Property Name="Text" Value="囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧" />
+                    <Property Name="Image" Value="set:Button5 image:NewImage341" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,123},{0,135},{0,126}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticImage" Name="OtherPlayerProperty/PropertyTabCtr/ContactInfo/partition4" >
+                    <Property Name="Text" Value="囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧囧" />
+                    <Property Name="Image" Value="set:Button5 image:NewImage341" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,196},{0,123},{0,334},{0,126}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="EQHomeLook/StaticText" Name="OtherPlayerProperty/PropertyTabCtrl/BasicInfo/56" >
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3,42},{0.3,3},{0.3,154},{0.3,19}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

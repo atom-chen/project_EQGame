@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="EQHomeLook/FrameWindow" Name="FarmRecord" >
+        <Property Name="Font" Value="simsun-10" />
+        <Property Name="Text" Value="庄园日志" />
+        <Property Name="TitlebarFont" Value="simsun-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,17},{0,18},{0,389},{0,279}}" />
+        <Window Type="EQHomeLook/TabControl" Name="FarmRecord/Tabcontrol" >
+            <Property Name="Font" Value="simsun-10" />
+            <Property Name="TabHeight" Value="{0,15.92}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,6},{0,27},{0,367},{0,252}}" />
+            <Window Type="DefaultWindow" Name="FarmRecord/Tabcontrol/Tab 1" >
+                <Property Name="Text" Value="历史访问记录" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="EQHomeLook/StaticText" Name="FarmRecord/Tabcontrol/Tab 1/Txt" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,356},{0,181}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="FarmRecord/Tabcontrol/Tab 1/PageUp" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="HoverImage" Value="set:common1 image:ImageButton8_Normal" />
+                    <Property Name="NormalImage" Value="set:common1 image:ImageButton8_Normal" />
+                    <Property Name="PushedImage" Value="set:common1 image:ImageButton8_Normal" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,260},{1,-24},{0,274},{1,-8}}" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="FarmRecord/Tabcontrol/Tab 1/PageUp1" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="HoverImage" Value="set:common1 image:ImageButton9_Normal" />
+                    <Property Name="NormalImage" Value="set:common1 image:ImageButton9_Normal" />
+                    <Property Name="PushedImage" Value="set:common1 image:ImageButton9_Normal" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,309},{1,-24},{0.05,323},{1,-8}}" />
+                </Window>
+                <Window Type="EQHomeLook/StaticText" Name="FarmRecord/Tabcontrol/Tab 1/PageNum" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="1/1" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,276},{1,-24},{0,325},{1,-8}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="EQHomeLook/ImageButton" Name="FarmRecord/Tabcontrol/Tab 1/ClearRecords" >
+                    <Property Name="Font" Value="simsun-10" />
+                    <Property Name="Text" Value="清空记录" />
+                    <Property Name="HoverImage" Value="set:common1 image:ImageButton5_Normal" />
+                    <Property Name="NormalImage" Value="set:common1 image:ImageButton5_Normal" />
+                    <Property Name="PushedImage" Value="set:common1 image:ImageButton5_Normal" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,14},{0,186},{0,91},{0,203}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="FarmRecord/Tabcontrol/Tab 2" >
+                <Property Name="Text" Value="状态历史记录" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="FarmRecord/Tabcontrol/Tab 3" >
+                <Property Name="Text" Value="收成历史记录" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="FarmRecord/Tabcontrol/Tab 4" >
+                <Property Name="Text" Value="消费历史记录" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

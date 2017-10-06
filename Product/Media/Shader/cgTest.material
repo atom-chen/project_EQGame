@@ -1,0 +1,18 @@
+material cartoonShader_01
+{
+	technique
+	{
+		pass
+		{
+			//depth_write off
+			cull_hardware anticlockwise
+			vertex_program_ref testHlsl
+			{
+				param_named_auto worldViewproj worldviewproj_matrix
+				param_named 	colour float4 1 1 0.2 1
+				param_named 	lineWidth float 3.5
+			}
+			
+		}
+	}
+}
